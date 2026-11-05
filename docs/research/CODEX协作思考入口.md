@@ -30,7 +30,7 @@
 
 本仓库：
 
-- 项目主页：[fulanya55/longtail](https://github.com/fulanya55/longtail)
+- 项目主页：[lihunter93111-lang/longtail](https://github.com/lihunter93111-lang/longtail)；历史版本：[fulanya55/longtail](https://github.com/fulanya55/longtail)
 - 代码入口：[projects/CJ_Imbalance_0716](../../projects/CJ_Imbalance_0716)
 - 路线 B：[projects/CJ_Inbalance_0724](../../projects/CJ_Inbalance_0724)
 - 数据说明：[data/README.md](../../data/README.md)
@@ -80,7 +80,7 @@ BCE + ordinary sampling + F1 calibration
 
 这是开发证据，不是独立最终锁定测试冠军。anti-alias 的一次性九功率 locked-test exact 为 `0.382099` 对 `0.376455`，数据、预算和集成方式不同，不能与 v3 直接排名。
 
-结果入口：[当前最佳与最新试验结果说明.md](../../当前最佳与最新试验结果说明.md)。
+结果入口：[当前最佳与最新试验结果说明.md](./当前最佳与最新试验结果说明.md)。
 
 ## 5. 已有结果给出的限制
 
@@ -90,7 +90,7 @@ BCE + ordinary sampling + F1 calibration
 - 冻结 logits 的四因素 Shapley 联合 oracle 只解释约 47.8% 的 exact 损失，主要指定错误包括 ISRJ/SawFM/MFT 漏检和 FMB 误报；oracle 是诊断上界，不是模型实测增益。
 - 许多低功率改进未通过严格对照，不能把不可观测问题误写成网络问题。
 
-历史总审计：[复合干扰路线 A/B 总审计](../../复合干扰路线A_B全部尝试专业Prompt与总审计报告_20260806.md)。
+历史总审计：[复合干扰路线 A/B 总审计](./复合干扰路线A_B全部尝试专业Prompt与总审计报告_20260806.md)。
 
 ## 6. 文献库得到的长尾方法框架
 
@@ -103,7 +103,7 @@ BCE + ordinary sampling + F1 calibration
 5. **困难样本与伪标签**：one-bit hard negatives、低功率边界、一致性训练、置信度伪标签和 teacher-student；必须记录伪标签覆盖率与精度。
 6. **GCD/开集/持续学习**：先识别已知成分，再在已知成分条件化 residual 上发现未知成分；未知簇必须有稳定性、纯度、误晋升率、重复建类和回滚指标。
 
-详细建议：[长尾方法综述与试验建议.md](../../长尾方法综述与试验建议.md)。
+详细建议：[长尾方法综述与试验建议.md](./长尾方法综述与试验建议.md)。
 
 ## 7. 推荐的下一阶段实验
 
@@ -154,4 +154,4 @@ F1 calibration
 
 不要把 development、diagnostic、pilot 和 locked-test 混成一个分数。不要把代理未知、未见组合和真实未知物理成分混写。不要把 oracle、Shapley、后验修正或 JNR-only 结果写成完整分类模型已经通过。所有新结论都应附数据版本、身份规则、随机种子、阈值来源、checkpoint、指标和失败分支。
 
-文献正式引用以 PDF 原文页码为准。文献入口：[文献库 README](../../文献库/README.md)，分析入口：[文献深度分析](./按Prompt输出_文献库论文深度分析_20260804.md)，创新审计：[文献综述与创新审计](./开集复合干扰文献综述与创新审计_20260801.md)。
+文献正式引用以 PDF 原文页码为准。文献入口：[文献库说明](./文献库说明.md)，论文 PDF 和抽取全文保留在外部本地文献库；分析入口：[文献深度分析](./按Prompt输出_文献库论文深度分析_20260804.md)，创新审计：[文献综述与创新审计](./开集复合干扰文献综述与创新审计_20260801.md)。
