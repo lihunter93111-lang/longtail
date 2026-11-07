@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-11-06T02:14:32.518884+00:00",
+  "git_commit": "552f762232e050d028be38e913104d5263ebf5ab",
+  "git_diff": "?? experiment-log/2026-11-06-01-lt-abc/generate_lt_abc_candidates.m\n?? experiment-log/2026-11-06-01-lt-abc/run_lt_abc.py\n?? modelscope_verify_final/\n?? \"\\351\\225\\277\\345\\260\\276\\346\\226\\271\\346\\263\\225\\347\\273\\274\\350\\277\\260\\344\\270\\216\\350\\257\\225\\351\\252\\214\\345\\273\\272\\350\\256\\256.docx\"\n?? \"\\351\\241\\271\\347\\233\\256\\344\\272\\244\\346\\216\\245\\350\\257\\264\\346\\230\\216_\\351\\225\\277\\345\\260\\276\\345\\244\\215\\345\\220\\210\\345\\271\\262\\346\\211\\260\\350\\257\\206\\345\\210\\253.docx\"\n",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\anaconda3\\envs\\PY10\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "numpy": "1.23.5",
+  "scipy": "1.10.1",
+  "sklearn": "1.2.2",
+  "h5py": "3.10.0",
+  "init_path": "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth",
+  "init_sha256": "4390ae3cf88c0ac023e399d2bfe6f8357093ef8d23c73fda9c7f4bc78a47e190",
+  "protocol_sha256": "e56b4e8f23eddb3735ffa74d3ee055689b28f618ce4b191e45eb50cca9c955e0",
+  "script_sha256": "22f9c914761580724d55a789ab62feeb2b7066fa7bcb3e527bb253482f209aa8",
+  "command": [
+    "experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py",
+    "--stage",
+    "smoke",
+    "--output",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\smoke",
+    "--init",
+    "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth"
+  ],
+  "locked_test_used": false,
+  "smoke": {
+    "batch_loss": 0.941522554989827,
+    "shape": [
+      2,
+      6
+    ],
+    "exact_toy": 0.5,
+    "passed": true
+  }
+}

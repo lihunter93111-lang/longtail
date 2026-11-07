@@ -1,0 +1,17 @@
+{
+  "all_runs_completed": 12,
+  "epochs_verified": 480,
+  "metric_rows_verified": 24,
+  "source_hashes_verified": true,
+  "checkpoint_hashes_verified": true,
+  "paired_initialization_and_orders_verified": true,
+  "independent_BCE_recomputation_max_tolerance": 1e-12,
+  "screen_scope": "reused development",
+  "confirmation_executed": false,
+  "failure_receipts": [
+    "failure_1793953276134680100.json"
+  ],
+  "recovery_receipts": [
+    "io_recovery_1793953359622668000.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "training_curves.png": "51cebd2204d9a9313038a9192b36e99c3dbad3b01af44e91c74aeb4cb1d05042",
+  "bce_comparison.png": "7c2afe2a0992d6e3d5c7dd1e426f52711b507e840573dcd5b86c774183bcf291",
+  "summary.csv": "3ed1c1c9152cc1189dc401a74b7e8ca8f40c1dd15cf4045afe347a7596eb8712",
+  "results.txt": "4b8cf959828771ee5aaf467708a2ad5c0f315be070ee6886531aa757046e6db8",
+  "decision.json": "d8c8d154ea646135cf7e903c30f689a95f919f90344640beeee86648a4b9440a",
+  "evaluation_metrics.csv": "d0f26fbcfb0f3917ffbda1eefc9194f75e67c545d2a67d6423b40797bd5a80f5",
+  "evaluation_labels.csv": "20327746a879cf10756d74e46a33dda5306bf042ad646822ccade08af46c12fd",
+  "evaluation_combinations.csv": "7a5a53fed6cad3f23e3d574715b8be943ed5bf1d6db6394f28a925c4100569f1",
+  "freeze.json": "05720ee9caf0a20137c2622dd87fd84ea14b1a27ccd9c3e7322b125409f1b267",
+  "protocol.json": "2a64736a4a760293bbb6699980511eac0fdee6651b92e376ccd867e7dd220898"
+}

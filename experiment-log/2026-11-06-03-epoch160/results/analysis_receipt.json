@@ -1,0 +1,14 @@
+{
+  "script_sha256": "90e34eab365d4b84f80e4d5bb8d94f6627ce438b0409e7b71046bb2b32ac8ecb",
+  "epochs_per_seed": [
+    160,
+    160,
+    160
+  ],
+  "seeds": [
+    2050,
+    2051,
+    2052
+  ],
+  "source": "Completed measured histories; missing fit eval values retained as null"
+}

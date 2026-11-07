@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "2e7e2c04f972399a5b2b2bc08586a4672847812bd76babbc31cc59e234f9c2e9",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "precision": "FP32 TF32 off",
+  "identity_audit": {
+    "sample_seed": "all roles unique and disjoint",
+    "receiver_noise_seed": "all roles unique and disjoint"
+  },
+  "selfcheck": {
+    "passed": true,
+    "smoke_loss": 0.6267712116241455,
+    "parameters": 257511
+  },
+  "command": [
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py",
+    "--source",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data",
+    "--output",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\run",
+    "--preflight-only"
+  ]
+}

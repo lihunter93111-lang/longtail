@@ -1,0 +1,27 @@
+{
+  "source_run": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01",
+  "previous_run": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_epoch_diag_01",
+  "seeds": [
+    2050,
+    2051,
+    2052
+  ],
+  "resume_epoch": 150,
+  "target_epoch": 160,
+  "batch": 32,
+  "updates_per_epoch": 250,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "clip_grad_norm": 5,
+  "precision": "FP32; TF32 off",
+  "model": "dfms_iq width16 dropout0.2; all parameters trainable",
+  "selection": "Report validation BCE minimum and earliest AP-tolerance horizon (mean .001; each seed .002)",
+  "script_sha256": "a9a428ae47b8c7f7478f8e75a01da8c00d0c9ef21b249422f9fd1e8d1fc406fc",
+  "previous_script_sha256": "da076d3febd2134b9591ad44ddab16285d6d29d3ac0961e6333de1a05c86a448",
+  "source_manifest_sha256": "aadb04bedfb11b383bbb058b5c195fb0252c685be659dec388d602659e0fafa0",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "calibration_used": false,
+  "development_used": false,
+  "locked_test_used": false
+}

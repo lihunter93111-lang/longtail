@@ -1,0 +1,106 @@
+{
+  "started_utc": "2026-11-06T02:16:59.012106+00:00",
+  "git_commit": "552f762232e050d028be38e913104d5263ebf5ab",
+  "git_diff": "?? experiment-log/2026-11-06-01-lt-abc/generate_lt_abc_candidates.m\n?? experiment-log/2026-11-06-01-lt-abc/run_lt_abc.py\n?? experiment-log/2026-11-06-01-lt-abc/start_local.ps1\n?? modelscope_verify_final/\n?? \"\\351\\225\\277\\345\\260\\276\\346\\226\\271\\346\\263\\225\\347\\273\\274\\350\\277\\260\\344\\270\\216\\350\\257\\225\\351\\252\\214\\345\\273\\272\\350\\256\\256.docx\"\n?? \"\\351\\241\\271\\347\\233\\256\\344\\272\\244\\346\\216\\245\\350\\257\\264\\346\\230\\216_\\351\\225\\277\\345\\260\\276\\345\\244\\215\\345\\220\\210\\345\\271\\262\\346\\211\\260\\350\\257\\206\\345\\210\\253.docx\"\n",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\anaconda3\\envs\\PY10\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "numpy": "1.23.5",
+  "scipy": "1.10.1",
+  "sklearn": "1.2.2",
+  "h5py": "3.10.0",
+  "init_path": "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth",
+  "init_sha256": "4390ae3cf88c0ac023e399d2bfe6f8357093ef8d23c73fda9c7f4bc78a47e190",
+  "protocol_sha256": "e56b4e8f23eddb3735ffa74d3ee055689b28f618ce4b191e45eb50cca9c955e0",
+  "script_sha256": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9",
+  "command": [
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py",
+    "--stage",
+    "pipeline",
+    "--output",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01",
+    "--init",
+    "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth",
+    "--historical-pool",
+    "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+    "--historical-pool",
+    "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat"
+  ],
+  "locked_test_used": false,
+  "smoke": {
+    "batch_loss": 0.941522554989827,
+    "shape": [
+      2,
+      6
+    ],
+    "exact_toy": 0.5,
+    "passed": true
+  },
+  "source_files": {
+    "experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9",
+    "experiment-log\\2026-11-06-01-lt-abc\\generate_lt_abc_candidates.m": "cae6fee7499d421670183964f18e220b16d4ae5c9cffdbb2f5aa6411d1da524a",
+    "experiment-log\\2026-11-06-01-lt-abc\\start_local.ps1": "deb31d5f58c3560f2b4d82a6f256c18fb166207d139c9e5d81c4789faaddcdf2"
+  },
+  "generator_sources": {
+    "data_generation\\0716\\可配置组合干扰数据生成\\build_jamming_registry.m": "8666951340c619748930142f84aebfc10b323d026adeb0f84d4545debb075206",
+    "data_generation\\0716\\可配置组合干扰数据生成\\create_closedset_6class_config.m": "9071b243843d30de34bc554004ed4e99d04447fafd3a517ceb328bea21a554ed",
+    "data_generation\\0716\\可配置组合干扰数据生成\\create_default_config.m": "e2bddca23fb8333c8601adb82e65ce9db219138b270f67b28b45ecc91d7ae27c",
+    "data_generation\\0716\\可配置组合干扰数据生成\\create_power_sweep_6class_config.m": "5b444b3af12c88eb785d2431474a01b66769e2cc0dc0f83be88d20d26441e372",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generate_closedset_6class_power_sweep.m": "1842f64c6f31590b7bc9872e978d5e0559f8ab4ac92dea08474f596a9f658d3b",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generate_closedset_6class_train_test.m": "edc67a0ca381daa3df5583510ce2e1be574fac1005b53181029496cdddf43fcf",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generate_compound_dataset.m": "1fa780da0d444aeb43d35f0a1da23d6fd90a28b1c1f91ee4e1b851cc370243af",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generate_imbalanced_compound_dataset.m": "3be24045ecd35c892435e5377e79074cb7a2682897ceb273dfac1ea872860df3",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generate_openset_compound_dataset.m": "b0aee4dc7f435d61d58b54249530c590117e44594a459979cc97ac6fa74b42cc",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\apply_power_sweep_jnr_profile.m": "699e5fc56e6ed496dee9e47693a336c6ad76624ddceaf7763b2c62fec5d6cbe8",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_balanced_manifest.m": "76acd1ba93bc77880b497402f67c69d0fbbc02a0e591e6eecac210a50a014fe0",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_closedset_manifest.m": "488c4205e50663ebcbadf8d66d5734729b362143560b962eb2554d8f16c61349",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_imbalanced_manifest.m": "36756fe802fb8ac71ea51b7fbec66c4e870e2e24658028d53394d91cef331172",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_openset_manifest.m": "52d177ad20cce1870e2f9f35bf9a03b866c2d43a85cdb22aeae86af733de48ad",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_parameter_schema.m": "dd2dd1b2d4c3d027f749c7bd8ab544a440c6efa517108ecdf1d4297f58ebf362",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\build_reference_signal.m": "f15ec3993bf6c0cd0d810beab5b7f23e264baa12ec292cc6833d48dab3acb823",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\calibrate_component_power.m": "f8597194b945c7cecabe2e55b81c6208238f6029f884b6f463b67516f9a23d5a",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\compose_jamming_sample.m": "6becdb70b268536ea1863b186b4cbb165cc0c9a5571bc5bba50ee61fced08b5e",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\encode_parameter_targets.m": "d86093c914dedcb814e135c8d4ef3d339149cd6361ee2e2f810d383bb537537f",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\generate_dataset_from_manifest.m": "885df48000d093351bd1b14fec26701a22d08435d3b7602879b946b059f1814a",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\generate_single_jamming.m": "f7626415078366df05e41780e471f635278d7e5e8c00e97721f6162b403c5519",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\normalize_and_validate_config.m": "9e2aaeb83b17e5fc2636c7ea8d6c9a9e89f6f81d01207d65bce7d9c1c52db1e3",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\print_dataset_statistics.m": "b1e5ca431a3cb2f53dfa065033f4c4f79fd5c73baae8c3b034800228549daca8",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\run_closedset_splits.m": "229714ec7dba21a3d14949c682f2a3ed7273f4121392afc04f3129127015338c",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\run_power_sweep_levels.m": "272ebfb979e17b94e0637ac86771d5e9ed8fa95169ca2cd7c4e18e17bb21cd11",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\save_dataset_bundle.m": "9bdf65054f5cb477be81af70ce95ccb90116745e112fa6dfdee37d45f44b5bc4",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\validate_generated_dataset.m": "0d971dda89118b967693fb365dcb0d1ba825f849f2e8b191200b54397cc6818f",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\verify_saved_closedset_split.m": "d86f7590a37736295c015700c26c0cbc60264828ba1eadd143e26759fbe7b1ac",
+    "data_generation\\0716\\可配置组合干扰数据生成\\core\\write_power_sweep_manifest.m": "92403c953f7a670c24d3550ac9517ab248341a09edd601d80e57ac66f4e36857",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_ama.m": "a7d60590005914b5defe35a7eceb47cd60669d910faf077fc358896eda6dc44e",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_fmb.m": "4d8edc88cde761880b5ca5bbf4b6805a3385e5e7274aa91ee6c2a66272d34863",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_isrj.m": "8facdc6e784291fcf612640291e5754237880da9051b719d6002ac5e56760794",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_mft.m": "fa68ebedf2ffe34acfe0eb7341bec7c3e4b6b798e018d74b51dfbf07076515cb",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_range_fake_target.m": "2896ae4909ed4db1d11281ca1c87dfdfa31a6fadb8495fb0680e0b486916ef35",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_sawfm.m": "870b726c2b3c1de557acce650f1939cd032de66a467a8e64190463669fc2af43",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_sinfm.m": "52c4675d73cc899d972e8c1b91889677ec356e1f6bb22a1e7f842beba64d076c",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_smart_noise.m": "ac11311bd699fc3da9bbdd3054d1bedd1ec8eb66c6ad6fdcdcfea978e2fa545b",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_traction.m": "1465d82a880c4c186c2530ed53890ac7e0402a925a513f98a37e62f140653d05",
+    "data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_vft.m": "4ba5a666f1d0bc808d7b0a0a6c22d68cb0b18d5e9f96f47065a6def30c4cc787",
+    "data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestConfigAndRegistry.m": "ed56dd08945ced120a6463ce6987055239a68a24b0786f137fb55f2a00f959be",
+    "data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestDatasetGeneration.m": "5488fb773e80b63bae9d3990cbbd909f68ab604e244e99d78f558e3db75799d2",
+    "data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestManifestBuilders.m": "66065cb97fd49bc5729c024ee8a3d83a36cc67dd5e155884eed42c82f917afaf",
+    "data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestSingleJammingGenerators.m": "acc2cdaa81c716f294fba9b6f55016a12c5a46210b65c428158602a150d6c1f7"
+  },
+  "external_files": [
+    {
+      "path": "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth",
+      "bytes": 1936422
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "bytes": 10327708773
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "bytes": 10327399756
+    }
+  ]
+}

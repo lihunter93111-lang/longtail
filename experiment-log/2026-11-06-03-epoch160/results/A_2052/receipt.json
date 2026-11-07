@@ -1,0 +1,31 @@
+{
+  "seed": 2052,
+  "resumed_from_epoch": 150,
+  "completed_epoch": 160,
+  "additional_updates": 2500,
+  "total_updates": 40000,
+  "source_recovery_sha256": "b1281f9ef3d9042a87c7be4817ff505d29b1d4ab9bd297dfcb0d74e1231fba1d",
+  "output_recovery_sha256": "2d9132b3f01fef9200dff06db2a546be034cd6134ab8bb331170a4992bdaf8a7",
+  "restored_validation_BCE_absolute_difference": 0.0,
+  "restored_rng_states": [
+    "torch_cpu",
+    "torch_cuda_all",
+    "sample_order"
+  ],
+  "additional_order_sha256": [
+    "6165e1cb5335d1c3a9a63aad7a31b7adf438cbdb33845cde4fcd67f20599d6a1",
+    "5f54ad90b21541d375893da84387ce8d903dc2811471f6036b4e338069a875a3",
+    "e0cb9f593fb7d31f0fdec52495c7c285498c034c8ca19cf4383bf35f5d11338f",
+    "910397f5059ae2af7ba0abfaa93ba8de51305f41f15c292b32e89d59462991f2",
+    "9926936d0280ca5e21c32830ca42792a0cafebd00889e8e323d9c3da0d6d292a",
+    "eacdc88c4cd5d1368c42a4a3b740acefa3e86ac6883d57ddf37fb19df24233fd",
+    "7de651e0b910620caecf6367bcfbc194d311ded144b4c959c438f7ba614d9e44",
+    "9cc581479c74c918f8f103a680a4dae66d1b89f9f38a53920b4a51df16969417",
+    "75e910bbcf6f096e0ed414ba8adccfb70017e83846ce441363f0113c47735f01",
+    "5dc73227b56543b597b85d0bc196ecf106d3e2f7e03ec2c9b6d923c14eb17824"
+  ],
+  "elapsed_seconds": 51.059876918792725,
+  "calibration_used": false,
+  "development_used": false,
+  "locked_test_used": false
+}

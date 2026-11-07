@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "2a64736a4a760293bbb6699980511eac0fdee6651b92e376ccd867e7dd220898",
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "precision": "FP32 TF32 off",
+  "identity_audit": {
+    "sample_seed": "all roles unique and disjoint",
+    "receiver_noise_seed": "all roles unique and disjoint"
+  },
+  "selfcheck": {
+    "passed": true,
+    "smoke_loss": 0.6267712116241455,
+    "parameters": 257511
+  },
+  "command": [
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-06-04-validation-bce-goal\\run_bce_goal.py",
+    "--source",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01",
+    "--output",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\validation_bce_v1\\screen_20261106_01",
+    "--preflight-only"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "phase": "confirm",
+  "comparisons": {
+    "B_raw_vs_A_raw": {
+      "candidate_BCE": 0.15139001424938262,
+      "reference_BCE": 0.158008878313073,
+      "relative_reduction": 0.041889190875565974,
+      "paired_BCE_gain": [
+        0.0029056090297629455,
+        0.008171781505990322,
+        0.01032904539223825,
+        0.013356326748790115,
+        -0.0016684423583297747
+      ],
+      "mean_BCE_gain": 0.006618864063690372,
+      "sd_BCE_gain": 0.006000793951342186,
+      "identity_bootstrap95_BCE_gain": [
+        0.005226770452910425,
+        0.008044615573957496
+      ],
+      "seed_t95_BCE_gain": [
+        -0.0008321057463301449,
+        0.014069833873710889
+      ],
+      "metric_differences": {
+        "BCE": -0.006618864063690372,
+        "Brier": -0.001887859634826987,
+        "ECE": -0.0028418560981713172,
+        "macro_AP": 0.0010967009847093756,
+        "fixed05_exact": 0.011309523809523814,
+        "f1_exact": 0.010763888888888929,
+        "macro_F1": 0.002210003943564276,
+        "tail_exact": 0.011778846153846122,
+        "label_error_rate": -0.002405753968253968,
+        "confident_wrong_fraction": -0.000496031746031746,
+        "confident_wrong_loss_share": -0.016280386290295056,
+        "FMB_FPR": 0.00463709677419355
+      },
+      "checks": {
+        "relative_BCE_reduction": true,
+        "positive_seeds": true,
+        "macro_AP": true,
+        "f1_exact": true,
+        "tail_exact": true,
+        "identity_CI_excludes_zero": true,
+        "FMB_FPR": true
+      },
+      "passes": true
+    },
+    "W_raw_vs_B_raw": {
+      "candidate_BCE": 0.13819943563846177,
+      "reference_BCE": 0.15139001424938262,
+      "relative_reduction": 0.08712977983602144,
+      "paired_BCE_gain": [
+        0.010922204802756963,
+        0.012838281162004611,
+        0.012214249214757916,
+        0.01680157724548606,
+        0.013176580629598644
+      ],
+      "mean_BCE_gain": 0.01319057861092084,
+      "sd_BCE_gain": 0.0021944452259171116,
+      "identity_bootstrap95_BCE_gain": [
+        0.011515366700658253,
+        0.014870659348388394
+      ],
+      "seed_t95_BCE_gain": [
+        0.010465814977869432,
+        0.015915342243972248
+      ],
+      "metric_differences": {
+        "BCE": -0.01319057861092084,
+        "Brier": -0.003981661106509836,
+        "ECE": -0.0021507560330943703,
+        "macro_AP": 0.0025824723442583906,
+        "fixed05_exact": 0.020833333333333304,
+        "f1_exact": 0.02023809523809521,
+        "macro_F1": 0.004998296828657689,
+        "tail_exact": 0.00528846153846152,
+        "label_error_rate": -0.005042989417989416,
+        "confident_wrong_fraction": -0.000496031746031746,
+        "confident_wrong_loss_share": -0.014502579412995611,
+        "FMB_FPR": 0.005443548387096774
+      },
+      "checks": {
+        "relative_BCE_reduction": true,
+        "positive_seeds": true,
+        "macro_AP": true,
+        "f1_exact": true,
+        "tail_exact": true,
+        "identity_CI_excludes_zero": true,
+        "FMB_FPR": true,
+        "natural_weak_target_relative_FNR_reduction_ge5pct": true,
+        "paired_gap10_target_FNR_noninferior": true
+      },
+      "passes": true,
+      "natural_weak_target_FNR": {
+        "A": 0.3985845718329795,
+        "B": 0.3862703467799009,
+        "W": 0.356970983722576
+      },
+      "paired_gap10_target_FNR": {
+        "A": 0.12169503802969939,
+        "B": 0.11568272365085115,
+        "W": 0.08170952553422674
+      }
+    }
+  },
+  "selected_training_candidate": "W",
+  "paired_weak_checks_pending": false,
+  "evidence_role": "fresh identity confirmation; three arms jointly frozen",
+  "locked_test_used": false,
+  "confirmation_consumed": true,
+  "status": "completed"
+}

@@ -1,0 +1,533 @@
+{
+  "selected_max_epochs_AP": 20,
+  "mean_validation_BCE_min_epoch": 21,
+  "mean_validation_BCE_min": 0.1651558776696523,
+  "criterion": "Earliest horizon10:10:160 with mean best-AP gap<=.001 and every seed gap<=.002 relative to160",
+  "per_seed": [
+    {
+      "seed": 2050,
+      "min_validation_BCE_epoch": 23,
+      "min_validation_BCE": 0.16495533287525177,
+      "best_AP_epoch_within_budget": 19,
+      "best_AP_epoch_within160": 27
+    },
+    {
+      "seed": 2051,
+      "min_validation_BCE_epoch": 33,
+      "min_validation_BCE": 0.15830250084400177,
+      "best_AP_epoch_within_budget": 18,
+      "best_AP_epoch_within160": 35
+    },
+    {
+      "seed": 2052,
+      "min_validation_BCE_epoch": 21,
+      "min_validation_BCE": 0.156548410654068,
+      "best_AP_epoch_within_budget": 17,
+      "best_AP_epoch_within160": 154
+    }
+  ],
+  "summary_checkpoints": [
+    {
+      "epoch": 8,
+      "train_BCE_mean": 0.21189851852258046,
+      "train_BCE_sd": 0.0005945943003832716,
+      "early_stop_BCE_mean": 0.2375683138767878,
+      "early_stop_BCE_sd": 0.00840042443417528,
+      "early_stop_macro_AP_mean": 0.9764976536551088,
+      "early_stop_macro_AP_sd": 0.0019974372707614527,
+      "fit_eval_BCE_mean": null,
+      "fit_eval_BCE_sd": null,
+      "best_so_far_AP_mean": 0.9765793949379168
+    },
+    {
+      "epoch": 10,
+      "train_BCE_mean": 0.18700399839878082,
+      "train_BCE_sd": 0.0016264788553557034,
+      "early_stop_BCE_mean": 0.2095783551534017,
+      "early_stop_BCE_sd": 0.009179144620380867,
+      "early_stop_macro_AP_mean": 0.9806821848948603,
+      "early_stop_macro_AP_sd": 0.0011688059613606276,
+      "fit_eval_BCE_mean": 0.1436238239208857,
+      "fit_eval_BCE_sd": 0.0002727602434026823,
+      "best_so_far_AP_mean": 0.9806821848948603
+    },
+    {
+      "epoch": 20,
+      "train_BCE_mean": 0.10961978333195051,
+      "train_BCE_sd": 0.002355853365613377,
+      "early_stop_BCE_mean": 0.17558224002520242,
+      "early_stop_BCE_sd": 0.0030365729857658786,
+      "early_stop_macro_AP_mean": 0.9833319306664237,
+      "early_stop_macro_AP_sd": 0.00014962241332290563,
+      "fit_eval_BCE_mean": 0.07489250351985295,
+      "fit_eval_BCE_sd": 0.0020434218555000477,
+      "best_so_far_AP_mean": 0.9845376516892781
+    },
+    {
+      "epoch": 21,
+      "train_BCE_mean": 0.10320079036553702,
+      "train_BCE_sd": 0.00040006123785506383,
+      "early_stop_BCE_mean": 0.1651558776696523,
+      "early_stop_BCE_sd": 0.007455626592864717,
+      "early_stop_macro_AP_mean": 0.9838736919091461,
+      "early_stop_macro_AP_sd": 0.00148457566785841,
+      "fit_eval_BCE_mean": null,
+      "fit_eval_BCE_sd": null,
+      "best_so_far_AP_mean": 0.9845376516892781
+    },
+    {
+      "epoch": 30,
+      "train_BCE_mean": 0.0656212378963828,
+      "train_BCE_sd": 0.002811477123914708,
+      "early_stop_BCE_mean": 0.17569478352864584,
+      "early_stop_BCE_sd": 0.004035760027143332,
+      "early_stop_macro_AP_mean": 0.9834209938075933,
+      "early_stop_macro_AP_sd": 0.0016112950682508943,
+      "fit_eval_BCE_mean": 0.04078493888179461,
+      "fit_eval_BCE_sd": 0.006447877503194752,
+      "best_so_far_AP_mean": 0.9846549683747972
+    },
+    {
+      "epoch": 50,
+      "train_BCE_mean": 0.028745523149768512,
+      "train_BCE_sd": 0.0004339823160528438,
+      "early_stop_BCE_mean": 0.19960337380568186,
+      "early_stop_BCE_sd": 0.015253681505850707,
+      "early_stop_macro_AP_mean": 0.9828701286991754,
+      "early_stop_macro_AP_sd": 0.002345719996404996,
+      "fit_eval_BCE_mean": 0.009290216180185476,
+      "fit_eval_BCE_sd": 0.00044635446774788176,
+      "best_so_far_AP_mean": 0.9847882641972006
+    },
+    {
+      "epoch": 100,
+      "train_BCE_mean": 0.012124508179180945,
+      "train_BCE_sd": 0.001375866747658462,
+      "early_stop_BCE_mean": 0.27486977477868396,
+      "early_stop_BCE_sd": 0.02557108884403426,
+      "early_stop_macro_AP_mean": 0.9825350173356115,
+      "early_stop_macro_AP_sd": 0.0006616053067203882,
+      "fit_eval_BCE_mean": 0.004404363998522361,
+      "fit_eval_BCE_sd": 0.00010435714041130955,
+      "best_so_far_AP_mean": 0.9847882641972006
+    },
+    {
+      "epoch": 150,
+      "train_BCE_mean": 0.008691698829992675,
+      "train_BCE_sd": 0.0010275844267692534,
+      "early_stop_BCE_mean": 0.3023541172345479,
+      "early_stop_BCE_sd": 0.021807449020902845,
+      "early_stop_macro_AP_mean": 0.982784101029574,
+      "early_stop_macro_AP_sd": 0.0008370930210283606,
+      "fit_eval_BCE_mean": 0.0025177301916604242,
+      "fit_eval_BCE_sd": 0.0017080460439864106,
+      "best_so_far_AP_mean": 0.9848630358153284
+    },
+    {
+      "epoch": 160,
+      "train_BCE_mean": 0.00796848291500161,
+      "train_BCE_sd": 0.0007051279324417697,
+      "early_stop_BCE_mean": 0.309619277715683,
+      "early_stop_BCE_sd": 0.009947795129757341,
+      "early_stop_macro_AP_mean": 0.983098762321709,
+      "early_stop_macro_AP_sd": 0.0001955217187037827,
+      "fit_eval_BCE_mean": 0.002490267545605699,
+      "fit_eval_BCE_sd": 0.001640839290270056,
+      "best_so_far_AP_mean": 0.9849675364815162
+    }
+  ],
+  "capacity_evaluations": [
+    {
+      "seed": 2050,
+      "epoch160": {
+        "fit": {
+          "BCE": 0.0041192639619112015,
+          "macro_AP": 0.9999999366635685,
+          "fixed05_exact": 0.991625,
+          "fixed05_macro_F1": 0.9986101282491142,
+          "per_label_AP": {
+            "FMB": 1.0,
+            "AMA": 1.0,
+            "SawFM": 0.9999996199814112,
+            "SinFM": 1.0,
+            "MFT": 1.0,
+            "ISRJ": 1.0
+          },
+          "per_label_FN": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 0,
+            "SinFM": 0,
+            "MFT": 0,
+            "ISRJ": 0
+          },
+          "per_label_FP": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 2,
+            "SinFM": 0,
+            "MFT": 0,
+            "ISRJ": 65
+          }
+        },
+        "early_stop": {
+          "BCE": 0.3189651072025299,
+          "macro_AP": 0.9829627509020785,
+          "fixed05_exact": 0.6884920634920635,
+          "fixed05_macro_F1": 0.9368962826732522,
+          "per_label_AP": {
+            "FMB": 0.996789660065056,
+            "AMA": 0.9981116157349117,
+            "SawFM": 0.9599183306971019,
+            "SinFM": 0.9884112529254905,
+            "MFT": 0.9756917249735071,
+            "ISRJ": 0.9788539210164047
+          },
+          "per_label_FN": {
+            "FMB": 9,
+            "AMA": 24,
+            "SawFM": 81,
+            "SinFM": 34,
+            "MFT": 46,
+            "ISRJ": 17
+          },
+          "per_label_FP": {
+            "FMB": 22,
+            "AMA": 0,
+            "SawFM": 37,
+            "SinFM": 8,
+            "MFT": 22,
+            "ISRJ": 86
+          }
+        }
+      },
+      "best_AP": {
+        "epoch": 27,
+        "fit": {
+          "BCE": 0.04145294800400734,
+          "macro_AP": 0.9987413600095015,
+          "fixed05_exact": 0.931375,
+          "fixed05_macro_F1": 0.9874368624807937,
+          "per_label_AP": {
+            "FMB": 0.9999993380278771,
+            "AMA": 0.9995740598678047,
+            "SawFM": 0.9944162074578277,
+            "SinFM": 0.9985501150939857,
+            "MFT": 0.9999989720088615,
+            "ISRJ": 0.9999094676006518
+          },
+          "per_label_FN": {
+            "FMB": 0,
+            "AMA": 36,
+            "SawFM": 332,
+            "SinFM": 111,
+            "MFT": 7,
+            "ISRJ": 21
+          },
+          "per_label_FP": {
+            "FMB": 18,
+            "AMA": 0,
+            "SawFM": 21,
+            "SinFM": 6,
+            "MFT": 1,
+            "ISRJ": 7
+          }
+        },
+        "early_stop": {
+          "BCE": 0.17537589371204376,
+          "macro_AP": 0.9840412645236528,
+          "fixed05_exact": 0.6805555555555556,
+          "fixed05_macro_F1": 0.9341154213029136,
+          "per_label_AP": {
+            "FMB": 0.9941822027029377,
+            "AMA": 0.9986577351531499,
+            "SawFM": 0.9592795313856646,
+            "SinFM": 0.9916616082572735,
+            "MFT": 0.9827341495804399,
+            "ISRJ": 0.9777323600624512
+          },
+          "per_label_FN": {
+            "FMB": 10,
+            "AMA": 30,
+            "SawFM": 95,
+            "SinFM": 33,
+            "MFT": 38,
+            "ISRJ": 37
+          },
+          "per_label_FP": {
+            "FMB": 69,
+            "AMA": 1,
+            "SawFM": 18,
+            "SinFM": 6,
+            "MFT": 25,
+            "ISRJ": 35
+          }
+        }
+      }
+    },
+    {
+      "seed": 2051,
+      "epoch160": {
+        "fit": {
+          "BCE": 0.0008378364145755768,
+          "macro_AP": 0.9999999793800208,
+          "fixed05_exact": 0.999125,
+          "fixed05_macro_F1": 0.9998536779762972,
+          "per_label_AP": {
+            "FMB": 1.0,
+            "AMA": 1.0,
+            "SawFM": 0.9999999366635712,
+            "SinFM": 1.0,
+            "MFT": 0.9999999396165531,
+            "ISRJ": 1.0
+          },
+          "per_label_FN": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 5,
+            "SinFM": 0,
+            "MFT": 0,
+            "ISRJ": 0
+          },
+          "per_label_FP": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 0,
+            "SinFM": 0,
+            "MFT": 1,
+            "ISRJ": 1
+          }
+        },
+        "early_stop": {
+          "BCE": 0.31072998046875,
+          "macro_AP": 0.9833228270356941,
+          "fixed05_exact": 0.7123015873015873,
+          "fixed05_macro_F1": 0.9400130178240912,
+          "per_label_AP": {
+            "FMB": 0.9977340541315431,
+            "AMA": 0.99635699900504,
+            "SawFM": 0.9610731220360992,
+            "SinFM": 0.9865197824390594,
+            "MFT": 0.9807679499697727,
+            "ISRJ": 0.9774850546326501
+          },
+          "per_label_FN": {
+            "FMB": 12,
+            "AMA": 18,
+            "SawFM": 94,
+            "SinFM": 50,
+            "MFT": 44,
+            "ISRJ": 32
+          },
+          "per_label_FP": {
+            "FMB": 11,
+            "AMA": 3,
+            "SawFM": 16,
+            "SinFM": 10,
+            "MFT": 27,
+            "ISRJ": 39
+          }
+        }
+      },
+      "best_AP": {
+        "epoch": 35,
+        "fit": {
+          "BCE": 0.018382787704467773,
+          "macro_AP": 0.9998271033891948,
+          "fixed05_exact": 0.983625,
+          "fixed05_macro_F1": 0.9970995033596939,
+          "per_label_AP": {
+            "FMB": 1.0,
+            "AMA": 0.9998597750827874,
+            "SawFM": 0.9995820783286463,
+            "SinFM": 0.9995242155334415,
+            "MFT": 1.0,
+            "ISRJ": 0.9999965513902932
+          },
+          "per_label_FN": {
+            "FMB": 2,
+            "AMA": 7,
+            "SawFM": 41,
+            "SinFM": 51,
+            "MFT": 2,
+            "ISRJ": 4
+          },
+          "per_label_FP": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 12,
+            "SinFM": 12,
+            "MFT": 0,
+            "ISRJ": 1
+          }
+        },
+        "early_stop": {
+          "BCE": 0.16890326142311096,
+          "macro_AP": 0.985325960848248,
+          "fixed05_exact": 0.691468253968254,
+          "fixed05_macro_F1": 0.9391155745568832,
+          "per_label_AP": {
+            "FMB": 0.996480468163061,
+            "AMA": 0.9969642496688684,
+            "SawFM": 0.9670687227679253,
+            "SinFM": 0.9904613727603836,
+            "MFT": 0.9804145739384651,
+            "ISRJ": 0.980566377790784
+          },
+          "per_label_FN": {
+            "FMB": 10,
+            "AMA": 19,
+            "SawFM": 65,
+            "SinFM": 38,
+            "MFT": 55,
+            "ISRJ": 37
+          },
+          "per_label_FP": {
+            "FMB": 27,
+            "AMA": 3,
+            "SawFM": 41,
+            "SinFM": 14,
+            "MFT": 21,
+            "ISRJ": 38
+          }
+        }
+      }
+    },
+    {
+      "seed": 2052,
+      "epoch160": {
+        "fit": {
+          "BCE": 0.0025137022603303194,
+          "macro_AP": 0.9999992949282936,
+          "fixed05_exact": 0.9955,
+          "fixed05_macro_F1": 0.9992549436075633,
+          "per_label_AP": {
+            "FMB": 1.0,
+            "AMA": 1.0,
+            "SawFM": 0.9999992400900994,
+            "SinFM": 0.9999980954217279,
+            "MFT": 1.0,
+            "ISRJ": 0.9999984340579342
+          },
+          "per_label_FN": {
+            "FMB": 2,
+            "AMA": 0,
+            "SawFM": 0,
+            "SinFM": 0,
+            "MFT": 0,
+            "ISRJ": 2
+          },
+          "per_label_FP": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 7,
+            "SinFM": 23,
+            "MFT": 1,
+            "ISRJ": 1
+          }
+        },
+        "early_stop": {
+          "BCE": 0.29916274547576904,
+          "macro_AP": 0.9830107090273547,
+          "fixed05_exact": 0.6944444444444444,
+          "fixed05_macro_F1": 0.9392755878731854,
+          "per_label_AP": {
+            "FMB": 0.9962114169863778,
+            "AMA": 0.9973394122639814,
+            "SawFM": 0.9496287307388191,
+            "SinFM": 0.9893877858638066,
+            "MFT": 0.9855530050662983,
+            "ISRJ": 0.9799439032448448
+          },
+          "per_label_FN": {
+            "FMB": 17,
+            "AMA": 27,
+            "SawFM": 66,
+            "SinFM": 28,
+            "MFT": 33,
+            "ISRJ": 28
+          },
+          "per_label_FP": {
+            "FMB": 6,
+            "AMA": 1,
+            "SawFM": 66,
+            "SinFM": 25,
+            "MFT": 32,
+            "ISRJ": 44
+          }
+        }
+      },
+      "best_AP": {
+        "epoch": 154,
+        "fit": {
+          "BCE": 0.001077180728316307,
+          "macro_AP": 0.999999915778932,
+          "fixed05_exact": 0.998625,
+          "fixed05_macro_F1": 0.9997701264708693,
+          "per_label_AP": {
+            "FMB": 1.0,
+            "AMA": 1.0,
+            "SawFM": 0.9999996834930225,
+            "SinFM": 1.0,
+            "MFT": 1.0,
+            "ISRJ": 0.9999998111805691
+          },
+          "per_label_FN": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 0,
+            "SinFM": 0,
+            "MFT": 1,
+            "ISRJ": 6
+          },
+          "per_label_FP": {
+            "FMB": 0,
+            "AMA": 0,
+            "SawFM": 4,
+            "SinFM": 0,
+            "MFT": 0,
+            "ISRJ": 0
+          }
+        },
+        "early_stop": {
+          "BCE": 0.2692682445049286,
+          "macro_AP": 0.9855353840726478,
+          "fixed05_exact": 0.7271825396825397,
+          "fixed05_macro_F1": 0.9444435809618607,
+          "per_label_AP": {
+            "FMB": 0.9952454372679399,
+            "AMA": 0.9991748939903967,
+            "SawFM": 0.961370880363859,
+            "SinFM": 0.9906955389804348,
+            "MFT": 0.984323557859443,
+            "ISRJ": 0.982401995973813
+          },
+          "per_label_FN": {
+            "FMB": 16,
+            "AMA": 19,
+            "SawFM": 74,
+            "SinFM": 43,
+            "MFT": 35,
+            "ISRJ": 49
+          },
+          "per_label_FP": {
+            "FMB": 18,
+            "AMA": 1,
+            "SawFM": 34,
+            "SinFM": 2,
+            "MFT": 19,
+            "ISRJ": 22
+          }
+        }
+      }
+    }
+  ],
+  "roles_used": [
+    "fit_A",
+    "early_stop"
+  ],
+  "evidence_scope": "Baseline fit and validation diagnosis; architecture sufficiency for generalization requires matched comparisons",
+  "calibration_used": false,
+  "development_used": false,
+  "locked_test_used": false
+}

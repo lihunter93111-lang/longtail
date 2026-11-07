@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "epochs": 160,
+  "selected_max_epochs_AP": 20,
+  "mean_validation_BCE_min_epoch": 21
+}

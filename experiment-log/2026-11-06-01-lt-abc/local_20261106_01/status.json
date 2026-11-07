@@ -1,0 +1,138 @@
+{
+  "status": "screening_complete",
+  "decision": {
+    "B": {
+      "paired_mean_pp": {
+        "overall": 0.5125661375661358,
+        "target": 3.2451923076923053,
+        "all_min": 0.766782407407407,
+        "remaining_min": -0.6340579710144937,
+        "donor": -1.3599537037037088,
+        "common": 0.3205128205128231,
+        "AMA_AP": -0.00651969640480532,
+        "FMB_FPR": -0.7056451612903222,
+        "macro_AP": 0.005831450232296476,
+        "one_bit_error": -0.47123015873015706,
+        "fixed05_exact": -0.8019179894179921,
+        "reference_weighted_exact": 0.21861979166666323,
+        "AMA_recall_fpr05": -0.146484375,
+        "AMA_actual_fpr05": -0.1512096774193547,
+        "macro_F1": 0.07432795193049735
+      },
+      "paired_std_pp": {
+        "overall": 0.6319945388100636,
+        "target": 1.6955211514021495,
+        "all_min": 1.0500721823856518,
+        "remaining_min": 0.876156799010552,
+        "donor": 1.0713835984706968,
+        "common": 1.2335580383285798,
+        "AMA_AP": 0.015549249432395848,
+        "FMB_FPR": 1.4424483892393332,
+        "macro_AP": 0.030756240484988515,
+        "one_bit_error": 0.45462060465831583,
+        "fixed05_exact": 2.694180039489007,
+        "reference_weighted_exact": 0.60101132462295,
+        "AMA_recall_fpr05": 0.29296875,
+        "AMA_actual_fpr05": 0.26190284388642276,
+        "macro_F1": 0.09016190256533585
+      },
+      "positive_seeds": 3,
+      "checks": {
+        "primary_mean": true,
+        "positive_seeds": true,
+        "overall": true,
+        "common": true,
+        "donor": false
+      },
+      "eligible_for_confirmation": false,
+      "maximum_degradation_pp": {
+        "overall": 0.09920634920634885,
+        "target": 1.4423076923076872,
+        "all_min": -0.04340277777777901,
+        "remaining_min": -1.3586956521739135,
+        "donor": -2.256944444444453,
+        "common": -0.7211538461538436,
+        "AMA_AP": -0.02122492049673186,
+        "FMB_FPR": 0.8064516129032264,
+        "macro_AP": -0.029681929098546167,
+        "one_bit_error": -0.07440476190476164,
+        "fixed05_exact": -3.893849206349209,
+        "reference_weighted_exact": -0.3208984375000057,
+        "AMA_recall_fpr05": -0.439453125,
+        "AMA_actual_fpr05": 0.0,
+        "macro_F1": -0.014641423626593486
+      },
+      "identity_bootstrap_primary_95ci_pp": [
+        1.9230769230769231,
+        4.5673076923076925
+      ]
+    },
+    "C": {
+      "paired_mean_pp": {
+        "overall": 0.2645502645502636,
+        "target": 0.5208333333333296,
+        "all_min": 0.752314814814814,
+        "remaining_min": 0.8831521739130451,
+        "donor": 0.9837962962962984,
+        "common": -2.043269230769225,
+        "AMA_AP": 0.02237960643109253,
+        "FMB_FPR": -2.5369623655913975,
+        "macro_AP": 0.02182662844312233,
+        "one_bit_error": 0.2976190476190484,
+        "fixed05_exact": 3.968253968253969,
+        "reference_weighted_exact": -0.8228515624999969,
+        "AMA_recall_fpr05": 0.146484375,
+        "AMA_actual_fpr05": 0.3864247311827958,
+        "macro_F1": 0.1664683414390152
+      },
+      "paired_std_pp": {
+        "overall": 1.556056673582031,
+        "target": 2.6723086771878695,
+        "all_min": 2.0680562065485355,
+        "remaining_min": 2.007240041126925,
+        "donor": 2.4388087390862845,
+        "common": 1.6697649025780987,
+        "AMA_AP": 0.0341431212231002,
+        "FMB_FPR": 2.793781894823061,
+        "macro_AP": 0.046260852984113865,
+        "one_bit_error": 0.9824058690643998,
+        "fixed05_exact": 1.293730293228672,
+        "reference_weighted_exact": 1.4400906380632448,
+        "AMA_recall_fpr05": 0.1760523083722651,
+        "AMA_actual_fpr05": 0.7134030156438894,
+        "macro_F1": 0.4582967574414339
+      },
+      "positive_seeds": 2,
+      "checks": {
+        "primary_mean": false,
+        "positive_seeds": true,
+        "overall": true,
+        "FMB_FPR": true
+      },
+      "eligible_for_confirmation": false,
+      "maximum_degradation_pp": {
+        "overall": -0.7192460317460347,
+        "target": -1.081730769230771,
+        "all_min": -1.215277777777779,
+        "remaining_min": -1.3586956521739135,
+        "donor": -1.5625,
+        "common": -3.9663461538461453,
+        "AMA_AP": -0.013442062787705211,
+        "FMB_FPR": 0.5040322580645157,
+        "macro_AP": -0.03149074893701309,
+        "one_bit_error": 1.165674603174599,
+        "fixed05_exact": 2.504960317460314,
+        "reference_weighted_exact": -2.3734374999999974,
+        "AMA_recall_fpr05": 0.0,
+        "AMA_actual_fpr05": 1.209677419354839,
+        "macro_F1": -0.2501983347371617
+      },
+      "identity_bootstrap_primary_95ci_pp": [
+        0.005638210347315801,
+        0.040327028954987576
+      ]
+    }
+  },
+  "locked_test_used": false,
+  "confirmation_run": false
+}

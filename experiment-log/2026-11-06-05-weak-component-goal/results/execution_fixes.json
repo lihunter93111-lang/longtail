@@ -1,0 +1,23 @@
+[
+  {
+    "stage": "preparation_before_training",
+    "issue": "Windows default GBK decoding failed on prior UTF-8 preflight JSON",
+    "fix": "Explicit UTF-8 reads for all new Python JSON sources",
+    "protocol_changed": false,
+    "time": 1793968650.6185257
+  },
+  {
+    "stage": "pair_generation_before_training",
+    "issue": "Repeated MATLAB matfile row reads caused more than 21 GB I/O before first 500-row progress update",
+    "fix": "Stopped only the task MATLAB process and preloaded original IQ once into available RAM; restarting deterministic pairing from same identities",
+    "protocol_changed": false,
+    "time": 1793969057.9526393
+  },
+  {
+    "stage": "input_preflight_before_training",
+    "issue": "Strided float32 reduction produced normalized-power residual up to 4.83e-6 and failed tight numeric check",
+    "fix": "Materialize contiguous view inputs before the same RMS normalization formula; tight check passed",
+    "protocol_changed": false,
+    "time": 1793969190.9247818
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "selected_max_epochs": 20,
+  "criterion": "mean best-so-far AP gap <= .001 and every seed gap <= .002 versus horizon150; candidates10:10:150",
+  "source_roles": [
+    "fit_A",
+    "early_stop"
+  ],
+  "seeds": [
+    2050,
+    2051,
+    2052
+  ],
+  "per_seed": [
+    {
+      "seed": 2050,
+      "selected_budget_best_epoch": 19,
+      "peak_AP_epoch_150": 27,
+      "min_early_BCE_epoch": 23,
+      "epoch8": {
+        "seed": 2050,
+        "epoch": 8,
+        "train_BCE": 0.21249054974317552,
+        "early_stop_BCE": 0.24546276032924652,
+        "early_stop_macro_AP": 0.9749221270403824,
+        "fit_eval_BCE": null,
+        "early_AP_FMB": 0.9846971481699083,
+        "early_AP_AMA": 0.9970052862043322,
+        "early_AP_SawFM": 0.9474911037637835,
+        "early_AP_SinFM": 0.9752829543772499,
+        "early_AP_MFT": 0.9745798898252375,
+        "early_AP_ISRJ": 0.970476379901783
+      },
+      "selected_horizon": {
+        "seed": 2050,
+        "epoch": 20,
+        "train_BCE": 0.10813989140093327,
+        "early_stop_BCE": 0.17497915029525757,
+        "early_stop_macro_AP": 0.9833697722486416,
+        "fit_eval_BCE": 0.07679199427366257,
+        "early_AP_FMB": 0.992726313055096,
+        "early_AP_AMA": 0.9986183398821635,
+        "early_AP_SawFM": 0.9566048942132199,
+        "early_AP_SinFM": 0.9886385068864323,
+        "early_AP_MFT": 0.983659415291032,
+        "early_AP_ISRJ": 0.9799711641639067
+      },
+      "epoch150": {
+        "seed": 2050,
+        "epoch": 150,
+        "train_BCE": 0.009826112121110783,
+        "early_stop_BCE": 0.3186432421207428,
+        "early_stop_macro_AP": 0.981881426233996,
+        "fit_eval_BCE": 0.004391247872263193,
+        "early_AP_FMB": 0.9974451345126478,
+        "early_AP_AMA": 0.9988119116800762,
+        "early_AP_SawFM": 0.9577760176197706,
+        "early_AP_SinFM": 0.9841124490222678,
+        "early_AP_MFT": 0.9809467217104328,
+        "early_AP_ISRJ": 0.97219632285878
+      },
+      "late130_to150_train_BCE_change": 0.0018185890993336219,
+      "late130_to150_early_BCE_change": -0.0009570419788360596,
+      "late130_to150_AP_change": 0.002185085084592142
+    },
+    {
+      "seed": 2051,
+      "selected_budget_best_epoch": 18,
+      "peak_AP_epoch_150": 35,
+      "min_early_BCE_epoch": 33,
+      "epoch8": {
+        "seed": 2051,
+        "epoch": 8,
+        "train_BCE": 0.211301393866539,
+        "early_stop_BCE": 0.22873996198177338,
+        "early_stop_macro_AP": 0.9787441981542013,
+        "fit_eval_BCE": null,
+        "early_AP_FMB": 0.9904004857140131,
+        "early_AP_AMA": 0.9960459406179825,
+        "early_AP_SawFM": 0.95410713466644,
+        "early_AP_SinFM": 0.9838609610453476,
+        "early_AP_MFT": 0.9765591584824267,
+        "early_AP_ISRJ": 0.9714915083989976
+      },
+      "selected_horizon": {
+        "seed": 2051,
+        "epoch": 20,
+        "train_BCE": 0.1083829933553934,
+        "early_stop_BCE": 0.17887510359287262,
+        "early_stop_macro_AP": 0.983167020568994,
+        "fit_eval_BCE": 0.07515499740839005,
+        "early_AP_FMB": 0.9953820186133487,
+        "early_AP_AMA": 0.9969297509205235,
+        "early_AP_SawFM": 0.9579267326538139,
+        "early_AP_SinFM": 0.9885515854298851,
+        "early_AP_MFT": 0.9788809353677438,
+        "early_AP_ISRJ": 0.981331100428649
+      },
+      "epoch150": {
+        "seed": 2051,
+        "epoch": 150,
+        "train_BCE": 0.00842575555399526,
+        "early_stop_BCE": 0.3108397424221039,
+        "early_stop_macro_AP": 0.9835347850256827,
+        "fit_eval_BCE": 0.0021147034130990505,
+        "early_AP_FMB": 0.998480849209825,
+        "early_AP_AMA": 0.9983660481943307,
+        "early_AP_SawFM": 0.9650268823017184,
+        "early_AP_SinFM": 0.9854248965899545,
+        "early_AP_MFT": 0.9791573149261078,
+        "early_AP_ISRJ": 0.9747527189321601
+      },
+      "late130_to150_train_BCE_change": -0.0006414776381570841,
+      "late130_to150_early_BCE_change": 0.020394444465637207,
+      "late130_to150_AP_change": -0.0003785519336558796
+    },
+    {
+      "seed": 2052,
+      "selected_budget_best_epoch": 17,
+      "peak_AP_epoch_150": 138,
+      "min_early_BCE_epoch": 21,
+      "epoch8": {
+        "seed": 2052,
+        "epoch": 8,
+        "train_BCE": 0.2119036119580269,
+        "early_stop_BCE": 0.23850221931934357,
+        "early_stop_macro_AP": 0.9758266357707422,
+        "fit_eval_BCE": null,
+        "early_AP_FMB": 0.9770026033565318,
+        "early_AP_AMA": 0.9976329949860744,
+        "early_AP_SawFM": 0.9507486534616787,
+        "early_AP_SinFM": 0.9811282086927948,
+        "early_AP_MFT": 0.9765661321961553,
+        "early_AP_ISRJ": 0.9718812219312181
+      },
+      "selected_horizon": {
+        "seed": 2052,
+        "epoch": 20,
+        "train_BCE": 0.11233646523952484,
+        "early_stop_BCE": 0.1728924661874771,
+        "early_stop_macro_AP": 0.9834589991816354,
+        "fit_eval_BCE": 0.07273051887750626,
+        "early_AP_FMB": 0.9928721073817697,
+        "early_AP_AMA": 0.9986280290349874,
+        "early_AP_SawFM": 0.96014590565309,
+        "early_AP_SinFM": 0.9908980260758552,
+        "early_AP_MFT": 0.9824103679548974,
+        "early_AP_ISRJ": 0.9757995589892123
+      },
+      "epoch150": {
+        "seed": 2052,
+        "epoch": 150,
+        "train_BCE": 0.007823228814871982,
+        "early_stop_BCE": 0.2775793671607971,
+        "early_stop_macro_AP": 0.9829360918290431,
+        "fit_eval_BCE": 0.0010472392896190286,
+        "early_AP_FMB": 0.9974729062960778,
+        "early_AP_AMA": 0.9963344019440491,
+        "early_AP_SawFM": 0.9533181064904668,
+        "early_AP_SinFM": 0.9878136973040464,
+        "early_AP_MFT": 0.9843468317979116,
+        "early_AP_ISRJ": 0.9783306071417065
+      },
+      "late130_to150_train_BCE_change": -0.00017663569189608,
+      "late130_to150_early_BCE_change": 0.003028362989425659,
+      "late130_to150_AP_change": -0.0007573628554902179
+    }
+  ],
+  "ceiling_only": false,
+  "evidence_boundary": "A-baseline-only exploratory budget diagnosis; not B/C convergence or new development evidence",
+  "calibration_used": false,
+  "development_used": false,
+  "locked_test_used": false
+}

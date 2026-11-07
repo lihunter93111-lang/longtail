@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "original_artifact_hashes_checked": 206,
+  "paired_metric_rows_recomputed": 420,
+  "maximum_paired_metric_error": 0,
+  "all_five_view_files_effective_power_verified": true,
+  "view_power_domain_dB": [
+    10,
+    30
+  ],
+  "visual_QA": "all three figures inspected; readable and consistent",
+  "training_complete_before_freeze": true,
+  "freeze_precedes_confirmation_access": true
+}

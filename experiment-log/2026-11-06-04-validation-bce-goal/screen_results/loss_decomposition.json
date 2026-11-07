@@ -1,0 +1,30 @@
+{
+  "A": {
+    "error_rate": 0.05749834656084657,
+    "correct_loss_mean": 0.05295297305608221,
+    "wrong_loss_mean": 1.8966802858724134,
+    "correct_loss_contribution": 0.04991547795328411,
+    "wrong_loss_contribution": 0.10921405996194404
+  },
+  "B": {
+    "error_rate": 0.05603780864197531,
+    "correct_loss_mean": 0.05214585331726058,
+    "wrong_loss_mean": 1.847688475436154,
+    "correct_loss_contribution": 0.0492258725204667,
+    "wrong_loss_contribution": 0.10356754555094982
+  },
+  "C": {
+    "error_rate": 0.056561397707231044,
+    "correct_loss_mean": 0.05990023894538484,
+    "wrong_loss_mean": 1.8161847901586992,
+    "correct_loss_contribution": 0.05651190854843846,
+    "wrong_loss_contribution": 0.10270910499874834
+  },
+  "D": {
+    "error_rate": 0.055472883597883604,
+    "correct_loss_mean": 0.0731964271553708,
+    "wrong_loss_mean": 1.6098900841742594,
+    "correct_loss_contribution": 0.06913526183723406,
+    "wrong_loss_contribution": 0.08925595939470016
+  }
+}

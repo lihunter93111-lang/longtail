@@ -1,0 +1,8 @@
+{
+  "curves.csv": "2f888b73afd3aeb8d716e674c7e96764602999a63c35c22fc475bd2068751890",
+  "summary_checkpoints.csv": "bd8ad9de729c54f057fe7918c08e63f4ccabdbd9dc81bf1b8c22f1e81a5c941c",
+  "horizon_selection.csv": "1c0b1419f2da5a84379635770fe2bed17a61eee8b48e437b794cbecf68b9b700",
+  "selection.json": "8ca4ae6ab2762beb1897b26ab80b26358253df413d933b42ddba95c8b07d0a81",
+  "loss_curves_10_160.png": "c02de92b7e2a7bc00509498d1b9333c15b5a70843ba41ed8e55c31556e508d60",
+  "training_loss_10_160.png": "ecf8d33f0a53f3e160e179897b50cad1c365a5341f3836883e281c3f1ff5c18a"
+}

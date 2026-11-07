@@ -1,0 +1,13 @@
+{
+  "change": "Retry PermissionError during JSON atomic replacement; trainer and numerical protocol use their frozen source hashes",
+  "wrapper_sha256": "757632d545bdc518fe6c1408a7451c992f95efb7fc21664dac0ada3c504533f7",
+  "trainer_sha256": "15b6e20b52b4aaf15610d2bf73425863b6ffc858fa727d82b2191837b81961af",
+  "command": [
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-06-04-validation-bce-goal\\run_resilient.py",
+    "--source",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01",
+    "--output",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\validation_bce_v1\\screen_20261106_01"
+  ],
+  "registered_unix_time": 1793953359.622668
+}

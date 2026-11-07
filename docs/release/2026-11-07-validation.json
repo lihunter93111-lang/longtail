@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-07",
+  "source_base_commit": "552f762232e050d028be38e913104d5263ebf5ab",
+  "syntax_and_json": {
+    ".py": 13,
+    ".json": 175
+  },
+  "cli": [
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/run_lt_abc.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/run_epoch_diagnostic.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/run_epoch160.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/run_resilient.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/continue_goal.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/prepare_confirmation.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/prepare_fresh.py",
+      "exit_code": 0
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/run_weak_goal.py",
+      "exit_code": 0
+    }
+  ],
+  "imported_files_verified": 73,
+  "historical_manifests": [
+    {
+      "manifest": "experiment-log\\2026-11-06-02-epoch-diagnostic\\artifact_sha256.json",
+      "files": 8,
+      "mismatches": []
+    },
+    {
+      "manifest": "experiment-log\\2026-11-06-03-epoch160\\results\\artifact_sha256.json",
+      "files": 6,
+      "mismatches": []
+    },
+    {
+      "manifest": "experiment-log\\2026-11-06-05-weak-component-goal\\delivery_sha256.json",
+      "files": 79,
+      "mismatches": []
+    }
+  ],
+  "existing_tests": [
+    {
+      "project": "CJ_Imbalance_0716",
+      "passed": 34,
+      "seconds": 7.78
+    },
+    {
+      "project": "CJ_Inbalance_0724",
+      "passed": 8,
+      "seconds": 4.74
+    }
+  ],
+  "errors": [],
+  "training_executed": false,
+  "matlab_executed": false,
+  "locked_test_read": false,
+  "wrapper_regression_checks": [
+    {
+      "arguments": [
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "arguments": [
+        "-h"
+      ],
+      "exit_code": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "arguments": [],
+      "exit_code": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "arguments": [
+        "--output"
+      ],
+      "exit_code": 2,
+      "expected": 2,
+      "passed": true
+    }
+  ],
+  "resolved_findings": [
+    "run_resilient.py help originally failed before argparse; fixed wrapper output parsing"
+  ],
+  "initial_source_inventory": {
+    "files": 2690,
+    "check_originals": true,
+    "errors": []
+  },
+  "powershell_parser_errors": [],
+  "navigation_links_checked": 37,
+  "delivery_verifier_regressions": [
+    {
+      "case": "valid",
+      "exit_code": 0
+    },
+    {
+      "case": "wrong_hash",
+      "exit_code": 1
+    },
+    {
+      "case": "missing",
+      "exit_code": 1
+    }
+  ],
+  "staged_review": {
+    "files": 255,
+    "binary_or_cache_exclusions_violated": false,
+    "oversized_files": [],
+    "credential_pattern_matches": [],
+    "stage_worktree_mismatches": [],
+    "whitespace_check": "passed with CRLF accepted and original trailing blank lines preserved"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "history_rows": 600,
+  "evaluated_metric_rows": 30,
+  "maximum_metric_recompute_error": 0.0,
+  "matched_initialization_and_epoch_orders": true,
+  "all_8000_identities_once_per_epoch": true,
+  "weak_view_eligible_identities": 4509,
+  "weak_presentations_per_W_run": 90180,
+  "total_presentations_per_run": 320000,
+  "source_hashes_unchanged": true,
+  "calibration_thresholds_recomputed": true,
+  "locked_test_used": false
+}

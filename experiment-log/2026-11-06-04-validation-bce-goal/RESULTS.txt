@@ -1,0 +1,92 @@
+验证损失优化 Goal 执行报告
+2026-11-06
+
+执行范围与状态
+本轮已完成预注册的2×2四组、三种子、每组40轮筛选，共12次训练和480条逐轮记录。
+训练优化器更新共120000次，样本呈现共3840000次。训练和脚本内选模计时合计2466.5秒，另有数据读取、校准、分析与恢复开销。
+全部候选均未达到相对BCE下降5%的预注册晋级线。流程按协议结束筛选，全新数据五种子确认未触发。已观测到余弦衰减约3.98%的开发改善，尚待独立确认。
+
+数据角色与固定设置
+复用20261106_local_01的fit_A8000、early_stop1008、calibration1008、development4032。
+既有开发身份已被先前试验消费，本轮按探索性筛选管理。
+标签顺序为FMB、AMA、SawFM、SinFM、MFT、ISRJ，保留63种非空组合及A配额。
+每轮无放回使用全部8000个fit身份，模型种子2050、2051、2052。
+使用dfms_iq、width16、dropout0.2，共257511参数。历史F2共享权重初始化后全参数微调。
+AdamW，weight_decay=1e-4，batch=32，clip=5，FP32，TF32关闭。
+每组按early_stop上的原始硬标签BCE最低选checkpoint，精确并列取较早轮次。
+温度和F1阈值仅在calibration拟合，12个模型及校准参数全部冻结后统一评价development。
+
+方法与三种子结果
+以下BCE均用原始0/1标签与无权平均计算，±为三种子样本标准差。
+组合exact使用calibration拟合的逐标签F1阈值。
+A为标准BCE和固定学习率。B增加余弦学习率衰减。C增加epsilon=0.05标签平滑。D同时使用两项措施。
+余弦学习率在40轮内从1e-4降至1e-6。
+
+组别   原始BCE均值±SD          温度后BCE       原始Macro-AP    原始概率F1阈值exact
+A      0.159130 ± 0.005399     0.159445        98.3834%        71.4451%
+B      0.152793 ± 0.001701     0.153152        98.5147%        73.0324%
+C      0.159221 ± 0.002126     0.158522        98.4980%        72.2470%
+D      0.158391 ± 0.001097     0.152413        98.5571%        73.0985%
+
+余弦衰减的配对结果
+B相对A的原始BCE下降3.9817%，绝对下降0.006336。
+三个种子的BCE下降分别为0.009896、0.006689、0.002424，三者方向一致。
+按组合分层的配对身份bootstrap95%区间为[0.004548,0.008122]。该区间只描述固定种子条件下的评价身份不确定性。
+Macro-AP提高0.1313个百分点，F1校准exact提高1.5873个百分点，预定义尾组exact提高0.2003个百分点。
+原始BCE在SawFM、SinFM、ISRJ、MFT上分别降低0.030227、0.015454、0.008962、0.004657。
+FMB、AMA的原始BCE分别升高0.019601、0.001681，需保留这一逐标签取舍。
+
+标签平滑与温度校准的机制
+A的错误标签对总BCE的平均贡献为0.109214，正确标签贡献0.049915。
+D的对应贡献为0.089256和0.069135。错误贡献减少约0.019958，但正确标签贡献增加约0.019220，整体原始BCE收益因此较小。
+D的温度为0.73347至0.75418，温度校准后BCE为0.152413。该数值相对A原始BCE改善约4.22%，仍低于5%门槛。它作为已预注册的校准诊断保留。
+A的温度为0.84599至0.98061，校准后development BCE轻微升高约0.20%。
+这些结果表明，160轮后期模型的过度自信诊断需要与最佳BCE checkpoint分开解释。最佳BCE选模后，继续压低输出置信度会带来额外取舍。
+
+最佳checkpoint轮次
+种子     A     B     C     D
+2050     23    39    35    39
+2051     24    30    37    37
+2052     21    29    40    39
+C/2052的最佳点位于40轮预算边界，本轮尚未建立该条件更长预算下的收敛结论。
+
+晋级裁决
+B原始BCE改善3.98%，三个种子方向一致，全部识别护栏通过，但幅度低于5%。
+C原始BCE略升，只有一个种子改善。
+D原始BCE改善0.46%，幅度低于5%。
+A温度校准后BCE略升，只有一个种子改善。
+5%为本轮执行前设定的工程晋级线。全部路径均未晋级，确认候选为空。
+确认数据生成脚本和确认训练入口已实现，确认训练保持未执行状态。历史locked test保持封存。
+
+执行恢复与核验
+D/2052在写入status.json时遇到Windows原子重命名PermissionError。
+逐轮恢复文件已保存，通过run_resilient.py为JSON原子写入增加PermissionError重试，保持冻结训练源文件与协议哈希一致，从恢复状态继续。
+原始失败日志、失败JSON和I/O恢复收据均保留。
+已独立重算24组评价BCE，误差容差1e-12。核对12次训练全部40轮、最佳BCE轮次、checkpoint哈希、同种子初始状态与40轮样本排列一致。
+已核对源文件哈希、产物哈希并检查两张图的显示。
+本轮完成的是已消费开发集上的方法筛选。关于新身份上的泛化收益仍待独立确认。
+
+复现与产物位置
+Goal提示词和脚本目录
+C:/Users/zj/Documents/三轴长尾场景识别/experiment-log/2026-11-06-04-validation-bce-goal
+
+完整运行产物
+E:/LJQ_code/LJQ_code_experiment_storage/validation_bce_v1/screen_20261106_01
+
+复现命令模板，应将输出目录替换为新的版本化目录
+D:/anaconda3/envs/PY10/python.exe -u C:/Users/zj/Documents/三轴长尾场景识别/experiment-log/2026-11-06-04-validation-bce-goal/run_resilient.py --source E:/LJQ_code/LJQ_code_experiment_storage/lt_abc_v1/20261106_local_01 --output E:/LJQ_code/LJQ_code_experiment_storage/validation_bce_v1/screen_new_version
+
+关键文件
+protocol.json与preflight.json记录协议、数据/初始化/代码哈希和环境。
+freeze.json记录评价前冻结的模型、温度和阈值。
+runs.csv、evaluation_metrics.csv、evaluation_labels.csv、evaluation_combinations.csv保存逐种子结果。
+decision.json保存配对差、置信区间和全部晋级条件。
+loss_decomposition.json保存正确与错误标签的损失贡献。
+verification.json保存独立复核结果。
+training_curves.png、bce_comparison.png保存实测曲线与方法比较。
+A_2050等12个目录内保存best_BCE.pth、best_AP.pth、recovery.pth、history.json、校准参数和冻结预测。
+
+下一研究门槛
+余弦衰减的约4%开发收益值得在另行冻结的新协议下做五种子新身份确认，重点核对SawFM等改善是否能补偿FMB的损失上升。
+本轮保留原5%晋级标准，不进行读后调整。
+

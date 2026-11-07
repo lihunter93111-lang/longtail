@@ -1,0 +1,148 @@
+余弦复验与弱分量覆盖训练研究结果
+
+一、研究协议与证据范围
+本轮全新合成身份和五个新模型种子。三组共用预先冻结的角色划分，全部模型与校准冻结后，一次性评估 4032 个自然确认身份及其物理配对视图。
+原 5% 筛选失败记录保留。本轮预先采用 3% BCE 实用收益门槛，并增加 FMB 误报和弱分量漏检约束。两个主比较分别报告。
+既有 locked-test 未访问。本轮确认集现已消费，后续参数选择需要新的独立确认数据。
+
+二、数据、网络与训练预算
+生成 fit 候选 25200、dev 候选 6048。fit 使用 8000，early_stop 1008，calibration 1008，confirmation 4032。所有 63 个非空组合保留。
+训练六标签正样本数 [6729, 2243, 3973, 3897, 4069, 3986]，标签 IF=3。训练身份占候选池 31.75%，选中 8000 个身份在每轮全部使用。
+固定 F2 dfms_iq，257511 参数，全网络微调。输入为 [2,3000] RMS 归一化 I/Q。共享历史骨干初始化，分类头按种子初始化。
+A 固定 lr=1e-4，B 与 W 为 40 轮余弦 1e-4 至 1e-6。硬 BCE、AdamW、wd=1e-4、batch32、clip5、FP32、TF32 关闭。
+每组每种子 40 轮、10000 次优化更新、320000 次身份呈现。五种子为 2060–2064。选择 early_stop 最低 raw BCE 检查点。
+
+三、弱视图覆盖与物理验证
+可生成训练弱视图的独立身份 4509 个，占 8000 身份 56.36%。
+每个 W 运行弱视图呈现 90180 次，原始视图呈现 229820 次。独立训练身份仍为 8000。
+各身份可行性统计 {"all_feasible_targets_already_gap_ge10": 1005, "eligible": 4509, "other_max_below_20": 1345, "single_component": 526, "target_absent": 615}
+各目标干预身份数 {"SawFM": 1492, "MFT": 1494, "ISRJ": 1523}
+目标有效 JNR=max_other-10，始终在 10–30 dB。已弱或不可行身份使用原始视图。每个可干预身份恰好 20 个原始轮次和 20 个弱视图轮次。
+fit 和 diagnostic 原始重建、单分量幅度差分、种子及标签核验结果如下。
+{"status": "verified", "mode": "fit", "identity_count": 8000, "gaps": 10, "view_counts": 4509, "raw_reconstruction_max_abs": 0, "intervention_delta_max_abs": 4.3520742565306136e-14, "intervention_delta_max_relative": 9.955290047474689e-16, "single_target_delta_verified": true, "locked_test_used": false}
+{"status": "verified", "mode": "diagnostic", "identity_count": 4032, "gaps": [0, 5, 10, 15], "view_counts": [2761, 2761, 2761, 1711], "raw_reconstruction_max_abs": 0, "intervention_delta_max_abs": 8.592868015318674e-14, "intervention_delta_max_relative": 1.028821207156121e-15, "single_target_delta_verified": true, "locked_test_used": false}
+
+四、自然确认指标，五种子均值 ± 标准差
+组别  视图  BCE  macroAP  F1阈值exact  tail exact  ECE
+A  raw  0.158009±0.006560  98.401%  71.498%  73.966%  0.02441
+A  temperature  0.157471±0.006355  98.401%  71.324%  73.894%  0.02421
+B  raw  0.151390±0.002499  98.511%  72.574%  75.144%  0.02157
+B  temperature  0.151313±0.002546  98.511%  72.614%  75.144%  0.02136
+W  raw  0.138199±0.001583  98.769%  74.598%  75.673%  0.01942
+W  temperature  0.137181±0.001640  98.769%  74.598%  75.745%  0.01775
+
+逐种子主指标及最佳轮次
+A seed=2060 rawBCE=0.150964 best_epoch=22 earlyBCE=0.162389
+B seed=2060 rawBCE=0.148059 best_epoch=38 earlyBCE=0.157828
+W seed=2060 rawBCE=0.137136 best_epoch=32 earlyBCE=0.142059
+A seed=2061 rawBCE=0.158820 best_epoch=29 earlyBCE=0.167283
+B seed=2061 rawBCE=0.150648 best_epoch=28 earlyBCE=0.160309
+W seed=2061 rawBCE=0.137810 best_epoch=38 earlyBCE=0.143705
+A seed=2062 rawBCE=0.160805 best_epoch=24 earlyBCE=0.164382
+B seed=2062 rawBCE=0.150475 best_epoch=30 earlyBCE=0.154583
+W seed=2062 rawBCE=0.138261 best_epoch=34 earlyBCE=0.138999
+A seed=2063 rawBCE=0.167081 best_epoch=19 earlyBCE=0.167797
+B seed=2063 rawBCE=0.153725 best_epoch=35 earlyBCE=0.161658
+W seed=2063 rawBCE=0.136923 best_epoch=40 earlyBCE=0.143252
+A seed=2064 rawBCE=0.152374 best_epoch=23 earlyBCE=0.158688
+B seed=2064 rawBCE=0.154043 best_epoch=33 earlyBCE=0.158399
+W seed=2064 rawBCE=0.140866 best_epoch=33 earlyBCE=0.144991
+
+五、预注册主比较与晋级判定
+B_raw_vs_A_raw
+平均相对 BCE 降低 4.189%，逐种子 BCE 收益 [0.0029056090297629455, 0.008171781505990322, 0.01032904539223825, 0.013356326748790115, -0.0016684423583297747]
+配对身份 bootstrap 95% 区间 [0.005226770452910425, 0.008044615573957496]
+五种子配对均值 t95% 区间 [-0.0008321057463301449, 0.014069833873710889]
+各门槛 {"relative_BCE_reduction": true, "positive_seeds": true, "macro_AP": true, "f1_exact": true, "tail_exact": true, "identity_CI_excludes_zero": true, "FMB_FPR": true}
+晋级 True
+W_raw_vs_B_raw
+平均相对 BCE 降低 8.713%，逐种子 BCE 收益 [0.010922204802756963, 0.012838281162004611, 0.012214249214757916, 0.01680157724548606, 0.013176580629598644]
+配对身份 bootstrap 95% 区间 [0.011515366700658253, 0.014870659348388394]
+五种子配对均值 t95% 区间 [0.010465814977869432, 0.015915342243972248]
+各门槛 {"relative_BCE_reduction": true, "positive_seeds": true, "macro_AP": true, "f1_exact": true, "tail_exact": true, "identity_CI_excludes_zero": true, "FMB_FPR": true, "natural_weak_target_relative_FNR_reduction_ge5pct": true, "paired_gap10_target_FNR_noninferior": true}
+晋级 True
+身份 bootstrap 条件于本次五个模型，种子 t 区间反映有限训练种子间波动。它们不构成所有分布和所有随机种子的保证。
+
+六、弱分量自然与配对诊断
+A 自然目标三类 gap>=10，1413 个正标签位，平均 FNR=39.858%，BCE=1.011340
+A 配对 n=2761，gap0 FNR=0.101% → gap10 FNR=12.170%
+A 配对 n=1711，gap0 FNR=0.035% → gap15 FNR=52.507%
+B 自然目标三类 gap>=10，1413 个正标签位，平均 FNR=38.627%，BCE=0.974686
+B 配对 n=2761，gap0 FNR=0.145% → gap10 FNR=11.568%
+B 配对 n=1711，gap0 FNR=0.117% → gap15 FNR=49.667%
+W 自然目标三类 gap>=10，1413 个正标签位，平均 FNR=35.697%，BCE=0.824871
+W 配对 n=2761，gap0 FNR=0.261% → gap10 FNR=8.171%
+W 配对 n=1711，gap0 FNR=0.234% → gap15 FNR=47.902%
+gap0/5/10 与 gap15 的可行人群不同。图表在各自固定身份子集内比较，gap15 的对应 gap0/5/10 同样限制在 max_other>=25 dB。
+这些干预改变目标分量功率，控制同身份其他分量和接收噪声，支持功率敏感性的模型层证据。结论适用范围为当前合成器、10–30 dB 和可行子集。
+
+七、研究结论与下一步
+W 达到预注册晋级条件。下一阶段以独立身份和预先固定的新功率区间检验可迁移性，再决定是否作为正式方法。
+网络规模判断需要同时考虑原始 fit 拟合、自然确认误差与同身份功率响应。本轮固定网络检验了训练策略和数据覆盖，容量最优性仍需匹配预算的结构对照。
+当前五种子使用同一新身份划分，因此结果反映该划分下的训练随机性与确认身份抽样波动。未执行多份独立数据划分重复，也未执行外部真实采集验证。
+
+八、执行与可复核性
+全部训练累计墙钟计时 51.65 分钟，生成、校准和配对评估另计。
+{"passed": true, "history_rows": 600, "evaluated_metric_rows": 30, "maximum_metric_recompute_error": 0.0, "matched_initialization_and_epoch_orders": true, "all_8000_identities_once_per_epoch": true, "weak_view_eligible_identities": 4509, "weak_presentations_per_W_run": 90180, "total_presentations_per_run": 320000, "source_hashes_unchanged": true, "calibration_thresholds_recomputed": true, "locked_test_used": false}
+实验数值、逐类和组合指标、功率切片、温度校准、全部 loss 历史见附带 CSV/JSON。完整权重、原始 MAT 与预测位于外部存储，轻量交付清单记录其 SHA-256。
+E:\LJQ_code\LJQ_code_experiment_storage\weak_component_v1\20261106_01\run
+
+最佳检查点在原始训练身份上的重新评估
+A 平均原始 fit BCE=0.054454，固定0.5 exact=91.685%
+B 平均原始 fit BCE=0.044750，固定0.5 exact=94.395%
+W 平均原始 fit BCE=0.053976，固定0.5 exact=92.020%
+
+执行中修复记录
+[
+  {
+    "stage": "preparation_before_training",
+    "issue": "Windows default GBK decoding failed on prior UTF-8 preflight JSON",
+    "fix": "Explicit UTF-8 reads for all new Python JSON sources",
+    "protocol_changed": false,
+    "time": 1793968650.6185257
+  },
+  {
+    "stage": "pair_generation_before_training",
+    "issue": "Repeated MATLAB matfile row reads caused more than 21 GB I/O before first 500-row progress update",
+    "fix": "Stopped only the task MATLAB process and preloaded original IQ once into available RAM; restarting deterministic pairing from same identities",
+    "protocol_changed": false,
+    "time": 1793969057.9526393
+  },
+  {
+    "stage": "input_preflight_before_training",
+    "issue": "Strided float32 reduction produced normalized-power residual up to 4.83e-6 and failed tight numeric check",
+    "fix": "Materialize contiguous view inputs before the same RMS normalization formula; tight check passed",
+    "protocol_changed": false,
+    "time": 1793969190.9247818
+  }
+]
+九、复核补充分析与下一研究入口
+
+总体收益与种子稳定性
+W 相对 A 的 raw BCE 降低 12.54%，相对 B 降低 8.71%。W 对 B 的五个种子收益全部为正，种子层 t95% 区间为 [0.010466,0.015915]。
+B 对 A 为 4/5 种子正收益，种子层 t95% 区间跨零。B 达到本轮预先设定的晋级门槛，但其训练种子稳定性证据较 W 对 B 弱。
+W 的温度校准后 BCE 为 0.137181，属于预注册次要分析。主结论基于 raw BCE 0.138199。
+
+逐目标的漏检权衡
+自然确认集中相对其他最强分量弱至少 10 dB 的正标签位，在校准 F1 阈值下，SawFM 漏检率由 B 的 52.83% 降至 W 的 43.57%，MFT 由 27.67% 降至 24.31%，ISRJ 则由 34.62% 升至 38.83%。三类合并门槛通过，需要同时保留 ISRJ 的召回代价。
+ISRJ 的自然弱分量 BCE 从 1.07923 降至 0.88924，固定 0.5 漏检率从 43.12% 降至 37.66%。calibration 选出的 ISRJ F1 阈值平均从 0.347 升至 0.514，因此当前逐类 F1 目标下的误报/漏检权衡值得单独研究。
+在 1711 个身份的 gap15 可行子集中，ISRJ 配对漏检率在 F1 阈值下从 44.55% 升至 50.22%，固定 0.5 下从 55.01% 降至 49.20%，目标正标签 BCE 从 1.32696 降至 1.09718。上述方向差异同时包含分数改善与校准决策变化。
+
+误报代价
+FMB 阴性误报率由 A 的 1.411% 经 B 的 1.875% 升至 W 的 2.419%。W 对 B 增加 0.544 个百分点，满足预设的逐比较 1 个百分点门槛。W 对原始 A 的累计增幅为 1.008 个百分点，应在应用时明确列出。
+SawFM 阴性误报率由 B 的 4.567% 升至 W 的 6.512%，增加 1.946 个百分点。其自然召回改善伴随误报代价。本轮预注册保护约束针对 FMB，SawFM 的这一代价作为逐类复核发现保留。
+ISRJ 总体 FPR 则从 10.050% 降至 6.502%，总体 recall 从 90.898% 降至 89.717%。
+
+训练预算与网络判断
+W 最佳 epoch 为 32、38、34、40、33。五种子截至第 30 轮的最佳 early-stop BCE 均值为 0.145931，截至第 35 轮为 0.143410，截至第 40 轮为 0.142601。30 到 40 轮仍有收益，35 到 40 轮的收益缩小。一个种子最佳点落在预算末端，当前证据支持 40 轮作为可用预算，充分收敛性仍需专门预算对照。
+最佳检查点原始 fit BCE 为 B 0.044750、W 0.053976，而自然确认 BCE 为 B 0.151390、W 0.138199。W 在较高训练拟合误差下获得更低确认误差，支持弱视图覆盖改善当前网络的泛化。
+所有模型使用相同 257511 参数结构。该结构可以从训练覆盖策略中获得明确收益。当前 15 dB 目标合并漏检率仍为 W 的 47.90%，六分量组合准确率约 48%，这些误差仍需要表示学习与决策规则的进一步对照。
+
+下一研究入口，仅作为后续方案，当前 Goal 已完成预定 15 次训练
+1. 先固定本轮 W 训练配方，在新的身份划分上复验。使用新的 calibration，以预先约束 FMB/SawFM FPR 和 ISRJ 弱分量召回的阈值目标，与现有逐类 F1 阈值做对照。
+2. 通过身份配对的 gap10 与 gap15 覆盖消融，判断 15 dB 残余漏检能否从训练分布覆盖中受益。保持身份数、网络、更新次数匹配，并记录各 gap 的可行身份交集。
+3. 只有覆盖和决策对照仍留下稳定残差时，再进行匹配预算的结构对照，重点检验 ISRJ 时域间歇特征。当前数据支持继续检验这一假设，尚缺结构容量最优性证据。
+本轮 confirmation 已消费。以上后续比较需要单独预注册和新的独立确认数据，本轮执行范围在此结束。
+
+交付复核
+独立复算 420 行配对指标，最大误差为 0。五份干预 MAT 的有效功率逐行验证通过。已检查训练完成早于模型冻结，冻结早于确认评估，并逐一查看三张图。
