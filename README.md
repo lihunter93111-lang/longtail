@@ -8,7 +8,7 @@
 |---|---|
 | [`projects/CJ_Imbalance_0716`](projects/CJ_Imbalance_0716) | 路线 A：`cjlt`、实验入口、配置、测试、研究报告和轻量冻结收据 |
 | [`projects/CJ_Inbalance_0724`](projects/CJ_Inbalance_0724) | 路线 B：`cj0724`、I/Q 接口对照、多任务与专家实验、配置和测试 |
-| [`projects/longtail_cpu`](projects/longtail_cpu) | 服务器 CPU 路线：独立 `longtail` 包、可信长尾基线、分段统计残差头与五种子复核材料 |
+| [`data_generation/python_longtail`](data_generation/python_longtail) | AMA 六类 v3 物理方程的 Python 生成入口，显式区分训练、校准、选择和报告角色 |
 | [`data_generation/0716`](data_generation/0716) | E 盘 0716 原工程对应的 MATLAB 生成程序 |
 | [`data_generation/paper`](data_generation/paper) | 论文数据生成分支，含 AMA 和 `longtail6/solve_pure_label_longtail.py` |
 | [`visualize_0716_closedset_train_test.py`](visualize_0716_closedset_train_test.py) | I/Q、频谱、匹配滤波和 STFT 可视化入口 |
@@ -20,7 +20,7 @@
 
 ## 研究与合作入口
 
-- [CPU 分段读出实现与复核](projects/longtail_cpu/README.md)及[两条路线的比较入口](projects/longtail_cpu/COMPARISON.md)：与弱视图覆盖路线并存，不跨数据池比较分数。
+- [长尾基线与分段读出](docs/implementation/segment_readout.md)：CPU 方法统一在路线 A 的 `cjlt` 内，包含训练、评估、旧权重导入及与弱视图覆盖方案的对照方式。
 - [仓库目录与复现导航](docs/research/仓库目录与复现导航.md)：逐层解释文件夹、代码调用链、数据角色与接手顺序。
 - [2026-11-07 阶段复盘与协作计划](docs/research/2026-11-07_阶段复盘与协作计划.md)：01—05 实验结论、逐类代价和下一步计划。
 - [实验复现入口](experiment-log/REPRODUCING.md)：外部数据交付、路径配置及分阶段命令。

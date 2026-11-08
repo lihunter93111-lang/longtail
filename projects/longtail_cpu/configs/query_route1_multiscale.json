@@ -1,8 +1,0 @@
-{
-  "extends": "query_route1_cpu.json",
-  "model": {
-    "entrypoint": "longtail.models.dfms_query:build_model",
-    "kwargs": {"memory_levels": [1, 2, 3]}
-  },
-  "run": {"output_dir": "runs/route1_cpu_multiscale_seed{seed}_{signature}"}
-}

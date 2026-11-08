@@ -1,5 +1,0 @@
-{
-  "extends": "query_route1_single.json",
-  "model": {"kwargs": {"query_feedforward": 208}},
-  "run": {"output_dir": "runs/route1_cpu_capacity_seed{seed}_{signature}"}
-}

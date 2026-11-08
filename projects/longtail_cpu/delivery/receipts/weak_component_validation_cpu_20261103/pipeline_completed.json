@@ -1,8 +1,0 @@
-{
-  "status": "completed",
-  "finished": "2026-11-03T18:37:45+08:00",
-  "wall_seconds": 6309.381863355637,
-  "new_models_completed": 15,
-  "evaluated_models": 25,
-  "report": "/ultrafast_share/xuwang_group/wxwu/longtail/reports/weak_component_validation_cpu_20261103/report.html"
-}

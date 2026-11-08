@@ -1,5 +1,0 @@
-{
-  "extends": "joint.json",
-  "model": {"entrypoint": "longtail.models.transformer:build_model"},
-  "run": {"output_dir": "runs/joint_transformer_seed{seed}_{signature}"}
-}

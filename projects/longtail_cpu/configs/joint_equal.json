@@ -1,5 +1,0 @@
-{
-  "extends": "joint.json",
-  "data": {"manifest": "../datasets/longtail/joint_ama_v1/label_if3_equal/dataset.json"},
-  "run": {"output_dir": "runs/joint_equal_dfms_seed{seed}_{signature}"}
-}

@@ -1,7 +1,0 @@
-{
-  "extends": "baseline.json",
-  "model": {
-    "entrypoint": "longtail.models.transformer:build_model"
-  },
-  "run": {"output_dir": "runs/transformer_seed{seed}_{signature}"}
-}

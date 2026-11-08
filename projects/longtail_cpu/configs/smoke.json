@@ -1,7 +1,0 @@
-{
-  "extends": "baseline.json",
-  "dataloader": {"batch_size": 128, "workers": 0},
-  "model": {"kwargs": {"width": 4}},
-  "train": {"epochs": 1, "amp": "bfloat16"},
-  "run": {"output_dir": "runs/smoke"}
-}

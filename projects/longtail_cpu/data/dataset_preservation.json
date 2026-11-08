@@ -1,9 +1,0 @@
-{
-  "original_files_preserved": 36,
-  "original_bytes": 54744001925,
-  "check": "All 36 original files preserved in backup with unchanged byte sizes; directories moved using rename, preserving inode identities.",
-  "active_working_copy": "ama_v3",
-  "dataset_root": "/ultrafast_share/xuwang_group/wxwu/datasets/longtail",
-  "deletion_performed": false,
-  "original_storage_directory": "/ultrafast_share/xuwang_group/wxwu/datasets/longtail/backup"
-}

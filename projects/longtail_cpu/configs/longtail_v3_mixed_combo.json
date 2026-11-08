@@ -1,5 +1,0 @@
-{
-  "extends": "longtail_v3_fresh_cpu.json",
-  "train": {"sampler": "mixed_combo"},
-  "run": {"output_dir": "runs/longtail_v3_mixed_seed{seed}_{signature}"}
-}
