@@ -1,0 +1,130 @@
+{
+  "suite": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102",
+  "jobs": [
+    {
+      "id": "baseline_seed2050",
+      "arm": "baseline",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/baseline_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/baseline_seed2050",
+      "cpus": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "parameters": 257511
+    },
+    {
+      "id": "baseline_seed2051",
+      "arm": "baseline",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/baseline_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/baseline_seed2051",
+      "cpus": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "parameters": 257511
+    },
+    {
+      "id": "single_seed2050",
+      "arm": "single",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/single_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/single_seed2050",
+      "cpus": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "single_seed2051",
+      "arm": "single",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/single_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/single_seed2051",
+      "cpus": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "capacity_seed2050",
+      "arm": "capacity",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/capacity_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/capacity_seed2050",
+      "cpus": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "parameters": 310531
+    },
+    {
+      "id": "capacity_seed2051",
+      "arm": "capacity",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/capacity_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/capacity_seed2051",
+      "cpus": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "parameters": 310531
+    },
+    {
+      "id": "multiscale_seed2050",
+      "arm": "multiscale",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/multiscale_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/multiscale_seed2050",
+      "cpus": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "parameters": 310707
+    },
+    {
+      "id": "multiscale_seed2051",
+      "arm": "multiscale",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/configs/multiscale_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_route1_cpu_20261102/multiscale_seed2051",
+      "cpus": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "parameters": 310707
+    }
+  ],
+  "code_sha256": "98ea97477f5a5e955d927a82d4fb795e9e6426954021afeddf7d3275ca334625",
+  "role": "check and fixed fit subset",
+  "variants": [
+    "actual",
+    "uniform_all",
+    "uniform_within_levels",
+    "zero_query"
+  ],
+  "fit_subset_rng": 20261103,
+  "fit_subset_size": 1024,
+  "optimizer_steps": 0,
+  "threshold_refits": 0,
+  "development_test_used": false
+}

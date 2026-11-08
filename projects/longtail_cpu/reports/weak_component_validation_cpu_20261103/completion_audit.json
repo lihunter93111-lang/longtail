@@ -1,0 +1,341 @@
+{
+  "status": "passed",
+  "new_models": 15,
+  "reused_models": 10,
+  "training_epochs": 360,
+  "optimizer_steps": 90000,
+  "frozen_source_files_verified": 93,
+  "unique_data_files_hashed": 6,
+  "calibration_decisions_replayed": 25,
+  "metric_conditions_recomputed": 240,
+  "report_identity_files_rechecked": 56,
+  "report_identity_overlap": 0,
+  "calibration_check_arrays_preserved": true,
+  "sampling_records_replayed": 360,
+  "B_C_D_sampling_identical_within_seed": true,
+  "independent_seed_epoch_draw_orders": 120,
+  "models_decisions_selection_frozen_before_report": true,
+  "freeze_time": "2026-11-03T18:35:43+08:00",
+  "completion": {
+    "status": "completed",
+    "finished": "2026-11-03T18:37:45+08:00",
+    "wall_seconds": 6309.381863355637,
+    "new_models_completed": 15,
+    "evaluated_models": 25,
+    "report": "/ultrafast_share/xuwang_group/wxwu/longtail/reports/weak_component_validation_cpu_20261103/report.html"
+  },
+  "primary_acceptance_replayed": {
+    "selected_candidate": "C",
+    "selected_on": "check",
+    "passed": false,
+    "conditions": {
+      "exact_gain_ge_1pp": true,
+      "positive_seeds_ge4": true,
+      "paired_interval_lower_positive": false,
+      "tail_f1_drop_le_0.3pp": true,
+      "class_fpr_rise_le_1pp": true
+    },
+    "mean_class_fpr_delta": [
+      0.0,
+      0.002217741935483871,
+      -0.003024193548387094,
+      -0.02298387096774194,
+      -0.01612903225806452,
+      0.004334677419354835
+    ],
+    "primary_effect": {
+      "exact": {
+        "mean": 0.011954365079365092,
+        "paired_seed_95_t_interval": [
+          -0.005653403058102226,
+          0.02956213321683241
+        ],
+        "per_seed": [
+          0.004960317460317554,
+          -0.004960317460317554,
+          0.02083333333333337,
+          0.03125,
+          0.007688492063492092
+        ]
+      },
+      "macro_f1": {
+        "mean": 0.0026020359164246054,
+        "paired_seed_95_t_interval": [
+          7.949083054668155e-05,
+          0.005124581002302529
+        ],
+        "per_seed": [
+          0.0009495240794165083,
+          0.0002752748336076749,
+          0.0039217860030682505,
+          0.005174064502175613,
+          0.0026895301638549807
+        ]
+      },
+      "macro_aupr": {
+        "mean": 0.0010658688749937805,
+        "paired_seed_95_t_interval": [
+          0.00012845887620040988,
+          0.002003278873787151
+        ],
+        "per_seed": [
+          0.0005661418746614189,
+          0.00021815461385443768,
+          0.0015022809171894025,
+          0.002115557513125532,
+          0.0009272094561381117
+        ]
+      },
+      "tail_f1": {
+        "mean": 0.0025465403480264383,
+        "paired_seed_95_t_interval": [
+          0.0011331928719981548,
+          0.003959887824054722
+        ],
+        "per_seed": [
+          0.001402908711665929,
+          0.0025079697354857267,
+          0.0038531889997471813,
+          0.0014455272457591928,
+          0.003523107047474161
+        ]
+      },
+      "rare_exact": {
+        "mean": 0.0043402777777777676,
+        "paired_seed_95_t_interval": [
+          -0.016124368594332257,
+          0.02480492414988779
+        ],
+        "per_seed": [
+          -0.00998263888888895,
+          -0.01345486111111105,
+          0.01953125,
+          0.02256944444444442,
+          0.0030381944444444198
+        ]
+      },
+      "mean_fpr": {
+        "mean": -0.0059307795698924776,
+        "paired_seed_95_t_interval": [
+          -0.019756520035145372,
+          0.007894960895360417
+        ],
+        "per_seed": [
+          -0.003276209677419359,
+          0.009576612903225798,
+          -0.01453293010752689,
+          -0.018733198924731187,
+          -0.0026881720430107503
+        ]
+      },
+      "weak_micro_recall": {
+        "mean": 0.001447178002894356,
+        "paired_seed_95_t_interval": [
+          -0.021975185622521893,
+          0.024869541628310603
+        ],
+        "per_seed": [
+          -0.0021707670043414895,
+          0.03147612156295221,
+          -0.01519536903039076,
+          -0.013024602026049159,
+          0.0061505065123009794
+        ]
+      },
+      "target_weak_recall": {
+        "mean": 0.015300893619187295,
+        "paired_seed_95_t_interval": [
+          -0.018223272733988972,
+          0.04882505997236356
+        ],
+        "per_seed": [
+          0.013777911542472765,
+          0.046784024470652774,
+          -0.0036018906199383194,
+          -0.017649610287018058,
+          0.03719403298976731
+        ]
+      },
+      "target_weak_aupr": {
+        "mean": 0.027383274917935442,
+        "paired_seed_95_t_interval": [
+          0.004724560402140768,
+          0.050041989433730116
+        ],
+        "per_seed": [
+          0.015503801867619349,
+          0.008025502348445457,
+          0.033407447512952326,
+          0.055189649710457256,
+          0.024789973150202815
+        ]
+      },
+      "nonweak_recall": {
+        "mean": -0.0008819823603528176,
+        "paired_seed_95_t_interval": [
+          -0.003685134367669798,
+          0.001921169646964163
+        ],
+        "per_seed": [
+          -0.0008399832003360697,
+          0.0016799664006719173,
+          -0.002519949601007987,
+          -0.003674926501469944,
+          0.0009449811003779951
+        ]
+      }
+    }
+  },
+  "jobs": [
+    {
+      "job": "A_seed2050",
+      "reference": true,
+      "checkpoint_sha256": "f4808155860054682d7e7f6d24f3f4d36a2aa7c33688e6907d1d5c0f4a8f5b5a",
+      "decisions_sha256": "bf3d701560c1c9e220e38beb564451743ea6756c554090e9e9a3c1ca7c003591"
+    },
+    {
+      "job": "FMB_seed2050",
+      "reference": true,
+      "checkpoint_sha256": "3e35f0f8b10f13f0b31709f2f731bf0013a1c0094c3ed5f0d4c636576c9bc214",
+      "decisions_sha256": "c4c61b576531a23f32cead940cd8ba8ec4a50d14cf51c60306d8b93f9ec7e49e"
+    },
+    {
+      "job": "A_seed2051",
+      "reference": true,
+      "checkpoint_sha256": "085ced74e41888405c2cb36bb9b07736e728439503717db6fa5d618303ed7218",
+      "decisions_sha256": "fd3caf8591447d65f5c4436f3e0fb62c5c1aefa3718aa634f6a1841fbd7fe5ad"
+    },
+    {
+      "job": "FMB_seed2051",
+      "reference": true,
+      "checkpoint_sha256": "f7d13eba0fb3b4b114c7c7a1c41d9d5e979a21b29900b05720c8012fc4b4fc58",
+      "decisions_sha256": "70c9f6c4630bf28f1d0eaba8a5252dc93e6e06473c8d9686734855529bf93ed3"
+    },
+    {
+      "job": "A_seed2052",
+      "reference": true,
+      "checkpoint_sha256": "f3e0ecb9681d6964a4f8e1d01fc2c3c7369d503e7810b49091f9afc4c61a433e",
+      "decisions_sha256": "e4a828105d56355bcbf4cd57600e0a207a655cd97fad288e1143441c3be24c31"
+    },
+    {
+      "job": "FMB_seed2052",
+      "reference": true,
+      "checkpoint_sha256": "f6e08ed1a4c9b8c5f05f06bb0bfe63fc94350ea932abfc8649fbb108d61d663f",
+      "decisions_sha256": "891da049953571120a3efeb81c673c38cbab4a7538a8737f4ddf5e4060107500"
+    },
+    {
+      "job": "A_seed2053",
+      "reference": true,
+      "checkpoint_sha256": "3c1d500f2e043f4c8f8326a4646201ee0e5c5186e8ebc7d32fbeff8b03b97607",
+      "decisions_sha256": "c45ff01d8a3742ffa7725649ba281274eb64f4e6adcc5312ac838e55f3d504cb"
+    },
+    {
+      "job": "FMB_seed2053",
+      "reference": true,
+      "checkpoint_sha256": "e736edd8529baccab3deac2ae2fa5eef8da6bcf62858d518053cc650d4fbd0ff",
+      "decisions_sha256": "574df8dc44925f7fe1ebf4e651926bad84bedaeb396cb1c0082acffd0672ca40"
+    },
+    {
+      "job": "A_seed2054",
+      "reference": true,
+      "checkpoint_sha256": "55570844dfbeb8069c9464b28c6430552b072ad9fdd512a55ecbf8f93764b227",
+      "decisions_sha256": "8a05a042e8b0ea4fcf5d989f8517595bf1c4f121c47fab18fc22cca15c8d3d28"
+    },
+    {
+      "job": "FMB_seed2054",
+      "reference": true,
+      "checkpoint_sha256": "9cb1af8ebff9f43bab5ac5fe7a38a1a2aba0cb8d0763cd2358fbb6a916552879",
+      "decisions_sha256": "5b290367f0bad0993678dbaf3bee4ca5e8ef7ef8ffda101aba4f5833bd70530a"
+    },
+    {
+      "job": "B_seed2050",
+      "reference": false,
+      "checkpoint_sha256": "f4abc0d52df9065d7aff0ac745bd012c6db69e58c51e6bb0c799c383350639df",
+      "decisions_sha256": "dbf569448a976666871cc8d5516ee02d5961bbace85f08ee2b72681d0db7e1ea"
+    },
+    {
+      "job": "C_seed2050",
+      "reference": false,
+      "checkpoint_sha256": "bc14c6ba0bcf63e506886c9da0060cafd3a82a9eb6874a4c9ebc162650d035c6",
+      "decisions_sha256": "cf268e21860038139d2deabc1cdf7a417ffe47d34f6c94da75afd6b4791faedb"
+    },
+    {
+      "job": "D_seed2050",
+      "reference": false,
+      "checkpoint_sha256": "ff57eb049564ede4acabef54e81f6d7e30f9cb52c953b78da91a82a8f56ec1c0",
+      "decisions_sha256": "ab94a4e79d815fafbe64cf7f837cbd10ad2a25f30688391122581f13b38f860e"
+    },
+    {
+      "job": "B_seed2051",
+      "reference": false,
+      "checkpoint_sha256": "1b61ba7b5cd3c9c5b071f9fde0bce0678ad9ae7af8adb87ed309d1fab9b30423",
+      "decisions_sha256": "1b5fcbf25f2a6ffac5eda0f1fb453fd09b8c5532d23f2b9f05caab389a47734a"
+    },
+    {
+      "job": "C_seed2051",
+      "reference": false,
+      "checkpoint_sha256": "9828c2a2066ff58a5644d0278f4edd66ca08bab12f6c92b30a8844bf71660940",
+      "decisions_sha256": "f7a433b69d1f27dc74d6bdc3f438fbc3d0f1511f4c0d7fc99d825980d8d27659"
+    },
+    {
+      "job": "D_seed2051",
+      "reference": false,
+      "checkpoint_sha256": "f9031eb37d3594769e4b758af496c5898f7c15e4b1fa06310c8e4a88d928acd6",
+      "decisions_sha256": "ba78cc2b320e1a0867196c23bc82fd7f1e1867514339073c28e450b2b8ff9694"
+    },
+    {
+      "job": "B_seed2052",
+      "reference": false,
+      "checkpoint_sha256": "520431c47171e1140040e5c39711140148f0a30fab4b07e7184499cb289785ea",
+      "decisions_sha256": "e7a7e3a1d04a83d899568473f10614896f616b94d42b0106f74448a115972238"
+    },
+    {
+      "job": "C_seed2052",
+      "reference": false,
+      "checkpoint_sha256": "87fdf487e563f711ae11a79cd47715f0140eb37a8ccfc39366353d9000d154f1",
+      "decisions_sha256": "c9d80b9956e8b38fc153c9d719bf6807a84aa25ead369ee46211bffec605a543"
+    },
+    {
+      "job": "D_seed2052",
+      "reference": false,
+      "checkpoint_sha256": "b382190accaaf9bc1ae3ea0eb18694baf29e147eb2472221d080dfeed159a402",
+      "decisions_sha256": "9dd6bd49f61d92e338fe9ad57c8d277e5428f45bef175ab3eeb611e4012fb59a"
+    },
+    {
+      "job": "B_seed2053",
+      "reference": false,
+      "checkpoint_sha256": "2efe38efeb8ba599ebad5842fb062f5c11c13c5cbadfbf6ab791f761cb3abe0d",
+      "decisions_sha256": "aa0a29015c04a3bf707324bb2c3a5455ba2a0b6c697d9380a501c9ab1501f7e8"
+    },
+    {
+      "job": "C_seed2053",
+      "reference": false,
+      "checkpoint_sha256": "cbff06bd2192cf77f4609274373a700ed036cf2792b634499ac5afce3100355d",
+      "decisions_sha256": "890e99ef51111399a42c19bae513edfc97266d5dbdb463c67f76513c38081bbf"
+    },
+    {
+      "job": "D_seed2053",
+      "reference": false,
+      "checkpoint_sha256": "0612b00a180ce95d42bff82350a06d581b41216b8ed95ab239b278b0eb4d90cf",
+      "decisions_sha256": "9fb1dc6d4c53c31f1c700d2b8db44207d6e79071b91cda13a5fd08311edafc73"
+    },
+    {
+      "job": "B_seed2054",
+      "reference": false,
+      "checkpoint_sha256": "9ac93264eef67802941e28e51bce2f7870859d718ab02cca5fcedea36c3154c1",
+      "decisions_sha256": "4ede97d3d433beb3736cac35dcd70250e640fb6e9b0cb76cba89696c2826d5ba"
+    },
+    {
+      "job": "C_seed2054",
+      "reference": false,
+      "checkpoint_sha256": "23ad06d671a3d97233aff9ae2c58207ad3130661d3a26e710e3c90f0934621e1",
+      "decisions_sha256": "ecd34620c08fc6aaa1055d22c522ffedcf66fabba3cb19cfaac39d5b30e11856"
+    },
+    {
+      "job": "D_seed2054",
+      "reference": false,
+      "checkpoint_sha256": "7323e19831bbd5dbb25370667620279d53f1ee73a596b97c473adad3aa34a044",
+      "decisions_sha256": "a19c3720d7e93cef5f3a01be55dd3ef1d9ef9461cec1cd47561a6d7e6e680a65"
+    }
+  ]
+}

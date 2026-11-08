@@ -1,0 +1,2903 @@
+{
+  "date": "2026-11-08",
+  "scope": "Cumulative experiment delivery plus independent CPU project; original 2026-11-07 snapshot unchanged",
+  "base_commit": "1ecfd499a6bc914d5f7dbd2e7334efe45707ff26",
+  "previous_manifest": "docs/release/2026-11-07-integration-manifest.json",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5679,
+      "sha256": "6c16936423f52c033203ca8edfb85100b1dad6da690768e6c1d0ed16f51d8f3f"
+    },
+    {
+      "path": "docs/release/2026-11-07-INTEGRATION.md",
+      "bytes": 2194,
+      "sha256": "fa2f34b861e88eb90461049714dda1256c66388135eed2175e68cbeeba0e9417"
+    },
+    {
+      "path": "docs/release/2026-11-07-imports.json",
+      "bytes": 24277,
+      "sha256": "a6c14a7ae2575f306ec762df17bf25899dc8c56ee20e39f1f0417ea62aa3dc33"
+    },
+    {
+      "path": "docs/release/2026-11-07-integration-manifest.json",
+      "bytes": 53402,
+      "sha256": "3e29ddc93b98ead230ac0a28da0ff60db94ae7dff8ceeddfe823dc9b41a1fea1"
+    },
+    {
+      "path": "docs/release/2026-11-07-validation.json",
+      "bytes": 3215,
+      "sha256": "2a720f6431ac3ac7f089d51906aa5f565aa118abcdc931b6f40ca8d738b25886"
+    },
+    {
+      "path": "docs/release/2026-11-08-CPU-INTEGRATION.md",
+      "bytes": 2259,
+      "sha256": "e9eb5d95cd6d03b0cfc7ae3cde6d8220c403476b006c48df7b9a2997adc04211"
+    },
+    {
+      "path": "docs/release/2026-11-08-cpu-validation.json",
+      "bytes": 986,
+      "sha256": "893398d8a736228bc8a66545ec00a90e4e23a57112682a6213e3ebe87edbbd32"
+    },
+    {
+      "path": "docs/research/2026-11-07_阶段复盘与协作计划.md",
+      "bytes": 3515,
+      "sha256": "2cc5c69257bbe00ad58c92616badd50e93974c11da51657624064ef6115c86ae"
+    },
+    {
+      "path": "docs/research/collaboration/README.md",
+      "bytes": 2314,
+      "sha256": "54da0bcd7ecf4074ed3730750b2c8bdba91d297bbc84f1e32de75010140f2d61"
+    },
+    {
+      "path": "docs/research/collaboration/项目改动总结_2026-11-07.md",
+      "bytes": 16030,
+      "sha256": "9f655e5ee09e468dd239d59654a8cfe27710fe52e62690cdfd6186f9133ce21c"
+    },
+    {
+      "path": "docs/research/仓库目录与复现导航.md",
+      "bytes": 11368,
+      "sha256": "b61946f0e39e2d2a1099e36e5198393b38f7e073b4ec1c989f6ededb08846949"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/2026-11-06-lt-abc-quotas.json",
+      "bytes": 3632,
+      "sha256": "e56b4e8f23eddb3735ffa74d3ee055689b28f618ce4b191e45eb50cca9c955e0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/2026-11-06-lt-abc-server-plan.md",
+      "bytes": 16858,
+      "sha256": "926b677dcad0db9b486c282a81e4e2e569f67b9ecef3580f74872f1656e408cd"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/generate_lt_abc_candidates.m",
+      "bytes": 2459,
+      "sha256": "cae6fee7499d421670183964f18e220b16d4ae5c9cffdbb2f5aa6411d1da524a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2050/history.json",
+      "bytes": 1157,
+      "sha256": "ecf0cb00ce42e0dfa80ce3d5f47fd3cd5d8a83708d08315ac9d12a23fa7c3cd6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2050/receipt.json",
+      "bytes": 1531,
+      "sha256": "bca9e21569ed33c72e4723f0ef78e80e434de0952667b180a41e8a6382594287"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2050/thresholds.json",
+      "bytes": 180,
+      "sha256": "74f31b06a1c7166709cf5259723933f917a097b2b06f738f03eff9d8099eb37d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2050_receipt.json",
+      "bytes": 1531,
+      "sha256": "bca9e21569ed33c72e4723f0ef78e80e434de0952667b180a41e8a6382594287"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2051/history.json",
+      "bytes": 1159,
+      "sha256": "2511cfa02e5a6627f7a154576505e8144991e6e24b69448cdb8a83ae9bb056d7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2051/receipt.json",
+      "bytes": 1544,
+      "sha256": "56e397c6604b314f9edd82604a03f60d8143a3c8d83a49e416a0348a8f8b4458"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2051/thresholds.json",
+      "bytes": 194,
+      "sha256": "5bdbf958853c44205bdeeba77d9cffe9a9591f812a5ed98d1116abf287c67a61"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2052/history.json",
+      "bytes": 1156,
+      "sha256": "00d444609903aaa55a777d3770fad6cec949f840c2142ad0c626982192a522af"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2052/receipt.json",
+      "bytes": 1533,
+      "sha256": "bbab69e42d8fef02a3dd9674d9bfed35795217b7023732debd651816523c100c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/A_2052/thresholds.json",
+      "bytes": 182,
+      "sha256": "09489b0770949092b77c7640b8bb5170a6b4963333b6fa8b581c96dbbfeec6fc"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2050/history.json",
+      "bytes": 1157,
+      "sha256": "ae5c36f71c189aecb259da573904060790681aad519c8858dfe3a091e488719d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2050/receipt.json",
+      "bytes": 1545,
+      "sha256": "48bcf440d9de3ce0011a4fd4e83401e18e12f136094a2e83876b4b1fe60586a3"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2050/thresholds.json",
+      "bytes": 196,
+      "sha256": "5ddbcef5c87383db8912e4b004dd8117d99b66533e137a03adc2d3ed5c0b56ad"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2051/history.json",
+      "bytes": 1154,
+      "sha256": "2cd72585a8925f08d46a0915d31381bd8a2a3a585be53a5da61f851a838921f3"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2051/receipt.json",
+      "bytes": 1546,
+      "sha256": "d2ba9066dc8879bad8a5667a684be4e70a5484eca91158ec739978e48e28a275"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2051/thresholds.json",
+      "bytes": 196,
+      "sha256": "f525e0d93e276069cfc1ea6fa7048e1c0f82f2449d075c826a1ade47ddbc1705"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2052/history.json",
+      "bytes": 1157,
+      "sha256": "8a2b96d41cac7d6b2506dc64f4dd89071bf58ea112914926385e0ba6dd376e2b"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2052/receipt.json",
+      "bytes": 1545,
+      "sha256": "22c890e9ef19e65260d2a32743e1a94fc3b006521e828016f06490b44966307c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/B_2052/thresholds.json",
+      "bytes": 195,
+      "sha256": "014dc3e284ee0b8b362de20c10fd00d649eb2ab183d6be5a78f53d955493dee8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2050/history.json",
+      "bytes": 1159,
+      "sha256": "8d9e4c7064a9d4ad60b6c01aa28e231b80710f83b01a0b9169af0705d068f9a9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2050/receipt.json",
+      "bytes": 1559,
+      "sha256": "3a22139584d8718e3f2cb7d4ddbbbab100f68c64fca7b3ec04d07fa1be40b7c8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2050/thresholds.json",
+      "bytes": 209,
+      "sha256": "0411779cef272658f4d3b0a26675e38c818b8f33fcbab7afecd10b5914067c64"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2051/history.json",
+      "bytes": 1161,
+      "sha256": "10cb00efb5ab906ae03d5736612b790bd70ba299f5eafa629be1a44b609f2f47"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2051/receipt.json",
+      "bytes": 1544,
+      "sha256": "6f57a116b48a4783cc354374222645106b60e47deff657404e2bbf96bd1a8fa4"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2051/thresholds.json",
+      "bytes": 193,
+      "sha256": "32be3d62cae9192766b03c2019a9638189a771baf59b685b0034015439d2b238"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2052/history.json",
+      "bytes": 1155,
+      "sha256": "92df896ae272cc97c7530d51464548b7fcc17920c538339ae3daf6822084ce4a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2052/receipt.json",
+      "bytes": 1531,
+      "sha256": "0a83db7ae1750d52e9a62c9d4b20ed96cfed882dd331e74ad45c0b1d0c81725a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/C_2052/thresholds.json",
+      "bytes": 181,
+      "sha256": "937cc729ca3c818ebdabcbc3031c5b47a566686cbe3e7d0ffd4162e828cde1d5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/calibration_distribution.json",
+      "bytes": 811,
+      "sha256": "9454b8b595a3f98eaa35263c0e77c83d02e81d40b43f79163563af17b54f980c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/calibration_identities.json",
+      "bytes": 609853,
+      "sha256": "d6b336964ed371b23003f661fe9e25ff348549052ab2be585b8643d62521c63f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/decision.json",
+      "bytes": 4566,
+      "sha256": "9e87994fe4885d55f9adc30cb20fe56bfa2e36300e1017845d967ae98a3ecceb"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/decision.md",
+      "bytes": 2818,
+      "sha256": "f736f7f504d1f53bd93807aa590ecb83f6c3133c5dc9380be26fb6fa78f6ba9f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/development_combinations.csv",
+      "bytes": 17045,
+      "sha256": "01908e7cb6990b3be8ff4667d47c6a1c62cf7e9105ffac4a5990c83c52343c98"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/development_distribution.json",
+      "bytes": 862,
+      "sha256": "23184a1ad7a3971244ec6d834c8f6193161e07cc360ca01dc517a8ec04e7ccaa"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/development_identities.json",
+      "bytes": 2439461,
+      "sha256": "a6811dfe4c878b534fe9026a4c179cca7e5140b4154882ddf21853368b8bfcac"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/development_labels.csv",
+      "bytes": 3962,
+      "sha256": "ce5ac1abf41e915501e9636d5cd900f3d81d6dd2db9a22a0676e561b8671c11d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/development_metrics.csv",
+      "bytes": 2720,
+      "sha256": "d49e30f147b4b8b8c6db9eba1c661fe6ff5a47a6719d76f3e638519c7195b7c1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/early_stop_distribution.json",
+      "bytes": 811,
+      "sha256": "9454b8b595a3f98eaa35263c0e77c83d02e81d40b43f79163563af17b54f980c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/early_stop_identities.json",
+      "bytes": 609902,
+      "sha256": "df2ccaef8c6949a7da8cd41b7ae5d8d126a8e2204b56ef8d8d2369d45ebaa669"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/fit_A_distribution.json",
+      "bytes": 863,
+      "sha256": "deb43e576304d59dbce0d8ee5065d6be67f197c68554dde88e35e5fb1de453aa"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/fit_A_identities.json",
+      "bytes": 4869194,
+      "sha256": "057f5182ba2d4e1c54317ac89fce45f36dea4298a2556686ec07e7ef922f3750"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/fit_B_distribution.json",
+      "bytes": 865,
+      "sha256": "d814b6d1c271d2e9ddbcbfee490aac0dae3c98c876eb58b7591f8e63228d4c93"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/fit_B_identities.json",
+      "bytes": 4869156,
+      "sha256": "8f1a27d8f50906f00c5d6744ffee2a204f66a0c6d5f9fd1e8e12a53d4a89e21e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/launch_receipt.json",
+      "bytes": 716,
+      "sha256": "d2031c8ccc967e2321ee5fb3c0ce1f0940f4a05c5bfd22bdc2276bc159b33291"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/manifest.json",
+      "bytes": 251905,
+      "sha256": "aadb04bedfb11b383bbb058b5c195fb0252c685be659dec388d602659e0fafa0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/paired_differences_pp.csv",
+      "bytes": 1871,
+      "sha256": "76756e19fb5bd212d9cab474cc67a60956da86be1aa673625919872f436a0205"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/power_audit.csv",
+      "bytes": 1597,
+      "sha256": "e2474ea6b7eaf63e8ff6c6f76ed75d70ea90d9d560350ce7c1f5c2503d32f0f5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/power_selection_attempts.json",
+      "bytes": 2662,
+      "sha256": "515bef9cadb53388a47d239812fa58afff76e38e41a7218644ed4e6585a0c228"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/preflight.json",
+      "bytes": 10598,
+      "sha256": "48edb9d3e4427de41bfbf8dcd85bdd84945d3fcdaafd473802fd090be2809e66"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/quota_audit.csv",
+      "bytes": 1637,
+      "sha256": "3ab8e18c453737fc6a3b2f0ad95a27c3bd6154ba0131e5db006420f98a866d6d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/replacement_power_audit.csv",
+      "bytes": 1373,
+      "sha256": "771b8561ecfab253939200254057b393f27686210b3bc832e85695da04ad8baa"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/runs.csv",
+      "bytes": 1556,
+      "sha256": "2cef5b92fcb971faf6678c3d5db19ad563d82deb5990ae610ed8f66566039f94"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/runs.json",
+      "bytes": 14556,
+      "sha256": "714486dc658cfd199db11f53db52d06c3157be2cfc670ac632e59d2f6d7e8c5e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/smoke/preflight.json",
+      "bytes": 2025,
+      "sha256": "59fc9ee41457a671a4597a8b8c03c182d6f86562bfad32ec435fa2c5dfe75ad5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/status.json",
+      "bytes": 4945,
+      "sha256": "1c0af321cd9f0777b4f59b1b220b16cc69974684f8c4e011c8bb3e6978c29fbc"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/local_20261106_01/thresholds.json",
+      "bytes": 2044,
+      "sha256": "6dc2f9f3c42164c1f9d6924d1b13eee2bbdc24c8ebb3716cb4e76d5428edf408"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/results.md",
+      "bytes": 6482,
+      "sha256": "895ee48e3892b7a66f769a65e6b8fe1fe2ef5f74efb59a6a804f0c17a3c5aac2"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/run_lt_abc.py",
+      "bytes": 25517,
+      "sha256": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-01-lt-abc/start_local.ps1",
+      "bytes": 1100,
+      "sha256": "c85165d3f32cc2759df73c49b673420f024b24d4f8d6430a9a672003169a7d4f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/artifact_sha256.json",
+      "bytes": 746,
+      "sha256": "c3b9f305b7c8e68e7b53259ac0379deb7a5f29180ca9beb9ce301636e8ca8364"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/checkpoints_10_150.csv",
+      "bytes": 9282,
+      "sha256": "409bed3c6d54bd53a3c4586edb2cf6ad95c8cca4eb7ca56d5096a2c55af017be"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/curves.csv",
+      "bytes": 83167,
+      "sha256": "29624d29b85aba55c474a76d99949ca530f1594e54d9e28e4739bb92cdb9d568"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/eval_loss_comparison.png",
+      "bytes": 134236,
+      "sha256": "4708b690f805624630be6ed53a323c2f87b4dbc6e75f6b7e4224cca88e5bbb91"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/horizon_selection.csv",
+      "bytes": 1409,
+      "sha256": "b00730177679499ea28b7bef4efff2525815155a4b4352c8b8641a2b5997b237"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/loss_curves.png",
+      "bytes": 655318,
+      "sha256": "8530d25359ba857522aa91595160ddf233d20ed036c85567623ef8475e030a24"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/make_chinese_report.py",
+      "bytes": 6348,
+      "sha256": "6afb6bc3f7c4f2a7af74c514e9d58ecf46c2f551fd3b75bb0a4f71ead6f6b0be"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/plan.md",
+      "bytes": 3222,
+      "sha256": "2f00c2983a310699cd0471231bccf85a4d649a1d0d27c468a263b163f8bec93b"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/preflight.json",
+      "bytes": 1254,
+      "sha256": "20199b900c8dd8908698dbb0f7ddf476003f437b7bc93b63ff7a8d908f1ac207"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/render_curves.py",
+      "bytes": 2660,
+      "sha256": "4594dbd784f3ce70c060e3a5cd8833ce39678a73a04b30d618f9eafd0f0d0197"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/results.md",
+      "bytes": 3600,
+      "sha256": "73e31ebda34286571d7ed8bc59c6fbf4c1ea99e7f22993f2aa957e1dee077e56"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/run_epoch_diagnostic.py",
+      "bytes": 12224,
+      "sha256": "da076d3febd2134b9591ad44ddab16285d6d29d3ac0961e6333de1a05c86a448"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/selection.json",
+      "bytes": 6312,
+      "sha256": "c3b323566d14c3ada560e68f30c1a7519b8243769d8df574da53e1989ab3826c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-02-epoch-diagnostic/summary_checkpoints.csv",
+      "bytes": 1171,
+      "sha256": "d586fa25d00e51071769e625b27fc5fa9adf77255892d4a75906f5b41773ce6c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results.md",
+      "bytes": 1491,
+      "sha256": "93f15231fe0daa50996584bad5baf971d3a15d3e9ff0f371187c0cdc48ad724a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2050/capacity.json",
+      "bytes": 3016,
+      "sha256": "48f8dfea115ab1e9e9f1510850fd768fe773ebb66d18663aedec4e606c8beba1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2050/history.json",
+      "bytes": 73150,
+      "sha256": "419d97f3f0c1c47c4b691ba00b7b4600038566754f7a4bcf9828e7185dc763a8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2050/receipt.json",
+      "bytes": 1377,
+      "sha256": "ea4c934cd861cf1399119726394eea16785d510b182808e85b85b6a8827766a1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2051/capacity.json",
+      "bytes": 2993,
+      "sha256": "15e147a5fe13d56b247311a7cad4fd99928257c6620bf7000d5b34823cb19cf9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2051/history.json",
+      "bytes": 73136,
+      "sha256": "4f146d7b55921d3a456d1dc09c19c9b6b827c48f1bcb49fda15555b830e8af80"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2051/receipt.json",
+      "bytes": 1376,
+      "sha256": "936663536d0b832888f02fb8001b34799d2d6fd504a4c6e937f6cbc0e3839e39"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2052/capacity.json",
+      "bytes": 2976,
+      "sha256": "d10920780930614581577e7b095ef65eb076d9b7b7781485651c32b637296ba5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2052/history.json",
+      "bytes": 73140,
+      "sha256": "87a516c5657813a604f715f16045e993d87575f060434f175b78193cd1f530cd"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/A_2052/receipt.json",
+      "bytes": 1378,
+      "sha256": "0916802727beec03ea6708e382f2b23002903783107b86dabfff39f978c97238"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/analysis_receipt.json",
+      "bytes": 289,
+      "sha256": "af766183346a95d6a24ba0c2fd134194c5dc13093e8d00276edc3c094d574a14"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/artifact_sha256.json",
+      "bytes": 567,
+      "sha256": "4488d89489322baad97c1fe014066a0fb8975b633c05abe0cde20e16a66911cf"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/curves.csv",
+      "bytes": 88725,
+      "sha256": "2f888b73afd3aeb8d716e674c7e96764602999a63c35c22fc475bd2068751890"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/horizon_selection.csv",
+      "bytes": 1202,
+      "sha256": "1c0b1419f2da5a84379635770fe2bed17a61eee8b48e437b794cbecf68b9b700"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/loss_curves_10_160.png",
+      "bytes": 429530,
+      "sha256": "c02de92b7e2a7bc00509498d1b9333c15b5a70843ba41ed8e55c31556e508d60"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/protocol.json",
+      "bytes": 1068,
+      "sha256": "a531f16f846f57851b4d183368ba8f54f756042c5f92084c42f80945c3aa8ebc"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/selection.json",
+      "bytes": 16057,
+      "sha256": "8ca4ae6ab2762beb1897b26ab80b26358253df413d933b42ddba95c8b07d0a81"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/status.json",
+      "bytes": 120,
+      "sha256": "c2b352cdb5c3334610a57106fed21bd4352b91d937f56997cbc18068c431f10f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/summary_checkpoints.csv",
+      "bytes": 1794,
+      "sha256": "bd8ad9de729c54f057fe7918c08e63f4ccabdbd9dc81bf1b8c22f1e81a5c941c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/results/training_loss_10_160.png",
+      "bytes": 148367,
+      "sha256": "ecf8d33f0a53f3e160e179897b50cad1c365a5341f3836883e281c3f1ff5c18a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-03-epoch160/run_epoch160.py",
+      "bytes": 15829,
+      "sha256": "90e34eab365d4b84f80e4d5bb8d94f6627ce438b0409e7b71046bb2b32ac8ecb"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/GOAL_PROMPT.txt",
+      "bytes": 6321,
+      "sha256": "b96d28b7e7fa7cfaa86e1887c4abc60e09af3dd3b305195959c859d59a2af08f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/RESULTS.txt",
+      "bytes": 6329,
+      "sha256": "36dc458d0f03ff2994ea0621206de92f627df25e6e9731aa956b1d465d5fec00"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/continue_goal.py",
+      "bytes": 3357,
+      "sha256": "e5a4ddc6d17bd80d74b96df23fd345f25ec81df5ae717c66888545b8efea870f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/delivery_sha256.json",
+      "bytes": 5060,
+      "sha256": "8c532325334024398b727323e9f792c1475cafc4583089a1a0b81ff073e903cd"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/generate_confirmation_candidates.m",
+      "bytes": 2714,
+      "sha256": "63e9bdbf670bfa9cb7c355860712c58f25fe12b1b4a9f19b7ff9fcc6520d1098"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/prepare_confirmation.py",
+      "bytes": 5890,
+      "sha256": "77209c23abdad80bd07c825d226ad0cee3af9d124de2f576c623645c1e77d49b"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/run_bce_goal.py",
+      "bytes": 24276,
+      "sha256": "15b6e20b52b4aaf15610d2bf73425863b6ffc858fa727d82b2191837b81961af"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/run_resilient.py",
+      "bytes": 1584,
+      "sha256": "1dc5dc228f515340608f44920fe9f973cdbdfa465fe24659f55fb7a2ae94ff91"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2050/calibration.json",
+      "bytes": 646,
+      "sha256": "d307f8709a6a76761904b329eec3c619c42990d27cb4727365a311ba765ce839"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2050/history.json",
+      "bytes": 11323,
+      "sha256": "eed7b840a8297df09ee236db9dc83b5e6b342395e0f5cf55e40c530e6e03c60f"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2050/receipt.json",
+      "bytes": 3502,
+      "sha256": "1ff3003b8d7e5bea5ff8f85471fde3e9627b8fa11f210275629b39adaa63328a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2051/calibration.json",
+      "bytes": 593,
+      "sha256": "11059f29d604cedb463c6b97529a7bb071fe1f86638c5203783e1a01ffb1baac"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2051/history.json",
+      "bytes": 11331,
+      "sha256": "052f1f85478ea6fc01f3c6c5e490eaf942b40a666a2439d4cf79cf611733aae1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2051/receipt.json",
+      "bytes": 3502,
+      "sha256": "c13e65e9c682f122163e91f560e2e17b4d5670362e2cbe05023819643badd11d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2052/calibration.json",
+      "bytes": 621,
+      "sha256": "ede051ba595c78020807b1cc6feb5292f5c10b9bbd257393df8509fc861b9240"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2052/history.json",
+      "bytes": 11328,
+      "sha256": "3ad070400d04996dbb971a33ae07f86b5cab0f493abee0251f57d4c78b398d66"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/A_2052/receipt.json",
+      "bytes": 3501,
+      "sha256": "f105282ef42b1f2a9061b887e10bc7b6fc79300b126e1180ea7f8faee415219d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2050/calibration.json",
+      "bytes": 633,
+      "sha256": "96bea5369bccbac398e1b361bc81d62a88030223a33eb2904fe22df5d2f3bcf0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2050/history.json",
+      "bytes": 11890,
+      "sha256": "3855fee9b51755c688abcff4754ed8e4b1d9b11f03da53de3496bd6d6273ad50"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2050/receipt.json",
+      "bytes": 3500,
+      "sha256": "582c19e74fd6bca0c8c37e13d3176bf9479c191315c158b90abd13f101499750"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2051/calibration.json",
+      "bytes": 617,
+      "sha256": "66de4ceba9c18d266d12f08226aebc6b1fdcc3b4336c6044c0b21c19716c82fa"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2051/history.json",
+      "bytes": 11885,
+      "sha256": "8f1b1b1f35ec211f5e66f2ddd5cf6ee42b64b5a402fd04906437795a8d143f1e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2051/receipt.json",
+      "bytes": 3502,
+      "sha256": "4bd6f117d77737d0efd68773c7d85bf40374504e9b5cc7ab999ea8120e510dc6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2052/calibration.json",
+      "bytes": 606,
+      "sha256": "defb12c66b80c81ebb226806e16ed4bd5eb6947637a243ec72321bd22217d451"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2052/history.json",
+      "bytes": 11888,
+      "sha256": "eb1a6bccff4b198108601946d7bc58c452f07e53abed4aa14808310f1b8d7f3c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/B_2052/receipt.json",
+      "bytes": 3501,
+      "sha256": "3fd71e27dcfdee7b0ca5d5d3fc1db4ee92c8ef2d74f321ac97fb4de060b7d8c6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2050/calibration.json",
+      "bytes": 618,
+      "sha256": "6d13296dadf63ea159a30affc8768bd948318b15bbda6152dda678d138ee5a16"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2050/history.json",
+      "bytes": 11303,
+      "sha256": "8320dfe2c4e36420abb2fdb4423e7e15b388c49e03095287b1532c0d39a5ff5a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2050/receipt.json",
+      "bytes": 3501,
+      "sha256": "c1779d84b2aa3c765107c1022d2a60ecae1da1ae37f26c0c1716fb90db694e51"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2051/calibration.json",
+      "bytes": 637,
+      "sha256": "3fd5a69cb9e750e6786bdb3b75229c8b66e6995532360cb8cd1b236c1caebd83"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2051/history.json",
+      "bytes": 11307,
+      "sha256": "7c8c71c6c16f009664d1bc5bb2ad18029f3e45c5814d6dabc9fd2de892b7f854"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2051/receipt.json",
+      "bytes": 3500,
+      "sha256": "4ddaff23be264783cccbac15ebd30a10ac9aa15d97033674340da1df297ae22c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2052/calibration.json",
+      "bytes": 634,
+      "sha256": "a1dc520826765f357004e0887c3d40576f07a9aaf61e2e6e55d8321cc817b724"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2052/history.json",
+      "bytes": 11299,
+      "sha256": "830bd46ccb039c01c835b7573a9ceb862617e40907fbf7136c8d0ff967d7f6d0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/C_2052/receipt.json",
+      "bytes": 3501,
+      "sha256": "d3984922556087d341bfb66326426688992ae43b678cd1482983ac51ad5cd2ad"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2050/calibration.json",
+      "bytes": 608,
+      "sha256": "32c0b70c0bc3f73c907bc8c6e49bc431b90a947840f6c38d8a1903ee72655ad6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2050/history.json",
+      "bytes": 11864,
+      "sha256": "2cd56c218a7478e084d580ab347122d2ed277f87a8532a5eae663d3d755dd268"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2050/receipt.json",
+      "bytes": 3502,
+      "sha256": "65248a034c674abcb1a5b9aef57581bb281b1fd7a19f1843468490d86e13fe7c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2051/calibration.json",
+      "bytes": 621,
+      "sha256": "3772742b05c66c3e23a12838cff2ea351aaa368e8fd03a29d939df69c407f1fc"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2051/history.json",
+      "bytes": 11882,
+      "sha256": "470153382aa3ced182fd50536e5a16172ecd9bede01798a9a3c36ee5a25c9523"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2051/receipt.json",
+      "bytes": 3500,
+      "sha256": "3bc3a540a646768716f9d7ed7f3dc3769b403cf9a762314c44cd532397bfa12b"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2052/calibration.json",
+      "bytes": 618,
+      "sha256": "f36490c91fd7a0e70af8ed50c48dee8f509561f075315b9843d1ca4f74f0ba39"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2052/history.json",
+      "bytes": 11873,
+      "sha256": "9561bf99ca8da5307efb09bb524e6e1b00dd506045af078aa6f47c409f36cecd"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/D_2052/receipt.json",
+      "bytes": 3501,
+      "sha256": "c176c412552c0bad47779d4792484bc02e2590f77d30433c4583f917eb1c774a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/artifact_sha256.json",
+      "bytes": 919,
+      "sha256": "c014dd9d219838250eacdb563f632a6645d394a2359d4b4186615a9c61c77f68"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/bce_comparison.png",
+      "bytes": 79001,
+      "sha256": "7c2afe2a0992d6e3d5c7dd1e426f52711b507e840573dcd5b86c774183bcf291"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/decision.json",
+      "bytes": 5241,
+      "sha256": "d8c8d154ea646135cf7e903c30f689a95f919f90344640beeee86648a4b9440a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/evaluation_combinations.csv",
+      "bytes": 74929,
+      "sha256": "7a5a53fed6cad3f23e3d574715b8be943ed5bf1d6db6394f28a925c4100569f1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/evaluation_labels.csv",
+      "bytes": 17278,
+      "sha256": "20327746a879cf10756d74e46a33dda5306bf042ad646822ccade08af46c12fd"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/evaluation_metrics.csv",
+      "bytes": 5715,
+      "sha256": "d0f26fbcfb0f3917ffbda1eefc9194f75e67c545d2a67d6423b40797bd5a80f5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/failure_1793953276134680100.json",
+      "bytes": 1329,
+      "sha256": "6f650e9d995e5beb11f3e358de22f30ef3540efa85844919b04815519c691842"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/freeze.json",
+      "bytes": 8990,
+      "sha256": "05720ee9caf0a20137c2622dd87fd84ea14b1a27ccd9c3e7322b125409f1b267"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/io_recovery_1793953359622668000.json",
+      "bytes": 711,
+      "sha256": "23edc74bdb39a51205adc024f8ba62d0de29dcdf800a387926944af299cd46f9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/loss_decomposition.json",
+      "bytes": 1018,
+      "sha256": "88588bfa819326872f65e03e9bef33dda4532d2e1354e51947e440844cb306c9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/preflight.json",
+      "bytes": 976,
+      "sha256": "a1b55f44e8f8edbec8f3168895a0dba2e8a162d70ee5eed306d189f113a526c8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/protocol.json",
+      "bytes": 5886,
+      "sha256": "2a64736a4a760293bbb6699980511eac0fdee6651b92e376ccd867e7dd220898"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/runs.csv",
+      "bytes": 3539,
+      "sha256": "c7771a9fef513b8d0bda53484e7e4fea64f6cab7b2cb512288c39fa5b1683acb"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/runs.json",
+      "bytes": 43420,
+      "sha256": "44465ed2846cf5300bf0e7eef74895518bd05737aff3fed8e7c69dbedbdaeaaa"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/summary.csv",
+      "bytes": 3722,
+      "sha256": "3ed1c1c9152cc1189dc401a74b7e8ca8f40c1dd15cf4045afe347a7596eb8712"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/training_curves.png",
+      "bytes": 337796,
+      "sha256": "51cebd2204d9a9313038a9192b36e99c3dbad3b01af44e91c74aeb4cb1d05042"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/screen_results/verification.json",
+      "bytes": 498,
+      "sha256": "aa0a7d74e78d72dce694b66f848127fd76ed14d0b8356753aa31437ff691dcdf"
+    },
+    {
+      "path": "experiment-log/2026-11-06-04-validation-bce-goal/summarize_bce_goal.py",
+      "bytes": 6057,
+      "sha256": "1bddfca947e5c3271a37ec5b5d34e148dafcc14dfbd120f409938d51f1eac15c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/GOAL_PROMPT.txt",
+      "bytes": 8639,
+      "sha256": "8f4b95a1289421b2a602d181168f999d1b5ca18ec1907b17f4feed4a450e197d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/RESULTS.txt",
+      "bytes": 13181,
+      "sha256": "b2db330981bda6be9803a560c455518c3b0746530420552d4cc023d0d5982bba"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/analyze_goal.py",
+      "bytes": 27517,
+      "sha256": "f185685cacd8253c378faaa26c1587e5c0e4dffc53b410f4d5903a6e67bd7ed8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/delivery_sha256.json",
+      "bytes": 8234,
+      "sha256": "4cf6094636046b0ff6d022b7b1d4ae54ab4d03579ad341f227d77df463b5d161"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/execution_fixes.json",
+      "bytes": 1029,
+      "sha256": "545858ec7f576341ed00bc0ec8202150165424cc4da13f98675f4f4ef323e810"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/generate_fresh_candidates.m",
+      "bytes": 2861,
+      "sha256": "fc7faadea1d1bd4321b118cffcaf446a0402f48b42fb791eb2951e8a73089295"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/generate_paired_views.m",
+      "bytes": 8648,
+      "sha256": "d41deb832abfba640c3eae7b1c9c5e045ebe0cf1ef646c83690e95ab718e4183"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/prepare_fresh.py",
+      "bytes": 7363,
+      "sha256": "c17d1005835cb1498fa73e8d8bfbac283cda7db4cc94e5cb54516619a127b76c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2060/calibration.json",
+      "bytes": 635,
+      "sha256": "6ecccf4d1e524079ee4b2803bd324df544fdfb400ee60f6fafa26d9b801b1fb7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2060/history.json",
+      "bytes": 12716,
+      "sha256": "bf0832cb9cfb61a737a0b61a013eac3209835fae7cfa80ceacc922ebcd3ff3c9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2060/receipt.json",
+      "bytes": 3501,
+      "sha256": "562df0bd93880f99a25f783259666b948eec6a0052e9e300ba159ea9898ec408"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2061/calibration.json",
+      "bytes": 577,
+      "sha256": "fae42a31c1e845f3fb498d21fe63cbed91fc97914dbffe49fe48217c3e824b40"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2061/history.json",
+      "bytes": 12735,
+      "sha256": "7bf9cf4b9638430e8bdf7be5925bf291ec02402acbf8551076e03fe7b5ec4dad"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2061/receipt.json",
+      "bytes": 3502,
+      "sha256": "c10e86ca2de6fa483fd37c35b7c76c086419f24cf09c6fadd4dc1f7c52855f1e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2062/calibration.json",
+      "bytes": 637,
+      "sha256": "660aab49d7c56a233a5d435426e16a38654dd742ea78ced47f384c14902960c9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2062/history.json",
+      "bytes": 12721,
+      "sha256": "d84aea81af5c47b6a888a3c8b6b4152ddb2e38951469ab3fbf49c72ce7ba13e6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2062/receipt.json",
+      "bytes": 3501,
+      "sha256": "9b7c14ebf3b391a8483d779a1a1aae721279f4286c54657bdc7cab4631431f8d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2063/calibration.json",
+      "bytes": 621,
+      "sha256": "b29bd62ef88c6dad46ec0d4d35427815bed836578d5b3a64c5eece4c693d7210"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2063/history.json",
+      "bytes": 12720,
+      "sha256": "5df5ec3d3c840dbbff489e14328b8583cdce051fef209508e7e44872fd3375da"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2063/receipt.json",
+      "bytes": 3500,
+      "sha256": "a4b4702931767f3f68ef4d4a518a2e561b91e72c1c7f6ae669a3a9ee84e46cb4"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2064/calibration.json",
+      "bytes": 603,
+      "sha256": "45f4321abf9f11d1219a4985c81e08dcdff9151dff1c84fc88a78bff9bd8c30c"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2064/history.json",
+      "bytes": 12720,
+      "sha256": "c786741eb5b680640cba0130a35a2a1e3b6fd781f78273e16b6f39e9e4e7f04e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/A_2064/receipt.json",
+      "bytes": 3502,
+      "sha256": "1307a73f3c5f9aa0a1c7e503efac07de072609f43ee83e20f60365ca24daf637"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2060/calibration.json",
+      "bytes": 594,
+      "sha256": "27a787ee23cdec16f734b2f33a50bc3ed049a827dcef30e3aa3fefde3b46c600"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2060/history.json",
+      "bytes": 13276,
+      "sha256": "66b2fb12e6faddb956e8b2a11938133c6f84e17cf9d8f397c2d9e5f450177669"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2060/receipt.json",
+      "bytes": 3502,
+      "sha256": "9c3cf4ca9931db3c1a24c267c1538a1d4ebfd4f9633b0da896006429983f06a1"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2061/calibration.json",
+      "bytes": 609,
+      "sha256": "3848f1d31781683efa2bd182dda6ed1bd4beaf95a67fe9e308a32537c7240ca0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2061/history.json",
+      "bytes": 13292,
+      "sha256": "355d72cccca1db5f2d2a7cbf137ffaa0eb33c5d16438e86d35649a3258f6f2f7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2061/receipt.json",
+      "bytes": 3501,
+      "sha256": "83beb86db24d1a806a6b4a3e91e670e4308a72fae1999edb21d9ecfcb2186bf9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2062/calibration.json",
+      "bytes": 593,
+      "sha256": "83d3fbb95136a9fe0275acd15066a21de227c662a36c2fc7248f2bf271cfa534"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2062/history.json",
+      "bytes": 13286,
+      "sha256": "00450304acf6d908a3b77b0646044ac8c016554883b8ef118863e1b79153d04a"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2062/receipt.json",
+      "bytes": 3501,
+      "sha256": "3445ef5604d16a363cda8a22662bbeb73f0cb77fc679d7ae904b7f9219ddbe20"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2063/calibration.json",
+      "bytes": 648,
+      "sha256": "9558a830c4b739cf99b96aea514b3043bb62fb8271ca9aba166ce9884efe8889"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2063/history.json",
+      "bytes": 13281,
+      "sha256": "70d92026f4a043d3a4462ab07d22f200086470898ee051056d850cbe16865c13"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2063/receipt.json",
+      "bytes": 3501,
+      "sha256": "e1e2a62d4d73449ba5fbd627d3b63db974106a9f0254d8855a6292a292b22034"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2064/calibration.json",
+      "bytes": 649,
+      "sha256": "5c2a0f1e7961ad9ac9e490f77e798f7bfd1fe8a55c95e323d199e7a8a6279375"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2064/history.json",
+      "bytes": 13297,
+      "sha256": "990b289ea7107ff6138e7bcab928b1bf21a7953c1b511963d14bbb42504c3fad"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/B_2064/receipt.json",
+      "bytes": 3502,
+      "sha256": "cd35a7af37390193c716b03b2ffe1067db79bb771bbc63939abbc3bdaa3a92d7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/GOAL_PROMPT.txt",
+      "bytes": 8639,
+      "sha256": "8f4b95a1289421b2a602d181168f999d1b5ca18ec1907b17f4feed4a450e197d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/RESULTS.txt",
+      "bytes": 13181,
+      "sha256": "b2db330981bda6be9803a560c455518c3b0746530420552d4cc023d0d5982bba"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2060/calibration.json",
+      "bytes": 607,
+      "sha256": "8d4ed8bbc04b8393638d1244fba6f7c485f73e90a65c4c9e5dc7ec52bd476afb"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2060/history.json",
+      "bytes": 13414,
+      "sha256": "e5132bec73f02b2fbd5d23e9ea4a9af3ff835847ed889f79e37d0a9a76f43609"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2060/receipt.json",
+      "bytes": 3501,
+      "sha256": "d29cec547852be417ac6fde2a46fb3a3e7cee06173067178ad0d5863831ef972"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2061/calibration.json",
+      "bytes": 608,
+      "sha256": "d737c7b15426ec1e704d850ed7c78c71961db3e45a9c2d4f592f51fd0600d8ea"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2061/history.json",
+      "bytes": 13411,
+      "sha256": "71ee7016db850111fbd6ebfef25ddc478334d12dd98d7532d9dba009990211e7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2061/receipt.json",
+      "bytes": 3501,
+      "sha256": "688825e89ca752efa932ecc5bff878a95ba2065cc4a04e9e989dfeedbcba9bde"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2062/calibration.json",
+      "bytes": 595,
+      "sha256": "9c524ab356b60307333771bb5ce92fc14b8a13033e5cff5ebb05e00638e28921"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2062/history.json",
+      "bytes": 13408,
+      "sha256": "a895c241a4aa7f7548c14b14e2b4b1c80627654421336180508d8c905dcb18bc"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2062/receipt.json",
+      "bytes": 3501,
+      "sha256": "3c9695ad7f9a2af8414e247c4c9ca049f0c7c2519e7167c8f7357867cfecf6ed"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2063/calibration.json",
+      "bytes": 581,
+      "sha256": "113524730c5687ede3c34662ef853d9799f9340b1d494fac818ddbcfb0ae1e43"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2063/history.json",
+      "bytes": 13407,
+      "sha256": "2933b1ca8a459202321125d4a386d28d308ba1b3a6e45266945740f9d9bfdc69"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2063/receipt.json",
+      "bytes": 3500,
+      "sha256": "89d75a5c16ee43a1343053a1b56d9c4bf5a83b839b2ab1171b1613c15969f011"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2064/calibration.json",
+      "bytes": 618,
+      "sha256": "24dd2c0a3e4411cf0e319aa91e513996138d7158131ce53c9e8994bbda67e6d0"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2064/history.json",
+      "bytes": 13395,
+      "sha256": "1b890f26d6622ea1e878b0e3909d55116f80b8306f86be4acee378466782ab51"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/W_2064/receipt.json",
+      "bytes": 3502,
+      "sha256": "013a26056cda2f6b2961eae49e800945c383ec5630e8b6e95e3b8d4b77f7ff58"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/artifact_sha256.json",
+      "bytes": 20615,
+      "sha256": "02b78728615910bf8501410e936cefaeeb5d11678f5ccf2cc07e44b8bb843d85"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/data_preflight.json",
+      "bytes": 2168,
+      "sha256": "3034c72a0f6e599a8afb8da402f0d128174a1253f1c4343c9b48df38b2ba9535"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/decision.json",
+      "bytes": 3804,
+      "sha256": "4f71eedb9c8aa902662933d479ebd3162efdcb7e4b071833bc278af7cc9d6bc6"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/diagnostic_pairing_receipt.json",
+      "bytes": 406,
+      "sha256": "8915af61217dd64366ba49de06a8b96c380b41ab1de00f167cb4714304e736a4"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/evaluation_access.json",
+      "bytes": 201,
+      "sha256": "dcd76443ac60f95238b14f9e2099ccecf956561eb76e8b6c5d676e5692a6bcc2"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/evaluation_combinations.csv",
+      "bytes": 93710,
+      "sha256": "36ffab4b20b74827b9789e86fd6de0bb939c2dcccd9afddc4beaba072b35cc11"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/evaluation_labels.csv",
+      "bytes": 21748,
+      "sha256": "502604a97d877b047da965928cfe912ca10f8aa1f217678c1eaf0b8de6fbd382"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/evaluation_metrics.csv",
+      "bytes": 7128,
+      "sha256": "205bee8a3bc722c61bd1ab70f0b8f37cbc3c39fb620b01a4e06164f6bfe2754e"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/execution_fixes.json",
+      "bytes": 1029,
+      "sha256": "545858ec7f576341ed00bc0ec8202150165424cc4da13f98675f4f4ef323e810"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/fit_checkpoint_metrics.csv",
+      "bytes": 711,
+      "sha256": "383fd135416fb8ec051e1d03f9f7118409ed42f170c9b52cf1c096693cfdca48"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/fit_pairing_receipt.json",
+      "bytes": 327,
+      "sha256": "bc90879240a7d83d9677f3128ca301dac9824f9511ef9482ed5def87d688c992"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/freeze.json",
+      "bytes": 11059,
+      "sha256": "589d350ed530de3ac0f8088eaac62dba2653c64ffaa3d386e0470f3927fa8fca"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/independent_verification.json",
+      "bytes": 417,
+      "sha256": "87dbd4038c3945d064f59b3045246fac8389f24d6c2ade642511d96a8d499a28"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/loss_curves.png",
+      "bytes": 149821,
+      "sha256": "9e1318bda23f01469adaa43cbd701cf555f064d24ab792524b65ac7f8b87fddb"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/loss_decomposition.csv",
+      "bytes": 1111,
+      "sha256": "09014081480163570e0cb3f250e4f9be36e4de4a1761a004f31d4de4f21c3c36"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/natural_confirmation.png",
+      "bytes": 137018,
+      "sha256": "c39b370fc73cb8cf6c4f0f4c70e2d2a24126ba4df7642457c4e10b88d7a0b188"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/natural_decision.json",
+      "bytes": 3326,
+      "sha256": "6f3370225e936cc350c24f4353ae158096ebcf7d340232d558d2baca055944b8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/natural_slices.csv",
+      "bytes": 72968,
+      "sha256": "79e6adae58e6ff3b8206bb52a6a2fdc7f86eee20363125addc9212d7fe593a40"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/paired_evaluation_access.json",
+      "bytes": 195,
+      "sha256": "f98b4176e3fadaf57425cb754fecd66aa0b3e4e90ab5c0a480cf38197133d3f8"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/paired_power_effects.csv",
+      "bytes": 9571,
+      "sha256": "b0a38a5047dd61ef15441763676dc50f1cdc039c58227bec92559dbbe3bf9084"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/paired_power_metrics.csv",
+      "bytes": 47592,
+      "sha256": "5d1662577d1f728e18854db23d9e0e8f8d59e3e83da7b042681febb5de8b401d"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/paired_power_response.png",
+      "bytes": 111054,
+      "sha256": "8df3dea36cf4016539931ce4bcbb48c0d63577106c90a371e972e1a1307dc2e7"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/preflight.json",
+      "bytes": 983,
+      "sha256": "c621a02da0da3e6f93a721bdeaf90ddbc749dc6c0b0f75426a34441d055250b5"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/protocol.json",
+      "bytes": 14946,
+      "sha256": "2e7e2c04f972399a5b2b2bc08586a4672847812bd76babbc31cc59e234f9c2e9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/runs.csv",
+      "bytes": 4381,
+      "sha256": "118b722f08363780f2cb42b5ab2c69546b7756b7a5340b8b23c5ac411483a4b4"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/runs.json",
+      "bytes": 54276,
+      "sha256": "b966ec61a52cf5e82430ac0eb397238109ff0164c89efcb2e9db61bbd8d73eb9"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/status.json",
+      "bytes": 553,
+      "sha256": "bb0c83f649a9b73c598af691f907bf0f7ce1a1122d53aa71e6dcf796a50aac02"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/summary_metrics.csv",
+      "bytes": 2259,
+      "sha256": "575f1b88363a3860d611832c2cb3cd8ce7441dfb2ca439b14662f79dec660478"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/verification.json",
+      "bytes": 457,
+      "sha256": "b18874befad71c287d0cd89d3eca1656764b2967a31c84287d86023dff347b2b"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/results/weak_target_natural.csv",
+      "bytes": 1172,
+      "sha256": "4da0be3760bce88398e79d35748abac392fb84bc90d0b4703e076ae1d2806685"
+    },
+    {
+      "path": "experiment-log/2026-11-06-05-weak-component-goal/run_weak_goal.py",
+      "bytes": 28175,
+      "sha256": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795"
+    },
+    {
+      "path": "experiment-log/README.md",
+      "bytes": 3023,
+      "sha256": "7355bef43bbdab7badba4e1446ee284acec5897a8e9d35e9c75f42babdb127e6"
+    },
+    {
+      "path": "experiment-log/REPRODUCING.md",
+      "bytes": 5357,
+      "sha256": "46af2f01b83e45f4c6981441e294da7b269204a6e1e045c103004e3d1fff0f4c"
+    },
+    {
+      "path": "projects/longtail_cpu/.gitattributes",
+      "bytes": 117,
+      "sha256": "65c256b5af181cac0b8025571b7f0be12f52d9ab15a220559b0a8b425d274e9c"
+    },
+    {
+      "path": "projects/longtail_cpu/.gitignore",
+      "bytes": 294,
+      "sha256": "317c1d4b56f0065dd77a1bf26bad7d77e536c8d6a3732ef338f95b85729eb4d0"
+    },
+    {
+      "path": "projects/longtail_cpu/.python-version",
+      "bytes": 5,
+      "sha256": "7a41a41354ab8049091ef1a00253ca00567f5a1d3f9aef5502c0b4b5ce9ae707"
+    },
+    {
+      "path": "projects/longtail_cpu/COMPARISON.md",
+      "bytes": 2541,
+      "sha256": "f8aa9e97dc7686a3b35591f504d100fc369c216ad5ec4330c97acb3b5e68a4c0"
+    },
+    {
+      "path": "projects/longtail_cpu/README.md",
+      "bytes": 5482,
+      "sha256": "fbd33611a3235070b4cd36c6ca35ed6f4e8d28489cc7237d3025843461fda09a"
+    },
+    {
+      "path": "projects/longtail_cpu/README.server.md",
+      "bytes": 80171,
+      "sha256": "1226fc9efe44427089a32a353c6c2d4804ba8573f0355f10112e985c435b4751"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/baseline.json",
+      "bytes": 205,
+      "sha256": "97d3cb193df770735ffb204e1fff3123e28d925cc3a9da028d9723c58640843f"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/historical_stage_a.json",
+      "bytes": 379,
+      "sha256": "82349484648a971d1a0e1f1e3ca12847be6d88a95a609b990ff08b818d346c46"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/joint.json",
+      "bytes": 242,
+      "sha256": "d2ac5b29278dae9b5ce84f54b4095bd86c381177a7fa98ac12355d8a9c7fd9e4"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/joint_equal.json",
+      "bytes": 193,
+      "sha256": "d068c770a30bd85a462d408488fa579285b17d4401346de49424a838e9268dd4"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/joint_transformer.json",
+      "bytes": 174,
+      "sha256": "b9f52442cb1800491aae6b575e8fc5ea352dd8001e710c18cf5eb389bf162475"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_combo_sampler.json",
+      "bytes": 167,
+      "sha256": "292eaa52627eea0da50d756d98d6342236913c4b1250b96c4335a727c8bd259e"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_fresh_cpu.json",
+      "bytes": 506,
+      "sha256": "b0cfea3fec9dcce7d43ec32e0428c3dfab2ae913bdc788445211d5b7f2d22858"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_label_sampler.json",
+      "bytes": 167,
+      "sha256": "52087a056d4a7ad8e56b937f677259114c05f32b8c422b82dae5d33595d28ee2"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_logit_adjustment.json",
+      "bytes": 172,
+      "sha256": "ee798ca07dd42a8e81ff7afed8decabd49dd13b718aee015a06fbf42f5863b47"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_mixed_combo.json",
+      "bytes": 159,
+      "sha256": "58fb517429d1a5445276998b2b887d1f39fb25833027a0d56bc710052ed4c1b4"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/longtail_v3_weighted_bce.json",
+      "bytes": 164,
+      "sha256": "c194ec66109f302a3a39116f4ef97a87a9a1b993923fdc0c795b9c8147a1aed3"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_evidence24_cpu.json",
+      "bytes": 173,
+      "sha256": "fb409be3ce50a239c9d0f9c096b6e8b4269dafd186b1bca63e877ac0d365f1c4"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_evidence24_fused.json",
+      "bytes": 210,
+      "sha256": "e711958a2b6fe0a823b34254f62f191c99d9fdf12546e33e4e1a5656838bfd31"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_evidence24_single.json",
+      "bytes": 240,
+      "sha256": "79dde88e1f7e333ed713d3919b6663ca1e9e235a6cfa795666ebe13785d6c17f"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_evidence24_uniform.json",
+      "bytes": 206,
+      "sha256": "133eb486b29c6abc5ebe4afcc7dcbc4074aa33c921e7ed587f3cd61dcf714844"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_route1_capacity.json",
+      "bytes": 171,
+      "sha256": "b1fd5f6b646f704841569e8ad131770b45d99279189e3e7cedf783641e486f56"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_route1_cpu.json",
+      "bytes": 222,
+      "sha256": "4ec9527ca418aada42a9873d0f649237c0e243a2eb891666af2ca2fc25c496e1"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_route1_multiscale.json",
+      "bytes": 240,
+      "sha256": "6682c554d01d1c9e147a42c01e5a029cec0b7bf99163237b157bdce38ae27cde"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/query_route1_single.json",
+      "bytes": 230,
+      "sha256": "5c36853aaf5459bc06b73d411a9e0e7a757fefea29b2fe82fb9239b71031e055"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/smoke.json",
+      "bytes": 205,
+      "sha256": "8df051ee93fc4ac8b36da8686b108993ef04e696b8eb68842428ac08170a6135"
+    },
+    {
+      "path": "projects/longtail_cpu/configs/transformer.json",
+      "bytes": 179,
+      "sha256": "e4818d34ff706c5248aeb5147d7e5d97e7a2b6886a08515866402706a3522488"
+    },
+    {
+      "path": "projects/longtail_cpu/data/backup.json",
+      "bytes": 929,
+      "sha256": "d69a1eb58c1cf2987dad0f339bf9aa1e19046a94115d0db88532589277417fab"
+    },
+    {
+      "path": "projects/longtail_cpu/data/baseline_validation.json",
+      "bytes": 1896,
+      "sha256": "96a84fd173d5c92fea3edebe6780c63506096751331b207171909adbef64bb21"
+    },
+    {
+      "path": "projects/longtail_cpu/data/dataset.json",
+      "bytes": 2872,
+      "sha256": "347981e281dea38230388b58dc30e3e4bc798b3ca8a68f1c1524a38eb079af1d"
+    },
+    {
+      "path": "projects/longtail_cpu/data/dataset_preservation.json",
+      "bytes": 449,
+      "sha256": "031e83a7377fa3310d0262695b8cf25b6028932cd9f9912018cd156fffade406"
+    },
+    {
+      "path": "projects/longtail_cpu/data/joint_generation_plan.json",
+      "bytes": 4196,
+      "sha256": "2c01a81765f7451e70b6418e8262ba09640d503f70baa25287346622031b4813"
+    },
+    {
+      "path": "projects/longtail_cpu/data/power_truth_audit.json",
+      "bytes": 5844,
+      "sha256": "7cb3c3a3c6b931f46eee176d770cf853d458a9ac9f6aebc8167dace2f0b3f7ce"
+    },
+    {
+      "path": "projects/longtail_cpu/data/source_snapshot.json",
+      "bytes": 7508,
+      "sha256": "5ba63eb1984723c4df9165f00eae7d353ec339d2d841f0c293dcd9c0b678f318"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/artifact_manifest.json",
+      "bytes": 45070,
+      "sha256": "5be8e570994440abcc11d7d2e72ef7c868569f848c5c20c2d964c99a8076dea8"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/calibration/summary.json",
+      "bytes": 53565,
+      "sha256": "8cc9d09ddc00ddc1d7d6baba847033a8c8c2f49f778c3af03c0353efca46b4d3"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/completion_audit.json",
+      "bytes": 1512,
+      "sha256": "28a19b738314330f9b22cc014d9c4db1228f360c3c99eca8ac22255cc4f43652"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/pipeline_completed.json",
+      "bytes": 1811,
+      "sha256": "38d0762e676613b76254bb4f1c8171690593707ec09e24dedd4f6f8d3f4d3e02"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/plan.json",
+      "bytes": 49492,
+      "sha256": "41ac87289f607b846c03e56445130e3c00e1d0d11ce472747338bcb866d6db4f"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/selected_models.json",
+      "bytes": 8073,
+      "sha256": "96c7bc1c48f7218322fc6dd51bd5de4783b61a0975da0551efbf3aed01fbc526"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/calibration_targeted_cpu_20261104/targeted/summary.json",
+      "bytes": 184806,
+      "sha256": "ca47f5e80fcb1f00104ab2e4604d0d3aaf5e4711e12122d9a525262ba5f17dae"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/combo_optimization_cpu_20261103/pipeline_completed.json",
+      "bytes": 243,
+      "sha256": "85b5f602541ca5aa88644f63ca64ddcd86a9cba78a86e61123bb212b994a3f3b"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/combo_optimization_cpu_20261103/plan.json",
+      "bytes": 27810,
+      "sha256": "ccd124c97bf720513816aadb8874c5ce62edb8b0190e2a8ffdc7afcd1e8a5069"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/completion_audit.json",
+      "bytes": 315,
+      "sha256": "cab046bfd48ba685098d82ec5d5465dccdafdc6cb8ea50df4a05009a883c76ac"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/frozen.json",
+      "bytes": 10921,
+      "sha256": "35bed341ae84840c212fc97081c131212b38555071188994e794d43523b35ed8"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/pilot_selection.json",
+      "bytes": 3136,
+      "sha256": "843f471fc1f73a9d6d367e80265f3477ee013fdfa9d3217193f41270e0d3d839"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/pipeline_completed.json",
+      "bytes": 515,
+      "sha256": "bf6d9cc5765377a19b458db07cc5ad428a42905bc6d88b66186e69f82dd1720e"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/plan.json",
+      "bytes": 70448,
+      "sha256": "5db6341305c58d22b34a49d4dd84df603b7e7a167ce495f0a310cb8e13b98f91"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/selected_models.json",
+      "bytes": 16434,
+      "sha256": "4f303bbf5e4402706856ba8282da36bbf8056d6d24c52d0993ae3dde70514687"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/selection.json",
+      "bytes": 3534,
+      "sha256": "6a20cc1262135cd3f8e021f043e3178d0c5b5f9a1db88ce9116fb18550c9ab18"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/startup_acceptance.json",
+      "bytes": 1478,
+      "sha256": "fdd0fba1c1df6987a0a44ff2bbf14ec2868b9c9a98871c60683e4753396bd36a"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/isrj_segment_cpu_20261105/summary.json",
+      "bytes": 37592,
+      "sha256": "02fafcbd9332882ee192e0fd3651376217b839855b0cce024f69f9a240893fa5"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/longtail_v3_controls_20261102/plan.json",
+      "bytes": 42348,
+      "sha256": "1c07a725d6d9b8dc9009b9df19af3a3fb6a36fc4c47247f1d0eafaead87c2888"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/longtail_v3_controls_20261102_exact/pipeline_completed.json",
+      "bytes": 241,
+      "sha256": "b5be4bd8e71a74a32dd648ea12c701c2749b3671265c00b88f3eee9d627ef159"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/longtail_v3_controls_20261102_exact/plan.json",
+      "bytes": 42690,
+      "sha256": "cc2ef3fce70bdb474d9ac43d42214e5d9ef8c38646c62f56b1b36709bbaf2ca3"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/longtail_v3_cpu_benchmark_20261102/summary.json",
+      "bytes": 12485,
+      "sha256": "898155731f3551f90fbfb9d662c32b3fe645dd056d72149a863149a363b58ec9"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/query_evidence24_cpu_20261102/completion_audit.json",
+      "bytes": 344,
+      "sha256": "95322623430f487d0de62875a7b101c448bfaab27ee113087c1f7348cc3d9a95"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/query_evidence24_cpu_20261102/pipeline_completed.json",
+      "bytes": 241,
+      "sha256": "ff0a58e2dbc537ca5d33a4a5751fd911690a4e9af171cbdb1908887f0e925e74"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/query_evidence24_cpu_20261102/plan.json",
+      "bytes": 16219,
+      "sha256": "8688623eddb097c82c836dcbca62770027c432bc3705e7bff61ff5feecc8d225"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/query_route1_bottlenecks_20261102/plan.json",
+      "bytes": 3887,
+      "sha256": "203fff78ca68224a70e69c7d7cdf7bd2b158d0cecaeeec6162e35d4ba4503470"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/query_route1_cpu_20261102/plan.json",
+      "bytes": 12383,
+      "sha256": "df543504ecfaa4b405f27f1bb881cae9df8009addc04c4d9873ac796664ee0e0"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/completion_audit.json",
+      "bytes": 5851,
+      "sha256": "1ad2bcb7ad42f0e27155dae599c8169e01e54805e7a59768b0d3a12ebda43bec"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/pipeline_completed.json",
+      "bytes": 6598,
+      "sha256": "ae6a35d459d66072ceff7b0fb161c4786f69f3679e2b34dbb97c7d116df9f59c"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/plan.json",
+      "bytes": 34532,
+      "sha256": "3ea383be9a1562320bf88523e06e44ba25841e8e996a11b1f853246d2de79355"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/replication/summary.json",
+      "bytes": 65859,
+      "sha256": "eb21155ada0059c526f83d7bf0924fa826db15b1ea94a8b3dc85968ed84d21de"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/retrain/summary.json",
+      "bytes": 36772,
+      "sha256": "4c2548daf7f1594e59d094f981df4a66a27e0f8025ebaf996c2ca6cb5527c916"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/selected_models.json",
+      "bytes": 13106,
+      "sha256": "b0bc7e8049734692fb374a1b91ca1bef76da4707405dc48f3ce683f06de2575c"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/replication_temporal_cpu_20261104/temporal/summary.json",
+      "bytes": 37944,
+      "sha256": "da1894495409f035c77adb7419b15da3af0579cd04bb20ead9c59a4b80fa6da6"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/completion_audit.json",
+      "bytes": 315,
+      "sha256": "912d841f239e09d7f170fe12e37e22d9fa10db6f9071823e8f5e2a3d6cdddb77"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/frozen.json",
+      "bytes": 11847,
+      "sha256": "60f13f7a140e1831ea4b3a8b5f32892923e6b767cfd1555a9152fbaad692243b"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/pilot_selection.json",
+      "bytes": 4037,
+      "sha256": "5c04e65d9b7a62af4564cf4666bb087dd5ab70d002dba4d4598352362fd7ab35"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/pipeline_completed.json",
+      "bytes": 512,
+      "sha256": "8613aaca8703dfa76fa2e0aac441506d290ef03593f1bc19bec7ba44e3c4f48d"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/plan.json",
+      "bytes": 100658,
+      "sha256": "05ca797b2d6cae80c335fffdf108e2964e01947e3f663ca20458b3bdbc041bb2"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/selected_models.json",
+      "bytes": 21047,
+      "sha256": "d5cba9ac44a820b5b51eea940fb9feb6fccf625a699fc12db0744cb8e98799d9"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/selection.json",
+      "bytes": 3474,
+      "sha256": "e2019b6848d744d2edaf0e6c2e83f11033500d1011f781a73c0b2c1ec9c2c76c"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/startup_acceptance.json",
+      "bytes": 1433,
+      "sha256": "6b7199d27a1b2cd1bd345d6e63df91274b6f98d3dbbf824e3d675f04b414c69a"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/summary.json",
+      "bytes": 39582,
+      "sha256": "3d76db63c5fb1f3482e7d963c21d68629763c59298db6586d74d2c0bce2f3a7a"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/saw_projection_cpu_20261107/test_validation.json",
+      "bytes": 558,
+      "sha256": "d712f610ab02c2ce8285dcb6e27d07b518029c4deeda83ac4e0a2f8cd41d1228"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/completion_audit.json",
+      "bytes": 379,
+      "sha256": "c8a334cdd9c0914b8cbb2b957a1849d353f48aeebe760e2473f37e2948a0e286"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/frozen.json",
+      "bytes": 7354,
+      "sha256": "5ec6c1e8afa9d839610f09d32427354a893a843dbb63eca785c3f86ea5e4418b"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/pilot_selection.json",
+      "bytes": 4694,
+      "sha256": "9b3fd75c2f681da5414b430df95f0c251d65d8cf624436346088c651bc878153"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/pipeline_completed.json",
+      "bytes": 600,
+      "sha256": "b866067496e4ae93f0d7b41d249fa59790ff7f0c9cf106c113b74a9e9ab8f2ca"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/plan.json",
+      "bytes": 56140,
+      "sha256": "f6a21ec54b44c7033406fb7074e4a4c4b221c2629090d36140b9fb217f10d4dc"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/selected_models.json",
+      "bytes": 11997,
+      "sha256": "dd1b3b96b4bd665639d2a7a616da8681574eef638855e294190c665ffaab7419"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/selection.json",
+      "bytes": 4986,
+      "sha256": "63f32abea0744e5da001a100c035b5da3ec77c8aad6023d3eec02b7767917c5b"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/summary.json",
+      "bytes": 91308,
+      "sha256": "eebc08a0ebe13f533212c7d6bacdffe550adeaca908e3d0e1549e2b26c825467"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/segment_statistics_cpu_20261105/test_validation.json",
+      "bytes": 167,
+      "sha256": "aa9449ef336e02f57de6b6d6b8ef6cf0da4b9342ffe620189c809d7b3508c5ef"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/staged_boundary_cpu_20261104/pipeline_completed.json",
+      "bytes": 322,
+      "sha256": "974cb667564d35e57edf43c8b62ca42c3df048e76905b2bdf3599b9ea726c439"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/staged_boundary_cpu_20261104/plan.json",
+      "bytes": 27842,
+      "sha256": "d5cc9116c4e9fac9eccdd5e86477efe19c8c8b2fd0d5dade18f981f879e9e165"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/weak_component_validation_cpu_20261103/pipeline_completed.json",
+      "bytes": 282,
+      "sha256": "010e0e999f6ecc8bb4321c6a6a0b1244ce21dc9909848bf6a457682051df9ebd"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/receipts/weak_component_validation_cpu_20261103/plan.json",
+      "bytes": 59289,
+      "sha256": "1cec8e3fd94bc104e34851900a81f9b3037dcc57ee65a30635df832839b055f9"
+    },
+    {
+      "path": "projects/longtail_cpu/delivery/source_import_manifest.json",
+      "bytes": 120264,
+      "sha256": "e821a3d43b35b2a84f49c97d453b6f8993be04c5fcf86ea4dda7143b12c3739b"
+    },
+    {
+      "path": "projects/longtail_cpu/doc.md",
+      "bytes": 34208,
+      "sha256": "3f87c2cc5153fe1e9d17e9ad82f2fc29b597d2bbde4271601bb4d8eb769663bd"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_calibration_targeted_cpu.py",
+      "bytes": 19517,
+      "sha256": "35c88513f62ce78706acd6b384903af37ac66c7a78273a4ad6993d4d567aed07"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_combo_optimization_cpu.py",
+      "bytes": 27593,
+      "sha256": "6d4ac700a4850352ea1328635006ace6c5114d9390f25bcfb19a54aedfd6ce8c"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_isrj_segment_cpu.py",
+      "bytes": 18152,
+      "sha256": "92a33453d796013b7566922ecf2a96faa139e59553b7d5b228747ea2c95b2c0c"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_longtail_v3_controls.py",
+      "bytes": 28916,
+      "sha256": "13473647586a10f84397dd46ee802c1a9ff432de56d200a3c4807ad53321768f"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_replication_temporal_cpu.py",
+      "bytes": 20033,
+      "sha256": "1382a0fd9b2cc9614cc85a5931430afc8dbaaa58313bd743c3c31d975c5e7723"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_segment_statistics_cpu.py",
+      "bytes": 14319,
+      "sha256": "432dd0534db7391be73279578ef1f6d70195cb4cdef7da67e59a3a8fe1062053"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_staged_boundary_cpu.py",
+      "bytes": 26193,
+      "sha256": "ec80fb3847941d5c75545dd90b44ed5c512882f8137a9be54f101c6541fb14da"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/analyze_weak_validation_cpu.py",
+      "bytes": 30786,
+      "sha256": "7f391843dd5bd2aea0fad300b2de9369d1a677c05189d6eeac65ed111cda5eeb"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/benchmark_longtail_cpu.py",
+      "bytes": 3938,
+      "sha256": "95aeacc021b408ec22175f0892c4b6a62ca4ce30e42d06dbbca1354fbcad5b71"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/check_query_route1_artifacts.py",
+      "bytes": 5065,
+      "sha256": "c0c9ac2d7d34938cb696152974015150ed7ec90d178bad7c7578458e8429e3c6"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/diagnose_combo_optimization.py",
+      "bytes": 8437,
+      "sha256": "1b4cd65d62868c769bb77ff4c8332d17ed68a88e4715ae3c2ddcba71203050b7"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/diagnose_query_route1_bottlenecks.py",
+      "bytes": 12601,
+      "sha256": "98ea97477f5a5e955d927a82d4fb795e9e6426954021afeddf7d3275ca334625"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/diagnose_remaining_errors.py",
+      "bytes": 4253,
+      "sha256": "4881837d27203b36252e134e84bccbd414aa2dcf050692400c163ca3d3a477f4"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/evaluate_query_route1_fpr.py",
+      "bytes": 4815,
+      "sha256": "b6a2f93d95807a2af688e5b3ecd3fd31d2ed531a41646cbdd3493168ada1664e"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_calibration_targeted_data.py",
+      "bytes": 7736,
+      "sha256": "fe7662639e70c94826a06104f68ed9510daba3abf9c77f1605fe2893cb0fe3c4"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_combo_report_pool.py",
+      "bytes": 8025,
+      "sha256": "6f8f73c7474cf3800497cea2e036c12ac2d4b175d5701b6f137c8cb8e76da065"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_isrj_segment_data.py",
+      "bytes": 4078,
+      "sha256": "0a9d07f523b632c39693f050bbec94b3dad672677ff424228359eec8de4ce401"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_replication_temporal_data.py",
+      "bytes": 9785,
+      "sha256": "877df027c0b002a40b58815f75c786ac86a4a818af281887e66045b178b69340"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_saw_projection_data.py",
+      "bytes": 4843,
+      "sha256": "929af222a987125b803d55480e4d6e5ba2248a48b04d4ab4b57a602d4fa57d4e"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_segment_statistics_data.py",
+      "bytes": 5216,
+      "sha256": "b0a142a82c4a7700115283180f38ac184441c0c5858a2c56cd4dd13bbe368688"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_staged_validation_data.py",
+      "bytes": 8419,
+      "sha256": "09bf8f0947adcb4c7fbe83206e5cdceadc11a7986abb4512955c9ed3d3ad16d6"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/prepare_weak_validation_data.py",
+      "bytes": 9846,
+      "sha256": "c6793e1a55c67d6e78cd4136a55c5b5a5d8654919a2d856c8e7e74ce37bab39b"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/probe_query_route1_memory.py",
+      "bytes": 5098,
+      "sha256": "117f9ca082414b184477833445f0eb7f79c53aafa784d6032f7ca7589bef41e4"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/render_query_evidence24_analysis.py",
+      "bytes": 10388,
+      "sha256": "b0a04f8fa6712158b2116d396e375725b4d0e75dcdeccfae430679d97ef290ba"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_calibration_targeted_cpu.py",
+      "bytes": 27488,
+      "sha256": "adf0b6c49a3350289f6298f5ca3d94a6962975e2af319ce7006183f18003aa6b"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_combo_optimization_cpu.py",
+      "bytes": 29591,
+      "sha256": "0714468dc5c0612c9f0280e20b317790ae69945c4e8b93d6ba085fc6d4bf10b7"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_isrj_segment_cpu.py",
+      "bytes": 23381,
+      "sha256": "9a609a124c9933b089bc39c6b90363ef477b4d6defea6a8493ed3ce15aa87472"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_longtail_v3_controls.py",
+      "bytes": 19901,
+      "sha256": "23eb5c618b69d544dfd838aa1694074e3b19916b87b3bfa070e4b68cb355ec93"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_query_evidence24_cpu.py",
+      "bytes": 14989,
+      "sha256": "8b4eee54a60a9733ff90380a775aafeea22f78e0491fe2a0b06bf091a2d23eb3"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_replication_temporal_cpu.py",
+      "bytes": 26144,
+      "sha256": "9052b7b23553fd7ded8d5419bdab186bab03511226c118e84b125cae29535b64"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_saw_projection_cpu.py",
+      "bytes": 24559,
+      "sha256": "8c349f8ebf5c08ea44fc50a201c3b5467002a17a8b940686d096a27e11fcfb23"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_segment_statistics_cpu.py",
+      "bytes": 25508,
+      "sha256": "da1fb323e2b7a8a0336b0e715d32738802451e241ca06ad1d841db42a31d6c74"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_staged_boundary_cpu.py",
+      "bytes": 22937,
+      "sha256": "0941f4275391b0ceff078a674b58f0cbf976b5b37e24deecdccf226fbd7b44ca"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/run_weak_validation_cpu.py",
+      "bytes": 32892,
+      "sha256": "8ce9e009583e3596fde7d52d693ff459d18d1451891477998cb6a42651e41af1"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/summarize_query_bottlenecks.py",
+      "bytes": 19856,
+      "sha256": "6261ea1a5ca7139695dcb29aa1a21d616ed48fc354444bade37ddd793bfb9b89"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/summarize_query_route1.py",
+      "bytes": 22466,
+      "sha256": "cb3d9eaf68bdd3b60a0254700cd96c17242eee8f08b7366a34616dc21e7f1c74"
+    },
+    {
+      "path": "projects/longtail_cpu/experiments/validate_query_route1_cpu.py",
+      "bytes": 16391,
+      "sha256": "fa05d0e3700e631802197465a13472e11fabb271ddc1e7407d3e85563211fc5a"
+    },
+    {
+      "path": "projects/longtail_cpu/generation/joint.json",
+      "bytes": 210,
+      "sha256": "8b7d6b360cc31175525efe9235e8d3c3b952e0094271008d7a259f9138c855de"
+    },
+    {
+      "path": "projects/longtail_cpu/pyproject.toml",
+      "bytes": 774,
+      "sha256": "982896ac4439f63cc377a6bca9e607418de5c37ecc0fadcf51c12df973570916"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/交付核验.json",
+      "bytes": 1073,
+      "sha256": "73c67feff571b732bec7800de838293ec1d60847ba727c648ababd74ab0fce8b"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/图1_当前识别瓶颈.png",
+      "bytes": 155654,
+      "sha256": "f4dd26033bf66f278424858f778d6e84ae6f84317e9492dae7d0f9dd6c4fcd2f"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/图2_建议算法路线.png",
+      "bytes": 117168,
+      "sha256": "8c89f4fb5293f365cc897950885fcf1e0fef9ba9a5d5fa5f62e59890c630572c"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/开源实现核验.json",
+      "bytes": 22264,
+      "sha256": "7c4545bbc67126e51110335ce273fe6b8ba62d52043d21f101da4b20fb4cec1b"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/文献索引.json",
+      "bytes": 8610,
+      "sha256": "2a441c9050efd5ddf22472e74cb78f14145bb5d59b351ed43f286b528800a41b"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/核验开源实现.py",
+      "bytes": 3244,
+      "sha256": "6e9428c050f937ec2e577f0c5c8e2ae8d645ec76fddc66ada254825dc1883356"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/生成报告依赖.txt",
+      "bytes": 115,
+      "sha256": "8b688812f9c05e2984c18923306c334a338a840ef5704d2fc0ec8649b1f08b81"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/生成补充报告.py",
+      "bytes": 54685,
+      "sha256": "1a38aca5a53c20486e66b7736ba0d826884c4e35e782476ff6643f0c7322f6e5"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/2026-11-02_文献调研/研究证据与诊断.json",
+      "bytes": 8059,
+      "sha256": "75dc9cc9f0632f01494a7f3f09b8fe80d9a44aede7b8b016e72258bf7458bf2c"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/analysis.html",
+      "bytes": 7699,
+      "sha256": "f04ed025c4e3feaf88c70f03be82bc0288460dde9a292290b06b0b368f4242dc"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/calibration_results.json",
+      "bytes": 53565,
+      "sha256": "8cc9d09ddc00ddc1d7d6baba847033a8c8c2f49f778c3af03c0353efca46b4d3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/candidate_assessment.json",
+      "bytes": 499,
+      "sha256": "fe92e4104ad3eb23b1817502473dceba29f560e424c77f721df9f6ed89e97031"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/completion_audit.json",
+      "bytes": 1512,
+      "sha256": "28a19b738314330f9b22cc014d9c4db1228f360c3c99eca8ac22255cc4f43652"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/outcome_overview.png",
+      "bytes": 304980,
+      "sha256": "6c90e50c64fd2ca1c0ebdf4d17b155e8de497a8b1dd5a870950ae15ef109e7a3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/plan.html",
+      "bytes": 6261,
+      "sha256": "d9aa6975ba0c8c9b6c31c8978108333e0df6c92947867106a0fa5d1604aff5d3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/review.html",
+      "bytes": 8009,
+      "sha256": "22fd87c12e0c63df350d35d7325a198fcc664bcf141850889605b2331287ca6d"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/review.json",
+      "bytes": 602476,
+      "sha256": "5aef9e6889b0c7f30f04fcf4c5ed3abe92c476cfc102575b5b76bc5f6373631a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/selected_models.json",
+      "bytes": 8073,
+      "sha256": "96c7bc1c48f7218322fc6dd51bd5de4783b61a0975da0551efbf3aed01fbc526"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/calibration_targeted_cpu_20261104/targeted_results.json",
+      "bytes": 184806,
+      "sha256": "ca47f5e80fcb1f00104ab2e4604d0d3aaf5e4711e12122d9a525262ba5f17dae"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/analysis.html",
+      "bytes": 491634,
+      "sha256": "4fe29c52573e72329cf29dd4225e96e0510dcfa190051d0a77384f1b079305ca"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/analysis.json",
+      "bytes": 165880,
+      "sha256": "32a5c57be09c867f5d3c34e205c2b1cb3cf03430ee016f66e3d2afb32191fe02"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/calibration_transfer.png",
+      "bytes": 60969,
+      "sha256": "2b5ef11613b40dff5b204347145ebae68e1fb8d30a8da202ab36e929bcca89dd"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/completion_audit.json",
+      "bytes": 5916,
+      "sha256": "6ef29ca38214a17fba7de1969f1bc9e740049b9c09885622f1c8ae1854663b19"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/decision_comparison.png",
+      "bytes": 78154,
+      "sha256": "2e15d08b2c3e90a0700f4b57dcac90d48f970afc9b1d69e6052d5d3c006b9702"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/next_validation_diagnosis.json",
+      "bytes": 7909,
+      "sha256": "d9a1eb941d4e374711fc3f0f83e8a159818ef0599eb72ac53aefd69ef5c91f89"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/per_label_tradeoffs.png",
+      "bytes": 80325,
+      "sha256": "d55135644a8126f473062b23a45515c6fd700357e7a948bdccdda32a73845258"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/plan.html",
+      "bytes": 3182,
+      "sha256": "15c7c30dd08260608be1168055e5767d4a214ae9189ddcb308ad0955cc7e01ef"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/report.html",
+      "bytes": 7587,
+      "sha256": "fc2ed1742572e18a63d2e574e509956f6ddf6ec338694279012c928a03712914"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/results.csv",
+      "bytes": 17156,
+      "sha256": "aa8ba0df3c8c73f168777ba8b5cb27c72f0c5447e53233459d378fb28db94782"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/results.json",
+      "bytes": 465890,
+      "sha256": "2c4291403fd4bf4e92cc6c8944ac1912cbd9fd20067f495bb329a9e9af60c343"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/combo_optimization_cpu_20261103/training_coverage.png",
+      "bytes": 142190,
+      "sha256": "d9ac27802f652ec1fe926d3e5ac222dafd62fdf596b9a4a031ac6f0b08b12abb"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/analysis.html",
+      "bytes": 2259,
+      "sha256": "60d8abf11c232bb4f8878a759daaf3753499b120ec4102d0d710f48820b93443"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/candidate_assessment.json",
+      "bytes": 987,
+      "sha256": "369f5b9f885389ef217986f01c8613e5706f6230b7c1c40cbdef2afbe860ba6e"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/outcome_overview.png",
+      "bytes": 154896,
+      "sha256": "39f5ee282df2dbf4b98d717bb647ca1bccf74ed3199c5956aad9ee320d2e5acd"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/plan.html",
+      "bytes": 4027,
+      "sha256": "c3bbda80766ff9ff302b7c71d5746bc5ef5b90b9c1b770ec7cf966e3ebb94f15"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/results.json",
+      "bytes": 37592,
+      "sha256": "02fafcbd9332882ee192e0fd3651376217b839855b0cce024f69f9a240893fa5"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/review.html",
+      "bytes": 6632,
+      "sha256": "23dbbc4e623ead3eed8db952008e6d9f5c599bb0e26d5b8f76a580a7d1b1e0d2"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/isrj_segment_cpu_20261105/review.json",
+      "bytes": 152651,
+      "sha256": "03d10ef8e8674b8648eb8fb0d9785d551a8a563b7187cfe60ec731c5233140e1"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/analysis.html",
+      "bytes": 611285,
+      "sha256": "f820e91dcee895ed2b9ea14e6d12cbdf115a1d66eae5efcb2de1478bb6c23f72"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/analysis.json",
+      "bytes": 314288,
+      "sha256": "1d8ddb36c663db243b555fa92531fa7639addb1b569a15f36cb00d239cde8feb"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/completion_audit.json",
+      "bytes": 8762,
+      "sha256": "2d0de14d2757c2ca83e4a7d3e3d20e70c73aebdb52821c21995bbfff898bbb47"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/decision_comparison.png",
+      "bytes": 81220,
+      "sha256": "36311aa13a6e216aeba16e34e9337bb740bd8b8be264ed8556d6fa383452a8aa"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/optimization_diagnosis.html",
+      "bytes": 3084,
+      "sha256": "d4c7fe8dc7ffd01b6261bcd8a291b669e030e9898363185e1b14a1c7991b70e8"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/optimization_diagnosis.json",
+      "bytes": 10120,
+      "sha256": "754916fa71863e6e7b742114e386c5961b09cd149d8a2d6fa801730b44fc1fb3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/paired_effects.png",
+      "bytes": 76257,
+      "sha256": "877f19739f02b9b382550c11db7fb8c04af9cf6a476f920bcd445a846b5d9aa8"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/per_label_tradeoffs.png",
+      "bytes": 111970,
+      "sha256": "4c0e09651a7d9b26d2fd6c0a2b47896fa82e6af105a1bc394cb299f0c005e5d2"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/plan.html",
+      "bytes": 6378,
+      "sha256": "695526275ae48270b1e579da56581ab2a84f8afeaddbd2c7b62c57c8c88e135d"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/report.html",
+      "bytes": 4507,
+      "sha256": "f02a0910059b8aa81442c73d589a6c8a0b664bb16fcc2fcd776c72ea78ea5664"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/results.csv",
+      "bytes": 24197,
+      "sha256": "cc0c8bd68f551ebffed29518afcd11c4ca12ddb20ab9256b6072f9c67ce449fd"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/results.json",
+      "bytes": 170039,
+      "sha256": "2682747fab67d965bad9407b5bc5eb9bb55ccc93cea3a9f9ae93f698e867232f"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/longtail_v3_controls_20261102/selection_curves.png",
+      "bytes": 179866,
+      "sha256": "1d3a572894943f51949ad03a01c7a1c1c5e4beec55583980a16a160753848274"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/analysis.html",
+      "bytes": 538634,
+      "sha256": "fe27a30180b172f4443c34ab1676107039c5112c13a46e697b688c32cb8f709e"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/analysis.json",
+      "bytes": 39562,
+      "sha256": "be8e9bb7a15c541ba08859a36f5e83ceff7f746d71d6952a002cfa1caecbf2b2"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/power_analysis.png",
+      "bytes": 167829,
+      "sha256": "956b5fa775b632dd6a6582ee9a41bbe6c8d45fa5f0cf310d543892fd1e4ee339"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/report.html",
+      "bytes": 2723,
+      "sha256": "e141be6ac8e8621617160a48c97f2a93103ec983f4f8463454eb6c7c9957f957"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/results.csv",
+      "bytes": 5243,
+      "sha256": "0fd5b3f598095915903a96e9ed81d3bce595f1a94a5631b0dbad310e9dc77ef6"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/results.json",
+      "bytes": 453951,
+      "sha256": "b4848ad6f48f951a1982a3f148c89ef81b847f7dfe2eb21d55d257b3069575f5"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_evidence24_cpu_20261102/training_analysis.png",
+      "bytes": 229055,
+      "sha256": "f8a1bfdfe527dd2635cc81f1cef17bf7f51cc919a42bc58568cb2ab5762d6be8"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_bottlenecks_20261102/analysis.json",
+      "bytes": 159717,
+      "sha256": "626cf7262617dff94634cfc968329232ae817352782ee74546eea5ef6fc20d96"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_bottlenecks_20261102/bottlenecks.png",
+      "bytes": 150564,
+      "sha256": "c4f609ec3ce0090f76b02dcb2e40318e8a662806d905032f14ce18110dd5ede3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_bottlenecks_20261102/report.html",
+      "bytes": 212605,
+      "sha256": "43f147b5b84c9e641ae726792a7bd951afaf459a24765b665d2ebb898f76e4f7"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_cpu_20261102/exact_weak.png",
+      "bytes": 105688,
+      "sha256": "384b54711098952966c2f7a344d37b3c39f372beed6d332d78c4d845b2120e5a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_cpu_20261102/learning_power.png",
+      "bytes": 225281,
+      "sha256": "0b666940404c90ab9e72165ac95ee45c56ce4611f4d9522113a794b91eb55234"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_cpu_20261102/report.html",
+      "bytes": 458279,
+      "sha256": "64f4b36e9c756a0a8ac6b37c98c382f12ce7cd063a0bbc438b975da6171441c4"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_cpu_20261102/results.csv",
+      "bytes": 4363,
+      "sha256": "ff7a73f320098f189ab6698610fc95265f14433a275ae08cd5025ff4e75511e6"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/query_route1_cpu_20261102/results.json",
+      "bytes": 1060395,
+      "sha256": "fee9df948f7be121f866507de47d601b1e6474a76116ce0bc0d0ffda30992dff"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/analysis.html",
+      "bytes": 6996,
+      "sha256": "0abb43ed147764a0cdf122822d6e5b93d040e7a888697faa64e0011d4f215f52"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/candidate_assessment.json",
+      "bytes": 408,
+      "sha256": "a226da67306f16e362e2b4ab0b69ddbd0babbf04f26a56700e96ba6435cfd0d7"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/completion_audit.json",
+      "bytes": 5851,
+      "sha256": "1ad2bcb7ad42f0e27155dae599c8169e01e54805e7a59768b0d3a12ebda43bec"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/outcome_overview.png",
+      "bytes": 251248,
+      "sha256": "a6a0ebab50c5063d93bd0b99c5776ec7437b09a3348387d7ab0e0f3c795b16cf"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/plan.html",
+      "bytes": 4969,
+      "sha256": "a2aaf3dda37b9460e6ee4a34806fd4504650e0646f500336461dd7ac5b8ad086"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/replication_results.json",
+      "bytes": 65859,
+      "sha256": "eb21155ada0059c526f83d7bf0924fa826db15b1ea94a8b3dc85968ed84d21de"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/retrain_results.json",
+      "bytes": 36772,
+      "sha256": "4c2548daf7f1594e59d094f981df4a66a27e0f8025ebaf996c2ca6cb5527c916"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/review.html",
+      "bytes": 7199,
+      "sha256": "b78002b0d506be563b5285df844b5ca2bb03099259b22dd2975b902e806af475"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/review.json",
+      "bytes": 380931,
+      "sha256": "69f29e4ed7afeaf50c6cc14bb065e56abeec75987f04c88e7d2f87c508b6726f"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/selected_models.json",
+      "bytes": 13106,
+      "sha256": "b0bc7e8049734692fb374a1b91ca1bef76da4707405dc48f3ce683f06de2575c"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/replication_temporal_cpu_20261104/temporal_results.json",
+      "bytes": 37944,
+      "sha256": "da1894495409f035c77adb7419b15da3af0579cd04bb20ead9c59a4b80fa6da6"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/analysis.html",
+      "bytes": 2227,
+      "sha256": "a800cbfdaec85e68e943aa9c7836744a4b4a0ad7bc9048b1017af769fc4a31c4"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/candidate_assessment.json",
+      "bytes": 1013,
+      "sha256": "3bf20abf30c221677c90c87f79d0ab7bde03d8e74fdc7a69c8fd813c2d728bd1"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/plan.html",
+      "bytes": 5038,
+      "sha256": "1c9999aa9947094ec9bc9608f8a7ff0b288c9169f1aba086305ef6c1fbfb9b66"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/results.json",
+      "bytes": 39582,
+      "sha256": "3d76db63c5fb1f3482e7d963c21d68629763c59298db6586d74d2c0bce2f3a7a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/review.html",
+      "bytes": 4493,
+      "sha256": "815ef552c123597f3cb5ae34b6b70a430c92aed7e237ed6dce4725e9a40f4f7a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/saw_projection_cpu_20261107/review.json",
+      "bytes": 53404,
+      "sha256": "d52a98075bde0b93df7e1e6292d71b1cf0a963584f0cebb76bcfb33be05b5c14"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/analysis.html",
+      "bytes": 5752,
+      "sha256": "b24d7bd5f48332a71c96b60831484bf747d8d36ca188408464c1d5ec0eb20dae"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/candidate_assessment.json",
+      "bytes": 18382,
+      "sha256": "1f2c698efa7a811ee479e171feaf16b5833fd1cec0e158b9b780f45e58c11f3c"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/next_step_error_audit.json",
+      "bytes": 6312,
+      "sha256": "0794e42c06a519722d66fb818ba358d18cb34c0495874aa8183505ded72199bf"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/outcome_overview.png",
+      "bytes": 171037,
+      "sha256": "c3efa240159a8006a0dfb205195356c200087e743a11a01d8426e3376fa88457"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/plan.html",
+      "bytes": 5196,
+      "sha256": "b1d95c5f2b599014d2a2bef44340702e5bcb29df530dda3eb1f6d0b29b3d5a8a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/results.json",
+      "bytes": 91308,
+      "sha256": "eebc08a0ebe13f533212c7d6bacdffe550adeaca908e3d0e1549e2b26c825467"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/review.html",
+      "bytes": 5149,
+      "sha256": "c642ee62460455076c853cfb3157c056b53ee6d9e8405fa9fa6bb74df6c38813"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/segment_statistics_cpu_20261105/review.json",
+      "bytes": 255706,
+      "sha256": "41f6a2904469ffb207530835c633334d33fd03f7a65ef37673612f7da715d28d"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/analysis.html",
+      "bytes": 198197,
+      "sha256": "b0914115cb0adc3b3ef7437f4c9cb61c23e8b98e7caca8fa3a84a004c4d0f268"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/analysis.json",
+      "bytes": 102043,
+      "sha256": "78df26856ae572c69dec81979486e01de0df10877d0080566aa718fa5eed9d0a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/completion_audit.json",
+      "bytes": 5556,
+      "sha256": "01aa48facf3d7b831ee8c7b92538e5bfee11dee159db2575a2ad68dae67a5ce3"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/ordered_stage_results.png",
+      "bytes": 142004,
+      "sha256": "317a1f01738e81995ecc8336df60e4e2d9aa2cb4e60e0c2752f5a598bf2ec528"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/plan.html",
+      "bytes": 6210,
+      "sha256": "c1a62339b9139a557e4f02f027daf55d9dcf5906e128f91874bbbcf0d69b289e"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/report.html",
+      "bytes": 639,
+      "sha256": "65c7cca253a43ad3bde58e85914b602ab43329414b15666819edd7a1463f2c44"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/selected_models.json",
+      "bytes": 10346,
+      "sha256": "fea03eb96c65abed77175a313152c7ced89af1833b7e7d4597819673a1af2f66"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage1.html",
+      "bytes": 2291,
+      "sha256": "68444f46660ddd3860d84de0c317c287e8460a246afb0477b10f6cfa0f76d1ae"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage1_results.json",
+      "bytes": 348902,
+      "sha256": "beda5beb3653ad14e9e633317253d930bac9067775f7f0bea2b858cbd9a95dcf"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage2.html",
+      "bytes": 2542,
+      "sha256": "ee2ecf2b5154dcbac7ddc932fa440e029f7ff8acee48fed2acfe97543e074f15"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage2_results.json",
+      "bytes": 379436,
+      "sha256": "585bb04c3224cbbadc023fb74a52807548010edfc5034ae4dd29ff452fdf4f7c"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage3.html",
+      "bytes": 2794,
+      "sha256": "0f60d649e87b1ff387a407687291ce1a22fbe44846215e42b4ab9637e97cf15b"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/staged_boundary_cpu_20261104/stage3_results.json",
+      "bytes": 456482,
+      "sha256": "6e12acaadd6b4c2e7f9f92dade5f177e62afed3f0e5bb3756fc0ae05ad16666e"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/accuracy_and_evidence.png",
+      "bytes": 77660,
+      "sha256": "f0a6617e7305e8966909e9e5524f7f7651319fc026598b4106bb9330367827ec"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/analysis.html",
+      "bytes": 473152,
+      "sha256": "4a363f8ed86747d0ac555049ffd218279577ab920c95c7b8c48d5e55bc4d01b9"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/analysis.json",
+      "bytes": 2275854,
+      "sha256": "2fa7a5f42c6f7cd137a07eab49b541fee184fcfce0b6f7ec8223385f53cbf9e9"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/class_tradeoffs.png",
+      "bytes": 68349,
+      "sha256": "93807044e76a1596c093d665dd21c140f2a05748c08e2c52e7a30d187edc7a5f"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/completion_audit.json",
+      "bytes": 11617,
+      "sha256": "8e017ea955a9c0fdf82a25065b2a527a75ad90cb6e80770cca5bbc2af59c0da5"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/plan.html",
+      "bytes": 1835,
+      "sha256": "292448fb7520b30fabe53bdf0e675e54e6a820c5180566edc2a66cf8e401b5ca"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/report.html",
+      "bytes": 4918,
+      "sha256": "bef32bddf89b54a4dab6c5820e0b74af3c415e479625be28eb2a00976c4a8d75"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/results.csv",
+      "bytes": 53707,
+      "sha256": "66314412071ff8880924db0f1a146dc3ef5e54feaf5d2dde587857696ed49b2a"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/results.json",
+      "bytes": 847501,
+      "sha256": "b1cb11df859c82c836490591c73c541ad7641deb4510e08992e9b297050b685d"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/weak_component_validation_cpu_20261103/weak_recall_and_training.png",
+      "bytes": 203483,
+      "sha256": "a5afab6fad8550d80c7c9c340ed58ce97b32344d6c7e3cc43ed16ce8d0d70dc1"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/项目改动与效果交流总结_2026-11-07.md",
+      "bytes": 15585,
+      "sha256": "1f713c386972ffc3823964dc8937f30170777980105c46aeee787a6ce9fc64a5"
+    },
+    {
+      "path": "projects/longtail_cpu/reports/项目阶段结果与方法创新总结_2026-11-07.md",
+      "bytes": 31723,
+      "sha256": "725f02934af6082f6d402ed72a3356dc06c78d0d5e4a452cc4f498c09ed92f70"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/calibration_tradeoff.py",
+      "bytes": 6517,
+      "sha256": "61531a9ad5a3e49e00475130f76cdb9eb76c2bb4d2a4e4c71707a0aabc25b377"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/config.py",
+      "bytes": 7214,
+      "sha256": "5a201983f03b3da392a7ced8fdd3794094ed0a2ac84d891776cd9cf29446d907"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/dataset.py",
+      "bytes": 4369,
+      "sha256": "e167ba1f27778fe660928b67dc8bf3c13c6096fa96c37abcc3f4675bb0157161"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/generate_files.py",
+      "bytes": 6599,
+      "sha256": "d9e301a5d861f816ba77ed271976f2b83915d28b91c386d66ecc5d890d7f9294"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/generation.py",
+      "bytes": 4867,
+      "sha256": "3eb0f2c722c4323379dab16d6c776c6e9295c51ad74ab6fb2a04753c3aba8fe4"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/joint.py",
+      "bytes": 6369,
+      "sha256": "af405b68f266ac4d8cc3e952d6a89066c90b5efc1ca99abb910061a937531824"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/loaders.py",
+      "bytes": 1122,
+      "sha256": "7d7bf15f4442c10182fd7dfd6abae8403321b681553b230a89b75c9913080a51"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/manage.py",
+      "bytes": 10068,
+      "sha256": "b65b4adf510afa18d62577c1816ad25279df7676b9770de521a11731caec09d8"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/one_bit.py",
+      "bytes": 3748,
+      "sha256": "dbe99f853cd5a4a71efc29d6fd911d4820e4efd5084d0035ea0e7fae954867f3"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/power_truth.py",
+      "bytes": 2155,
+      "sha256": "cc09a9d72579391f6e7b4cd2dcbb17f62a24d0aef1f3fc61d4b70a07af4a0187"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/preprocess.py",
+      "bytes": 1120,
+      "sha256": "ba8e37f738bb855acfe978c3c52feadda12d552fd3a7b5b8a3c1049d98d0ae76"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/sampling.py",
+      "bytes": 5299,
+      "sha256": "efc0d26dc2520098c986f13fae04dfefad89653531008f6e8844d0d715d8e973"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/signals.py",
+      "bytes": 10508,
+      "sha256": "344ebf10e5a73d7ffb9f420cbd790392b5a483ddb9bf71b1d2e056d554e34701"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/splits.py",
+      "bytes": 3015,
+      "sha256": "c3d21e6433d379bee2792d55db403ece11207ace856ea97bcb5d5530b1141172"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/targeted_pairs.py",
+      "bytes": 1466,
+      "sha256": "698c13c8c95ab0db298aad40d6d14b4a94ab4a68b99abedce773e27310925a1b"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/v3_fresh.py",
+      "bytes": 8666,
+      "sha256": "89e31d7de42115ea36ab2084242ff86d89eee4496e284808cdb96b750a4e4f97"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/data/weak_validation.py",
+      "bytes": 3442,
+      "sha256": "5fdf7bf630dda648f8daf8e6f684324f81c9920785bebec237b1b7abbe9124f2"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/decision.py",
+      "bytes": 5247,
+      "sha256": "c68da277c90ff71e499764b4b8bf1245c5316a3379f0c3fc154ce6d5f9ac5b8d"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/engine/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/engine/checkpoint.py",
+      "bytes": 1932,
+      "sha256": "31f95bd3d6233a12f2896df5f0f1c43c717b0441b1c9062d55e6d159a2c04e80"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/engine/distributed.py",
+      "bytes": 1909,
+      "sha256": "b3a8a2e97474178fda29b0d43cc1a4bde6bd7be5d8ac894d05339dab0a44f66f"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/engine/inference.py",
+      "bytes": 1151,
+      "sha256": "4fb8a2d4e1771d3bbdc52d7418666d3475ebb60064edbb7ea086ad1f2dc482d4"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/engine/trainer.py",
+      "bytes": 4106,
+      "sha256": "fa39f208b4fc967c00688adfe0cc46847a55c7e741050389b7789beb536e47b6"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/evaluate.py",
+      "bytes": 5595,
+      "sha256": "5922edb214fa4b8f5b1804bbf3a728709e24c3d5b1a314f73ec5dc612060bf28"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/io.py",
+      "bytes": 881,
+      "sha256": "74f368c7057741b1a984019746e34d1c21951f9d7e743ffcbf4012c6fe492cd6"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/isrj_segment.py",
+      "bytes": 13740,
+      "sha256": "2e41937a2f67773f1fd71f947040ab749f7db31c6391c9254ddb8dc9ca0beab1"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/metrics.py",
+      "bytes": 5198,
+      "sha256": "32dcba55fcdbad6d67f271a6fabaede109833509168e1e68f5d03bba220975ba"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/components/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/components/complex.py",
+      "bytes": 3878,
+      "sha256": "17725216f5e9050df7996b78121e94b42d685b01e42cdd2abecfa4332188c3f4"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/components/encoder.py",
+      "bytes": 7021,
+      "sha256": "a89b5e9f471899c73b8fe07dc178907e66c2fb1250d07d76f6500c934337d217"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/components/fusion.py",
+      "bytes": 4003,
+      "sha256": "13314b994c546d3b7ee54827bfcca870888db701622f8face78478842826502a"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/components/temporal.py",
+      "bytes": 2455,
+      "sha256": "1bb106e7f44dc8633c4ccf69b52b1a1c47a652334279613d8ced09e6beec627f"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/decision_heads.py",
+      "bytes": 1301,
+      "sha256": "e9c1a8df2d133b6760be73beb84af336ca5b45fd6520ab68cc9d17f30a7aaab8"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/dfms.py",
+      "bytes": 2320,
+      "sha256": "8e9950938fe37db9ac652a114ab42f25fc0178f145055f49be211208f421a861"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/dfms_query.py",
+      "bytes": 7096,
+      "sha256": "cc706d24077d496bdbb564a6350b735156f74baf13764cd050dccab1dd35cfb9"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/dfms_query_variants.py",
+      "bytes": 6457,
+      "sha256": "53397ae68bcee2611a6817d0771e72f23c99e4b3e605c108bcd30a9c6184fa99"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/factory.py",
+      "bytes": 1348,
+      "sha256": "50bdbdcdd8d5a92d8e1c8d3818f6f04ee1fdfb41b2866153e3738ad2e4f7db44"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/temporal_heads.py",
+      "bytes": 2136,
+      "sha256": "ec30c41974197ad9b345b32562472b601fbefab7f5e116798a493f4e5e62cc44"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/models/transformer.py",
+      "bytes": 2133,
+      "sha256": "f66a672449bc7b9c14b181c17a9c44f4884ec1f31bb9107ce8311bb87bc5453f"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/replication_temporal.py",
+      "bytes": 29249,
+      "sha256": "1447a71f9966f28ff015f9db8f7f4360ed7da91f2edfa505d4621ee20e95ca35"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/saw_projection.py",
+      "bytes": 17001,
+      "sha256": "2428d543c8f5d68966d0a0761171277e298447f3f8a3af76867efaacd5dcf10c"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/segment_statistics.py",
+      "bytes": 20296,
+      "sha256": "f83a1915804df3ba8481baa7a1c9be5e235163e75b52b1d05bcb87b23aba6ca8"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/staged_decision.py",
+      "bytes": 4369,
+      "sha256": "f109ea8ce3b677e2e34a446e91d838fa5daddde933a2d3a838bfd9c86bd2b35c"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/staged_training.py",
+      "bytes": 19137,
+      "sha256": "41f73125560e0c5d1ff07c863a5fc096153b7d896f8ac9bad7c977898f52f727"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/targeted_validation.py",
+      "bytes": 23590,
+      "sha256": "39424e271e5ac015e44b3d40ddc767c34f1c380d2dc98dcff4bd8b6f811391c8"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/train.py",
+      "bytes": 12885,
+      "sha256": "e6ea466eca8df665947f01f82223b233c585cfa08b29458253b30a501004219c"
+    },
+    {
+      "path": "projects/longtail_cpu/src/longtail/weak_metrics.py",
+      "bytes": 3173,
+      "sha256": "cd3f55137561803e0ddd94a7b0ba7f393781b5781e403d381d7e483a9e4b6171"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/conftest.py",
+      "bytes": 1913,
+      "sha256": "5c41918141197f37960ffcfff8ef965aab18090a8b29fed43e0edd741d047583"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_calibration_targeted.py",
+      "bytes": 4555,
+      "sha256": "cc24c64c9e93899404b988ade4fecddd53d34ab5279ad5041aeaa0a8a336b527"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_data.py",
+      "bytes": 3091,
+      "sha256": "9c40f1de006c84316817cd8c65dac7657e5d5b0d3c70ecfb7ad3c49ac244b017"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_isrj_segment.py",
+      "bytes": 5081,
+      "sha256": "6dc799ee785a0722b35fe047646786e6469d581730a6f2dc66ced295a22767a8"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_joint.py",
+      "bytes": 9252,
+      "sha256": "2e51a3ce13e6edc596502a0ea62f2457436d6dcc4db3c963ebb05ab58d2781ab"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_longtail_controls.py",
+      "bytes": 3269,
+      "sha256": "eb946e95bef8a8283b3e491d94e9f4ed376b17d23e0ed94ddb931ec4c0f64407"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_manage.py",
+      "bytes": 1672,
+      "sha256": "55df2698c64afe9d46268ec8da114c1342893d79ed5a4ed716bd061230ca04fe"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_model_metrics.py",
+      "bytes": 2870,
+      "sha256": "05238316642a54cf692859ddfa7b7bfa84fa5ca47341cb623cb3bdba94459625"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_optimization_controls.py",
+      "bytes": 3735,
+      "sha256": "44157834ca64ddbb2cf787440d70eb17e3c58300a60bbab4b4152659db961a9c"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_pipeline.py",
+      "bytes": 4154,
+      "sha256": "d370ccdb480ee28f0479b6e13b7fd469a9ddb18f22c2a01a0435d853545a00b1"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_query.py",
+      "bytes": 3948,
+      "sha256": "3c3c4c26a68cb28d0de9ab80a1f3ef19bf8f4feb61db78389f0091221d61b906"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_query_variants.py",
+      "bytes": 4290,
+      "sha256": "6b7629b0ba91b88c798fe547477eb275c9d9b953234415b3da33dcf45a36e087"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_saw_projection.py",
+      "bytes": 5695,
+      "sha256": "ed1e57bfee375f2bc23b942b6b447e7ad06e28b6a8509ac0246fe31046c369d6"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_segment_statistics.py",
+      "bytes": 5012,
+      "sha256": "34511d5652ba086e1b9cea9d50ca5bb78463a0f0c13818065e935de6eac7c25c"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_signals.py",
+      "bytes": 6293,
+      "sha256": "657ce68a0e0e28f8569f6b1140f33e0654a936694db307e15ac3ad26e320ea6e"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_staged_validation.py",
+      "bytes": 5437,
+      "sha256": "9e01dd482ae6ed1f2825a942f861bc603ee13039c1364dfdf14d726fe735ade1"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_temporal_replication.py",
+      "bytes": 4496,
+      "sha256": "a38ca803215ed283dc70e5b35d32fa92700eb0c8b4adfd2a8a133af7c4b33e01"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_v3_fresh.py",
+      "bytes": 853,
+      "sha256": "3ef3e803ed48889608b3cb54e2f281972b58a30487a042fde88cc217b71e335a"
+    },
+    {
+      "path": "projects/longtail_cpu/tests/test_weak_validation.py",
+      "bytes": 5187,
+      "sha256": "0b76f7df610dff5d8c4136dabbaa5710512f32c52c194a28b1fa8ab86d2ce94c"
+    },
+    {
+      "path": "projects/longtail_cpu/tools/attach_server_artifacts.py",
+      "bytes": 2446,
+      "sha256": "5ebe91021aa8aadf5c3f6d45bf6dd42acdaab4614f6f016ab151a1341e873737"
+    },
+    {
+      "path": "projects/longtail_cpu/tools/verify_delivery.py",
+      "bytes": 1798,
+      "sha256": "f41999270bef4bf47a4b265787f4c32d2b97dd234f802663c77a6b3c607d68ba"
+    },
+    {
+      "path": "projects/longtail_cpu/uv.lock",
+      "bytes": 79395,
+      "sha256": "62ee35aa409e76ad93a09657e4845af071f41003d4e64d618944fc9e9c0aaa70"
+    },
+    {
+      "path": "tools/verify_experiment_delivery.py",
+      "bytes": 1118,
+      "sha256": "4ec1e5f3342a2674b9d4420033cb1b1fccc01ff6c2498112d1fec002ef913011"
+    }
+  ]
+}

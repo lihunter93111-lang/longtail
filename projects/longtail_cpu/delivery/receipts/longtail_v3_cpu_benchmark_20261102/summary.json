@@ -1,0 +1,517 @@
+{
+  "profiles": [
+    {
+      "threads_per_job": 1,
+      "maximum_parallel_jobs": 25,
+      "physical_cores": 25,
+      "estimated_25_job_minutes": 273.09694777351496,
+      "benchmark_wall_seconds": 31.892272233963013,
+      "records": [
+        {
+          "threads": 1,
+          "slot": 0,
+          "cpus": [
+            8
+          ],
+          "train_batch32_seconds": 2.2588640520116314,
+          "eval_batch64_seconds": 1.562104592914693
+        },
+        {
+          "threads": 1,
+          "slot": 1,
+          "cpus": [
+            9
+          ],
+          "train_batch32_seconds": 2.272865141974762,
+          "eval_batch64_seconds": 1.6080721400212497
+        },
+        {
+          "threads": 1,
+          "slot": 2,
+          "cpus": [
+            10
+          ],
+          "train_batch32_seconds": 2.2363945440156385,
+          "eval_batch64_seconds": 1.612903906032443
+        },
+        {
+          "threads": 1,
+          "slot": 3,
+          "cpus": [
+            11
+          ],
+          "train_batch32_seconds": 2.2581743800546974,
+          "eval_batch64_seconds": 1.5588274099864066
+        },
+        {
+          "threads": 1,
+          "slot": 4,
+          "cpus": [
+            12
+          ],
+          "train_batch32_seconds": 2.5327642040792853,
+          "eval_batch64_seconds": 1.5567792220972478
+        },
+        {
+          "threads": 1,
+          "slot": 5,
+          "cpus": [
+            13
+          ],
+          "train_batch32_seconds": 2.2396620200015604,
+          "eval_batch64_seconds": 1.5856950369197875
+        },
+        {
+          "threads": 1,
+          "slot": 6,
+          "cpus": [
+            14
+          ],
+          "train_batch32_seconds": 2.2450746189570054,
+          "eval_batch64_seconds": 1.6379990059649572
+        },
+        {
+          "threads": 1,
+          "slot": 7,
+          "cpus": [
+            15
+          ],
+          "train_batch32_seconds": 2.2672042190097272,
+          "eval_batch64_seconds": 1.5954891259316355
+        },
+        {
+          "threads": 1,
+          "slot": 8,
+          "cpus": [
+            16
+          ],
+          "train_batch32_seconds": 2.578746111947112,
+          "eval_batch64_seconds": 1.1273258989676833
+        },
+        {
+          "threads": 1,
+          "slot": 9,
+          "cpus": [
+            17
+          ],
+          "train_batch32_seconds": 2.213563475990668,
+          "eval_batch64_seconds": 1.5872276700101793
+        },
+        {
+          "threads": 1,
+          "slot": 10,
+          "cpus": [
+            18
+          ],
+          "train_batch32_seconds": 2.569369439035654,
+          "eval_batch64_seconds": 1.5062517680926248
+        },
+        {
+          "threads": 1,
+          "slot": 11,
+          "cpus": [
+            19
+          ],
+          "train_batch32_seconds": 2.2130869899410754,
+          "eval_batch64_seconds": 1.5871360780438408
+        },
+        {
+          "threads": 1,
+          "slot": 12,
+          "cpus": [
+            20
+          ],
+          "train_batch32_seconds": 2.2088343150680885,
+          "eval_batch64_seconds": 1.5725783390225843
+        },
+        {
+          "threads": 1,
+          "slot": 13,
+          "cpus": [
+            21
+          ],
+          "train_batch32_seconds": 2.1718337619677186,
+          "eval_batch64_seconds": 1.5669674939708784
+        },
+        {
+          "threads": 1,
+          "slot": 14,
+          "cpus": [
+            22
+          ],
+          "train_batch32_seconds": 2.2730539749609306,
+          "eval_batch64_seconds": 1.6177948410622776
+        },
+        {
+          "threads": 1,
+          "slot": 15,
+          "cpus": [
+            23
+          ],
+          "train_batch32_seconds": 2.1827634000219405,
+          "eval_batch64_seconds": 1.5706292639952153
+        },
+        {
+          "threads": 1,
+          "slot": 16,
+          "cpus": [
+            40
+          ],
+          "train_batch32_seconds": 2.3390953490743414,
+          "eval_batch64_seconds": 1.7247663309099153
+        },
+        {
+          "threads": 1,
+          "slot": 17,
+          "cpus": [
+            41
+          ],
+          "train_batch32_seconds": 2.3416386699536815,
+          "eval_batch64_seconds": 1.7159692799905315
+        },
+        {
+          "threads": 1,
+          "slot": 18,
+          "cpus": [
+            42
+          ],
+          "train_batch32_seconds": 2.3607993840705603,
+          "eval_batch64_seconds": 1.659111259970814
+        },
+        {
+          "threads": 1,
+          "slot": 19,
+          "cpus": [
+            43
+          ],
+          "train_batch32_seconds": 2.3164567940402776,
+          "eval_batch64_seconds": 1.7995675200363621
+        },
+        {
+          "threads": 1,
+          "slot": 20,
+          "cpus": [
+            44
+          ],
+          "train_batch32_seconds": 2.355423273984343,
+          "eval_batch64_seconds": 1.7490350059233606
+        },
+        {
+          "threads": 1,
+          "slot": 21,
+          "cpus": [
+            45
+          ],
+          "train_batch32_seconds": 2.5775352120399475,
+          "eval_batch64_seconds": 1.4347265689866617
+        },
+        {
+          "threads": 1,
+          "slot": 22,
+          "cpus": [
+            46
+          ],
+          "train_batch32_seconds": 2.3473880169913173,
+          "eval_batch64_seconds": 1.6712714940076694
+        },
+        {
+          "threads": 1,
+          "slot": 23,
+          "cpus": [
+            47
+          ],
+          "train_batch32_seconds": 2.3777177080046386,
+          "eval_batch64_seconds": 1.6076230800244957
+        },
+        {
+          "threads": 1,
+          "slot": 24,
+          "cpus": [
+            48
+          ],
+          "train_batch32_seconds": 2.620207210071385,
+          "eval_batch64_seconds": 1.3364340149564669
+        }
+      ]
+    },
+    {
+      "threads_per_job": 2,
+      "maximum_parallel_jobs": 16,
+      "physical_cores": 32,
+      "estimated_25_job_minutes": 290.7906601494178,
+      "benchmark_wall_seconds": 20.494943618774414,
+      "records": [
+        {
+          "threads": 2,
+          "slot": 0,
+          "cpus": [
+            8,
+            9
+          ],
+          "train_batch32_seconds": 1.2525564749957994,
+          "eval_batch64_seconds": 0.83440764201805
+        },
+        {
+          "threads": 2,
+          "slot": 1,
+          "cpus": [
+            10,
+            11
+          ],
+          "train_batch32_seconds": 1.2052210730034858,
+          "eval_batch64_seconds": 0.8394860069965944
+        },
+        {
+          "threads": 2,
+          "slot": 2,
+          "cpus": [
+            12,
+            13
+          ],
+          "train_batch32_seconds": 1.1999918770743534,
+          "eval_batch64_seconds": 0.8950857369927689
+        },
+        {
+          "threads": 2,
+          "slot": 3,
+          "cpus": [
+            14,
+            15
+          ],
+          "train_batch32_seconds": 1.251051618019119,
+          "eval_batch64_seconds": 0.8882868670625612
+        },
+        {
+          "threads": 2,
+          "slot": 4,
+          "cpus": [
+            16,
+            17
+          ],
+          "train_batch32_seconds": 1.3178055579774082,
+          "eval_batch64_seconds": 0.8374150489689782
+        },
+        {
+          "threads": 2,
+          "slot": 5,
+          "cpus": [
+            18,
+            19
+          ],
+          "train_batch32_seconds": 1.3144854950951412,
+          "eval_batch64_seconds": 0.6494308720575646
+        },
+        {
+          "threads": 2,
+          "slot": 6,
+          "cpus": [
+            20,
+            21
+          ],
+          "train_batch32_seconds": 1.217681844951585,
+          "eval_batch64_seconds": 0.8077583080157638
+        },
+        {
+          "threads": 2,
+          "slot": 7,
+          "cpus": [
+            22,
+            23
+          ],
+          "train_batch32_seconds": 1.5331286480650306,
+          "eval_batch64_seconds": 0.7078794830013067
+        },
+        {
+          "threads": 2,
+          "slot": 8,
+          "cpus": [
+            40,
+            41
+          ],
+          "train_batch32_seconds": 1.4454184309579432,
+          "eval_batch64_seconds": 0.7941922299796715
+        },
+        {
+          "threads": 2,
+          "slot": 9,
+          "cpus": [
+            42,
+            43
+          ],
+          "train_batch32_seconds": 1.359473783057183,
+          "eval_batch64_seconds": 1.0015000670682639
+        },
+        {
+          "threads": 2,
+          "slot": 10,
+          "cpus": [
+            44,
+            45
+          ],
+          "train_batch32_seconds": 1.5171301380032673,
+          "eval_batch64_seconds": 1.058546544983983
+        },
+        {
+          "threads": 2,
+          "slot": 11,
+          "cpus": [
+            46,
+            47
+          ],
+          "train_batch32_seconds": 1.3941031069261953,
+          "eval_batch64_seconds": 0.9143504130188376
+        },
+        {
+          "threads": 2,
+          "slot": 12,
+          "cpus": [
+            48,
+            49
+          ],
+          "train_batch32_seconds": 1.543013493064791,
+          "eval_batch64_seconds": 0.8717491150600836
+        },
+        {
+          "threads": 2,
+          "slot": 13,
+          "cpus": [
+            50,
+            51
+          ],
+          "train_batch32_seconds": 1.3887219550088048,
+          "eval_batch64_seconds": 0.8034701860742643
+        },
+        {
+          "threads": 2,
+          "slot": 14,
+          "cpus": [
+            52,
+            53
+          ],
+          "train_batch32_seconds": 1.4002954320749268,
+          "eval_batch64_seconds": 0.8487285369774327
+        },
+        {
+          "threads": 2,
+          "slot": 15,
+          "cpus": [
+            54,
+            55
+          ],
+          "train_batch32_seconds": 1.6220179030206054,
+          "eval_batch64_seconds": 0.6224394709570333
+        }
+      ]
+    },
+    {
+      "threads_per_job": 4,
+      "maximum_parallel_jobs": 8,
+      "physical_cores": 32,
+      "estimated_25_job_minutes": 227.51394547584155,
+      "benchmark_wall_seconds": 11.961446046829224,
+      "records": [
+        {
+          "threads": 4,
+          "slot": 0,
+          "cpus": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "train_batch32_seconds": 0.5551331350579858,
+          "eval_batch64_seconds": 0.3735699189128354
+        },
+        {
+          "threads": 4,
+          "slot": 1,
+          "cpus": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "train_batch32_seconds": 0.7247423520311713,
+          "eval_batch64_seconds": 0.3211295249639079
+        },
+        {
+          "threads": 4,
+          "slot": 2,
+          "cpus": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "train_batch32_seconds": 0.5379553040256724,
+          "eval_batch64_seconds": 0.36244339495897293
+        },
+        {
+          "threads": 4,
+          "slot": 3,
+          "cpus": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "train_batch32_seconds": 0.5574391250265762,
+          "eval_batch64_seconds": 0.36565768299624324
+        },
+        {
+          "threads": 4,
+          "slot": 4,
+          "cpus": [
+            40,
+            41,
+            42,
+            43
+          ],
+          "train_batch32_seconds": 0.7062294220086187,
+          "eval_batch64_seconds": 0.40808019903488457
+        },
+        {
+          "threads": 4,
+          "slot": 5,
+          "cpus": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "train_batch32_seconds": 0.7243790669599548,
+          "eval_batch64_seconds": 0.37260403705295175
+        },
+        {
+          "threads": 4,
+          "slot": 6,
+          "cpus": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "train_batch32_seconds": 0.7037719030631706,
+          "eval_batch64_seconds": 0.3609925319906324
+        },
+        {
+          "threads": 4,
+          "slot": 7,
+          "cpus": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "train_batch32_seconds": 0.6333421489689499,
+          "eval_batch64_seconds": 0.39768870593979955
+        }
+      ]
+    }
+  ],
+  "recommended_threads": 4,
+  "recommended_parallel_jobs": 8,
+  "estimated_wall_minutes": 227.51394547584155,
+  "synthetic_compute_only": true,
+  "caveat": "Real data, checkpoint I/O and changing shared-machine load add uncertainty."
+}

@@ -1,0 +1,6 @@
+{
+  "full_suite": "107 passed in36.72s",
+  "relevant_subset": "23 passed in5.96s",
+  "real_IQ_preflight": "passed",
+  "source_snapshot_frozen_before_training": true
+}

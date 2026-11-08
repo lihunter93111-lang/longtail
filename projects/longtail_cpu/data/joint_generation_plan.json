@@ -1,0 +1,269 @@
+{
+  "base_seed": 3800000000,
+  "label_count_source": "data/dataset.json",
+  "gaps_db": [
+    0,
+    6,
+    12,
+    18,
+    24
+  ],
+  "nominal_jnr_db": 30,
+  "weak_gap_db": 10,
+  "output_dir": "/ultrafast_share/xuwang_group/wxwu/datasets/longtail/joint_ama_v1/raw",
+  "classes": [
+    "FMB",
+    "AMA",
+    "SawFM",
+    "SinFM",
+    "MFT",
+    "ISRJ"
+  ],
+  "profiles": [
+    {
+      "name": "label_if3",
+      "counts_train": [
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        117,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        126
+      ]
+    }
+  ],
+  "counts_development": [
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96,
+    96
+  ],
+  "distribution_summary": {
+    "label_if3": {
+      "samples": 8000,
+      "label_counts": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "label_if": 3.0,
+      "combination_cf": 7.853658536585366
+    }
+  },
+  "count_source_sha256": "347981e281dea38230388b58dc30e3e4bc798b3ca8a68f1c1524a38eb079af1d",
+  "simulator_sha256": "344ebf10e5a73d7ffb9f420cbd790392b5a483ddb9bf71b1d2e056d554e34701",
+  "writer_sha256": "d9e301a5d861f816ba77ed271976f2b83915d28b91c386d66ecc5d890d7f9294",
+  "generator": "numpy-pcg64-v1",
+  "physics": {
+    "radar": {
+      "fs_hz": 10000000.0,
+      "pri_s": 0.0003,
+      "pulse_width_s": 0.0001,
+      "bandwidth_hz": 5000000.0,
+      "carrier_hz": 10000000000.0,
+      "noise_power": 1.0
+    },
+    "arrival_delay_s": [
+      1e-05,
+      5e-05
+    ],
+    "FMB": {
+      "bandwidth_factor": [
+        1.5,
+        3.0
+      ],
+      "center_frequency_hz": [
+        0.0,
+        0.0
+      ]
+    },
+    "AMA": {
+      "bandwidth_factor": [
+        1.0,
+        2.0
+      ],
+      "center_frequency_hz": [
+        0.0,
+        0.0
+      ],
+      "modulation_index": [
+        1.0,
+        3.0
+      ]
+    },
+    "SawFM": {
+      "sweep_bandwidth_hz": [
+        2000000.0,
+        5000000.0
+      ],
+      "sweep_period_s": [
+        2e-05,
+        8e-05
+      ]
+    },
+    "SinFM": {
+      "center_frequency_hz": [
+        500000.0,
+        1500000.0
+      ],
+      "frequency_deviation_hz": [
+        1000000.0,
+        3000000.0
+      ],
+      "modulation_frequency_hz": [
+        10000.0,
+        20000.0
+      ]
+    },
+    "MFT": {
+      "num_targets": [
+        3,
+        8
+      ],
+      "target_delay_s": [
+        3e-05,
+        5e-05
+      ],
+      "target_relative_amplitude": [
+        0.5,
+        1.5
+      ]
+    },
+    "ISRJ": {
+      "sample_width_s": [
+        5e-06,
+        2e-05
+      ],
+      "num_replicas": [
+        1,
+        5
+      ]
+    }
+  },
+  "schema": "paired-power-generation-plan-v2",
+  "status": "planned_not_generated",
+  "identity_rule": "base + role_offset(0/10000000) + combination_code*10000 + repetition",
+  "existing_identity_files_checked": 28,
+  "weak_definition": "active and cardinality>1 and measured_power-max_active_power<=-weak_gap_db",
+  "pairing": "Same component seeds, noise seed and non-power parameters across gaps",
+  "sha256": "1c808b1da2bf9798a6762cad6f81c3c472a46901c3707db61f80d6f357905c11"
+}

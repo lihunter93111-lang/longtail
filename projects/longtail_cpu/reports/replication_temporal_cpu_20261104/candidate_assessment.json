@@ -1,0 +1,11 @@
+{
+  "ordinary_local_head_replicated_vs_linear": true,
+  "pair_extra_gain_confirmed": false,
+  "current_temporal_attention_better_than_global": false,
+  "new_candidate_superior_to_previous_exact_confirmed": false,
+  "limits": [
+    "Same simulator; reused fixed FMB expert.",
+    "Data identity split is not a new observation protocol.",
+    "Power OOD is diagnostic; its thresholds were not refitted."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "extends": "query_evidence24_cpu.json",
+  "model": {"entrypoint": "longtail.models.dfms_query_variants:DFMSUniformIQ"},
+  "run": {"output_dir": "runs/query_evidence24_uniform_seed{seed}_{signature}"}
+}

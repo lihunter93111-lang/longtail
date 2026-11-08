@@ -1,0 +1,29 @@
+{
+  "selected": "segments124",
+  "passed_vs_reference": true,
+  "passed_vs_same_budget_global128": true,
+  "primary": "locked",
+  "main_report_Exact": 0.7672123015873016,
+  "five_separate_models_not_ensemble": true,
+  "review_audit": {
+    "original_sources_snapshot_weights_transforms_data_SHA_verified": true,
+    "PCA_natural_fit_identity_and_moments_replayed": true,
+    "primary_predictions_recomputed_and_all_rules_metrics_replayed": 45,
+    "other_five_logits_and_predictions_unchanged": true,
+    "weights_thresholds_selection_modified": false
+  },
+  "next_error_priority": [
+    "SawFM",
+    "ISRJ",
+    "MFT",
+    "SinFM",
+    "FMB",
+    "AMA"
+  ],
+  "limits": [
+    "Same physical simulator and PCG64; no measured-data validation.",
+    "Fixed-pool conditional five-seed intervals; secondary comparisons uncorrected.",
+    "Small circular shifts up to0.7us do not test broad arrival-time changes.",
+    "New report is consumed; future tuning requires fresh identities."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_files_verified": 68,
+  "completed_jobs": 8,
+  "primary_evaluations_verified": 104,
+  "thresholds_and_checkpoint_hashes_unchanged": true,
+  "prediction_metadata_paired": true,
+  "calibration_check_report_identity_disjoint": true,
+  "fpr_decisions_fit_only_on_calibration": true,
+  "progress_file_finalized": true
+}

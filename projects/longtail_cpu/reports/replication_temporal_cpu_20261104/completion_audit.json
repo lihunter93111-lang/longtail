@@ -1,0 +1,312 @@
+{
+  "status": "passed",
+  "new_models": 50,
+  "actual_optimizer_steps": 300000,
+  "replayed_metric_conditions": 710,
+  "replayed_calibration_bundles": 20,
+  "prediction_labels_identities_and_power_truth_verified": true,
+  "all_stage_report_barriers_passed": true,
+  "source_and_data_hashes_verified": true,
+  "models": [
+    {
+      "stage": "replication",
+      "seed": 2050,
+      "method": "repA_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2050,
+      "method": "repB_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2050,
+      "method": "repA_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2050,
+      "method": "repB_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2051,
+      "method": "repA_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2051,
+      "method": "repB_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2051,
+      "method": "repA_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2051,
+      "method": "repB_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2052,
+      "method": "repA_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2052,
+      "method": "repB_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2052,
+      "method": "repA_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2052,
+      "method": "repB_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2053,
+      "method": "repA_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2053,
+      "method": "repB_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2053,
+      "method": "repA_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2053,
+      "method": "repB_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2054,
+      "method": "repA_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2054,
+      "method": "repB_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2054,
+      "method": "repA_natural",
+      "steps": 6000
+    },
+    {
+      "stage": "replication",
+      "seed": 2054,
+      "method": "repB_pair_bce",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2050,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2050,
+      "method": "global33",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2050,
+      "method": "temporal",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2051,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2051,
+      "method": "global33",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2051,
+      "method": "temporal",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2052,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2052,
+      "method": "global33",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2052,
+      "method": "temporal",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2053,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2053,
+      "method": "global33",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2053,
+      "method": "temporal",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2054,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2054,
+      "method": "global33",
+      "steps": 6000
+    },
+    {
+      "stage": "temporal",
+      "seed": 2054,
+      "method": "temporal",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2050,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2050,
+      "method": "linear",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2051,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2051,
+      "method": "linear",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2052,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2052,
+      "method": "linear",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2053,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2053,
+      "method": "linear",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2054,
+      "method": "global32",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2054,
+      "method": "linear",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2050,
+      "method": "backbone",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2051,
+      "method": "backbone",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2052,
+      "method": "backbone",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2053,
+      "method": "backbone",
+      "steps": 6000
+    },
+    {
+      "stage": "retrain",
+      "seed": 2054,
+      "method": "backbone",
+      "steps": 6000
+    }
+  ]
+}

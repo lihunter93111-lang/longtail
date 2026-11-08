@@ -1,0 +1,6 @@
+{
+  "extends": "joint.json",
+  "dataloader": {"workers": 0, "pin_memory": false},
+  "train": {"device": "cpu", "cpu_threads": 4, "amp": "none"},
+  "run": {"output_dir": "runs/route1_cpu_baseline_seed{seed}_{signature}"}
+}

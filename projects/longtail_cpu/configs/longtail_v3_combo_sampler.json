@@ -1,0 +1,5 @@
+{
+  "extends": "longtail_v3_fresh_cpu.json",
+  "train": {"sampler": "combo_aware"},
+  "run": {"output_dir": "runs/longtail_v3_combo_sampler_seed{seed}_{signature}"}
+}

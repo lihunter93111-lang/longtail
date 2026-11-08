@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "new_models": 15,
+  "actual_optimizer_steps": 90000,
+  "metrics_replayed": 1068,
+  "calibration_bundles_replayed": 10,
+  "raw_waveform_pairs_regenerated": 18,
+  "source_data_weights_verified": true,
+  "other_four_logits_and_thresholds_preserved": true,
+  "report_barriers_passed": true,
+  "models": [
+    {
+      "seed": 2050,
+      "method": "natural",
+      "steps": 6000
+    },
+    {
+      "seed": 2050,
+      "method": "pair1",
+      "steps": 6000
+    },
+    {
+      "seed": 2050,
+      "method": "pair2",
+      "steps": 6000
+    },
+    {
+      "seed": 2051,
+      "method": "natural",
+      "steps": 6000
+    },
+    {
+      "seed": 2051,
+      "method": "pair1",
+      "steps": 6000
+    },
+    {
+      "seed": 2051,
+      "method": "pair2",
+      "steps": 6000
+    },
+    {
+      "seed": 2052,
+      "method": "natural",
+      "steps": 6000
+    },
+    {
+      "seed": 2052,
+      "method": "pair1",
+      "steps": 6000
+    },
+    {
+      "seed": 2052,
+      "method": "pair2",
+      "steps": 6000
+    },
+    {
+      "seed": 2053,
+      "method": "natural",
+      "steps": 6000
+    },
+    {
+      "seed": 2053,
+      "method": "pair1",
+      "steps": 6000
+    },
+    {
+      "seed": 2053,
+      "method": "pair2",
+      "steps": 6000
+    },
+    {
+      "seed": 2054,
+      "method": "natural",
+      "steps": 6000
+    },
+    {
+      "seed": 2054,
+      "method": "pair1",
+      "steps": 6000
+    },
+    {
+      "seed": 2054,
+      "method": "pair2",
+      "steps": 6000
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "baseline.json",
+  "data": {"manifest": "../datasets/longtail/joint_ama_v1/label_if3_mixed/dataset.json"},
+  "train": {"selection_metric": "weak_macro_aupr"},
+  "run": {"output_dir": "runs/joint_dfms_seed{seed}_{signature}"}
+}

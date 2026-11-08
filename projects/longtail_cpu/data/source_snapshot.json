@@ -1,0 +1,190 @@
+{
+  "dataset": "fulanya/longtail",
+  "url": "https://modelscope.cn/datasets/fulanya/longtail",
+  "revision": "master",
+  "listed_on": "2026-10-16",
+  "total_bytes": 54744001925,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 3818,
+      "sha256": "53b61e55812199dea8ffe90c52485e2ec5e5bdae1eed92cab20063003da14e29"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2517,
+      "sha256": "5f3cadc48df6d9a462aeaa11643342733209a1d8f8466293aec716df2720bc0d"
+    },
+    {
+      "path": "closedset_6class/closedset_6class_test.mat",
+      "bytes": 2549059943,
+      "sha256": "261650367d30ed182c37e3bd430136e2a8190aa407b523d6825114fe2366f105"
+    },
+    {
+      "path": "closedset_6class/closedset_6class_train.mat",
+      "bytes": 2549129808,
+      "sha256": "2e9afdf1999452b6635038c52457f2b44b28f98aec422d87576e5ad76135d50e"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_01__jnr_10dB/closedset_6class_test.mat",
+      "bytes": 2541574890,
+      "sha256": "c41333167b1544497c9bd75d29774d8287172613260283a5f4bfce27e32f55dd"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_01__jnr_10dB/closedset_6class_train.mat",
+      "bytes": 2541622362,
+      "sha256": "9ff05839b50455992448c7026074e86a10da1f65deff8ff845428c04fc6f2f51"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_02__jnr_15dB/closedset_6class_test.mat",
+      "bytes": 2541972840,
+      "sha256": "b14e40048cb49709b2edd0dabe0cbc534ce791520708a29f07f50256772284a8"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_02__jnr_15dB/closedset_6class_train.mat",
+      "bytes": 2542020940,
+      "sha256": "4f465edbd3a6a55cc80a2cb0edf3a10a8268111b167db9e470884c399ea560eb"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_03__jnr_20dB/closedset_6class_test.mat",
+      "bytes": 2542334282,
+      "sha256": "8306b89c0a4eca3076c91b063ba06681abfb39a19abf1300d1506ec01167295c"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_03__jnr_20dB/closedset_6class_train.mat",
+      "bytes": 2542385195,
+      "sha256": "c3973f5093a23094f9265cd34e3492f6bc4e130cea0361bb3748d583fdaded25"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_04__jnr_25dB/closedset_6class_test.mat",
+      "bytes": 2542497332,
+      "sha256": "70a0fe9cdcb11473e2ca9e9ef53ec197f1d7ad486d47d929d45c89ccc7762f03"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_04__jnr_25dB/closedset_6class_train.mat",
+      "bytes": 2542542636,
+      "sha256": "beb826820ab725c64097f4457fe6cf1a0c5148f07e301ac04be59287be656f65"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_05__jnr_30dB/closedset_6class_test.mat",
+      "bytes": 2542049103,
+      "sha256": "617f498d6ded299a1d07f51f4fc0e296a29e3161b4b32cac3ff0db293a6d0174"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_05__jnr_30dB/closedset_6class_train.mat",
+      "bytes": 2542101233,
+      "sha256": "b7093e429930c260e04ffffddd320568496ad671d3aedce657120f123f003030"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_06__jnr_35dB/closedset_6class_test.mat",
+      "bytes": 2541895995,
+      "sha256": "b9d42d8f3424a944224a40e714da6ddb9e6c3338e892ba281cb26c942c5876fe"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_06__jnr_35dB/closedset_6class_train.mat",
+      "bytes": 2541943722,
+      "sha256": "d2c34489576a956ebce779ad1cf1d83ca8c882c7a1e214559bec6e3d2fd7dec6"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_07__jnr_40dB/closedset_6class_test.mat",
+      "bytes": 2541736066,
+      "sha256": "26c700cd5f70c2f9d26978420003facae47017950b19bcc243178150f9a05e3c"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_07__jnr_40dB/closedset_6class_train.mat",
+      "bytes": 2541777467,
+      "sha256": "1d98e465846b13b1e5ce94864adb293c58448afcb7453800cdf99d8995bf80fe"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_08__jnr_45dB/closedset_6class_test.mat",
+      "bytes": 2541594676,
+      "sha256": "a43a396de28e3e41c1805867f1611b597c9d501cf2203496b423f9424913e8c5"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_08__jnr_45dB/closedset_6class_train.mat",
+      "bytes": 2541650272,
+      "sha256": "90682cd717907045cf000e001b2dc15d3a08938409eb11530c05b8f2150ffe00"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_09__jnr_50dB/closedset_6class_test.mat",
+      "bytes": 2541603657,
+      "sha256": "c1b80329a5fb3b1e8260880073f68bdded4d720084844b8a795b7ed849f8a60e"
+    },
+    {
+      "path": "power_sweep_9level_v1/level_09__jnr_50dB/closedset_6class_train.mat",
+      "bytes": 2541652023,
+      "sha256": "ea82838348446f627b3c5fbf462a05198d71b01d79618123af4cee00b3f04cc2"
+    },
+    {
+      "path": "power_sweep_9level_v1/power_sweep_file_inventory_sha256.csv",
+      "bytes": 4628,
+      "sha256": "6fbc1808c505012ca7a9ce2fc84b1b160dd66b242294c017e3d2e6c929197b01"
+    },
+    {
+      "path": "power_sweep_9level_v1/power_sweep_manifest.csv",
+      "bytes": 3532,
+      "sha256": "825ae2d73f9ff674da3624770b992f40b90161cc2d192b06a481f3cf001bfa41"
+    },
+    {
+      "path": "power_sweep_9level_v1/功率不均衡九挡配对数据集说明.md",
+      "bytes": 8102,
+      "sha256": "7c2cc466267f1cfcbf20ff1f70870fc6a1e4bf051b24dab988d93232ce42c3c5"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v1_IF3_CF8_N8000/audit_summary.json",
+      "bytes": 3942,
+      "sha256": "2d6b57c738f3deb8517470b4ba3769f622bce8f8815d93c154c365467a484b95"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v1_IF3_CF8_N8000/closedset_6class_test.mat",
+      "bytes": 809024356,
+      "sha256": "8c58bb7f58c197c8104757d9b406c555458beea71af8f116009638a1bc545515"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v1_IF3_CF8_N8000/closedset_6class_train.mat",
+      "bytes": 809042519,
+      "sha256": "a76a9e143e7ca2a69383a2d1caf44863d16945aa9357680b33da4e24e8ad53fb"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v1_IF3_CF8_N8000/runner_result.mat",
+      "bytes": 793312,
+      "sha256": "deb5ad9eba1569a95634baa54fb90ff3e790f3928be4e055d7a5aae136cbd68b"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v2_IF3_CF8_N8000_AMA/audit_summary.json",
+      "bytes": 3774,
+      "sha256": "20b7f394223dc2e0f8638b43dea521ff6f55cdfd11ce228c09bc986760f551f2"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v2_IF3_CF8_N8000_AMA/closedset_6class_test.mat",
+      "bytes": 809026044,
+      "sha256": "360e5e682df279902df550336bc6f008c46b459e6c5efc51aaf225a8f1066e52"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v2_IF3_CF8_N8000_AMA/closedset_6class_train.mat",
+      "bytes": 809001242,
+      "sha256": "dd7ee3f823e88174e347dca6e57d2d49c48d9d30f8c86c7ea707eefbe3411da6"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v2_IF3_CF8_N8000_AMA/runner_result.mat",
+      "bytes": 793376,
+      "sha256": "f35b8f6777d55c2ac4c53a6ce52ac9df80473292565a1d6143868030903c11da"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v3_IF3_CF8_N8000_AMA/audit_summary.json",
+      "bytes": 168329,
+      "sha256": "d9474435622b0b2a182acd9d12ab90388e0e0012ab3a8ef323ba4e454dd87611"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v3_IF3_CF8_N8000_AMA/closedset_6class_test.mat",
+      "bytes": 281256488,
+      "sha256": "87bf9a7181820d098545e2b7b225537d18dead1b411a9700a8401c383db96d1f"
+    },
+    {
+      "path": "six_class_pure_label_longtail_v3_IF3_CF8_N8000_AMA/closedset_6class_train.mat",
+      "bytes": 371721504,
+      "sha256": "7bcf4b3a71569bc8b994e23a4b2f84dd44bc5413bd35fa07e362bb75ee194942"
+    }
+  ],
+  "storage_directory": "backup"
+}
