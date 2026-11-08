@@ -1,0 +1,95 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>配对复现与时序局部头CPU验证</title><style>body{font:16px/1.8 system-ui;max-width:1250px;margin:24px auto;padding:24px;color:#234}table{border-collapse:collapse;width:100%;font-size:14px;margin:16px 0}th,td{border:1px solid #ccd;padding:7px}th{background:#e9f2f3}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><h1>配对复现 → 时序局部头 → 新身份完整重训</h1><p>五种子、CPU、同预算。先做两份独立配对身份复现；再比较4227参数全局头、4359参数全局头和4323参数时序头；最后在新32k身份池重训B分支，FMB专家固定。各阶段仅用check选方案，冻结后打开report。</p><pre>{
+  &quot;stage_order&quot;: [
+    &quot;replication&quot;,
+    &quot;temporal&quot;,
+    &quot;retrain&quot;
+  ],
+  &quot;seeds&quot;: [
+    2050,
+    2051,
+    2052,
+    2053,
+    2054
+  ],
+  &quot;cpu_only&quot;: true,
+  &quot;parallel_jobs&quot;: 5,
+  &quot;physical_cores_per_job&quot;: 4,
+  &quot;conditional_new_model_count&quot;: [
+    50,
+    55
+  ],
+  &quot;conditional_actual_training_steps&quot;: [
+    300000,
+    330000
+  ],
+  &quot;replication&quot;: {
+    &quot;independent_pair_training_pools&quot;: 2,
+    &quot;new_local_models&quot;: 20,
+    &quot;methods&quot;: [
+      &quot;natural global32&quot;,
+      &quot;25% paired views global32&quot;
+    ],
+    &quot;background_edge_partition&quot;: &quot;same19/6/6 edge split, new identities&quot;,
+    &quot;natural_trajectories&quot;: &quot;same per seed across replications; best checkpoint selected separately on fresh check&quot;,
+    &quot;selection&quot;: &quot;pair policy only if both check pools improve Exact vs natural and satisfy safeguards; else natural&quot;,
+    &quot;inference&quot;: &quot;5 reused backbone seeds; average data replications within seed for conditional interval, never10 independent seeds&quot;
+  },
+  &quot;temporal&quot;: {
+    &quot;new_local_models&quot;: 15,
+    &quot;heads&quot;: {
+      &quot;global32&quot;: 4227,
+      &quot;global33&quot;: 4359,
+      &quot;temporal&quot;: 4323
+    },
+    &quot;temporal_input&quot;: &quot;exact float32 pre-pooling temporal map; label-specific attention over contextual positions; no extra positional encoding&quot;,
+    &quot;selection&quot;: &quot;best check Exact with safeguards vs global32; global32 fallback&quot;,
+    &quot;pair_policy&quot;: &quot;replication check only; if paired, use predeclared repA fit identities&quot;
+  },
+  &quot;retrain&quot;: {
+    &quot;new_backbones&quot;: 5,
+    &quot;new_linear_heads&quot;: 5,
+    &quot;new_local_heads&quot;: &quot;5 or10 conditional on selected architecture&quot;,
+    &quot;backbone&quot;: &quot;new32k train identities; same long-tail combination counts and natural BCE; random initialization&quot;,
+    &quot;FMB&quot;: &quot;same old fixed expert at0.5 in all compared branches; full retraining applies to the B branch&quot;,
+    &quot;comparisons&quot;: [
+      &quot;new backbone+linear&quot;,
+      &quot;new backbone+linear+global32&quot;,
+      &quot;new backbone+linear+selected local architecture&quot;,
+      &quot;old candidate on identical reports&quot;
+    ],
+    &quot;OOD&quot;: &quot;independent0--20dB and10--40dB component JNR; same frozen main calibration decisions; diagnostic only&quot;
+  },
+  &quot;budget&quot;: {
+    &quot;epochs&quot;: 24,
+    &quot;steps_per_epoch&quot;: 250,
+    &quot;batch&quot;: 32,
+    &quot;steps_per_model&quot;: 6000,
+    &quot;views_per_model&quot;: 192000,
+    &quot;backbone_lr&quot;: 0.0001,
+    &quot;head_lr&quot;: 0.001,
+    &quot;optimizer&quot;: &quot;AdamW&quot;,
+    &quot;weight_decay&quot;: 0.0001,
+    &quot;scheduler&quot;: &quot;cosine24epochs&quot;
+  },
+  &quot;decisions&quot;: &quot;per-label F1 fit on calibration only; FMB fixed0.5; matched calibration-FPR secondary diagnostics&quot;,
+  &quot;local_update_columns&quot;: [
+    &quot;SawFM&quot;,
+    &quot;MFT&quot;,
+    &quot;ISRJ&quot;
+  ],
+  &quot;report_gate&quot;: &quot;freeze model weights, calibration thresholds and check selection before each stage reports; stage reports never drive later choices&quot;,
+  &quot;success&quot;: {
+    &quot;minimum_exact_gain_pp&quot;: 0.5,
+    &quot;minimum_positive_seeds&quot;: 4,
+    &quot;paired95_lower_positive&quot;: true,
+    &quot;max_tail_F1_drop_pp&quot;: 0.3,
+    &quot;max_class_FPR_rise_pp&quot;: 1.0,
+    &quot;max_Saw_and_ISRJ_weak_recall_drop_pp&quot;: 3.0
+  },
+  &quot;limits&quot;: [
+    &quot;Five model seeds on fixed simulated pools; conditional intervals do not cover all data-generation variation.&quot;,
+    &quot;Pair-edge holdout is relative to paired training; natural backbone has seen all63 combinations.&quot;,
+    &quot;Same physical-equation Python PCG64 simulator; no MATLAB bitwise parity or real measurement validation.&quot;,
+    &quot;Secondary exploratory comparisons have no multiplicity correction.&quot;
+  ]
+}</pre></html>

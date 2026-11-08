@@ -1,0 +1,287 @@
+{
+  "models": [
+    {
+      "seed": 2050,
+      "selected": "segments124",
+      "references": {
+        "new": {
+          "B": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/backbones/seed2050/best.pt",
+            "sha256": "4a7dd3fafde5eea7ce3fb370d8674629b4d31dfb7bfdd5eee4ecab40bfdd605d"
+          },
+          "linear": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2050/linear.pt",
+            "sha256": "0ba0f6880841323adf4851d22bf6dfb489a00453a91f2e9910dc67910070fd95"
+          },
+          "local": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2050/global32.pt",
+            "sha256": "d8591f190df5e25c00599b90a866fd0d9c8c424080070def4d1928301da48bce"
+          },
+          "thresholds": [
+            0.5,
+            0.25942371989471735,
+            0.6463941545209977,
+            0.43833369546060774,
+            0.4023320580589612,
+            0.4907641784445939
+          ]
+        },
+        "target_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/calibration_targeted_cpu_20261104/targeted/seed2050/pair1.pt",
+          "sha256": "37b48590a74d244afc3f296121a8a6d5ec24225c85f57455ff7d89a1b4c09dd0",
+          "replaces_columns": [
+            2,
+            4
+          ]
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2050/best.pt",
+          "sha256": "3e35f0f8b10f13f0b31709f2f731bf0013a1c0094c3ed5f0d4c636576c9bc214"
+        }
+      },
+      "residual_head": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2050/segments124.pt",
+        "sha256": "ad991d5712e3054f3c835996781a9918bae94f566b4386b490855779a63e1338"
+      },
+      "transform": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2050/segments124_transform.npz",
+        "sha256": "9ca153113c83ddc9e00e1777153e21d377963a89f51308879f057e609f0039f5"
+      },
+      "thresholds": [
+        0.5,
+        0.25942371989471735,
+        0.6463941545209977,
+        0.43833369546060774,
+        0.4023320580589612,
+        0.4907641784445939
+      ]
+    },
+    {
+      "seed": 2051,
+      "selected": "segments124",
+      "references": {
+        "new": {
+          "B": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/backbones/seed2051/best.pt",
+            "sha256": "7291dcf4056824e499b7082fdbf5fc385ac805d34d274ec225b27a1066839590"
+          },
+          "linear": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2051/linear.pt",
+            "sha256": "924f2b83634af82095714a7ad3777ea5c6c997d03ee0080d265d66408559e6b9"
+          },
+          "local": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2051/global32.pt",
+            "sha256": "bb3c1810f8899d80628314200f8db4c4bcaa7ec61302ac578f9476355b63452d"
+          },
+          "thresholds": [
+            0.5,
+            0.27338956010550675,
+            0.5990708004411557,
+            0.34521517650069206,
+            0.5688991866832049,
+            0.4939536251978914
+          ]
+        },
+        "target_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/calibration_targeted_cpu_20261104/targeted/seed2051/pair1.pt",
+          "sha256": "f99b0ad905c296169f3daf04a377604ed3cfe9e8503198188554fc28a5b9aa51",
+          "replaces_columns": [
+            2,
+            4
+          ]
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2051/best.pt",
+          "sha256": "f7d13eba0fb3b4b114c7c7a1c41d9d5e979a21b29900b05720c8012fc4b4fc58"
+        }
+      },
+      "residual_head": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2051/segments124.pt",
+        "sha256": "3bef5e897293fd1ab267f1a5ea4678cda73689719ef147446b69e992f16edb35"
+      },
+      "transform": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2051/segments124_transform.npz",
+        "sha256": "3ba3b3b026d2cab1b37b7bd708dbf7142a9d3cf3d98bdf0f1c445d69859b0da5"
+      },
+      "thresholds": [
+        0.5,
+        0.27338956010550675,
+        0.5990708004411557,
+        0.34521517650069206,
+        0.5688991866832049,
+        0.4939536251978914
+      ]
+    },
+    {
+      "seed": 2052,
+      "selected": "segments124",
+      "references": {
+        "new": {
+          "B": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/backbones/seed2052/best.pt",
+            "sha256": "19784fe80d1ca099e3b23d055bc79012083aa0b459671d15056483992fc69091"
+          },
+          "linear": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2052/linear.pt",
+            "sha256": "3914aa2c76d392f0465f7e1f84535c08f4c76945de6f204c4f43e0ed7530e5d5"
+          },
+          "local": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2052/global32.pt",
+            "sha256": "2c5fbe0fe1853c0725d5ca4a40f46b01a9452c91798ba560f609b8b083c927c4"
+          },
+          "thresholds": [
+            0.5,
+            0.22343766120335048,
+            0.4535849749710675,
+            0.3929835144597007,
+            0.6393703591970105,
+            0.41842543970151125
+          ]
+        },
+        "target_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/calibration_targeted_cpu_20261104/targeted/seed2052/pair1.pt",
+          "sha256": "ac448da0f450dab631d431c939537062cb827f396184b0ab1da4005125e8a8eb",
+          "replaces_columns": [
+            2,
+            4
+          ]
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2052/best.pt",
+          "sha256": "f6e08ed1a4c9b8c5f05f06bb0bfe63fc94350ea932abfc8649fbb108d61d663f"
+        }
+      },
+      "residual_head": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2052/segments124.pt",
+        "sha256": "79f08525d0b54726c03a5977d8d54d6c2fe361966966c0e126c4ac6ca6f595aa"
+      },
+      "transform": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2052/segments124_transform.npz",
+        "sha256": "061f389a6dbecb1f0082d0983851f4418f7bf81f8ef0ff4f6b9199b3204e4e44"
+      },
+      "thresholds": [
+        0.5,
+        0.22343766120335048,
+        0.4535849749710675,
+        0.3929835144597007,
+        0.6393703591970105,
+        0.41842543970151125
+      ]
+    },
+    {
+      "seed": 2053,
+      "selected": "segments124",
+      "references": {
+        "new": {
+          "B": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/backbones/seed2053/best.pt",
+            "sha256": "1d33703848b991ba0424bce7ebce34c742328d6bcb1f178d5f6cdb077260e98f"
+          },
+          "linear": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2053/linear.pt",
+            "sha256": "a8fe59da17be89913f1db1eff1d667c4e19dc09d9309628c478aab5351d1b370"
+          },
+          "local": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2053/global32.pt",
+            "sha256": "ee12fc314850f50250cc4d1bd70e86a57c45cce6608df99e86c49837c2b0649f"
+          },
+          "thresholds": [
+            0.5,
+            0.21907220269322822,
+            0.42757015669681464,
+            0.2903856283547201,
+            0.5023332664873402,
+            0.339608967174134
+          ]
+        },
+        "target_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/calibration_targeted_cpu_20261104/targeted/seed2053/pair1.pt",
+          "sha256": "6bbb2b5ce7d2928fc34b2f2c8d9856e51239f5e2c009fab622db020cd51fd616",
+          "replaces_columns": [
+            2,
+            4
+          ]
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2053/best.pt",
+          "sha256": "e736edd8529baccab3deac2ae2fa5eef8da6bcf62858d518053cc650d4fbd0ff"
+        }
+      },
+      "residual_head": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2053/segments124.pt",
+        "sha256": "e6629af20b244cd58ccc196fe0890db23474ad7bbc01642d73b6b3ae44a2ac25"
+      },
+      "transform": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2053/segments124_transform.npz",
+        "sha256": "2bc7d7907f9e6edefc9d0b19cb1c764e0a1826f30ec08efd7362e9c585e2820e"
+      },
+      "thresholds": [
+        0.5,
+        0.21907220269322822,
+        0.42757015669681464,
+        0.2903856283547201,
+        0.5023332664873402,
+        0.339608967174134
+      ]
+    },
+    {
+      "seed": 2054,
+      "selected": "segments124",
+      "references": {
+        "new": {
+          "B": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/backbones/seed2054/best.pt",
+            "sha256": "f3fb7769926de2f8a9ecee6de958ca1ba940a66ab9d3a9171b7e0205b9c1801d"
+          },
+          "linear": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2054/linear.pt",
+            "sha256": "772732e4a0e3c752cbf66adeb9986c68c3b8089f313a45dd7b963a77e0b5f27a"
+          },
+          "local": {
+            "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/replication_temporal_cpu_20261104/retrain/seed2054/global32.pt",
+            "sha256": "266494b5bc4980cdabe1e999a88e694523495908d0c7519576a0cfc849241ab9"
+          },
+          "thresholds": [
+            0.5,
+            0.2021146627952478,
+            0.6473608002727851,
+            0.5190817715969449,
+            0.5970430189088486,
+            0.5042559007507277
+          ]
+        },
+        "target_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/calibration_targeted_cpu_20261104/targeted/seed2054/pair1.pt",
+          "sha256": "098b710e3ba5a9255c3bfe8e4dcbd86f74efab021a81354599769eed50b2f66c",
+          "replaces_columns": [
+            2,
+            4
+          ]
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2054/best.pt",
+          "sha256": "9cb1af8ebff9f43bab5ac5fe7a38a1a2aba0cb8d0763cd2358fbb6a916552879"
+        }
+      },
+      "residual_head": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2054/segments124.pt",
+        "sha256": "03924b39a9f67be586b57d0aad43d71a120a1ea96ddfeb31946f86190fae1f8e"
+      },
+      "transform": {
+        "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/segment_statistics_cpu_20261105/models/seed2054/segments124_transform.npz",
+        "sha256": "2c3465d426846d877854e03f8e590c0bfbb291f60681312925786802679f3ab8"
+      },
+      "thresholds": [
+        0.5,
+        0.2021146627952478,
+        0.6473608002727851,
+        0.5190817715969449,
+        0.5970430189088486,
+        0.5042559007507277
+      ]
+    }
+  ],
+  "five_separate_models_not_ensemble": true,
+  "check_selected_only": true,
+  "formal_report_acceptance": true
+}

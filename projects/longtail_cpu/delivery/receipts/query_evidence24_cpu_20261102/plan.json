@@ -1,0 +1,507 @@
+{
+  "created": "2026-11-02T19:45:01+08:00",
+  "repository": "/ultrafast_share/xuwang_group/wxwu/longtail",
+  "jobs": [
+    {
+      "id": "baseline_seed2050",
+      "arm": "baseline",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/baseline_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/baseline_seed2050",
+      "cpus": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "parameters": 257511
+    },
+    {
+      "id": "baseline_seed2051",
+      "arm": "baseline",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/baseline_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/baseline_seed2051",
+      "cpus": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "parameters": 257511
+    },
+    {
+      "id": "single_seed2050",
+      "arm": "single",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/single_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/single_seed2050",
+      "cpus": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "single_seed2051",
+      "arm": "single",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/single_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/single_seed2051",
+      "cpus": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "fused_seed2050",
+      "arm": "fused",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/fused_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/fused_seed2050",
+      "cpus": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "fused_seed2051",
+      "arm": "fused",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/fused_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/fused_seed2051",
+      "cpus": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "uniform_seed2050",
+      "arm": "uniform",
+      "seed": 2050,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/uniform_seed2050.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/uniform_seed2050",
+      "cpus": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "parameters": 300211
+    },
+    {
+      "id": "uniform_seed2051",
+      "arm": "uniform",
+      "seed": 2051,
+      "config": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/configs/uniform_seed2051.json",
+      "output": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/query_evidence24_cpu_20261102/uniform_seed2051",
+      "cpus": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "parameters": 300211
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "src/longtail/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/longtail/config.py",
+      "sha256": "a06a762f4d37034e06c601b1ffe157125135dd86bcbf97a5d0894725482d54db"
+    },
+    {
+      "path": "src/longtail/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/longtail/data/dataset.py",
+      "sha256": "ddd5cb22e645d7f616a1c45f6e902816c60a83799fcdc2c44cc253b2f7c649e7"
+    },
+    {
+      "path": "src/longtail/data/generate_files.py",
+      "sha256": "d9e301a5d861f816ba77ed271976f2b83915d28b91c386d66ecc5d890d7f9294"
+    },
+    {
+      "path": "src/longtail/data/generation.py",
+      "sha256": "3eb0f2c722c4323379dab16d6c776c6e9295c51ad74ab6fb2a04753c3aba8fe4"
+    },
+    {
+      "path": "src/longtail/data/joint.py",
+      "sha256": "af405b68f266ac4d8cc3e952d6a89066c90b5efc1ca99abb910061a937531824"
+    },
+    {
+      "path": "src/longtail/data/loaders.py",
+      "sha256": "7d7bf15f4442c10182fd7dfd6abae8403321b681553b230a89b75c9913080a51"
+    },
+    {
+      "path": "src/longtail/data/manage.py",
+      "sha256": "b65b4adf510afa18d62577c1816ad25279df7676b9770de521a11731caec09d8"
+    },
+    {
+      "path": "src/longtail/data/power_truth.py",
+      "sha256": "cc09a9d72579391f6e7b4cd2dcbb17f62a24d0aef1f3fc61d4b70a07af4a0187"
+    },
+    {
+      "path": "src/longtail/data/preprocess.py",
+      "sha256": "ba8e37f738bb855acfe978c3c52feadda12d552fd3a7b5b8a3c1049d98d0ae76"
+    },
+    {
+      "path": "src/longtail/data/signals.py",
+      "sha256": "344ebf10e5a73d7ffb9f420cbd790392b5a483ddb9bf71b1d2e056d554e34701"
+    },
+    {
+      "path": "src/longtail/data/splits.py",
+      "sha256": "c3d21e6433d379bee2792d55db403ece11207ace856ea97bcb5d5530b1141172"
+    },
+    {
+      "path": "src/longtail/engine/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/longtail/engine/checkpoint.py",
+      "sha256": "31f95bd3d6233a12f2896df5f0f1c43c717b0441b1c9062d55e6d159a2c04e80"
+    },
+    {
+      "path": "src/longtail/engine/distributed.py",
+      "sha256": "b3a8a2e97474178fda29b0d43cc1a4bde6bd7be5d8ac894d05339dab0a44f66f"
+    },
+    {
+      "path": "src/longtail/engine/inference.py",
+      "sha256": "4fb8a2d4e1771d3bbdc52d7418666d3475ebb60064edbb7ea086ad1f2dc482d4"
+    },
+    {
+      "path": "src/longtail/engine/trainer.py",
+      "sha256": "39aa78b46cf73a997ebf26278c0b584f280832f65d0355a8c0e79c362ad92108"
+    },
+    {
+      "path": "src/longtail/evaluate.py",
+      "sha256": "5922edb214fa4b8f5b1804bbf3a728709e24c3d5b1a314f73ec5dc612060bf28"
+    },
+    {
+      "path": "src/longtail/io.py",
+      "sha256": "74f368c7057741b1a984019746e34d1c21951f9d7e743ffcbf4012c6fe492cd6"
+    },
+    {
+      "path": "src/longtail/metrics.py",
+      "sha256": "f434dff672c098266cb86a20ae12b9f2dd32ca1a72da6137aebcda0113cf2654"
+    },
+    {
+      "path": "src/longtail/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/longtail/models/components/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/longtail/models/components/complex.py",
+      "sha256": "17725216f5e9050df7996b78121e94b42d685b01e42cdd2abecfa4332188c3f4"
+    },
+    {
+      "path": "src/longtail/models/components/encoder.py",
+      "sha256": "a89b5e9f471899c73b8fe07dc178907e66c2fb1250d07d76f6500c934337d217"
+    },
+    {
+      "path": "src/longtail/models/components/fusion.py",
+      "sha256": "13314b994c546d3b7ee54827bfcca870888db701622f8face78478842826502a"
+    },
+    {
+      "path": "src/longtail/models/components/temporal.py",
+      "sha256": "1bb106e7f44dc8633c4ccf69b52b1a1c47a652334279613d8ced09e6beec627f"
+    },
+    {
+      "path": "src/longtail/models/dfms.py",
+      "sha256": "8e9950938fe37db9ac652a114ab42f25fc0178f145055f49be211208f421a861"
+    },
+    {
+      "path": "src/longtail/models/dfms_query.py",
+      "sha256": "cc706d24077d496bdbb564a6350b735156f74baf13764cd050dccab1dd35cfb9"
+    },
+    {
+      "path": "src/longtail/models/dfms_query_variants.py",
+      "sha256": "53397ae68bcee2611a6817d0771e72f23c99e4b3e605c108bcd30a9c6184fa99"
+    },
+    {
+      "path": "src/longtail/models/factory.py",
+      "sha256": "50bdbdcdd8d5a92d8e1c8d3818f6f04ee1fdfb41b2866153e3738ad2e4f7db44"
+    },
+    {
+      "path": "src/longtail/models/transformer.py",
+      "sha256": "f66a672449bc7b9c14b181c17a9c44f4884ec1f31bb9107ce8311bb87bc5453f"
+    },
+    {
+      "path": "src/longtail/train.py",
+      "sha256": "7b1a5088d09cbc5fa93601b7dc2d573525e73b3e19e08cb51eceeb6fbbc8787b"
+    },
+    {
+      "path": "src/longtail/weak_metrics.py",
+      "sha256": "cd3f55137561803e0ddd94a7b0ba7f393781b5781e403d381d7e483a9e4b6171"
+    },
+    {
+      "path": "configs/baseline.json",
+      "sha256": "97d3cb193df770735ffb204e1fff3123e28d925cc3a9da028d9723c58640843f"
+    },
+    {
+      "path": "configs/historical_stage_a.json",
+      "sha256": "82349484648a971d1a0e1f1e3ca12847be6d88a95a609b990ff08b818d346c46"
+    },
+    {
+      "path": "configs/joint.json",
+      "sha256": "d2ac5b29278dae9b5ce84f54b4095bd86c381177a7fa98ac12355d8a9c7fd9e4"
+    },
+    {
+      "path": "configs/joint_equal.json",
+      "sha256": "d068c770a30bd85a462d408488fa579285b17d4401346de49424a838e9268dd4"
+    },
+    {
+      "path": "configs/joint_transformer.json",
+      "sha256": "b9f52442cb1800491aae6b575e8fc5ea352dd8001e710c18cf5eb389bf162475"
+    },
+    {
+      "path": "configs/query_evidence24_cpu.json",
+      "sha256": "fb409be3ce50a239c9d0f9c096b6e8b4269dafd186b1bca63e877ac0d365f1c4"
+    },
+    {
+      "path": "configs/query_evidence24_fused.json",
+      "sha256": "e711958a2b6fe0a823b34254f62f191c99d9fdf12546e33e4e1a5656838bfd31"
+    },
+    {
+      "path": "configs/query_evidence24_single.json",
+      "sha256": "79dde88e1f7e333ed713d3919b6663ca1e9e235a6cfa795666ebe13785d6c17f"
+    },
+    {
+      "path": "configs/query_evidence24_uniform.json",
+      "sha256": "133eb486b29c6abc5ebe4afcc7dcbc4074aa33c921e7ed587f3cd61dcf714844"
+    },
+    {
+      "path": "configs/query_route1_capacity.json",
+      "sha256": "b1fd5f6b646f704841569e8ad131770b45d99279189e3e7cedf783641e486f56"
+    },
+    {
+      "path": "configs/query_route1_cpu.json",
+      "sha256": "4ec9527ca418aada42a9873d0f649237c0e243a2eb891666af2ca2fc25c496e1"
+    },
+    {
+      "path": "configs/query_route1_multiscale.json",
+      "sha256": "6682c554d01d1c9e147a42c01e5a029cec0b7bf99163237b157bdce38ae27cde"
+    },
+    {
+      "path": "configs/query_route1_single.json",
+      "sha256": "5c36853aaf5459bc06b73d411a9e0e7a757fefea29b2fe82fb9239b71031e055"
+    },
+    {
+      "path": "configs/smoke.json",
+      "sha256": "8df051ee93fc4ac8b36da8686b108993ef04e696b8eb68842428ac08170a6135"
+    },
+    {
+      "path": "configs/transformer.json",
+      "sha256": "e4818d34ff706c5248aeb5147d7e5d97e7a2b6886a08515866402706a3522488"
+    },
+    {
+      "path": "experiments/check_query_route1_artifacts.py",
+      "sha256": "c0c9ac2d7d34938cb696152974015150ed7ec90d178bad7c7578458e8429e3c6"
+    },
+    {
+      "path": "experiments/diagnose_query_route1_bottlenecks.py",
+      "sha256": "98ea97477f5a5e955d927a82d4fb795e9e6426954021afeddf7d3275ca334625"
+    },
+    {
+      "path": "experiments/evaluate_query_route1_fpr.py",
+      "sha256": "b6a2f93d95807a2af688e5b3ecd3fd31d2ed531a41646cbdd3493168ada1664e"
+    },
+    {
+      "path": "experiments/probe_query_route1_memory.py",
+      "sha256": "117f9ca082414b184477833445f0eb7f79c53aafa784d6032f7ca7589bef41e4"
+    },
+    {
+      "path": "experiments/run_query_evidence24_cpu.py",
+      "sha256": "8b4eee54a60a9733ff90380a775aafeea22f78e0491fe2a0b06bf091a2d23eb3"
+    },
+    {
+      "path": "experiments/summarize_query_bottlenecks.py",
+      "sha256": "6261ea1a5ca7139695dcb29aa1a21d616ed48fc354444bade37ddd793bfb9b89"
+    },
+    {
+      "path": "experiments/summarize_query_route1.py",
+      "sha256": "cb3d9eaf68bdd3b60a0254700cd96c17242eee8f08b7366a34616dc21e7f1c74"
+    },
+    {
+      "path": "experiments/validate_query_route1_cpu.py",
+      "sha256": "fa05d0e3700e631802197465a13472e11fabb271ddc1e7407d3e85563211fc5a"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "5c41918141197f37960ffcfff8ef965aab18090a8b29fed43e0edd741d047583"
+    },
+    {
+      "path": "tests/test_data.py",
+      "sha256": "9c40f1de006c84316817cd8c65dac7657e5d5b0d3c70ecfb7ad3c49ac244b017"
+    },
+    {
+      "path": "tests/test_joint.py",
+      "sha256": "2e51a3ce13e6edc596502a0ea62f2457436d6dcc4db3c963ebb05ab58d2781ab"
+    },
+    {
+      "path": "tests/test_manage.py",
+      "sha256": "55df2698c64afe9d46268ec8da114c1342893d79ed5a4ed716bd061230ca04fe"
+    },
+    {
+      "path": "tests/test_model_metrics.py",
+      "sha256": "05238316642a54cf692859ddfa7b7bfa84fa5ca47341cb623cb3bdba94459625"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "d370ccdb480ee28f0479b6e13b7fd469a9ddb18f22c2a01a0435d853545a00b1"
+    },
+    {
+      "path": "tests/test_query.py",
+      "sha256": "3c3c4c26a68cb28d0de9ab80a1f3ef19bf8f4feb61db78389f0091221d61b906"
+    },
+    {
+      "path": "tests/test_query_variants.py",
+      "sha256": "6b7629b0ba91b88c798fe547477eb275c9d9b953234415b3da33dcf45a36e087"
+    },
+    {
+      "path": "tests/test_signals.py",
+      "sha256": "657ce68a0e0e28f8569f6b1140f33e0654a936694db307e15ac3ad26e320ea6e"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "982896ac4439f63cc377a6bca9e607418de5c37ecc0fadcf51c12df973570916"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "62ee35aa409e76ad93a09657e4845af071f41003d4e64d618944fc9e9c0aaa70"
+    }
+  ],
+  "report_output": "/ultrafast_share/xuwang_group/wxwu/longtail/reports/query_evidence24_cpu_20261102",
+  "purpose": "Separate evidence source, learned attention and added active head capacity.",
+  "protocol": {
+    "seeds": [
+      2050,
+      2051
+    ],
+    "epochs": 24,
+    "global_batch": 32,
+    "optimizer": "adamw",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "scheduler": "cosine over 24 epochs; declared before launch",
+    "loss": "bce",
+    "initialization": "random, matched initial global branch; fresh 24-epoch runs",
+    "device": "cpu",
+    "amp": "none",
+    "world_size": 1,
+    "cpu_threads_per_job": 4,
+    "parallel_jobs": 8,
+    "physical_cpu_slots": [
+      [
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        16,
+        17,
+        18,
+        19
+      ],
+      [
+        20,
+        21,
+        22,
+        23
+      ],
+      [
+        40,
+        41,
+        42,
+        43
+      ],
+      [
+        44,
+        45,
+        46,
+        47
+      ],
+      [
+        48,
+        49,
+        50,
+        51
+      ],
+      [
+        52,
+        53,
+        54,
+        55
+      ]
+    ],
+    "data_split_sha256": "3d3fd83729733af3412796c899bbe48352b49502fefce6662fa98e47fe79302e",
+    "checkpoint_selection": "check weak_macro_aupr",
+    "threshold_fit": "calibration per-label F1",
+    "fpr_fit": "calibration negatives, targets 0.01 and 0.05",
+    "evaluation_roles": [
+      "check",
+      "calibration",
+      "development_test"
+    ],
+    "paired_power_views_db": [
+      0,
+      6,
+      12,
+      18,
+      24
+    ],
+    "candidate_decisions_use": "check; development_test is a consumed development report, not an independent test",
+    "locked_test_used": false,
+    "development_test_consumed_previously": true,
+    "hyperparameters_selected_using_this_round_development_test": false,
+    "uniform_capacity_control": "All parameters active; post-pooling MLPs, no unused Q/K tensors",
+    "fused_comparison": "Only query memory source changes; 128-channel source, identical initialized state and parameter count"
+  },
+  "validation": {
+    "full_pytest": "51 passed in 32.05s before explicit constructor/config freeze clarification; targeted rerun recorded in preflight.json",
+    "matched_head_total_parameters": 300211,
+    "distinct_physical_cores": 32
+  },
+  "dataset_verification": {
+    "verified": true,
+    "files": {
+      "train": {
+        "samples": 8000,
+        "sha256": "af006814866a5130327c1cad2f9043d36e69866b98846c898c88e0a8b8e6cce2",
+        "combinations": 63
+      },
+      "development": {
+        "samples": 6048,
+        "sha256": "dcb53c151714be6b9937fe6d91d1c01ddea930d6d8c06f795b634aa7ac041634",
+        "combinations": 63
+      }
+    },
+    "evaluation_views": 5,
+    "train_development_identity_overlap": 0
+  }
+}

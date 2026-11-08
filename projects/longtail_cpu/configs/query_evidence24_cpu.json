@@ -1,0 +1,5 @@
+{
+  "extends": "query_route1_cpu.json",
+  "train": {"epochs": 24, "scheduler": "cosine"},
+  "run": {"output_dir": "runs/query_evidence24_baseline_seed{seed}_{signature}"}
+}

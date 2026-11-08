@@ -1,0 +1,5 @@
+{
+  "extends": "longtail_v3_fresh_cpu.json",
+  "train": {"sampler": "label_aware"},
+  "run": {"output_dir": "runs/longtail_v3_label_sampler_seed{seed}_{signature}"}
+}

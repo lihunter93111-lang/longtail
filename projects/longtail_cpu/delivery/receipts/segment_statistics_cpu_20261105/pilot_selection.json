@@ -1,0 +1,173 @@
+{
+  "selected_methods": [
+    "global128",
+    "global256",
+    "segments124"
+  ],
+  "promoted_features": [
+    "global256",
+    "segments124"
+  ],
+  "checks": {
+    "global256": {
+      "exact_noninferior": true,
+      "saw_weak": true,
+      "mft_weak": true,
+      "class_fpr": true,
+      "weak_ap_noninferior": true,
+      "tail_f1": true,
+      "exact_gain_at_least0_1pp": true,
+      "not_below_same_budget_control": true
+    },
+    "segments124": {
+      "exact_noninferior": true,
+      "saw_weak": true,
+      "mft_weak": true,
+      "class_fpr": true,
+      "weak_ap_noninferior": true,
+      "tail_f1": true,
+      "exact_gain_at_least0_1pp": true,
+      "not_below_same_budget_control": true
+    }
+  },
+  "check_means": {
+    "anchor_pair1": {
+      "exact": 0.7445436507936508,
+      "macro_f1": 0.948148989031423,
+      "macro_aupr": 0.9885772323467283,
+      "tail_f1": 0.9775281160710392,
+      "mean_fpr": 0.03150201612903226,
+      "saw_weak_recall": 0.4364406779661017,
+      "mft_weak_recall": 0.7701421800947867,
+      "focus_weak_recall": 0.6032914290304442,
+      "focus_weak_aupr": 0.7738728388864851,
+      "focus_fpr": 0.042086693548387094,
+      "nonweak_recall": 0.9920997920997922,
+      "per_label": {
+        "FMB": {
+          "negative_fpr": 0.030745967741935484
+        },
+        "AMA": {
+          "negative_fpr": 0.004536290322580645
+        },
+        "SawFM": {
+          "negative_fpr": 0.028729838709677418
+        },
+        "SinFM": {
+          "negative_fpr": 0.01310483870967742
+        },
+        "MFT": {
+          "negative_fpr": 0.05544354838709678
+        },
+        "ISRJ": {
+          "negative_fpr": 0.05645161290322581
+        }
+      }
+    },
+    "global128": {
+      "exact": 0.7457837301587302,
+      "macro_f1": 0.9484840295006697,
+      "macro_aupr": 0.9886276735079798,
+      "tail_f1": 0.9775281160710392,
+      "mean_fpr": 0.030997983870967742,
+      "saw_weak_recall": 0.4449152542372881,
+      "mft_weak_recall": 0.7677725118483412,
+      "focus_weak_recall": 0.6063438830428147,
+      "focus_weak_aupr": 0.7755975759082636,
+      "focus_fpr": 0.04057459677419355,
+      "nonweak_recall": 0.991995841995842,
+      "per_label": {
+        "FMB": {
+          "negative_fpr": 0.030745967741935484
+        },
+        "AMA": {
+          "negative_fpr": 0.004536290322580645
+        },
+        "SawFM": {
+          "negative_fpr": 0.028729838709677418
+        },
+        "SinFM": {
+          "negative_fpr": 0.01310483870967742
+        },
+        "MFT": {
+          "negative_fpr": 0.05241935483870967
+        },
+        "ISRJ": {
+          "negative_fpr": 0.05645161290322581
+        }
+      }
+    },
+    "global256": {
+      "exact": 0.7490079365079365,
+      "macro_f1": 0.9490708900472515,
+      "macro_aupr": 0.9887105414711976,
+      "tail_f1": 0.9775281160710392,
+      "mean_fpr": 0.03082997311827957,
+      "saw_weak_recall": 0.4533898305084746,
+      "mft_weak_recall": 0.7701421800947867,
+      "focus_weak_recall": 0.6117660053016306,
+      "focus_weak_aupr": 0.7780533893678532,
+      "focus_fpr": 0.04007056451612903,
+      "nonweak_recall": 0.9926195426195425,
+      "per_label": {
+        "FMB": {
+          "negative_fpr": 0.030745967741935484
+        },
+        "AMA": {
+          "negative_fpr": 0.004536290322580645
+        },
+        "SawFM": {
+          "negative_fpr": 0.02872983870967742
+        },
+        "SinFM": {
+          "negative_fpr": 0.01310483870967742
+        },
+        "MFT": {
+          "negative_fpr": 0.05141129032258064
+        },
+        "ISRJ": {
+          "negative_fpr": 0.05645161290322581
+        }
+      }
+    },
+    "segments124": {
+      "exact": 0.7529761904761905,
+      "macro_f1": 0.9503607205041134,
+      "macro_aupr": 0.9890964414363153,
+      "tail_f1": 0.9775281160710392,
+      "mean_fpr": 0.029653897849462364,
+      "saw_weak_recall": 0.4470338983050848,
+      "mft_weak_recall": 0.8151658767772512,
+      "focus_weak_recall": 0.631099887541168,
+      "focus_weak_aupr": 0.7995048408314547,
+      "focus_fpr": 0.03654233870967742,
+      "nonweak_recall": 0.9928274428274428,
+      "per_label": {
+        "FMB": {
+          "negative_fpr": 0.030745967741935484
+        },
+        "AMA": {
+          "negative_fpr": 0.004536290322580645
+        },
+        "SawFM": {
+          "negative_fpr": 0.031754032258064516
+        },
+        "SinFM": {
+          "negative_fpr": 0.01310483870967742
+        },
+        "MFT": {
+          "negative_fpr": 0.04133064516129032
+        },
+        "ISRJ": {
+          "negative_fpr": 0.05645161290322581
+        }
+      }
+    }
+  },
+  "seeds": [
+    2050,
+    2051
+  ],
+  "selected": "2026-11-05T12:20:33+08:00",
+  "report_access": false
+}

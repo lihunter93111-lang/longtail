@@ -1,0 +1,8 @@
+{
+  "base_seed": 3800000000,
+  "label_count_source": "data/dataset.json",
+  "gaps_db": [0, 6, 12, 18, 24],
+  "nominal_jnr_db": 30,
+  "weak_gap_db": 10,
+  "output_dir": "../datasets/longtail/joint_ama_v1/raw"
+}

@@ -1,0 +1,309 @@
+{
+  "status": "passed_current_simulated_report_gate",
+  "selected_on": "check only, same method for all five seeds",
+  "five_seeds_are_separate_models_not_prediction_averaging": true,
+  "implementation": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/source_snapshot/src/longtail/staged_training.py",
+  "models": [
+    {
+      "seed": 2050,
+      "components": {
+        "B": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/weak_component_validation_cpu_20261103/B_seed2050/best.pt",
+          "sha256": "f4abc0d52df9065d7aff0ac745bd012c6db69e58c51e6bb0c799c383350639df"
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2050/best.pt",
+          "sha256": "3e35f0f8b10f13f0b31709f2f731bf0013a1c0094c3ed5f0d4c636576c9bc214"
+        },
+        "five_label_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage2/seed2050/head_natural.pt",
+          "sha256": "f3bc07b17e58b2bd51ae94010336111c9c558d300b7c833be3501186243d2de9"
+        },
+        "three_label_local_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/seed2050/local_pair_bce.pt",
+          "sha256": "a14daaaa5da4c28e11c6b5a84f0aaf6b20770368d9fa70621fc5ed24db5728c1"
+        }
+      },
+      "classes": [
+        "FMB",
+        "AMA",
+        "SawFM",
+        "SinFM",
+        "MFT",
+        "ISRJ"
+      ],
+      "thresholds": [
+        0.5,
+        0.0635302038389568,
+        0.3887748933272288,
+        0.37879889166730163,
+        0.43846993817022883,
+        0.4205579691597198
+      ],
+      "preprocess": {
+        "normalization": "complex_rms",
+        "epsilon": 1e-12,
+        "remove_dc": false,
+        "crop_start": 0,
+        "crop_length": null,
+        "stride": 1,
+        "scale": 1.0
+      },
+      "backbone_feature_dimension": 128,
+      "five_label_head": "head_natural",
+      "local_head": "local_pair_bce",
+      "FMB_source": "FMB expert, threshold0.5",
+      "local_residual_columns": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": 2051,
+      "components": {
+        "B": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/weak_component_validation_cpu_20261103/B_seed2051/best.pt",
+          "sha256": "1b61ba7b5cd3c9c5b071f9fde0bce0678ad9ae7af8adb87ed309d1fab9b30423"
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2051/best.pt",
+          "sha256": "f7d13eba0fb3b4b114c7c7a1c41d9d5e979a21b29900b05720c8012fc4b4fc58"
+        },
+        "five_label_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage2/seed2051/head_natural.pt",
+          "sha256": "b3ebf000e041ddb93a5a15c7616a959bde48fbc98d35457bcd7faa57903c56af"
+        },
+        "three_label_local_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/seed2051/local_pair_bce.pt",
+          "sha256": "c4204b7473d16db9e2c5a448119993c71dde745ab3ad28eebaccfef78b0f763b"
+        }
+      },
+      "classes": [
+        "FMB",
+        "AMA",
+        "SawFM",
+        "SinFM",
+        "MFT",
+        "ISRJ"
+      ],
+      "thresholds": [
+        0.5,
+        0.18449889170620062,
+        0.46832167158932714,
+        0.3071664308337467,
+        0.7072204237502612,
+        0.6274694680160503
+      ],
+      "preprocess": {
+        "normalization": "complex_rms",
+        "epsilon": 1e-12,
+        "remove_dc": false,
+        "crop_start": 0,
+        "crop_length": null,
+        "stride": 1,
+        "scale": 1.0
+      },
+      "backbone_feature_dimension": 128,
+      "five_label_head": "head_natural",
+      "local_head": "local_pair_bce",
+      "FMB_source": "FMB expert, threshold0.5",
+      "local_residual_columns": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": 2052,
+      "components": {
+        "B": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/weak_component_validation_cpu_20261103/B_seed2052/best.pt",
+          "sha256": "520431c47171e1140040e5c39711140148f0a30fab4b07e7184499cb289785ea"
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2052/best.pt",
+          "sha256": "f6e08ed1a4c9b8c5f05f06bb0bfe63fc94350ea932abfc8649fbb108d61d663f"
+        },
+        "five_label_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage2/seed2052/head_natural.pt",
+          "sha256": "bceb7a71d128efb4c1f5888eca31f4482a899d235bb874f95310c1d1723c73ee"
+        },
+        "three_label_local_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/seed2052/local_pair_bce.pt",
+          "sha256": "8ce3d2625c8d65d805886a8b59aacd5eff9686bacb8c82414f0e04810318ac45"
+        }
+      },
+      "classes": [
+        "FMB",
+        "AMA",
+        "SawFM",
+        "SinFM",
+        "MFT",
+        "ISRJ"
+      ],
+      "thresholds": [
+        0.5,
+        0.36770148779916545,
+        0.38970544048250294,
+        0.5929325595420547,
+        0.5862442033644566,
+        0.5554557183393021
+      ],
+      "preprocess": {
+        "normalization": "complex_rms",
+        "epsilon": 1e-12,
+        "remove_dc": false,
+        "crop_start": 0,
+        "crop_length": null,
+        "stride": 1,
+        "scale": 1.0
+      },
+      "backbone_feature_dimension": 128,
+      "five_label_head": "head_natural",
+      "local_head": "local_pair_bce",
+      "FMB_source": "FMB expert, threshold0.5",
+      "local_residual_columns": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": 2053,
+      "components": {
+        "B": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/weak_component_validation_cpu_20261103/B_seed2053/best.pt",
+          "sha256": "2efe38efeb8ba599ebad5842fb062f5c11c13c5cbadfbf6ab791f761cb3abe0d"
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2053/best.pt",
+          "sha256": "e736edd8529baccab3deac2ae2fa5eef8da6bcf62858d518053cc650d4fbd0ff"
+        },
+        "five_label_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage2/seed2053/head_natural.pt",
+          "sha256": "d948e96311d78f0a386fb0a86702239c6acfffaf689881a431e0046a7c25653a"
+        },
+        "three_label_local_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/seed2053/local_pair_bce.pt",
+          "sha256": "b723edf0a4140c9321b3e6e5a864b957aed161160256c0317f424cc67fa3611e"
+        }
+      },
+      "classes": [
+        "FMB",
+        "AMA",
+        "SawFM",
+        "SinFM",
+        "MFT",
+        "ISRJ"
+      ],
+      "thresholds": [
+        0.5,
+        0.18345140095088697,
+        0.4594600543153002,
+        0.6222376749124717,
+        0.43687972224398947,
+        0.4750368596891749
+      ],
+      "preprocess": {
+        "normalization": "complex_rms",
+        "epsilon": 1e-12,
+        "remove_dc": false,
+        "crop_start": 0,
+        "crop_length": null,
+        "stride": 1,
+        "scale": 1.0
+      },
+      "backbone_feature_dimension": 128,
+      "five_label_head": "head_natural",
+      "local_head": "local_pair_bce",
+      "FMB_source": "FMB expert, threshold0.5",
+      "local_residual_columns": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": 2054,
+      "components": {
+        "B": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/weak_component_validation_cpu_20261103/B_seed2054/best.pt",
+          "sha256": "9ac93264eef67802941e28e51bce2f7870859d718ab02cca5fcedea36c3154c1"
+        },
+        "FMB": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/combo_optimization_cpu_20261103/combo_sampler_seed2054/best.pt",
+          "sha256": "9cb1af8ebff9f43bab5ac5fe7a38a1a2aba0cb8d0763cd2358fbb6a916552879"
+        },
+        "five_label_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage2/seed2054/head_natural.pt",
+          "sha256": "987f3ac572242784cd997c02846213061f9cda5ac056956d937f45f9f421ef5b"
+        },
+        "three_label_local_head": {
+          "path": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/seed2054/local_pair_bce.pt",
+          "sha256": "febe94e89a2b0c208af3bf57c3e1ef1414283ce4091eb31deda4c754a435086e"
+        }
+      },
+      "classes": [
+        "FMB",
+        "AMA",
+        "SawFM",
+        "SinFM",
+        "MFT",
+        "ISRJ"
+      ],
+      "thresholds": [
+        0.5,
+        0.2792714126372439,
+        0.5026304181136695,
+        0.35059001715716265,
+        0.5637098077802916,
+        0.41284267823523646
+      ],
+      "preprocess": {
+        "normalization": "complex_rms",
+        "epsilon": 1e-12,
+        "remove_dc": false,
+        "crop_start": 0,
+        "crop_length": null,
+        "stride": 1,
+        "scale": 1.0
+      },
+      "backbone_feature_dimension": 128,
+      "five_label_head": "head_natural",
+      "local_head": "local_pair_bce",
+      "FMB_source": "FMB expert, threshold0.5",
+      "local_residual_columns": [
+        2,
+        4,
+        5
+      ]
+    }
+  ],
+  "acceptance": {
+    "selected": "local_pair_bce",
+    "baseline": "base",
+    "passed": true,
+    "conditions": {
+      "exact_gain_ge0.5pp": true,
+      "positive_seeds_ge4": true,
+      "paired_interval_lower_positive": true,
+      "tail_f1_drop_le0.3pp": true,
+      "class_fpr_rise_le1pp": true,
+      "saw_weak_recall_drop_le3pp": true
+    },
+    "class_fpr_delta": {
+      "FMB": 0.0,
+      "AMA": 0.0,
+      "SawFM": 0.0033266129032258063,
+      "SinFM": 0.0,
+      "MFT": -0.010887096774193547,
+      "ISRJ": -0.013709677419354837
+    }
+  },
+  "report_exact": {
+    "mean": 0.734623015873016,
+    "std": 0.013113216299604295
+  },
+  "source_freeze": "/ultrafast_share/xuwang_group/wxwu/longtail/runs/staged_boundary_cpu_20261104/stage3/frozen.json"
+}

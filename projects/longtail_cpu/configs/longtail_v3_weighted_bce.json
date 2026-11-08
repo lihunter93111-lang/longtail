@@ -1,0 +1,5 @@
+{
+  "extends": "longtail_v3_fresh_cpu.json",
+  "train": {"loss": "weighted_bce"},
+  "run": {"output_dir": "runs/longtail_v3_weighted_bce_seed{seed}_{signature}"}
+}

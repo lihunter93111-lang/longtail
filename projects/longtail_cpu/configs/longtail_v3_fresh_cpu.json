@@ -1,0 +1,12 @@
+{
+  "extends": "baseline.json",
+  "data": {"manifest": "../datasets/longtail/v3_fresh_identity_20261102/dataset.json"},
+  "dataloader": {"workers": 0, "pin_memory": false},
+  "evaluation": {"calibration": "f1_exact"},
+  "train": {
+    "device": "cpu", "cpu_threads": 4, "amp": "none", "epochs": 24,
+    "scheduler": "cosine", "selection_split": "check", "selection_metric": "macro_aupr",
+    "sampler": "uniform", "loss": "bce"
+  },
+  "run": {"output_dir": "runs/longtail_v3_bce_seed{seed}_{signature}"}
+}

@@ -1,0 +1,23 @@
+{
+  "status": "completed_no_accepted_replacement",
+  "acceptance": {
+    "learned_projection": "not promoted after two-seed check; no five-seed report claim",
+    "pca_wide": false,
+    "pca_small": false,
+    "recommendation": "retain previous accepted ISRJ+Saw/MFT segment reference"
+  },
+  "check_selected": "pca_wide",
+  "audit": {
+    "original_and_snapshot_sources_verified": 129,
+    "primary_prediction_and_metric_replays": 45,
+    "other_five_logits_unchanged": true,
+    "weights_thresholds_selection_modified": false
+  },
+  "limits": [
+    "Same simulator, fixed-pool conditional five-seed intervals; secondary comparisons uncorrected.",
+    "Projection stopped at two seeds; only the current configuration failed screening.",
+    "Parameter matching does not match optimization geometry; initial frozen heads add inference cost.",
+    "Shift reports use independent identities and simulator np.roll, not paired real-channel proof.",
+    "Report consumed; future tuning requires new identities."
+  ]
+}

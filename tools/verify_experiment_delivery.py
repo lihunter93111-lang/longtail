@@ -12,7 +12,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--manifest", type=Path,
-        default=root / "docs/release/2026-11-07-integration-manifest.json",
+        default=root / "docs/release/2026-11-08-cpu-integration-manifest.json",
     )
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text(encoding="utf-8"))

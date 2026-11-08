@@ -1,0 +1,18 @@
+{
+  "full_tests": "124 passed in42.14s",
+  "relevant_tests": "17 passed in10.95s",
+  "preflight": {
+    "real_IQ_forward_and_cache_replay": true,
+    "three_optimizer_and_metric_steps": true,
+    "identical_anchored_initial_predictions": true,
+    "folded_projection_matches_old_Saw_function": true,
+    "other_five_logits_unchanged": true,
+    "parameters": {
+      "pca_small": 4161,
+      "pca_wide": 57461,
+      "learned_projection": 57409
+    },
+    "new_identity_overlap": 0,
+    "smoke_metric_role": "training identities only, not performance"
+  }
+}

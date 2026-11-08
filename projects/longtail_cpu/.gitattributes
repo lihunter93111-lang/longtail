@@ -1,0 +1,2 @@
+# Preserve historical CSV bytes while recognizing their standard CRLF endings.
+reports/**/*.csv whitespace=cr-at-eol

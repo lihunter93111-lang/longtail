@@ -1,0 +1,170 @@
+[
+  {
+    "id": "R1",
+    "title": "Zhu, M., et al. Automatic modulation recognition of compound signals using a deep multi-label classifier: A case study with radar jamming signals. Signal Processing, 169, 107393, 2020.",
+    "url": "https://doi.org/10.1016/j.sigpro.2019.107393",
+    "evidence": "出版社摘要核验；MLAMC任务与时频/多标签思路。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R2",
+    "title": "Meng, Y.; Yu, L.; Wei, Y. Multi-Label Radar Compound Jamming Signal Recognition Using Complex-Valued CNN with Jamming Class Representation Fusion. Remote Sensing, 15(21), 5180, 2023.",
+    "url": "https://doi.org/10.3390/rs15215180",
+    "evidence": "已核验全文PDF；4类15组合、JNR/PR、LVQ表征、类别解耦与阈值；作者公开代码未找到。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R3",
+    "title": "Zhou, H., et al. Compound radar jamming recognition based on signal source separation. Signal Processing, 214, 109246, 2024.",
+    "url": "https://doi.org/10.1016/j.sigpro.2023.109246",
+    "evidence": "出版社摘要核验；多接收通道分离后识别。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R4",
+    "title": "Lu, W.; Li, J.; Xie, F.; Liu, H. Compound Jamming Recognition Under Low JNR Setting Based on a Dual-Branch Residual Fusion Network. Sensors, 25(18), 5881, 2025.",
+    "url": "https://doi.org/10.3390/s25185881",
+    "evidence": "出版社全文搜索索引核验；时域+CWT，预定义复合类型分类。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R5",
+    "title": "Li, P.; Yang, J.; Lin, J. Radar Compound Jamming Recognition Based on Image Segmentation and Fused Attention Residual Network. Sensors, 25(7), 2124, 2025.",
+    "url": "https://doi.org/10.3390/s25072124",
+    "evidence": "出版社PDF索引核验；STFT分割与识别。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R6",
+    "title": "Zha, W., et al. Research on Multi-Feature Fusion and Lightweight Recognition for Radar Compound Jamming. Sensors, 26(4), 1296, 2026.",
+    "url": "https://doi.org/10.3390/s26041296",
+    "evidence": "出版社/PMC全文搜索索引核验；多时频表示与轻量融合。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R7",
+    "title": "Qiu, T., et al. Prior-Guided Lightweight Dual-Task Network for Composite Active Jamming Recognition and Time-Frequency Parameter Estimation in Radar Remote Sensing. Remote Sensing, 18(17), 2946, 2026.",
+    "url": "https://doi.org/10.3390/rs18172946",
+    "evidence": "2026-09-01；出版社方法与实验节搜索索引核验；22类、先验软门控与非互斥掩码。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R8",
+    "title": "Kong, Q., et al. PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition. IEEE/ACM TASLP, 2020.",
+    "url": "https://arxiv.org/abs/1912.10211",
+    "evidence": "作者论文与代码；类别条件时间聚合、Wavegram/Logmel融合。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R9",
+    "title": "Gong, Y.; Chung, Y.-A.; Glass, J. PSLA: Improving Audio Tagging with Pretraining, Sampling, Labeling, and Aggregation. IEEE/ACM TASLP, 2021.",
+    "url": "https://arxiv.org/abs/2102.01243",
+    "evidence": "作者论文与代码；训练/聚合技巧，标签增强适用条件需区分。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R10",
+    "title": "Liu, S., et al. Query2Label: A Simple Transformer Way to Multi-Label Classification. arXiv:2107.10834, 2021.",
+    "url": "https://arxiv.org/abs/2107.10834",
+    "evidence": "作者预印本与代码；类别查询提取局部判别特征。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R11",
+    "title": "Ridnik, T., et al. ML-Decoder: Scalable and Versatile Classification Head. WACV, 2023; preprint 2021.",
+    "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Ridnik_ML-Decoder_Scalable_and_Versatile_Classification_Head_WACV_2023_paper.pdf",
+    "evidence": "会议PDF与作者代码；不要误写为CVPR2022。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R12",
+    "title": "Ridnik, T., et al. Asymmetric Loss for Multi-Label Classification. ICCV, 2021.",
+    "url": "https://arxiv.org/abs/2009.14119",
+    "evidence": "作者论文与代码；正负不对称聚焦。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R13",
+    "title": "Wu, T., et al. Distribution-Balanced Loss for Multi-Label Classification in Long-Tailed Datasets. ECCV, 2020.",
+    "url": "https://arxiv.org/abs/2007.09654",
+    "evidence": "论文与作者代码；共现重平衡、负项正则。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R14",
+    "title": "Lin, D., et al. Distributionally Robust Loss for Long-Tailed Multi-Label Image Classification. ECCV, 2024.",
+    "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04926.pdf",
+    "evidence": "已核验全文与作者dr_loss.py；类别级排序、负梯度约束、训练测试依赖偏移。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R15",
+    "title": "Huang, Y., et al. Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution. EMNLP, 2021.",
+    "url": "https://aclanthology.org/2021.emnlp-main.643/",
+    "evidence": "ACL论文页与作者代码；长尾文本的标签共现。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R16",
+    "title": "Kang, B., et al. Decoupling Representation and Classifier for Long-Tailed Recognition. ICLR, 2020.",
+    "url": "https://arxiv.org/abs/1910.09217",
+    "evidence": "作者论文与代码；原始为单标签任务，需多标签适配。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R17",
+    "title": "Luo, Y.; Mesgarani, N. Conv-TasNet: Surpassing Ideal Time-Frequency Magnitude Masking for Speech Separation. IEEE/ACM TASLP, 2019.",
+    "url": "https://arxiv.org/abs/1809.07454",
+    "evidence": "作者论文、最小实现与Asteroid实现；单通道实语音分离。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R18",
+    "title": "Pariente, M., et al. Asteroid: the PyTorch-based audio source separation toolkit for researchers. arXiv:2005.04132, 2020.",
+    "url": "https://arxiv.org/abs/2005.04132",
+    "evidence": "作者论文与工具仓库；分离模型和复现实验配方。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R19",
+    "title": "Wisdom, S., et al. Unsupervised Sound Separation Using Mixture Invariant Training. NeurIPS, 2020.",
+    "url": "https://research.google/pubs/unsupervised-sound-separation-using-mixture-invariant-training/",
+    "evidence": "作者机构论文页与google-research代码；无干净源条件的混合训练。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R20",
+    "title": "RF Challenge organisers. Data-Driven Signal Separation in Radio Spectrum: ICASSP 2024 SP Grand Challenge. 2024.",
+    "url": "https://signalprocessingsociety.org/publications-resources/data-challenges/data-driven-signal-separation-radio-spectrum-icassp-2024",
+    "evidence": "IEEE SPS与组织者代码；单通道复数RF、目标通信信号恢复。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R21",
+    "title": "Xiao, Y.; Das, R. K. Dual Knowledge Distillation for Efficient Sound Event Detection. ICASSP 2024 model-compression workshop / arXiv:2402.02781.",
+    "url": "https://arxiv.org/abs/2402.02781",
+    "evidence": "作者预印本；蒸馏稳定化参考，不是本项目配对功率蒸馏的直接验证。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R22",
+    "title": "Cornell, S., et al. DCASE 2024 Task 4: Sound Event Detection with Heterogeneous Data and Missing Labels. DCASE, 2024.",
+    "url": "https://arxiv.org/abs/2406.08056",
+    "evidence": "组织者技术论文；弱/强时间标注、缺失标签与mean-teacher。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R23",
+    "title": "Menon, A. K., et al. Long-tail learning via logit adjustment. ICLR, 2021.",
+    "url": "https://openreview.net/pdf?id=37nvvqkCo5",
+    "evidence": "会议论文；原softmax设定，不能直接把结论外推到六类BCE。",
+    "access_date": "2026-11-02"
+  },
+  {
+    "id": "R24",
+    "title": "Cui, Y., et al. Class-Balanced Loss Based on Effective Number of Samples. CVPR, 2019.",
+    "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.html",
+    "evidence": "会议论文；有效样本数权重，不直接处理分量遮蔽。",
+    "access_date": "2026-11-02"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "extends": "baseline.json",
+  "train": {
+    "selection_split": "calibration",
+    "initialization": {
+      "checkpoint": "checkpoints/historical_f2.pth",
+      "sha256": "4390ae3cf88c0ac023e399d2bfe6f8357093ef8d23c73fda9c7f4bc78a47e190",
+      "prefix": "backbone.",
+      "exclude": ["classifier."]
+    }
+  },
+  "run": {"output_dir": "runs/historical_stage_a_seed2050"}
+}
