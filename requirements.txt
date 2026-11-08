@@ -3,6 +3,7 @@ torch>=2.0
 h5py>=3.8
 scipy>=1.10
 scikit-learn>=1.2
+threadpoolctl>=3.1
 PyYAML>=6
 matplotlib>=3.6
 joblib>=1.2

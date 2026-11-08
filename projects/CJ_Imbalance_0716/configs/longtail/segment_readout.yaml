@@ -1,0 +1,16 @@
+data:
+  classes: [FMB, AMA, SawFM, SinFM, MFT, ISRJ]
+  train: ${AMA_DATA_ROOT}/train.h5
+  development: ${AMA_DATA_ROOT}/development.h5
+  split: ${AMA_DATA_ROOT}/split.json
+  pairs: ${AMA_PAIR_FIT}
+reference: ${AMA_REFERENCE_MODEL}
+training: {epochs: 24, steps_per_epoch: 250, batch_size: 32, lr: 0.0003, weight_decay: 0.0001}
+readout:
+  name: sawmft
+  targets: [SawFM, MFT]
+  source: segment  # global is the matched-budget control
+  dimensions: 128
+  hidden: 32
+  pair_views: 2    # 30 natural views + one pair; use 0 for the natural-only control
+  head_threads: 1

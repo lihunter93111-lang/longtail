@@ -1,0 +1,15 @@
+data:
+  classes: [FMB, AMA, SawFM, SinFM, MFT, ISRJ]
+  train: ${AMA_DATA_ROOT}/train.h5
+  development: ${AMA_DATA_ROOT}/development.h5
+  split: ${AMA_DATA_ROOT}/split.json
+reference: ${AMA_REFERENCE_MODEL}
+training: {epochs: 24, steps_per_epoch: 250, batch_size: 32, lr: 0.0003, weight_decay: 0.0001}
+readout:
+  name: isrj
+  targets: [ISRJ]
+  source: segment
+  dimensions: 128
+  hidden: 32
+  pair_views: 0
+  head_threads: 1
