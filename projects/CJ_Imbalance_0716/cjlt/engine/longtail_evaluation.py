@@ -2,16 +2,29 @@
 import numpy as np
 from scipy.special import expit
 from sklearn.metrics import average_precision_score, roc_auc_score
+from scipy.stats import t as student_t
 from cjlt.models.classwise_fusion import AMA_CLASSES
 
 
-def fit_thresholds(targets, logits, source_role="calibration", fpr_caps=None):
+def fit_thresholds(targets, logits, source_role="calibration", fpr_caps=None, grid=None):
     if source_role != "calibration":
         raise ValueError("Thresholds may only be fitted on calibration identities")
     targets = np.asarray(targets, dtype=bool)
     probabilities = expit(np.asarray(logits, dtype=np.float64))
     thresholds = []
     for column in range(6):
+        if grid is not None:
+            candidates = np.asarray(grid, dtype=np.float64)
+            if candidates.ndim != 1 or not len(candidates) or not np.isfinite(candidates).all() or np.any((candidates < 0) | (candidates > 1)):
+                raise ValueError("Invalid threshold grid")
+            prediction = probabilities[:, column, None] >= candidates
+            truth = targets[:, column, None]
+            tp = (prediction & truth).sum(0)
+            fp = (prediction & ~truth).sum(0)
+            f1 = 2 * tp / np.maximum(truth.sum() + prediction.sum(0), 1)
+            allowed = np.ones(len(candidates), dtype=bool) if fpr_caps is None else fp / max(int((~truth).sum()), 1) <= fpr_caps[column] + 1e-12
+            thresholds.append(float(candidates[np.argmax(np.where(allowed, f1, -1))]) if allowed.any() else 1.0)
+            continue
         order = np.argsort(-probabilities[:, column], kind="stable")
         scores = probabilities[order, column]
         truth = targets[order, column]
@@ -97,3 +110,32 @@ def preserves_reference(candidate, reference, targets, weak_drop=0.01, fpr_rise=
     # AMA/SinFM are the declared tail labels of this protocol.
     tail = lambda row: np.mean([row["per_label"][name]["f1"] for name in ("AMA", "SinFM")])
     return bool(tail(candidate) >= tail(reference) - 0.003)
+
+
+def compare_predictions(candidate_paths, reference_paths):
+    """Paired seed intervals from saved, identity-aligned frozen predictions."""
+    if not candidate_paths or set(candidate_paths) != set(reference_paths):
+        raise ValueError("Comparison requires the same nonempty seed set")
+    exact, bce, corrected, harmed = [], [], [], []
+    for seed in sorted(candidate_paths):
+        with np.load(candidate_paths[seed], allow_pickle=False) as left, \
+             np.load(reference_paths[seed], allow_pickle=False) as right:
+            for key in ("identity", "target"):
+                if not np.array_equal(left[key], right[key]):
+                    raise ValueError("Paired predictions differ in {} for seed {}".format(key, seed))
+            if len(np.unique(left["identity"])) != len(left["identity"]):
+                raise ValueError("Comparison identities must be unique")
+            a, b = [((expit(values["logits"].astype(np.float64)) >= values["thresholds"]) == values["target"]).all(1)
+                    for values in (left, right)]
+            exact.append(float(a.mean() - b.mean()))
+            losses = [(np.logaddexp(0, values["logits"].astype(np.float64)) - values["target"] * values["logits"]).mean()
+                      for values in (left, right)]
+            bce.append(float(losses[0] - losses[1]))
+            corrected.append(int((a & ~b).sum()))
+            harmed.append(int((~a & b).sum()))
+    result = dict(seeds=sorted(candidate_paths), corrected=corrected, harmed=harmed)
+    for key, values in (("exact_delta", exact), ("raw_bce_delta", bce)):
+        mean = float(np.mean(values))
+        radius = float(student_t.ppf(0.975, len(values) - 1) * np.std(values, ddof=1) / np.sqrt(len(values))) if len(values) > 1 else None
+        result[key] = dict(mean=mean, values=values, t95=None if radius is None else [mean - radius, mean + radius])
+    return result

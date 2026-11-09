@@ -1,0 +1,11 @@
+data:
+  classes: [FMB, AMA, SawFM, SinFM, MFT, ISRJ]
+  train: ${AMA_FUSION_DATA_ROOT}/train.h5
+  development: ${AMA_FUSION_DATA_ROOT}/development.h5
+  split: ${AMA_FUSION_DATA_ROOT}/split.json
+reference: ${AMA_REFERENCE_MODEL}
+specialist: ${AMA_SPECIALIST_MODEL}
+fusion:
+  kind: affine  # selective opens only targets; reference calibrates R alone
+  targets: [FMB, AMA, SawFM, SinFM, MFT, ISRJ]
+  fpr_slack: 0.0025

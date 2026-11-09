@@ -46,18 +46,28 @@ class AMAHDF5Dataset(Dataset):
         if self.indices.min() < 0 or self.indices.max() >= count:
             raise ValueError("Role indices exceed data size")
         self._handle = None
+        self._iq = None
         self._pid = None
+        self._signals = None
 
     def __len__(self):
         return len(self.indices)
 
     def __getitem__(self, row):
         index = int(self.indices[row])
+        result = dict(target=torch.from_numpy(self.labels[index].copy()), identity=int(self.identities[index]))
+        if self.weak_mask is not None:
+            result.update(weak_mask=torch.from_numpy(self.weak_mask[index].copy()),
+                          relative_power_db=torch.from_numpy(self.relative_power_db[index].copy()))
+        if self._signals is not None:
+            result["signal"] = self._signals[row]
+            return result
         if self._handle is None or self._pid != os.getpid():
             self.close()
-            self._handle = h5py.File(self.path, "r")
+            self._handle = h5py.File(self.path, "r", rdcc_nbytes=32 << 20)
+            self._iq = self._handle["iq_complex"]
             self._pid = os.getpid()
-        value = self._handle["iq_complex"][:, index]
+        value = self._iq[:, index]
         if value.dtype.fields:
             signal = np.stack((value["real"], value["imag"]))
         elif np.iscomplexobj(value):
@@ -68,14 +78,17 @@ class AMAHDF5Dataset(Dataset):
         signal /= np.sqrt(np.mean(signal[0] ** 2 + signal[1] ** 2) + 1e-12)
         if not np.isfinite(signal).all():
             raise ValueError("Non-finite I/Q")
-        result = dict(signal=torch.from_numpy(np.ascontiguousarray(signal)),
-                      target=torch.from_numpy(self.labels[index].copy()), identity=int(self.identities[index]))
-        if self.weak_mask is not None:
-            result.update(weak_mask=torch.from_numpy(self.weak_mask[index].copy()),
-                          relative_power_db=torch.from_numpy(self.relative_power_db[index].copy()))
+        result["signal"] = torch.from_numpy(np.ascontiguousarray(signal))
         return result
 
+    def cache_signals(self):
+        if self._signals is None:
+            self._signals = torch.stack([self[row]["signal"] for row in range(len(self))])
+            self.close()
+        return self
+
     def close(self):
+        self._iq = None
         if self._handle is not None:
             self._handle.close()
         self._handle = None
@@ -83,8 +96,47 @@ class AMAHDF5Dataset(Dataset):
     def __getstate__(self):
         state = self.__dict__.copy()
         state["_handle"] = None
+        state["_iq"] = None
         state["_pid"] = None
         return state
+
+
+class WeakViewDataset(Dataset):
+    """One fit identity per presentation; alternate its natural/weak waveform."""
+    def __init__(self, natural, weak_path, cache=False):
+        self.natural = natural
+        self.weak = AMAHDF5Dataset(weak_path)
+        with h5py.File(weak_path, "r") as stream:
+            if not stream.attrs.get("single_target_delta_verified", False):
+                raise ValueError("Weak interventions require a verified single-target receipt")
+            self.parent_sha256 = str(stream.attrs["parent_file_sha256"])
+            declared_positions = np.asarray(stream["fit_position"]).reshape(-1) if "fit_position" in stream else None
+        positions = {int(natural.identities[index]): position for position, index in enumerate(natural.indices)}
+        self.mapping = np.full(len(natural), -1, dtype=np.int64)
+        for row, identity in enumerate(self.weak.identities):
+            if int(identity) not in positions:
+                raise ValueError("Weak views must belong to natural fit identities")
+            position = positions[int(identity)]
+            if declared_positions is not None and int(declared_positions[row]) != position:
+                raise ValueError("Weak view positions differ from the declared fit identity order")
+            index = natural.indices[position]
+            if self.weak.noise_ids[row] != natural.noise_ids[index] or not np.array_equal(self.weak.labels[row], natural.labels[index]):
+                raise ValueError("Weak views must preserve fit noise and labels")
+            self.mapping[position] = row
+        if cache:
+            self.weak.cache_signals()
+        self.epoch = 1
+
+    def __len__(self):
+        return len(self.natural)
+
+    def __getitem__(self, position):
+        row = self.mapping[position]
+        return self.weak[int(row)] if row >= 0 and (position + self.epoch) % 2 == 0 else self.natural[position]
+
+    def augmented_count(self, order):
+        order = np.asarray(order)
+        return int(((self.mapping[order] >= 0) & ((order + self.epoch) % 2 == 0)).sum())
 
 
 def load_roles(data):

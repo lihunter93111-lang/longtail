@@ -4,7 +4,8 @@ import pytest
 import torch
 from cjlt.engine.feature_transform import FeatureTransform
 from cjlt.engine.model_bundle import load_bundle, save_bundle
-from cjlt.models.classwise_fusion import ClasswiseReadoutModel
+from cjlt.models.classwise_fusion import ClasswiseReadoutModel, FrozenLogitFusion
+from cjlt.engine.selective_fusion import apply_fusion, fit_affine_fusion, fit_selective_fusion
 from cjlt.models.segment_readout import segment_statistics
 
 
@@ -48,3 +49,31 @@ def test_native_bundle_preserves_fusion_and_non_target_columns(tmp_path):
     with torch.inference_mode():
         torch.testing.assert_close(after, restored(signals), rtol=0, atol=0)
     assert thresholds == [0.5] * 6
+
+
+@pytest.mark.parametrize("kind", ["affine", "selective"])
+def test_frozen_logit_fusion_matches_offline_and_reloads(tmp_path, kind):
+    torch.set_num_threads(1)
+    torch.manual_seed(11)
+    left = ClasswiseReadoutModel(backbone={"width": 4, "dropout": 0.2}).eval()
+    right = ClasswiseReadoutModel(backbone={"width": 4, "dropout": 0.2}).eval()
+    signal = torch.randn(12, 2, 64)
+    with torch.inference_mode():
+        a, b = left(signal).numpy(), right(signal).numpy()
+    target = np.random.default_rng(1).integers(0, 2, size=a.shape)
+    if kind == "affine":
+        state = fit_affine_fusion(a, b, target, targets=["SawFM"], epochs=2)
+    else:
+        state = fit_selective_fusion(a, b, target, [0.4] * 6, [0.6] * 6,
+                                     targets=["SawFM"], epochs=2)
+    expected, _ = apply_fusion(a, b, state)
+    model = FrozenLogitFusion(left, right, state).eval()
+    with torch.inference_mode():
+        actual = model(signal).numpy()
+    np.testing.assert_allclose(actual, expected, rtol=0, atol=1e-7)
+    np.testing.assert_array_equal(actual[:, [0, 1, 3, 4, 5]], a[:, [0, 1, 3, 4, 5]])
+    path = tmp_path / "fusion.pt"
+    save_bundle(path, model, [0.5] * 6)
+    restored, _, _ = load_bundle(path)
+    with torch.inference_mode():
+        torch.testing.assert_close(model(signal), restored(signal), rtol=0, atol=0)

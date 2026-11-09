@@ -1,4 +1,5 @@
 """DFMS backbone plus explicit replacement and additive label branches."""
+from copy import deepcopy
 import torch
 from torch import nn
 from cjlt.models.backbone_adapter import build_backbone
@@ -87,3 +88,53 @@ class ClasswiseReadoutModel(nn.Module):
         if return_features:
             return logits, global_features, temporal
         return logits
+
+
+class FrozenLogitFusion(nn.Module):
+    """Portable R/W inference; both complete branches are stored in the bundle."""
+
+    def __init__(self, reference, specialist, fusion_state):
+        super().__init__()
+        if not all(isinstance(model, ClasswiseReadoutModel) for model in (reference, specialist)):
+            raise ValueError("Fusion requires two classwise model bundles")
+        self.reference = reference.eval().requires_grad_(False)
+        self.specialist = specialist.eval().requires_grad_(False)
+        self.fusion_state = deepcopy(fusion_state)
+        targets = fusion_state["targets"]
+        if not targets or len(set(targets)) != len(targets) or any(name not in AMA_CLASSES for name in targets):
+            raise ValueError("Expected distinct AMA target labels")
+        if fusion_state["kind"] not in ("affine", "selective"):
+            raise ValueError("Expected affine or selective fusion")
+
+    def architecture(self):
+        return dict(reference=self.reference.architecture(), specialist=self.specialist.architecture(),
+                    fusion_state=self.fusion_state)
+
+    def fuse_logits(self, reference, specialist):
+        # Match the original offline calculation: affine arithmetic is float64,
+        # while the trained gate uses float32 inputs and weights.
+        reference, specialist = reference.double(), specialist.double()
+        fused = reference.clone()
+        state = self.fusion_state
+        for row, name in enumerate(state["targets"]):
+            column = AMA_CLASSES.index(name)
+            left, right = reference[:, column], specialist[:, column]
+            if state["kind"] == "affine":
+                alpha, beta = state["weights"][2 * row:2 * row + 2]
+                fused[:, column] = alpha * left + beta * right + state["biases"][row]
+            else:
+                cuts = []
+                for key in ("reference_thresholds", "specialist_thresholds"):
+                    threshold = min(max(state[key][column], 1e-5), 1 - 1e-5)
+                    cuts.append(reference.new_tensor(threshold).logit())
+                inputs = torch.stack((left, right, left - cuts[0], right - cuts[1]), dim=1).float()
+                a, b, ma, mb = inputs.unbind(1)
+                features = torch.stack((a, b, a - b, ma.abs(), mb.abs()), dim=1)
+                weights = {key: features.new_tensor(value) for key, value in state["states"][row].items()}
+                gate = nn.functional.linear(features, weights["gate.weight"], weights["gate.bias"]).sigmoid().squeeze(1)
+                aligned = weights["specialist_scale"] * b + weights["specialist_bias"]
+                fused[:, column] = a + gate * (aligned - a)
+        return fused
+
+    def forward(self, values):
+        return self.fuse_logits(self.reference(values), self.specialist(values))

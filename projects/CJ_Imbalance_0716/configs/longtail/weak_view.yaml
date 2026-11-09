@@ -1,0 +1,21 @@
+data:
+  classes: [FMB, AMA, SawFM, SinFM, MFT, ISRJ]
+  train: ${AMA_DATA_ROOT}/train.h5
+  development: ${AMA_DATA_ROOT}/development.h5
+  split: ${AMA_DATA_ROOT}/split.json
+  weak_views: ${AMA_DATA_ROOT}/weak_fit.h5
+  cache: memory
+backbone: {width: 16, dropout: 0.2}
+training:
+  epochs: 40
+  steps_per_epoch: 250
+  batch_size: 32
+  lr: 0.0001
+  lr_min: 0.000001
+  weight_decay: 0.0001
+  sampler: uniform
+  loss: bce
+  schedule: endpoint_cosine
+  identity_order: fixed_generator
+  selection_metric: raw_bce
+  calibration: grid_f1

@@ -22,7 +22,7 @@
 
 - [2026年11月9日实验结果与数据归档](experiment-log/2026-11-09-archive-summary.md)汇总最新结果、完成状态、数据位置与文件校验。
 
-- [长尾基线与分段读出](docs/implementation/segment_readout.md)：CPU 方法统一在路线 A 的 `cjlt` 内，包含训练、评估、旧权重导入及与弱视图覆盖方案的对照方式。
+- [长尾基线、分段读出与冻结融合](docs/implementation/segment_readout.md)：CPU 方法统一在路线 A 的 `cjlt` 内，提供弱视图训练、A/B/W 与读出对照、静态/门控融合和单文件模型评估入口。
 - [仓库目录与复现导航](docs/research/仓库目录与复现导航.md)：逐层解释文件夹、代码调用链、数据角色与接手顺序。
 - [2026-11-07 阶段复盘与协作计划](docs/research/2026-11-07_阶段复盘与协作计划.md)：01—05 实验结论、逐类代价和下一步计划。
 - [实验复现入口](experiment-log/REPRODUCING.md)：外部数据交付、路径配置及分阶段命令。

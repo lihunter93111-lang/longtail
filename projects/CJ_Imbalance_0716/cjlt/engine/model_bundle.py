@@ -3,10 +3,11 @@ import hashlib
 import json
 from pathlib import Path
 import torch
-from cjlt.models.classwise_fusion import ClasswiseReadoutModel, AMA_CLASSES
+from cjlt.models.classwise_fusion import ClasswiseReadoutModel, FrozenLogitFusion, AMA_CLASSES
 from cjlt.engine.feature_transform import FeatureTransform
 
 FORMAT = "cjlt-classwise-readout-v1"
+FUSION_FORMAT = "cjlt-logit-fusion-v1"
 
 
 def file_sha256(path):
@@ -20,7 +21,8 @@ def file_sha256(path):
 def save_bundle(path, model, thresholds, metadata=None):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = dict(format=FORMAT, classes=list(AMA_CLASSES), architecture=model.architecture(),
+    payload = dict(format=FUSION_FORMAT if isinstance(model, FrozenLogitFusion) else FORMAT,
+                   classes=list(AMA_CLASSES), architecture=model.architecture(),
                    state_dict={key: value.detach().cpu().clone() for key, value in model.state_dict().items()},
                    thresholds=[float(value) for value in thresholds], metadata=metadata or {})
     temporary = path.with_suffix(path.suffix + ".tmp")
@@ -80,9 +82,14 @@ def load_bundle(path, seed=2050):
     if path.suffix == ".json":
         return import_legacy_selection(path, seed)
     payload = torch.load(path, map_location="cpu", weights_only=True)
-    if payload.get("format") != FORMAT or tuple(payload.get("classes", ())) != AMA_CLASSES:
+    if payload.get("format") not in (FORMAT, FUSION_FORMAT) or tuple(payload.get("classes", ())) != AMA_CLASSES:
         raise ValueError("Expected a native AMA-six-label model bundle; use explicit legacy import otherwise")
-    model = ClasswiseReadoutModel(**payload["architecture"])
+    architecture = payload["architecture"]
+    if payload["format"] == FUSION_FORMAT:
+        model = FrozenLogitFusion(ClasswiseReadoutModel(**architecture["reference"]),
+                                  ClasswiseReadoutModel(**architecture["specialist"]), architecture["fusion_state"])
+    else:
+        model = ClasswiseReadoutModel(**architecture)
     model.load_state_dict(payload["state_dict"], strict=True)
     thresholds = payload["thresholds"]
     if len(thresholds) != 6 or any(not 0 <= value <= 1 for value in thresholds):
