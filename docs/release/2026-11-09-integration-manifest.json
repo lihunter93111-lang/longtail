@@ -4,13 +4,13 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 5922,
-      "sha256": "31b414c7d7a3dce975a19fec112ecaa75dad04c2d1000e2e76c63629662224d1"
+      "bytes": 5850,
+      "sha256": "c8c2ee026613ee8985130f6b73672dd9b28daf84dc18fe57c96ae2129cac6cb0"
     },
     {
       "path": "data/README.md",
-      "bytes": 2403,
-      "sha256": "1da09e448e564551d9f5230c348b990a7f6fd8e07eaa4762b52e21d74bc10d9d"
+      "bytes": 2380,
+      "sha256": "2cbf40c2c790aafc31ea699c27a1ffbe2df7cd9e1325482b462379be7190c5c6"
     },
     {
       "path": "data/catalog/experiments_2026-11-09/README.md",
@@ -11349,8 +11349,8 @@
     },
     {
       "path": "experiment-log/README.md",
-      "bytes": 3846,
-      "sha256": "178168b2417ed4cd703f7feab0d7f859876f42f1939a5898febc5bd506f5308a"
+      "bytes": 3820,
+      "sha256": "eb2810638d9e9bd79cef843310e7a3f1ac61f8c4a89ef72183b012d5f8d6e494"
     }
   ]
 }
