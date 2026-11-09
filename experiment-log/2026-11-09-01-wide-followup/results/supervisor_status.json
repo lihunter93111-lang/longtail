@@ -1,0 +1,31 @@
+{
+  "stage": "sampling_control_extension",
+  "pid": 28296,
+  "utc": "2026-11-09T04:52:57.541277+00:00",
+  "completed_jobs": [
+    "wide_heads_primary",
+    "wide_heads_replication",
+    "wide_heads_primary_hard",
+    "wide_heads_primary_hard_comparison",
+    "wide_heads_primary_hard_affine",
+    "wide_heads_primary_balanced",
+    "wide_heads_primary_balanced_comparison",
+    "wide_heads_primary_balanced_affine",
+    "wide_heads_replication_hard",
+    "wide_heads_replication_hard_comparison",
+    "wide_heads_replication_hard_affine",
+    "wide_heads_replication_balanced",
+    "wide_heads_replication_balanced_comparison",
+    "wide_heads_replication_balanced_affine",
+    "guarded_heads_primary",
+    "guarded_heads_replication",
+    "budget_e40",
+    "budget_e80",
+    "budget_e160",
+    "budget_analysis",
+    "ap_selection_e40",
+    "ap_selection_e80",
+    "ap_selection_e160",
+    "sampling_plan"
+  ]
+}

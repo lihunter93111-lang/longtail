@@ -1,0 +1,24 @@
+{
+  "arm": "M",
+  "seeds": [
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "probe": "six independent logistic regressions",
+  "C": 1.0,
+  "max_iter": 300,
+  "tolerance": 1e-05,
+  "standardization": "fit only",
+  "readouts": [
+    "stage1-4 magnitude mean/std",
+    "temporal mean/std",
+    "temporal mean/std plus top8 mean",
+    "global128"
+  ],
+  "interpretation": "linear separability conditional on these statistics; feature dimensions differ",
+  "source_sha256": "5c7907f34e80095aa7b9aae6bc777e7895fe6d7b0a8ea32ec3a737e3e23424d5",
+  "model_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9"
+}

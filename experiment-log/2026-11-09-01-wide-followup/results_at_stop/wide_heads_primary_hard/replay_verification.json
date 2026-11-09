@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "seed": 2080,
+      "samples": 64,
+      "maximum_logit_difference": 6.67572021484375e-06
+    },
+    {
+      "seed": 2081,
+      "samples": 64,
+      "maximum_logit_difference": 7.62939453125e-06
+    },
+    {
+      "seed": 2082,
+      "samples": 64,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "seed": 2083,
+      "samples": 64,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "seed": 2084,
+      "samples": 64,
+      "maximum_logit_difference": 6.67572021484375e-06
+    }
+  ]
+}

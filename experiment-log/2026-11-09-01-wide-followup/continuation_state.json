@@ -1,0 +1,47 @@
+{
+  "status": "active",
+  "deadline_utc": "2026-11-09T09:00:00Z",
+  "optimization_cutoff_utc": "2026-11-09T08:00:00Z",
+  "root": "E:/LJQ_code/LJQ_code_experiment_storage/daytime_v1/20261109_01",
+  "previous_root": "E:/LJQ_code/LJQ_code_experiment_storage/overnight_v1/20261108_01",
+  "supervisor_session": 78610,
+  "initial_queue": "wide_heads_primary,wide_heads_replication,budget_e40,budget_e80,budget_e160",
+  "budget_seeds": [
+    2100,
+    2101,
+    2102
+  ],
+  "primary_head_seeds": [
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "replication_head_seeds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    2094
+  ],
+  "training_budget": "max30 complete network runs, heads counted separately",
+  "pending": "Monitoraxis/combined normalentry andfixrecoverableerrors. Analyzeaxis3diagnostic andcombined5primary+independent5 ifpromoted. UpdateSTAGE_ANALYSIS/LONG_TERM/Goals andreportplots dynamically. Preserve03Cdeferredstate and03Ddata-drivenrevision. Closeout16:05 autonomously handlesfreeze/new4032confirm ifeligible, orno-qualifiedreport; finish_report andverify_day implemented. Continuethrough17:00 andthenfinalselfcontainedresults+links+memorycitation438-439(recheck).",
+  "important": "Previous confirmation already consumed. Today candidate seed3109310900 new confirmation. No subagents. Wait calls <=60s. Do not finalize before17:00. Per-batch optimizer deadline and independent process supervisor implemented.",
+  "sync": "git pull --ff-only succeeded with per-command proxy override; stale localhost proxy initial attempt failed",
+  "head_results": "Standard20 wide-head fits completed, allrawBCEworse~15-17% bothsplits. Guarded20 fits completed; hard10 allselectedepoch0 withidenticaloriginalheadtensors andall4032predictions. Balancedheads no2%gain. Headreview.json andSTAGE_ANALYSIS saved. No candidate registered.",
+  "scripts_ready": "run_variant/training variable40,80,160 +perbatch16:00 cutoff; run_sampling/training_sampling separate frozen sources prepared; sampleq=0.5/N+0.5*N_k/(N*C_k*n_c), actualepochcountsaudited. merge_controls,compare_sampling,partialreplication,register_candidate,finalgeneration/audit/evaluator/closeout allprepared. finish_report.py smoke passed andheadplotvisuallyverified.",
+  "budget_e40": "All9 budgetrunscomplete.40/80/160BCE .101195/.106160/.108286. Selected40 bypredeclaredrule. BestBCEepochs40=[30,39,38],80=[28,29,26],160=[30,29,26]. APselected160 rawBCE.148586,Tcal.098910,AP.993101,exactT.823909. AlternativeAP9checkpointsdiagnostic. All469scalarsverified before sampling.",
+  "time_policy": "04B conditionaltimepolicy writtenbefore sampling: full5seedrep iffits, exploratory3seedrep iffits requiring3/3positive+sameguards, otherwiseprimary5+freshconfirmation withsingletrainingsplitlimit. Negative completedrep vetoes. Allfinalmodels5seeds.",
+  "automated_followups": "Afterbudget_analysis,9 AP-selected checkpoint evaluations(3budgets x3seeds) queued under02B, thenplan_sampling. Plan chooses matched7 newprimary runs atselectedbudget, comparesraw+class-affine, advances to5/3/0 independentrep seeds per04B and registersonlyeligible5primarymodels. Afterprimary/repfailure orregistration, queue_axis_pilot conditionallyadds3data-axisruns iftimeand30runbudgetpermit.",
+  "axis_design": "07A solver30s foundfeasible quota permutation preserving within-cardinality histogram,8000,total63combos,comboIF7.8537; labelmargins4153/4152/4146/4146/4153/4147 IF1.001688. Optimalityunproven. axis_data prepared/physicalMviewsverified (4487gap10,2475gap15); sameoldprimaryrawpool anddevroles. source_goal_at_preparation.json preservesold07Bhash beforeaddingtailsetevaldefinition. Conditional3seedpilot isdiagnosticonly,excludedfromfinalcandidate.",
+  "residual_diagnostics": "Bothwidebaseline splits errorShapley ISRJ_FP+FN accounts~31-32%ofexactloss; empty predictions0. headlogitgeometry scale1.336-1.587,R2.9951-.9996. Storedhead_logit_geometry,residual_primary_wide,residual_replication_wide. STAGE_ANALYSISupdated.",
+  "closeout_recovery": "closeout16:05 first finalizes pendingevaluation until16:09:30. Only fulljobswithallrequestedtrainingreceiptsmayresume(nooptimizerupdates),plusanalysis/evaluationjobs. Recordscloseout_recovered_jobs separately. Filelockguardsconcurrentcloseout. register_candidate accepts04Bfull/partial/singletrainingsplit evidence explicitly.",
+  "active_sessions": {
+    "supervisor": 78610
+  },
+  "sampling_result": "Five-seedprimarycomplete refBCE.102849599 candidate.101100202 gain1.7009%,3/5positive,bothCIs cross0,allotherguards pass. TailExact+1.9712pp,FMBFPR-.746pp,SawFPR-.433pp,ISRJweakFNR-.571pp. Sameclassaffine ref.097563215 candidate.094669406 gain.002893809,5/5positive,bothCIs positive. Rawcandidate notpromoted. Samplingcounter/order/theoreticalqhash verificationpassed.",
+  "combined_revision": "03C pure natural+LSepsilon.01 wasprepared but nevertrained. Basedmatchedcalibrationpositivegain,03D revision BEFORE ANY03C training replaced3queuedjobs withcombined_primary/compmain/compincremental/advance. branch_revision_03D.json preservesoldqueue/prompt. Combined=exact03Aq +epsilon.01,40epochs. run_combined.py configures private training_sampling.ARMS thenrestores. Protocolrecordsepsilon.01 andsamplerhash. Coretrainingfilesunchanged.",
+  "actual_queue": "Currentlyaxis_pilot3seeds2100-2102 onaxis_data, thenaxis_pilot_review, thencombined_primary5seeds2100-2104. compare_combined mainagainstsampling_reference_primary5, incrementalagainstsampling_candidate_primary5checksidenticalorders/counts. plan_combined advancesonlyifmaingatespass tocombined_replication5seeds2090-2094 vsoldreplication_M32 frozen natural40references. maxfull countifall29 (9budget+2referenceext+5sampler+3axis+5combined+5rep),40headfits separate. Afterbothpassesregisterprimary5reference/candidate fornewconfirm16:05. Iffailsnoeligiblefinal yet.",
+  "environment_verified": "Current environment.json liveverifiedmatchespreviouscampaign allPython/torch/numpy/scipy/sklearn/h5py/GPU versions. Old reference reuse hash/normalreplay checksincompare_combined. Newregistryincludestrainingprotocolpath/hash/config."
+}

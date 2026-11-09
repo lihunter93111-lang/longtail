@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "base_commit": "b4232bd62033512b190cc71cce8c395b83ae04a4",
+  "imported_files_verified": 2260,
+  "original_delivery_manifests": {
+    "overnight": 833,
+    "daytime": 413
+  },
+  "import_hash_errors": [],
+  "original_delivery_hash_errors": [],
+  "json_parse_errors": [],
+  "credential_pattern_hits": [],
+  "training_rerun": false,
+  "large_artifact_upload": "external local inventory only; remote availability not verified",
+  "daytime_status": "stopped 2026-11-09 13:50 Asia/Shanghai; partial campaign",
+  "verification_scope": "file integrity, structured-file parsing, new navigation links and archived receipts"
+}

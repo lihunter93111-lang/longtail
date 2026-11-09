@@ -1,0 +1,81 @@
+{
+  "selected_epochs": 40,
+  "role": "adaptive_development_budget_selection",
+  "rule": "shortest budget within1% BCE,0.1pp macroAP,0.5pp exact of160 epochs",
+  "checks": {
+    "40": {
+      "BCE_within1pct": true,
+      "AP_within0_1pp": true,
+      "exact_within0_5pp": true
+    },
+    "80": {
+      "BCE_within1pct": true,
+      "AP_within0_1pp": true,
+      "exact_within0_5pp": true
+    },
+    "160": {
+      "BCE_within1pct": true,
+      "AP_within0_1pp": true,
+      "exact_within0_5pp": true
+    }
+  },
+  "metrics": {
+    "40": {
+      "BCE": 0.10119545264358909,
+      "macro_AP": 0.9928617416200592,
+      "f1_exact": 0.8158068783068783,
+      "tail_exact": 0.8301282051282052,
+      "ECE": 0.01538367162897661,
+      "confident_wrong_fraction": 0.002617945326278659,
+      "confident_wrong_loss_share": 0.14456457879885173
+    },
+    "80": {
+      "BCE": 0.10615953231367303,
+      "macro_AP": 0.9924590942369614,
+      "f1_exact": 0.8087797619047619,
+      "tail_exact": 0.8301282051282052,
+      "ECE": 0.01599107994719216,
+      "confident_wrong_fraction": 0.002893518518518519,
+      "confident_wrong_loss_share": 0.1570399167528823
+    },
+    "160": {
+      "BCE": 0.10828603810002722,
+      "macro_AP": 0.9924070917870526,
+      "f1_exact": 0.8082837301587301,
+      "tail_exact": 0.8253205128205128,
+      "ECE": 0.017736664563159785,
+      "confident_wrong_fraction": 0.003293099647266314,
+      "confident_wrong_loss_share": 0.1809701174204702
+    }
+  },
+  "seeds": [
+    2100,
+    2101,
+    2102
+  ],
+  "shared_initial_and_first40_orders_match": true,
+  "best_BCE_epochs": {
+    "40": [
+      30,
+      39,
+      38
+    ],
+    "80": [
+      28,
+      29,
+      26
+    ],
+    "160": [
+      30,
+      29,
+      26
+    ]
+  },
+  "median_training_seconds": {
+    "40": 329.5434103012085,
+    "80": 655.2352015972137,
+    "160": 1307.9018957614899
+  },
+  "source_sha256": "0e5510b72a6eff0ac3f1c6b3d89b883fa372e4d4e229e96cc727648a24b89094",
+  "prompt_sha256": "4d803b1d32e361d3abed6025f932a3fe96c9ebd58dff2f85dda3e0c45eb285c5"
+}

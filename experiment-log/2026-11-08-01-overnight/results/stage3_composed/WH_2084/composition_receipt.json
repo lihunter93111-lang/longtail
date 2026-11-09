@@ -1,0 +1,7 @@
+{
+  "backbone_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\stage2\\W_2084\\best_BCE.pth",
+  "backbone_sha256": "35a3a79e7031d79046e788c1c5fa73273d36e0c1e2d58e277f8a04c64c1194ef",
+  "head_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\stage3_heads\\W_2084_hard\\best_head.pth",
+  "head_sha256": "9da0c674fdb11901b8a73b25268acb813fd8dd994d72a5ae02a3edeb6cd34c9e",
+  "composed_sha256": "029ae463ee6dc7e9452ea1bb260dbaca31181634ac9cc96ffbab18586e976196"
+}

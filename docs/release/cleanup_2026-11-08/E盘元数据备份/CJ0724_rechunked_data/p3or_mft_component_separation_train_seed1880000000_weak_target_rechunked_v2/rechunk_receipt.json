@@ -1,0 +1,56 @@
+{
+  "source_root": "D:\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target",
+  "target_root": "D:\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2",
+  "splits": [
+    "train"
+  ],
+  "files": [
+    {
+      "source": "D:\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209869473,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209804164,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209822471,
+      "target_bytes": 51909467
+    }
+  ],
+  "total_source_bytes": 629496108,
+  "total_target_bytes": 155728401
+}

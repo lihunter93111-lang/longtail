@@ -1,0 +1,642 @@
+[
+  {
+    "name": "wide_heads_primary",
+    "kind": "head",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\run_generic_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary",
+      "--views",
+      "coverage"
+    ],
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt"
+  },
+  {
+    "name": "wide_heads_replication",
+    "kind": "head",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\run_generic_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication",
+      "--views",
+      "coverage"
+    ],
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt"
+  },
+  {
+    "name": "wide_heads_primary_hard",
+    "kind": "evaluation",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\export_evaluate_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--backbones",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--heads",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard",
+      "--variant",
+      "hard"
+    ]
+  },
+  {
+    "name": "wide_heads_primary_hard_comparison",
+    "kind": "analysis",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard\\comparison_job",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\compare_runs.py",
+      "--reference",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--candidate",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--reference-pattern",
+      "M_{seed}",
+      "--candidate-pattern",
+      "M_{seed}",
+      "--seeds",
+      "2080",
+      "2081",
+      "2082",
+      "2083",
+      "2084",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard\\comparison.json"
+    ]
+  },
+  {
+    "name": "wide_heads_primary_hard_affine",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_hard_affine"
+    ]
+  },
+  {
+    "name": "wide_heads_primary_balanced",
+    "kind": "evaluation",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\export_evaluate_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--backbones",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--heads",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced",
+      "--variant",
+      "balanced"
+    ]
+  },
+  {
+    "name": "wide_heads_primary_balanced_comparison",
+    "kind": "analysis",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced\\comparison_job",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\compare_runs.py",
+      "--reference",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--candidate",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--reference-pattern",
+      "M_{seed}",
+      "--candidate-pattern",
+      "M_{seed}",
+      "--seeds",
+      "2080",
+      "2081",
+      "2082",
+      "2083",
+      "2084",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced\\comparison.json"
+    ]
+  },
+  {
+    "name": "wide_heads_primary_balanced_affine",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_primary_balanced_affine"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_hard",
+    "kind": "evaluation",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\export_evaluate_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--backbones",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--heads",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard",
+      "--variant",
+      "hard"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_hard_comparison",
+    "kind": "analysis",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard\\comparison_job",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\compare_runs.py",
+      "--reference",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--candidate",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--reference-pattern",
+      "M_{seed}",
+      "--candidate-pattern",
+      "M_{seed}",
+      "--seeds",
+      "2090",
+      "2091",
+      "2092",
+      "2093",
+      "2094",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard\\comparison.json"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_hard_affine",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_hard_affine"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_balanced",
+    "kind": "evaluation",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\export_evaluate_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--backbones",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--heads",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced",
+      "--variant",
+      "balanced"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_balanced_comparison",
+    "kind": "analysis",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced\\comparison_job",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\compare_runs.py",
+      "--reference",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--candidate",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--reference-pattern",
+      "M_{seed}",
+      "--candidate-pattern",
+      "M_{seed}",
+      "--seeds",
+      "2090",
+      "2091",
+      "2092",
+      "2093",
+      "2094",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced\\comparison.json"
+    ]
+  },
+  {
+    "name": "wide_heads_replication_balanced_affine",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01_WIDE_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\wide_heads_replication_balanced_affine"
+    ]
+  },
+  {
+    "name": "guarded_heads_primary",
+    "kind": "head",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\guarded_heads_primary",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01B_GUARDED_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_guarded_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\capacity_IF3_w32",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\guarded_heads_primary",
+      "--views",
+      "coverage"
+    ]
+  },
+  {
+    "name": "guarded_heads_replication",
+    "kind": "head",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\guarded_heads_replication",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\01B_GUARDED_HEAD_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_guarded_heads.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\guarded_heads_replication",
+      "--views",
+      "coverage"
+    ]
+  },
+  {
+    "name": "budget_e40",
+    "kind": "full",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_variant.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40",
+      "--model",
+      "dfms_iq",
+      "--width",
+      "32",
+      "--coverage",
+      "M",
+      "--initialization",
+      "scratch",
+      "--epochs",
+      "40",
+      "--seeds",
+      "2100",
+      "2101",
+      "2102",
+      "--hypothesis",
+      "Independent matched 40/80/160 epoch width32 budget diagnostic"
+    ],
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02_BUDGET_GOAL.txt"
+  },
+  {
+    "name": "budget_e80",
+    "kind": "full",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e80",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_variant.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e80",
+      "--model",
+      "dfms_iq",
+      "--width",
+      "32",
+      "--coverage",
+      "M",
+      "--initialization",
+      "scratch",
+      "--epochs",
+      "80",
+      "--seeds",
+      "2100",
+      "2101",
+      "2102",
+      "--hypothesis",
+      "Independent matched 40/80/160 epoch width32 budget diagnostic"
+    ],
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02_BUDGET_GOAL.txt"
+  },
+  {
+    "name": "budget_e160",
+    "kind": "full",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e160",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_variant.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e160",
+      "--model",
+      "dfms_iq",
+      "--width",
+      "32",
+      "--coverage",
+      "M",
+      "--initialization",
+      "scratch",
+      "--epochs",
+      "160",
+      "--seeds",
+      "2100",
+      "2101",
+      "2102",
+      "--hypothesis",
+      "Independent matched 40/80/160 epoch width32 budget diagnostic"
+    ],
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02_BUDGET_GOAL.txt"
+  },
+  {
+    "name": "budget_analysis",
+    "kind": "analysis",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_analysis",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02_BUDGET_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\analyze_budget.py"
+    ]
+  },
+  {
+    "name": "ap_selection_e40",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e40",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02B_AP_CHECKPOINT_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\evaluate_ap_checkpoint.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e40"
+    ]
+  },
+  {
+    "name": "ap_selection_e80",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e80",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02B_AP_CHECKPOINT_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\evaluate_ap_checkpoint.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e80",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e80"
+    ]
+  },
+  {
+    "name": "ap_selection_e160",
+    "kind": "calibration",
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e160",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\02B_AP_CHECKPOINT_GOAL.txt",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\evaluate_ap_checkpoint.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e160",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\ap_selection_e160"
+    ]
+  },
+  {
+    "name": "sampling_plan",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\plan_sampling.py",
+      "--phase",
+      "plan"
+    ],
+    "kind": "analysis",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_plan",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_control_extension",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_variant.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_control_extension",
+      "--model",
+      "dfms_iq",
+      "--width",
+      "32",
+      "--coverage",
+      "M",
+      "--initialization",
+      "scratch",
+      "--epochs",
+      "40",
+      "--seeds",
+      "2103",
+      "2104",
+      "--hypothesis",
+      "Natural no-replacement matched control under03A"
+    ],
+    "kind": "full",
+    "estimated_seconds": 771.8137662506103,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_control_extension",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_reference_primary",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\merge_controls.py",
+      "--budget",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40",
+      "--extension",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_control_extension",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary"
+    ],
+    "kind": "analysis",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_candidate_primary",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_sampling.py",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary",
+      "--model",
+      "dfms_iq",
+      "--width",
+      "32",
+      "--coverage",
+      "M",
+      "--initialization",
+      "scratch",
+      "--epochs",
+      "40",
+      "--seeds",
+      "2100",
+      "2101",
+      "2102",
+      "2103",
+      "2104",
+      "--hypothesis",
+      "Matched cardinality-stratified combination sampling under03A"
+    ],
+    "kind": "full",
+    "estimated_seconds": 1839.534415626526,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_primary_comparison",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\compare_sampling.py",
+      "--reference",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+      "--candidate",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary",
+      "--source",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "--seeds",
+      "2100",
+      "2101",
+      "2102",
+      "2103",
+      "2104",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_primary_comparison.json"
+    ],
+    "kind": "analysis",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_primary_comparison",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_reference_primary_affine",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary_affine"
+    ],
+    "kind": "calibration",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03B_CALIBRATION_CONTROL_GOAL.txt"
+  },
+  {
+    "name": "sampling_candidate_primary_affine",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\affine_calibration.py",
+      "--models",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary",
+      "--output",
+      "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary_affine"
+    ],
+    "kind": "calibration",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary_affine",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03B_CALIBRATION_CONTROL_GOAL.txt"
+  },
+  {
+    "name": "sampling_probability_review",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\compare_affine.py"
+    ],
+    "kind": "analysis",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_probability_review",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  },
+  {
+    "name": "sampling_advance",
+    "command": [
+      "D:/anaconda3/envs/PY10/python.exe",
+      "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\plan_sampling.py",
+      "--phase",
+      "advance"
+    ],
+    "kind": "analysis",
+    "estimated_seconds": 0,
+    "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_advance",
+    "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+  }
+]

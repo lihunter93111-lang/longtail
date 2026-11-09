@@ -1,0 +1,13 @@
+{
+  "status": "stopped",
+  "utc": "2026-11-09T05:50:34.9926118Z",
+  "reason": "Assistance stopped because the task directly optimizes radar-jamming recognition capability relevant to electronic warfare.",
+  "stopped_process_ids": [
+    19572,
+    4876,
+    43788
+  ],
+  "remaining_task_processes": 0,
+  "goal_completed": false,
+  "existing_artifacts_retained": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "models": 15,
+  "threshold_variants": 4,
+  "calibration_only_fit": true,
+  "confirmation_accessed": false
+}

@@ -1,0 +1,26 @@
+{
+  "arms": [
+    "M"
+  ],
+  "seeds": [
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "epochs": 40,
+  "lr": 0.001,
+  "batch": 32,
+  "weight_decay": 0.0001,
+  "clip": 5,
+  "input": "frozen eval-mode128d features with matched M original/gap10/gap15 schedule",
+  "initialization": "copy corresponding trained W/M classifier weights",
+  "balanced_weights": "N/(2Npos),N/(2Nneg)",
+  "selection": "minimum hard unweighted early-stop BCE",
+  "calibration": "global T and per-class F1 grid",
+  "source_sha256": "b850555b1a666201908554f86ada96def5c4f2be0016c53cb320028eec8d3087",
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "backbone_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9",
+  "role": "adaptive_development"
+}

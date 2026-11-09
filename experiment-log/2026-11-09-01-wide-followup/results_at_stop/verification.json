@@ -1,0 +1,617 @@
+{
+  "status": "passed",
+  "completed_runs": [
+    {
+      "path": "budget_e160\\M_2100",
+      "kind": "full",
+      "epochs": 160,
+      "updates": 40000,
+      "sample_presentations": 1280000,
+      "best_epoch": 30,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e160\\M_2101",
+      "kind": "full",
+      "epochs": 160,
+      "updates": 40000,
+      "sample_presentations": 1280000,
+      "best_epoch": 29,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e160\\M_2102",
+      "kind": "full",
+      "epochs": 160,
+      "updates": 40000,
+      "sample_presentations": 1280000,
+      "best_epoch": 26,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e40\\M_2100",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 30,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e40\\M_2101",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 39,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e40\\M_2102",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 38,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e80\\M_2100",
+      "kind": "full",
+      "epochs": 80,
+      "updates": 20000,
+      "sample_presentations": 640000,
+      "best_epoch": 28,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e80\\M_2101",
+      "kind": "full",
+      "epochs": 80,
+      "updates": 20000,
+      "sample_presentations": 640000,
+      "best_epoch": 29,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "budget_e80\\M_2102",
+      "kind": "full",
+      "epochs": 80,
+      "updates": 20000,
+      "sample_presentations": 640000,
+      "best_epoch": 26,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2080_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2080_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2081_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2081_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2082_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2082_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2083_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2083_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2084_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_primary\\M_2084_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2090_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2090_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2091_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2091_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2092_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2092_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2093_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2093_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2094_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "guarded_heads_replication\\M_2094_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 0,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_candidate_primary\\M_2100",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 33,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_candidate_primary\\M_2101",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 38,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_candidate_primary\\M_2102",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 26,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_candidate_primary\\M_2103",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 33,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_candidate_primary\\M_2104",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 30,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_control_extension\\M_2103",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 38,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "sampling_control_extension\\M_2104",
+      "kind": "full",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 33,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2080_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2080_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2081_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2081_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2082_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2082_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2083_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2083_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2084_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_primary\\M_2084_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2090_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2090_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2091_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2091_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2092_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2092_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2093_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2093_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2094_balanced",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    },
+    {
+      "path": "wide_heads_replication\\M_2094_hard",
+      "kind": "head",
+      "epochs": 40,
+      "updates": 10000,
+      "sample_presentations": 320000,
+      "best_epoch": 1,
+      "source": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data",
+      "order_and_checkpoint_verified": true
+    }
+  ],
+  "AP_checkpoint_checks": [
+    {
+      "path": "ap_selection_e160\\M_2100",
+      "selected_epoch": 126
+    },
+    {
+      "path": "ap_selection_e160\\M_2101",
+      "selected_epoch": 78
+    },
+    {
+      "path": "ap_selection_e160\\M_2102",
+      "selected_epoch": 130
+    },
+    {
+      "path": "ap_selection_e40\\M_2100",
+      "selected_epoch": 30
+    },
+    {
+      "path": "ap_selection_e40\\M_2101",
+      "selected_epoch": 19
+    },
+    {
+      "path": "ap_selection_e40\\M_2102",
+      "selected_epoch": 38
+    },
+    {
+      "path": "ap_selection_e80\\M_2100",
+      "selected_epoch": 46
+    },
+    {
+      "path": "ap_selection_e80\\M_2101",
+      "selected_epoch": 29
+    },
+    {
+      "path": "ap_selection_e80\\M_2102",
+      "selected_epoch": 54
+    }
+  ],
+  "scalar_metrics": 518,
+  "max_metric_error": 4.163336342344337e-17,
+  "full_runs": 17,
+  "evaluated_full_runs": 16,
+  "pending_group_evaluation": [
+    {
+      "path": "axis_pilot\\M_2100",
+      "kind": "full",
+      "epochs": 40,
+      "status": "training_receipt_present_group_evaluation_pending"
+    }
+  ],
+  "head_fits": 40,
+  "source_sha256": "13879c6e94768aec4983082b61d6c5a7ce7b8c091407e82bd82ecbfca68eefa4"
+}

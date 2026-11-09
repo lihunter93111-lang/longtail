@@ -1,0 +1,31 @@
+{
+  "model": "dfms_iq",
+  "width": 32,
+  "coverage": "M",
+  "initialization": "scratch",
+  "epochs": 40,
+  "batch": 32,
+  "updates": 10000,
+  "lr": [
+    0.0001,
+    1e-06
+  ],
+  "weight_decay": 0.0001,
+  "dropout": 0.2,
+  "clip": 5,
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "operation": "reference five completed same-budget controls",
+  "seeds": [
+    2100,
+    2101,
+    2102,
+    2103,
+    2104
+  ],
+  "source_sha256": "41da42a013ed92680a13b2b748664364f2176140abf5a83f9db1331c4b2b8b4f",
+  "source_protocols": {
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40\\protocol.json": "522a163d11f1451df83821bc48165024cf494188d3a6542645b0fe786c6ab695",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_control_extension\\protocol.json": "8d1fbda521a1ee33673d3e3e9869af1c8af3e4a8ead7ec67a2bf366e9dacf146"
+  },
+  "role": "adaptive_development"
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "numpy": "1.23.5",
+  "scipy": "1.10.1",
+  "sklearn": "1.2.2",
+  "h5py": "3.10.0",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "matches_previous_campaign": true,
+  "verified_utc": "2026-11-09T05:20:47.665684+00:00"
+}

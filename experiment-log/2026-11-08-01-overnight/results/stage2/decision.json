@@ -1,0 +1,94 @@
+{
+  "phase": "coverage_development",
+  "comparisons": {
+    "W_vs_B": {
+      "relative_BCE_reduction": 0.08416739735013079,
+      "paired_gains": [
+        0.011944937246083198,
+        0.014556260461842274,
+        0.013527339266496186,
+        0.011074640105094985,
+        0.011752670526885223
+      ],
+      "seed_t95": [
+        0.010798093071652179,
+        0.014344245970908567
+      ],
+      "identity_bootstrap95": [
+        0.011011966210693957,
+        0.014197174957018475
+      ],
+      "metric_differences": {
+        "BCE": -0.012571169521280373,
+        "macro_AP": 0.0025626026603939867,
+        "f1_exact": 0.021279761904761905,
+        "tail_exact": 0.018028846153846166
+      },
+      "FPR_increases": {
+        "FMB": -0.0028225806451612906,
+        "SawFM": -0.00483870967741936
+      },
+      "ISRJ_weak_FNR": {
+        "W": 0.33186813186813185,
+        "B": 0.35516483516483516
+      },
+      "checks": {
+        "BCE_reduction_ge2pct": true,
+        "positive_seeds_ge4": true,
+        "AP_guard": true,
+        "exact_guard": true,
+        "tail_guard": true,
+        "FMB_FPR_guard": true,
+        "SawFM_FPR_guard": true,
+        "ISRJ_weak_FNR_guard": true
+      },
+      "passes": true
+    },
+    "M_vs_W": {
+      "relative_BCE_reduction": 0.019409117916364512,
+      "paired_gains": [
+        0.0028948914165164708,
+        0.002082144844021555,
+        0.0019095541988545794,
+        0.0028694451375697316,
+        0.0035186329967336893
+      ],
+      "seed_t95": [
+        0.001837590292498775,
+        0.0034722771449796352
+      ],
+      "identity_bootstrap95": [
+        0.0018490904039641669,
+        0.0034895510139235073
+      ],
+      "metric_differences": {
+        "BCE": -0.0026549337187392053,
+        "macro_AP": 0.0005688002272281389,
+        "f1_exact": 0.005257936507936512,
+        "tail_exact": 0.004567307692307665
+      },
+      "FPR_increases": {
+        "FMB": -0.003124999999999996,
+        "SawFM": 0.004838709677419346
+      },
+      "ISRJ_weak_FNR": {
+        "M": 0.31384615384615383,
+        "W": 0.33186813186813185
+      },
+      "checks": {
+        "BCE_reduction_ge2pct": false,
+        "positive_seeds_ge4": true,
+        "AP_guard": true,
+        "exact_guard": true,
+        "tail_guard": true,
+        "FMB_FPR_guard": true,
+        "SawFM_FPR_guard": true,
+        "ISRJ_weak_FNR_guard": true
+      },
+      "passes": false
+    }
+  },
+  "data_role": "adaptive_development",
+  "provisional_candidate": "W",
+  "time": 1794144233.6729164
+}

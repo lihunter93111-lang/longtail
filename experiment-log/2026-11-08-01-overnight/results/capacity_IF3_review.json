@@ -1,0 +1,10 @@
+{
+  "stage": "capacity_IF3",
+  "status": "five_seed_development_completed",
+  "width16_scratch_BCE": 0.14981842669818396,
+  "width32_scratch_BCE": 0.10419103717377624,
+  "relative_gain": 0.3045512526728516,
+  "exact_gain_percentage_points": 8.92361111111111,
+  "interpretation": "Substantial capacity benefit under matched random initialization, M coverage, data and update budget. Parameter count grows257511to1013191. Balanced-data interaction and independent split are pending.",
+  "priority_update": "Prioritize width32 M for independent replication; preserve head and coverage ablations as component evidence. Select final head/operating point using development only."
+}

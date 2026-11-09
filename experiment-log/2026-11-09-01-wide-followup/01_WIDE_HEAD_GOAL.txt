@@ -1,0 +1,4 @@
+阶段1 Goal
+完成昨晚03E宽骨干分类头实验。读取已冻结capacity_IF3_w32五模型，使用原fit/early_stop/calibration/development及M物理视图。分别训练硬BCE和正负均衡BCE分类头，冻结骨干且保持eval模式，复制原头权重，40轮、batch32、AdamW lr1e-3、weight_decay1e-4、clip5，每轮完整8000身份，保持M覆盖调度。最低early_stop硬BCE选择头。
+对两种头都执行同一第二划分replication_M32的五种子复验，避免仅报告最佳开发分支。阈值和温度仅在对应calibration拟合。比较原始宽模型、重训硬头、均衡头及逐类仿射校准，主评分为raw BCE和逐类保护规则。
+导出能正常端到端推理的完整检查点，验证与冻结特征路径logits一致。追加自然与配对功率评估，保留失败项。完整通过两划分保护规则的方案进入候选库，后续阶段继续根据实际结果选择。

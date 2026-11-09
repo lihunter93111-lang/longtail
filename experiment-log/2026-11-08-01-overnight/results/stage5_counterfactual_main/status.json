@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "models": 10,
+  "positive_negative_identity_paired": true,
+  "interpretation": "paired ranking requires both controlled observations; per-class AUC/AP use matched positive and negative views"
+}

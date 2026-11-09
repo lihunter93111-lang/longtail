@@ -1,0 +1,24 @@
+{
+  "status": "primary_queued",
+  "epsilon": 0.01,
+  "sampling": "cardinality_stratified_combo_mix_0.5",
+  "epochs": 40,
+  "primary_seeds": [
+    2100,
+    2101,
+    2102,
+    2103,
+    2104
+  ],
+  "replication_seeds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    2094
+  ],
+  "estimated_per_run": 355.90688312530517,
+  "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+  "candidate": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\combined_primary",
+  "revision_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\branch_revision_03D.json"
+}

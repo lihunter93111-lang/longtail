@@ -1,0 +1,572 @@
+{
+  "M_2090": {
+    "class_temperature": {
+      "parameters": [
+        {
+          "scale": 1.2382607227259617,
+          "bias": 0.0,
+          "objective": 0.04554186316024799,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 1.1763813272180872,
+          "bias": 0.0,
+          "objective": 0.032520522262520106,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.9452843754389588,
+          "bias": 0.0,
+          "objective": 0.13671500905373046,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.957434504510832,
+          "bias": 0.0,
+          "objective": 0.06896374928035724,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.7296976654774083,
+          "bias": 0.0,
+          "objective": 0.14524665118396626,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.7355081219733648,
+          "bias": 0.0,
+          "objective": 0.18103995025889924,
+          "success": true,
+          "iterations": 4
+        }
+      ],
+      "thresholds": [
+        0.71,
+        0.08499999999999999,
+        0.49999999999999994,
+        0.175,
+        0.29,
+        0.3499999999999999
+      ],
+      "calibration_raw_BCE": 0.10633968794251569,
+      "calibration_scaled_BCE": 0.10162615939993244
+    },
+    "class_affine": {
+      "parameters": [
+        {
+          "scale": 1.1897431522657629,
+          "bias": -0.7500749509695571,
+          "objective": 0.04177130479330582,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 1.388299947992202,
+          "bias": 1.4220463892648831,
+          "objective": 0.025218187097064627,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 1.0255961327403234,
+          "bias": 0.48264056940917516,
+          "objective": 0.13294211447369458,
+          "success": true,
+          "iterations": 7
+        },
+        {
+          "scale": 1.1118723176971368,
+          "bias": 0.9255620934848613,
+          "objective": 0.06342309411419225,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.7723947505884123,
+          "bias": 0.45891407353765445,
+          "objective": 0.14158105937109852,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.7342719252670424,
+          "bias": -0.032105158412453205,
+          "objective": 0.18101321267258455,
+          "success": true,
+          "iterations": 8
+        }
+      ],
+      "thresholds": [
+        0.5299999999999999,
+        0.19999999999999996,
+        0.61,
+        0.29,
+        0.37999999999999995,
+        0.33999999999999997
+      ],
+      "calibration_raw_BCE": 0.10633968794251569,
+      "calibration_scaled_BCE": 0.0969585160608352
+    }
+  },
+  "M_2091": {
+    "class_temperature": {
+      "parameters": [
+        {
+          "scale": 1.4357703245599927,
+          "bias": 0.0,
+          "objective": 0.026624893258411757,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 1.16988193041629,
+          "bias": 0.0,
+          "objective": 0.033761333136168796,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.94379779913366,
+          "bias": 0.0,
+          "objective": 0.1510441043896937,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.9890699857230657,
+          "bias": 0.0,
+          "objective": 0.07163869760603696,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.9404383681834894,
+          "bias": 0.0,
+          "objective": 0.08662330792295476,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.7977229573819571,
+          "bias": 0.0,
+          "objective": 0.15238239368303572,
+          "success": true,
+          "iterations": 5
+        }
+      ],
+      "thresholds": [
+        0.5349999999999999,
+        0.43999999999999995,
+        0.42499999999999993,
+        0.38499999999999995,
+        0.4749999999999999,
+        0.38499999999999995
+      ],
+      "calibration_raw_BCE": 0.08895600494153773,
+      "calibration_scaled_BCE": 0.08697682875698944
+    },
+    "class_affine": {
+      "parameters": [
+        {
+          "scale": 1.3544832014940325,
+          "bias": -0.4638594889696137,
+          "objective": 0.025723731734101397,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 1.2166959083339224,
+          "bias": 0.4904817225621493,
+          "objective": 0.03262462208973595,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 0.9708806079977534,
+          "bias": 0.19943392405101512,
+          "objective": 0.1502592997696491,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 1.0966449963345195,
+          "bias": 0.6875532334042048,
+          "objective": 0.06821984345984687,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 0.962646748770105,
+          "bias": 0.25600722191252145,
+          "objective": 0.08588987291376798,
+          "success": true,
+          "iterations": 7
+        },
+        {
+          "scale": 0.8149736160731142,
+          "bias": 0.2179761819919619,
+          "objective": 0.15139937722046043,
+          "success": true,
+          "iterations": 7
+        }
+      ],
+      "thresholds": [
+        0.4149999999999999,
+        0.5599999999999999,
+        0.4749999999999999,
+        0.5399999999999999,
+        0.5399999999999999,
+        0.43499999999999994
+      ],
+      "calibration_raw_BCE": 0.08895600494153773,
+      "calibration_scaled_BCE": 0.08547537064039085
+    }
+  },
+  "M_2092": {
+    "class_temperature": {
+      "parameters": [
+        {
+          "scale": 1.061538355640283,
+          "bias": 0.0,
+          "objective": 0.07027834044949142,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 1.0744345871607692,
+          "bias": 0.0,
+          "objective": 0.03701746886668635,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.9485551761543576,
+          "bias": 0.0,
+          "objective": 0.14115085941199496,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 1.0170563698366812,
+          "bias": 0.0,
+          "objective": 0.06089051477355275,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.8038929849711863,
+          "bias": 0.0,
+          "objective": 0.13325223121814708,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.7345137051865805,
+          "bias": 0.0,
+          "objective": 0.1935676083521199,
+          "success": true,
+          "iterations": 4
+        }
+      ],
+      "thresholds": [
+        0.8599999999999999,
+        0.14999999999999997,
+        0.595,
+        0.19999999999999996,
+        0.42999999999999994,
+        0.4099999999999999
+      ],
+      "calibration_raw_BCE": 0.1092066353885351,
+      "calibration_scaled_BCE": 0.10600039593102979
+    },
+    "class_affine": {
+      "parameters": [
+        {
+          "scale": 1.0494057828389638,
+          "bias": -0.5588477833689887,
+          "objective": 0.06721817416226143,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 1.1926130793321983,
+          "bias": 0.94389467144867,
+          "objective": 0.033166367142825705,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 0.9424766353297839,
+          "bias": -0.044194330105225284,
+          "objective": 0.14111504916622042,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 1.1466816532120507,
+          "bias": 0.7636626181115749,
+          "objective": 0.05746337903055673,
+          "success": true,
+          "iterations": 7
+        },
+        {
+          "scale": 0.8116489365700127,
+          "bias": 0.1198971885266838,
+          "objective": 0.13299383849685117,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 0.7346856469171688,
+          "bias": 0.0028826932231321885,
+          "objective": 0.19356738240767724,
+          "success": true,
+          "iterations": 7
+        }
+      ],
+      "thresholds": [
+        0.7749999999999999,
+        0.27499999999999997,
+        0.575,
+        0.30499999999999994,
+        0.43999999999999995,
+        0.4099999999999999
+      ],
+      "calibration_raw_BCE": 0.1092066353885351,
+      "calibration_scaled_BCE": 0.10392120347447122
+    }
+  },
+  "M_2093": {
+    "class_temperature": {
+      "parameters": [
+        {
+          "scale": 1.2672276896306647,
+          "bias": 0.0,
+          "objective": 0.05880990772069945,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 1.2152478560200783,
+          "bias": 0.0,
+          "objective": 0.03419317437339333,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 0.8187729486236897,
+          "bias": 0.0,
+          "objective": 0.15932152788072668,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 1.0598615768692083,
+          "bias": 0.0,
+          "objective": 0.06308339894038076,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 0.8819407437900306,
+          "bias": 0.0,
+          "objective": 0.10740226872275346,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.8344268830300465,
+          "bias": 0.0,
+          "objective": 0.16169920319783054,
+          "success": true,
+          "iterations": 4
+        }
+      ],
+      "thresholds": [
+        0.6799999999999999,
+        0.39499999999999996,
+        0.57,
+        0.24999999999999994,
+        0.41999999999999993,
+        0.43499999999999994
+      ],
+      "calibration_raw_BCE": 0.09989800436050719,
+      "calibration_scaled_BCE": 0.0973872466268297
+    },
+    "class_affine": {
+      "parameters": [
+        {
+          "scale": 1.1729092629876396,
+          "bias": -0.7561073141823774,
+          "objective": 0.054128196907632375,
+          "success": true,
+          "iterations": 10
+        },
+        {
+          "scale": 1.3538289267996297,
+          "bias": 0.8092857225949941,
+          "objective": 0.03129917948507369,
+          "success": true,
+          "iterations": 10
+        },
+        {
+          "scale": 0.8340998535145058,
+          "bias": 0.1752464960339799,
+          "objective": 0.1586702221264745,
+          "success": true,
+          "iterations": 7
+        },
+        {
+          "scale": 1.086268324998835,
+          "bias": 0.17577929211350102,
+          "objective": 0.0628417831752298,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.8893376069167416,
+          "bias": 0.0933416282925715,
+          "objective": 0.10727776363079905,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.8374657758313173,
+          "bias": 0.04722852900887221,
+          "objective": 0.16164738889449895,
+          "success": true,
+          "iterations": 8
+        }
+      ],
+      "thresholds": [
+        0.48499999999999993,
+        0.585,
+        0.615,
+        0.27499999999999997,
+        0.44499999999999995,
+        0.44499999999999995
+      ],
+      "calibration_raw_BCE": 0.09989800436050719,
+      "calibration_scaled_BCE": 0.09572719378575767
+    }
+  },
+  "M_2094": {
+    "class_temperature": {
+      "parameters": [
+        {
+          "scale": 1.109421123051918,
+          "bias": 0.0,
+          "objective": 0.06179626477041625,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 1.207126861133545,
+          "bias": 0.0,
+          "objective": 0.03054872432726458,
+          "success": true,
+          "iterations": 6
+        },
+        {
+          "scale": 0.9518841535358826,
+          "bias": 0.0,
+          "objective": 0.12320587822097596,
+          "success": true,
+          "iterations": 4
+        },
+        {
+          "scale": 1.0863808264185884,
+          "bias": 0.0,
+          "objective": 0.06199964825356193,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.8005970415948598,
+          "bias": 0.0,
+          "objective": 0.1416465278124325,
+          "success": true,
+          "iterations": 5
+        },
+        {
+          "scale": 0.8012979684683071,
+          "bias": 0.0,
+          "objective": 0.16750140902170055,
+          "success": true,
+          "iterations": 4
+        }
+      ],
+      "thresholds": [
+        0.69,
+        0.08499999999999999,
+        0.36999999999999994,
+        0.19,
+        0.26999999999999996,
+        0.5299999999999999
+      ],
+      "calibration_raw_BCE": 0.10014038589734425,
+      "calibration_scaled_BCE": 0.09775740093795221
+    },
+    "class_affine": {
+      "parameters": [
+        {
+          "scale": 1.0737882917362371,
+          "bias": -0.5259340187818043,
+          "objective": 0.05940243666341952,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 1.3491190287105013,
+          "bias": 1.1393498430383096,
+          "objective": 0.02559736214151418,
+          "success": true,
+          "iterations": 9
+        },
+        {
+          "scale": 0.9767854936433515,
+          "bias": 0.17078165578205712,
+          "objective": 0.12276334518691895,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 1.1926114490287714,
+          "bias": 0.5372350524721369,
+          "objective": 0.060085783736118774,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.8277867761099714,
+          "bias": 0.27337512119085366,
+          "objective": 0.1402959795628925,
+          "success": true,
+          "iterations": 8
+        },
+        {
+          "scale": 0.8161304584042187,
+          "bias": 0.15761178132336498,
+          "objective": 0.1669338851872167,
+          "success": true,
+          "iterations": 7
+        }
+      ],
+      "thresholds": [
+        0.5599999999999999,
+        0.18,
+        0.4049999999999999,
+        0.25999999999999995,
+        0.32499999999999996,
+        0.57
+      ],
+      "calibration_raw_BCE": 0.10014038589734425,
+      "calibration_scaled_BCE": 0.09548056373156467
+    }
+  }
+}

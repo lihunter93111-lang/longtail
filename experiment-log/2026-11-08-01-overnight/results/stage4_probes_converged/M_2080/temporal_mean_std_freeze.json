@@ -1,0 +1,13 @@
+{
+  "model_sha256": "1b825178c70d9b1a5379a9b8bcf362c7966c58277753dc40d6c46c91795aa9ed",
+  "thresholds": [
+    0.7749999999999999,
+    0.245,
+    0.43499999999999994,
+    0.585,
+    0.945,
+    0.7949999999999999
+  ],
+  "all_class_probes_converged": true,
+  "source_model_sha256": "1b825178c70d9b1a5379a9b8bcf362c7966c58277753dc40d6c46c91795aa9ed"
+}

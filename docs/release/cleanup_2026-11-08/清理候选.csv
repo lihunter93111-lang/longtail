@@ -1,0 +1,33 @@
+﻿category,path,bytes,keep,condition
+已核实重复,C:\Users\zj\Documents\三轴长尾场景识别\文献库\pdf.zip,159331106,C:\Users\zj\Documents\三轴长尾场景识别\文献库\pdf,压缩包中 44 个文件与解压副本逐一 SHA-256 一致；保留解压目录
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\.pytest_cache,544,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\experiment-log\2026-11-06-01-lt-abc\__pycache__,27481,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\experiment-log\2026-11-06-02-epoch-diagnostic\__pycache__,12818,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\experiment-log\2026-11-06-03-epoch160\__pycache__,13777,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\experiment-log\2026-11-06-04-validation-bce-goal\__pycache__,38750,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\experiment-log\2026-11-06-05-weak-component-goal\__pycache__,58231,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\.pytest_cache,3712,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\cjlt\data\__pycache__,46895,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\cjlt\engine\__pycache__,53583,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\cjlt\losses\__pycache__,23894,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\cjlt\models\__pycache__,63602,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\cjlt\__pycache__,235,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\experiments\__pycache__,51578,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Imbalance_0716\tests\__pycache__,38854,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Inbalance_0724\.pytest_cache,1207,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Inbalance_0724\cj0724\__pycache__,54291,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\projects\CJ_Inbalance_0724\tests\__pycache__,9633,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\tools\__pycache__,6561,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\_docx_render,0,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+可再生成缓存,C:\Users\zj\Documents\三轴长尾场景识别\__pycache__,9774,,关闭正在运行的 Python/测试后可清理；_docx_render 当前为空
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\九档功率样本独立性与配对判定说明.md,7322,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\九档功率样本独立性与配对判定说明.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\复合干扰路线A_B全部尝试专业Prompt与总审计报告_20260806.md,37151,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\复合干扰路线A_B全部尝试专业Prompt与总审计报告_20260806.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\开集复合干扰文献综述与创新审计_20260801.md,56247,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\开集复合干扰文献综述与创新审计_20260801.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\按Prompt输出_文献库论文深度分析_20260804.md,49076,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\按Prompt输出_文献库论文深度分析_20260804.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\文献库深度分析专业Prompt_20260804.md,7076,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\文献库深度分析专业Prompt_20260804.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\逐公式逐协议创新查重审计_20260802.md,18699,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\逐公式逐协议创新查重审计_20260802.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\长尾方法综述与试验建议.docx,44870,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\word\长尾方法综述与试验建议.docx,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\项目交接说明_长尾复合干扰识别.docx,43619,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\word\项目交接说明_长尾复合干扰识别.docx,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+重复文档需先检查旧链接,C:\Users\zj\Documents\三轴长尾场景识别\项目代码路径_数据集与任务目标.md,12212,C:\Users\zj\Documents\三轴长尾场景识别\docs\research\项目代码路径_数据集与任务目标.md,内容完全相同，保留副本已被 Git 跟踪；删除根目录副本前检查旧文档链接和外部引用
+临时验证副本需保留差异记录,C:\Users\zj\Documents\三轴长尾场景识别\modelscope_verify,169663,C:\Users\zj\Documents\三轴长尾场景识别\data\catalog,仅少量元数据；先比较并保留远端审计差异/上传凭据记录，再决定；不作为数据远端备份完成证明
+临时验证副本需保留差异记录,C:\Users\zj\Documents\三轴长尾场景识别\modelscope_verify_final,194824,C:\Users\zj\Documents\三轴长尾场景识别\data\catalog,仅少量元数据；先比较并保留远端审计差异/上传凭据记录，再决定；不作为数据远端备份完成证明

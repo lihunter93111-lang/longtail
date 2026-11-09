@@ -1,0 +1,15 @@
+{
+  "primary_members": [
+    2080,
+    2081,
+    2082,
+    2083
+  ],
+  "source_sha256": "9b5d1d599d065f8bf398db5ae79bdf9ae33bcd2171d512cd659a14b7927e1441",
+  "prompt_sha256": "9773cc9e2952fc69df02ad2a9de50c962ae522dc923b9dd8e40185fd119e9354",
+  "parent_freeze_sha256": "2798155ffb7fe125e5974f6385d1bd79c95a41e82025b40a959c09f5dbfe038c",
+  "aggregate_parameters": 1030044,
+  "independence": "Leave-one-out ensemble variants overlap in three of four members and are descriptive sensitivity analyses.",
+  "evaluation_role": "adaptive_development",
+  "calibration_fit_role": "calibration"
+}

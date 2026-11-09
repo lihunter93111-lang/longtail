@@ -1,0 +1,10 @@
+{
+  "role": "reserved_final_confirmation",
+  "base_seed": 3.1083108E+9,
+  "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+  "samples": 4032,
+  "status": "generated",
+  "freeze_path": "E:/LJQ_code/LJQ_code_experiment_storage/overnight_v1/20261108_01/final_freeze.json",
+  "source_config": "E:/论文相关/干扰数据/复合干扰数据0716/九类/full_power_10_30dB_v1/closedset_9class_train.mat",
+  "locked_test_used": false
+}

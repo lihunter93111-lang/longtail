@@ -1,0 +1,202 @@
+[
+  {
+    "epoch": 1,
+    "train_objective": 0.056907864443957804,
+    "early_BCE": 0.12570135295391083
+  },
+  {
+    "epoch": 2,
+    "train_objective": 0.04959586445987225,
+    "early_BCE": 0.12814371287822723
+  },
+  {
+    "epoch": 3,
+    "train_objective": 0.04820660103484988,
+    "early_BCE": 0.1309698522090912
+  },
+  {
+    "epoch": 4,
+    "train_objective": 0.04665083939954638,
+    "early_BCE": 0.13214921951293945
+  },
+  {
+    "epoch": 5,
+    "train_objective": 0.04597154291719198,
+    "early_BCE": 0.13472431898117065
+  },
+  {
+    "epoch": 6,
+    "train_objective": 0.045702305253595116,
+    "early_BCE": 0.136246919631958
+  },
+  {
+    "epoch": 7,
+    "train_objective": 0.04483491389453411,
+    "early_BCE": 0.13736559450626373
+  },
+  {
+    "epoch": 8,
+    "train_objective": 0.045279442217200996,
+    "early_BCE": 0.1385132521390915
+  },
+  {
+    "epoch": 9,
+    "train_objective": 0.04502741702646017,
+    "early_BCE": 0.14064231514930725
+  },
+  {
+    "epoch": 10,
+    "train_objective": 0.044244626177474856,
+    "early_BCE": 0.1396847665309906
+  },
+  {
+    "epoch": 11,
+    "train_objective": 0.04507141959667206,
+    "early_BCE": 0.14259770512580872
+  },
+  {
+    "epoch": 12,
+    "train_objective": 0.04403613330796361,
+    "early_BCE": 0.14215034246444702
+  },
+  {
+    "epoch": 13,
+    "train_objective": 0.044101949643343685,
+    "early_BCE": 0.1420775204896927
+  },
+  {
+    "epoch": 14,
+    "train_objective": 0.044724197966977956,
+    "early_BCE": 0.14418773353099823
+  },
+  {
+    "epoch": 15,
+    "train_objective": 0.04388338115438819,
+    "early_BCE": 0.14370551705360413
+  },
+  {
+    "epoch": 16,
+    "train_objective": 0.0443750093318522,
+    "early_BCE": 0.14358705282211304
+  },
+  {
+    "epoch": 17,
+    "train_objective": 0.0437659051399678,
+    "early_BCE": 0.14512693881988525
+  },
+  {
+    "epoch": 18,
+    "train_objective": 0.04379261997528374,
+    "early_BCE": 0.14528624713420868
+  },
+  {
+    "epoch": 19,
+    "train_objective": 0.04358732826262712,
+    "early_BCE": 0.14459604024887085
+  },
+  {
+    "epoch": 20,
+    "train_objective": 0.044027653513476254,
+    "early_BCE": 0.14590883255004883
+  },
+  {
+    "epoch": 21,
+    "train_objective": 0.043074466519057754,
+    "early_BCE": 0.14764076471328735
+  },
+  {
+    "epoch": 22,
+    "train_objective": 0.04293710462003946,
+    "early_BCE": 0.14677821099758148
+  },
+  {
+    "epoch": 23,
+    "train_objective": 0.0425831043459475,
+    "early_BCE": 0.14833258092403412
+  },
+  {
+    "epoch": 24,
+    "train_objective": 0.04411531928554177,
+    "early_BCE": 0.14782948791980743
+  },
+  {
+    "epoch": 25,
+    "train_objective": 0.043385684890672564,
+    "early_BCE": 0.1471494436264038
+  },
+  {
+    "epoch": 26,
+    "train_objective": 0.04406267167069018,
+    "early_BCE": 0.14681142568588257
+  },
+  {
+    "epoch": 27,
+    "train_objective": 0.04386301567405462,
+    "early_BCE": 0.1461808979511261
+  },
+  {
+    "epoch": 28,
+    "train_objective": 0.043736638367176055,
+    "early_BCE": 0.1494830995798111
+  },
+  {
+    "epoch": 29,
+    "train_objective": 0.04349380960687995,
+    "early_BCE": 0.1485186517238617
+  },
+  {
+    "epoch": 30,
+    "train_objective": 0.044013050694018604,
+    "early_BCE": 0.14879536628723145
+  },
+  {
+    "epoch": 31,
+    "train_objective": 0.04391146705672145,
+    "early_BCE": 0.14827284216880798
+  },
+  {
+    "epoch": 32,
+    "train_objective": 0.04392943873628974,
+    "early_BCE": 0.1480281502008438
+  },
+  {
+    "epoch": 33,
+    "train_objective": 0.044018133338540794,
+    "early_BCE": 0.14803636074066162
+  },
+  {
+    "epoch": 34,
+    "train_objective": 0.043877920161932704,
+    "early_BCE": 0.1486019641160965
+  },
+  {
+    "epoch": 35,
+    "train_objective": 0.04247936741262674,
+    "early_BCE": 0.14989063143730164
+  },
+  {
+    "epoch": 36,
+    "train_objective": 0.04325017905980349,
+    "early_BCE": 0.1484638899564743
+  },
+  {
+    "epoch": 37,
+    "train_objective": 0.04334309248626232,
+    "early_BCE": 0.14890694618225098
+  },
+  {
+    "epoch": 38,
+    "train_objective": 0.04395023511722684,
+    "early_BCE": 0.1500282734632492
+  },
+  {
+    "epoch": 39,
+    "train_objective": 0.044035674765706065,
+    "early_BCE": 0.14984795451164246
+  },
+  {
+    "epoch": 40,
+    "train_objective": 0.04314872344583273,
+    "early_BCE": 0.15023161470890045
+  }
+]

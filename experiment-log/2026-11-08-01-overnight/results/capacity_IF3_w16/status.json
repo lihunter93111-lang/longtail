@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "model": "dfms_iq",
+  "width": 16,
+  "coverage": "M",
+  "initialization": "scratch",
+  "runs": 5
+}

@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "model": "dfms_iq_local_topk8",
+  "width": 16,
+  "coverage": "M",
+  "initialization": "shared",
+  "runs": 5
+}

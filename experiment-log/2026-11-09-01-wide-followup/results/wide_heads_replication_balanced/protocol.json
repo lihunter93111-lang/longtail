@@ -1,0 +1,19 @@
+{
+  "operation": "compose and replay already frozen wide classifier heads",
+  "model": "dfms_iq",
+  "width": 32,
+  "seeds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    2094
+  ],
+  "coverage": "M",
+  "head_variant": "balanced",
+  "manifest_sha256": "bff152002ab0a3c5a79d5c0038c14dc8341735aaa05548d070a6807c1a3ef534",
+  "source_sha256": "3afbfd7e848cf93b5a388fa5792fa15648410a9010c5c89de2a32e811984b1bd",
+  "backbone_freeze_sha256": "72c0eac532f05c70e7c792143f559bdd1219d90d69e0928dd72b1ca27bf750dc",
+  "head_freeze_sha256": "3143eb5633af7e503dc5e9361a135a020dd811473dd3f52d45ec8b578ceff119",
+  "role": "adaptive_development"
+}

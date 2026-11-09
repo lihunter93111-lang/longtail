@@ -1,0 +1,1814 @@
+[
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 1390,
+    "sha256": "9d14848f96b00eb43fb60f436685886c984a3d244d85dc78352d03aacc926cb8"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 1363,
+    "sha256": "7f2609aa97111cd8312ec47d0d409a6bb91ab5a0d757b2e3574e080788fcdb1b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 1354,
+    "sha256": "c441f6df670db5f20008c37e939565a03ec4e8141702441335ebb2c4ee532aa8"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 1372,
+    "sha256": "ede208e9597466f62a094a9cf1a147ded9ad278bc692872fe08439a9b09e6aaa"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_dev_seed1540000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 1372,
+    "sha256": "7077c208936163d8e42326d4eedc95c0b1bec9e0c70b02afb5be3f3a5c8f4e50"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 1408,
+    "sha256": "8986f3644d89ac068a17f9d98546f88f532c196deb696819ccdbc52b4d3f3cda"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 1381,
+    "sha256": "92a23a7d23ae42971541cc5c3180f5cc1501c2fbd40f1ea61a7bf173d1d63dca"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 1372,
+    "sha256": "36405ddd73c3b259b7b8770871867a2fbc64f48a820a983b96ef46ac05b6d4eb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 1390,
+    "sha256": "c615c98dbb50c834b37b9bef502a87d95ef051c1198a6aacfb409d3857a3b6f1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 1390,
+    "sha256": "ba49b75f29ae2d3ebc6f25f984dc284abe70d70b3d44fe5728520ead998e9698"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 568,
+    "sha256": "dc27cb1c9d8aaab27b0b8fb63b0fc850ca34d82c4aade04b5dc7a1b6e63eaacc"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "77c73757d07784aa119453ae601ea308365da465323a668b514c35e440671c14"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 556,
+    "sha256": "e6f59480c11d1f859a3d631ebfa005f1ec6928c449e05d66a978bd91329195b7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 562,
+    "sha256": "d54470af6496a973e6280c890724c148d07479991ff2c851385c5afdaeaf6c51"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 562,
+    "sha256": "99ed21afb367589f1dfdd6aa2a5cd16a4734e386761226a3bfa92e8a539532af"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 550,
+    "sha256": "91e22a8931cc0b40889d75a0b4acb944058d5cc707be3d27a13ee3e464038b17"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 1282,
+    "sha256": "fb4fd0f15b9441a24e6baa3e732cd8a22569464c8026807fe0f120896801afa0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 535,
+    "sha256": "1362e126a328e9925d3395b0570026ecb5e1f3c72f38c5ac470f227cfc765f38"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 544,
+    "sha256": "053e63654231887271453e7ef942a66d6fd178abfc81ad83be0ad8f7eb053379"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3om_sparse_peak_train_seed1570000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 544,
+    "sha256": "3be42d421301be6f8bfac143edefff907b17c281aae1ea08d24cc4ec19840f05"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 598,
+    "sha256": "71f365e331f87c494f621eea0e408e977adbc68879d99424c4e993c6b446dd9d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "95ca09b55cd21af6076cd23d02f83cc5549d4063c1a879e5d94319d0dcac6b0c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 586,
+    "sha256": "2aa5b29062c3777770ce47b185a84cb45e642f2367c77e19be4e9c635e7a1a8c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 592,
+    "sha256": "21a2c6abb14ec3eb3b538f29fdd5eb0ddb35cdbc813442e74451d465a23fa65a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_development_seed1730000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 592,
+    "sha256": "a97c18a359a08358e3befa87617968238050031cde40e92f8a03c7a7fa1b94ff"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "b0cc864263c52152a2ecdb841220fd2bb1f49e8a1a9d6a962cc4ae9dea5dab1d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 571,
+    "sha256": "9a178a7740dd6c99e974a9640306495cc86bde81943403ce06287ce32ee0b945"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 568,
+    "sha256": "5afdbd89b6841fadce4d0c73684ee55f716e041a100521a1863895ac96d41039"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 574,
+    "sha256": "ede50ae86613509bfc4507592cf128d6277c1e762f75c5f1a204ff9cb093e0e7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3on_resolution_abstention_train_seed1720000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 574,
+    "sha256": "6302bda130ab36821ce462de35dc18f31c3405caf2a5d21d75ec14b405313dd2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "d61d072382bf7ed336cbfa22559dcdf245838c761736637fa8cbe2be5ca8a85c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 592,
+    "sha256": "298e3159226f5152ed417ab9849b01c45b62d2d586c9ce2fc58a8188b8fccc79"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "5e154ca2049916627c8dce074de25eb3b53a2d584667c3d768ea063a8813ea4f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "a731927064bcd496d944f068405e9da4008db59d2ae69ed5543546ff90ad055f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_development_seed1770000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "2195c47dd0af564f30f05beb37ea3fb79ab1edf86a320acd0562b882e1e5d00e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "dc5a79be6a6ffb08ec7db6015fecc03cd710bc135c455dea7e9b131e36913244"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 574,
+    "sha256": "26672f3059afcd5ee00c2904829a3b7675ae16b66b4c9357bce9e35185e5111f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 571,
+    "sha256": "b9546ab4f3b7901e1a3e80e65c91f424aaa1c0e589c3e76355fadd8409da2ae6"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "de73a372bd2dd9c4f31cf2e27df22609ad356585bddab863a29a46bea111ba45"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "1974c080fe8fbe5fccc4971b66ea16e38f8d113040c7fb97cb7fd1d87498e0e4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 586,
+    "sha256": "f6644973877d6838812b49fc3c1b77739ee2e0e8e75fb2f51dfbe99857974e80"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "098f10032d0e24f3bb0320670e9a4ac7918bcbbf625f8d2aed34b8733a53eebf"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 574,
+    "sha256": "1525a0a3a3e34d524f3168f12cd1c5c945a9e260cbbe6252e843591def7b6738"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "eb75e931d5f4a6101b6265c50a61fd281a03b89c7cc7f33b84fe9d20282cc42a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_development_seed1810000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "229e27dba4e64e6fb2db036497e19307576a6897c10cf273266fc31395190b62"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 568,
+    "sha256": "98775292c6a1787f0fc7fe9af93976474f6650a699606c7e2ed92d98104e4600"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "0f0a6a696d44ad1f25d611705a1a2e18cb53935f69e575bf04b844dc322b0227"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 556,
+    "sha256": "a277d1f3a53a61a55525b6a628b21a15133401297ba17d46f229aadad5787f02"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 562,
+    "sha256": "8eaa311592a3034fd9c816e382955ed07cd272785bee7483e15c9c00a849a685"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3op_complex_coherence_train_seed1800000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 562,
+    "sha256": "cd65f5fdb33d1d2c2bcde572a00f9b050c91e7f773793a81c74ed40a4a2346c3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 610,
+    "sha256": "4ec8ad2dba5074a4954d5037bba9e12d07498a4adfaec890b68bc18b6d43a1d9"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "65e2d40020cb15cc5c05bc305f98d4902069081dd30aee1145ada68cdd98736f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 598,
+    "sha256": "73aafb8e38a9ba6ca28439b3f5ab92d1ecac3c7f4af78cabd0d3382db8cd3fcd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 604,
+    "sha256": "fd77e5c419167bff819bd465e38b5041462c63813d5103214de95d9180c80912"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_development_seed1850000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 604,
+    "sha256": "f68b7bd2a38fea8f9d616052ef64707c874c832b991c4d52aca2b837cc4b4de3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 592,
+    "sha256": "f00b30acd8a2036bc312309e56d7ea7847f814b47894c5a51dc862c3879b0eee"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "2d08a4310336fa118bf4159467dc962d4e82b975e5ee73079a212be767e23c63"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "bcd8269023a63700b0ad61829795db2d919e5bd214618fbb1df4a2c0d311aff9"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 586,
+    "sha256": "4ae2415213b293cc2b4f4e5badb0462e92a7db57bf795b260600140b2068b6c5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3oq_nonnegative_support_curve_train_seed1840000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 586,
+    "sha256": "f3a7b3ffd14345c99e8a15fc9403e594e4b5047ee27e3bc2edab1bd4dd7d8d0e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 607,
+    "sha256": "975ef9874e2b431f3585608eed97491f0863ac1000367a9722c8547311b9a6c4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 598,
+    "sha256": "c144f4981559d202dc2b33fd635df36996574de98f2e362d2da53c7df7db85e0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "82cb96c3f095c2d007d43dcca1e7cd7c4f8b1b44bf846f720cb7b604a67978f1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "f01d0893dae442d3c7f46f3644878b4053bf644462e833a730e5565a1a2efc6d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_development_seed1890000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "b44465d693a8c56de93703a90245a93d861a651820cba004ea0e18ca83bc5d9e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "1262bf4d1c00f113e74a7feb89b141e581811dc07c7541969c24813b76e8b476"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "6bccc23da707f3be8e9f6540a45db7ad209cb53031e9d828c60862cce188371a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 574,
+    "sha256": "22e965c4eedad13794521f0a99578863cc708c482f4178fa9c17b2afd8cb7bde"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "8dc6c18db41d65a75d3c2188525f33e1442e37708eecbb581250aaabcbb7c7fe"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3or_mft_component_separation_train_seed1880000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "5501bff2400570ada088c57cbaa24f354f2f26812d59de8f9a6f7d1ceaa29f79"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 565,
+    "sha256": "55acf60a57b78e1689cf998205a487ddf6a74844a1723ff6abe1006bb59757ce"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 556,
+    "sha256": "aee91cefc7bba48f773f7520c191b44c49937e25f1a8e19a65e7aa4137f4b4ca"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 553,
+    "sha256": "fb023fbc4fcd198e9aa38b70e085462ab948dae6ac00f2b56889b306cfb66184"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "b503bce06fc1be2e633b8d3f700c19691a8e4ea18a138ad79fd10e4e80cb5e7e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "3f10c44b72d5b2e8578c09657890979b3105de9efb2fa80ed6d78a0b8573fc0c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 565,
+    "sha256": "5e1ce9cefdb423ec799c9a73282e1a35fd64db7fa40c99453a879f37134e2446"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 556,
+    "sha256": "e6b6dbaf390b6878efc07fee6bd18b27f2c084e873890850eaafd46b763677df"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 553,
+    "sha256": "3a39da9292d505fb3840b32fcf4f1189800cd57160db29bb5257b4e934b8a954"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "bd8381c02fb66e94282ec30ef08fe13c62bc9be6e8e9f35e3e1667186cc620ac"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 559,
+    "sha256": "c1458fafca64340e7088ec10642512cca5c7da97bc78143d4f3227c29cbcde49"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 607,
+    "sha256": "dba333b3d8c992b79d9e31a811615beaca8d6e733002fa3a9575fd5cb513e337"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 598,
+    "sha256": "c3f97dc1adce1ac4faa3439a15ea77df4cdd279af959622f2f6e263e52c8ac2a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "6ee8a2808fe1ee3f4d83b9d11af71c55129c5690b50ba25cdbe49673325792f5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "49818e7dd3a3754273284a99dbdc06c4d2c896a9d3c41d20b1a15c43d0b6a138"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "c701f347fd5b1070d4feb6bf8e0cb8a23e2bdd485c85aa64d19d000d54af1eb3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 601,
+    "sha256": "cb7846180e6895fbdbb6c7a91fbf008693dd54aeb423877b5c48c64de618aa6e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 592,
+    "sha256": "fe98a71df008dcfe447dc00c8ae8ac355c11a7120b5f270ed7824910f6d7d94e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "3e8a73a0fa21694dac67ca359e988b297da14d42b30508104a95fe0cd95fb5ec"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "4dddc01ec1288c0fc42bfe95ce8dc2e80a3095abad1d7a555f1cb5d1a80cdab6"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "10aa97af33e752381231079f8924028bfdc07664f161085ccf09e07ef76d0dfd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "792b583c49b9e3885f5017eb7286850e470b297c64193d0c3d263097fe7d5cce"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "d16760a5f4e9bf77f3a4cad8f59d9d7a4d2f7961beccb5f5e43cd84a809d7563"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "4457c73c1b330ef01c3d35eafe221ee267f27d95d7af429a7bfa88f9a0af0cdf"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "a7f0ae672dad01e4c5d9f4292d34a1d65444d19cf2f4b4fb0267e45400d6b4c7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "52459c153ba6ceaceab467a2c559e5e6be7d655f61a77313077543d2a0b55884"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 595,
+    "sha256": "96b9c8a50e6dcd15fbffdc7c6760e4627b169a875e933b5f6ca3e640d9223138"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 586,
+    "sha256": "773ecfde23f3ea7e57f48e0b1440a2cdf8dbe2d1adafd053ed3f058082d70fb3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "e2a73039931e510a51657736f3a219bd43be8af5a5fd6f37f8752d4e8a7a0346"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "11d13881debe319adf515e75c16557e5490fd1b1e42c3e5f2fcf487acaafe0ba"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "92f6885cb5ffe5a120d6c12213bc25d00ae3cf92c5e46878c3e6e3224ab635fd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 589,
+    "sha256": "7986b498ab5650f110d658934820253ce5993facf226029adf62af752dfc3a65"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 580,
+    "sha256": "9aec69f524949ae113a9ca73c9c35d77f2318e2c22eba09e3e761565daa01d15"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "b48b46219ecb656ef825e0815651eed1a2e64d44cfc41786cf1fb0f9bba3676f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "1fb6618512cf86238deefc0d8b0daa3d61117964bc2cd3c67ccbc18c62958425"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 583,
+    "sha256": "6c986fa6b39798cde496bcfd776557bae7a73afce82ff54bb39b995c2e9a9750"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\power_sweep_manifest.csv",
+    "bytes": 577,
+    "sha256": "0d3d0022e9cb8578bb6514c106cd5a8f640a8d730ae520eb1fdd97d12451f1e0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\power_sweep_manifest.csv",
+    "bytes": 568,
+    "sha256": "251d77a6a95866970e032cb73c1200b23093f4095452604cb662ada97ee291d0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\power_sweep_manifest.csv",
+    "bytes": 565,
+    "sha256": "a199ee890c90418575ff40947f5bc15b4d542f7eb55caa3688ca54e252f70dcc"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\power_sweep_manifest.csv",
+    "bytes": 571,
+    "sha256": "dfb3dd9028bb927483a2c56caf8994776e2794cd4c3b883e0d02ed84db40c564"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_generated_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\power_sweep_manifest.csv",
+    "bytes": 571,
+    "sha256": "efbe942f28bb3509d1c28b0f4a6e59a5dac24132c9f43c8f7049821708b2bdb2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_close_spacing_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_close_spacing_rechunked\\rechunk_receipt.json",
+    "bytes": 1974,
+    "sha256": "7a0beebd1f65d0323e318d767b63e626b020e62d52977c33204894e0444b44fe"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_ID_control_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_ID_control_rechunked\\rechunk_receipt.json",
+    "bytes": 1950,
+    "sha256": "d992040252ecc1f82031f95e00a94808e2a487c3f3a3f27f1ce085bdd3439bd4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_low_count_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_low_count_rechunked\\rechunk_receipt.json",
+    "bytes": 1942,
+    "sha256": "1b88dc20e6183800137b1c7c7402b3d1f3386df3bc7a3909dcf8199abcc90f8b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_ultra_close_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_ultra_close_rechunked\\rechunk_receipt.json",
+    "bytes": 1958,
+    "sha256": "717375db727d1ca6ac5f239f0f154f26d1bbb9d4d852976f53006eac4e40acaa"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_weak_target_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_dev_seed1540000000_weak_target_rechunked\\rechunk_receipt.json",
+    "bytes": 1958,
+    "sha256": "2ec05b20ef38ce68966b851276ba50b58f3ff5a961db89816f8177fd4e5354a4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked\\rechunk_receipt.json",
+    "bytes": 1990,
+    "sha256": "c74a3e4aed9fcec7b1910c28f0851b979109df5d5c131a48906d7c50cd4a5ffd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_ID_control_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_ID_control_rechunked\\rechunk_receipt.json",
+    "bytes": 1966,
+    "sha256": "0605740d07f948a5204f77b181dc63a0820a6c8ae9ba25cedddbf513bef9abc0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_low_count_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_low_count_rechunked\\rechunk_receipt.json",
+    "bytes": 1958,
+    "sha256": "4bc289c0a2910d17c5d2fee2e0ea3360f7012737eebe9eef1358255182ee894a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_ultra_close_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_ultra_close_rechunked\\rechunk_receipt.json",
+    "bytes": 1974,
+    "sha256": "80fd703b75c4dbf185c09b2fadb1ca840dde182e21b74c5df5fbefce6793d91f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_weak_target_rechunked\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_weak_target_rechunked\\rechunk_receipt.json",
+    "bytes": 1974,
+    "sha256": "7a99a23b37f9ea563f83c44ae92cc292615575ce4066d72bfba716dd21c03068"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1970,
+    "sha256": "7fb55df1e3451910e71a68345404f4a32d0b1f610968bfe049808560436b2ce1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1946,
+    "sha256": "2999dcbe20bc3867c008d265b24f25fadf62428efb047ae560d815d05af16d51"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1938,
+    "sha256": "954259fb94a42ade550edd28c8fd49db8d1c87602f2a7666f206d4cf084904ce"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1954,
+    "sha256": "82fdfe31138c9eed8541d2060246a1b9315f56bcb8be8cebc05ec56450092cdd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1954,
+    "sha256": "48820c61423294239cc57abc731355eb8c8dafa741ea70fe8c36cc866e99f1ab"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1922,
+    "sha256": "963fb87e4bec5160979323176085bef88dfd6ab1591c0e9b8ec2c2b846f6c235"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1898,
+    "sha256": "3c9a2396649e974cc82e4ccfbd59f2fdabd3ec03c4ac84b49a3973fe1db8a422"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1890,
+    "sha256": "4d7297fd7fc49f6180d599f1f1e072c4603a4d6898613c21e144a22d97d6d0bb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1906,
+    "sha256": "4da6aa9f299f5b34deee57c9eb42e877ec5ee1ae9d750f75883495cdf1a976a3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3om_sparse_peak_train_seed1570000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1906,
+    "sha256": "9df64cc18600d98e6dd07694ec1684825d4ca984baffc0f098644d5feb26e8dd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2050,
+    "sha256": "c678c6aa1711718295971e4dba5d57aabc8d2889b785d4ac488246f24cd80fc1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2026,
+    "sha256": "e1c40214431ef70e521ea4ff0d68eac8434a1e78f0546e946bbbfc949fb73141"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2018,
+    "sha256": "022656e505205e4a4e85f05cbe3be8e5609b1b66f1179f97ae16b6a83f0a77ea"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2034,
+    "sha256": "8736eb5f98f93c35211b72e61cbe8f566baf2d8fa1163fc2fc1112cc1ab6b2a8"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_development_seed1730000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2034,
+    "sha256": "ed88b6749c4b3b203e38d4cc95456e0e42612c4b47ca11313d8acd347926be4c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2002,
+    "sha256": "336a6654ccfdd0f8aa28575a342a57cb6cabfc98686c4d8d723cf0a48cbc71ec"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1978,
+    "sha256": "e0251d068c9a052b0b9330659a4562f84d4e2f276c7576fd550285c0b92046ee"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1970,
+    "sha256": "d136e2e2e00c16f0acf757606724648d5dc621e154c602475f5a242caa7e379b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1986,
+    "sha256": "c4db3da1117246c0d1bbd7dcca1abeb8ef1802af342fef647ff1fc1d741c3e5f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3on_resolution_abstention_train_seed1720000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1986,
+    "sha256": "02aec73e558742219be7c0b13914517c2684a247ceff92884a0177577a734b80"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2058,
+    "sha256": "6ffe561d2510d7002476784f82edd7614ffc482e4d802260f3991e4b7eb6420d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2034,
+    "sha256": "b7593e8d3a955ab956f4bc62bbc976f8e6308fbe9f2468f00a24c9ae032dc8d8"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2026,
+    "sha256": "351e26285a8b477ea7c4c98c9dfc7604bfe285140c5c7759dcd6dbbffa60eaed"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2042,
+    "sha256": "9c66973234cf36552c470b2848a58481b613a43f43f3248c8c363833605de023"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_development_seed1770000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2042,
+    "sha256": "c488fcdc47e09498073860e48edbc5fd9bf9efe37b8bf1d0505d379c81a6630f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2010,
+    "sha256": "8f4a289c312ae72a1718cf32dc5c387b492bc5d12f8d8077781fff372f47fd84"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1986,
+    "sha256": "552cded137640d5ec8999047ecb69031e7d8a6697d65f724a9bdf3963bd6f56a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1978,
+    "sha256": "824720e2e42441f5b23835dffc10c2e92c29e4f1d23cf60163b80251a37b15f7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1994,
+    "sha256": "86943c24f76bfb0c41406b9384395d87cbd64e7c0374bc063bb2959e3ace39f0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1994,
+    "sha256": "c1ef867ffb284a4fde91c4e3f447bc5bc95cf89308b32badb1b926570cfc8e7b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2018,
+    "sha256": "4498ed306399a0296840a4cb6acd36907075919ac0eca90672a96eded1c14082"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1994,
+    "sha256": "2729f03096af8847b7c132582438991eab4497584ef3e00a3b56578cbee8c177"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1986,
+    "sha256": "502c8f95fcc5e02e436d08d972e5902080fc57b9d5731a22a7f80510c19e77a5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2002,
+    "sha256": "d7aab84ce824674f7a4a3941e6775b6279bbb27a20f3ab54b3a2d3c0352b5096"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_development_seed1810000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2002,
+    "sha256": "2b9ca0adfde164ee5c835fabe9206c800bee29f71559fc07ca7967188f2f5027"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1970,
+    "sha256": "a75c6eac593af160f79fc2a3d3d79086fbbb703c10a84b5e5874b56ce4586206"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1946,
+    "sha256": "c80c400f76e52ec8cf233244b37165f4fd80dd5d40ff28e3d982c25aae9aacf2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1938,
+    "sha256": "edd41669950ded2a6f7c75c7b2dbd197b37cf27760cf20ec51a8bb4e72726f99"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1954,
+    "sha256": "d322b959ac13273bd2f002d51650932757c9522d02ca712fbb498299a84a4426"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3op_complex_coherence_train_seed1800000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1954,
+    "sha256": "1ee5d117fecd0c54c8735b69d1fa80ddf45e62973a56f2afb995388bd5392213"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2082,
+    "sha256": "53bee821513ed792ad0bac2cdd81bd11f0f8fe26e073b68891b5dbc4a1c79dd2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2058,
+    "sha256": "1ed381f721f227db966c841a463a1eb721a9a98424f6709b45653dc8c7ac57c5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2050,
+    "sha256": "d84dacd0789d35b9a028dd9657a36a343233d93c28ce89e1705f339a0504d778"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2066,
+    "sha256": "ffd78667d8fb62ae317237acd6b62f4f515e107223815785bbf500d6c6495c6f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_development_seed1850000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2066,
+    "sha256": "e3a602c5d1804fa7667363621b4086b94d73cf1e8ab8aa9a750c4eed1f7549b6"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2034,
+    "sha256": "50d742be5c2839dfc68d5a01b38dcd85885dbc8ca34c01d908cba82feb249608"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2010,
+    "sha256": "6add8df982fd80a54e3b5643774fb70f9690b39f4e57dacc2336bc3f65aee967"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2002,
+    "sha256": "a7c4263cac895e807ad152272c1e1a6911a859395ececf252b374111d6be31df"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2018,
+    "sha256": "3d9ac6c1936a95a27a147e130cd28dca00c1510a93c20339e8161f8e9145598b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3oq_nonnegative_support_curve_train_seed1840000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2018,
+    "sha256": "2f352c0c891cec059f03af8df3b5b1a26b2bacfb5b29542de997f043ee06ac89"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2074,
+    "sha256": "8e85e1b3c59ae21fd967005006a8248bdd4446bda3447ab9b946592bc3db5f07"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2050,
+    "sha256": "1878e434af8815584c3270790dcde5f8f0bae96e2b5bc4bdee6fd66434ea394a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2042,
+    "sha256": "78b7958d172407ce2466b09458ed36eb15d97bc3df4c5a07ee46c50cbce4d643"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2058,
+    "sha256": "f020477e3b4c61a834caf367d1e024fddb9f2be81f04ed5ee5e3d88a0b40f255"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_development_seed1890000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2058,
+    "sha256": "570f38a68104c66f92aa07c680ede92fc2e90740191d9d2fe90110fe8465769c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_close_spacing_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2026,
+    "sha256": "152916f31974265e42b20fdbfd51385552cc1b37470ad8cea01b1785dcfe4169"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_ID_control_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2002,
+    "sha256": "eae1e4f3e5c23daa2badb467cdd2880802ec097c5d8a6ea9b1b253fdc220d280"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_low_count_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 1994,
+    "sha256": "c18d06d7e673e5c913c75d8af193de5a1ee2c70f524daee0bac2e57ea6d5b226"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_ultra_close_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2010,
+    "sha256": "cba62ea3bfa1502d6d1889849c04739131648fc2a0c8a8208bd9749d90b91814"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3or_mft_component_separation_train_seed1880000000_weak_target_rechunked_v2\\rechunk_receipt.json",
+    "bytes": 2010,
+    "sha256": "de18fbe962412502e605cc9b99b9d4abf7186e90f08eb463a89dc58931bdf4a3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "15c89092d9a8e133181aec27e499c3c4a185513804fed416b8e434cd2014f860"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "d696402f277c5a5f8b8598d8f2a78e3f9c1963645045d5dbfec0d55b051e2446"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "f326a80a0572d34d273c2a328eabb7f597e489f45e6d0ab6751db3d34af7da64"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "287341dea851a51c9ecc0387decc1531425b70914372e6c2aaffef708202d71b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "8db24159ea310b8fa759453cca04bef774885cee0d8c0a53afe31c09218ec52c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "cf4eef6d532a8888a6b38ef03610d8168a4b551098bcead5e7fb3a63763b8feb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "756cf68b9b42f0d86838a24b83b09efbea642af0d260313f4fe407e4319f05fc"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "1dd58007f7071891cb5e868f1eb0525bbc471ad271a1259e79949261b0c55bbe"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "10860e3c7b95045243e629ea0cd497a028443ffceed33b57535bf759d748acd2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "1497ca54c946c7eac24f4d9cad7515939ad294cea9b70c83ea774a60e0275290"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "136e957616c94fb77772df23be285b4585a8570f16b84d7f49e934c96acc1ccd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "ff1a318103cd127e222f6deef61388caf719f4bfaccd2bf45c97c06a8f4ec4ce"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "2e92afd5e54d030071bb18a2f64bb2d759abb14545361bbb79417c6bb5d49dcd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "16b7c1300d897d7fcb881f7ebc577251f717394576dd9f8944e71a21a111b949"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1920000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "5df7ebcfa3e17409dd999ed925f01520ae8b4909e2c5796bafbb9d1aecbd1dd1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "efd531ebd89ff4cf4e7448aa12460db29b15ea3424906886dc5e9ba2afbc2c82"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "1767bbc183ad9b9ba3eae2839ce13ce93f992c4b985115e0e68365d7cd2786b7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "83780f47cccdc1d923283b23c2ba7fdfb1986b4b64c95eb76595bb5fc24fc8e1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "a0d573d3472bc01de07cf1789ca175f2e7338845dbcce815b266a51dc6b01ae6"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "1e9fa19c0893ee542254aaef25690171cc4800ab63683f7cef73a50717248b42"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 455,
+    "sha256": "7bce52c8d5bdb535ff0270c206a1582e28a300185e6c1dbadff8a40b8949e0bb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "a0793938912f200de5f31d222e48b8de96057e772e9f280f7a1edf7de5c8640b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "7ab1a4fa361b31518d337483716b72d322cf6f80f3b4fa152ae48da3bb69f229"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 453,
+    "sha256": "d040516b68c265bcaf1055e9e266b5c767a73d3048c6bde2fbf4f16cd0d33be4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "cb79701e17d9be69ee958d55cd233cbd3774b974102d4edcdc03fa292fe90719"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "54021b0631c8e928b71f259bffcfad3276aa6110f7f316ea80778d4b578ce92a"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "59bad7642c7218294b8c68d5728a304877f48eb80322449660359163220824d1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "0ab52380c2394a647618cbb86de4ba92e1e13636ac192e01115787f6b1abd9d7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "5a412270196192757a082bb72e3e4b8fef0b7e851e4d82477c0084ba1b8c918e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3os_mft_oracle_subtraction_seed1930000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 457,
+    "sha256": "d9352e14b457b217cdc136747d7e5702782cf64fde1da8d6f19c8d872449d96d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 489,
+    "sha256": "95463bcab03df53c42688a115b2754787a0b05378ccb30e46a0aa1494bebd085"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 489,
+    "sha256": "8baf74300dc11786675de65863ccbb8f2df7704e910ccb2cd4adbc0df42282b8"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 489,
+    "sha256": "5a56e6c09b70aea0a84eaeb47d6759eec6b806bffc9ec415ef412d69d71c6abf"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 483,
+    "sha256": "ac09db074699cb5d1f5eede769fc91450d9e33a5759c6eeef78eed7e04147d0f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 483,
+    "sha256": "cc114007a0db68d63064ffe7a753a7e74462c2fb92e56cc74115ca59d202bab0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 483,
+    "sha256": "c58c8d57981b6d4d1b30b4d48b4eda2f62aa8d4e5b3200424334a1fc7076f130"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "62a5703a3cd49657ecf11bc67c5b4f865394e1134e119bb0918d51a8abb39758"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "f70ba0e9629a43665d563da83943b2151f21ef1eda338d72752a746dc5eff4fe"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "b3507a9cd2a76c2e295776b48e432f89b52c430b349511586c252bbb929bfe8d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "e9663aaf00ac1e13129ad877ae8ed307253c8fea2ef5cdeda76a1a37124660f1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "dbbd9160b4357f3efa2204df41017f96e9c304e11b80ba346aee006714a3e4c3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "ecd856077c35171a2caf827edf6a4b1880c21c72b8d0c809514c3e73f5cfbac9"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "3f641909e506a54be7cb43ee4d0730dc5a03e1a3eb68b4e86013b56e626a2c2d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "9360e6ed6268f32ee31bb718cf406ccaa87083abae74586f7964983659c6e5bf"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_development_seed1980000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "7327f505cde9cdab1ce947d9b9b6cb3ee2003b03e1a3972ed3af795fbd16dbe0"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "141b2ae4fb29b36a1ed3439fa6481f12478afa760071e68230a870f75cbfc3b7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "9f6f5fe13825eac19fc1786c5950d4a1e1e4612d6454227a24e8e6ba53d76350"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 485,
+    "sha256": "83c61cca7594fd48f985cbfd251d4d2ba6d96da9ecf37d97d0013097045afbca"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 479,
+    "sha256": "05f17669862e53167fa41ce63498b16045cdd1e0a689442a3010b41a74d87776"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 479,
+    "sha256": "3a278e0eb53cc07bb4fa815fee15accf1ae9f5714acfd8e426f4ef611a905ab5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 479,
+    "sha256": "79ed73ba32e8f664edc05998ed17daa712f4724e5277884b8634cfa4b950f1fe"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "225349dc92bc643ec0d773d141f8762234a050689544e46e4b6de41391f8df0c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "91c25ac3a1ee0859fd38e9272b210e1c0807b746a18fcbd6b3696bf858232b2c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "42c5d1741b34fc088c1c7be1d03d7f001788b076efe400590f0d9ade659f6f3d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "e1c6c05dcc714b0dc97752d9137dd889302ce7f843d0bc0e3560358442a68f85"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "1ca48cf2dc8672c493c85e59498443cf35ff5b78d107ddc7630c778bdf1019a9"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "81d9ae1716426adcf9611c1a0e0fd950dd70501fa32b7a8a6826d8d812eb7afb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "66d30c73cf23124c1564342f5110dfb1d3001238c13ba1c60f38f0d878a6e322"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "8b992c077dd757e10c2df7464e6bc281c94d7349730ad57025a0f5eeb8b695b5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "897f1dba4bb6b5c48a5382fe85f8c717cf7fe3e6765addc9fff4546a23f493a6"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "35bb5dba5ac0c097be54a3739e2c461877e63a60275c9934f41fe97d985ebe78"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "63aee2da8c25f7c335a6d81c5c3beb7882e17852e13339869deede145d9441c1"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "1b9b44abcd696b94471b4f37f57295de96f61de88a83334b432e884c3c7e96d7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "28871975898362ace90570d879d6d642193784b4912a40ab0dbf512fbadbdfdf"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "8b35d85f4c197c2c09023ede63faab113319d29881dbd28e6376e4eaee050c9b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "b59a1445bf559d5e23c9c934ccbf45d9fc41cea984abd7180972d0c8d5bc30ac"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "774eb4697b1acaee6578d7b0d8925102a063b2f07bdb5c2097e1f7eb9a3e97ed"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "8e4e879cff13cccc6a8c7ed20cfdf0a4476e027d6cd31790d584dae3003a1386"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "86bf3456d8f355a7d9192e540c857310c70419795fbcee1570e7040aff8665b5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "0ef9102a6319604a11fd68a11940c0068155a8d9cf16db30356c90a6bf98b4a7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "90f5d9f7b4efa30065aefeebc15d280e43e1019bc36f094c7f1eb24f1cde2667"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "b053cd709d8189bcfde1bd37c38849ae4f15c4028ad1a477f1e50dfa3d06680f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "20d3cf0e7ec60daca560ff916a2b1ff9f9c96ca293dc14bab75ed346608bfd3d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "2619b16ac15d2f01040042a57d1eaf09e26b1e97e947f2399cd7b11d3ea722cb"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_train_seed1960000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "f531c931ea9d7aae7c988b585ec2f16f811d3f0062f0c9798329d74aaa7fbdd5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "80670beb770788834e3af039e0e852b38c0c3bca937f6acaa006f474cfbc9a81"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "ea5ec11c4549d67243b3b1ae3ffa1201377e4c8e8626d11a9662f88f112cdc14"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 481,
+    "sha256": "af809995df9e69c9d0798f845f3a90af754233b71a9023deb39b75c2149a3def"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 475,
+    "sha256": "10cfc1b284f57263b670f0869cf7cbbd93878d8d6fcf2b075f85b62e6061e499"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 475,
+    "sha256": "a0f6947f0667d0ffbdf682440ef0bd36cc816d40ce49eb0f8989c98af2869d43"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 475,
+    "sha256": "70ac20bbb7d32c02972650b9ed8a424997b9e0e1b910552dd4c9593ba208b93d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "745fc3727d4c8ef8b190598291aff778ace09a0d69c070998cfe27caa8d3b2a9"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "279d8e441a7a6f6970538d990b3c1c5941caab850be8cea732e58e0859fe0e8f"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "bf92eade0a244a6b212060889a8fd049612f7393ee7b0f714466aeaff55b0655"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "9954002c9db72772786a0ee5e7e75aed64fc2bf59bfc9ce1a19412579f6bd870"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "fd5e60684d2d6f1013fd207d02679a5c75aa56663d4b775d1feabea1693f51fd"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "c638e14be30e6fbfb454fed053c90bf2588c1c50bbfb1e0603c4b3d8cc78e4e3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "de41de70fccdc42202680df26377e695ef9844ec69e22efa6e5a3569ecb2e058"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "b1023ba6ab1811ce2f4baed1ce114b99121e35cae6b0cbfcfccf4bc552ca7745"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_development_seed2030000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "2d4408d026a93c3c5d6c9611b8f222631e9974681105239fb2845028bd2cd2da"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "ca6442a55abec9a86464eb4ed33aac30416a85122cf96fba5e8441104188a0c7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "7de7548fe3344b3415f44fb08b0460c5337f630a194c98976644d828e8985ac7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 477,
+    "sha256": "7697e8d791909fd8699de2fae78054c6f22ad0218eed4261c604ed496ab5c125"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "e3278574a33fd54241eb8413df6a675f941bba8a57833bfd871ff628a7fc39ea"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "53eebdc1c717fdd7c2aa864f15829c8c98104d71565a8547d954e2b8e48a9867"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 471,
+    "sha256": "87d5ee18eb7d3775e8fda367a75f9743ddc5fae0dd649ea0f85b901f7d826414"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "a5b1f8c4e0d7aad57ad28a478c4a097b6fafa3e26ab2bac4e951633c335d5b3c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "af5d4146b8481abee0394eac18953b51dde0948602346002b6a3d0ed75134a9d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "410914ea8e2bef2344302ae8f42dd5d76a038257a3e8cacb25f719dcb21fd65e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "379265244e0c7ba123a19d32bd30b3b4311ddef01eb1aaa16a6865be649f01ae"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "0f6cb21922355d2335e3d314256220a7b148120c07e1b0c4ee07e03532dc913c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "514a0d6af238b46ffce86a8588c0137b7171aecf000aae05c2be9b6b664b42a7"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "47502d54d5c2bf906519746e26f6f92486b6c7d479830c0da7e1d5f5dd74f30e"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "c1f5d7b481aae818fa0ff3683cafdb7c75441d4e600eb40c616b83e3a7cbfa9b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_selection_seed2020000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 473,
+    "sha256": "75112379a6281bade90e165a450ef1a84daefc44c7b7c103a19a4a5d40d9ad9d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "8d03ca24b786b7a63f96231347b64bb9d4222503f7f217d6beca552086c86402"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "cd9f78a08b9347a4740cafa4801307988ac4965ad7d949a6dbe8b61e61de9752"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 469,
+    "sha256": "1037a5ebb4ca747ac5ea345064ce8724403fbc2aa5a4859a4f2bf183b0bae266"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 463,
+    "sha256": "e2483b4d4f93b97e8eb1546072a2021a63480d8403841f85d31b17ae3f5503b3"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 463,
+    "sha256": "3c45576a9f9f32bebab403ec440e85e88ff9eb455becedee0a051ba7978cf3f5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ID_control\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 463,
+    "sha256": "624a38c1b502683fbbb79ecad778f1f5ae4bbec063fb9343817fb5bfe0503dfc"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "59b451ddfcc0309b60542ef3703b8a40bb09fb54c57fc2d1a173450dfd0c16b5"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "6d74693799bd23b49b7d26ae324247623410c198e4a8d76b2c10a77113898512"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 461,
+    "sha256": "53c42bf47f38d2c252834354f82b9c7cbe1f86669b3810988d5f2a0638cdbfa2"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "4f2185e1aded258284c1fb28cf0325e8934dfefd28e8a5a3ef2319bf2cc9cf7c"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "3329e80db9b233cf017d44d045fe3e8e35e69705aea02719d0ed7f2a1ad14253"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "9a3ee1ae68e27cb8f0c19080ecb4b23bc382014ff61b5a67a67eb23a2a51a602"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_04__jnr_25dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "84b09ff0a5852065d4f58fb332b07b10af1d2aa5c87c3fbe6860692f7b61f56b"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_06__jnr_35dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "325f5a6cbf37a05ebffdb760a7100f721f4b4d5424ad9a9e6e914e394008a0d4"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\CJ0724_rechunked_data\\p3ou_local_phase_dynamics_train_seed2010000000_weak_target\\level_09__jnr_50dB\\closedset_6class_train.mat.rechunk_receipt.json",
+    "bytes": 465,
+    "sha256": "e326a0b8a63f068acefac45d7dab7639548d90a6b38500c11a48b3e7ff9e802d"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ_Inbalance_0724\\generated_data\\p8b_axis_stratified_longtail_seed1310000000\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\generated_data\\p8b_axis_stratified_longtail_seed1310000000\\power_sweep_manifest.csv",
+    "bytes": 3964,
+    "sha256": "f0951d0fdc7270822b73e7141667798e9cd5369e87330cb2eb6c4bdf769c0879"
+  },
+  {
+    "source": "E:\\LJQ_code\\CJ_Inbalance_0724\\generated_data\\p8c_vft_hard_negative_logit_cap_seed1325000000\\power_sweep_manifest.csv",
+    "backup": "docs\\release\\cleanup_2026-11-08\\E盘元数据备份\\generated_data\\p8c_vft_hard_negative_logit_cap_seed1325000000\\power_sweep_manifest.csv",
+    "bytes": 4045,
+    "sha256": "8b4a8c3c6d0e20b2e7588c018ffc8b443a33ad4015d18fb6fb41bae023c4107f"
+  }
+]

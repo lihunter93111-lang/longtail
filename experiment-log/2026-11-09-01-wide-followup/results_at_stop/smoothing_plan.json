@@ -1,0 +1,22 @@
+{
+  "epsilon": 0.01,
+  "epochs": 40,
+  "primary_seeds": [
+    2100,
+    2101,
+    2102,
+    2103,
+    2104
+  ],
+  "replication_seeds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    2094
+  ],
+  "status": "deferred_before_training_replaced_by_combined_protocol",
+  "estimated_per_run": 355.90688312530517,
+  "reused_replication_reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32",
+  "replacement": "03D"
+}

@@ -1,0 +1,24 @@
+本轮阅读与复现索引
+
+RESULTS.txt给出最新完成范围、指标和确认状态。STAGE_ANALYSIS.txt记录阶段解释与失败分支。GOAL_PROMPT.txt及01–06阶段提示词、带字母后缀的追加Goal记录执行前的假设和规则。LONG_TERM_PLAN.txt及long_term_goals给出后续路线。
+
+两个外部存储位置
+昨晚已完成的模型和数据位于E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01。本轮宽骨干分类头引用其中capacity_IF3_w32和replication_M32，训练/开发角色来自data和replication_data。
+今天全部新增训练、诊断、完整预测与确认数据位于E:\LJQ_code\LJQ_code_experiment_storage\daytime_v1\20261109_01。results目录保存该路径的轻量结果与收据副本，delivery_manifest.json记录已复制文件hash。
+
+运行链
+supervise.py独立监控jobs.json队列、16:00优化截止和16:05收尾触发。
+run_generic_heads.py复用昨晚冻结头流程，run_guarded_heads.py执行低步长与epoch0保留对照。export_evaluate_heads.py组合完整模型、跨63组合正常推理核验、自然和物理配对评分。
+run_variant.py和training.py执行40/80/160轮宽骨干预算诊断，analyze_budget.py应用预注册容差规则。
+plan_sampling.py按预算结果和实测成本排入主对照、独立复验和候选注册。run_sampling.py与training_sampling.py保存真实抽样访问计数。merge_controls.py引用本轮已完成控制模型，每次引用的新增训练计数为0。
+compare_sampling.py核实初始化、身份和预算匹配，再比较固定指标。compare_partial_replication.py执行预先声明的三种子探索性复验规则。
+register_candidate.py保存候选证据和完整模型。closeout.py在截止窗口完成评价恢复、冻结、新确认与报告。确认流程只使用冻结校准参数。
+verify_day.py独立重构样本顺序、核对源文件和检查点、复算指标。finish_report.py生成报告、图与轻量归档。
+
+数据与模型状态
+各数据角色与模型以实际protocol、freeze和receipt为准。final_freeze.json仅在合格候选进入新确认时产生。confirmation_decision.json说明候选库为空时的状态。supervisor_jobs.json、closeout_recovered_jobs.json分别记录原队列和截止窗口的评价恢复。
+采样的sample_counts.npz保存每轮8000维访问计数，sampler.json保存抽取概率与期望边际。原8000身份数量、每轮唯一访问、累计呈现和Kish有效样本量分别记录。
+
+时间与证据
+默认优化截止为2026-11-09 16:00，最终交付截止17:00。04B规定五种子主比较之后按时间选择5/3/0个第二划分种子的复验分支。最终确认始终使用五个参考和五个候选模型，报告实际独立训练划分证据范围。
+本轮脚本依赖同仓库11月6日和11月8日的加载、指标、骨干及物理生成逻辑。迁移时需要保留这些相对目录依赖，并更新外部数据/模型路径。

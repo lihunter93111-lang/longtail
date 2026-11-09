@@ -1,0 +1,56 @@
+{
+  "source_root": "D:\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close",
+  "target_root": "D:\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2",
+  "splits": [
+    "train"
+  ],
+  "files": [
+    {
+      "source": "D:\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209880475,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209820638,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3om_sparse_peak_development_seed1580000000_ultra_close\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3om_sparse_peak_development_seed1580000000_ultra_close_rechunked_v2\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209834748,
+      "target_bytes": 51909467
+    }
+  ],
+  "total_source_bytes": 629535861,
+  "total_target_bytes": 155728401
+}

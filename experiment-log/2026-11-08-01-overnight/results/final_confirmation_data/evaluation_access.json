@@ -1,0 +1,8 @@
+{
+  "candidate_freeze_sha256": "c0ca46fc771fcd2a2f69a31892e9933f622cd0ccdc527fe402b99c9f063cf337",
+  "manifest_sha256": "51de0465f4478d28f161b967a6478659f61766a50acca35650904d8c97961770",
+  "evaluator_sha256": "b1b452a13e61dc06167b39c4fe8aebfd3da314b9976fc1ccd47e2f4d3a7ad50f",
+  "role": "reserved_final_confirmation",
+  "locked_test_used": false,
+  "first_access_utc": "2026-11-09T00:53:21.650459+00:00"
+}

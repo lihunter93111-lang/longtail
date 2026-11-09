@@ -1,0 +1,56 @@
+{
+  "source_root": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count",
+  "target_root": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2",
+  "splits": [
+    "train"
+  ],
+  "files": [
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209812971,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209743858,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_low_count_rechunked_v2\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209760643,
+      "target_bytes": 51909467
+    }
+  ],
+  "total_source_bytes": 629317472,
+  "total_target_bytes": 155728401
+}

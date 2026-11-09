@@ -1,0 +1,56 @@
+{
+  "source_root": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing",
+  "target_root": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2",
+  "splits": [
+    "train"
+  ],
+  "files": [
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209877707,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209816549,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3oo_adjacent_peak_relation_train_seed1760000000_close_spacing_rechunked_v2\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209831132,
+      "target_bytes": 51909467
+    }
+  ],
+  "total_source_bytes": 629525388,
+  "total_target_bytes": 155728401
+}

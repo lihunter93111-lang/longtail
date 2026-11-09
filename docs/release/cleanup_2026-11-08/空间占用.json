@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-08",
+  "scope": "C:\\Users\\zj\\Documents\\三轴长尾场景识别",
+  "workspace_bytes_before_report": 401677886,
+  "zip_bytes": 159331106,
+  "zip_sha256": "b74229f062c24a66da1a2b9f7df4778bbdba1b6c46c59aea51f118a743a9cc0d",
+  "zip_identical_files": 44,
+  "cache_bytes": 515420,
+  "duplicate_document_bytes": 276272,
+  "possible_mat_one_copy_bytes": 50853144442,
+  "possible_mat_pairs": 20,
+  "mat_hash_verified": false,
+  "weights_bytes_by_project": {
+    "CJ_Imbalance_0716": 3074752239,
+    "CJ_Inbalance_0724": 34496268683
+  },
+  "deleted_files": 0
+}

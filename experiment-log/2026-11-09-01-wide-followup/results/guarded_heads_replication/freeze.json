@@ -1,0 +1,235 @@
+{
+  "models": {
+    "M_2090_hard": {
+      "arm": "M",
+      "seed": 2090,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.1348030427338076,
+        "calibration_BCE_raw": 0.10633968794251569,
+        "calibration_BCE_scaled": 0.10487299778067999,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6749999999999999,
+            0.12,
+            0.49999999999999994,
+            0.16499999999999998,
+            0.22999999999999998,
+            0.5349999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "eb31c82d5344b06e0717ae09ee8da5c95360b812511ff80b99060befb4a53233",
+      "best_epoch": 0
+    },
+    "M_2090_balanced": {
+      "arm": "M",
+      "seed": 2090,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.1348030427338076,
+        "calibration_BCE_raw": 0.10633968794251569,
+        "calibration_BCE_scaled": 0.10487299778067999,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6749999999999999,
+            0.12,
+            0.49999999999999994,
+            0.16499999999999998,
+            0.22999999999999998,
+            0.5349999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "eb31c82d5344b06e0717ae09ee8da5c95360b812511ff80b99060befb4a53233",
+      "best_epoch": 0
+    },
+    "M_2091_hard": {
+      "arm": "M",
+      "seed": 2091,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.0373783675905295,
+        "calibration_BCE_raw": 0.08895600494153773,
+        "calibration_BCE_scaled": 0.08884675197941973,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5249999999999999,
+            0.4499999999999999,
+            0.42499999999999993,
+            0.37999999999999995,
+            0.4749999999999999,
+            0.35999999999999993
+          ]
+        }
+      },
+      "checkpoint_sha256": "3e5aad22da930ca1ff7e9518fce937801b76ca967596b67bc4727518955998fb",
+      "best_epoch": 0
+    },
+    "M_2091_balanced": {
+      "arm": "M",
+      "seed": 2091,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.0373783675905295,
+        "calibration_BCE_raw": 0.08895600494153773,
+        "calibration_BCE_scaled": 0.08884675197941973,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5249999999999999,
+            0.4499999999999999,
+            0.42499999999999993,
+            0.37999999999999995,
+            0.4749999999999999,
+            0.35999999999999993
+          ]
+        }
+      },
+      "checkpoint_sha256": "3e5aad22da930ca1ff7e9518fce937801b76ca967596b67bc4727518955998fb",
+      "best_epoch": 0
+    },
+    "M_2092_hard": {
+      "arm": "M",
+      "seed": 2092,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.1182412728113738,
+        "calibration_BCE_raw": 0.1092066353885351,
+        "calibration_BCE_scaled": 0.10803114390239237,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7599999999999999,
+            0.16499999999999998,
+            0.6,
+            0.19999999999999996,
+            0.38999999999999996,
+            0.37499999999999994
+          ]
+        }
+      },
+      "checkpoint_sha256": "3e347dcbcfb92fde8b3c1d8b016462a31d559d11d2ab222825b2c6d70d33d16a",
+      "best_epoch": 0
+    },
+    "M_2092_balanced": {
+      "arm": "M",
+      "seed": 2092,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.2104315110996131,
+        "calibration_BCE_raw": 0.11104588788950749,
+        "calibration_BCE_scaled": 0.10761063660041609,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.83,
+            0.195,
+            0.5199999999999999,
+            0.20999999999999996,
+            0.3549999999999999,
+            0.26499999999999996
+          ]
+        }
+      },
+      "checkpoint_sha256": "35084cf894e9bc89523860d4d70a45a212e5f299f36ba5afcc2d55c1b6d5c8cf",
+      "best_epoch": 1
+    },
+    "M_2093_hard": {
+      "arm": "M",
+      "seed": 2093,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.0612058094877874,
+        "calibration_BCE_raw": 0.09989800436050719,
+        "calibration_BCE_scaled": 0.09959756788152975,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6449999999999999,
+            0.4149999999999999,
+            0.585,
+            0.25999999999999995,
+            0.4099999999999999,
+            0.41999999999999993
+          ]
+        }
+      },
+      "checkpoint_sha256": "514dff5d588e04364d01816391745b7eff977a4538923a67f1c88c7558a46f1d",
+      "best_epoch": 0
+    },
+    "M_2093_balanced": {
+      "arm": "M",
+      "seed": 2093,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.1525785232823125,
+        "calibration_BCE_raw": 0.10025557463673367,
+        "calibration_BCE_scaled": 0.09854189438283079,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5049999999999999,
+            0.4549999999999999,
+            0.605,
+            0.19999999999999996,
+            0.245,
+            0.31499999999999995
+          ]
+        }
+      },
+      "checkpoint_sha256": "843fe164d44c1aed8e7eeab0f59f135e13f7855ef054e348cb927cb5430a59c9",
+      "best_epoch": 1
+    },
+    "M_2094_hard": {
+      "arm": "M",
+      "seed": 2094,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.069608060645695,
+        "calibration_BCE_raw": 0.10014038589734425,
+        "calibration_BCE_scaled": 0.09974621935365596,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6699999999999999,
+            0.12499999999999999,
+            0.35999999999999993,
+            0.20999999999999996,
+            0.22499999999999998,
+            0.5399999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "f7082df94db723b557af13fd96ec1509774b62c2d32447c5b4177b0f83349894",
+      "best_epoch": 0
+    },
+    "M_2094_balanced": {
+      "arm": "M",
+      "seed": 2094,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.069608060645695,
+        "calibration_BCE_raw": 0.10014038589734425,
+        "calibration_BCE_scaled": 0.09974621935365596,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6699999999999999,
+            0.12499999999999999,
+            0.35999999999999993,
+            0.20999999999999996,
+            0.22499999999999998,
+            0.5399999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "f7082df94db723b557af13fd96ec1509774b62c2d32447c5b4177b0f83349894",
+      "best_epoch": 0
+    }
+  },
+  "protocol_sha256": "92554259e795715caed057c1ca6046068dfd43c9bf07629cf28fc91b3c22bd33"
+}

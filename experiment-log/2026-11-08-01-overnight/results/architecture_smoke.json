@@ -1,0 +1,16 @@
+[
+  {
+    "model": "dfms_iq_local_topk8",
+    "parameters": 290664,
+    "shared_initialization_matches_reference": true,
+    "forward_backward_optimizer_step": true,
+    "smoke_loss": 0.6835125684738159
+  },
+  {
+    "model": "dfms_iq_csfp",
+    "parameters": 310376,
+    "shared_initialization_matches_reference": true,
+    "forward_backward_optimizer_step": true,
+    "smoke_loss": 0.7203356027603149
+  }
+]

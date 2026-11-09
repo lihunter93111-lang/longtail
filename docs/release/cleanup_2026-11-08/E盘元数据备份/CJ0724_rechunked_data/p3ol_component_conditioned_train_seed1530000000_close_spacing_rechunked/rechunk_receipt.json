@@ -1,0 +1,56 @@
+{
+  "source_root": "D:\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing",
+  "target_root": "D:\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked",
+  "splits": [
+    "train"
+  ],
+  "files": [
+    {
+      "source": "D:\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked\\level_04__jnr_25dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209879381,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked\\level_06__jnr_35dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209817770,
+      "target_bytes": 51909467
+    },
+    {
+      "source": "D:\\CJ0724_generated_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "target": "D:\\CJ0724_rechunked_data\\p3ol_component_conditioned_train_seed1530000000_close_spacing_rechunked\\level_09__jnr_50dB\\closedset_6class_train.mat",
+      "shape": [
+        6000,
+        2079
+      ],
+      "chunks": [
+        6000,
+        1
+      ],
+      "dtype": "float32",
+      "source_bytes": 209833274,
+      "target_bytes": 51909467
+    }
+  ],
+  "total_source_bytes": 629530425,
+  "total_target_bytes": 155728401
+}

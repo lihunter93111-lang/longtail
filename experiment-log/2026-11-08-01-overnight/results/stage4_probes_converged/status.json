@@ -1,0 +1,54 @@
+{
+  "status": "completed",
+  "refined_class_fits": [
+    {
+      "model": "M_2080",
+      "readout": "temporal_with_top8",
+      "label": "SawFM",
+      "additional_iterations": 78
+    },
+    {
+      "model": "M_2080",
+      "readout": "temporal_with_top8",
+      "label": "ISRJ",
+      "additional_iterations": 1
+    },
+    {
+      "model": "M_2081",
+      "readout": "temporal_with_top8",
+      "label": "SawFM",
+      "additional_iterations": 46
+    },
+    {
+      "model": "M_2081",
+      "readout": "temporal_with_top8",
+      "label": "ISRJ",
+      "additional_iterations": 1
+    },
+    {
+      "model": "M_2082",
+      "readout": "temporal_mean_std",
+      "label": "SawFM",
+      "additional_iterations": 1
+    },
+    {
+      "model": "M_2082",
+      "readout": "temporal_with_top8",
+      "label": "SawFM",
+      "additional_iterations": 37
+    },
+    {
+      "model": "M_2083",
+      "readout": "temporal_with_top8",
+      "label": "SawFM",
+      "additional_iterations": 60
+    },
+    {
+      "model": "M_2084",
+      "readout": "temporal_with_top8",
+      "label": "SawFM",
+      "additional_iterations": 57
+    }
+  ],
+  "all210_class_probes_converged": true
+}

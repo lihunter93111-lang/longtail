@@ -1,0 +1,13 @@
+{
+  "source_sha256": "31b5f59aa59e2f555960503c11c5dbe52541aaab5ac6889a891b892c04e9d380",
+  "prompt_sha256": "8e35996c3b3381ffefde6a6c8b48516f66622fd1d034a4db3c49cb838156961c",
+  "model_freeze_sha256": "2798155ffb7fe125e5974f6385d1bd79c95a41e82025b40a959c09f5dbfe038c",
+  "absent_views_sha256": "24157525880e46b4121367abb06796fd8ab1a266f937e84de9cc76cc86720d90",
+  "arms": [
+    "M"
+  ],
+  "model": "dfms_iq",
+  "width": 16,
+  "role": "adaptive_development_counterfactual",
+  "thresholds": "existing calibration raw thresholds; no refitting on paired diagnostic"
+}

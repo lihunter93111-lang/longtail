@@ -1,0 +1,244 @@
+{
+  "head_summaries": [
+    {
+      "split": "primary",
+      "method": "wide_heads",
+      "variant": "hard",
+      "epochs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "BCE": 0.12247084830998571,
+      "macro_AP": 0.9925820051203631,
+      "f1_exact": 0.8135416666666668,
+      "ECE": 0.022259569523060706,
+      "confident_wrong_fraction": 0.007647156084656085,
+      "confident_wrong_loss_share": 0.39928809142322363
+    },
+    {
+      "split": "primary",
+      "method": "wide_heads",
+      "variant": "balanced",
+      "epochs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "BCE": 0.12086047376194275,
+      "macro_AP": 0.9925835560635367,
+      "f1_exact": 0.8134920634920635,
+      "ECE": 0.020947926390914175,
+      "confident_wrong_fraction": 0.0076306216931216935,
+      "confident_wrong_loss_share": 0.40193948494668374
+    },
+    {
+      "split": "primary",
+      "method": "guarded_heads",
+      "variant": "hard",
+      "epochs": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BCE": 0.1041910374516783,
+      "macro_AP": 0.992685852035382,
+      "f1_exact": 0.8126488095238095,
+      "ECE": 0.015219655682762961,
+      "confident_wrong_fraction": 0.0025132275132275133,
+      "confident_wrong_loss_share": 0.13362224858299174
+    },
+    {
+      "split": "primary",
+      "method": "guarded_heads",
+      "variant": "balanced",
+      "epochs": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "BCE": 0.10435037757503211,
+      "macro_AP": 0.9926797678233751,
+      "f1_exact": 0.8127976190476189,
+      "ECE": 0.015151724486413259,
+      "confident_wrong_fraction": 0.002827380952380952,
+      "confident_wrong_loss_share": 0.15088951575319826
+    },
+    {
+      "split": "replication",
+      "method": "wide_heads",
+      "variant": "hard",
+      "epochs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "BCE": 0.11249354426768043,
+      "macro_AP": 0.9932748910563916,
+      "f1_exact": 0.8240079365079364,
+      "ECE": 0.020332183011080442,
+      "confident_wrong_fraction": 0.006555886243386244,
+      "confident_wrong_loss_share": 0.38258520305246224
+    },
+    {
+      "split": "replication",
+      "method": "wide_heads",
+      "variant": "balanced",
+      "epochs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "BCE": 0.11102078391322727,
+      "macro_AP": 0.9932776731735178,
+      "f1_exact": 0.8238095238095238,
+      "ECE": 0.019564445686594156,
+      "confident_wrong_fraction": 0.006506283068783069,
+      "confident_wrong_loss_share": 0.38518949868833124
+    },
+    {
+      "split": "replication",
+      "method": "guarded_heads",
+      "variant": "hard",
+      "epochs": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "BCE": 0.09644599414665567,
+      "macro_AP": 0.9933193363780044,
+      "f1_exact": 0.8246527777777777,
+      "ECE": 0.014548448653964532,
+      "confident_wrong_fraction": 0.00220734126984127,
+      "confident_wrong_loss_share": 0.12914846825619258
+    },
+    {
+      "split": "replication",
+      "method": "guarded_heads",
+      "variant": "balanced",
+      "epochs": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "BCE": 0.09676586773460183,
+      "macro_AP": 0.9933359143864186,
+      "f1_exact": 0.8228670634920634,
+      "ECE": 0.014691790933787318,
+      "confident_wrong_fraction": 0.002587632275132275,
+      "confident_wrong_loss_share": 0.151558850929107
+    }
+  ],
+  "class_affine_summaries": [
+    {
+      "split": "primary",
+      "variant": "hard",
+      "postprocessed_BCE": 0.09993813947664869
+    },
+    {
+      "split": "primary",
+      "variant": "balanced",
+      "postprocessed_BCE": 0.09987632499813703
+    },
+    {
+      "split": "replication",
+      "variant": "hard",
+      "postprocessed_BCE": 0.09267068766077807
+    },
+    {
+      "split": "replication",
+      "variant": "balanced",
+      "postprocessed_BCE": 0.09256636498108381
+    }
+  ],
+  "epoch0_equivalence": [
+    {
+      "split": "primary",
+      "seed": 2080,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "split": "primary",
+      "seed": 2081,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "split": "primary",
+      "seed": 2082,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 9.5367431640625e-06
+    },
+    {
+      "split": "primary",
+      "seed": 2083,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "split": "primary",
+      "seed": 2084,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 1.049041748046875e-05
+    },
+    {
+      "split": "replication",
+      "seed": 2090,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 7.62939453125e-06
+    },
+    {
+      "split": "replication",
+      "seed": 2091,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "split": "replication",
+      "seed": 2092,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 8.58306884765625e-06
+    },
+    {
+      "split": "replication",
+      "seed": 2093,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 9.5367431640625e-06
+    },
+    {
+      "split": "replication",
+      "seed": 2094,
+      "head_tensors_identical": true,
+      "all4032_binary_predictions_identical": true,
+      "maximum_logit_difference": 9.5367431640625e-06
+    }
+  ],
+  "interpretation": "Hard guarded heads select the original head in all10 cases. Tiny BCE differences arise from batched feature/head arithmetic and do not constitute gains.",
+  "source_sha256": "f04da017988539f0917cdba260f34b20d7a4d3c88c3c236610300fbbcb0a5b3c"
+}

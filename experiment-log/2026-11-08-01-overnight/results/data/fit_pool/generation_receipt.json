@@ -1,0 +1,10 @@
+{
+  "role": "fit_pool",
+  "base_seed": 3.1081108E+9,
+  "source_config": "E:/论文相关/干扰数据/复合干扰数据0716/九类/full_power_10_30dB_v1/closedset_9class_train.mat",
+  "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+  "samples": 25200,
+  "status": "generated",
+  "goal_prompt_path": "C:/Users/zj/Documents/三轴长尾场景识别/experiment-log/2026-11-08-01-overnight/GOAL_PROMPT.txt",
+  "locked_test_used": false
+}

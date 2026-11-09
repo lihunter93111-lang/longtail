@@ -1,0 +1,21 @@
+{
+  "initialization": "shared F2 and matched classifier",
+  "shared_subset_sha256": "4ab9e3e637ee7e653b5ab8dfbd6fcaf9a92ac5ff30edadf5b1e74cbe6fed727f",
+  "new_module_keys": [
+    "cross_stage_pyramid.residual_scale",
+    "cross_stage_pyramid.projections.0.0.weight",
+    "cross_stage_pyramid.projections.0.1.weight",
+    "cross_stage_pyramid.projections.0.1.bias",
+    "cross_stage_pyramid.projections.1.0.weight",
+    "cross_stage_pyramid.projections.1.1.weight",
+    "cross_stage_pyramid.projections.1.1.bias",
+    "cross_stage_pyramid.projections.2.0.weight",
+    "cross_stage_pyramid.projections.2.1.weight",
+    "cross_stage_pyramid.projections.2.1.bias",
+    "cross_stage_pyramid.blur.kernel",
+    "cross_stage_pyramid.fusion.0.weight",
+    "cross_stage_pyramid.fusion.1.weight",
+    "cross_stage_pyramid.fusion.1.bias"
+  ],
+  "parameters": 310376
+}

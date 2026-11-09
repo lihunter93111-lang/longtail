@@ -1,0 +1,5 @@
+{
+  "wrapper_sha256": "d1028b0cd560f05dd8193baf0688ea1ca1b73b065bc7e6da6df28ca77adaeead",
+  "prompt_sha256": "3ab8a5fb9d7d02787af92f5923bfc17c4ec668753aa093569c68d351e6cf2472",
+  "replacement": "maximum/top8 mean to mean/std; same trainable tensors and dropout calls"
+}

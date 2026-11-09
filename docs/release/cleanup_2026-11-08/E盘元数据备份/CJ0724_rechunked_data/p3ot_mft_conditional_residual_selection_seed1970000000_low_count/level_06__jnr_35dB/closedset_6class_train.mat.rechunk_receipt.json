@@ -1,0 +1,15 @@
+{
+  "source": "C:\\CJ0724_generated_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat",
+  "target": "C:\\CJ0724_rechunked_data\\p3ot_mft_conditional_residual_selection_seed1970000000_low_count\\level_06__jnr_35dB\\closedset_6class_train.mat",
+  "shape": [
+    6000,
+    2079
+  ],
+  "chunks": [
+    6000,
+    1
+  ],
+  "dtype": "float32",
+  "source_bytes": 209744469,
+  "target_bytes": 51909467
+}

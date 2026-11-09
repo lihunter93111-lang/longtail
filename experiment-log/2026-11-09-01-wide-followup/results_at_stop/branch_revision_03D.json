@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-09T05:36:30.979953+00:00",
+  "old_plan": {
+    "epsilon": 0.01,
+    "epochs": 40,
+    "primary_seeds": [
+      2100,
+      2101,
+      2102,
+      2103,
+      2104
+    ],
+    "replication_seeds": [
+      2090,
+      2091,
+      2092,
+      2093,
+      2094
+    ],
+    "status": "primary_queued",
+    "estimated_per_run": 355.90688312530517,
+    "reused_replication_reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32"
+  },
+  "old_pending_jobs": [
+    {
+      "name": "smoothed_primary",
+      "command": [
+        "D:/anaconda3/envs/PY10/python.exe",
+        "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_smoothing.py",
+        "--source",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+        "--output",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothed_primary",
+        "--model",
+        "dfms_iq",
+        "--width",
+        "32",
+        "--coverage",
+        "M",
+        "--initialization",
+        "scratch",
+        "--epochs",
+        "40",
+        "--seeds",
+        "2100",
+        "2101",
+        "2102",
+        "2103",
+        "2104",
+        "--hypothesis",
+        "Fixedepsilon0.01 confidence regularization under03C"
+      ],
+      "kind": "full",
+      "estimated_seconds": 1839.534415626526,
+      "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothed_primary",
+      "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03C_CONFIDENCE_REGULARIZATION_GOAL.txt"
+    },
+    {
+      "name": "smoothing_primary_comparison",
+      "command": [
+        "D:/anaconda3/envs/PY10/python.exe",
+        "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\compare_regularization.py",
+        "--reference",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+        "--candidate",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothed_primary",
+        "--source",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data",
+        "--seeds",
+        "2100",
+        "2101",
+        "2102",
+        "2103",
+        "2104",
+        "--output",
+        "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothing_primary_comparison.json"
+      ],
+      "kind": "analysis",
+      "estimated_seconds": 0,
+      "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothing_primary_comparison",
+      "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03C_CONFIDENCE_REGULARIZATION_GOAL.txt"
+    },
+    {
+      "name": "smoothing_advance",
+      "command": [
+        "D:/anaconda3/envs/PY10/python.exe",
+        "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\plan_smoothing.py",
+        "--phase",
+        "advance"
+      ],
+      "kind": "analysis",
+      "estimated_seconds": 0,
+      "output": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\smoothing_advance",
+      "prompt": "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\03A_COMBINATION_SAMPLING_GOAL.txt"
+    }
+  ],
+  "reason": "raw sampling gain uncertain but matched class-affine control is positive in5/5 seeds, so test the combined mechanism",
+  "old_prompt_sha256": "c5b8ff4832b797bae7a3150284c48a58a5b652929a799ade7f81a016403c2a54",
+  "new_prompt_sha256": "a9f158989c9f59dd4000f152bd44c227a18b52172db24aa45a30f7f770165f66",
+  "no_original_branch_model_started": true
+}

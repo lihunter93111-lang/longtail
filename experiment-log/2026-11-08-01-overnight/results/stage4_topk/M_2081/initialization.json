@@ -1,0 +1,12 @@
+{
+  "initialization": "shared F2 and matched classifier",
+  "shared_subset_sha256": "4ab9e3e637ee7e653b5ab8dfbd6fcaf9a92ac5ff30edadf5b1e74cbe6fed727f",
+  "new_module_keys": [
+    "local_statistics_bypass.residual_scale",
+    "local_statistics_bypass.local_projection.0.weight",
+    "local_statistics_bypass.local_projection.0.bias",
+    "local_statistics_bypass.local_projection.1.weight",
+    "local_statistics_bypass.local_projection.1.bias"
+  ],
+  "parameters": 290664
+}

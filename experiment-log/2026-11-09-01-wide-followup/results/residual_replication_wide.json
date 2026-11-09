@@ -1,0 +1,932 @@
+{
+  "role": "frozen_adaptive_development_diagnostic",
+  "source_sha256": "d18c83f3eda5be41839896d2a299821491729a7dcb971e297cf3447314b0522d",
+  "model_freeze_sha256": "72c0eac532f05c70e7c792143f559bdd1219d90d69e0928dd72b1ca27bf750dc",
+  "prompt_sha256": "f3d6937b7bb61cb25d230b1d58110ec1aaac7870fc40d3fa7ba2139cf745f1b2",
+  "factors": [
+    {
+      "seed": 2090,
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.003224206349206349,
+      "Shapley_exact_loss_allocation": 0.002728174603174603,
+      "singleton_oracle_exact_gain": 0.002232142857142857
+    },
+    {
+      "seed": 2090,
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.01314484126984127,
+      "Shapley_exact_loss_allocation": 0.011532738095238096,
+      "singleton_oracle_exact_gain": 0.010168650793650794
+    },
+    {
+      "seed": 2090,
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.003472222222222222,
+      "Shapley_exact_loss_allocation": 0.003224206349206349,
+      "singleton_oracle_exact_gain": 0.002976190476190476
+    },
+    {
+      "seed": 2090,
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.003224206349206349,
+      "Shapley_exact_loss_allocation": 0.002976190476190476,
+      "singleton_oracle_exact_gain": 0.002728174603174603
+    },
+    {
+      "seed": 2090,
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.009424603174603174,
+      "Shapley_exact_loss_allocation": 0.008473875661375661,
+      "singleton_oracle_exact_gain": 0.007688492063492063
+    },
+    {
+      "seed": 2090,
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.03546626984126984,
+      "Shapley_exact_loss_allocation": 0.03162202380952381,
+      "singleton_oracle_exact_gain": 0.028025793650793652
+    },
+    {
+      "seed": 2090,
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.010912698412698412,
+      "Shapley_exact_loss_allocation": 0.009631283068783067,
+      "singleton_oracle_exact_gain": 0.008432539682539682
+    },
+    {
+      "seed": 2090,
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.01488095238095238,
+      "Shapley_exact_loss_allocation": 0.0134755291005291,
+      "singleton_oracle_exact_gain": 0.012152777777777778
+    },
+    {
+      "seed": 2090,
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.022321428571428572,
+      "Shapley_exact_loss_allocation": 0.018890542328042326,
+      "singleton_oracle_exact_gain": 0.015625
+    },
+    {
+      "seed": 2090,
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.014136904761904762,
+      "Shapley_exact_loss_allocation": 0.011987433862433861,
+      "singleton_oracle_exact_gain": 0.00992063492063492
+    },
+    {
+      "seed": 2090,
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.019097222222222224,
+      "Shapley_exact_loss_allocation": 0.016865079365079364,
+      "singleton_oracle_exact_gain": 0.01488095238095238
+    },
+    {
+      "seed": 2090,
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.04365079365079365,
+      "Shapley_exact_loss_allocation": 0.037987764550264556,
+      "singleton_oracle_exact_gain": 0.03249007936507937
+    },
+    {
+      "seed": 2091,
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.003720238095238095,
+      "Shapley_exact_loss_allocation": 0.002728174603174603,
+      "singleton_oracle_exact_gain": 0.001736111111111111
+    },
+    {
+      "seed": 2091,
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.006448412698412698,
+      "Shapley_exact_loss_allocation": 0.006200396825396825,
+      "singleton_oracle_exact_gain": 0.005952380952380952
+    },
+    {
+      "seed": 2091,
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.000744047619047619,
+      "Shapley_exact_loss_allocation": 0.000496031746031746,
+      "singleton_oracle_exact_gain": 0.000248015873015873
+    },
+    {
+      "seed": 2091,
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.007688492063492063,
+      "Shapley_exact_loss_allocation": 0.007192460317460317,
+      "singleton_oracle_exact_gain": 0.006696428571428571
+    },
+    {
+      "seed": 2091,
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.021577380952380952,
+      "Shapley_exact_loss_allocation": 0.019965277777777776,
+      "singleton_oracle_exact_gain": 0.018353174603174604
+    },
+    {
+      "seed": 2091,
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.031746031746031744,
+      "Shapley_exact_loss_allocation": 0.028025793650793652,
+      "singleton_oracle_exact_gain": 0.024305555555555556
+    },
+    {
+      "seed": 2091,
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.005456349206349206,
+      "Shapley_exact_loss_allocation": 0.004836309523809524,
+      "singleton_oracle_exact_gain": 0.004216269841269841
+    },
+    {
+      "seed": 2091,
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.023809523809523808,
+      "Shapley_exact_loss_allocation": 0.02132936507936508,
+      "singleton_oracle_exact_gain": 0.018849206349206348
+    },
+    {
+      "seed": 2091,
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.011408730158730158,
+      "Shapley_exact_loss_allocation": 0.009672619047619048,
+      "singleton_oracle_exact_gain": 0.007936507936507936
+    },
+    {
+      "seed": 2091,
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.012648809523809524,
+      "Shapley_exact_loss_allocation": 0.011656746031746032,
+      "singleton_oracle_exact_gain": 0.01066468253968254
+    },
+    {
+      "seed": 2091,
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.023065476190476192,
+      "Shapley_exact_loss_allocation": 0.02058531746031746,
+      "singleton_oracle_exact_gain": 0.018105158730158732
+    },
+    {
+      "seed": 2091,
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.03050595238095238,
+      "Shapley_exact_loss_allocation": 0.026785714285714284,
+      "singleton_oracle_exact_gain": 0.023065476190476192
+    },
+    {
+      "seed": 2092,
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.001736111111111111,
+      "Shapley_exact_loss_allocation": 0.001570767195767196,
+      "singleton_oracle_exact_gain": 0.001488095238095238
+    },
+    {
+      "seed": 2092,
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.01984126984126984,
+      "Shapley_exact_loss_allocation": 0.01787781084656085,
+      "singleton_oracle_exact_gain": 0.016121031746031748
+    },
+    {
+      "seed": 2092,
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.001736111111111111,
+      "Shapley_exact_loss_allocation": 0.0016121031746031745,
+      "singleton_oracle_exact_gain": 0.001488095238095238
+    },
+    {
+      "seed": 2092,
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.006200396825396825,
+      "Shapley_exact_loss_allocation": 0.005663029100529101,
+      "singleton_oracle_exact_gain": 0.005208333333333333
+    },
+    {
+      "seed": 2092,
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.011904761904761904,
+      "Shapley_exact_loss_allocation": 0.010540674603174604,
+      "singleton_oracle_exact_gain": 0.009176587301587302
+    },
+    {
+      "seed": 2092,
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.03298611111111111,
+      "Shapley_exact_loss_allocation": 0.029265873015873016,
+      "singleton_oracle_exact_gain": 0.026041666666666668
+    },
+    {
+      "seed": 2092,
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.00818452380952381,
+      "Shapley_exact_loss_allocation": 0.0076471560846560855,
+      "singleton_oracle_exact_gain": 0.007192460317460317
+    },
+    {
+      "seed": 2092,
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.017857142857142856,
+      "Shapley_exact_loss_allocation": 0.015728339947089946,
+      "singleton_oracle_exact_gain": 0.013888888888888888
+    },
+    {
+      "seed": 2092,
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.018105158730158732,
+      "Shapley_exact_loss_allocation": 0.015521660052910051,
+      "singleton_oracle_exact_gain": 0.01314484126984127
+    },
+    {
+      "seed": 2092,
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.018353174603174604,
+      "Shapley_exact_loss_allocation": 0.01488095238095238,
+      "singleton_oracle_exact_gain": 0.011656746031746032
+    },
+    {
+      "seed": 2092,
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.04017857142857143,
+      "Shapley_exact_loss_allocation": 0.035962301587301584,
+      "singleton_oracle_exact_gain": 0.031994047619047616
+    },
+    {
+      "seed": 2092,
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.033234126984126984,
+      "Shapley_exact_loss_allocation": 0.029493220899470905,
+      "singleton_oracle_exact_gain": 0.026041666666666668
+    },
+    {
+      "seed": 2093,
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.004712301587301587,
+      "Shapley_exact_loss_allocation": 0.004340277777777778,
+      "singleton_oracle_exact_gain": 0.003968253968253968
+    },
+    {
+      "seed": 2093,
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.01240079365079365,
+      "Shapley_exact_loss_allocation": 0.011181382275132275,
+      "singleton_oracle_exact_gain": 0.010168650793650794
+    },
+    {
+      "seed": 2093,
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.000992063492063492,
+      "Shapley_exact_loss_allocation": 0.0008680555555555555,
+      "singleton_oracle_exact_gain": 0.000744047619047619
+    },
+    {
+      "seed": 2093,
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.00992063492063492,
+      "Shapley_exact_loss_allocation": 0.008349867724867724,
+      "singleton_oracle_exact_gain": 0.006944444444444444
+    },
+    {
+      "seed": 2093,
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.01066468253968254,
+      "Shapley_exact_loss_allocation": 0.009548611111111112,
+      "singleton_oracle_exact_gain": 0.008680555555555556
+    },
+    {
+      "seed": 2093,
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.04141865079365079,
+      "Shapley_exact_loss_allocation": 0.036830357142857144,
+      "singleton_oracle_exact_gain": 0.03249007936507937
+    },
+    {
+      "seed": 2093,
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.012648809523809524,
+      "Shapley_exact_loss_allocation": 0.011491402116402117,
+      "singleton_oracle_exact_gain": 0.010416666666666666
+    },
+    {
+      "seed": 2093,
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.015873015873015872,
+      "Shapley_exact_loss_allocation": 0.0138682208994709,
+      "singleton_oracle_exact_gain": 0.012152777777777778
+    },
+    {
+      "seed": 2093,
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.019097222222222224,
+      "Shapley_exact_loss_allocation": 0.01560433201058201,
+      "singleton_oracle_exact_gain": 0.012648809523809524
+    },
+    {
+      "seed": 2093,
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.019097222222222224,
+      "Shapley_exact_loss_allocation": 0.015749007936507936,
+      "singleton_oracle_exact_gain": 0.012648809523809524
+    },
+    {
+      "seed": 2093,
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.029017857142857144,
+      "Shapley_exact_loss_allocation": 0.025297619047619048,
+      "singleton_oracle_exact_gain": 0.021825396825396824
+    },
+    {
+      "seed": 2093,
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.031001984126984128,
+      "Shapley_exact_loss_allocation": 0.02593832671957672,
+      "singleton_oracle_exact_gain": 0.02132936507936508
+    },
+    {
+      "seed": 2094,
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.002976190476190476,
+      "Shapley_exact_loss_allocation": 0.002728174603174603,
+      "singleton_oracle_exact_gain": 0.00248015873015873
+    },
+    {
+      "seed": 2094,
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.013640873015873016,
+      "Shapley_exact_loss_allocation": 0.012483465608465607,
+      "singleton_oracle_exact_gain": 0.011408730158730158
+    },
+    {
+      "seed": 2094,
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.001488095238095238,
+      "Shapley_exact_loss_allocation": 0.001488095238095238,
+      "singleton_oracle_exact_gain": 0.001488095238095238
+    },
+    {
+      "seed": 2094,
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.005208333333333333,
+      "Shapley_exact_loss_allocation": 0.004712301587301587,
+      "singleton_oracle_exact_gain": 0.004216269841269841
+    },
+    {
+      "seed": 2094,
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.016121031746031748,
+      "Shapley_exact_loss_allocation": 0.014467592592592593,
+      "singleton_oracle_exact_gain": 0.012896825396825396
+    },
+    {
+      "seed": 2094,
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.02628968253968254,
+      "Shapley_exact_loss_allocation": 0.023230820105820102,
+      "singleton_oracle_exact_gain": 0.020337301587301588
+    },
+    {
+      "seed": 2094,
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.013392857142857142,
+      "Shapley_exact_loss_allocation": 0.01277281746031746,
+      "singleton_oracle_exact_gain": 0.012152777777777778
+    },
+    {
+      "seed": 2094,
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.016617063492063492,
+      "Shapley_exact_loss_allocation": 0.0148396164021164,
+      "singleton_oracle_exact_gain": 0.01314484126984127
+    },
+    {
+      "seed": 2094,
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.029265873015873016,
+      "Shapley_exact_loss_allocation": 0.0250082671957672,
+      "singleton_oracle_exact_gain": 0.020833333333333332
+    },
+    {
+      "seed": 2094,
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.013888888888888888,
+      "Shapley_exact_loss_allocation": 0.011574074074074073,
+      "singleton_oracle_exact_gain": 0.009424603174603174
+    },
+    {
+      "seed": 2094,
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.0248015873015873,
+      "Shapley_exact_loss_allocation": 0.021825396825396824,
+      "singleton_oracle_exact_gain": 0.019097222222222224
+    },
+    {
+      "seed": 2094,
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.04290674603174603,
+      "Shapley_exact_loss_allocation": 0.03790509259259259,
+      "singleton_oracle_exact_gain": 0.03298611111111111
+    }
+  ],
+  "losses": [
+    {
+      "seed": 2090,
+      "label": "FMB",
+      "positive_BCE_contribution": 0.0034974134347405274,
+      "negative_BCE_contribution": 0.0037323883598824274,
+      "positive_BCE": 0.04131319619787248,
+      "negative_BCE": 0.04551105806566315,
+      "weak_positive_identities": 477,
+      "weak_FNR": 0.1090146750524109,
+      "weak_BCE": 0.16635263667916297
+    },
+    {
+      "seed": 2090,
+      "label": "AMA",
+      "positive_BCE_contribution": 0.004720562340430159,
+      "negative_BCE_contribution": 0.0007312298628976521,
+      "positive_BCE": 0.05576164264633125,
+      "negative_BCE": 0.008916286715332662,
+      "weak_positive_identities": 466,
+      "weak_FNR": 0.027896995708154508,
+      "weak_BCE": 0.23037740957297462
+    },
+    {
+      "seed": 2090,
+      "label": "SawFM",
+      "positive_BCE_contribution": 0.01544567840501599,
+      "negative_BCE_contribution": 0.0060315714957189384,
+      "positive_BCE": 0.1824520761592514,
+      "negative_BCE": 0.07354625888328255,
+      "weak_positive_identities": 472,
+      "weak_FNR": 0.2944915254237288,
+      "weak_BCE": 0.730013407261549
+    },
+    {
+      "seed": 2090,
+      "label": "SinFM",
+      "positive_BCE_contribution": 0.011686433922457043,
+      "negative_BCE_contribution": 0.002147692892215922,
+      "positive_BCE": 0.13804600070902381,
+      "negative_BCE": 0.026187997201858663,
+      "weak_positive_identities": 473,
+      "weak_FNR": 0.12473572938689217,
+      "weak_BCE": 0.5757789201571948
+    },
+    {
+      "seed": 2090,
+      "label": "MFT",
+      "positive_BCE_contribution": 0.011205399955301766,
+      "negative_BCE_contribution": 0.0070632463068438815,
+      "positive_BCE": 0.13236378697200213,
+      "negative_BCE": 0.08612603561248346,
+      "weak_positive_identities": 469,
+      "weak_FNR": 0.11727078891257996,
+      "weak_BCE": 0.5267765476194585
+    },
+    {
+      "seed": 2090,
+      "label": "ISRJ",
+      "positive_BCE_contribution": 0.019164265736321625,
+      "negative_BCE_contribution": 0.011378984740179503,
+      "positive_BCE": 0.22637788901029923,
+      "negative_BCE": 0.13875020102541463,
+      "weak_positive_identities": 450,
+      "weak_FNR": 0.31555555555555553,
+      "weak_BCE": 0.8286321653414036
+    },
+    {
+      "seed": 2091,
+      "label": "FMB",
+      "positive_BCE_contribution": 0.0030021070569453776,
+      "negative_BCE_contribution": 0.0030862084362776408,
+      "positive_BCE": 0.035462389610167275,
+      "negative_BCE": 0.037631831900417675,
+      "weak_positive_identities": 477,
+      "weak_FNR": 0.05450733752620545,
+      "weak_BCE": 0.14267854755057505
+    },
+    {
+      "seed": 2091,
+      "label": "AMA",
+      "positive_BCE_contribution": 0.00396793055232554,
+      "negative_BCE_contribution": 0.0009948964976965254,
+      "positive_BCE": 0.046871179649345444,
+      "negative_BCE": 0.012131318584815696,
+      "weak_positive_identities": 466,
+      "weak_FNR": 0.06652360515021459,
+      "weak_BCE": 0.19167607978286913
+    },
+    {
+      "seed": 2091,
+      "label": "SawFM",
+      "positive_BCE_contribution": 0.013894862658472886,
+      "negative_BCE_contribution": 0.00849563784910303,
+      "positive_BCE": 0.16413306515321097,
+      "negative_BCE": 0.10359197119228856,
+      "weak_positive_identities": 472,
+      "weak_FNR": 0.2584745762711864,
+      "weak_BCE": 0.6506932295349102
+    },
+    {
+      "seed": 2091,
+      "label": "SinFM",
+      "positive_BCE_contribution": 0.012457578974408854,
+      "negative_BCE_contribution": 0.002701687190265463,
+      "positive_BCE": 0.1471551516352046,
+      "negative_BCE": 0.03294315348130146,
+      "weak_positive_identities": 473,
+      "weak_FNR": 0.19873150105708245,
+      "weak_BCE": 0.6129189019945078
+    },
+    {
+      "seed": 2091,
+      "label": "MFT",
+      "positive_BCE_contribution": 0.0067237805798236955,
+      "negative_BCE_contribution": 0.005340361690732952,
+      "positive_BCE": 0.07942465809916742,
+      "negative_BCE": 0.06511795868055019,
+      "weak_positive_identities": 469,
+      "weak_FNR": 0.1044776119402985,
+      "weak_BCE": 0.31449552187886326
+    },
+    {
+      "seed": 2091,
+      "label": "ISRJ",
+      "positive_BCE_contribution": 0.017440536617072778,
+      "negative_BCE_contribution": 0.007793785877262362,
+      "positive_BCE": 0.20601633878917217,
+      "negative_BCE": 0.0950339052130701,
+      "weak_positive_identities": 450,
+      "weak_FNR": 0.2311111111111111,
+      "weak_BCE": 0.7646553534174397
+    },
+    {
+      "seed": 2092,
+      "label": "FMB",
+      "positive_BCE_contribution": 0.005575468793449497,
+      "negative_BCE_contribution": 0.004238917118405021,
+      "positive_BCE": 0.06586022512262218,
+      "negative_BCE": 0.051687440992164456,
+      "weak_positive_identities": 477,
+      "weak_FNR": 0.16771488469601678,
+      "weak_BCE": 0.2684243528134661
+    },
+    {
+      "seed": 2092,
+      "label": "AMA",
+      "positive_BCE_contribution": 0.005354682194891515,
+      "negative_BCE_contribution": 0.0007201444132103712,
+      "positive_BCE": 0.063252183427156,
+      "negative_BCE": 0.008781115748178076,
+      "weak_positive_identities": 466,
+      "weak_FNR": 0.0536480686695279,
+      "weak_BCE": 0.26522662603869623
+    },
+    {
+      "seed": 2092,
+      "label": "SawFM",
+      "positive_BCE_contribution": 0.011240616471154548,
+      "negative_BCE_contribution": 0.008241079759879238,
+      "positive_BCE": 0.1327797820655131,
+      "negative_BCE": 0.10048800481401135,
+      "weak_positive_identities": 472,
+      "weak_FNR": 0.2711864406779661,
+      "weak_BCE": 0.5396596229625874
+    },
+    {
+      "seed": 2092,
+      "label": "SinFM",
+      "positive_BCE_contribution": 0.01281642703894026,
+      "negative_BCE_contribution": 0.002095869998464868,
+      "positive_BCE": 0.15139404439748183,
+      "negative_BCE": 0.025556092239345806,
+      "weak_positive_identities": 473,
+      "weak_FNR": 0.1522198731501057,
+      "weak_BCE": 0.6290983535240718
+    },
+    {
+      "seed": 2092,
+      "label": "MFT",
+      "positive_BCE_contribution": 0.01071894292755207,
+      "negative_BCE_contribution": 0.007284981095648409,
+      "positive_BCE": 0.12661751333170881,
+      "negative_BCE": 0.08882976948887414,
+      "weak_positive_identities": 469,
+      "weak_FNR": 0.15778251599147122,
+      "weak_BCE": 0.5241135638145871
+    },
+    {
+      "seed": 2092,
+      "label": "ISRJ",
+      "positive_BCE_contribution": 0.0176609457344698,
+      "negative_BCE_contribution": 0.01586716895423443,
+      "positive_BCE": 0.20861992148842456,
+      "negative_BCE": 0.19347709240969727,
+      "weak_positive_identities": 450,
+      "weak_FNR": 0.25333333333333335,
+      "weak_BCE": 0.7761573434756458
+    },
+    {
+      "seed": 2093,
+      "label": "FMB",
+      "positive_BCE_contribution": 0.004231353803025592,
+      "negative_BCE_contribution": 0.005711789036165754,
+      "positive_BCE": 0.04998286679823981,
+      "negative_BCE": 0.06964697598937598,
+      "weak_positive_identities": 477,
+      "weak_FNR": 0.10482180293501048,
+      "weak_BCE": 0.20667879598726088
+    },
+    {
+      "seed": 2093,
+      "label": "AMA",
+      "positive_BCE_contribution": 0.004923663032363934,
+      "negative_BCE_contribution": 0.0009895754858304873,
+      "positive_BCE": 0.058160769569798966,
+      "negative_BCE": 0.012066436569158845,
+      "weak_positive_identities": 466,
+      "weak_FNR": 0.08583690987124463,
+      "weak_BCE": 0.24172710003338704
+    },
+    {
+      "seed": 2093,
+      "label": "SawFM",
+      "positive_BCE_contribution": 0.015623096460752377,
+      "negative_BCE_contribution": 0.007261041667421844,
+      "positive_BCE": 0.18454782694263744,
+      "negative_BCE": 0.0885378629124341,
+      "weak_positive_identities": 472,
+      "weak_FNR": 0.336864406779661,
+      "weak_BCE": 0.7472554779724649
+    },
+    {
+      "seed": 2093,
+      "label": "SinFM",
+      "positive_BCE_contribution": 0.010430380467110012,
+      "negative_BCE_contribution": 0.003571603598323798,
+      "positive_BCE": 0.123208869267737,
+      "negative_BCE": 0.04355052129569018,
+      "weak_positive_identities": 473,
+      "weak_FNR": 0.13530655391120508,
+      "weak_BCE": 0.5154125859697453
+    },
+    {
+      "seed": 2093,
+      "label": "MFT",
+      "positive_BCE_contribution": 0.00952510676434668,
+      "negative_BCE_contribution": 0.007063449065889544,
+      "positive_BCE": 0.11251532365384515,
+      "negative_BCE": 0.08612850796471769,
+      "weak_positive_identities": 469,
+      "weak_FNR": 0.16204690831556504,
+      "weak_BCE": 0.4653514493274477
+    },
+    {
+      "seed": 2093,
+      "label": "ISRJ",
+      "positive_BCE_contribution": 0.016249703383571484,
+      "negative_BCE_contribution": 0.0125493602914453,
+      "positive_BCE": 0.19194962121843817,
+      "negative_BCE": 0.15302123194084913,
+      "weak_positive_identities": 450,
+      "weak_FNR": 0.24222222222222223,
+      "weak_BCE": 0.7384179727660156
+    },
+    {
+      "seed": 2094,
+      "label": "FMB",
+      "positive_BCE_contribution": 0.004082918615678238,
+      "negative_BCE_contribution": 0.0044230982014926866,
+      "positive_BCE": 0.04822947614769918,
+      "negative_BCE": 0.05393326194078178,
+      "weak_positive_identities": 477,
+      "weak_FNR": 0.11530398322851153,
+      "weak_BCE": 0.19518739251055275
+    },
+    {
+      "seed": 2094,
+      "label": "AMA",
+      "positive_BCE_contribution": 0.005441039782112338,
+      "negative_BCE_contribution": 0.0005918030086915902,
+      "positive_BCE": 0.064272282426202,
+      "negative_BCE": 0.007216178622110357,
+      "weak_positive_identities": 466,
+      "weak_FNR": 0.045064377682403435,
+      "weak_BCE": 0.2705691231704778
+    },
+    {
+      "seed": 2094,
+      "label": "SawFM",
+      "positive_BCE_contribution": 0.012944455363377863,
+      "negative_BCE_contribution": 0.005904027825926052,
+      "positive_BCE": 0.15290637897990106,
+      "negative_BCE": 0.07199104897419507,
+      "weak_positive_identities": 472,
+      "weak_FNR": 0.22033898305084745,
+      "weak_BCE": 0.6243732577241713
+    },
+    {
+      "seed": 2094,
+      "label": "SinFM",
+      "positive_BCE_contribution": 0.01110820634052824,
+      "negative_BCE_contribution": 0.0036072967969386707,
+      "positive_BCE": 0.13121568739748984,
+      "negative_BCE": 0.04398574804009089,
+      "weak_positive_identities": 473,
+      "weak_FNR": 0.1416490486257928,
+      "weak_BCE": 0.5516881148626525
+    },
+    {
+      "seed": 2094,
+      "label": "MFT",
+      "positive_BCE_contribution": 0.010858925234959493,
+      "negative_BCE_contribution": 0.008086381197852687,
+      "positive_BCE": 0.12827105433795905,
+      "negative_BCE": 0.09860168041252632,
+      "weak_positive_identities": 469,
+      "weak_FNR": 0.11940298507462686,
+      "weak_BCE": 0.5221947678566413
+    },
+    {
+      "seed": 2094,
+      "label": "ISRJ",
+      "positive_BCE_contribution": 0.019192434724408458,
+      "negative_BCE_contribution": 0.013339778270800197,
+      "positive_BCE": 0.22671063518207488,
+      "negative_BCE": 0.16265923181814432,
+      "weak_positive_identities": 450,
+      "weak_FNR": 0.32,
+      "weak_BCE": 0.8507643080887076
+    }
+  ],
+  "runs": [
+    {
+      "seed": 2090,
+      "raw_BCE": 0.09680486745200545,
+      "exact_loss": 0.16939484126984128,
+      "empty_prediction_fraction": 0.0,
+      "cardinality_underprediction": 0.1039186507936508,
+      "cardinality_overprediction": 0.05381944444444445,
+      "wrong_with_correct_cardinality": 0.011656746031746032,
+      "FMB_FP_SawFM_FN_MFT_FN_ISRJ_FN_joint_oracle_gain": 0.0763888888888889,
+      "wrong_label_count_distribution": [
+        3349,
+        594,
+        83,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2091,
+      "raw_BCE": 0.0858993739803871,
+      "exact_loss": 0.15947420634920634,
+      "empty_prediction_fraction": 0.0,
+      "cardinality_underprediction": 0.09523809523809523,
+      "cardinality_overprediction": 0.05233134920634921,
+      "wrong_with_correct_cardinality": 0.011904761904761904,
+      "FMB_FP_SawFM_FN_MFT_FN_ISRJ_FN_joint_oracle_gain": 0.06299603174603174,
+      "wrong_label_count_distribution": [
+        3389,
+        565,
+        78,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2092,
+      "raw_BCE": 0.10181524450030004,
+      "exact_loss": 0.1857638888888889,
+      "empty_prediction_fraction": 0.0,
+      "cardinality_underprediction": 0.1076388888888889,
+      "cardinality_overprediction": 0.06646825396825397,
+      "wrong_with_correct_cardinality": 0.011656746031746032,
+      "FMB_FP_SawFM_FN_MFT_FN_ISRJ_FN_joint_oracle_gain": 0.06820436507936507,
+      "wrong_label_count_distribution": [
+        3283,
+        659,
+        82,
+        7,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2093,
+      "raw_BCE": 0.09813012305624681,
+      "exact_loss": 0.17906746031746032,
+      "empty_prediction_fraction": 0.0,
+      "cardinality_underprediction": 0.10689484126984126,
+      "cardinality_overprediction": 0.061507936507936505,
+      "wrong_with_correct_cardinality": 0.01066468253968254,
+      "FMB_FP_SawFM_FN_MFT_FN_ISRJ_FN_joint_oracle_gain": 0.07539682539682539,
+      "wrong_label_count_distribution": [
+        3310,
+        621,
+        91,
+        9,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "seed": 2094,
+      "raw_BCE": 0.0995803653627665,
+      "exact_loss": 0.18303571428571427,
+      "empty_prediction_fraction": 0.0,
+      "cardinality_underprediction": 0.09821428571428571,
+      "cardinality_overprediction": 0.07142857142857142,
+      "wrong_with_correct_cardinality": 0.013392857142857142,
+      "FMB_FP_SawFM_FN_MFT_FN_ISRJ_FN_joint_oracle_gain": 0.06820436507936507,
+      "wrong_label_count_distribution": [
+        3294,
+        647,
+        87,
+        4,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "factor_summary": [
+    {
+      "factor": "ISRJ_FN",
+      "identity_error_fraction": 0.03625992063492064,
+      "Shapley_exact_loss_allocation": 0.03162202380952381,
+      "singleton_oracle_exact_gain": 0.02718253968253968
+    },
+    {
+      "factor": "SawFM_FN",
+      "identity_error_fraction": 0.033581349206349205,
+      "Shapley_exact_loss_allocation": 0.029794973544973548,
+      "singleton_oracle_exact_gain": 0.026240079365079366
+    },
+    {
+      "factor": "ISRJ_FP",
+      "identity_error_fraction": 0.02723214285714286,
+      "Shapley_exact_loss_allocation": 0.024107142857142855,
+      "singleton_oracle_exact_gain": 0.021180555555555557
+    },
+    {
+      "factor": "MFT_FP",
+      "identity_error_fraction": 0.02003968253968254,
+      "Shapley_exact_loss_allocation": 0.016939484126984126,
+      "singleton_oracle_exact_gain": 0.014037698412698413
+    },
+    {
+      "factor": "SinFM_FN",
+      "identity_error_fraction": 0.01780753968253968,
+      "Shapley_exact_loss_allocation": 0.015848214285714285,
+      "singleton_oracle_exact_gain": 0.014037698412698413
+    },
+    {
+      "factor": "MFT_FN",
+      "identity_error_fraction": 0.015625,
+      "Shapley_exact_loss_allocation": 0.013169642857142855,
+      "singleton_oracle_exact_gain": 0.010863095238095238
+    },
+    {
+      "factor": "SawFM_FP",
+      "identity_error_fraction": 0.013938492063492064,
+      "Shapley_exact_loss_allocation": 0.01259920634920635,
+      "singleton_oracle_exact_gain": 0.011359126984126982
+    },
+    {
+      "factor": "FMB_FN",
+      "identity_error_fraction": 0.013095238095238094,
+      "Shapley_exact_loss_allocation": 0.01185515873015873,
+      "singleton_oracle_exact_gain": 0.010763888888888889
+    },
+    {
+      "factor": "SinFM_FP",
+      "identity_error_fraction": 0.010119047619047618,
+      "Shapley_exact_loss_allocation": 0.00927579365079365,
+      "singleton_oracle_exact_gain": 0.008482142857142856
+    },
+    {
+      "factor": "AMA_FN",
+      "identity_error_fraction": 0.006448412698412698,
+      "Shapley_exact_loss_allocation": 0.005778769841269841,
+      "singleton_oracle_exact_gain": 0.005158730158730159
+    },
+    {
+      "factor": "FMB_FP",
+      "identity_error_fraction": 0.003273809523809524,
+      "Shapley_exact_loss_allocation": 0.0028191137566137567,
+      "singleton_oracle_exact_gain": 0.0023809523809523807
+    },
+    {
+      "factor": "AMA_FP",
+      "identity_error_fraction": 0.0016865079365079364,
+      "Shapley_exact_loss_allocation": 0.0015376984126984129,
+      "singleton_oracle_exact_gain": 0.0013888888888888887
+    }
+  ],
+  "oracle_scope": "Oracle diagnostic under perfect correction of selected factors. Achievability requires a trained method experiment."
+}

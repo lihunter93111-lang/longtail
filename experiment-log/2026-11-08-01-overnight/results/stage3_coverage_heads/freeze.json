@@ -1,0 +1,235 @@
+{
+  "models": {
+    "M_2080_hard": {
+      "arm": "M",
+      "seed": 2080,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.061886541578124,
+        "calibration_BCE_raw": 0.12156763018694314,
+        "calibration_BCE_scaled": 0.12124471729840465,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.625,
+            0.3499999999999999,
+            0.5349999999999999,
+            0.27499999999999997,
+            0.8099999999999999,
+            0.5199999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "3fceafb81a8ebe49b8f5f3e074b2e922c88dc9fe710742d659e6d62e505ad1d7",
+      "best_epoch": 1
+    },
+    "M_2080_balanced": {
+      "arm": "M",
+      "seed": 2080,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.0503705527990668,
+        "calibration_BCE_raw": 0.12009497338587437,
+        "calibration_BCE_scaled": 0.11987648470182792,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.245,
+            0.5049999999999999,
+            0.5399999999999999,
+            0.27999999999999997,
+            0.8049999999999999,
+            0.5249999999999999
+          ]
+        }
+      },
+      "checkpoint_sha256": "b91315b7beb1efbe70366365e043c435013f2eb78d113e80c4b458bfb25b5a18",
+      "best_epoch": 1
+    },
+    "M_2081_hard": {
+      "arm": "M",
+      "seed": 2081,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.0848588238476475,
+        "calibration_BCE_raw": 0.12498555454243614,
+        "calibration_BCE_scaled": 0.12437752136186246,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5349999999999999,
+            0.105,
+            0.575,
+            0.24,
+            0.6649999999999999,
+            0.37999999999999995
+          ]
+        }
+      },
+      "checkpoint_sha256": "747ec14069af36e03f94f8908105a1e790ae6f13ccbf32b5b215997f9d44803b",
+      "best_epoch": 1
+    },
+    "M_2081_balanced": {
+      "arm": "M",
+      "seed": 2081,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.0769949523285136,
+        "calibration_BCE_raw": 0.12413545933738619,
+        "calibration_BCE_scaled": 0.12362164649452562,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.4699999999999999,
+            0.19,
+            0.575,
+            0.26999999999999996,
+            0.6599999999999999,
+            0.38499999999999995
+          ]
+        }
+      },
+      "checkpoint_sha256": "2af512b5fab045acf87e024bdd8c3195770feda140b047ddaa8fe5fb76020516",
+      "best_epoch": 1
+    },
+    "M_2082_hard": {
+      "arm": "M",
+      "seed": 2082,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.0923414572917702,
+        "calibration_BCE_raw": 0.12235756745373999,
+        "calibration_BCE_scaled": 0.12166036093812253,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6699999999999999,
+            0.135,
+            0.48499999999999993,
+            0.37999999999999995,
+            0.48999999999999994,
+            0.38999999999999996
+          ]
+        }
+      },
+      "checkpoint_sha256": "9691ea4ba8149a1a905150d6e9193c4d4c8c7d40445ccc20955a57ff1b2c139c",
+      "best_epoch": 1
+    },
+    "M_2082_balanced": {
+      "arm": "M",
+      "seed": 2082,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.077861995698805,
+        "calibration_BCE_raw": 0.12090380167914387,
+        "calibration_BCE_scaled": 0.12039596444367655,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.43499999999999994,
+            0.20999999999999996,
+            0.48999999999999994,
+            0.38999999999999996,
+            0.48499999999999993,
+            0.38999999999999996
+          ]
+        }
+      },
+      "checkpoint_sha256": "8f0bce60bf73589600483884ec213b4d6ad44e1dee35cf83388bcb91e231ec52",
+      "best_epoch": 1
+    },
+    "M_2083_hard": {
+      "arm": "M",
+      "seed": 2083,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.0845652305567035,
+        "calibration_BCE_raw": 0.12295730633404343,
+        "calibration_BCE_scaled": 0.1223608539040725,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.615,
+            0.08499999999999999,
+            0.625,
+            0.36999999999999994,
+            0.575,
+            0.585
+          ]
+        }
+      },
+      "checkpoint_sha256": "73dc904b98a4699f3cf48518d0f1268d053451fb3e9b72c143b553da76616ddc",
+      "best_epoch": 1
+    },
+    "M_2083_balanced": {
+      "arm": "M",
+      "seed": 2083,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.0740297655773456,
+        "calibration_BCE_raw": 0.12121204755988062,
+        "calibration_BCE_scaled": 0.12074691322291982,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.37499999999999994,
+            0.15499999999999997,
+            0.625,
+            0.37499999999999994,
+            0.565,
+            0.585
+          ]
+        }
+      },
+      "checkpoint_sha256": "e8323b892c3b6a1a558a0bbc2bb02ec6e66c0cb2edb40b8dfb7e0c9cc3aba78c",
+      "best_epoch": 1
+    },
+    "M_2084_hard": {
+      "arm": "M",
+      "seed": 2084,
+      "variant": "hard",
+      "calibration": {
+        "T": 1.1062913498027904,
+        "calibration_BCE_raw": 0.12643522887558784,
+        "calibration_BCE_scaled": 0.12549718357609457,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.71,
+            0.095,
+            0.32999999999999996,
+            0.3549999999999999,
+            0.6799999999999999,
+            0.59
+          ]
+        }
+      },
+      "checkpoint_sha256": "964793bd3e17b74fc43dfdb63e756ec73035d0821dbe92df56229cd7f38dfa35",
+      "best_epoch": 1
+    },
+    "M_2084_balanced": {
+      "arm": "M",
+      "seed": 2084,
+      "variant": "balanced",
+      "calibration": {
+        "T": 1.0931060133259678,
+        "calibration_BCE_raw": 0.12510661191926353,
+        "calibration_BCE_scaled": 0.12437279023231905,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.4749999999999999,
+            0.15499999999999997,
+            0.33499999999999996,
+            0.36499999999999994,
+            0.6749999999999999,
+            0.59
+          ]
+        }
+      },
+      "checkpoint_sha256": "77152335b778a75de6b032d464a0752402fa52a2175e164907cadf43bbd534f5",
+      "best_epoch": 1
+    }
+  },
+  "protocol_sha256": "cc7aa9929474a57edd4324d2ed7c3b041ec602eacc67d878b5bfc5b214be2aa9"
+}

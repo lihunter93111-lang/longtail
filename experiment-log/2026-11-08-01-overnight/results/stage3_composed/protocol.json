@@ -1,0 +1,25 @@
+{
+  "operation": "compose already frozen backbone and head",
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "backbone_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9",
+  "head_freeze_sha256": "f9b2941cc8004e08c4da2aec84fcd3c9aec91c1074439bffab30f6eafb7bfd39",
+  "source_sha256": "903137e8876e98633542d32a81ae4a15c0ceb4978f6f01ae625172963ac348d6",
+  "arms": {
+    "WH": [
+      "W",
+      "hard"
+    ],
+    "WB": [
+      "W",
+      "balanced"
+    ],
+    "MH": [
+      "M",
+      "hard"
+    ],
+    "MB": [
+      "M",
+      "balanced"
+    ]
+  }
+}

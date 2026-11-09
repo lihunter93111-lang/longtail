@@ -17,3 +17,7 @@ MAT 数据保存在 [ModelScope · fulanya/longtail](https://www.modelscope.cn/d
 长尾训练的审计记录 IF=3、CF≈7.85366、每组合 41–322 条。v3 诊断测试为每组合 96 条，train/test 的 `receiver_noise_seed` 交集为零。这些是已有数据收据的记录，本次仅复制并验证收据来源，没有重读 MAT 或训练模型。
 
 下载后核对各目录收据中的 `files` 哈希或功率目录的 `power_sweep_file_inventory_sha256.csv`。保留目录名和原审计，不修改原始文件。历史脚本的绝对路径需要按本机情况显式配置，见[移植说明](../docs/release/PORTABILITY.md)。
+
+## 11月新增实验数据
+
+11月8日整夜实验及11月9日续做的完整文件位置、数据角色、逐文件大小清单和轻量审计入口见[新增实验数据清单](catalog/experiments_2026-11-09/README.md)。

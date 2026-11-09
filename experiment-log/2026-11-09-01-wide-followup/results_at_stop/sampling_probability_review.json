@@ -1,0 +1,24 @@
+{
+  "role": "adaptive_development_calibration_control",
+  "raw_BCE_gain": 0.0017493961187988044,
+  "reference_class_affine_BCE": 0.09756321510920646,
+  "candidate_class_affine_BCE": 0.09466940647279248,
+  "class_affine_BCE_gain": 0.0028938086364139843,
+  "paired_gains": [
+    0.00326907773553045,
+    0.001846606328509118,
+    0.0024496970908518003,
+    0.0034830669837397988,
+    0.003420595043438754
+  ],
+  "seed_t95": [
+    0.0020028716814883183,
+    0.0037847455913396504
+  ],
+  "identity_bootstrap95": [
+    0.0007050879924591587,
+    0.005135274023035832
+  ],
+  "source_sha256": "542741fe481ad5026b928cca5e12d66d4a5cbd7014f07181d6b9f7321e5bd2a3",
+  "prompt_sha256": "94b0babec4f82dc2a15dc83403f53daed32d01028c3979114f27edf6d7352d26"
+}

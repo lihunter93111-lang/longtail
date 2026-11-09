@@ -1,0 +1,19 @@
+{
+  "previous_commit": "1ecfd499a6bc914d5f7dbd2e7334efe45707ff26",
+  "sync": "git pull --ff-only succeeded with per-command proxy disabled after stale localhost proxy failed",
+  "prior_root": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01",
+  "new_root": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01",
+  "source_hashes": {
+    "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\training.py": "4923ed7ada6c11ce239bd429411b1ed962e20a4c55cb80d4647de9dff77ea6b1",
+    "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-08-01-overnight\\run_variant.py": "41739fe28124b8619afb083dce8d3dd285cee1d6cbf5d95ebe1189674d0ccafe",
+    "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\training.py": "287e15793032b3dce3d3d7f35f0fd7c614d526d88975929f32676594e92c705f",
+    "C:\\Users\\zj\\Documents\\\u4e09\u8f74\u957f\u5c3e\u573a\u666f\u8bc6\u522b\\experiment-log\\2026-11-09-01-wide-followup\\run_variant.py": "d0ea36263b9bfc2fa8f5221b3872eb3209d3823acfa5e84028d01349036a82ea"
+  },
+  "adaptations": [
+    "explicit json import",
+    "declared variable epoch budget",
+    "new optimization deadline",
+    "per-batch deadline snapshot"
+  ],
+  "preserved": "prior experiment sources and checkpoints"
+}

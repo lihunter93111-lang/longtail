@@ -1,0 +1,15 @@
+{
+  "stage": "coverage",
+  "status": "completed_and_reviewed",
+  "W_vs_B": "8.4167% raw BCE reduction, all five seeds positive, all guards passed",
+  "M_vs_W": "1.9409% raw BCE reduction, all five seeds positive, missed predeclared2% threshold, all other guards passed",
+  "M_gap15_FNR": "48.6595% to45.6584% on same1686 identities",
+  "decision": "Retain M as partial-support research candidate; finish frozen-head diagnostics and compare local evidence on M with matched M reference; independently replicate W and M. Preserve formal stage2 gate failure.",
+  "verification": {
+    "matched_initialization_and_orders": true,
+    "all600_epochs_complete": true,
+    "per_identity_budget_verified": true,
+    "frozen_source_hashes_match": true
+  },
+  "threshold_result": "FPR-constrained calibration yields modest exact/FPR shifts; no dominant threshold-only gain."
+}

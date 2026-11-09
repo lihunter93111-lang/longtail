@@ -1,0 +1,56 @@
+{
+  "status": "completed",
+  "models": 10,
+  "decision": {
+    "reference_BCE": 0.1420136055611501,
+    "candidate_BCE": 0.09899815529241271,
+    "relative_BCE_reduction": 0.3028966844322196,
+    "paired_BCE_gain": [
+      0.04399823452912342,
+      0.052880065332053555,
+      0.03835739319665693,
+      0.041059341381988176,
+      0.038782216903864894
+    ],
+    "seed_t95": [
+      0.0356246645398697,
+      0.050406235997605096
+    ],
+    "identity_bootstrap95": [
+      0.039508508970299644,
+      0.04660313643924023
+    ],
+    "metric_differences": {
+      "BCE": -0.0430154502687374,
+      "Brier": -0.01304841628659129,
+      "ECE": -0.005733898074719759,
+      "macro_AP": 0.005724478624397333,
+      "fixed05_exact": 0.08065476190476191,
+      "f1_exact": 0.07247023809523814,
+      "macro_F1": 0.015999199241732542,
+      "tail_exact": 0.06346153846153846,
+      "label_error_rate": -0.017534722222222222,
+      "confident_wrong_fraction": 0.0014798280423280424,
+      "confident_wrong_loss_share": 0.1047711800410013,
+      "FMB_FPR": -0.007661290322580644,
+      "SawFM_FPR": -0.021572580645161286,
+      "ISRJ_weak_FNR": -0.09652351738241309
+    },
+    "checks": {
+      "raw_BCE_reduction_ge2pct": true,
+      "positive_seeds_ge4": true,
+      "macro_AP_guard": true,
+      "exact_guard": true,
+      "tail_guard": true,
+      "FMB_FPR_guard": true,
+      "SawFM_FPR_guard": true,
+      "ISRJ_weak_FNR_guard": true
+    },
+    "passes": true,
+    "role": "reserved_final_confirmation",
+    "confirmation_consumed": true,
+    "locked_test_used": false,
+    "freeze_sha256": "c0ca46fc771fcd2a2f69a31892e9933f622cd0ccdc527fe402b99c9f063cf337",
+    "manifest_sha256": "51de0465f4478d28f161b967a6478659f61766a50acca35650904d8c97961770"
+  }
+}

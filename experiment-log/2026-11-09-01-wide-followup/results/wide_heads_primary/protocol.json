@@ -1,0 +1,30 @@
+{
+  "arms": [
+    "M"
+  ],
+  "seeds": [
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "epochs": 40,
+  "lr": 0.001,
+  "batch": 32,
+  "weight_decay": 0.0001,
+  "clip": 5,
+  "input": "frozen eval-mode256d features",
+  "views": "coverage",
+  "model": "dfms_iq",
+  "width": 32,
+  "initialization": "copy corresponding trained W/M classifier weights",
+  "balanced_weights": "N/(2Npos),N/(2Nneg)",
+  "selection": "minimum hard unweighted early-stop BCE",
+  "calibration": "global T and per-class F1 grid",
+  "source_sha256": "1e6589adaddcc9be49f1bab3ac49bfeb15f6c90c28b4e597f9ab6017fe0c9f34",
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "prompt_sha256": "3d51e522a45018a377eca203ab36a6a40eb06ef0b833ae63ffbe5a33daefdfe7",
+  "backbone_freeze_sha256": "1c80caaf29160bb7b71708dded7679266efa1c8468aa285c4771d594d686c536",
+  "role": "adaptive_development"
+}

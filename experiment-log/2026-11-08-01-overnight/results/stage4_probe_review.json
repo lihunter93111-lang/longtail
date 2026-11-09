@@ -1,0 +1,8 @@
+{
+  "stage": "layer_probes",
+  "status": "completed",
+  "n_probes": 35,
+  "finding": "Deep-stage pooled statistics are more linearly separable than early magnitude statistics. Adding top8 frozen statistics did not improve AP over temporal mean/std and raised BCE. Global logistic refit strongly lowered fit loss but raised development BCE.",
+  "boundary": "Probe feature dimensions differ and regularization is fixed C=1; this does not establish irreversible feature loss or network capacity optimality.",
+  "next": "Execute one bounded learned top8 bypass and one cross-stage-pyramid control with matched M coverage; compare width16/32 under matched scratch initialization afterward. Keep head-calibration candidate and independent replication."
+}

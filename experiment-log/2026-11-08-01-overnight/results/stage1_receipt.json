@@ -1,0 +1,58 @@
+{
+  "stage": "data_and_physical_pairing",
+  "status": "completed",
+  "fit_identities": 8000,
+  "early_stop": 1008,
+  "calibration": 1008,
+  "development": 4032,
+  "fit_candidate_identities": 25200,
+  "dev_candidate_identities": 6048,
+  "historical_pools_audited": 6,
+  "historical_rows_audited": 434496,
+  "identity_overlap": 0,
+  "fit_pairing": {
+    "status": "verified",
+    "mode": "fit",
+    "identity_count": 8000,
+    "gaps": [
+      10,
+      15
+    ],
+    "view_counts": [
+      4440,
+      2414
+    ],
+    "raw_reconstruction_max_abs": 0,
+    "intervention_delta_max_abs": 5.002266277759561e-14,
+    "intervention_delta_max_relative": 1.2135077718825257e-15,
+    "single_target_delta_verified": true,
+    "locked_test_used": false
+  },
+  "dev_pairing": {
+    "status": "verified",
+    "mode": "diagnostic",
+    "identity_count": 4032,
+    "gaps": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "view_counts": [
+      2740,
+      2740,
+      2740,
+      1686
+    ],
+    "raw_reconstruction_max_abs": 0,
+    "intervention_delta_max_abs": 9.264343823933031e-14,
+    "intervention_delta_max_relative": 1.0637114317756701e-15,
+    "single_target_delta_verified": true,
+    "locked_test_used": false
+  },
+  "W_augmented_presentations": 88800,
+  "M_gap15_presentations": 24140,
+  "M_gap10_presentations": 64660,
+  "original_presentations_per_W_or_M": 231200,
+  "next_stage": "coverage_training_in_progress"
+}

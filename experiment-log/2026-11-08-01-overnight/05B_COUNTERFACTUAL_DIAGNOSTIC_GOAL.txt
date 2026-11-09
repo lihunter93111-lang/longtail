@@ -1,0 +1,5 @@
+阶段5追加诊断 Goal
+当前gap15残余漏检仍接近一半。为检验弱分量存在与同背景误报的关系，在已消费的development身份上构建目标移除视图。
+使用既有diagnostic_pairing_identities中相同的目标选择与可行身份。固定所有其他分量参数、分量种子、接收噪声种子，只移除选定SawFM/MFT/ISRJ目标。其余分量至少保留一个，更新六标签、有效JNR、parameter_values/mask。验证移除前后波形差值等于原目标干净分量，检查噪声与其他分量种子。
+对冻结的W、M、分类头候选及容量对照进行诊断。将相同身份的gap10或gap15正例与目标移除负例成对，报告固定calibration工作点下的TPR和matched-negative FPR、AUC/AP、目标logit变化与成对排序率。gap15仅在共同可行身份子集比较。
+按身份聚类进行配对统计。成对排序依赖这两条受控观测，用于分析背景与目标证据。所有阈值来自各模型已有calibration，开发诊断用于解释和决定后续研究。最终confirmation继续遵循已预留身份和模型冻结流程。

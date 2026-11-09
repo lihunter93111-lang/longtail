@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "model": "dfms_iq_global_statistics_bypass",
+  "width": 16,
+  "coverage": "M",
+  "initialization": "shared",
+  "runs": 5
+}

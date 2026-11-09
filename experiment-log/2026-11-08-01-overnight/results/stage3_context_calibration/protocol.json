@@ -1,0 +1,11 @@
+{
+  "source_sha256": "a608f980ec4c52ff5e762b6b6f100888c52ccb4111afd445c768050795e6512c",
+  "prompt_sha256": "ab0117f2c8b9d83de87d2589642de6d899c1bb0339afcf194ef6bb39a4709bce",
+  "model_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9",
+  "fit_role": "calibration",
+  "score_role": "adaptive_development",
+  "self_penalty": 0.001,
+  "context_penalty": 0.01,
+  "context": "centered tanh(other logits/5)",
+  "parameter_count_per_model": 42
+}

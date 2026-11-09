@@ -1,0 +1,9 @@
+{
+  "width": 32,
+  "parameters": 1013191,
+  "batch": 32,
+  "forward_backward_optimizer_step": true,
+  "peak_allocated_MiB": 999.66015625,
+  "smoke_loss": 0.7107337713241577,
+  "precision": "FP32 TF32 off"
+}

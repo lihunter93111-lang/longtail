@@ -1,0 +1,3 @@
+﻿arm,seed,correct_bit_BCE_contribution,wrong_bit_BCE_contribution,one_bit_error_fraction_of_failed_samples
+M,2103,0.0251019810289334,0.0784332789031979,0.8382923673997412
+M,2104,0.02461149129753393,0.0825148838376687,0.8575

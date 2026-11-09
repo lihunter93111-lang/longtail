@@ -1,0 +1,32 @@
+{
+  "stage": "learned_readout_and_pyramid",
+  "top8": {
+    "rawBCE": 0.1318055011071587,
+    "relative_gain": 0.017352392344004593,
+    "checks": {
+      "relative_BCE_reduction_ge2pct": false,
+      "positive_seeds_ge4": true,
+      "AP_guard": true,
+      "exact_guard": true,
+      "tail_guard": true,
+      "FMB_FPR_guard": true,
+      "SawFM_FPR_guard": true,
+      "ISRJ_weak_FNR_guard": true
+    }
+  },
+  "pyramid": {
+    "rawBCE": 0.1339727536693919,
+    "relative_gain": 0.0011949062939089965,
+    "checks": {
+      "relative_BCE_reduction_ge2pct": false,
+      "positive_seeds_ge4": false,
+      "AP_guard": true,
+      "exact_guard": true,
+      "tail_guard": true,
+      "FMB_FPR_guard": false,
+      "SawFM_FPR_guard": true,
+      "ISRJ_weak_FNR_guard": true
+    }
+  },
+  "decision": "Retain top8 as partial-support mechanism result. Stop pyramid promotion after weak aggregate effect and FMB FPR guard failure. Run matched global-statistics control, then capacity/distribution matrix. Main deployable candidate remains M plus balanced head and constrained calibration pending independent replication."
+}

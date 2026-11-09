@@ -1,0 +1,22 @@
+{
+  "stage": "decision_and_heads",
+  "status": "reviewed",
+  "W_balanced": "rawBCE0.133958,2.069% lower than W; guards passed",
+  "M_balanced": "rawBCE0.129290,3.611% lower than M; incremental FMB_FPR and ISRJ_weak_FNR guards failed",
+  "M_balanced_vs_primary_W": {
+    "relative_BCE_gain": 0.05481390805056043,
+    "checks": {
+      "relative_BCE_reduction_ge2pct": true,
+      "positive_seeds_ge4": true,
+      "AP_guard": true,
+      "exact_guard": true,
+      "tail_guard": true,
+      "FMB_FPR_guard": true,
+      "SawFM_FPR_guard": true,
+      "ISRJ_weak_FNR_guard": true
+    },
+    "passes": true
+  },
+  "interpretation": "AP almost unchanged after head refit. Probability calibration and class prior weighting contribute; retain per-class cost and compare against both immediate and primary references.",
+  "next": "Run layer probes on M and then local-evidence/pyramid architecture controls using M coverage; independently replicate W and M with balanced head diagnostics."
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "epoch": 1,
+    "train_objective": 0.005401308679487556,
+    "early_BCE": 0.11704417318105698,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 2,
+    "train_objective": 0.0029212606102228165,
+    "early_BCE": 0.12652982771396637,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 3,
+    "train_objective": 0.003467206097440794,
+    "early_BCE": 0.13798494637012482,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 4,
+    "train_objective": 0.0035884609339991583,
+    "early_BCE": 0.14672769606113434,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 5,
+    "train_objective": 0.001974401779589243,
+    "early_BCE": 0.14514286816120148,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 6,
+    "train_objective": 0.0017321058319066651,
+    "early_BCE": 0.15032750368118286,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 7,
+    "train_objective": 0.0025758982243714854,
+    "early_BCE": 0.15689638257026672,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 8,
+    "train_objective": 0.0031458396678208374,
+    "early_BCE": 0.16569215059280396,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 9,
+    "train_objective": 0.0016777131379640195,
+    "early_BCE": 0.16263480484485626,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 10,
+    "train_objective": 0.0014632889376662206,
+    "early_BCE": 0.16614708304405212,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 11,
+    "train_objective": 0.0021954762586974537,
+    "early_BCE": 0.1721746027469635,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 12,
+    "train_objective": 0.0027677923474111596,
+    "early_BCE": 0.17924764752388,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 13,
+    "train_objective": 0.0013812376326241065,
+    "early_BCE": 0.17323999106884003,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 14,
+    "train_objective": 0.0013220138260512612,
+    "early_BCE": 0.17364799976348877,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 15,
+    "train_objective": 0.0019480638347158675,
+    "early_BCE": 0.18114466965198517,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 16,
+    "train_objective": 0.0027593709814100293,
+    "early_BCE": 0.19065864384174347,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 17,
+    "train_objective": 0.0014981000792176928,
+    "early_BCE": 0.18337911367416382,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 18,
+    "train_objective": 0.0012438986171910073,
+    "early_BCE": 0.1850203573703766,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 19,
+    "train_objective": 0.0018785383503418416,
+    "early_BCE": 0.19082027673721313,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 20,
+    "train_objective": 0.0027237649793823947,
+    "early_BCE": 0.19793835282325745,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 21,
+    "train_objective": 0.0013146694251117879,
+    "early_BCE": 0.19199621677398682,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 22,
+    "train_objective": 0.0010823849471926223,
+    "early_BCE": 0.19230495393276215,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 23,
+    "train_objective": 0.0017786913529707817,
+    "early_BCE": 0.19626140594482422,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 24,
+    "train_objective": 0.002708551120624179,
+    "early_BCE": 0.20504102110862732,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 25,
+    "train_objective": 0.0013007618264091435,
+    "early_BCE": 0.19878336787223816,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 26,
+    "train_objective": 0.0011075102895156306,
+    "early_BCE": 0.1997307538986206,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 27,
+    "train_objective": 0.0015613435610357556,
+    "early_BCE": 0.20688091218471527,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 28,
+    "train_objective": 0.0025765716746245742,
+    "early_BCE": 0.21139585971832275,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 29,
+    "train_objective": 0.0012470816827299131,
+    "early_BCE": 0.20295271277427673,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 30,
+    "train_objective": 0.0010981737000547583,
+    "early_BCE": 0.20552901923656464,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 31,
+    "train_objective": 0.0016202050501306076,
+    "early_BCE": 0.2101856917142868,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 32,
+    "train_objective": 0.0027334496483090334,
+    "early_BCE": 0.21628323197364807,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 33,
+    "train_objective": 0.0010774938841495896,
+    "early_BCE": 0.2105138599872589,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 34,
+    "train_objective": 0.0010724144457017247,
+    "early_BCE": 0.21204133331775665,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 35,
+    "train_objective": 0.001591192092440906,
+    "early_BCE": 0.21742179989814758,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 36,
+    "train_objective": 0.0025982022131211123,
+    "early_BCE": 0.22068767249584198,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  },
+  {
+    "epoch": 37,
+    "train_objective": 0.0009026453144397237,
+    "early_BCE": 0.21627087891101837,
+    "weak_presentations": 2190,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 38,
+    "train_objective": 0.0010282109010440763,
+    "early_BCE": 0.21611247956752777,
+    "weak_presentations": 2250,
+    "gap15_presentations": 0
+  },
+  {
+    "epoch": 39,
+    "train_objective": 0.0014732464696498937,
+    "early_BCE": 0.22408124804496765,
+    "weak_presentations": 2190,
+    "gap15_presentations": 1202
+  },
+  {
+    "epoch": 40,
+    "train_objective": 0.0024685537268778718,
+    "early_BCE": 0.2293267548084259,
+    "weak_presentations": 2250,
+    "gap15_presentations": 1212
+  }
+]

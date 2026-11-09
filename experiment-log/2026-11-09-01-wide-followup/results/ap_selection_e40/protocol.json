@@ -1,0 +1,32 @@
+{
+  "role": "adaptive_development_checkpoint_sensitivity",
+  "selection": "minimum epoch at maximum early_stop macroAP",
+  "model": "dfms_iq",
+  "width": 32,
+  "seeds": [
+    2100,
+    2101,
+    2102
+  ],
+  "epochs": 40,
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "selected": {
+    "M_2100": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40\\M_2100\\best_AP.pth",
+      "sha256": "f1d15ca0d8c6f32e36bf0ceb7806aff75646e6b94fef6aebdbeb146cecbfa2e8",
+      "epoch": 30
+    },
+    "M_2101": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40\\M_2101\\best_AP.pth",
+      "sha256": "2144ae827a42c6f9cc4fb26f946dd1a743aefd76944005d7bcca483f6bfe5966",
+      "epoch": 19
+    },
+    "M_2102": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_e40\\M_2102\\best_AP.pth",
+      "sha256": "a1b5e22fdb5489a42d42d4e568cf27372ef95156178acec62f82ebab351c9977",
+      "epoch": 38
+    }
+  },
+  "source_sha256": "bfaa94fa6522a59f1f8c318b57289d84939795a524f09dae9445e8a1f76103c6",
+  "prompt_sha256": "b97d3f1c917e9ab270cc2c6c556017025468802d05d6941c9f23f3bfb6c3df7e"
+}

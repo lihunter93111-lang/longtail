@@ -1,0 +1,222 @@
+{
+  "exclude2080_mean_logit": {
+    "members": [
+      2081,
+      2082,
+      2083,
+      2084
+    ],
+    "mode": "mean_logit",
+    "primary": false,
+    "T": 0.755960735018265,
+    "calibration_BCE_raw": 0.12710399230937214,
+    "calibration_BCE_scaled": 0.11987948153293577,
+    "at_boundary": false,
+    "thresholds": [
+      0.59,
+      0.20999999999999996,
+      0.4099999999999999,
+      0.245,
+      0.49499999999999994,
+      0.36999999999999994
+    ]
+  },
+  "exclude2080_mean_probability": {
+    "members": [
+      2081,
+      2082,
+      2083,
+      2084
+    ],
+    "mode": "mean_probability",
+    "primary": false,
+    "T": 0.6842089102204035,
+    "calibration_BCE_raw": 0.13249076572841204,
+    "calibration_BCE_scaled": 0.11988199563246187,
+    "at_boundary": false,
+    "thresholds": [
+      0.5199999999999999,
+      0.22499999999999998,
+      0.4149999999999999,
+      0.26499999999999996,
+      0.5049999999999999,
+      0.3999999999999999
+    ]
+  },
+  "exclude2081_mean_logit": {
+    "members": [
+      2080,
+      2082,
+      2083,
+      2084
+    ],
+    "mode": "mean_logit",
+    "primary": false,
+    "T": 0.7575988059742095,
+    "calibration_BCE_raw": 0.12850954305021434,
+    "calibration_BCE_scaled": 0.12132428306689884,
+    "at_boundary": false,
+    "thresholds": [
+      0.615,
+      0.19999999999999996,
+      0.33499999999999996,
+      0.32499999999999996,
+      0.625,
+      0.37499999999999994
+    ]
+  },
+  "exclude2081_mean_probability": {
+    "members": [
+      2080,
+      2082,
+      2083,
+      2084
+    ],
+    "mode": "mean_probability",
+    "primary": false,
+    "T": 0.6895475293467118,
+    "calibration_BCE_raw": 0.13429963005919518,
+    "calibration_BCE_scaled": 0.12201194415578465,
+    "at_boundary": false,
+    "thresholds": [
+      0.575,
+      0.21999999999999997,
+      0.4049999999999999,
+      0.25499999999999995,
+      0.575,
+      0.48999999999999994
+    ]
+  },
+  "exclude2082_mean_logit": {
+    "members": [
+      2080,
+      2081,
+      2083,
+      2084
+    ],
+    "mode": "mean_logit",
+    "primary": false,
+    "T": 0.7509162141044894,
+    "calibration_BCE_raw": 0.12664510736731766,
+    "calibration_BCE_scaled": 0.11913644929400173,
+    "at_boundary": false,
+    "thresholds": [
+      0.5249999999999999,
+      0.20999999999999996,
+      0.5399999999999999,
+      0.175,
+      0.605,
+      0.36499999999999994
+    ]
+  },
+  "exclude2082_mean_probability": {
+    "members": [
+      2080,
+      2081,
+      2083,
+      2084
+    ],
+    "mode": "mean_probability",
+    "primary": false,
+    "T": 0.6818029748489572,
+    "calibration_BCE_raw": 0.13231765155480385,
+    "calibration_BCE_scaled": 0.11954464215750216,
+    "at_boundary": false,
+    "thresholds": [
+      0.5449999999999999,
+      0.22999999999999998,
+      0.5349999999999999,
+      0.19999999999999996,
+      0.6,
+      0.4099999999999999
+    ]
+  },
+  "exclude2083_mean_logit": {
+    "members": [
+      2080,
+      2081,
+      2082,
+      2084
+    ],
+    "mode": "mean_logit",
+    "primary": false,
+    "T": 0.7520615940126163,
+    "calibration_BCE_raw": 0.12703537278585722,
+    "calibration_BCE_scaled": 0.11953257310385756,
+    "at_boundary": false,
+    "thresholds": [
+      0.5449999999999999,
+      0.12499999999999999,
+      0.48499999999999993,
+      0.195,
+      0.62,
+      0.42499999999999993
+    ]
+  },
+  "exclude2083_mean_probability": {
+    "members": [
+      2080,
+      2081,
+      2082,
+      2084
+    ],
+    "mode": "mean_probability",
+    "primary": false,
+    "T": 0.6807309734548764,
+    "calibration_BCE_raw": 0.13218124670918963,
+    "calibration_BCE_scaled": 0.11926250944551196,
+    "at_boundary": false,
+    "thresholds": [
+      0.5449999999999999,
+      0.145,
+      0.4499999999999999,
+      0.33999999999999997,
+      0.5549999999999999,
+      0.5399999999999999
+    ]
+  },
+  "exclude2084_mean_logit": {
+    "members": [
+      2080,
+      2081,
+      2082,
+      2083
+    ],
+    "mode": "mean_logit",
+    "primary": true,
+    "T": 0.755761860053301,
+    "calibration_BCE_raw": 0.13300973109081865,
+    "calibration_BCE_scaled": 0.1257280056514873,
+    "at_boundary": false,
+    "thresholds": [
+      0.5499999999999999,
+      0.16999999999999998,
+      0.4099999999999999,
+      0.25999999999999995,
+      0.5299999999999999,
+      0.39499999999999996
+    ]
+  },
+  "exclude2084_mean_probability": {
+    "members": [
+      2080,
+      2081,
+      2082,
+      2083
+    ],
+    "mode": "mean_probability",
+    "primary": true,
+    "T": 0.6907593333700086,
+    "calibration_BCE_raw": 0.13728597419806393,
+    "calibration_BCE_scaled": 0.1251729262573361,
+    "at_boundary": false,
+    "thresholds": [
+      0.5449999999999999,
+      0.21999999999999997,
+      0.4149999999999999,
+      0.285,
+      0.5049999999999999,
+      0.5049999999999999
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "all_models_and_calibrations_frozen": true,
+  "frozen_utc": "2026-11-09T00:50:48.088856+00:00",
+  "seeds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    2094
+  ],
+  "models": [
+    {
+      "id": "reference_2090",
+      "group": "reference",
+      "seed": 2090,
+      "model": "dfms_iq",
+      "width": 16,
+      "coverage": "W",
+      "initialization": "shared F2",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_W16\\W_2090\\best_BCE.pth",
+      "checkpoint_sha256": "41f989eb2c739b52536d5414db3f231a41585de563cba1f22df7498e07bbe12b",
+      "calibration": {
+        "T": 0.9151691364539923,
+        "calibration_BCE_raw": 0.14523436899858475,
+        "calibration_BCE_scaled": 0.14441040556428272,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.705,
+            0.18,
+            0.44499999999999995,
+            0.30499999999999994,
+            0.4799999999999999,
+            0.42999999999999994
+          ],
+          "temperature": [
+            0.725,
+            0.15999999999999998,
+            0.43999999999999995,
+            0.29,
+            0.4649999999999999,
+            0.42499999999999993
+          ]
+        },
+        "checkpoint_sha256": "41f989eb2c739b52536d5414db3f231a41585de563cba1f22df7498e07bbe12b"
+      },
+      "affine": null
+    },
+    {
+      "id": "reference_2091",
+      "group": "reference",
+      "seed": 2091,
+      "model": "dfms_iq",
+      "width": 16,
+      "coverage": "W",
+      "initialization": "shared F2",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_W16\\W_2091\\best_BCE.pth",
+      "checkpoint_sha256": "fabb64118130e011384da1a2a3f09947f8c1637336fa5610f31e33ff5fe71d7f",
+      "calibration": {
+        "T": 0.9163448728515169,
+        "calibration_BCE_raw": 0.14346405435949203,
+        "calibration_BCE_scaled": 0.14266672286938573,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.73,
+            0.285,
+            0.43999999999999995,
+            0.24,
+            0.37999999999999995,
+            0.605
+          ],
+          "temperature": [
+            0.7499999999999999,
+            0.26999999999999996,
+            0.43499999999999994,
+            0.21999999999999997,
+            0.35999999999999993,
+            0.615
+          ]
+        },
+        "checkpoint_sha256": "fabb64118130e011384da1a2a3f09947f8c1637336fa5610f31e33ff5fe71d7f"
+      },
+      "affine": null
+    },
+    {
+      "id": "reference_2092",
+      "group": "reference",
+      "seed": 2092,
+      "model": "dfms_iq",
+      "width": 16,
+      "coverage": "W",
+      "initialization": "shared F2",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_W16\\W_2092\\best_BCE.pth",
+      "checkpoint_sha256": "ffa35e0371487a86f6520fa6689d80d651c0c69c1be4247f98fe5ee290022288",
+      "calibration": {
+        "T": 0.9161473168990778,
+        "calibration_BCE_raw": 0.1438377582492432,
+        "calibration_BCE_scaled": 0.14302846952213122,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7899999999999999,
+            0.16499999999999998,
+            0.48999999999999994,
+            0.4499999999999999,
+            0.48999999999999994,
+            0.4649999999999999
+          ],
+          "temperature": [
+            0.8049999999999999,
+            0.145,
+            0.48999999999999994,
+            0.44499999999999995,
+            0.48999999999999994,
+            0.4649999999999999
+          ]
+        },
+        "checkpoint_sha256": "ffa35e0371487a86f6520fa6689d80d651c0c69c1be4247f98fe5ee290022288"
+      },
+      "affine": null
+    },
+    {
+      "id": "reference_2093",
+      "group": "reference",
+      "seed": 2093,
+      "model": "dfms_iq",
+      "width": 16,
+      "coverage": "W",
+      "initialization": "shared F2",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_W16\\W_2093\\best_BCE.pth",
+      "checkpoint_sha256": "8d7cb0ab6a66c233b3706347f527ca59b9b394c9476765b3dcea97155480ac27",
+      "calibration": {
+        "T": 0.9430992758784902,
+        "calibration_BCE_raw": 0.14639047429510094,
+        "calibration_BCE_scaled": 0.14602598851099555,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.695,
+            0.25999999999999995,
+            0.4599999999999999,
+            0.32499999999999996,
+            0.36999999999999994,
+            0.35999999999999993
+          ],
+          "temperature": [
+            0.705,
+            0.19,
+            0.42999999999999994,
+            0.31499999999999995,
+            0.36499999999999994,
+            0.3499999999999999
+          ]
+        },
+        "checkpoint_sha256": "8d7cb0ab6a66c233b3706347f527ca59b9b394c9476765b3dcea97155480ac27"
+      },
+      "affine": null
+    },
+    {
+      "id": "reference_2094",
+      "group": "reference",
+      "seed": 2094,
+      "model": "dfms_iq",
+      "width": 16,
+      "coverage": "W",
+      "initialization": "shared F2",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_W16\\W_2094\\best_BCE.pth",
+      "checkpoint_sha256": "461f2db6c74c5f066b4772a3ab23b90a83eee291ed41712e855eb0ad34ab5f62",
+      "calibration": {
+        "T": 0.9071441476806207,
+        "calibration_BCE_raw": 0.141595980778625,
+        "calibration_BCE_scaled": 0.14061611532294271,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7999999999999999,
+            0.3,
+            0.4649999999999999,
+            0.30999999999999994,
+            0.4749999999999999,
+            0.44499999999999995
+          ],
+          "temperature": [
+            0.82,
+            0.27999999999999997,
+            0.4599999999999999,
+            0.295,
+            0.4699999999999999,
+            0.43999999999999995
+          ]
+        },
+        "checkpoint_sha256": "461f2db6c74c5f066b4772a3ab23b90a83eee291ed41712e855eb0ad34ab5f62"
+      },
+      "affine": null
+    },
+    {
+      "id": "candidate_2090",
+      "group": "candidate",
+      "seed": 2090,
+      "model": "dfms_iq",
+      "width": 32,
+      "coverage": "M",
+      "initialization": "scratch",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32\\M_2090\\best_BCE.pth",
+      "checkpoint_sha256": "3d46a5e40ab0f3f3c78e54a4f15aa63402c7db56449b2df71c605e7156dfd52c",
+      "calibration": {
+        "T": 1.1348030427338076,
+        "calibration_BCE_raw": 0.10633968794251569,
+        "calibration_BCE_scaled": 0.10487299778067999,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6749999999999999,
+            0.12,
+            0.49999999999999994,
+            0.16499999999999998,
+            0.22999999999999998,
+            0.5349999999999999
+          ],
+          "temperature": [
+            0.6549999999999999,
+            0.145,
+            0.49999999999999994,
+            0.19,
+            0.25499999999999995,
+            0.5299999999999999
+          ]
+        },
+        "checkpoint_sha256": "3d46a5e40ab0f3f3c78e54a4f15aa63402c7db56449b2df71c605e7156dfd52c"
+      },
+      "affine": null
+    },
+    {
+      "id": "candidate_2091",
+      "group": "candidate",
+      "seed": 2091,
+      "model": "dfms_iq",
+      "width": 32,
+      "coverage": "M",
+      "initialization": "scratch",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32\\M_2091\\best_BCE.pth",
+      "checkpoint_sha256": "dcaf382b1579a5bc5ee082ea254c09a3e86247c4cca34c90544ab0eb081737ef",
+      "calibration": {
+        "T": 1.0373783675905295,
+        "calibration_BCE_raw": 0.08895600494153773,
+        "calibration_BCE_scaled": 0.08884675197941973,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5249999999999999,
+            0.4499999999999999,
+            0.42499999999999993,
+            0.37999999999999995,
+            0.4749999999999999,
+            0.35999999999999993
+          ],
+          "temperature": [
+            0.5249999999999999,
+            0.4499999999999999,
+            0.42499999999999993,
+            0.38499999999999995,
+            0.4749999999999999,
+            0.36499999999999994
+          ]
+        },
+        "checkpoint_sha256": "dcaf382b1579a5bc5ee082ea254c09a3e86247c4cca34c90544ab0eb081737ef"
+      },
+      "affine": null
+    },
+    {
+      "id": "candidate_2092",
+      "group": "candidate",
+      "seed": 2092,
+      "model": "dfms_iq",
+      "width": 32,
+      "coverage": "M",
+      "initialization": "scratch",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32\\M_2092\\best_BCE.pth",
+      "checkpoint_sha256": "be2a0e203db28d42a0262f851fc50afdac48fd5545cd18caa7f666cbf8f4b241",
+      "calibration": {
+        "T": 1.1182412728113738,
+        "calibration_BCE_raw": 0.1092066353885351,
+        "calibration_BCE_scaled": 0.10803114390239237,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7599999999999999,
+            0.16499999999999998,
+            0.6,
+            0.19999999999999996,
+            0.38999999999999996,
+            0.37499999999999994
+          ],
+          "temperature": [
+            0.825,
+            0.19,
+            0.58,
+            0.22499999999999998,
+            0.3999999999999999,
+            0.38999999999999996
+          ]
+        },
+        "checkpoint_sha256": "be2a0e203db28d42a0262f851fc50afdac48fd5545cd18caa7f666cbf8f4b241"
+      },
+      "affine": null
+    },
+    {
+      "id": "candidate_2093",
+      "group": "candidate",
+      "seed": 2093,
+      "model": "dfms_iq",
+      "width": 32,
+      "coverage": "M",
+      "initialization": "scratch",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32\\M_2093\\best_BCE.pth",
+      "checkpoint_sha256": "2f507edb645062f973e7f967d66dec4ec97eaa371fc4c478aeabf200581ccc4e",
+      "calibration": {
+        "T": 1.0612058094877874,
+        "calibration_BCE_raw": 0.09989800436050719,
+        "calibration_BCE_scaled": 0.09959756788152975,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6449999999999999,
+            0.4149999999999999,
+            0.585,
+            0.25999999999999995,
+            0.4099999999999999,
+            0.41999999999999993
+          ],
+          "temperature": [
+            0.635,
+            0.41999999999999993,
+            0.58,
+            0.26999999999999996,
+            0.4149999999999999,
+            0.42499999999999993
+          ]
+        },
+        "checkpoint_sha256": "2f507edb645062f973e7f967d66dec4ec97eaa371fc4c478aeabf200581ccc4e"
+      },
+      "affine": null
+    },
+    {
+      "id": "candidate_2094",
+      "group": "candidate",
+      "seed": 2094,
+      "model": "dfms_iq",
+      "width": 32,
+      "coverage": "M",
+      "initialization": "scratch",
+      "checkpoint": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_M32\\M_2094\\best_BCE.pth",
+      "checkpoint_sha256": "9599a5bdd3b65978255c563c632d649b2afc964ab39db4a3fca285a7a48d19ec",
+      "calibration": {
+        "T": 1.069608060645695,
+        "calibration_BCE_raw": 0.10014038589734425,
+        "calibration_BCE_scaled": 0.09974621935365596,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6699999999999999,
+            0.12499999999999999,
+            0.35999999999999993,
+            0.20999999999999996,
+            0.22499999999999998,
+            0.5399999999999999
+          ],
+          "temperature": [
+            0.6599999999999999,
+            0.13999999999999999,
+            0.36999999999999994,
+            0.22499999999999998,
+            0.24,
+            0.5349999999999999
+          ]
+        },
+        "checkpoint_sha256": "9599a5bdd3b65978255c563c632d649b2afc964ab39db4a3fca285a7a48d19ec"
+      },
+      "affine": null
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\freeze_final.py": "2009a0af8acf56399c8a41d8f34f4d1dd61e2f02fce806ccbc35cd8a22f46d7c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\run_confirmation.py": "b1b452a13e61dc06167b39c4fe8aebfd3da314b9976fc1ccd47e2f4d3a7ad50f",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\prepare_final.py": "77a046824ab24abee0dee30b94d67f8de9ec4c0d93ac330840f61c30384903fd",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\generate_confirmation.m": "fc8ac05e078766cab27863e9d60c25235968036374a9009832cff27b1004a8f9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\generate_confirmation_pairs.m": "3266b77bb02d4a7812a1468cc164f417610d41929aa9b5459216a09a337d7db7",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\06_CONFIRM_GOAL.txt": "81f0c64f8690edc8ba064af3c3ec962321e17f7cc5ff92c0f5860768709b3b22",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\05C_INDEPENDENT_REPLICATION_GOAL.txt": "4ad45acada3cd2e733883ae9ab410d0b5f8e1f93cf69953162b0bae788c9bc77",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\backbone_adapter.py": "bb1a7954d224e1454bab5f5a15be1ca472b02bc2dd615b46cd47312571caf0ea",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\complex_layers.py": "fe14bef1fccc3f69d05dfd35f079289407fb9f63a309061fb5f3bb9557e290f9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_delta_prototype.py": "157f409e65e80e45faea119864eb18bef49deb71ab8fe0b72747896ad1bcf561",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_visibility.py": "8420207b479ea65be5c2c0743c276a42318d110ae36fdd77fed25e50e9617e2b",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\delay_block_self_similarity.py": "7a543e3f3c4f50f3395581967f6658b973ddb7d4ad27aff4c3ae8ccd41a88493",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\dual_axis_sawfm.py": "8dceae9a3d0503e5544429ee60a18d00b5ae0c777377dfea5245b479f1297e61",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\ema_teacher.py": "1fc8c35e84392cf7646f1e588fc455a5cfc0a37240d31b5ae9edeb61bd3d2d58",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\evidence_readout.py": "f01f694eb5a4fed7a1523c52550e4dce0b3e6a9dc3ac77c7a2bde8b9c4387f0a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\frequency_reconstruction.py": "d5b75f869e102eaf070f38575732c24cbea38965297fa8f42d63d10ef2935330",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\label_conditioned.py": "17cd115850a1d8abfedf5676c28e9b0d90974d7452ed1952acee06d65f84af5a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_crosspulse_coherence.py": "b941057f104cce86099fcf248c5f54819ed20ba3dfd070728ebec73e63facbd1",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_delay_autocorrelation.py": "5acedb1a9e3581b74c1f074a091b5aed76618c6fb9bb6ce0c3d4a93ffcbf9f0f",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_higher_order.py": "be54513df871ce784ff887a8c8601f050f6fd2f3c435a11bed1b1af248711616",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_matched_filter_support.py": "2418d69e3cde2afbaf1bc33fea0742dbe3f82a24ce5055caca47d0be8e3f1882",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_omp_residual.py": "eea961b3eef3d09f50d5b4921a138f63bd124e200da7a1607d82cf334212996d",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\multipulse_vft_expert.py": "30a845a10c063ca7a8f083df981d662c14c4119778fc833c11b8ec62c9576cd8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\oracle_parameter_specialists.py": "90bb98c5057a82f13f0ea5d3f14c6e23c5ae4593d7e2bb54bf17cf3ded61a2ab",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\parameter_heads.py": "fbe58150b8a736e82b30d4f2c35010c3ea772c2645c4693702ba628f43856f61",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\phase_multiscale.py": "8674a1ddbe3de6fb91fed00f2db51da9e574a7e8692b20e064a4fa0cd4b8b4e8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\power_ssl.py": "b1bb6ee44f755b9bc190a487457641b03d63b691a35801b5401a78da6a1ed25e",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\prototype_memory.py": "c468b799251792d3bf6f97c5a676c63a22fab0cd137df48ce8cad9a589c31541",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\raat_local_map.py": "fbc70505ffdeda3b35a925f525c1e8481aa55daffb5f64b652c29b2fba4d626b",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_a.py": "0b1f5bb7e22562a218927b8eebf3d360b996eea22fa555cfecd333cb014f5e03",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_b.py": "7c027758d83e9cc6d984cb5d5712dda69adaf16873edba3a802f8de27eeab5fe",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\supervised_joint.py": "feeba2b8464a6134742f8740d3b4e675c8baa53c96be2c76dd862b407b326050",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\target_specific_complex_evidence.py": "bfe6c3c24960800929447173fa537d1979ef33db0c2800d72be9d22149e456d5",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_dechirped_doppler.py": "7a7ad42ee8f090c4719f7e5c756386ed30ed16cf67c369050834792c385b0a71",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_staggered_pri.py": "448def1ee97b407cabb67d3bc883986ef1fa0099a2548e993d788fff0d8d26f9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\__init__.py": "99894ca65660625e315eef7f14b0f1c8f3af3b27804b8f746c73753bcd971ffc"
+  },
+  "selection_evidence_sha256": "2816ce099a48ee7d9ac9761b56cfc020ea515b586c063315bb22a9f4a61aad98",
+  "primary_metric": "raw unweighted hard BCE",
+  "secondary_probability_metric": "global temperature BCE",
+  "decision_rule": "existing independent calibration per-class F1 thresholds",
+  "deadline_deviation": "Final freeze and confirmation occurred after the requested 08:00 CST deadline. All full-network training completed before the deadline. Wide-head extension was not run.",
+  "confirmation_seed": 3108310800,
+  "confirmation_identities": 4032,
+  "post_confirmation_selection": false
+}

@@ -1,0 +1,82 @@
+{
+  "init_path": "E:\\LJQ_code\\CJ_Imbalance_0716\\frozen\\20260731_route_a_visibility_balanced_fusion_v2\\seed_2039\\backbone\\best_model.pth",
+  "init_sha256": "4390ae3cf88c0ac023e399d2bfe6f8357093ef8d23c73fda9c7f4bc78a47e190",
+  "goal_prompt_sha256": "40d10545e5edf319cab3ac1428fc05e5d82d9613181e0fa0027a8525a6ce61d4",
+  "generator_sha256": "0b23e5e57d608451668d3a2bf9c2d3e85060b6e637c3150d401402a797f5c92f",
+  "preparation_sha256": "db2a03d85c2fd3a55cd899dcac753f168b1878c67d45a93316e8ec16328675c2",
+  "historical_overlap_audit": [
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 25200
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 6048
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 186000
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 186000
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 25200
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "noise_overlap": 0,
+      "sample_overlap": null,
+      "derived_sample_overlap": 0,
+      "component_overlap": 0,
+      "derived_sample_formula_verified_against_all_component_seeds": true,
+      "rows": 6048
+    }
+  ],
+  "fresh_component_overlap": 0,
+  "component_overlap_with_original_selected_roles": 0,
+  "role": "same audited candidate pool, quota histogram matched label-margin design",
+  "locked_test_used": false,
+  "source_manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "prompt_sha256": "cbc249bf535786dd1d8bbcc81b61434ad34b2731ed795f5373e68a19fa3d914f",
+  "quota_solution_sha256": "212d186b71351b24b8c9242160c5c0063be9fcce28314753dc2734b9dcc4d7da",
+  "shared_fit_identities": 4861,
+  "same_development_roles": true,
+  "copied_diagnostic_sha256": {
+    "diagnostic_gap0.mat": "c71b4e6bb77cd168c00b1c5bbc6748cce61dc85cf906a1e884e7af204b5980da",
+    "diagnostic_gap5.mat": "93d774e54ae6ff03563c76aa4b17317792a30c00491ef624ab39551f58afef12",
+    "diagnostic_gap10.mat": "aeb6645768f6da986096c3eef2ec61f6c5dd31e0cfff47205404a1a67b816179",
+    "diagnostic_gap15.mat": "d3df58b7cf65e5886d9408cb302190529b03dac413e9b0146e385fc6e92ce602",
+    "diagnostic_pairing_identities.json": "295a1f299b8af23f22e4d7b1fc81eb070ac031cae0dce0a49aaf08e7652935bc",
+    "diagnostic_pairing_receipt.json": "84329bbc4ec83f12687c42b6eee1542446c06fc967700574e33d3c70abaed37c",
+    "diagnostic_absent.mat": "24157525880e46b4121367abb06796fd8ab1a266f937e84de9cc76cc86720d90"
+  },
+  "quota_feasibility_independently_verified": true
+}

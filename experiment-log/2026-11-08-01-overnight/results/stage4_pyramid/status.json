@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "model": "dfms_iq_csfp",
+  "width": 16,
+  "coverage": "M",
+  "initialization": "shared",
+  "runs": 5
+}

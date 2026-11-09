@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "role": "pretraining_metadata_design_audit",
+  "results": {
+    "primary": {
+      "identities": 8000,
+      "all63_combinations": true,
+      "original_label_fraction": [
+        0.841125,
+        0.280375,
+        0.496625,
+        0.487125,
+        0.508625,
+        0.49825
+      ],
+      "expected_label_fraction": [
+        0.6799062499999984,
+        0.3995312499999999,
+        0.5076562499999989,
+        0.5029062499999986,
+        0.5136562499999988,
+        0.5084687499999986
+      ],
+      "original_label_IF": 3.0,
+      "expected_label_IF": 1.7017598748533402,
+      "expected_cardinality_fraction": [
+        0.0,
+        0.06574999999999986,
+        0.22762500000000035,
+        0.3541250000000139,
+        0.24950000000000738,
+        0.08724999999999895,
+        0.01575000000000001
+      ],
+      "expected_unique_identities_per_epoch": 4751.757694265444,
+      "expected_repetition_fraction": 0.40603028821681947,
+      "weight_effective_sample_size": 6362.010536145235,
+      "probability_sha256": "2ec679f2b04cdcc2195d67949c135c9a4ed68ed9c4b402e9977547a3b863c016"
+    },
+    "replication": {
+      "identities": 8000,
+      "all63_combinations": true,
+      "original_label_fraction": [
+        0.841125,
+        0.280375,
+        0.496625,
+        0.487125,
+        0.508625,
+        0.49825
+      ],
+      "expected_label_fraction": [
+        0.6799062499999984,
+        0.3995312499999999,
+        0.5076562499999989,
+        0.5029062499999986,
+        0.5136562499999988,
+        0.5084687499999986
+      ],
+      "original_label_IF": 3.0,
+      "expected_label_IF": 1.7017598748533402,
+      "expected_cardinality_fraction": [
+        0.0,
+        0.06574999999999986,
+        0.22762500000000035,
+        0.3541250000000139,
+        0.24950000000000738,
+        0.08724999999999895,
+        0.01575000000000001
+      ],
+      "expected_unique_identities_per_epoch": 4751.757694265444,
+      "expected_repetition_fraction": 0.40603028821681947,
+      "weight_effective_sample_size": 6362.010536145235,
+      "probability_sha256": "2ec679f2b04cdcc2195d67949c135c9a4ed68ed9c4b402e9977547a3b863c016"
+    }
+  },
+  "source_sha256": "5de2bf84c68587adb9cbb3210888dea5ef44deb5d8892ca7b225027b5c5a83ca"
+}

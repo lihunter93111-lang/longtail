@@ -1,0 +1,21 @@
+{
+  "status": "completed_and_verified",
+  "requested_deadline": "2026-11-09 08:00 Asia/Shanghai",
+  "completed_at": "2026-11-09T08:58:25.4208720+08:00",
+  "full_network_runs": 60,
+  "full_network_epochs": 2400,
+  "frozen_head_fits": 30,
+  "linear_probes": 35,
+  "final_confirmation_passed": true,
+  "final_raw_bce_reference": 0.1420136055611501,
+  "final_raw_bce_candidate": 0.09899815529241271,
+  "report": "RESULTS.txt",
+  "stages": "STAGE_ANALYSIS.txt",
+  "long_term_plan": "LONG_TERM_PLAN.txt",
+  "long_term_goals": "long_term_goals",
+  "delivery_manifest": "delivery_manifest.json",
+  "deadline_deviation": "Final freeze, confirmation and delivery completed after08:00; full training completed before08:00",
+  "unexecuted": "03E wide-backbone head adaptation",
+  "external_root": "E:/LJQ_code/LJQ_code_experiment_storage/overnight_v1/20261108_01",
+  "active_sessions": []
+}

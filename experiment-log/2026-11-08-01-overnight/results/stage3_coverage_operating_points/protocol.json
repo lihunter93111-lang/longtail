@@ -1,0 +1,8 @@
+{
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "model_freeze_sha256": "056369c63051cdc0ca9e607b0da39316613fa741dfa7eb59ecaa4bd94bb5277c",
+  "thresholds_sha256": "b8f6642b64605dc35febbecd77b8d2bbfcb904a643690fc13c95a002a3326689",
+  "operating_point": "FPR_plus_0",
+  "source_sha256": "70079ce593cabb9e0cc02f79de69c49f9319a9e0d9c4e1c795c8b8130b65464d",
+  "role": "adaptive_development"
+}

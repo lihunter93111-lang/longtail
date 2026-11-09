@@ -1,0 +1,34 @@
+阅读与复现入口
+
+先读RESULTS.txt了解最终结论、数据/模型合同和时间偏差，再读STAGE_ANALYSIS.txt了解全部阳性、部分支持和失败分支。LONG_TERM_PLAN.txt及long_term_goals目录给出后续七阶段目标。
+
+当晚Goal
+GOAL_PROMPT.txt为总目标，01–07文件为主阶段提示词，带字母后缀的Goal为开始相应追加实验前保存的规则。03E_WIDE_HEAD_GOAL.txt已制定但未执行，final_freeze选择原始width32分类头。
+
+代码调用
+run_pipeline.py连接新数据审计、配对视图与B/W/M训练。training.py复用11月6日弱分量实验的加载、指标与保存逻辑，resume_stage2.py提供日志导入修复和完整状态恢复。
+run_variant.py复用同一数值训练器，处理结构、容量和初始化条件。run_capacity_queue.py按顺序运行参数匹配控制和容量×分布矩阵，run_replication_queue.py执行第二数据划分的W16/M32五种子复验。
+run_heads.py、run_coverage_heads.py与校准脚本完成冻结骨干诊断。run_generic_heads.py是已准备的宽骨干头训练入口，本次未执行。
+freeze_final.py保存最终模型/校准和源码hash。run_final_pipeline.py顺序运行确认数据生成、身份审计、物理配对、run_confirmation.py评分。最终确认已经消费，应复算既有预测。新研究需独立数据角色。
+verify_overnight.py复核60次完整训练，build_delivery.py独立复算最终自然与功率指标并复制轻量交付。plot_overnight.py重绘科学图。
+
+环境与数据
+Python使用D:\anaconda3\envs\PY10\python.exe，MATLAB使用D:\Matlab\bin\matlab.exe。详细软件版本见results/environment.json。
+外部实验根目录为E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01。data、balanced_data、replication_data对应训练/开发数据角色，final_confirmation_data对应预留确认。MAT、PTH和完整NPZ预测保留在该外部根目录。
+results保留外部目录结构的轻量结果、协议、历史和收据。delivery_manifest.json登记每个已复制文件的SHA256。较大的身份逐行记录和原始生成manifest仍位于外部存储，源文件hash和审计收据保存在交付中。
+
+主要结果定位
+capacity_matrix_review.json为匹配宽度和数据分布交互。
+replication_comparison.json为第二套训练身份复验。
+final_freeze.json给出最终10个模型的完整路径、hash、种子、温度和每类阈值。
+final_confirmation_results/decision.json记录最终比较与全部保护检查。
+final_confirmation_results/metrics.csv、labels.csv、combinations.csv、natural_slices.csv、paired_power_metrics.csv保存逐种子指标。
+verification_full60.json、verification_final.json保存复核结果。
+figures目录保存PNG图像。
+
+复算命令示例
+在本目录运行以下命令，参数路径可按实际外部存储迁移更新。
+& 'D:\anaconda3\envs\PY10\python.exe' '.\verify_overnight.py' --root 'E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01' --output 'E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01\verification_full60.json'
+& 'D:\anaconda3\envs\PY10\python.exe' '.\plot_overnight.py' --root 'E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01' --output 'E:\LJQ_code\LJQ_code_experiment_storage\overnight_v1\20261108_01\figures'
+
+截至本次交付，全部内容保存在本地项目和E盘外部实验存储。

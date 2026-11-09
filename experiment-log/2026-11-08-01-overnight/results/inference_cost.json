@@ -1,0 +1,44 @@
+{
+  "device": "NVIDIA GeForce RTX 5080",
+  "precision": "FP32 TF32 disabled",
+  "timing": "100 CUDA-event measurements after20 warmups, synthetic resident inputs, inference_mode",
+  "source_sha256": "435a4fc481746f9d2b497baf75351081732ece1562a1470d77005b2cd060f914",
+  "rows": [
+    {
+      "width": 16,
+      "batch": 1,
+      "parameters": 257511,
+      "median_batch_ms": 4.33569598197937,
+      "p95_batch_ms": 4.544102358818054,
+      "median_per_sample_ms": 4.33569598197937,
+      "peak_allocated_MiB": 13.33203125
+    },
+    {
+      "width": 16,
+      "batch": 32,
+      "parameters": 257511,
+      "median_batch_ms": 5.9358720779418945,
+      "p95_batch_ms": 13.251739454269408,
+      "median_per_sample_ms": 0.1854960024356842,
+      "peak_allocated_MiB": 111.1123046875
+    },
+    {
+      "width": 32,
+      "batch": 1,
+      "parameters": 1013191,
+      "median_batch_ms": 6.148240089416504,
+      "p95_batch_ms": 6.339249610900879,
+      "median_per_sample_ms": 6.148240089416504,
+      "peak_allocated_MiB": 19.3232421875
+    },
+    {
+      "width": 32,
+      "batch": 32,
+      "parameters": 1013191,
+      "median_batch_ms": 9.760560035705566,
+      "p95_batch_ms": 11.682894659042358,
+      "median_per_sample_ms": 0.30501750111579895,
+      "peak_allocated_MiB": 215.994140625
+    }
+  ]
+}

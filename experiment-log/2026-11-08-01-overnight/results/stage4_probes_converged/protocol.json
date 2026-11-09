@@ -1,0 +1,10 @@
+{
+  "source_sha256": "9535ac98b601406149a52f10828a6fb754553bd47ee2d4a79cfa31bc10eff1d7",
+  "prior_protocol_sha256": "1ff550167c79196c9c93698e3e5d2b213506a68d74daf97b93573de8500814c1",
+  "reason": "8 of 210 class probes reached max_iter300",
+  "new_limit": 1500,
+  "warm_start": true,
+  "C": 1.0,
+  "tol": 1e-05,
+  "data_and_regularization_changed": false
+}

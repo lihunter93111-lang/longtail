@@ -1,0 +1,7 @@
+{
+  "amendment": "Before any model training, added evaluation-only tail-set definitions. Quotas and selected identities unchanged.",
+  "sha256": "cbc249bf535786dd1d8bbcc81b61434ad34b2731ed795f5373e68a19fa3d914f",
+  "recorded_utc": "2026-11-09T04:36:39.8203778Z",
+  "current_goal_sha256": "308a26a3321868c551c2ea1368b69fc98bd20ea5d3065514795c8ceca3cc7192",
+  "text": "阶段7追加受控数据初筛Goal\n依据07A已验证的可行配额，从同一25200原始候选池选择8000训练身份，保留全部63组合、组合阶数总量及各阶数配额多重集合，标签正例数按已得到的近均衡方案分配。记录实际共享身份、共现和逐类功率分布。early_stop/calibration/development沿用相同原始身份，物理M覆盖规则相同。\n先完成身份清单和物理视图准备。主采样实验结束后，只有新增3次完整训练仍满足30次总量上限且预计能在16:00前结束时，才追加2100–2102三种子开发初筛，使用预算诊断确定的公共轮数。\n参照对应预算的自然IF3三模型，匹配初始化、总更新和评估身份。数据条件改变了配额的语义归属、部分训练身份与共现结构，这些因素均记录。报告raw BCE、AP、exact、逐类FPR/FNR和功率结果。\n该阶段定位为数据轴设计的三种子开发初筛，进入后续长期研究证据。最终确认候选按此前完整晋级规则选择。若时间或训练总量不足，保存已验收的数据设计与后续Goal。\n"
+}

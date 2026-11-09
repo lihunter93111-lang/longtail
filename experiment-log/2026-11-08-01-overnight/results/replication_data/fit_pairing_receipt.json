@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "mode": "fit",
+  "identity_count": 8000,
+  "gaps": [
+    10,
+    15
+  ],
+  "view_counts": [
+    4553,
+    2475
+  ],
+  "raw_reconstruction_max_abs": 0,
+  "intervention_delta_max_abs": 5.1516262484673605E-14,
+  "intervention_delta_max_relative": 9.5488787302749887E-16,
+  "single_target_delta_verified": true,
+  "locked_test_used": false
+}

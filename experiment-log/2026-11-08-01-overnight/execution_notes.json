@@ -1,0 +1,33 @@
+[
+  {
+    "stage": "implementation_preflight",
+    "time": 1794140786.1531541,
+    "issues": [
+      "Generated training adapter indentation corrected before execution",
+      "Windows path literal converted to forward slash before preparation"
+    ],
+    "numerical_protocol_changed": false
+  },
+  {
+    "stage": "stage2_seed2080_B_epoch5",
+    "time": 1794141023.17079,
+    "issue": "Missing json import in logging path; epoch5 recovery saved before error",
+    "fix": "resume_stage2.py injects json module, resumes frozen numeric trainer from full state",
+    "numerical_protocol_changed": false,
+    "wrapper_sha256": "b00f595046318a2ac3ae05d7ea24642c65420fa1c9014556ff548618045f7526"
+  },
+  {
+    "stage": "linear_probe_numerical_refinement",
+    "issue": "8 of210 logistic fits reached300 iteration limit",
+    "fix": "Continue these8 fits with same C,tolerance,data and max_iter1500; all210 converged. New results in stage4_probes_converged",
+    "model_selection_hyperparameters_changed": false
+  },
+  {
+    "stage": "deadline_deviation",
+    "requested_deadline": "2026-11-09 08:00 Asia/Shanghai",
+    "observed_late_check": "2026-11-09 08:49 Asia/Shanghai",
+    "all_full_training_completed_before_deadline": true,
+    "late_work": "final freeze, reserved confirmation evaluation, verification and delivery",
+    "wide_head_03E": "not executed"
+  }
+]

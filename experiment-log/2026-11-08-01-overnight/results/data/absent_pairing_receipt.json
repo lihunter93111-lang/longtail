@@ -1,0 +1,9 @@
+{
+  "status": "verified",
+  "identities": 2740,
+  "max_abs_residual": 3.5571517988054757E-14,
+  "max_relative_residual": 3.2434027213907016E-16,
+  "receiver_noise_and_other_components_verified": true,
+  "label_and_parameter_metadata_updated": true,
+  "role": "adaptive_development_counterfactual"
+}

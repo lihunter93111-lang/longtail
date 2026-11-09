@@ -1,0 +1,16 @@
+{
+  "regularization": 0.001,
+  "scale_bounds": [
+    0.25,
+    4
+  ],
+  "bias_bounds": [
+    -2,
+    2
+  ],
+  "source_sha256": "d0a94b7a4760c4854aa596f1c61385c7e5b7975c17fc5031b9039ee333e591b6",
+  "prompt_sha256": "b1800dc0ed93804489f95232cc8d8cf47fd490a93370cb0bb62e8c59938cc6b8",
+  "model_freeze_sha256": "a70a91e28cd6ba545bd20bd180e3e308d1ee09298c4e0b0cb44d827dc7dadf88",
+  "fit_role": "calibration",
+  "score_role": "adaptive_development"
+}

@@ -1,0 +1,27 @@
+{
+  "epochs": 40,
+  "estimated_training_seconds_per_run": 355.90688312530517,
+  "planning_utc": "2026-11-09T04:47:41.274381+00:00",
+  "remaining_seconds": 11538.725618839264,
+  "primary_seeds": [
+    2100,
+    2101,
+    2102,
+    2103,
+    2104
+  ],
+  "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_reference_primary",
+  "candidate": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\sampling_candidate_primary",
+  "budget_decision": "E:\\LJQ_code\\LJQ_code_experiment_storage\\daytime_v1\\20261109_01\\budget_decision.json",
+  "status": "primary_failed_promotion",
+  "primary_checks": {
+    "relative_BCE_reduction_ge2pct": false,
+    "positive_seeds_ge4": false,
+    "AP_guard": true,
+    "exact_guard": true,
+    "tail_guard": true,
+    "FMB_FPR_guard": true,
+    "SawFM_FPR_guard": true,
+    "ISRJ_weak_FNR_guard": true
+  }
+}

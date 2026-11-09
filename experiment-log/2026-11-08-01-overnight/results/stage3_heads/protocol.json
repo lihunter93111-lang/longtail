@@ -1,0 +1,27 @@
+{
+  "arms": [
+    "W",
+    "M"
+  ],
+  "seeds": [
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "epochs": 40,
+  "lr": 0.001,
+  "batch": 32,
+  "weight_decay": 0.0001,
+  "clip": 5,
+  "input": "frozen eval-mode 128d features from original natural fit identities",
+  "initialization": "copy corresponding trained W/M classifier weights",
+  "balanced_weights": "N/(2Npos),N/(2Nneg)",
+  "selection": "minimum hard unweighted early-stop BCE",
+  "calibration": "global T and per-class F1 grid",
+  "source_sha256": "177bfcff12ac3726e1c5e24c7a5bf94953f9504a730004c455820f86adbb132b",
+  "manifest_sha256": "557c7ecc76e3a7a4ba7a8ba58ddb3e1d5f9a16254b0c5e50095e8ac059cee933",
+  "backbone_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9",
+  "role": "adaptive_development"
+}

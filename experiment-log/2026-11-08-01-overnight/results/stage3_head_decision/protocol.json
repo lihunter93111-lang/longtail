@@ -1,0 +1,23 @@
+{
+  "reference": "W F1 calibration FPR per seed and label",
+  "grid": [
+    0.05,
+    0.95,
+    0.005
+  ],
+  "FPR_tolerances": [
+    0,
+    0.005,
+    0.01
+  ],
+  "selection": "maximum calibration recall under reference FPR+tolerance; largest threshold for recall ties",
+  "data_role": "adaptive_development",
+  "source_sha256": "c61849921a931a5761230466182ec80db63b410fb2e1333d93e55ab1bd857ef1",
+  "freeze_sha256": "4c89f479098c4f718e65877a706311b8ceb7a09c2b0e99e1e31ad47f823cbc7f",
+  "reference_freeze_sha256": "a36e31c86c1fea64de706074cce45e5ca92a0b81e215b92f6f6948593b31ecf9",
+  "arms": [
+    "WB",
+    "MH",
+    "MB"
+  ]
+}
