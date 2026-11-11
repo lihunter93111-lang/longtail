@@ -1,0 +1,25 @@
+复放与重训是两个不同入口
+
+一、师弟只检查模型与结果
+复制runtime_package.json指向的ZIP，先核对SHA256再解压。查看environment_reference.json中本次实际验证的Python、PyTorch和依赖版本；按本机安装匹配的CPU/CUDA环境。
+运行portable_runtime.py，只依赖包内source/、weights/、records/，不读取原机器E/D盘实验目录。输入未经归一化的float数组[N,2,3000]，I/Q两通道；模型会按同一公式作复数RMS归一化。
+主要决策使用records内的F1阈值。diagnostics内的fixed_fpr_operating_point.json仅保存5%校准误报目标的附加logit阈值，不能误当成主阈值。
+verify_portable.py是完整复放验证器，需要runtime_replay_development或runtime_replay_confirmation中的少量输入及预期logit。它在隔离Python进程中验证源代码确实来自解压目录，覆盖63种组合；另验证代表模型的CPU结果。GPU/CPU浮点结果允许文件中记录的小误差。
+
+二、完整复现本轮训练
+训练程序仍引用历史冻结输入；不能只有推理ZIP就声称已具备完整训练数据。
+需要下载或复制external_artifacts.json和input_audit.json所指数据/权重，并核对SHA256。旧模型与读出来自11月9—11日目录，新矩阵数据来自本轮matrix目录。
+本轮protocol.json定义repository、storage、historical_source、historical_readouts、baseline_root、marginal_root和generator_config。
+common.py还读取仓库11月10日、11月11日实验目录的protocol.json；前者和后者包含各自remote_source及历史存储路径。历史run_weak_goal.py再导入LT-ABC接口。因此只改本轮storage一个字段不足以在新机器重训。
+在新的日期目录或隔离工作树中建立本机路径配置和映射清单，保留原冻结协议副本；新跑的源码、协议和模型会有新哈希，应按“重现新运行”记录，不能冒用原收据。不要在归档目录直接批量替换路径后继续使用原冻结证明。
+
+调用顺序
+1. audit_inputs.py核原输入；新的机器映射需要先核映射后字节哈希。
+2. generate_pools.m / prepare_roles.py生成并验收开发身份。
+3. factorial_fusion.py fit，再score development；analyze_factorial.py分析。
+4. generate_physical_pairs.m及evaluate_physical.py；verify_physical.py复算。
+5. 矩阵数据和视图验收后，train_matrix.py按完整A/B/C三臂运行；analyze_matrix.py只接受完整标记。
+6. 所有开发选择完成后运行confirm_and_verify.ps1：最后一次分析、迁移验证、计时、冻结、新确认生成、评分和数值复核。该脚本要求训练进程已经退出。
+7. 阅读结果及图后再运行curate_delivery.py、completion_audit.py，完成Git提交与远端验证。
+
+本轮已消费的开发和确认不能变成后续新模型的独立确认。任何新结构、阈值或配额探索先建立新协议，再冻结并生成新确认。

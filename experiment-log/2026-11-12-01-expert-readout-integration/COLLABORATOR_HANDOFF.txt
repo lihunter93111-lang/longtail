@@ -1,0 +1,93 @@
+2026-11-12 宽骨干、专家与读出整合：协作入口
+
+先读什么
+1. RESULTS.txt：最终完成范围、实际结果和未通过的结论。若尚未生成，说明本轮仍在执行，不用开发草稿代替最终结论。
+2. LONG_TERM_PLAN.txt：五段长期路线以及双方分工建议。
+3. GOAL_PROMPT.txt：本轮总目标。01—07及01A/03A/03B/03C/04A/04B/04C/04D/04E/05A文件为阶段提示词与依据结果作出的决定。03D为尚未执行的常见组合联合保护方案；04F保留第二套身份初步重复后的继续决策。
+4. protocol.json、matrix_protocol.json：种子、路径、模型与数据规则。历史绝对路径用于重建审计；换机器先映射路径，禁止把不存在的权重替换成相似名称。
+
+方法怎样连接
+输入复数I/Q → 每身份复数RMS归一化 → W32主模型。
+主模型的时序特征同时进入全局统计或1/2/4段统计 → 固定PCA128 → 隐藏宽度32的标签残差头。
+全局/分段统计输入为512/3584维，MLP容量相同而PCA投影存储不同；两种成本分别报告。
+第二个W32专家处理同一输入。每标签以主模型logit、专家logit和局部残差三个数作同预算仿射融合。
+无读出时局部残差为0；分段读出共享主模型骨干，因此正常推理最多两个骨干。
+A专家用自然目标，B匹配C的每标签正/负目标边际，C按组合加权。B并不等同于“所有标签完全均衡”。
+阈值只在calibration拟合。保护版在校准集约束六标签误报及弱召回；不可行时整列回退到对应无读出的决策。开发与确认仍需另外检查保护是否保持。
+
+每层目录做什么
+仓库根目录
+  projects/CJ_Imbalance_0716/cjlt/models/：骨干、复数层、多尺度特征和分段读出。
+  projects/CJ_Imbalance_0716/cjlt/engine/：特征变换、融合、训练与评价工具。
+  data_generation/0716/可配置组合干扰数据生成/：MATLAB仿真、组合清单、分量与噪声的可复现构造。
+  experiment-log/：按日期保留已经执行的协议、代码和结果；历史目录不覆盖。
+
+本实验目录（experiment-log/2026-11-12-01-expert-readout-integration/）
+  common.py：连接已有已验证接口和本轮配置。
+  audit_inputs.py：模型/数据哈希、标签顺序、读出与主骨干一致性。
+  generate_pools.m + prepare_roles.py：生成新身份并核对样本、噪声、分量种子隔离。
+  audit_identity_registry.py：直接核对历史与新池保存的分量种子，按文件哈希缓存身份索引；确认评分前核对全部旧池和另一套新确认。
+  factorial_fusion.py：拟合19种决策，保存每种子权重和阈值，再做开发/确认评分。
+  analyze_factorial.py：同种子差、交互、纠正/新增错误和六标签代价。
+  generate_physical_pairs.m + evaluate_physical.py：同背景/噪声下目标0/10/15 dB及移除四视图。
+  verify_physical.py + diagnose_readouts.py：保存后的原始波形差分复核、独立评分和残差诊断。
+  diagnose_backgrounds.py：按真实训练配额分头中尾组合，并按其他五标签背景检查六标签的纠正/新增错误；这是观察性分组，不是物理干预。
+  generate_matrix_pools.m + prepare_matrix.py：两套候选池、固定配额、随机优先顺序和角色划分。
+  generate_matrix_fit_views.m：只为训练身份生成配对弱视图。
+  train_matrix.py：同初始化/顺序/40轮训练A/B/C；仅完整三臂生成matched_triad标记。
+  matrix_queue.py：按成套三臂领取任务、预留时间并保存完成或失败收据。
+  verify_matrix_contract.py：独立复核40轮初始化、顺序、弱视图呈现、正负目标边际以及导出权重与校准状态的一致性。
+  analyze_matrix.py：只统计完整配对，区分当前配额尾部和历史尾部；单种子不画置信区间。
+  matrix_operating_points.py + verify_operating_points.py：所有三臂在共同5%校准FPR目标下的附加诊断与独立复核，主F1阈值保持不变。
+  minimal_quota_control.py：新CF配额的整数可行性设计；结果不是训练结果。
+  freeze_final.py：锁定所有候选、阈值、源码和数据索引，随后才允许生成确认身份。
+  score_matrix.py：只评冻结清单中的完整矩阵三臂。
+  runtime.py：普通I/Q前向实现；verify_core.py独立复算评分。
+  portable_runtime.py + export_runtime.py + verify_portable.py：迁移包、去重权重和独立Python进程复放。
+  benchmark_runtime.py：无其他实验并发时测量推理成本。
+  supervision_control.py：让冻结单W32使用同一fusion_fit做逐标签仿射校准，10项单列控制；不修改原190决策，不等于同总计算实验。
+  results/、figures/：发布时整理的轻量收据、分析与图，具体清单以交付manifest为准。
+
+外部大文件目录：D:/longtail_experiments/20261112_integration/
+  split1/、split2/：两套独立身份；内部data/存MAT，development/与confirmation/存角色manifest。
+    decision_models/：冻结决策JSON。
+    scores/：按源模型/数据哈希绑定的原始logit缓存；属于可重建中间产物。
+    development_results/、confirmation_results/：融合预测NPZ及评分JSON，两个角色不能混用。
+    physical_development/、physical_confirmation/：物理四视图的原始MAT及配对收据。
+    physical_*_results/：上述视图上的冻结预测与诊断。
+  matrix/split*/条件名/data/：该条件8000身份索引、配额和训练弱视图。
+  matrix/split*/条件名/training/专家/M_种子/：40轮历史、恢复点、选择权重及训练收据。
+  matrix/split*/条件名/models/：实际用于推理的权重、阈值与来源收据。
+  matrix/split*/条件名/*_results/：开发或确认预测，不以文件存在代替matched_triad完整性。
+  matrix/queue/：任务领取、日志、完成/失败/未开始收据。
+  supervision_control/：新增单模型监督控制的协议、10个仿射决策及开发/确认评分；没有新骨干权重。
+  analysis/：可复算汇总，保留每个划分和种子。
+    background_diagnostics_*_details.json.gz：全部组合与背景切片的UTF-8 JSON，gzip无损压缩；同名摘要JSON含哈希和分组结果。Python用gzip.open(path, 'rt', encoding='utf-8')后交给json.load即可读取。
+  future_minimal_quota/：只完成设计、尚未训练的配额，不能引用成性能提升。
+  identity_registry/：按源MAT哈希缓存已直接核验的sample/noise/分量种子索引；包含旧九类池的隔离审计，不代表这些池参与本轮训练。
+  runtime_bundle/：可复制给另一台机器的推理包，source/源码、weights/哈希去重权重、records/冻结决策、index.json入口。
+  runtime_replay_*/：少量独立复放输入与预期logit，用于检查迁移一致性。
+  longtail_integration_runtime_20261112.zip：交付时打包source/weights/records及replay/；解压后先读REPLAY_GUIDE.txt，可用内置64身份/划分的样例检查全部63组合。样例属于已消费开发/确认子集，仅用于复放。完整训练池仍需外部交接。
+
+数据角色为什么分开
+fit：更新骨干、小头或PCA；每骨干8000身份、40轮、10000次更新、累计320000身份呈现。
+M训练视图沿用SawFM/MFT/ISRJ目标的10/15 dB规则；六标签物理诊断不代表六标签都采用了弱视图增强。
+early：选择训练检查点，不拟合阈值。
+calibration：拟合最终阈值与校准保护，不选网络。
+fusion_fit：主整合额外4032个有标签身份，用于融合系数；属于额外监督，必须计入公平性讨论。
+development：探索方向与解释，不是最终独立证据。
+confirmation：本轮全部候选冻结后生成，只做确认；评分后即成为已消费证据，后续改模型要新确认身份。
+同一身份的多个物理视图不是独立样本，五个训练种子也不是五套测试数据。
+
+当前分工建议
+你这一侧继续统一数据、配额、宽骨干、批量训练、冻结确认和报告。本轮由代理执行这些工作。
+师弟有空时优先做三个小任务：确认分段读出的canonical版本；审阅少量存在/移除失败样本的物理合理性；解释哪些局部统计能区分目标和背景。暂不让他重复跑大矩阵或维护另一套训练系统。
+需要改结构时，每次只改一个机制，并保留同宽度的global与none控制。只有完成结果汇总后再决定下一轮结构；不把分工建议写成师弟已经承诺的任务。
+
+归属与边界
+师弟已提交的分段读出等模块是整合基础；本目录的W32移植、统一控制和本地结果属于本侧完成的整合实验，不能写成师弟服务器已经验证的同一结果。尚未提交的师弟新实验不纳入本轮证据。
+当前优先组合长尾、标签长尾；功率用于物理诊断，功率长尾作为后续独立扩展。开集和持续学习不在本轮范围。
+
+近单位权重的新诊断
+04G_NEAR_UNITY_DIAGNOSTIC_GOAL.txt与diagnose_near_unity.py读取既有近IF1训练轨迹，检查权重幅度及同规则选轮。B权重与1仅相差约0.023%或0.036%，仍观察到不同方向的Exact变化，包括A/B同为第34轮时相差1.637pp的案例。不能把这些变化直接当作解决严重标签长尾的证据，也不能未经A/A重复就判定是某一种数值机制。
+下一阶段由本侧增加精确全1的A/A重复与共同末轮对照，师弟无需为此改动读出结构。当前已执行轨迹审计；新的A/A训练尚未执行。

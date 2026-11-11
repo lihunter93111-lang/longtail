@@ -1,0 +1,92 @@
+{
+  "approved_development_decision": true,
+  "stage_goal": "04D_MATRIX_REPLICATION_GOAL.txt",
+  "stage_goal_sha256": "f244f6ff0323910c28ac2404626db045ec6232078d6b46bd6ba020b4e5a624d1",
+  "cutoff": "2026-11-12T07:30:00+08:00",
+  "minimum_seconds_per_model": 650,
+  "reserve_factor": 1.1,
+  "jobs": [
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF3",
+      "seed": 2500
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2500
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_IF3",
+      "seed": 2500
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2500
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF3",
+      "seed": 2501
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2501
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_IF3",
+      "seed": 2501
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2501
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF3",
+      "seed": 2501
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2501
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_IF3",
+      "seed": 2501
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2501
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF3",
+      "seed": 2502
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2502
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_IF3",
+      "seed": 2502
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2502
+    }
+  ],
+  "expected_additional_models": 48,
+  "expected_total_complete_models": 60
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "factorial",
+  "seed": 2203,
+  "expert": "combo",
+  "readout": "global",
+  "weights": [
+    [
+      0.47168487310409546,
+      1.0531753301620483,
+      0.0
+    ],
+    [
+      0.9044931530952454,
+      0.668691098690033,
+      0.0
+    ],
+    [
+      0.5502002239227295,
+      0.48837095499038696,
+      0.12388528883457184
+    ],
+    [
+      0.49275290966033936,
+      0.6379364132881165,
+      0.0
+    ],
+    [
+      0.6191180944442749,
+      0.2987235486507416,
+      1.329142451286316
+    ],
+    [
+      0.4200422465801239,
+      0.45091503858566284,
+      0.0
+    ]
+  ],
+  "biases": [
+    0.5268002152442932,
+    2.497474431991577,
+    0.5584928393363953,
+    1.1891887187957764,
+    0.5338068604469299,
+    0.31254494190216064
+  ],
+  "models": {
+    "reference": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\best_BCE.pth",
+      "sha256": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d"
+    },
+    "combo": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth",
+      "sha256": "db0543043bb95bad866f42b160b3c066ac3af9130412b6a8cf70e1fdfe1c7774"
+    },
+    "global": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2203\\model.pth",
+      "sha256": "61a88c0948f6ce0207af06993ca78a1d129c9465cbd9f8292cf533918116dc71"
+    }
+  },
+  "protocol_sha256": "431681b8b99231847c986e1c7e6bb65bbd68ff338026e786cc4a9f44c14c302c",
+  "thresholds": [
+    0.4599999999999999,
+    0.5299999999999999,
+    0.595,
+    0.4549999999999999,
+    0.44499999999999995,
+    0.4599999999999999
+  ]
+}

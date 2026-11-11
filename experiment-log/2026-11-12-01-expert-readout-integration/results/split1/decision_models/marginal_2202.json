@@ -1,0 +1,20 @@
+{
+  "kind": "single",
+  "group": "marginal",
+  "seed": 2202,
+  "thresholds": [
+    0.3999999999999999,
+    0.10999999999999999,
+    0.24999999999999994,
+    0.27499999999999997,
+    0.43499999999999994,
+    0.57
+  ],
+  "models": {
+    "marginal": {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\model.pth",
+      "sha256": "705adb7387ea5ee26cecf11a3eda5c2170ab00a612f47bee9c4076bb672e0b2f"
+    }
+  },
+  "protocol_sha256": "431681b8b99231847c986e1c7e6bb65bbd68ff338026e786cc4a9f44c14c302c"
+}

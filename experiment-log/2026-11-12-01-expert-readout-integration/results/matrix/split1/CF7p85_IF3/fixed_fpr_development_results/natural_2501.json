@@ -1,0 +1,66 @@
+{
+  "split": "split1",
+  "cell": "CF7p85_IF3",
+  "seed": 2501,
+  "expert": "natural",
+  "exact": 0.7718253968253969,
+  "BCE": 0.10541865458034602,
+  "labels": [
+    {
+      "label": "FMB",
+      "FPR": 0.06098790322580645,
+      "recall": 0.98974609375,
+      "weak_recall": 0.9519450800915332,
+      "weak_positive_n": 437,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.9641726534272084
+    },
+    {
+      "label": "AMA",
+      "FPR": 0.055443548387096774,
+      "recall": 0.99462890625,
+      "weak_recall": 0.9761388286334056,
+      "weak_positive_n": 461,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.985775694001568
+    },
+    {
+      "label": "SawFM",
+      "FPR": 0.03881048387096774,
+      "recall": 0.94873046875,
+      "weak_recall": 0.7739130434782608,
+      "weak_positive_n": 460,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.872841181343341
+    },
+    {
+      "label": "SinFM",
+      "FPR": 0.061995967741935484,
+      "recall": 0.98291015625,
+      "weak_recall": 0.9274725274725275,
+      "weak_positive_n": 455,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.9544369846559108
+    },
+    {
+      "label": "MFT",
+      "FPR": 0.043850806451612906,
+      "recall": 0.96044921875,
+      "weak_recall": 0.8322981366459627,
+      "weak_positive_n": 483,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.8973673523648544
+    },
+    {
+      "label": "ISRJ",
+      "FPR": 0.04586693548387097,
+      "recall": 0.90576171875,
+      "weak_recall": 0.6639344262295082,
+      "weak_positive_n": 488,
+      "negative_n": 1984,
+      "weak_vs_negative_AP": 0.7981910340047448
+    }
+  ],
+  "operating_point_sha256": "4dfe54b3a533c3c476b13057eed52f65296eb5d0707b2b19e78950db8f57a4d4",
+  "prediction_source_sha256": "f57a43d747c4d1f08ee5de1a5a6acb7d02fdc2dbf50f0b4d9e76f494e3c6141c"
+}

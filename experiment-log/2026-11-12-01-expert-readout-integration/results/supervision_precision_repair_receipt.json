@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "decisions_unchanged": 10,
+  "fields": [
+    "scales",
+    "biases",
+    "thresholds",
+    "full_allocated_weights"
+  ],
+  "reason": "Verifier ECE bin-label mean used bool/float64 instead of stored float32 labels; observed difference 3.971171484e-9. Match declared scorer arithmetic without changing tolerance or learning. All ten fits rerun with corrected version; parameters and thresholds exactly equal.",
+  "archive": "D:\\longtail_experiments\\20261112_integration\\supervision_control_verifier_precision_v1",
+  "before_source_sha256": "85603c8007e453653674a7c9b78fe9224258d64e7740ee71b9316c2ecf22b488",
+  "rows": [
+    "split1\\models\\reference_affine_2200.json",
+    "split1\\models\\reference_affine_2201.json",
+    "split1\\models\\reference_affine_2202.json",
+    "split1\\models\\reference_affine_2203.json",
+    "split1\\models\\reference_affine_2204.json",
+    "split2\\models\\reference_affine_2200.json",
+    "split2\\models\\reference_affine_2201.json",
+    "split2\\models\\reference_affine_2202.json",
+    "split2\\models\\reference_affine_2203.json",
+    "split2\\models\\reference_affine_2204.json"
+  ]
+}

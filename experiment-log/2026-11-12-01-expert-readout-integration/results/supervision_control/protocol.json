@@ -1,0 +1,25 @@
+{
+  "sources": {
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\supervision_control.py": "e91ddbff1b8069fdf8e7e36a9a5784adccb939f845b373024b24d3c8be462839",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\05A_SUPERVISION_CONTROL_GOAL.txt": "92d60fd2f2c63293ab23eba15ae99fb9e531121e8f2940d2d8821ef00ac35cb6",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\common.py": "e08025f77f7cf2e5ec11f1abd07254c997c2e6cc34dcb1fc6519a69c47b6b9e4",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\factorial_fusion.py": "6976fc1206a7b9ce4374e1c270215cc26ced9f9edc3ad89ed861f6eee8702281",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\selective_fusion.py": "1e93a2f193c5e8ddf33e436ea20c9c9d64e4dc698efad2eab83cf4e033635558",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795"
+  },
+  "epochs_per_label": 300,
+  "learning_rate": 0.04,
+  "weight_decay": 0.0001,
+  "active_parameters": 12,
+  "allocated_trainable_parameters": 24,
+  "backbones": 1,
+  "seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "input": "[reference_logit,0,0]",
+  "threshold": "181-point calibration F1, first maximum"
+}

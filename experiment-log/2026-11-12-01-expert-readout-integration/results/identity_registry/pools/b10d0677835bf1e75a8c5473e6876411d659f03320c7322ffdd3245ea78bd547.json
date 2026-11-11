@@ -1,0 +1,25 @@
+{
+  "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+  "sha256": "b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547",
+  "identities": 25200,
+  "stored_components_checked": 76800,
+  "stored_component_multisets_verified": true,
+  "sample_and_noise_unique": true,
+  "physical_type_counts": {
+    "1": 12800,
+    "2": 12800,
+    "3": 12800,
+    "4": 12800,
+    "5": 0,
+    "6": 12800,
+    "7": 0,
+    "8": 12800,
+    "9": 0,
+    "10": 0
+  },
+  "index_path": "D:\\longtail_experiments\\20261112_integration\\identity_registry\\pools\\b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547.npz",
+  "index_sha256": "4fc624b8cae2655f34cb73b66b9e721f2a1b7ae9f76d9bb3bbe18ac9253ffb0e",
+  "source_sha256": "e26989c9212d02de2a7747b522da0b78aa0215a5931b2924045746cf968f98b3",
+  "elapsed_seconds": 2.238164800000959,
+  "time": "2026-11-11T19:31:15.005566+00:00"
+}

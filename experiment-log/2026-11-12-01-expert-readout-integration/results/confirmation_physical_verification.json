@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "role": "confirmation",
+  "models": 190,
+  "scalars_recomputed": 21280,
+  "maximum_scalar_error": 3.3306690738754696e-16,
+  "waveform_scaling_checks": [
+    {
+      "split": "split1",
+      "view": "gap10",
+      "maximum_relative_L2_error_after_float32_storage": 1.7975327970998713e-07
+    },
+    {
+      "split": "split1",
+      "view": "gap15",
+      "maximum_relative_L2_error_after_float32_storage": 3.35605321414446e-07
+    },
+    {
+      "split": "split2",
+      "view": "gap10",
+      "maximum_relative_L2_error_after_float32_storage": 1.9224860127454892e-07
+    },
+    {
+      "split": "split2",
+      "view": "gap15",
+      "maximum_relative_L2_error_after_float32_storage": 3.566287860916279e-07
+    }
+  ],
+  "boundary": "Checks target-delta scaling of saved raw waveforms; absolute target correctness additionally relies on generator reconstruction receipts.",
+  "source_sha256": "ce95ad158c3b3fa89ba1f94ed21f5ae4de855f8a323ec5282bd18e60527004de",
+  "time": "2026-11-11T22:42:26.064997+00:00"
+}

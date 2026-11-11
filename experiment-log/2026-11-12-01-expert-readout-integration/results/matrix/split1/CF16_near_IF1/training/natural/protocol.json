@@ -1,0 +1,30 @@
+{
+  "split": "split1",
+  "cell": "CF16_near_IF1",
+  "expert": "natural",
+  "epochs": 40,
+  "batch_size": 32,
+  "width": 32,
+  "seeds": [
+    2500,
+    2501,
+    2502,
+    2503,
+    2504
+  ],
+  "manifest_sha256": "4cd501deb972cfe88f711de5a9a2644fde76b790449c0b9fc8fecaed3d7e960e",
+  "views": {
+    "fit_gap10.mat": "a1bc63da3b4b630f66ca5377fd3e0cb1171b9d4e8ad296e749fd1b07cd48c6c3",
+    "fit_gap15.mat": "555bd3ede5fd8be8ebbcab66e4d5471b4142da959ce5ad0ac2d3dca0ea99d347"
+  },
+  "weight_sha256": "c406cfb0db9850c7d09ce01cb226445fe75e8c02ee71962f316805446bb01114",
+  "source_sha256": {
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\train_matrix.py": "e3a85083fcdffab8557cbc322dddb3e3180b0db3d504d6df92281bb6211c1aa0",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\common.py": "e08025f77f7cf2e5ec11f1abd07254c997c2e6cc34dcb1fc6519a69c47b6b9e4",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\matrix_protocol.json": "7a5a85e67c19870dd97f21cd3771bcdcb15e1adff09d54925207ce80558d012b",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\04A_MATRIX_EXECUTION_GOAL.txt": "b6ab493153168da968c5536a42c5c577bce96072933a526a305e6ccb16d93e8a",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-11-01-label-marginal-controls\\training_marginal.py": "d20f623219fbe48faaa2690def85ff35d21a2c38868fab1bf0b86fcf86210fb0",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9"
+  }
+}

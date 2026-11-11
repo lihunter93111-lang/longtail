@@ -1,0 +1,25 @@
+{
+  "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+  "sha256": "85b3f799a429dd2da94c72b131860469332e79f1ce89561dcb8ce3890945272e",
+  "identities": 186000,
+  "stored_components_checked": 788400,
+  "stored_component_multisets_verified": true,
+  "sample_and_noise_unique": true,
+  "physical_type_counts": {
+    "1": 87600,
+    "2": 87600,
+    "3": 87600,
+    "4": 87600,
+    "5": 87600,
+    "6": 87600,
+    "7": 87600,
+    "8": 87600,
+    "9": 87600,
+    "10": 0
+  },
+  "index_path": "D:\\longtail_experiments\\20261112_integration\\identity_registry\\pools\\85b3f799a429dd2da94c72b131860469332e79f1ce89561dcb8ce3890945272e.npz",
+  "index_sha256": "8d3970762accd2f0ea8ccb9cbcbf4664985fcd9ca4aa0216a65adc3c61d642be",
+  "source_sha256": "e26989c9212d02de2a7747b522da0b78aa0215a5931b2924045746cf968f98b3",
+  "elapsed_seconds": 17.105411799995636,
+  "time": "2026-11-11T19:33:23.960624+00:00"
+}

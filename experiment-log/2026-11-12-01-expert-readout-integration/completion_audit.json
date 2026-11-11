@@ -1,0 +1,164 @@
+{
+  "passed": true,
+  "checks": {
+    "all_frozen_files_unchanged": true,
+    "core_190_decisions": true,
+    "supervision_10_decisions": true,
+    "stored_component_registry": true,
+    "development_stored_seed_isolation": true,
+    "confirmation_stored_seed_isolation": true,
+    "operating_points_arithmetic": true,
+    "matrix_training_contract": true,
+    "near_unity_development_diagnostic": true,
+    "development_background_diagnostics": true,
+    "development_background_details": true,
+    "development_core": true,
+    "development_physical": true,
+    "development_portable": true,
+    "development_portable_complete": true,
+    "development_portable_CPU_and_combinations": true,
+    "development_supervision_control": true,
+    "development_matrix_arithmetic": true,
+    "development_matrix_matches_frozen_count": true,
+    "development_operating_points_complete": true,
+    "split1_development_identity_acceptance": true,
+    "split1_development_normal_runtime": true,
+    "split1_development_runtime_all_combinations": true,
+    "split1_development_190_half": true,
+    "split2_development_identity_acceptance": true,
+    "split2_development_normal_runtime": true,
+    "split2_development_runtime_all_combinations": true,
+    "split2_development_190_half": true,
+    "confirmation_background_diagnostics": true,
+    "confirmation_background_details": true,
+    "confirmation_core": true,
+    "confirmation_physical": true,
+    "confirmation_portable": true,
+    "confirmation_portable_complete": true,
+    "confirmation_portable_CPU_and_combinations": true,
+    "confirmation_supervision_control": true,
+    "confirmation_matrix_arithmetic": true,
+    "confirmation_matrix_matches_frozen_count": true,
+    "confirmation_operating_points_complete": true,
+    "split1_confirmation_identity_acceptance": true,
+    "split1_confirmation_normal_runtime": true,
+    "split1_confirmation_runtime_all_combinations": true,
+    "split1_confirmation_190_half": true,
+    "split2_confirmation_identity_acceptance": true,
+    "split2_confirmation_normal_runtime": true,
+    "split2_confirmation_runtime_all_combinations": true,
+    "split2_confirmation_190_half": true,
+    "delivery_hashes": true,
+    "package_hash": true,
+    "package_replay_hashes": true,
+    "package_replay_complete": true,
+    "stage_goals_present": true,
+    "confirmation_after_freeze": true
+  },
+  "failures": [],
+  "matrix_complete_triads": 20,
+  "matrix_not_completed_triads": [
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF3",
+      "seed": 2503
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF3",
+      "seed": 2504
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2503
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2504
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_IF3",
+      "seed": 2503
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_IF3",
+      "seed": 2504
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2503
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2504
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF3",
+      "seed": 2502
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF3",
+      "seed": 2503
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF3",
+      "seed": 2504
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2502
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2503
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2504
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_IF3",
+      "seed": 2502
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_IF3",
+      "seed": 2503
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_IF3",
+      "seed": 2504
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2502
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2503
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2504
+    }
+  ],
+  "remote_publication": "verify separately using publication_receipt.json",
+  "time": "2026-11-11T22:50:03.069442+00:00"
+}

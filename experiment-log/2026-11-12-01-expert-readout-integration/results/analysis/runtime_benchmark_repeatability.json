@@ -1,0 +1,158 @@
+{
+  "time": "2026-11-11T22:46:28.834700+00:00",
+  "runs": 2,
+  "first_run": "2026-11-11T22:31:39.026929+00:00",
+  "second_run": "2026-11-11T22:45:15.811647+00:00",
+  "records": [
+    {
+      "method": "reference",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        3.1639519929885864,
+        4.384335994720459
+      ],
+      "relative_change": 0.38571508178261893
+    },
+    {
+      "method": "reference",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        18.391392707824707,
+        18.47099208831787
+      ],
+      "relative_change": 0.004328077908928529
+    },
+    {
+      "method": "reference_affine",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        3.2235360145568848,
+        3.1169281005859375
+      ],
+      "relative_change": -0.03307173038846967
+    },
+    {
+      "method": "reference_affine",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        18.49278450012207,
+        18.42459201812744
+      ],
+      "relative_change": -0.0036875183396085642
+    },
+    {
+      "method": "natural_none",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        14.619376182556152,
+        14.461152076721191
+      ],
+      "relative_change": -0.01082290405959685
+    },
+    {
+      "method": "natural_none",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        37.06732749938965,
+        37.09676742553711
+      ],
+      "relative_change": 0.0007942284522115539
+    },
+    {
+      "method": "marginal_none",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        6.355024099349976,
+        8.637871742248535
+      ],
+      "relative_change": 0.35921935262716964
+    },
+    {
+      "method": "marginal_none",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        37.17622375488281,
+        37.22700881958008
+      ],
+      "relative_change": 0.0013660630254463957
+    },
+    {
+      "method": "combo_none",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        6.449359893798828,
+        6.304208040237427
+      ],
+      "relative_change": -0.022506396906298742
+    },
+    {
+      "method": "combo_none",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        37.14166450500488,
+        37.149696350097656
+      ],
+      "relative_change": 0.00021624892690774722
+    },
+    {
+      "method": "combo_global",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        16.976655960083008,
+        16.339519500732422
+      ],
+      "relative_change": -0.03753015086414402
+    },
+    {
+      "method": "combo_global",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        38.35983848571777,
+        38.1573600769043
+      ],
+      "relative_change": -0.005278395759900412
+    },
+    {
+      "method": "combo_segment",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        9.83025598526001,
+        7.055376052856445
+      ],
+      "relative_change": -0.28227951912588667
+    },
+    {
+      "method": "combo_segment",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        38.4454231262207,
+        38.02654266357422
+      ],
+      "relative_change": -0.01089545721141505
+    },
+    {
+      "method": "combo_segment_guarded",
+      "batch_size": 1,
+      "median_batch_ms_runs": [
+        7.236815929412842,
+        7.003632068634033
+      ],
+      "relative_change": -0.03222188640049162
+    },
+    {
+      "method": "combo_segment_guarded",
+      "batch_size": 64,
+      "median_batch_ms_runs": [
+        38.1636962890625,
+        38.04987144470215
+      ],
+      "relative_change": -0.0029825424533884703
+    }
+  ],
+  "interpretation": "Batch-1 latency varies substantially across repeated measurements; do not infer architectural speed ranking. Batch-64 timings are more consistent. No model or threshold was changed.",
+  "source_hashes": {
+    "D:\\longtail_experiments\\20261112_integration\\analysis\\runtime_benchmark_initial.json": "eade22b5a010ed2c3e799fd5838b64b20057b91b64c121d626548a96b56cd542",
+    "D:\\longtail_experiments\\20261112_integration\\runtime_benchmark.json": "7732dc091e22790222541796e8d6c79cc55b33cfd013262b5341e244b9df2f9f",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\benchmark_runtime.py": "7823b90d6e08fc4d814be3fa24ad5a57d841d4ff82a912572899807dc05a6859"
+  }
+}

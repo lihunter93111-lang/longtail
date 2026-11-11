@@ -1,0 +1,1143 @@
+{
+  "passed": true,
+  "role": "development",
+  "registry_sha256": "0ca8050247392a902a8ae26a76ba69e72ac7299566417d9a09ee42d9154db31a",
+  "old_pool_count": 31,
+  "checks": [
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split1",
+      "reference": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    },
+    {
+      "split": "split2",
+      "reference": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "sample": 0,
+      "noise": 0,
+      "components_by_physical_type": {
+        "component_1": 0,
+        "component_2": 0,
+        "component_3": 0,
+        "component_4": 0,
+        "component_5": 0,
+        "component_6": 0,
+        "component_7": 0,
+        "component_8": 0,
+        "component_9": 0,
+        "component_10": 0
+      }
+    }
+  ],
+  "between_development_splits": {
+    "sample": 0,
+    "noise": 0,
+    "components_by_physical_type": {
+      "component_1": 0,
+      "component_2": 0,
+      "component_3": 0,
+      "component_4": 0,
+      "component_5": 0,
+      "component_6": 0,
+      "component_7": 0,
+      "component_8": 0,
+      "component_9": 0,
+      "component_10": 0
+    }
+  },
+  "source_sha256": "77b8d02b8c3a65c94a8df97ec01b2ed221fae9ac9d2526035701e63a9382bd44",
+  "scope": "Directly verified stored-seed indexes include pools generated after initial development acceptance; no models changed.",
+  "time": "2026-11-11T22:29:03.109493+00:00"
+}

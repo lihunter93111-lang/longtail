@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2500,
+      "max_absolute_weight_minus_one": 0.0002274499610090963,
+      "max_absolute_label_probability_change": 0.0001093750000003002,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 33,
+        "marginal": 33
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": 0.0014377832412719727,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.00854577124118805,
+      "development_B_minus_A": {
+        "f1_exact": 0.004464285714285698,
+        "fixed05_exact": 0.00024801587301592765,
+        "macro_AP": -3.855042202971504e-05,
+        "BCE": 0.0006526682368465375
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\matched_triad_2500.json": "d1cb1377e206d65edd0e97048ca7d34b755453bdc799d6e8956431150152234d",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\natural_2500\\receipt.json": "d78f10a0244755e4bf8d903ba8c9324c8baf9320f6993c15c7158b5c24959f81",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\natural\\M_2500\\history.json": "404387899825821455a728a79b37bcce735e91e2fc5c7f968df30b57055276d8",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\natural_2500.json": "17c75b86543732d8ebef79d10c307d2fa728816e2e2b8ddb765d1a45d19afcee",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\marginal_2500\\receipt.json": "424959e24dbb6d28780be6f2969f50d807d3784eb80e43b4c800ae34f94a14d3",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\marginal\\M_2500\\history.json": "0169054c9aeb784c9c533b4785f45e14d00856805ab8b40c18058abf110a5aa0",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\marginal_2500.json": "9057d4662549786295db01c1a66947a4b6f973efea9a0d418d7f5da98de7a7e5"
+      }
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2501,
+      "max_absolute_weight_minus_one": 0.0002274499610090963,
+      "max_absolute_label_probability_change": 0.0001093750000003002,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 25,
+        "marginal": 37
+      },
+      "same_selected_epoch": false,
+      "first_epoch_early_BCE_B_minus_A": 0.0005827248096466064,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.011327072978019714,
+      "development_B_minus_A": {
+        "f1_exact": -0.00520833333333337,
+        "fixed05_exact": 0.005704365079365115,
+        "macro_AP": -4.503079483664241e-05,
+        "BCE": 0.0005460525488355239
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\matched_triad_2501.json": "ee7f04bd12860f99fb09a30b42505582602ad123661dfb3f7d8c6a5a75a17396",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\natural_2501\\receipt.json": "5fd8eae4241f673bf60361e452a569b8cee42e118d0e97ac71e96133f488a901",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\natural\\M_2501\\history.json": "a01444c048a6e69d178830bb07be63983b7d013bd348debfce809565a43f15e0",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\natural_2501.json": "25e7fa6dfed7621603208b235550d0222ebd670afa8cfdc7d93db6491e1d8028",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\marginal_2501\\receipt.json": "0cb66f02eb11b0f7039eab6a53fe978be65df97493d80edbcf7aa4637da9ee76",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\marginal\\M_2501\\history.json": "71fbc21a58ac3aeca096fe504c9644a77127b334111c1c1af9b9120dbc3f61ae",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\marginal_2501.json": "8ae5baacc4824f2f146f7f3c165f74061e1bd0178da46b65105c0169bd0fceae"
+      }
+    },
+    {
+      "split": "split1",
+      "cell": "CF7p85_IF1",
+      "seed": 2502,
+      "max_absolute_weight_minus_one": 0.0002274499610090963,
+      "max_absolute_label_probability_change": 0.0001093750000003002,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 37,
+        "marginal": 37
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": -0.0006756186485290527,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.006631247699260712,
+      "development_B_minus_A": {
+        "f1_exact": 0.0,
+        "fixed05_exact": 0.0007440476190476719,
+        "macro_AP": -0.00022117600366411416,
+        "BCE": 0.0008314438404620483
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\matched_triad_2502.json": "d282fe6b56cae861989e5f3dae2c0d95a6ae20dc8e5b5d61bc9ac672ece6fe9b",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\natural_2502\\receipt.json": "82e5626a09847c0564ceb0a6abbe6a5d8e4c7649ab38245955904b63bba9ee39",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\natural\\M_2502\\history.json": "86ec428dbbeff576a55cd83d39528826f26f52040ed3f86d93203afd8a81c66f",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\natural_2502.json": "d602474b14158cdceb50f31979b9d5c88ee151f7185ba0f123a458c0f6431790",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\models\\marginal_2502\\receipt.json": "d111b972a91086f20f43d588bdedd8f27d65bcb730c774ad51bbe9556b73c21e",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\training\\marginal\\M_2502\\history.json": "45f0396fea923658c7188d6f66fcdba51a603b093dc1b472aeb926d545a616fe",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF7p85_IF1\\development_results\\marginal_2502.json": "cca1502beeba2525eecfb45516f0f15d4ca21ac9ee6abc208a80756189da98ff"
+      }
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2500,
+      "max_absolute_weight_minus_one": 0.00035760728218514615,
+      "max_absolute_label_probability_change": 0.00017187500000026557,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 29,
+        "marginal": 29
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": 0.00042003393173217773,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.01129855215549469,
+      "development_B_minus_A": {
+        "f1_exact": -0.005208333333333259,
+        "fixed05_exact": 0.0009920634920634885,
+        "macro_AP": -0.0002135374021322578,
+        "BCE": 0.0030009314447616148
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\matched_triad_2500.json": "440713c4bef8d08b349d4b0f087df52bdf9794c0c1ad4e0eabfe2f675768a7ea",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\natural_2500\\receipt.json": "9f48ed1eaf706676de1142ff841c23584608ecb615660b18d99faeead14c23ce",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\natural\\M_2500\\history.json": "7d23cfabd7b3bebc72b3236d7abaa7c766af790d57f6bad0717608a9ce942c80",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\natural_2500.json": "7824b94e45c7589c2bee939b7f3f6307a3a748b98b65387f77078336b8a67707",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\marginal_2500\\receipt.json": "acd70204fcafe2439cafbf770943f6551bb5f06283548454df027d943aa1cea0",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\marginal\\M_2500\\history.json": "82d2c6077808c6a5ba4cb842b45099a8f8c2e0518e3fd98d03e6bdd94f10d3e8",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\marginal_2500.json": "ee6c66e9cc1eafd1c277c047b8138415061302716b9fe595412db51408fbe246"
+      }
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2501,
+      "max_absolute_weight_minus_one": 0.00035760728218514615,
+      "max_absolute_label_probability_change": 0.00017187500000026557,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 24,
+        "marginal": 38
+      },
+      "same_selected_epoch": false,
+      "first_epoch_early_BCE_B_minus_A": 0.00038442015647888184,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.007142975926399231,
+      "development_B_minus_A": {
+        "f1_exact": 0.0,
+        "fixed05_exact": 0.0012400793650793052,
+        "macro_AP": 0.0001578930193320005,
+        "BCE": 0.00303319355809914
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\matched_triad_2501.json": "3a9f30502c8d18df22d9287c93b786276a674aec35baaf6b1a7d84721f3c6a43",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\natural_2501\\receipt.json": "21a69e47583e3ebb15db2feae60e498cb64b025a84206a530213cdaf9ef08cc5",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\natural\\M_2501\\history.json": "90564c03fab4c6592a83534029aa24e4da029efc82cfaf4498aaa4cbd4247a48",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\natural_2501.json": "3d96b1e8ff74afe4685a4c727a6ef0a74058d4bd1eb55affe4dc9d9a64bb10ea",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\marginal_2501\\receipt.json": "8707c80d7d597dee3812f1eeee15016e77ae2b3b92d66eaad7de710fc002901a",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\marginal\\M_2501\\history.json": "542f9bc28cc0fba6c86accc78f694b8b3bbaf4f140fc1f31a7b149b94afa4738",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\marginal_2501.json": "035daa26ae33b717652fab803d5d2943c0afb57021e2f214238decb16714ff9c"
+      }
+    },
+    {
+      "split": "split1",
+      "cell": "CF16_near_IF1",
+      "seed": 2502,
+      "max_absolute_weight_minus_one": 0.00035760728218514615,
+      "max_absolute_label_probability_change": 0.00017187500000026557,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 38,
+        "marginal": 38
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": -0.0012706220149993896,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.004964962601661682,
+      "development_B_minus_A": {
+        "f1_exact": 0.004216269841269882,
+        "fixed05_exact": 0.0009920634920634885,
+        "macro_AP": -0.00013797408713378534,
+        "BCE": 0.0007973533926114995
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\matched_triad_2502.json": "bc49cb956431417e5849266311d78aae8b9793719693a9fa028dc78d81cdcb17",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\natural_2502\\receipt.json": "7e7e49dc36169472758c6b8b5284c5f8cc7470dced4d9f4de2c0c70122f37089",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\natural\\M_2502\\history.json": "5613a3b6cec0508fabf523ee9457fd7ccf499908e7896988d57d61207e3cc768",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\natural_2502.json": "3786a57fd1682414d5a1955f6d8896ea7a87508c0325a837d4942fd255604850",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\models\\marginal_2502\\receipt.json": "12829b12b06184cb33798472c910418b9db9c6fcfe08665d09509e98c1a2d988",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\training\\marginal\\M_2502\\history.json": "d7c7781b1273b9afa90a38509fe03e803e4f3f4c31eadd22f09c7af1ed48642c",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\CF16_near_IF1\\development_results\\marginal_2502.json": "576b5c2c02a8afdc09aed2cd191b788bc175f6b55edb531fafbfb83c64efac93"
+      }
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2500,
+      "max_absolute_weight_minus_one": 0.0002274499610099845,
+      "max_absolute_label_probability_change": 0.00010937500000063327,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 34,
+        "marginal": 37
+      },
+      "same_selected_epoch": false,
+      "first_epoch_early_BCE_B_minus_A": 0.0013257861137390137,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.00656554102897644,
+      "development_B_minus_A": {
+        "f1_exact": 0.00024801587301592765,
+        "fixed05_exact": 0.007192460317460236,
+        "macro_AP": 5.5489570489619666e-05,
+        "BCE": -0.000907802504852992
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\matched_triad_2500.json": "58238d4071c77e2d14a8ad0ef6c9dc6890a942cba8afe9616acb144494010985",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\models\\natural_2500\\receipt.json": "2151f93e0e387c09660b5b1e3669a07e056badbbac1955eb718b7689a01ff266",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\training\\natural\\M_2500\\history.json": "e4bdacba8cdd5d8218be1e92396cb3ed8e3de69884b69da756d468e464aef6fa",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\development_results\\natural_2500.json": "f2f424cf6dc7ab123b10db19d20e93e28ce9b1eb7bdece73f5ec8a1ad9087abf",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\models\\marginal_2500\\receipt.json": "4b48e85a4b53aa6a2473b00fe79681f57447758dace3d7e16897b818b7738bd0",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\training\\marginal\\M_2500\\history.json": "db5eda49b880d2590cd895c2195d5a21dc9b6c52447d78adae767df40014cd05",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\development_results\\marginal_2500.json": "75a10e16e8aa121683c01c3a9ffb079bf0a9d7e2c078d03f9df4cc15d7685871"
+      }
+    },
+    {
+      "split": "split2",
+      "cell": "CF7p85_IF1",
+      "seed": 2501,
+      "max_absolute_weight_minus_one": 0.0002274499610099845,
+      "max_absolute_label_probability_change": 0.00010937500000063327,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 37,
+        "marginal": 37
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": -0.0010608136653900146,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.01207754760980606,
+      "development_B_minus_A": {
+        "f1_exact": 0.0,
+        "fixed05_exact": -0.001984126984126977,
+        "macro_AP": -2.957022161764744e-05,
+        "BCE": -0.00015754116278896002
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\matched_triad_2501.json": "182a8aba80e549d328c27c979e4edf79a5e31c1028952c2a143fee11c1393dc7",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\models\\natural_2501\\receipt.json": "7a53f70befce65bd0f0c67c9880a9de2d1294bcb64dfe6a9af9db831543e205d",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\training\\natural\\M_2501\\history.json": "00d15e74f5c0393633d7b9ccb535d73d49325b236d8b9a6a39b9c3b8d45cbc6a",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\development_results\\natural_2501.json": "111e2f225394cb143fe033c7915878637ba822bb34be5bb68bbe41f51fffa17f",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\models\\marginal_2501\\receipt.json": "e6873d0e415a3a83e99e2364fe496dd39bcf119d3e6787193d321fb3265ceb14",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\training\\marginal\\M_2501\\history.json": "d4ee95998d54887bffde54725926dff864e7209d2b3e3b41f44ffa6290f22562",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF7p85_IF1\\development_results\\marginal_2501.json": "afd5f68b22f9a704ca63484b4ebeb2ed57fb6273261146bd41cb4bb7ea5fd488"
+      }
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2500,
+      "max_absolute_weight_minus_one": 0.00035760728218514615,
+      "max_absolute_label_probability_change": 0.00017187500000026557,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 29,
+        "marginal": 29
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": -3.725290298461914e-05,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.032541051506996155,
+      "development_B_minus_A": {
+        "f1_exact": 0.009920634920634885,
+        "fixed05_exact": -0.003968253968253954,
+        "macro_AP": 6.925200946017451e-05,
+        "BCE": -0.0009440020295392593
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\matched_triad_2500.json": "c6ec280101f0bf2072005c177f539f93e650ef2f689c7080de0a60a48dfb21ee",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\models\\natural_2500\\receipt.json": "36ac1989a2d9e889c2ded7d30859f5d11ba4852057131e94c0c90a0568899e2b",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\training\\natural\\M_2500\\history.json": "2f01ad3a217342711ddef91783a4c100dd3df5bd7c5002b0d4ff69e9b422dac2",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\development_results\\natural_2500.json": "50c884246358d7103d3ee9dba56310def78e5a6a6cf865eac3c7efa8e1904131",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\models\\marginal_2500\\receipt.json": "76b7f58fc60c44e134b93dc811fd55adceea2cfaadcad23047993c7c353d244f",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\training\\marginal\\M_2500\\history.json": "fbfdb837b7e9dd55d1206bd612f604f0968ee7474d0e53b5857cf5b0b11134cf",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\development_results\\marginal_2500.json": "b27199f707e002fca1d6fa6358682430acbebc54e9874888ae2cf87e503fd5d1"
+      }
+    },
+    {
+      "split": "split2",
+      "cell": "CF16_near_IF1",
+      "seed": 2501,
+      "max_absolute_weight_minus_one": 0.00035760728218514615,
+      "max_absolute_label_probability_change": 0.00017187500000026557,
+      "matched_initial_order_views_and_budget": true,
+      "best_BCE_epochs": {
+        "natural": 34,
+        "marginal": 34
+      },
+      "same_selected_epoch": true,
+      "first_epoch_early_BCE_B_minus_A": -0.00016388297080993652,
+      "maximum_absolute_same_epoch_early_BCE_difference": 0.0098084956407547,
+      "development_B_minus_A": {
+        "f1_exact": 0.01636904761904756,
+        "fixed05_exact": 0.0032242063492062822,
+        "macro_AP": 0.0002228051554822308,
+        "BCE": -0.0010694588502565272
+      },
+      "input_sha256": {
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\matched_triad_2501.json": "dd7348929d60f6bf1ae9e53d45a3cabe0a16f44d53d6cbbe6ec041f69d6bd111",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\models\\natural_2501\\receipt.json": "2d27083bc247081fa47a258bbd960596fec985988c0fc65c9af3b6ea89dba367",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\training\\natural\\M_2501\\history.json": "8c8d5a60d3a2aaa26ca112092c767b3d519150b5a6b3f0cb059d65367613865a",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\development_results\\natural_2501.json": "1f4e56d47acebe90e20c6cd07edcceb35e61418b948286770b4ae2ab4a00fd10",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\models\\marginal_2501\\receipt.json": "ee631b1853bc0031526cea6bf1a5dd3e4e729a6e070b02c761652831f6bee680",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\training\\marginal\\M_2501\\history.json": "b71224a61f0e65bdb04878a16d08c6bd2fe58a6458a15d9f58843fc955cdb88a",
+        "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\CF16_near_IF1\\development_results\\marginal_2501.json": "91d4b576a68a4fcebf773cc89412adb47b2bd596dfd53b6e4eb60e88b1cfa35c"
+      }
+    }
+  ],
+  "scope": "Observed trajectory audit; not a deterministic repeatability or causal attribution experiment.",
+  "future_control": "Exact-unity A/A repeats, near-unity B, common final epoch and predeclared best-epoch selection on fresh development.",
+  "source_sha256": "9fd45069ec85f8002de3d185388c58893a76ddb43b018209fb2557cf29b1eb4d",
+  "goal_sha256": "b04be9f615400055aba8b13f5f2f6e2461726560cac98de4d72001c473ebdb5b",
+  "time": "2026-11-11T22:29:39.866953+00:00"
+}

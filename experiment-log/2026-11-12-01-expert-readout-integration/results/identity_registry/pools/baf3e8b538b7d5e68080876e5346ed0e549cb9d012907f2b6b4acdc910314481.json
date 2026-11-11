@@ -1,0 +1,25 @@
+{
+  "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+  "sha256": "baf3e8b538b7d5e68080876e5346ed0e549cb9d012907f2b6b4acdc910314481",
+  "identities": 4032,
+  "stored_components_checked": 12288,
+  "stored_component_multisets_verified": true,
+  "sample_and_noise_unique": true,
+  "physical_type_counts": {
+    "1": 2048,
+    "2": 2048,
+    "3": 2048,
+    "4": 2048,
+    "5": 0,
+    "6": 2048,
+    "7": 0,
+    "8": 2048,
+    "9": 0,
+    "10": 0
+  },
+  "index_path": "D:\\longtail_experiments\\20261112_integration\\identity_registry\\pools\\baf3e8b538b7d5e68080876e5346ed0e549cb9d012907f2b6b4acdc910314481.npz",
+  "index_sha256": "7c35945aacc19dcbaef686fa7650ed126ea34341180cbdca4e0bea19abd13682",
+  "source_sha256": "e26989c9212d02de2a7747b522da0b78aa0215a5931b2924045746cf968f98b3",
+  "elapsed_seconds": 0.36432760000025155,
+  "time": "2026-11-11T19:29:34.238084+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "single",
+  "group": "natural",
+  "seed": 2202,
+  "thresholds": [
+    0.5449999999999999,
+    0.07,
+    0.58,
+    0.3,
+    0.49999999999999994,
+    0.5499999999999999
+  ],
+  "models": {
+    "natural": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth",
+      "sha256": "11c1f2994fc1be5694a60c412fc60e9ef967a148695dfb5f62a4341898a31c9c"
+    }
+  },
+  "protocol_sha256": "431681b8b99231847c986e1c7e6bb65bbd68ff338026e786cc4a9f44c14c302c"
+}

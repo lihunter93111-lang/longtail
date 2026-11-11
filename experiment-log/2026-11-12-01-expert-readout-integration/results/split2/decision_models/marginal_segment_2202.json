@@ -1,0 +1,69 @@
+{
+  "kind": "factorial",
+  "seed": 2202,
+  "expert": "marginal",
+  "readout": "segment",
+  "weights": [
+    [
+      0.21136367321014404,
+      1.3780934810638428,
+      0.0
+    ],
+    [
+      0.8769060969352722,
+      0.6670070290565491,
+      0.0
+    ],
+    [
+      0.46527111530303955,
+      0.699488639831543,
+      0.0
+    ],
+    [
+      0.5555688142776489,
+      0.6761011481285095,
+      0.0
+    ],
+    [
+      0.6763702630996704,
+      0.42057135701179504,
+      0.0
+    ],
+    [
+      0.03319502994418144,
+      0.3699444532394409,
+      0.5976744890213013
+    ]
+  ],
+  "biases": [
+    -0.2019134908914566,
+    3.125577449798584,
+    0.5059571862220764,
+    0.9284458756446838,
+    -0.0018970438977703452,
+    -0.2707289159297943
+  ],
+  "models": {
+    "reference": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\best_BCE.pth",
+      "sha256": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2"
+    },
+    "marginal": {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\model.pth",
+      "sha256": "ecc1f014d3676a95e23a008f64489c82b108d7c3c662ae80b59580d1302b9521"
+    },
+    "segment": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2202\\model.pth",
+      "sha256": "b850386a7aaad5e44b5a751e461eb269fa9cf7e5df92b08cdb12404fe782c0aa"
+    }
+  },
+  "protocol_sha256": "05a9dc17d64133ea95c17ee3c324c0e2a025011a7a1c413470a53669a46d9d04",
+  "thresholds": [
+    0.7999999999999999,
+    0.4699999999999999,
+    0.695,
+    0.37999999999999995,
+    0.31999999999999995,
+    0.5049999999999999
+  ]
+}

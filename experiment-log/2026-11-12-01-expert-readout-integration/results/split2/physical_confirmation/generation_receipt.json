@@ -1,0 +1,17 @@
+{
+  "role": "confirmation",
+  "source_path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+  "source_sha256": "0d06c5d0550d75d458bc049e89b5a5ec6cbf70f593710cec425bb47bf180d515",
+  "identities": 2170,
+  "views": [
+    "gap0",
+    "gap10",
+    "gap15",
+    "absent"
+  ],
+  "all_six_targets_eligible": true,
+  "shared_identities_across_all_views": true,
+  "raw_reconstruction_max_abs": 0,
+  "delta_max_abs": 8.5928680153186745E-14,
+  "delta_max_relative": 8.416496230355022E-16
+}

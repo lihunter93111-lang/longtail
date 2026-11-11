@@ -1,0 +1,5 @@
+独立阶段 Goal
+
+在新协议目录使用两划分五种子，完成A/B/C专家×none/global/segment九组。固定同一主W32、读出来源及fusion_fit，按每标签三分数仿射拟合；none残差为0。只在calibration拟合F1阈值，评价新开发身份。主要比较B/C各自segment-global与segment-none、差中之差交互；报告逐种子区间、全标签代价、纠正/新增错误、固定0.5敏感性及成本。禁止因开发高分删除阴性对照。
+
+输入：本目录GOAL_PROMPT.txt、protocol.json及前一阶段收据。只读历史确认；任何新选择用新开发/确认角色。后续日期新建输出目录和协议，不覆盖本轮状态。

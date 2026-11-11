@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "role": "confirmation",
+  "models": 190,
+  "scalars_recomputed": 10450,
+  "maximum_absolute_error": 2.220446049250313e-16,
+  "errors": [],
+  "unachievable_guard_falls_back_all_columns": true,
+  "zero_local_initial_affine_preserves_reference": true,
+  "source_sha256": "7ab6f19e811d947d0de796f78034138891b919e15065d330d02eb9b457ce5ab4",
+  "time": "2026-11-11T22:42:21.533923+00:00"
+}

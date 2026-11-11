@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "role": "confirmation",
+  "decisions": 10,
+  "scalars_recomputed": 480,
+  "maximum_error": 2.220446049250313e-16,
+  "records": [
+    {
+      "split": "split1",
+      "seed": 2200,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "all_scales_positive": true
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "all_scales_positive": true
+    }
+  ],
+  "time": "2026-11-11T22:37:33.195674+00:00"
+}

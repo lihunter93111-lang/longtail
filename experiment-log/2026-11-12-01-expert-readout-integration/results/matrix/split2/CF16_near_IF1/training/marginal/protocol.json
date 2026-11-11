@@ -1,0 +1,30 @@
+{
+  "split": "split2",
+  "cell": "CF16_near_IF1",
+  "expert": "marginal",
+  "epochs": 40,
+  "batch_size": 32,
+  "width": 32,
+  "seeds": [
+    2500,
+    2501,
+    2502,
+    2503,
+    2504
+  ],
+  "manifest_sha256": "19bd2dc01297a8c04291eafe35c7895711894269288fc08b991edf62560da60c",
+  "views": {
+    "fit_gap10.mat": "96b697854ffbe85d9a1673640cafca3f410ffb1ca69d556eb8994c6172a90215",
+    "fit_gap15.mat": "e9a6b46c2507b6587ae9177bd78ceb79fc14e7fee6b9682d0b12267d63fed278"
+  },
+  "weight_sha256": "0c8d1337070a6893ab557050f180f3d30669aa8f9efa64ba210f7bcf43ed54a1",
+  "source_sha256": {
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\train_matrix.py": "e3a85083fcdffab8557cbc322dddb3e3180b0db3d504d6df92281bb6211c1aa0",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\common.py": "e08025f77f7cf2e5ec11f1abd07254c997c2e6cc34dcb1fc6519a69c47b6b9e4",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\matrix_protocol.json": "7a5a85e67c19870dd97f21cd3771bcdcb15e1adff09d54925207ce80558d012b",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\04A_MATRIX_EXECUTION_GOAL.txt": "b6ab493153168da968c5536a42c5c577bce96072933a526a305e6ccb16d93e8a",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-11-01-label-marginal-controls\\training_marginal.py": "d20f623219fbe48faaa2690def85ff35d21a2c38868fab1bf0b86fcf86210fb0",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "single",
+  "group": "combo",
+  "seed": 2201,
+  "thresholds": [
+    0.295,
+    0.15999999999999998,
+    0.30499999999999994,
+    0.25499999999999995,
+    0.5499999999999999,
+    0.5449999999999999
+  ],
+  "models": {
+    "combo": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth",
+      "sha256": "1cb62f3c28b268a0c30fb01d7f0b2fd33bc0335cbe87cd664b1b02e8617636c0"
+    }
+  },
+  "protocol_sha256": "431681b8b99231847c986e1c7e6bb65bbd68ff338026e786cc4a9f44c14c302c"
+}

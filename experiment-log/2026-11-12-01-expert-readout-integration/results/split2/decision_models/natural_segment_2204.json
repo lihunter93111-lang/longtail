@@ -1,0 +1,69 @@
+{
+  "kind": "factorial",
+  "seed": 2204,
+  "expert": "natural",
+  "readout": "segment",
+  "weights": [
+    [
+      0.14614911377429962,
+      1.3126732110977173,
+      0.0
+    ],
+    [
+      0.35710248351097107,
+      1.125900387763977,
+      0.0
+    ],
+    [
+      0.6852547526359558,
+      0.5065349340438843,
+      0.0
+    ],
+    [
+      0.6551546454429626,
+      0.6209388375282288,
+      0.0
+    ],
+    [
+      0.5457354784011841,
+      0.4673289954662323,
+      0.0
+    ],
+    [
+      0.08563532680273056,
+      0.4072713255882263,
+      1.4504544734954834
+    ]
+  ],
+  "biases": [
+    -0.23090679943561554,
+    3.1779699325561523,
+    0.3837364614009857,
+    1.1982179880142212,
+    0.056574270129203796,
+    -0.048074010759592056
+  ],
+  "models": {
+    "reference": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\best_BCE.pth",
+      "sha256": "e60cd7363257e0627de770d530b982d941567f7b614195af0c002a5cb38211ea"
+    },
+    "natural": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth",
+      "sha256": "581898df58b7937f2a31b59252f49a6ac1e3c4afc175a7989df0207a6d159655"
+    },
+    "segment": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2204\\model.pth",
+      "sha256": "7203214953f87829d55c4c2bad75f532c3ca9c69888554b60fa17079edca5635"
+    }
+  },
+  "protocol_sha256": "05a9dc17d64133ea95c17ee3c324c0e2a025011a7a1c413470a53669a46d9d04",
+  "thresholds": [
+    0.845,
+    0.41999999999999993,
+    0.5099999999999999,
+    0.30999999999999994,
+    0.4799999999999999,
+    0.43999999999999995
+  ]
+}

@@ -8,6 +8,7 @@
 
 | 日期 / 序号 | 实验方案 | 状态 | 结果与下一步 |
 |---|---|---|---|
+| 2026-11-12 / 01 | [专家 × 读出整合与长期 Goal](2026-11-12-01-expert-readout-integration/GOAL_PROMPT.txt) | 冻结新确认完成：190核心决策、10监督控制、60矩阵模型 | [最终判断与后续分工](2026-11-12-01-expert-readout-integration/FINAL_RESEARCH_DECISION.txt)；[完整结果](2026-11-12-01-expert-readout-integration/RESULTS.txt)、[长期路线](2026-11-12-01-expert-readout-integration/LONG_TERM_PLAN.txt)、[师弟逐层目录说明](2026-11-12-01-expert-readout-integration/COLLABORATOR_HANDOFF.txt)。 |
 | 2026-11-11 / 01 | [标签正负边际与组合加权控制](2026-11-11-01-label-marginal-controls/GOAL_PROMPT.txt) | 两划分五种子新确认完成 | [十次新增训练、四条件配额清单、阴性探索与代价](2026-11-11-01-label-marginal-controls/RESULTS.txt)；[师弟目录导航](2026-11-11-01-label-marginal-controls/COLLABORATOR_GUIDE.txt)、[后续分工与阶段Goal](2026-11-11-01-label-marginal-controls/NEXT_ROUND_PLAN.txt)。 |
 | 2026-11-11 / 方案 | [双方分工与Word](../docs/research/collaboration/2026-11-11/README.md) | 计划已制定 | 标签边际匹配、四条件矩阵、纠错与物理诊断，后续训练待执行。 |
 | 2026-11-10 / 01 | [宽骨干专家与局部读出](2026-11-10-01-readout-integration/README.md) | 两划分新确认及物理诊断完成 | [40次骨干训练、180次读出训练、18组确认及全部局限](2026-11-10-01-readout-integration/RESULTS.txt)。 |

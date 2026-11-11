@@ -1,0 +1,2828 @@
+{
+  "role": "confirmation",
+  "splits": [
+    {
+      "split": "split1",
+      "seeds": [
+        2200,
+        2201,
+        2202,
+        2203,
+        2204
+      ],
+      "identities": 4032,
+      "training_counts_by_code_0_to63": [
+        0,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        117,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        126
+      ],
+      "fit_manifest_sha256": "69c760ce921ac7d4be4944707e9f320a2f8f65595117895c958cbea5cc6d6f6b",
+      "prediction_sources": {
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_global_2200.npz": "f551d0d5f42e90aa764c072b631754f8a8038278a426a35eecc7f8839d73097b",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_global_2201.npz": "9c1346b0b49f5b9f5102e81ef34b258bec51c2e94060be58aa7914fa4d930fec",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_global_2202.npz": "08f27a10008b8d559173dc540de5c3f6b698e9beae178f3f27265e29a383e9f2",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_global_2203.npz": "b6575dd05a134a28f77e717234465a247bd605305e6a2292b1b095b4ccd682a6",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_global_2204.npz": "278da30fec87dd3467cb514f42b361ebd0c060773a8281bbe17f3c21f2523a4b",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_none_2200.npz": "44be9d7586874a5a59637ac862f639547566ea565729a2bed5dc52b4608adffd",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_none_2201.npz": "1bc8aeda16725d8c9cf67b3e6cecf3f8444b972789792f10327cb85802cec7c5",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_none_2202.npz": "9d57aaef415fd5fedf4a0d00e077cb5b6ab597b4d294377084a18fd161ab0929",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_none_2203.npz": "47cffc9283eed79c44c115e29d491d0ec6d8a76bef261df05e172506cb0a4261",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_none_2204.npz": "9214e759541eccf1df3954d369bf0909f13dc9e3db42dd90babf0150c6bf98a5",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_2200.npz": "90b0fa09cbce3116626779e66a8cd9c6cac67f39091abe339298016f6883e89d",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_2201.npz": "358041af72b5ce796e340ec3525d2779c3192a616fa1e1a4a2340585b50fc337",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_2202.npz": "9d57aaef415fd5fedf4a0d00e077cb5b6ab597b4d294377084a18fd161ab0929",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_2203.npz": "0e03a2ee40cf218edc3ab8e34688f8642294bc477be8a6c62b4627f2707f1ecc",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_2204.npz": "78519ca0a7959bb2ca63c65ab6c7e9cb20cd6a8a460b8aafa7df34c650bfa22b",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_guarded_2200.npz": "90b0fa09cbce3116626779e66a8cd9c6cac67f39091abe339298016f6883e89d",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_guarded_2201.npz": "c6c00a346f787b9c2e103ba905b40cf975e4886c2754cb2f50ad0b997615156f",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_guarded_2202.npz": "9d57aaef415fd5fedf4a0d00e077cb5b6ab597b4d294377084a18fd161ab0929",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_guarded_2203.npz": "dc0378b18f1d4b8418b2e90d6a6d3986d0c82031251d9ee9d856597d2bd51aa8",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\combo_segment_guarded_2204.npz": "b29881dfe8ce8440f8ad68f6841dcbcf31d92876cdd0917b5767adb2817e1304",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_global_2200.npz": "73b43623f95f8b15e1039fddaef5b966d2819a6f7b25452327a60d56d5191fe1",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_global_2201.npz": "28ce82a3467c93780b8ec9812caa44e3ea85935f2c07869d69c6ee6a5805e745",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_global_2202.npz": "249131ddf94bd6ea966d7f0ea07801d28147a29311b605d347299997155db8fd",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_global_2203.npz": "83bfcc3a3825436be1f3f845976734505518527dd46165ba6fec7cada9d07dea",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_global_2204.npz": "748f34eaf860514fb4d63281ab124b810c0216c002982970232905ba20537032",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_none_2200.npz": "64b656ed046c53d80a46e2c10d4de5d00790fc2516799d603d465f48ed2eb615",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_none_2201.npz": "9b08653e85a14def70717ee61416b33e88c097d1c3263e84c8127df8841c5422",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_none_2202.npz": "4531a84514c0caf25db26c91452c6b0b91256e0faf1865b05a753e905ce5a6da",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_none_2203.npz": "7f7ca204bda142f63926b1288c23f0454bc579612e26aeeb4d50bc47d873e295",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_none_2204.npz": "a95744fd424879cb39f06f301a69810b8bec5525869f7837231b53d5958935a7",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_2200.npz": "db6f73c084f8805388806190e7bd1f625cfcbcacae0ec4b24d82bb4a62ff8473",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_2201.npz": "d1d5ccbeadc12be4fb065d169ed0cebaf6752e15f766bdfbe42064735e326e69",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_2202.npz": "4531a84514c0caf25db26c91452c6b0b91256e0faf1865b05a753e905ce5a6da",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_2203.npz": "7b6ae2e7d5ea4fd73e08d6e60cb9c0391cfc5f9d850a7087621b1ff968e120d2",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_2204.npz": "c890dc935d70957f47ffb06d5bf63129f4e8aba42f39b775c4d428af2072616b",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_guarded_2200.npz": "db6f73c084f8805388806190e7bd1f625cfcbcacae0ec4b24d82bb4a62ff8473",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_guarded_2201.npz": "939f890d9ac265cea5d0a594aef0f780fc4abe0d2cb4ffdcbbc19368c289e0c5",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_guarded_2202.npz": "4531a84514c0caf25db26c91452c6b0b91256e0faf1865b05a753e905ce5a6da",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_guarded_2203.npz": "500898412acd676e54a842e416ba06e4f3b588608e809299879e51c6b22c4c7c",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\marginal_segment_guarded_2204.npz": "c890dc935d70957f47ffb06d5bf63129f4e8aba42f39b775c4d428af2072616b",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_none_2200.npz": "d83f333821ad9494e5d629143a87afc482b018721cadc851c86dd7b06e6bd4b2",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_none_2201.npz": "a9e230da6d6733d9a01b2b728ab30f98576c8f94b42e5b57afc03524b03fba54",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_none_2202.npz": "94a7f0f0b32cfc1ddac1ee2bfae014c77fe16b65009a1dafd2d2058b04e7a191",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_none_2203.npz": "53832cc1e4c7ebfd1a55156ed77cbacaf97571042d9d0ac77a0e5a5804492b54",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_none_2204.npz": "68844ff5a646fc1d1a95fa7435474ed946596cfd33524225cd5948288cc4bfc5",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_segment_2200.npz": "413b96a034c2b14510a1e2b8ec325092f768833894c0de4bb7ed88a1cf1251f5",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_segment_2201.npz": "aa247e4ad49c3e73e16800e4a09bce8188e86d8a6cd957341bffb296c6fdf1bc",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_segment_2202.npz": "94a7f0f0b32cfc1ddac1ee2bfae014c77fe16b65009a1dafd2d2058b04e7a191",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_segment_2203.npz": "11ae984c8e30a25b5ea70d8d1ee561776d2cdce3f2dedecf3876e6a02bac5860",
+        "D:\\longtail_experiments\\20261112_integration\\split1\\confirmation_results\\natural_segment_2204.npz": "edc680deebb67252e21ec30fe0c30cb68d9d631c6fe0bf85e61a6cc412ef9efb"
+      },
+      "comparisons": [
+        {
+          "candidate": "combo_segment",
+          "reference": "combo_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0001736111111111112,
+                "values": [
+                  0.005642361111111111,
+                  -0.0008680555555555555,
+                  0.0,
+                  -0.00390625,
+                  0.0
+                ],
+                "ci95": [
+                  -0.004114079786842312,
+                  0.004461302009064535
+                ]
+              },
+              "corrected": {
+                "mean": 19.8,
+                "values": [
+                  23.0,
+                  39.0,
+                  0.0,
+                  24.0,
+                  13.0
+                ],
+                "ci95": [
+                  1.86235959214088,
+                  37.73764040785912
+                ]
+              },
+              "new_errors": {
+                "mean": 19.4,
+                "values": [
+                  10.0,
+                  41.0,
+                  0.0,
+                  33.0,
+                  13.0
+                ],
+                "ci95": [
+                  -1.7192409865305223,
+                  40.51924098653052
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.003125,
+                "values": [
+                  0.008522727272727272,
+                  0.0014204545454545455,
+                  0.0,
+                  0.0,
+                  0.005681818181818182
+                ],
+                "ci95": [
+                  -0.0016075768838598832,
+                  0.007857576883859883
+                ]
+              },
+              "corrected": {
+                "mean": 9.2,
+                "values": [
+                  13.0,
+                  17.0,
+                  0.0,
+                  10.0,
+                  6.0
+                ],
+                "ci95": [
+                  1.0863171749574771,
+                  17.31368282504252
+                ]
+              },
+              "new_errors": {
+                "mean": 7.0,
+                "values": [
+                  7.0,
+                  16.0,
+                  0.0,
+                  10.0,
+                  2.0
+                ],
+                "ci95": [
+                  -0.9505288416463138,
+                  14.950528841646314
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0009765625,
+                "values": [
+                  0.0009765625,
+                  -0.0009765625,
+                  0.0,
+                  0.00390625,
+                  0.0009765625
+                ],
+                "ci95": [
+                  -0.0012919342142433538,
+                  0.0032450592142433538
+                ]
+              },
+              "corrected": {
+                "mean": 10.4,
+                "values": [
+                  8.0,
+                  21.0,
+                  0.0,
+                  12.0,
+                  11.0
+                ],
+                "ci95": [
+                  1.0010054017386345,
+                  19.798994598261366
+                ]
+              },
+              "new_errors": {
+                "mean": 9.4,
+                "values": [
+                  7.0,
+                  22.0,
+                  0.0,
+                  8.0,
+                  10.0
+                ],
+                "ci95": [
+                  -0.5177790410442284,
+                  19.31777904104423
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment",
+          "reference": "combo_global",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.00034722222222222224,
+                "values": [
+                  0.004774305555555556,
+                  -0.0013020833333333333,
+                  0.0008680555555555555,
+                  -0.0030381944444444445,
+                  0.00043402777777777775
+                ],
+                "ci95": [
+                  -0.003275965463951498,
+                  0.003970409908395942
+                ]
+              },
+              "corrected": {
+                "mean": 17.0,
+                "values": [
+                  21.0,
+                  28.0,
+                  5.0,
+                  20.0,
+                  11.0
+                ],
+                "ci95": [
+                  5.790586412238948,
+                  28.209413587761052
+                ]
+              },
+              "new_errors": {
+                "mean": 16.2,
+                "values": [
+                  10.0,
+                  31.0,
+                  3.0,
+                  27.0,
+                  10.0
+                ],
+                "ci95": [
+                  1.1609935379138907,
+                  31.23900646208611
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0008522727272727272,
+                "values": [
+                  0.007102272727272727,
+                  -0.0014204545454545455,
+                  -0.004261363636363636,
+                  -0.0014204545454545455,
+                  0.004261363636363636
+                ],
+                "ci95": [
+                  -0.004943926539701053,
+                  0.0066484719942465085
+                ]
+              },
+              "corrected": {
+                "mean": 7.4,
+                "values": [
+                  12.0,
+                  11.0,
+                  0.0,
+                  8.0,
+                  6.0
+                ],
+                "ci95": [
+                  1.4711356698667597,
+                  13.328864330133241
+                ]
+              },
+              "new_errors": {
+                "mean": 6.8,
+                "values": [
+                  7.0,
+                  12.0,
+                  3.0,
+                  9.0,
+                  3.0
+                ],
+                "ci95": [
+                  1.9591025456618558,
+                  11.640897454338145
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0009765625,
+                "values": [
+                  0.0029296875,
+                  -0.0048828125,
+                  0.0,
+                  0.0048828125,
+                  0.001953125
+                ],
+                "ci95": [
+                  -0.0036407379316600085,
+                  0.0055938629316600085
+                ]
+              },
+              "corrected": {
+                "mean": 8.8,
+                "values": [
+                  9.0,
+                  14.0,
+                  1.0,
+                  11.0,
+                  9.0
+                ],
+                "ci95": [
+                  2.819354212219184,
+                  14.780645787780816
+                ]
+              },
+              "new_errors": {
+                "mean": 7.8,
+                "values": [
+                  6.0,
+                  19.0,
+                  1.0,
+                  6.0,
+                  7.0
+                ],
+                "ci95": [
+                  -0.5015244355636694,
+                  16.101524435563668
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 8.680555555555542e-05,
+                "values": [
+                  0.003472222222222222,
+                  0.003472222222222222,
+                  0.0,
+                  -0.01171875,
+                  0.005208333333333333
+                ],
+                "ci95": [
+                  -0.008437622837437028,
+                  0.008611233948548139
+                ]
+              },
+              "corrected": {
+                "mean": 24.2,
+                "values": [
+                  21.0,
+                  58.0,
+                  0.0,
+                  21.0,
+                  21.0
+                ],
+                "ci95": [
+                  -1.8364831401291433,
+                  50.23648314012914
+                ]
+              },
+              "new_errors": {
+                "mean": 24.0,
+                "values": [
+                  13.0,
+                  50.0,
+                  0.0,
+                  48.0,
+                  9.0
+                ],
+                "ci95": [
+                  -4.947020136632716,
+                  52.947020136632716
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0022727272727272726,
+                "values": [
+                  0.007102272727272727,
+                  -0.002840909090909091,
+                  0.0,
+                  -0.0014204545454545455,
+                  0.008522727272727272
+                ],
+                "ci95": [
+                  -0.004159438820539589,
+                  0.008704893365994134
+                ]
+              },
+              "corrected": {
+                "mean": 9.6,
+                "values": [
+                  9.0,
+                  19.0,
+                  0.0,
+                  13.0,
+                  7.0
+                ],
+                "ci95": [
+                  0.8376870447991251,
+                  18.362312955200874
+                ]
+              },
+              "new_errors": {
+                "mean": 8.0,
+                "values": [
+                  4.0,
+                  21.0,
+                  0.0,
+                  14.0,
+                  1.0
+                ],
+                "ci95": [
+                  -3.346118805580735,
+                  19.346118805580737
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.00390625,
+                "values": [
+                  0.0048828125,
+                  0.0126953125,
+                  0.0,
+                  0.0,
+                  0.001953125
+                ],
+                "ci95": [
+                  -0.002679650125153093,
+                  0.010492150125153093
+                ]
+              },
+              "corrected": {
+                "mean": 12.6,
+                "values": [
+                  8.0,
+                  29.0,
+                  0.0,
+                  15.0,
+                  11.0
+                ],
+                "ci95": [
+                  -0.6747760836468348,
+                  25.874776083646836
+                ]
+              },
+              "new_errors": {
+                "mean": 8.6,
+                "values": [
+                  3.0,
+                  16.0,
+                  0.0,
+                  15.0,
+                  9.0
+                ],
+                "ci95": [
+                  -0.20619061042280507,
+                  17.406190610422804
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment",
+          "reference": "marginal_global",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": -0.0016493055555555556,
+                "values": [
+                  0.003472222222222222,
+                  0.002170138888888889,
+                  -0.001736111111111111,
+                  -0.013020833333333334,
+                  0.0008680555555555555
+                ],
+                "ci95": [
+                  -0.009896667598228659,
+                  0.006598056487117548
+                ]
+              },
+              "corrected": {
+                "mean": 18.6,
+                "values": [
+                  21.0,
+                  32.0,
+                  3.0,
+                  25.0,
+                  12.0
+                ],
+                "ci95": [
+                  4.535722810856685,
+                  32.66427718914332
+                ]
+              },
+              "new_errors": {
+                "mean": 22.4,
+                "values": [
+                  13.0,
+                  27.0,
+                  7.0,
+                  55.0,
+                  10.0
+                ],
+                "ci95": [
+                  -2.146035983786465,
+                  46.94603598378646
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0008522727272727272,
+                "values": [
+                  0.007102272727272727,
+                  -0.002840909090909091,
+                  -0.002840909090909091,
+                  0.0,
+                  0.002840909090909091
+                ],
+                "ci95": [
+                  -0.00437978787781814,
+                  0.006084333332363595
+                ]
+              },
+              "corrected": {
+                "mean": 7.6,
+                "values": [
+                  9.0,
+                  12.0,
+                  0.0,
+                  13.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.7652064128906195,
+                  14.434793587109379
+                ]
+              },
+              "new_errors": {
+                "mean": 7.0,
+                "values": [
+                  4.0,
+                  14.0,
+                  2.0,
+                  13.0,
+                  2.0
+                ],
+                "ci95": [
+                  -0.4499839892225994,
+                  14.449983989222599
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0009765625,
+                "values": [
+                  0.001953125,
+                  0.009765625,
+                  -0.0009765625,
+                  -0.0029296875,
+                  -0.0029296875
+                ],
+                "ci95": [
+                  -0.005609337625153093,
+                  0.007562462625153093
+                ]
+              },
+              "corrected": {
+                "mean": 9.4,
+                "values": [
+                  6.0,
+                  18.0,
+                  1.0,
+                  17.0,
+                  5.0
+                ],
+                "ci95": [
+                  -0.08065551228298062,
+                  18.88065551228298
+                ]
+              },
+              "new_errors": {
+                "mean": 8.4,
+                "values": [
+                  4.0,
+                  8.0,
+                  2.0,
+                  20.0,
+                  8.0
+                ],
+                "ci95": [
+                  -0.2738917932174889,
+                  17.07389179321749
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment",
+          "reference": "marginal_segment",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.005729166666666667,
+                "values": [
+                  0.0,
+                  -0.003472222222222222,
+                  0.0030381944444444445,
+                  0.016493055555555556,
+                  0.012586805555555556
+                ],
+                "ci95": [
+                  -0.004799725898395453,
+                  0.016258059231728787
+                ]
+              },
+              "corrected": {
+                "mean": 61.8,
+                "values": [
+                  56.0,
+                  59.0,
+                  58.0,
+                  70.0,
+                  66.0
+                ],
+                "ci95": [
+                  54.43325866803206,
+                  69.16674133196794
+                ]
+              },
+              "new_errors": {
+                "mean": 48.6,
+                "values": [
+                  56.0,
+                  67.0,
+                  51.0,
+                  32.0,
+                  37.0
+                ],
+                "ci95": [
+                  30.939539227379317,
+                  66.26046077262069
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": -0.002556818181818182,
+                "values": [
+                  -0.005681818181818182,
+                  0.008522727272727272,
+                  -0.0014204545454545455,
+                  -0.007102272727272727,
+                  -0.007102272727272727
+                ],
+                "ci95": [
+                  -0.010772834568930061,
+                  0.0056591982052936985
+                ]
+              },
+              "corrected": {
+                "mean": 19.0,
+                "values": [
+                  20.0,
+                  28.0,
+                  19.0,
+                  16.0,
+                  12.0
+                ],
+                "ci95": [
+                  11.65421672282406,
+                  26.34578327717594
+                ]
+              },
+              "new_errors": {
+                "mean": 20.8,
+                "values": [
+                  24.0,
+                  22.0,
+                  20.0,
+                  21.0,
+                  17.0
+                ],
+                "ci95": [
+                  17.586032429268005,
+                  24.013967570731996
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": -0.00703125,
+                "values": [
+                  -0.0068359375,
+                  -0.0107421875,
+                  -0.0107421875,
+                  -0.00390625,
+                  -0.0029296875
+                ],
+                "ci95": [
+                  -0.0116005356041795,
+                  -0.0024619643958205
+                ]
+              },
+              "corrected": {
+                "mean": 19.4,
+                "values": [
+                  18.0,
+                  25.0,
+                  17.0,
+                  19.0,
+                  18.0
+                ],
+                "ci95": [
+                  15.41505160765108,
+                  23.384948392348917
+                ]
+              },
+              "new_errors": {
+                "mean": 26.6,
+                "values": [
+                  25.0,
+                  36.0,
+                  28.0,
+                  23.0,
+                  21.0
+                ],
+                "ci95": [
+                  19.328045564215014,
+                  33.871954435784986
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_none",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.005642361111111111,
+                "values": [
+                  -0.002170138888888889,
+                  0.0008680555555555555,
+                  0.0030381944444444445,
+                  0.008680555555555556,
+                  0.017795138888888888
+                ],
+                "ci95": [
+                  -0.00412527116366321,
+                  0.015409993385885432
+                ]
+              },
+              "corrected": {
+                "mean": 54.2,
+                "values": [
+                  52.0,
+                  40.0,
+                  58.0,
+                  44.0,
+                  77.0
+                ],
+                "ci95": [
+                  36.155242669607645,
+                  72.24475733039236
+                ]
+              },
+              "new_errors": {
+                "mean": 41.2,
+                "values": [
+                  57.0,
+                  38.0,
+                  51.0,
+                  24.0,
+                  36.0
+                ],
+                "ci95": [
+                  25.024973152767846,
+                  57.375026847232164
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": -0.003409090909090909,
+                "values": [
+                  -0.007102272727272727,
+                  0.004261363636363636,
+                  -0.0014204545454545455,
+                  -0.008522727272727272,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.009719193420904087,
+                  0.0029010116027222694
+                ]
+              },
+              "corrected": {
+                "mean": 16.0,
+                "values": [
+                  19.0,
+                  17.0,
+                  19.0,
+                  10.0,
+                  15.0
+                ],
+                "ci95": [
+                  11.354118729229612,
+                  20.64588127077039
+                ]
+              },
+              "new_errors": {
+                "mean": 18.4,
+                "values": [
+                  24.0,
+                  14.0,
+                  20.0,
+                  16.0,
+                  18.0
+                ],
+                "ci95": [
+                  13.623223223800029,
+                  23.17677677619997
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": -0.0041015625,
+                "values": [
+                  -0.0029296875,
+                  0.0029296875,
+                  -0.0107421875,
+                  -0.0078125,
+                  -0.001953125
+                ],
+                "ci95": [
+                  -0.010709749998922982,
+                  0.0025066249989229815
+                ]
+              },
+              "corrected": {
+                "mean": 17.6,
+                "values": [
+                  20.0,
+                  20.0,
+                  17.0,
+                  12.0,
+                  19.0
+                ],
+                "ci95": [
+                  13.426087785527876,
+                  21.773912214472126
+                ]
+              },
+              "new_errors": {
+                "mean": 21.8,
+                "values": [
+                  23.0,
+                  17.0,
+                  28.0,
+                  20.0,
+                  21.0
+                ],
+                "ci95": [
+                  16.72586141398655,
+                  26.87413858601345
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment_guarded",
+          "reference": "combo_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.00234375,
+                "values": [
+                  0.005642361111111111,
+                  0.004340277777777778,
+                  0.0,
+                  0.00043402777777777775,
+                  0.0013020833333333333
+                ],
+                "ci95": [
+                  -0.000766130713671855,
+                  0.005453630713671855
+                ]
+              },
+              "corrected": {
+                "mean": 20.2,
+                "values": [
+                  23.0,
+                  38.0,
+                  0.0,
+                  24.0,
+                  16.0
+                ],
+                "ci95": [
+                  3.030880120866957,
+                  37.36911987913304
+                ]
+              },
+              "new_errors": {
+                "mean": 14.8,
+                "values": [
+                  10.0,
+                  28.0,
+                  0.0,
+                  23.0,
+                  13.0
+                ],
+                "ci95": [
+                  1.1022455031569631,
+                  28.497754496843037
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.002840909090909091,
+                "values": [
+                  0.008522727272727272,
+                  0.002840909090909091,
+                  0.0,
+                  -0.0014204545454545455,
+                  0.004261363636363636
+                ],
+                "ci95": [
+                  -0.0019892569649023932,
+                  0.007671075146720575
+                ]
+              },
+              "corrected": {
+                "mean": 7.8,
+                "values": [
+                  13.0,
+                  14.0,
+                  0.0,
+                  8.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.43325866803205937,
+                  15.166741331967941
+                ]
+              },
+              "new_errors": {
+                "mean": 5.8,
+                "values": [
+                  7.0,
+                  12.0,
+                  0.0,
+                  9.0,
+                  1.0
+                ],
+                "ci95": [
+                  -0.6159315172797939,
+                  12.215931517279794
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0029296875,
+                "values": [
+                  0.0009765625,
+                  0.00390625,
+                  0.0,
+                  0.0048828125,
+                  0.0048828125
+                ],
+                "ci95": [
+                  8.597637422836073e-05,
+                  0.005773398625771639
+                ]
+              },
+              "corrected": {
+                "mean": 11.0,
+                "values": [
+                  8.0,
+                  23.0,
+                  0.0,
+                  13.0,
+                  11.0
+                ],
+                "ci95": [
+                  0.6486619624196557,
+                  21.351338037580344
+                ]
+              },
+              "new_errors": {
+                "mean": 8.0,
+                "values": [
+                  7.0,
+                  19.0,
+                  0.0,
+                  8.0,
+                  6.0
+                ],
+                "ci95": [
+                  -0.5575785424779909,
+                  16.55757854247799
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment_guarded",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0014756944444444444,
+                "values": [
+                  0.003472222222222222,
+                  0.002170138888888889,
+                  0.0,
+                  -0.003472222222222222,
+                  0.005208333333333333
+                ],
+                "ci95": [
+                  -0.002691772907760583,
+                  0.005643161796649472
+                ]
+              },
+              "corrected": {
+                "mean": 20.8,
+                "values": [
+                  21.0,
+                  37.0,
+                  0.0,
+                  25.0,
+                  21.0
+                ],
+                "ci95": [
+                  4.224832003072134,
+                  37.37516799692787
+                ]
+              },
+              "new_errors": {
+                "mean": 17.4,
+                "values": [
+                  13.0,
+                  32.0,
+                  0.0,
+                  33.0,
+                  9.0
+                ],
+                "ci95": [
+                  -0.6916878578431032,
+                  35.491687857843104
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.004545454545454545,
+                "values": [
+                  0.007102272727272727,
+                  0.01278409090909091,
+                  0.0,
+                  -0.005681818181818182,
+                  0.008522727272727272
+                ],
+                "ci95": [
+                  -0.004568084541590616,
+                  0.013658993632499707
+                ]
+              },
+              "corrected": {
+                "mean": 9.6,
+                "values": [
+                  9.0,
+                  19.0,
+                  0.0,
+                  13.0,
+                  7.0
+                ],
+                "ci95": [
+                  0.8376870447991251,
+                  18.362312955200874
+                ]
+              },
+              "new_errors": {
+                "mean": 6.4,
+                "values": [
+                  4.0,
+                  10.0,
+                  0.0,
+                  17.0,
+                  1.0
+                ],
+                "ci95": [
+                  -2.4061906104228044,
+                  15.206190610422805
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0029296875,
+                "values": [
+                  0.0048828125,
+                  0.0078125,
+                  0.0,
+                  0.0,
+                  0.001953125
+                ],
+                "ci95": [
+                  -0.0012707522086289735,
+                  0.0071301272086289735
+                ]
+              },
+              "corrected": {
+                "mean": 9.8,
+                "values": [
+                  8.0,
+                  18.0,
+                  0.0,
+                  12.0,
+                  11.0
+                ],
+                "ci95": [
+                  1.6389514321009155,
+                  17.961048567899084
+                ]
+              },
+              "new_errors": {
+                "mean": 6.8,
+                "values": [
+                  3.0,
+                  10.0,
+                  0.0,
+                  12.0,
+                  9.0
+                ],
+                "ci95": [
+                  0.5053635728511825,
+                  13.094636427148817
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "natural_segment",
+          "reference": "natural_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.005989583333333334,
+                "values": [
+                  0.012152777777777778,
+                  0.015625,
+                  0.0,
+                  -0.00043402777777777775,
+                  0.0026041666666666665
+                ],
+                "ci95": [
+                  -0.0032068049528832495,
+                  0.015185971619549918
+                ]
+              },
+              "corrected": {
+                "mean": 31.4,
+                "values": [
+                  39.0,
+                  69.0,
+                  0.0,
+                  27.0,
+                  22.0
+                ],
+                "ci95": [
+                  -0.043777100857312234,
+                  62.84377710085731
+                ]
+              },
+              "new_errors": {
+                "mean": 17.6,
+                "values": [
+                  11.0,
+                  33.0,
+                  0.0,
+                  28.0,
+                  16.0
+                ],
+                "ci95": [
+                  1.1602561266448213,
+                  34.03974387335518
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0011363636363636363,
+                "values": [
+                  -0.004261363636363636,
+                  0.004261363636363636,
+                  0.0,
+                  0.002840909090909091,
+                  0.002840909090909091
+                ],
+                "ci95": [
+                  -0.0030744775071969038,
+                  0.005347204779924177
+                ]
+              },
+              "corrected": {
+                "mean": 7.4,
+                "values": [
+                  4.0,
+                  13.0,
+                  0.0,
+                  12.0,
+                  8.0
+                ],
+                "ci95": [
+                  0.6218336818742918,
+                  14.178166318125708
+                ]
+              },
+              "new_errors": {
+                "mean": 6.6,
+                "values": [
+                  7.0,
+                  10.0,
+                  0.0,
+                  10.0,
+                  6.0
+                ],
+                "ci95": [
+                  1.5106920570165823,
+                  11.689307942983417
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.003515625,
+                "values": [
+                  0.00390625,
+                  0.01171875,
+                  0.0,
+                  0.0,
+                  0.001953125
+                ],
+                "ci95": [
+                  -0.0025228875437789673,
+                  0.009554137543778967
+                ]
+              },
+              "corrected": {
+                "mean": 10.2,
+                "values": [
+                  10.0,
+                  25.0,
+                  0.0,
+                  10.0,
+                  6.0
+                ],
+                "ci95": [
+                  -1.261036256547353,
+                  21.66103625654735
+                ]
+              },
+              "new_errors": {
+                "mean": 6.6,
+                "values": [
+                  6.0,
+                  13.0,
+                  0.0,
+                  10.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.2931290881743607,
+                  12.906870911825639
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "split": "split2",
+      "seeds": [
+        2200,
+        2201,
+        2202,
+        2203,
+        2204
+      ],
+      "identities": 4032,
+      "training_counts_by_code_0_to63": [
+        0,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        117,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        126
+      ],
+      "fit_manifest_sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe",
+      "prediction_sources": {
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_global_2200.npz": "c4f6e24419de32c9824bd2ffb50bb8f3c0c2efd4a4c1cd7617b7a2f1c4c3761a",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_global_2201.npz": "b94e985b43aec8cb94dac48a7e163a2168efba52c284f28e86a3a299c8d7248e",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_global_2202.npz": "1afe2b51df7cb4cadcb307502e8a2cf2a949f04dc1e7246d8f0b28ad098f7fc8",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_global_2203.npz": "84f7a93512c102aa0305e4fdcfc1543ccccb01c3e0d181f3950de3ee2c98b08a",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_global_2204.npz": "ae9167efb9a44c778822c718010c3aa0a6e109fea3aaca9393a9a860a58b6365",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_none_2200.npz": "cbec63d341da7927251d1531600336abc355503f77f15267a40dde22bf4a9512",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_none_2201.npz": "b5c20f56365d79df466f5aeeadd8adc945d1ab44d1c45c86b8d63eaa0ebb1394",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_none_2202.npz": "229af030f5e23f38390020992383f75b8247378c87c33694a1646b37772a5ae3",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_none_2203.npz": "0aac7d55d2712232948ec6895648b53ec736048a64478101872e8dc62955bf54",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_none_2204.npz": "ae9167efb9a44c778822c718010c3aa0a6e109fea3aaca9393a9a860a58b6365",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_2200.npz": "67a32017ea21716760db2ad8f8c1089e998c10721f74a13634be5b871030f588",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_2201.npz": "5418b3a410ca25b115e2b8121ccea659d2b5d47d1fab01b6b1fb2ef5cb2910c4",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_2202.npz": "54c24c9f42281db40e31973e0163c8c8ec4d01c672c6ce13515bab07f63946db",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_2203.npz": "ac3275210dbb14afa505e886c4f44f9e6e228ac9257d9e743bc0c4105f873528",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_2204.npz": "6132501b3f9822433cca80ec7493bf24e562a3dc71e71aaba8c352e92d083035",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_guarded_2200.npz": "67a32017ea21716760db2ad8f8c1089e998c10721f74a13634be5b871030f588",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_guarded_2201.npz": "5418b3a410ca25b115e2b8121ccea659d2b5d47d1fab01b6b1fb2ef5cb2910c4",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_guarded_2202.npz": "229af030f5e23f38390020992383f75b8247378c87c33694a1646b37772a5ae3",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_guarded_2203.npz": "1337a3244cbfb8b10287c80b9e664ba9f2d7463206186e89e28eec98874d9989",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\combo_segment_guarded_2204.npz": "6132501b3f9822433cca80ec7493bf24e562a3dc71e71aaba8c352e92d083035",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_global_2200.npz": "8db160435b533d020c43fe3f16e9d4fdaad03ab2c06bf453675ab191e2b996ad",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_global_2201.npz": "46379f91199a8f9a0853973e69621d8ad0ca5b4d5af0b727efd8b612f34f0585",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_global_2202.npz": "8604a87ad282fa6cf96da3ecd886a07313f9865a821474eb65236bd790d1bca2",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_global_2203.npz": "3d2583dbf311e3b2dcc9ff3d3496095ce5a10649c5268a60ebecfc79e8d6b449",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_global_2204.npz": "89dd1abe217e2010389ad3df816ae155af01a3ad8393c86a43960e73d788ee6d",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_none_2200.npz": "94d2722c662c4dcee9e4ec3285cfffc2f7791fe24952fc3c119d4de15ade19c9",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_none_2201.npz": "13b911010f13990056b033e492294896649f980556fd63eee702ae8b46068358",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_none_2202.npz": "7980359ed48ab05b775c95d2990d765164133ec0d8282b17450b55c2d2917b50",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_none_2203.npz": "1dfa421201bdee6680532890ff33cea7131183aa04894da7241c905420fad538",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_none_2204.npz": "89dd1abe217e2010389ad3df816ae155af01a3ad8393c86a43960e73d788ee6d",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_2200.npz": "7c27a47509eac60f80c0a00094b0a72949f75715a48fd9a1a7707af3d9925407",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_2201.npz": "0b3b07252f891bd7a11dd2842416ef38e1acea499a35dd8f9af38a742449d382",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_2202.npz": "c6e7a8e1d90f8f3b785546490936268a264dbf028d9ecdf77c429d0741c19dc5",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_2203.npz": "ad8bb536cace1830d66d6473792b59ec6326836b7cd8fe4853b64a866f98dba4",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_2204.npz": "3ee3b0cabb0230c992d2d95e6a804a0fc882adfeeaeba84624da93c168d42dc2",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_guarded_2200.npz": "7c27a47509eac60f80c0a00094b0a72949f75715a48fd9a1a7707af3d9925407",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_guarded_2201.npz": "0b3b07252f891bd7a11dd2842416ef38e1acea499a35dd8f9af38a742449d382",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_guarded_2202.npz": "7980359ed48ab05b775c95d2990d765164133ec0d8282b17450b55c2d2917b50",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_guarded_2203.npz": "27568e7914149ec9299cc59da7d0b914534648c1f93ff8efdcc66bd8a72eca97",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\marginal_segment_guarded_2204.npz": "3ee3b0cabb0230c992d2d95e6a804a0fc882adfeeaeba84624da93c168d42dc2",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_none_2200.npz": "ca5f62ba22fb7bcdd38a3efc83f4a64236fc518b84cff51b6d3317d836d8c58c",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_none_2201.npz": "5605767934f7b30b4a62940846da934a5412de616ace7b700f69ce940e16328a",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_none_2202.npz": "6916eff984e9102604d5ae631d7d2ab0beb13f6a90c2d8517d93e2dcc19edefd",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_none_2203.npz": "560f8adbd5ecf70383cd3917c2f4b05c1a7f5ca3e3aa3e1da4e1c0dd196a5b4e",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_none_2204.npz": "0165ebdfa0b59f36fc6fa43fbd3db98b02c1a07cb2e325f320cf6d4cb25c201b",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_segment_2200.npz": "98709d1ff53587e17336b7ed8b6dd0fe3209d45f9570c732e6022c0ec9a09a44",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_segment_2201.npz": "abd67732370310ffcb3d4688dda1d2a9ecd747d4f890d2e4571627780e3e074a",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_segment_2202.npz": "0213983458f260f05f9b74e03f428e2e1b37c16aab7cf750ace9e74c786de9e5",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_segment_2203.npz": "71bb71bef4659a12a77d0ce35c3dee7daa60518e2ecf4061491f206841667b6d",
+        "D:\\longtail_experiments\\20261112_integration\\split2\\confirmation_results\\natural_segment_2204.npz": "3abce835d9f9271e407a50595d5bab55cc1c62f65e9f170dc0e95f426ca669ec"
+      },
+      "comparisons": [
+        {
+          "candidate": "combo_segment",
+          "reference": "combo_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0020833333333333333,
+                "values": [
+                  -0.0008680555555555555,
+                  0.0,
+                  0.002170138888888889,
+                  0.006076388888888889,
+                  0.0030381944444444445
+                ],
+                "ci95": [
+                  -0.0013122693464573082,
+                  0.005478936013123974
+                ]
+              },
+              "corrected": {
+                "mean": 18.2,
+                "values": [
+                  8.0,
+                  11.0,
+                  16.0,
+                  35.0,
+                  21.0
+                ],
+                "ci95": [
+                  5.018463181560904,
+                  31.381536818439095
+                ]
+              },
+              "new_errors": {
+                "mean": 13.4,
+                "values": [
+                  10.0,
+                  11.0,
+                  11.0,
+                  21.0,
+                  14.0
+                ],
+                "ci95": [
+                  7.805618127617864,
+                  18.994381872382135
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0008522727272727272,
+                "values": [
+                  0.002840909090909091,
+                  0.0,
+                  0.0,
+                  0.005681818181818182,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.003746965297467916,
+                  0.0054515107520133705
+                ]
+              },
+              "corrected": {
+                "mean": 6.2,
+                "values": [
+                  8.0,
+                  1.0,
+                  4.0,
+                  12.0,
+                  6.0
+                ],
+                "ci95": [
+                  1.0504614641418355,
+                  11.349538535858166
+                ]
+              },
+              "new_errors": {
+                "mean": 5.6,
+                "values": [
+                  6.0,
+                  1.0,
+                  4.0,
+                  8.0,
+                  9.0
+                ],
+                "ci95": [
+                  1.6150516076510804,
+                  9.584948392348918
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.003515625,
+                "values": [
+                  0.0009765625,
+                  0.0009765625,
+                  0.005859375,
+                  0.0048828125,
+                  0.0048828125
+                ],
+                "ci95": [
+                  0.0005953877989351482,
+                  0.006435862201064852
+                ]
+              },
+              "corrected": {
+                "mean": 7.0,
+                "values": [
+                  6.0,
+                  3.0,
+                  6.0,
+                  9.0,
+                  11.0
+                ],
+                "ci95": [
+                  3.1729345312451285,
+                  10.82706546875487
+                ]
+              },
+              "new_errors": {
+                "mean": 3.4,
+                "values": [
+                  5.0,
+                  2.0,
+                  0.0,
+                  4.0,
+                  6.0
+                ],
+                "ci95": [
+                  0.4096771061095916,
+                  6.390322893890408
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment",
+          "reference": "combo_global",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.00234375,
+                "values": [
+                  0.00043402777777777775,
+                  0.0008680555555555555,
+                  0.002170138888888889,
+                  0.005208333333333333,
+                  0.0030381944444444445
+                ],
+                "ci95": [
+                  -2.3806046744562995e-05,
+                  0.004711306046744563
+                ]
+              },
+              "corrected": {
+                "mean": 19.8,
+                "values": [
+                  9.0,
+                  12.0,
+                  22.0,
+                  35.0,
+                  21.0
+                ],
+                "ci95": [
+                  7.155738553163845,
+                  32.44426144683616
+                ]
+              },
+              "new_errors": {
+                "mean": 14.4,
+                "values": [
+                  8.0,
+                  10.0,
+                  17.0,
+                  23.0,
+                  14.0
+                ],
+                "ci95": [
+                  7.022801968188172,
+                  21.777198031811828
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0,
+                "values": [
+                  0.0,
+                  -0.0014204545454545455,
+                  0.0014204545454545455,
+                  0.004261363636363636,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.003943814069883237,
+                  0.003943814069883237
+                ]
+              },
+              "corrected": {
+                "mean": 6.0,
+                "values": [
+                  6.0,
+                  0.0,
+                  6.0,
+                  12.0,
+                  6.0
+                ],
+                "ci95": [
+                  0.7320658014894939,
+                  11.267934198510506
+                ]
+              },
+              "new_errors": {
+                "mean": 6.0,
+                "values": [
+                  6.0,
+                  1.0,
+                  5.0,
+                  9.0,
+                  9.0
+                ],
+                "ci95": [
+                  1.8818664022655858,
+                  10.118133597734413
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0029296875,
+                "values": [
+                  0.0,
+                  0.001953125,
+                  0.0029296875,
+                  0.0048828125,
+                  0.0048828125
+                ],
+                "ci95": [
+                  0.0003574540046335419,
+                  0.005501920995366458
+                ]
+              },
+              "corrected": {
+                "mean": 8.0,
+                "values": [
+                  5.0,
+                  3.0,
+                  8.0,
+                  13.0,
+                  11.0
+                ],
+                "ci95": [
+                  2.880488183879134,
+                  13.119511816120866
+                ]
+              },
+              "new_errors": {
+                "mean": 5.0,
+                "values": [
+                  5.0,
+                  1.0,
+                  5.0,
+                  8.0,
+                  6.0
+                ],
+                "ci95": [
+                  1.8343655219166792,
+                  8.165634478083321
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0006944444444444444,
+                "values": [
+                  0.0,
+                  -0.006510416666666667,
+                  -0.00043402777777777775,
+                  0.005642361111111111,
+                  0.004774305555555556
+                ],
+                "ci95": [
+                  -0.005350077168931475,
+                  0.006738966057820364
+                ]
+              },
+              "corrected": {
+                "mean": 17.6,
+                "values": [
+                  9.0,
+                  5.0,
+                  14.0,
+                  35.0,
+                  25.0
+                ],
+                "ci95": [
+                  2.352285212109564,
+                  32.84771478789044
+                ]
+              },
+              "new_errors": {
+                "mean": 16.0,
+                "values": [
+                  9.0,
+                  20.0,
+                  15.0,
+                  22.0,
+                  14.0
+                ],
+                "ci95": [
+                  9.608143357557436,
+                  22.391856642442562
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0017045454545454545,
+                "values": [
+                  0.002840909090909091,
+                  0.0014204545454545455,
+                  0.0014204545454545455,
+                  0.007102272727272727,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.003346000837214154,
+                  0.006755091746305062
+                ]
+              },
+              "corrected": {
+                "mean": 6.6,
+                "values": [
+                  8.0,
+                  3.0,
+                  4.0,
+                  14.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.937140892070901,
+                  12.2628591079291
+                ]
+              },
+              "new_errors": {
+                "mean": 5.4,
+                "values": [
+                  6.0,
+                  2.0,
+                  3.0,
+                  9.0,
+                  7.0
+                ],
+                "ci95": [
+                  1.8228007155298842,
+                  8.977199284470117
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0041015625,
+                "values": [
+                  0.0029296875,
+                  0.0048828125,
+                  0.0009765625,
+                  0.009765625,
+                  0.001953125
+                ],
+                "ci95": [
+                  -0.000219653673062121,
+                  0.008422778673062122
+                ]
+              },
+              "corrected": {
+                "mean": 9.2,
+                "values": [
+                  9.0,
+                  9.0,
+                  5.0,
+                  14.0,
+                  9.0
+                ],
+                "ci95": [
+                  5.234443199090359,
+                  13.16555680090964
+                ]
+              },
+              "new_errors": {
+                "mean": 5.0,
+                "values": [
+                  6.0,
+                  4.0,
+                  4.0,
+                  4.0,
+                  7.0
+                ],
+                "ci95": [
+                  3.2440219338298313,
+                  6.755978066170169
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment",
+          "reference": "marginal_global",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0005208333333333334,
+                "values": [
+                  -0.0008680555555555555,
+                  -0.005642361111111111,
+                  -0.002170138888888889,
+                  0.006510416666666667,
+                  0.004774305555555556
+                ],
+                "ci95": [
+                  -0.005722231890244223,
+                  0.00676389855691089
+                ]
+              },
+              "corrected": {
+                "mean": 18.8,
+                "values": [
+                  8.0,
+                  6.0,
+                  21.0,
+                  34.0,
+                  25.0
+                ],
+                "ci95": [
+                  4.17680337644382,
+                  33.42319662355618
+                ]
+              },
+              "new_errors": {
+                "mean": 17.6,
+                "values": [
+                  10.0,
+                  19.0,
+                  26.0,
+                  19.0,
+                  14.0
+                ],
+                "ci95": [
+                  10.119038812759175,
+                  25.080961187240828
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0011363636363636363,
+                "values": [
+                  0.0,
+                  0.0,
+                  0.0014204545454545455,
+                  0.008522727272727272,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.004632938969160814,
+                  0.006905666241888087
+                ]
+              },
+              "corrected": {
+                "mean": 6.4,
+                "values": [
+                  5.0,
+                  2.0,
+                  6.0,
+                  15.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.15454117328320827,
+                  12.645458826716792
+                ]
+              },
+              "new_errors": {
+                "mean": 5.6,
+                "values": [
+                  5.0,
+                  2.0,
+                  5.0,
+                  9.0,
+                  7.0
+                ],
+                "ci95": [
+                  2.362136430582587,
+                  8.837863569417411
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0044921875,
+                "values": [
+                  0.0029296875,
+                  0.00390625,
+                  0.0029296875,
+                  0.0107421875,
+                  0.001953125
+                ],
+                "ci95": [
+                  7.007331087903208e-05,
+                  0.008914301689120968
+                ]
+              },
+              "corrected": {
+                "mean": 10.0,
+                "values": [
+                  7.0,
+                  9.0,
+                  8.0,
+                  17.0,
+                  9.0
+                ],
+                "ci95": [
+                  5.033344007184934,
+                  14.966655992815067
+                ]
+              },
+              "new_errors": {
+                "mean": 5.4,
+                "values": [
+                  4.0,
+                  5.0,
+                  5.0,
+                  6.0,
+                  7.0
+                ],
+                "ci95": [
+                  3.984285223017726,
+                  6.815714776982275
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment",
+          "reference": "marginal_segment",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0072048611111111115,
+                "values": [
+                  0.0026041666666666665,
+                  0.021701388888888888,
+                  0.008680555555555556,
+                  0.003472222222222222,
+                  -0.00043402777777777775
+                ],
+                "ci95": [
+                  -0.0036513338903798355,
+                  0.01806105611260206
+                ]
+              },
+              "corrected": {
+                "mean": 55.0,
+                "values": [
+                  62.0,
+                  91.0,
+                  49.0,
+                  44.0,
+                  29.0
+                ],
+                "ci95": [
+                  26.026361908192218,
+                  83.97363809180779
+                ]
+              },
+              "new_errors": {
+                "mean": 38.4,
+                "values": [
+                  56.0,
+                  41.0,
+                  29.0,
+                  36.0,
+                  30.0
+                ],
+                "ci95": [
+                  24.78126081542149,
+                  52.01873918457851
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.013068181818181817,
+                "values": [
+                  0.024147727272727272,
+                  0.036931818181818184,
+                  0.019886363636363636,
+                  -0.014204545454545454,
+                  -0.0014204545454545455
+                ],
+                "ci95": [
+                  -0.012472391695012996,
+                  0.03860875533137663
+                ]
+              },
+              "corrected": {
+                "mean": 26.2,
+                "values": [
+                  32.0,
+                  44.0,
+                  26.0,
+                  16.0,
+                  13.0
+                ],
+                "ci95": [
+                  10.632088291834414,
+                  41.767911708165585
+                ]
+              },
+              "new_errors": {
+                "mean": 17.0,
+                "values": [
+                  15.0,
+                  18.0,
+                  12.0,
+                  26.0,
+                  14.0
+                ],
+                "ci95": [
+                  10.199126193417431,
+                  23.80087380658257
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": -0.005859375,
+                "values": [
+                  -0.013671875,
+                  0.0009765625,
+                  -0.0078125,
+                  -0.0078125,
+                  -0.0009765625
+                ],
+                "ci95": [
+                  -0.013185099206080741,
+                  0.0014663492060807415
+                ]
+              },
+              "corrected": {
+                "mean": 20.4,
+                "values": [
+                  22.0,
+                  22.0,
+                  24.0,
+                  15.0,
+                  19.0
+                ],
+                "ci95": [
+                  16.045316009334893,
+                  24.754683990665104
+                ]
+              },
+              "new_errors": {
+                "mean": 26.4,
+                "values": [
+                  36.0,
+                  21.0,
+                  32.0,
+                  23.0,
+                  20.0
+                ],
+                "ci95": [
+                  17.506703504800136,
+                  35.29329649519986
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_none",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0058159722222222215,
+                "values": [
+                  0.003472222222222222,
+                  0.015190972222222222,
+                  0.006076388888888889,
+                  0.0030381944444444445,
+                  0.0013020833333333333
+                ],
+                "ci95": [
+                  -0.0010284816031704662,
+                  0.01266042604761491
+                ]
+              },
+              "corrected": {
+                "mean": 52.4,
+                "values": [
+                  61.0,
+                  75.0,
+                  47.0,
+                  45.0,
+                  34.0
+                ],
+                "ci95": [
+                  32.6970183936333,
+                  72.1029816063667
+                ]
+              },
+              "new_errors": {
+                "mean": 39.0,
+                "values": [
+                  53.0,
+                  40.0,
+                  33.0,
+                  38.0,
+                  31.0
+                ],
+                "ci95": [
+                  28.282778037642657,
+                  49.71722196235734
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.013920454545454545,
+                "values": [
+                  0.024147727272727272,
+                  0.03835227272727273,
+                  0.02130681818181818,
+                  -0.01278409090909091,
+                  -0.0014204545454545455
+                ],
+                "ci95": [
+                  -0.011711303026125504,
+                  0.039552212117034594
+                ]
+              },
+              "corrected": {
+                "mean": 28.0,
+                "values": [
+                  35.0,
+                  43.0,
+                  28.0,
+                  20.0,
+                  14.0
+                ],
+                "ci95": [
+                  13.653540988379014,
+                  42.346459011620986
+                ]
+              },
+              "new_errors": {
+                "mean": 18.2,
+                "values": [
+                  18.0,
+                  16.0,
+                  13.0,
+                  29.0,
+                  15.0
+                ],
+                "ci95": [
+                  10.376531425762362,
+                  26.023468574237636
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": -0.0052734375,
+                "values": [
+                  -0.01171875,
+                  0.0048828125,
+                  -0.0126953125,
+                  -0.0029296875,
+                  -0.00390625
+                ],
+                "ci95": [
+                  -0.014208632752475877,
+                  0.0036617577524758766
+                ]
+              },
+              "corrected": {
+                "mean": 21.0,
+                "values": [
+                  25.0,
+                  24.0,
+                  20.0,
+                  20.0,
+                  16.0
+                ],
+                "ci95": [
+                  16.523116787578694,
+                  25.476883212421306
+                ]
+              },
+              "new_errors": {
+                "mean": 26.4,
+                "values": [
+                  37.0,
+                  19.0,
+                  33.0,
+                  23.0,
+                  20.0
+                ],
+                "ci95": [
+                  16.327969416455936,
+                  36.47203058354406
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "combo_segment_guarded",
+          "reference": "combo_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0010416666666666669,
+                "values": [
+                  -0.0008680555555555555,
+                  0.0,
+                  0.0,
+                  0.0030381944444444445,
+                  0.0030381944444444445
+                ],
+                "ci95": [
+                  -0.001263737953287481,
+                  0.003347071286620815
+                ]
+              },
+              "corrected": {
+                "mean": 11.4,
+                "values": [
+                  8.0,
+                  11.0,
+                  0.0,
+                  17.0,
+                  21.0
+                ],
+                "ci95": [
+                  1.2897742449505838,
+                  21.51022575504942
+                ]
+              },
+              "new_errors": {
+                "mean": 9.0,
+                "values": [
+                  10.0,
+                  11.0,
+                  0.0,
+                  10.0,
+                  14.0
+                ],
+                "ci95": [
+                  2.4297316977013663,
+                  15.570268302298633
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0,
+                "values": [
+                  0.002840909090909091,
+                  0.0,
+                  0.0,
+                  0.0014204545454545455,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.0032996315843539688,
+                  0.0032996315843539688
+                ]
+              },
+              "corrected": {
+                "mean": 4.0,
+                "values": [
+                  8.0,
+                  1.0,
+                  0.0,
+                  5.0,
+                  6.0
+                ],
+                "ci95": [
+                  -0.21068748199230214,
+                  8.210687481992302
+                ]
+              },
+              "new_errors": {
+                "mean": 4.0,
+                "values": [
+                  6.0,
+                  1.0,
+                  0.0,
+                  4.0,
+                  9.0
+                ],
+                "ci95": [
+                  -0.5621648413749147,
+                  8.562164841374916
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.00234375,
+                "values": [
+                  0.0009765625,
+                  0.0009765625,
+                  0.0,
+                  0.0048828125,
+                  0.0048828125
+                ],
+                "ci95": [
+                  -0.0005764872010648519,
+                  0.005263987201064852
+                ]
+              },
+              "corrected": {
+                "mean": 5.4,
+                "values": [
+                  6.0,
+                  3.0,
+                  0.0,
+                  7.0,
+                  11.0
+                ],
+                "ci95": [
+                  0.2355135704765594,
+                  10.564486429523441
+                ]
+              },
+              "new_errors": {
+                "mean": 3.0,
+                "values": [
+                  5.0,
+                  2.0,
+                  0.0,
+                  2.0,
+                  6.0
+                ],
+                "ci95": [
+                  -0.0414432275832759,
+                  6.041443227583276
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "marginal_segment_guarded",
+          "reference": "marginal_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0003472222222222222,
+                "values": [
+                  0.0,
+                  -0.006510416666666667,
+                  0.0,
+                  0.003472222222222222,
+                  0.004774305555555556
+                ],
+                "ci95": [
+                  -0.0050875593070383585,
+                  0.005782003751482802
+                ]
+              },
+              "corrected": {
+                "mean": 13.0,
+                "values": [
+                  9.0,
+                  5.0,
+                  0.0,
+                  26.0,
+                  25.0
+                ],
+                "ci95": [
+                  -1.717778112309226,
+                  27.717778112309226
+                ]
+              },
+              "new_errors": {
+                "mean": 12.2,
+                "values": [
+                  9.0,
+                  20.0,
+                  0.0,
+                  18.0,
+                  14.0
+                ],
+                "ci95": [
+                  2.2511793211079354,
+                  22.148820678892065
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": -0.0002840909090909091,
+                "values": [
+                  0.002840909090909091,
+                  0.0014204545454545455,
+                  0.0,
+                  -0.0014204545454545455,
+                  -0.004261363636363636
+                ],
+                "ci95": [
+                  -0.0036766880512783874,
+                  0.003108506233096569
+                ]
+              },
+              "corrected": {
+                "mean": 4.4,
+                "values": [
+                  8.0,
+                  3.0,
+                  0.0,
+                  7.0,
+                  4.0
+                ],
+                "ci95": [
+                  0.41505160765108107,
+                  8.38494839234892
+                ]
+              },
+              "new_errors": {
+                "mean": 4.6,
+                "values": [
+                  6.0,
+                  2.0,
+                  0.0,
+                  8.0,
+                  7.0
+                ],
+                "ci95": [
+                  0.33474409720386333,
+                  8.865255902796136
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0025390625,
+                "values": [
+                  0.0029296875,
+                  0.0048828125,
+                  0.0,
+                  0.0029296875,
+                  0.001953125
+                ],
+                "ci95": [
+                  0.0003363333336923397,
+                  0.0047417916663076605
+                ]
+              },
+              "corrected": {
+                "mean": 7.4,
+                "values": [
+                  9.0,
+                  9.0,
+                  0.0,
+                  10.0,
+                  9.0
+                ],
+                "ci95": [
+                  2.2355135704765594,
+                  12.564486429523441
+                ]
+              },
+              "new_errors": {
+                "mean": 4.8,
+                "values": [
+                  6.0,
+                  4.0,
+                  0.0,
+                  7.0,
+                  7.0
+                ],
+                "ci95": [
+                  1.1376173719028677,
+                  8.462382628097131
+                ]
+              }
+            }
+          }
+        },
+        {
+          "candidate": "natural_segment",
+          "reference": "natural_none",
+          "groups": {
+            "tail": {
+              "n": 2304,
+              "difference": {
+                "mean": 0.0014756944444444444,
+                "values": [
+                  0.004340277777777778,
+                  -0.0008680555555555555,
+                  0.0026041666666666665,
+                  0.00043402777777777775,
+                  0.0008680555555555555
+                ],
+                "ci95": [
+                  -0.0010405328041171369,
+                  0.003991921693006026
+                ]
+              },
+              "corrected": {
+                "mean": 19.2,
+                "values": [
+                  18.0,
+                  13.0,
+                  15.0,
+                  31.0,
+                  19.0
+                ],
+                "ci95": [
+                  10.490632018669789,
+                  27.90936798133021
+                ]
+              },
+              "new_errors": {
+                "mean": 15.8,
+                "values": [
+                  8.0,
+                  15.0,
+                  9.0,
+                  30.0,
+                  17.0
+                ],
+                "ci95": [
+                  4.855029422578255,
+                  26.744970577421746
+                ]
+              }
+            },
+            "middle": {
+              "n": 704,
+              "difference": {
+                "mean": 0.0014204545454545455,
+                "values": [
+                  0.005681818181818182,
+                  -0.0014204545454545455,
+                  0.002840909090909091,
+                  0.002840909090909091,
+                  -0.002840909090909091
+                ],
+                "ci95": [
+                  -0.0028997773119080633,
+                  0.005740686402817155
+                ]
+              },
+              "corrected": {
+                "mean": 6.8,
+                "values": [
+                  7.0,
+                  5.0,
+                  5.0,
+                  14.0,
+                  3.0
+                ],
+                "ci95": [
+                  1.5028803471392482,
+                  12.097119652860751
+                ]
+              },
+              "new_errors": {
+                "mean": 5.8,
+                "values": [
+                  3.0,
+                  6.0,
+                  3.0,
+                  12.0,
+                  5.0
+                ],
+                "ci95": [
+                  1.2041655886265357,
+                  10.395834411373464
+                ]
+              }
+            },
+            "head": {
+              "n": 1024,
+              "difference": {
+                "mean": 0.0037109375,
+                "values": [
+                  0.0048828125,
+                  0.0029296875,
+                  0.00390625,
+                  0.0029296875,
+                  0.00390625
+                ],
+                "ci95": [
+                  0.002696434928043389,
+                  0.004725440071956611
+                ]
+              },
+              "corrected": {
+                "mean": 9.0,
+                "values": [
+                  8.0,
+                  9.0,
+                  6.0,
+                  15.0,
+                  7.0
+                ],
+                "ci95": [
+                  4.610054834574577,
+                  13.389945165425424
+                ]
+              },
+              "new_errors": {
+                "mean": 5.2,
+                "values": [
+                  3.0,
+                  6.0,
+                  2.0,
+                  12.0,
+                  3.0
+                ],
+                "ci95": [
+                  0.12586141398655126,
+                  10.27413858601345
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "source_metric_checks": 1300
+  },
+  "boundaries": [
+    "Exploratory fixed groups, no candidate or threshold selected.",
+    "Seed t intervals are unadjusted and conditional on a fixed evaluation cohort.",
+    "Background groups contain different identities; this is not a paired physical intervention.",
+    "Zero-count target/background cells remain missing; no observed zero metric is imputed.",
+    "Selected readout stages target SawFM/MFT/ISRJ; all six labels are retained to expose other decision costs."
+  ],
+  "source_sha256": "834a6f37f945705e35fd1f7faa32b6419deae042f12fb922f61b907b2b58da59",
+  "goal_sha256": "ec51485c2fdd44f6b8f46e6ba0d67fde359afea0dbe8494928e971bbcba76a4f",
+  "time": "2026-11-11T22:42:34.688229+00:00",
+  "details": {
+    "path": "D:\\longtail_experiments\\20261112_integration\\analysis\\background_diagnostics_confirmation_details.json.gz",
+    "sha256": "ae0c679a37953fd41a794b6df0694a387570220557d7c859c97ba3654acaa04d",
+    "encoding": "gzip compressed UTF-8 JSON",
+    "combination_rows": 1134,
+    "background_rows": 3456
+  }
+}

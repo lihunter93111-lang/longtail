@@ -1,0 +1,56 @@
+{
+  "binding": {
+    "model_sha256": "c401def6faa530fd0f3bd4b84a85e5e134122cf6a5ba29ac85edabfb4137f575",
+    "calibration_source_sha256": "599a07bc3fc9edff6d059311869dc168060e1b9765dc426bf0e6b4a8fdfcc532",
+    "calibration_indices_sha256": "789ab5350056eb1e1f6f0749a4532ffca89fa9d0b7c08a505e2851ef89764976",
+    "target_fpr": 0.05
+  },
+  "logit_thresholds": [
+    -3.6786799430847164,
+    -3.0233290195465083,
+    0.2840575575828553,
+    -2.607955694198608,
+    -0.22079811990261075,
+    1.297429442405701
+  ],
+  "calibration": [
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    },
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    },
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    },
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    },
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    },
+    {
+      "negatives": 496,
+      "allowed_fp": 24,
+      "actual_fp": 24,
+      "actual_fpr": 0.04838709677419355
+    }
+  ],
+  "source_sha256": "fded36d506067dd283fd34a44e3e005ccd1447cd9841d6dba80b7954d32c80de",
+  "time": "2026-11-11T22:28:05.529607+00:00"
+}

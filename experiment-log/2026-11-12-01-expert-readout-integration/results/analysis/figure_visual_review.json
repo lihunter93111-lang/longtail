@@ -1,0 +1,15 @@
+{
+  "time": "2026-11-11T22:46:28.835700+00:00",
+  "review": "Assistant visually inspected all eight PNG figures: labels, legends, points, intervals and axes visible without clipping. Wide seed intervals retained.",
+  "files": {
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\backgrounds_confirmation.png": "6bf153235fe82b6f928c819131da0b68158abaee8d79a9c9084eb34e3d8e83de",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\backgrounds_development.png": "77a58a43460a928b77639770c8048bbfc6d4595540b7b0d8088b770c87117baa",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\factorial_confirmation.png": "f4725916a4c605554ef06e30b16dce7201912381804ba9c5c71f852b16f8f205",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\factorial_development.png": "cdbb2d74ef53445dad2ecdd5293421adef414d4cb47b1a55b63f8e09e3d24e89",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\matrix_confirmation.png": "48ce3a721b41419aa15b42552c200b9babbb12294a7e3357edb05755cc8cfc89",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\matrix_development.png": "913c3484b40f03c7407d469d5b5c81c120cb0c12aff01122556b3a9bed1e2bf7",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\physical_confirmation.png": "fd477a0e6632b3eaf90e0c81d26b246cb062756a284e9e6850e730f988474885",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\figures\\physical_development.png": "673408b841ecd9bc25c7056237d5cbe18c71dd9c0ef8bde8d82b0dbf5f56ea4d"
+  },
+  "pdf_scope": "Corresponding PDFs exported from same Matplotlib figures; PNG previews inspected, PDFs not independently rendered."
+}

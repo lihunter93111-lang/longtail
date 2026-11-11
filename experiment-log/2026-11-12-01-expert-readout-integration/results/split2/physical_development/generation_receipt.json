@@ -1,0 +1,17 @@
+{
+  "role": "development",
+  "source_path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+  "source_sha256": "baf3e8b538b7d5e68080876e5346ed0e549cb9d012907f2b6b4acdc910314481",
+  "identities": 2185,
+  "views": [
+    "gap0",
+    "gap10",
+    "gap15",
+    "absent"
+  ],
+  "all_six_targets_eligible": true,
+  "shared_identities_across_all_views": true,
+  "raw_reconstruction_max_abs": 0,
+  "delta_max_abs": 8.5560675549290691E-14,
+  "delta_max_relative": 7.1720974423723138E-16
+}

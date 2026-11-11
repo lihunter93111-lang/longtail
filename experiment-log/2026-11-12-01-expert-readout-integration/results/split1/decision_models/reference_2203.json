@@ -1,0 +1,20 @@
+{
+  "kind": "single",
+  "group": "reference",
+  "seed": 2203,
+  "thresholds": [
+    0.42999999999999994,
+    0.27499999999999997,
+    0.565,
+    0.245,
+    0.29,
+    0.37499999999999994
+  ],
+  "models": {
+    "reference": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\best_BCE.pth",
+      "sha256": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d"
+    }
+  },
+  "protocol_sha256": "431681b8b99231847c986e1c7e6bb65bbd68ff338026e786cc4a9f44c14c302c"
+}

@@ -1,0 +1,1066 @@
+{
+  "passed": true,
+  "pools": {
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat": {
+      "sha256": "c4e22bb52020962bb8c96edc7071b7695160826d68d497a22926f972c5da46b1",
+      "rows": 30240,
+      "actual_components_verified": true,
+      "audit": [
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat": {
+      "sha256": "599a07bc3fc9edff6d059311869dc168060e1b9765dc426bf0e6b4a8fdfcc532",
+      "rows": 2016,
+      "actual_components_verified": true,
+      "audit": [
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat": {
+      "sha256": "443d86ac1500bd3a3de3f401d54f45be758e98e62354e6dfe39254a96fceff06",
+      "rows": 30240,
+      "actual_components_verified": true,
+      "audit": [
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat": {
+      "sha256": "3ff78a735f077ca578acc8fd232b8a466a094e36b149ccbe045e113cfe29af3d",
+      "rows": 2016,
+      "actual_components_verified": true,
+      "audit": [
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+          "overlaps": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "cells": [
+    "CF7p85_IF3",
+    "CF7p85_IF1",
+    "CF16_IF3",
+    "CF16_near_IF1"
+  ],
+  "split_count": 2,
+  "role_note": "Each cohort shares candidate pool among four cells; selection and evaluation identities are separate",
+  "time": "2026-11-11T16:36:25.553495+00:00"
+}

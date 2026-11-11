@@ -20,6 +20,10 @@
 
 ## 最新实验与分工
 
+- [11月12日最终研究判断：完整系统收益、读出局限与下一轮分工](experiment-log/2026-11-12-01-expert-readout-integration/FINAL_RESEARCH_DECISION.txt)
+- [11月12日专家 × 读出控制、物理诊断与双长尾矩阵](experiment-log/2026-11-12-01-expert-readout-integration/RESULTS.txt)
+- [11月12日长期路线与阶段 Goal](experiment-log/2026-11-12-01-expert-readout-integration/LONG_TERM_PLAN.txt) · [逐层目录与师弟接手说明](experiment-log/2026-11-12-01-expert-readout-integration/COLLABORATOR_HANDOFF.txt)
+- [11月11日标签正负边际匹配控制](experiment-log/2026-11-11-01-label-marginal-controls/RESULTS.txt)
 - [11月10日宽骨干 专家与局部读出结果](experiment-log/2026-11-10-01-readout-integration/README.md)
 - [11月11日两人执行方案与Word下载](docs/research/collaboration/2026-11-11/README.md)
 - [11月8日至9日归档与中断分支](experiment-log/2026-11-09-archive-summary.md)
@@ -40,7 +44,7 @@
 - [长尾方法综述与试验建议](docs/research/长尾方法综述与试验建议.md)（[Word](docs/research/word/长尾方法综述与试验建议.docx)）：可开展的实验及公平对照要求。
 - [文献库说明](docs/research/文献库说明.md)：本地文献目录索引；论文 PDF 与全文抽取文本保留在外部文献库。
 
-以上研究说明按各自整理日期理解，发布时未重跑训练。Word 保留原稿，仓库内的可点击路径以 Markdown 为准。
+以上研究说明按各自整理日期理解。早期文档为源码归档说明，近期实际训练、开发与确认状态以对应实验目录的收据为准。Word 保留原稿，仓库内的可点击路径以 Markdown 为准。
 
 ## 环境与入口
 
@@ -71,7 +75,7 @@ python -m cj0724.train --help
 
 ## 证据与复现范围
 
-本次发布整理已有源码和研究说明，不重跑训练或读取锁定测试。历史报告中的 pilot、smoke、development、diagnostic 和 locked-test 角色以各自收据为准；某一分支的分数不能替代其他分支的确认结果。
+早期源码归档没有重跑训练；后续按日期新增的实验记录分别列出实际执行范围。历史报告中的 pilot、smoke、development、diagnostic 和 locked-test 角色以各自收据为准；某一分支的分数不能替代其他分支的确认结果。
 
 校准和阈值只在约定角色的数据上拟合；保留组合覆盖、种子、样本身份和实际可行 IF/CF。训练前冻结配置与 manifest，训练后保存成功、失败和停止收据。
 

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "seed": 2500,
+  "experts": [
+    "natural",
+    "marginal",
+    "combo"
+  ],
+  "initial_sha256": "d5c58e91e9033cdec857020ec4b8b09f6752fe9089c46edc1adc4ee6c1314ac5",
+  "orders_sha256": "f160e54c26e3722f3c860ff47682cc01f405fdb703011479ec16b5613f1e8b24",
+  "matched_view_presentations": true,
+  "time": "2026-11-11T17:17:19.519499+00:00"
+}

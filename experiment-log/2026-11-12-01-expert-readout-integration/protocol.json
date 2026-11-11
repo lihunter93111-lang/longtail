@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-12",
+  "repository": "C:\\Users\\zj\\lt_integration_20261112",
+  "base_commit": "5ab120719c30ae7aa79eb34d41eb088fbefe24a4",
+  "storage": "D:/longtail_experiments/20261112_integration",
+  "historical_source": "E:/LJQ_code/longtail_20261110",
+  "historical_readouts": "E:/LJQ_code/LJQ_code_experiment_storage/readout_integration_v1/20261110_01",
+  "baseline_root": "E:/LJQ_code/LJQ_code_experiment_storage/w32_validation_v1/20261109_01",
+  "marginal_root": "D:/longtail_experiments/20261111_label_marginal",
+  "splits": [
+    "split1",
+    "split2"
+  ],
+  "seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "expert_seed_offset": 100,
+  "experts": [
+    "natural",
+    "marginal",
+    "combo"
+  ],
+  "readouts": [
+    "none",
+    "global",
+    "segment"
+  ],
+  "readout_sources": {
+    "global": "global_stats_coverage",
+    "segment": "segment_coverage"
+  },
+  "fusion_epochs": 300,
+  "fusion_learning_rate": 0.04,
+  "fusion_weight_decay": 0.0001,
+  "guard_fpr_slack": 0.005,
+  "guard_weak_recall_slack": 0.01,
+  "guard_targets": [
+    "FMB",
+    "AMA",
+    "SawFM",
+    "SinFM",
+    "MFT",
+    "ISRJ"
+  ],
+  "training_cutoff": "2026-11-12T07:30:00+08:00",
+  "freeze_cutoff": "2026-11-12T07:45:00+08:00",
+  "evaluation_cutoff": "2026-11-12T08:30:00+08:00",
+  "deadline": "2026-11-12T09:00:00+08:00",
+  "pool_seeds": {
+    "split1": {
+      "development_pool": 3321200000,
+      "confirmation_pool": 3321300000
+    },
+    "split2": {
+      "development_pool": 3322200000,
+      "confirmation_pool": 3322300000
+    }
+  },
+  "primary_comparisons": [
+    [
+      "marginal_segment",
+      "marginal_global"
+    ],
+    [
+      "combo_segment",
+      "combo_global"
+    ],
+    [
+      "marginal_segment",
+      "marginal_none"
+    ],
+    [
+      "combo_segment",
+      "combo_none"
+    ]
+  ],
+  "primary_interaction": "(combo_segment-combo_none)-(marginal_segment-marginal_none)",
+  "generator_config": "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-08-01-overnight\\results\\data\\fit_pool\\generation_config.json"
+}

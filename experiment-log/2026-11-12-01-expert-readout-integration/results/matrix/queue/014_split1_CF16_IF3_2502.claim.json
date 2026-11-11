@@ -1,0 +1,1 @@
+{"worker": "worker1", "pid": 23308, "queue_sha256": "b6c27c18b7ccbffcc2301281fc1131cc6ff32b5953a5b75b2a7253e8f5222cc1", "job": {"split": "split1", "cell": "CF16_IF3", "seed": 2502}, "time": "2026-11-11T21:52:08.759156+00:00"}

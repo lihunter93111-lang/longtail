@@ -1,0 +1,925 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\best_BCE.pth",
+      "sha256": "c93cae900e0277ba82cbf515e5d803e9749cfc42e16ab51112626486ed93716c"
+    },
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth",
+      "sha256": "d60548dcb8e1d805f859b3563880dcd2573f1a6257368875401971aeb27c392d"
+    },
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\model.pth",
+      "sha256": "68d57e996d1a19dc9d3ee083059976b199e6046b2c3620985990bc7062575ab0"
+    },
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth",
+      "sha256": "a720bd25a8172a05bb236a889a6f906a969fb58cb63c0c4f46e998924db88722"
+    },
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2200\\model.pth",
+      "sha256": "9160ab7d57995b9219527350f94f920fcb4cea78bb9fb3589ad41e0325ac68b0",
+      "head_selected_epochs": [
+        0,
+        2
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2200,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2200\\model.pth",
+      "sha256": "1bb7908d2443ae3225c713f220ebcdec8924786307dedd43c2d52480a2a7ed79",
+      "head_selected_epochs": [
+        0,
+        4
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201\\best_BCE.pth",
+      "sha256": "665dfc3a9f74190cfabbdaec7137667e084febce4181bed82a114b1dfaf94e77"
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth",
+      "sha256": "38003a5053f94bd03e9b1e0f3941c570327acb693764ef034c652a40eba95233"
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2301\\model.pth",
+      "sha256": "d0e85089789a271ec9fca40e6eae8a956bf65bbbc70c6022e259b9efce6266e6"
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth",
+      "sha256": "1cb62f3c28b268a0c30fb01d7f0b2fd33bc0335cbe87cd664b1b02e8617636c0"
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2201\\model.pth",
+      "sha256": "448b4a3360028a356f53cdabdad9b0ea8661ee7b79ca5ee6b60c7c67ebd3d307",
+      "head_selected_epochs": [
+        3,
+        0
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2201\\model.pth",
+      "sha256": "23fb69eb269d3c56fad9a25d5a2529a15df9acb3a5aa6e08e8d571f611162e89",
+      "head_selected_epochs": [
+        3,
+        10
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202\\best_BCE.pth",
+      "sha256": "ca8dad9ae8130b6fa779852c884c5d257fff384632e9b65e1f8cedf004a92af2"
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth",
+      "sha256": "11c1f2994fc1be5694a60c412fc60e9ef967a148695dfb5f62a4341898a31c9c"
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\model.pth",
+      "sha256": "705adb7387ea5ee26cecf11a3eda5c2170ab00a612f47bee9c4076bb672e0b2f"
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth",
+      "sha256": "0fe16e80a8000e3fee26ad02cb88c07d0dc5d1c77733c80905d34a43f3fc0082"
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2202\\model.pth",
+      "sha256": "c296a868e9a10da8e6ad05dd06bdf699dad6c01f7272d72118c34eba28ed2427",
+      "head_selected_epochs": [
+        1,
+        0
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2202\\model.pth",
+      "sha256": "a524456fb06318fbcf578355f6cf4241c71a9545a4e935ba019ef294b419da6b",
+      "head_selected_epochs": [
+        0,
+        0
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\best_BCE.pth",
+      "sha256": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d"
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth",
+      "sha256": "3349273019e8ec75f28f7dbe2896a9b4525b679c40755329d87b99d868238167"
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2303\\model.pth",
+      "sha256": "7a8880a658295bae9423a5532ef803c696285dd12639b1c280a6d8bf176f6974"
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth",
+      "sha256": "db0543043bb95bad866f42b160b3c066ac3af9130412b6a8cf70e1fdfe1c7774"
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2203\\model.pth",
+      "sha256": "61a88c0948f6ce0207af06993ca78a1d129c9465cbd9f8292cf533918116dc71",
+      "head_selected_epochs": [
+        2,
+        0
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2203\\model.pth",
+      "sha256": "404ac79115eb670d8478aa2a4f80a883f05ae122e669bb91523b5777644ecc6d",
+      "head_selected_epochs": [
+        2,
+        2
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204\\best_BCE.pth",
+      "sha256": "c224c8425d3b7e266e21e01aace779f8b8ec711b887f3f2e2fb981d480ea80bf"
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth",
+      "sha256": "1199237acad00492f7cfb7366c9da42cdc5ed781f5e8865562a95f9dd3b1a7bf"
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\model.pth",
+      "sha256": "75bd8614d6463f77ed01f98489d772f7d9bf34a0ee83689e620b3bb6e40787c8"
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth",
+      "sha256": "34590a6a446c5901f8ac024d48e049399d4a58f9ae6566063fa1b01a087dcae7"
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2204\\model.pth",
+      "sha256": "d3a3b22dc3f5e9b1dbd7c52a9753a613b75a1f76b045c24fa9a37525aa3a135a",
+      "head_selected_epochs": [
+        0,
+        6
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2204\\model.pth",
+      "sha256": "b3b40113f8c4f1e4c2b3cee3611df503f6476146374b3c8377fc71d8c7d9dd79",
+      "head_selected_epochs": [
+        0,
+        6
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200\\best_BCE.pth",
+      "sha256": "e493a00d7cd346a6f58768678e83d60e22981d0eb35516df4017cf530a630e67"
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth",
+      "sha256": "7fa3cb21c6b2ac843795ba13b02e0c80848da7c070e98a6940445fc3b299afb7"
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2300\\model.pth",
+      "sha256": "aa576b71592700b1d63e09aba986e5d59fea89400c60d633b8b23c1c8cc52a0b"
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth",
+      "sha256": "43e3a8449cd1f3f47657dc9ecd0d4ac865e28acbc77c4b8d4d72b1e710ff8d44"
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2200\\model.pth",
+      "sha256": "c1298580ab8292d2a3bdc625dc6067d8b5e876c893388052987fe92a4cb02fdc",
+      "head_selected_epochs": [
+        0,
+        5
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2200\\model.pth",
+      "sha256": "aa7fb8799ac978b073dab8e9da0fcb30738d0738588d02f5ad52468915e28588",
+      "head_selected_epochs": [
+        0,
+        5
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\best_BCE.pth",
+      "sha256": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67"
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth",
+      "sha256": "ec979a7d68320901c012ed582dc5ab05e0d1a53b5c200764def2e6dba503249a"
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2301\\model.pth",
+      "sha256": "8281e33b4cf3e5286964e5bfcd53717a35400f5ad1b423b96a20e88019a7281c"
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth",
+      "sha256": "359d8f3dcffd50e3225fd279784bcbb977dee8ebd68000841984165daa0ffbc3"
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2201\\model.pth",
+      "sha256": "9aac97d1b1efa0773d477f01c5a2cceb533e3d45c0564d5a92ab6f44d7e2b4ff",
+      "head_selected_epochs": [
+        0,
+        1
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2201\\model.pth",
+      "sha256": "ef7e9c88483a7ed57e319dcc3bb59b7e2f6391694290f7e4c09c9f0814550499",
+      "head_selected_epochs": [
+        0,
+        1
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\best_BCE.pth",
+      "sha256": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2"
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth",
+      "sha256": "fed150485b318d673c198a246f4da9d944e9485ef660b667bb6cf5a4186acd3c"
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\model.pth",
+      "sha256": "ecc1f014d3676a95e23a008f64489c82b108d7c3c662ae80b59580d1302b9521"
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth",
+      "sha256": "d90d6ced3445f91531777c3c4563976c532a3c1825e97940e3d1fe0a808f7662"
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2202\\model.pth",
+      "sha256": "ed5ddd2a155fb850f015b93f3956bf91693f952ba643977d7f40eb1efacb8027",
+      "head_selected_epochs": [
+        3,
+        4
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2202\\model.pth",
+      "sha256": "b850386a7aaad5e44b5a751e461eb269fa9cf7e5df92b08cdb12404fe782c0aa",
+      "head_selected_epochs": [
+        0,
+        7
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203\\best_BCE.pth",
+      "sha256": "8f378e4681c1fc4c8d050ff09749a907421b8d6e1cd750efaa741317f611b360"
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth",
+      "sha256": "094f30f6d67ae12075b92572f49de80e5190b13e7b1fc69dd3bd4a12581140c5"
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2303\\model.pth",
+      "sha256": "79323f954e8a624943da632b32ef1d9f83b2625a41a4c06feb8b397b772c46f1"
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth",
+      "sha256": "490d4556c1b3c1391694442ecc8aec0560ecfcaad2857dff0bad205a4651a621"
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2203\\model.pth",
+      "sha256": "a2e0ba15199084b5c0e57306d5d0603b286fb19f6f0b4c8c63edad8f98e02436",
+      "head_selected_epochs": [
+        14,
+        1
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2203\\model.pth",
+      "sha256": "e69a0f5112aa91bf568f365ed63048235bdffa520581c15172169b7db705f4b6",
+      "head_selected_epochs": [
+        6,
+        1
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "reference",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\best_BCE.pth",
+      "sha256": "e60cd7363257e0627de770d530b982d941567f7b614195af0c002a5cb38211ea"
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "natural",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth",
+      "sha256": "581898df58b7937f2a31b59252f49a6ac1e3c4afc175a7989df0207a6d159655"
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "marginal",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2304\\model.pth",
+      "sha256": "833af7c515b1e393895ea7f4214c0cb88d6a8d7d738c55e28cedaf9c62b49533"
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "combo",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth",
+      "sha256": "612725914185a0b3a6fdd75b79c9ce1dca7233c49e3ef309b2e37d9f46898510"
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "global",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2204\\model.pth",
+      "sha256": "35b69eba1e9961d53b4a7f752423fe59e3b31cd609a40898a279967adbe089b6",
+      "head_selected_epochs": [
+        0,
+        0
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 512,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "kind": "segment",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2204\\model.pth",
+      "sha256": "7203214953f87829d55c4c2bad75f532c3ca9c69888554b60fa17079edca5635",
+      "head_selected_epochs": [
+        0,
+        2
+      ],
+      "targets": [
+        [
+          2,
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "main_backbone_exact_match": true,
+      "input_dimension": 3584,
+      "readout_hidden": 32,
+      "pca_dimension": 128
+    }
+  ],
+  "data_and_model_files": {
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat": "aa11ea298d521782129ef295496a3d8b2684eee2e25cebc15422fedd0736c78b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat": "805bf840296c2ed99c58d1d0aeb5378761d9521cdd0cc0b74d2bd10cefda96da",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_gap10.mat": "d14d55d493dd0bb5e4b4621f47090e0cd3fbec6b1b30c0ebaef2272781a7456b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_gap15.mat": "c84e7569cbe8b6cb617b04456b91fdcd9ab2613725b972384cff9ca06e01c38e",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat": "a7b068a8c3d66908f7f9dcc0505c9a30ec4d259fea0aaab8b42e04b7fb299c44",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\best_BCE.pth": "c93cae900e0277ba82cbf515e5d803e9749cfc42e16ab51112626486ed93716c",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth": "d60548dcb8e1d805f859b3563880dcd2573f1a6257368875401971aeb27c392d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\model.pth": "68d57e996d1a19dc9d3ee083059976b199e6046b2c3620985990bc7062575ab0",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth": "a720bd25a8172a05bb236a889a6f906a969fb58cb63c0c4f46e998924db88722",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2200\\model.pth": "9160ab7d57995b9219527350f94f920fcb4cea78bb9fb3589ad41e0325ac68b0",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2200\\model.pth": "1bb7908d2443ae3225c713f220ebcdec8924786307dedd43c2d52480a2a7ed79",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201\\best_BCE.pth": "665dfc3a9f74190cfabbdaec7137667e084febce4181bed82a114b1dfaf94e77",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth": "38003a5053f94bd03e9b1e0f3941c570327acb693764ef034c652a40eba95233",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2301\\model.pth": "d0e85089789a271ec9fca40e6eae8a956bf65bbbc70c6022e259b9efce6266e6",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth": "1cb62f3c28b268a0c30fb01d7f0b2fd33bc0335cbe87cd664b1b02e8617636c0",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2201\\model.pth": "448b4a3360028a356f53cdabdad9b0ea8661ee7b79ca5ee6b60c7c67ebd3d307",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2201\\model.pth": "23fb69eb269d3c56fad9a25d5a2529a15df9acb3a5aa6e08e8d571f611162e89",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202\\best_BCE.pth": "ca8dad9ae8130b6fa779852c884c5d257fff384632e9b65e1f8cedf004a92af2",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth": "11c1f2994fc1be5694a60c412fc60e9ef967a148695dfb5f62a4341898a31c9c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\model.pth": "705adb7387ea5ee26cecf11a3eda5c2170ab00a612f47bee9c4076bb672e0b2f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth": "0fe16e80a8000e3fee26ad02cb88c07d0dc5d1c77733c80905d34a43f3fc0082",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2202\\model.pth": "c296a868e9a10da8e6ad05dd06bdf699dad6c01f7272d72118c34eba28ed2427",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2202\\model.pth": "a524456fb06318fbcf578355f6cf4241c71a9545a4e935ba019ef294b419da6b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\best_BCE.pth": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth": "3349273019e8ec75f28f7dbe2896a9b4525b679c40755329d87b99d868238167",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2303\\model.pth": "7a8880a658295bae9423a5532ef803c696285dd12639b1c280a6d8bf176f6974",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth": "db0543043bb95bad866f42b160b3c066ac3af9130412b6a8cf70e1fdfe1c7774",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2203\\model.pth": "61a88c0948f6ce0207af06993ca78a1d129c9465cbd9f8292cf533918116dc71",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2203\\model.pth": "404ac79115eb670d8478aa2a4f80a883f05ae122e669bb91523b5777644ecc6d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204\\best_BCE.pth": "c224c8425d3b7e266e21e01aace779f8b8ec711b887f3f2e2fb981d480ea80bf",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth": "1199237acad00492f7cfb7366c9da42cdc5ed781f5e8865562a95f9dd3b1a7bf",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\model.pth": "75bd8614d6463f77ed01f98489d772f7d9bf34a0ee83689e620b3bb6e40787c8",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth": "34590a6a446c5901f8ac024d48e049399d4a58f9ae6566063fa1b01a087dcae7",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\global_stats_coverage_2204\\model.pth": "d3a3b22dc3f5e9b1dbd7c52a9753a613b75a1f76b045c24fa9a37525aa3a135a",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\segment_coverage_2204\\model.pth": "b3b40113f8c4f1e4c2b3cee3611df503f6476146374b3c8377fc71d8c7d9dd79",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat": "b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat": "08b4e081c54f4e13638b980870506bbdaaee2e812648717653396d4f9a76125b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_gap10.mat": "6d6899b752606cb6a0f68d6e56014bf259936fe53f45733355a39299aca1622f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_gap15.mat": "cbfbfd25bcdbc4934182ecdaf0dd5d3ad7f8a479171e92d01b47b9ea57a31637",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat": "45936c099ec0caea77a85ea31cb7761a4bc382e4266c14be5721fd01da8959f5",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200\\best_BCE.pth": "e493a00d7cd346a6f58768678e83d60e22981d0eb35516df4017cf530a630e67",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth": "7fa3cb21c6b2ac843795ba13b02e0c80848da7c070e98a6940445fc3b299afb7",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2300\\model.pth": "aa576b71592700b1d63e09aba986e5d59fea89400c60d633b8b23c1c8cc52a0b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth": "43e3a8449cd1f3f47657dc9ecd0d4ac865e28acbc77c4b8d4d72b1e710ff8d44",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2200\\model.pth": "c1298580ab8292d2a3bdc625dc6067d8b5e876c893388052987fe92a4cb02fdc",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2200\\model.pth": "aa7fb8799ac978b073dab8e9da0fcb30738d0738588d02f5ad52468915e28588",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\best_BCE.pth": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth": "ec979a7d68320901c012ed582dc5ab05e0d1a53b5c200764def2e6dba503249a",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2301\\model.pth": "8281e33b4cf3e5286964e5bfcd53717a35400f5ad1b423b96a20e88019a7281c",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth": "359d8f3dcffd50e3225fd279784bcbb977dee8ebd68000841984165daa0ffbc3",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2201\\model.pth": "9aac97d1b1efa0773d477f01c5a2cceb533e3d45c0564d5a92ab6f44d7e2b4ff",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2201\\model.pth": "ef7e9c88483a7ed57e319dcc3bb59b7e2f6391694290f7e4c09c9f0814550499",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\best_BCE.pth": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth": "fed150485b318d673c198a246f4da9d944e9485ef660b667bb6cf5a4186acd3c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\model.pth": "ecc1f014d3676a95e23a008f64489c82b108d7c3c662ae80b59580d1302b9521",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth": "d90d6ced3445f91531777c3c4563976c532a3c1825e97940e3d1fe0a808f7662",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2202\\model.pth": "ed5ddd2a155fb850f015b93f3956bf91693f952ba643977d7f40eb1efacb8027",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2202\\model.pth": "b850386a7aaad5e44b5a751e461eb269fa9cf7e5df92b08cdb12404fe782c0aa",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203\\best_BCE.pth": "8f378e4681c1fc4c8d050ff09749a907421b8d6e1cd750efaa741317f611b360",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth": "094f30f6d67ae12075b92572f49de80e5190b13e7b1fc69dd3bd4a12581140c5",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2303\\model.pth": "79323f954e8a624943da632b32ef1d9f83b2625a41a4c06feb8b397b772c46f1",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth": "490d4556c1b3c1391694442ecc8aec0560ecfcaad2857dff0bad205a4651a621",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2203\\model.pth": "a2e0ba15199084b5c0e57306d5d0603b286fb19f6f0b4c8c63edad8f98e02436",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2203\\model.pth": "e69a0f5112aa91bf568f365ed63048235bdffa520581c15172169b7db705f4b6",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\best_BCE.pth": "e60cd7363257e0627de770d530b982d941567f7b614195af0c002a5cb38211ea",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth": "581898df58b7937f2a31b59252f49a6ac1e3c4afc175a7989df0207a6d159655",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2304\\model.pth": "833af7c515b1e393895ea7f4214c0cb88d6a8d7d738c55e28cedaf9c62b49533",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth": "612725914185a0b3a6fdd75b79c9ce1dca7233c49e3ef309b2e37d9f46898510",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\global_stats_coverage_2204\\model.pth": "35b69eba1e9961d53b4a7f752423fe59e3b31cd609a40898a279967adbe089b6",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2204\\model.pth": "7203214953f87829d55c4c2bad75f532c3ca9c69888554b60fa17079edca5635"
+  },
+  "prior_frozen_files_verified": 288,
+  "source_sha256": {
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-10-01-readout-integration\\common.py": "6c18450327a437b81fe7a3568b118a92e15ef40b5211de94e3266a024793f503",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-11-01-label-marginal-controls\\common.py": "625b58f78e8c0d9ff6b05e9a4d410ad1e19871bda7a9d3c2dca776d14a33ce26",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\audit_inputs.py": "1660c93975346c5684557ac9c5687cafc6503b67b8c02e2f5cc531011f0e9d2e",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\common.py": "e08025f77f7cf2e5ec11f1abd07254c997c2e6cc34dcb1fc6519a69c47b6b9e4",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\generate_pools.m": "b2e289d4272d246eab0e7daaabd17ba8f662c1378ae8f0e44f3d04e4800d3b20",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\GOAL_PROMPT.txt": "455e45bd73c092d5bf91df16652a24f435b5715463ebb9200cbfefdb3aa1f60f",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\prepare_roles.py": "d7cf631dbcc51010d365037cf1096a9302d2d24bf4a7e69deed62c95605d54e6",
+    "C:\\Users\\zj\\lt_integration_20261112\\experiment-log\\2026-11-12-01-expert-readout-integration\\protocol.json": "81936eff0b1ba23b25cfd764c910d4c37d041f83ca490fc972c0206ee528f151",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\__init__.py": "f2b836db355440fb9a6f100f6c16df9014d8bc16db383093a87271cb87fe4e45",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\__init__.py": "1bde3c1c2dd19bf9b852167975f4739eea52cddd924f07e019490b0e901e1957",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\aggregate.py": "0ced5fc4727c08f7930ecbf72db570e8b2b7ffa533ca6e78f2d57995892a5b3a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\decision_utility.py": "95ab8fec42dd96e219a58cf3f9f1db95f10056a0c8ea24e78036f3bdbbf736c0",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\__init__.py": "751c755269a1d395b964642a6efcff2a93a9d16750b6def3d569454dab5b3b89",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\ama_hdf5.py": "1f3c991220cf493a9d2263bd23b632b669d8d36daf5e458182f21f96cad17606",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\augmentations.py": "aa5e6a3a33f99f82db2a09dcd5f5d140cdd316448b1f7f993a3c5636d2f438a2",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\label_sampling.py": "2cd697bea9b59f3fba0aebd338fa9c8f2be586c91836b84aa3b49c8aebff4066",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\longtail_manifest.py": "785e192ca4ca30398a4d87637f2b9c8972dd039132a06cae01ac6ddea88d2a27",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\parameter_schema.py": "dbfa590d677747b10f3a084a25e03da2800b45e460787d670028ade9352a220f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\power_pair_dataset.py": "cf488700624cba7eb899abca542f2cf88b048d9d768e0b62db0e9bbcc063a267",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\power_pairs.py": "4479763fc98d2e421d6c2fae847eeaf6371390a80ade06914731348b4cd2f198",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\receiver_perturbation.py": "a8f3a222dd59738ca4afa579f116e641a7cedfefa951ca08a49682a91c0bc412",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\registry.py": "0fd4ceba4338c607952979a178fd3745080f70fb04a380fde7fa2a3a3fef3996",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\semi_supervised_split.py": "759dfbee3320fe7e9b7b4835402756b552c8c28396d85536c5208a6d60d7e1bd",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\signal_simulator.py": "344ebf10e5a73d7ffb9f420cbd790392b5a483ddb9bf71b1d2e056d554e34701",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\split_builder.py": "49419c9af9e36b821605add951a940e2d21b8e5f96c000d6d3b0ba7c1c65e828",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\v73_dataset.py": "6d4dfc464c32e101a83b2be1dc585c51c0f56696677bb8a48f4b9fd62d9ceaf5",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\__init__.py": "aae932a190c2ec38c6138ca75c3f76a650d49beb74be12278dfcd335c04888b7",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\calibration.py": "bfe4fe3c9983ccb74a0dd1cd0682af120adc85aeeace0a94f35f98fb3d4b24b4",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\combination_metrics.py": "57d1646204e8e258004fa7a8312afb875047248c7f7f38cccecf5527729da4e3",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\evaluator.py": "55ed065b726663c61408e4daada83af5bd90f28924b14ac67ae5e98a2620f1b3",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\experiment_record.py": "fa59e4b12f2c3dcd991772ed9d1d413942a13629294adea60a50403442e57a14",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\feature_transform.py": "f32d8bfdd36197a5358dc1f72ae5e9828cea672489fecae7b0b5ffd4576ac4cc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\locked_test.py": "a7e7a6caa7e4e53dcd30dc97ca9c3d39c4d9086e58093aa2a55c49841c83f14d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\longtail_evaluation.py": "f8dafd426dfabdbe3c93b22002dca842cde4d51ac35c4075095903600a715ed7",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\longtail_workflow.py": "9d92ea99d12f76627b976f5508522c1fa6053c4cdc70b23f6108a18c146a0ede",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\model_bundle.py": "882b05b8c4c9d073e4964d275dfad5e1b41b8c697cee2ef2a05ec0a8826de5b1",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\oracle_parameter_trainer.py": "9368056cec847f1a837991c7581dce2ed67dfe7dbcb141bbf661f17dd92b917d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\readout_trainer.py": "abcd6dc2f1928b599ec16514ecbfde9443235a2753888b8cf187272c2a39c79d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\run_manager.py": "3032190d81e256b2e0d2ea9d27a9358884b2cf07028143a58a5e862cb39e0cd8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\selective_fusion.py": "1e93a2f193c5e8ddf33e436ea20c9c9d64e4dc698efad2eab83cf4e033635558",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\student_a_trainer.py": "2e45cc6b58cc89da7b5d8295f478f850ac391a69a5d8525f78070e45de25ca4d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\student_b_trainer.py": "d281e9bea7476574e0242d22c5b7662a52bde501b9110b001a5651d90beec3c2",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\supervised_joint_trainer.py": "a99b34b6a9c56ca1621a699a2dfcad7961a70d31a152bdbb3083b3c2fb358532",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\thresholding.py": "6c345823c121c8fb64f2149b626f1658387b97ebf8c3742a25ed092152aba7da",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\trainer.py": "0bbbb84ddabe5a8b19c6aef24e8e67035d9d661ab41615456a78dee15616868b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\__init__.py": "a6a97364d24abc0b295406343df10bd2293f6f9301de3d1d432dc7596859b71b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\classification.py": "0258cf0ab780fe84c6c2a763b727187f6b600c4b00db0248614b8b02569d1442",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\paired_power.py": "d494d94c4f3138ea5044c33bf44142d6d317bcf9bf9c6714e9ae83f55eb98ecc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\parameter.py": "aa7ec230bdb555116685c49ef041b20cf8bff9edb95e68fe37efbfa2c3c40b5f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\prototype.py": "dedb863b29fec954ccde08e49cb82e5a6d3b267c3a78c4a460470d79768eb3fb",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\pseudo_label.py": "5eca8a8db098a91d34c880d7720c2f773f322acf4b412ced3ac6421d6c5d599a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\__init__.py": "99894ca65660625e315eef7f14b0f1c8f3af3b27804b8f746c73753bcd971ffc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\backbone_adapter.py": "bb1a7954d224e1454bab5f5a15be1ca472b02bc2dd615b46cd47312571caf0ea",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\classwise_fusion.py": "6e1d246bcfaf64029958b64b0e59e24a06ffd583e262033d9ded6b0049bcdc16",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\complex_layers.py": "fe14bef1fccc3f69d05dfd35f079289407fb9f63a309061fb5f3bb9557e290f9",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_delta_prototype.py": "157f409e65e80e45faea119864eb18bef49deb71ab8fe0b72747896ad1bcf561",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_visibility.py": "8420207b479ea65be5c2c0743c276a42318d110ae36fdd77fed25e50e9617e2b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\delay_block_self_similarity.py": "7a543e3f3c4f50f3395581967f6658b973ddb7d4ad27aff4c3ae8ccd41a88493",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\dual_axis_sawfm.py": "8dceae9a3d0503e5544429ee60a18d00b5ae0c777377dfea5245b479f1297e61",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\ema_teacher.py": "1fc8c35e84392cf7646f1e588fc455a5cfc0a37240d31b5ae9edeb61bd3d2d58",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\evidence_readout.py": "f01f694eb5a4fed7a1523c52550e4dce0b3e6a9dc3ac77c7a2bde8b9c4387f0a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\frequency_reconstruction.py": "d5b75f869e102eaf070f38575732c24cbea38965297fa8f42d63d10ef2935330",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\label_conditioned.py": "17cd115850a1d8abfedf5676c28e9b0d90974d7452ed1952acee06d65f84af5a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_crosspulse_coherence.py": "b941057f104cce86099fcf248c5f54819ed20ba3dfd070728ebec73e63facbd1",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_delay_autocorrelation.py": "5acedb1a9e3581b74c1f074a091b5aed76618c6fb9bb6ce0c3d4a93ffcbf9f0f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_higher_order.py": "be54513df871ce784ff887a8c8601f050f6fd2f3c435a11bed1b1af248711616",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_matched_filter_support.py": "2418d69e3cde2afbaf1bc33fea0742dbe3f82a24ce5055caca47d0be8e3f1882",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_omp_residual.py": "eea961b3eef3d09f50d5b4921a138f63bd124e200da7a1607d82cf334212996d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\multipulse_vft_expert.py": "30a845a10c063ca7a8f083df981d662c14c4119778fc833c11b8ec62c9576cd8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\oracle_parameter_specialists.py": "90bb98c5057a82f13f0ea5d3f14c6e23c5ae4593d7e2bb54bf17cf3ded61a2ab",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\parameter_heads.py": "fbe58150b8a736e82b30d4f2c35010c3ea772c2645c4693702ba628f43856f61",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\phase_multiscale.py": "8674a1ddbe3de6fb91fed00f2db51da9e574a7e8692b20e064a4fa0cd4b8b4e8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\power_ssl.py": "b1bb6ee44f755b9bc190a487457641b03d63b691a35801b5401a78da6a1ed25e",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\prototype_memory.py": "c468b799251792d3bf6f97c5a676c63a22fab0cd137df48ce8cad9a589c31541",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\raat_local_map.py": "fbc70505ffdeda3b35a925f525c1e8481aa55daffb5f64b652c29b2fba4d626b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\segment_readout.py": "74237a0fd992fa94fbb8d1b192f5775be9f1de8fcbd310ba1667a679489036cb",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_a.py": "0b1f5bb7e22562a218927b8eebf3d360b996eea22fa555cfecd333cb014f5e03",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_b.py": "7c027758d83e9cc6d984cb5d5712dda69adaf16873edba3a802f8de27eeab5fe",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\supervised_joint.py": "feeba2b8464a6134742f8740d3b4e675c8baa53c96be2c76dd862b407b326050",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\target_specific_complex_evidence.py": "bfe6c3c24960800929447173fa537d1979ef33db0c2800d72be9d22149e456d5",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_dechirped_doppler.py": "7a7ad42ee8f090c4719f7e5c756386ed30ed16cf67c369050834792c385b0a71",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_staggered_pri.py": "448def1ee97b407cabb67d3bc883986ef1fa0099a2548e993d788fff0d8d26f9"
+  },
+  "time": "2026-11-11T16:22:28.126875+00:00"
+}

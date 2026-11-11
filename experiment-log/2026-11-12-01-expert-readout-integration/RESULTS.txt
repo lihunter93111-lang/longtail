@@ -1,0 +1,606 @@
+2026-11-12 宽骨干、专家与局部读出整合结果
+生成时间UTC：2026-11-11T22:46:30.492600+00:00
+状态：确认已评分，交付状态另见completion_audit.json
+
+一、问题与比较口径
+W32提供共享强表征；A自然专家、B标签正负边际匹配专家、C组合加权专家与none/global/segment读出构成完整对照。
+共同fusion_fit和同预算三分数仿射融合；global/segment保护版采用相同六标签约束。每划分19种决策×5种子=95，共190。
+B匹配C的正负目标边际，不等于标签完全均衡；C-B检验在匹配这些边际之后仍存在的目标分配差异。
+分段与全局小头均PCA128、隐藏32；复用既定检查点，含epoch0回退，不因本轮开发结果重新挑选历史头。
+两者匹配PCA输出维数和MLP容量；PCA输入分别为3584和512维，因此投影存储及计算不同，计入缓冲与推理成本。
+Exact要求六个标签全部正确；pp为百分点。所有种子t区间均未作多重比较校正，并且条件于各自固定数据划分。
+少量种子恰好得到相同计数差时，t区间可退化为一个点；这不表示真实训练方差或评价身份不确定性为0，不能据此宣布稳定显著。
+五种子共享评价身份；物理四视图共享原始身份，不能扩大独立样本数。
+
+适用范围：六标签[FMB,AMA,SawFM,SinFM,MFT,ISRJ]，63个非空组合，合成I/Q长度3000，原始分量JNR为10—30dB。
+开发和确认均按63组合均衡取样（每组合64身份），不是按训练长尾频率抽样；训练频率加权Exact仅作为同一评价池的附加估计。
+
+二、开发结果
+split1：4032身份，种子[2200, 2201, 2202, 2203, 2204]
+方法 | Exact% | 固定0.5 Exact% | raw BCE | macro AP% | ECE
+combo | 82.257 | 82.232 | 0.096612 | 99.335 | 0.014727
+combo_global | 84.960 | 85.139 | 0.076089 | 99.527 | 0.006697
+combo_global_guarded | 84.975 | 85.139 | 0.076220 | 99.525 | 0.006704
+combo_none | 84.965 | 85.164 | 0.076365 | 99.523 | 0.006795
+combo_segment | 85.223 | 85.476 | 0.074518 | 99.553 | 0.006793
+combo_segment_guarded | 85.263 | 85.476 | 0.074518 | 99.553 | 0.006793
+marginal | 81.890 | 82.391 | 0.097772 | 99.308 | 0.013633
+marginal_global | 84.702 | 85.109 | 0.077321 | 99.511 | 0.006821
+marginal_global_guarded | 84.707 | 85.109 | 0.077478 | 99.509 | 0.006803
+marginal_none | 84.727 | 85.055 | 0.077634 | 99.506 | 0.006547
+marginal_segment | 84.787 | 85.377 | 0.075648 | 99.540 | 0.006957
+marginal_segment_guarded | 84.936 | 85.377 | 0.075648 | 99.540 | 0.006957
+natural | 81.533 | 81.270 | 0.102899 | 99.267 | 0.014474
+natural_global | 84.196 | 84.568 | 0.080917 | 99.489 | 0.007231
+natural_global_guarded | 84.137 | 84.568 | 0.080917 | 99.489 | 0.007231
+natural_none | 84.092 | 84.534 | 0.081237 | 99.484 | 0.007079
+natural_segment | 84.549 | 84.712 | 0.079170 | 99.519 | 0.007568
+natural_segment_guarded | 84.484 | 84.712 | 0.079170 | 99.519 | 0.007568
+reference | 82.599 | 82.574 | 0.096958 | 99.350 | 0.013593
+固定展示顺序下的均值增量（不作为独立因果分解）：reference→natural_none +1.493pp；natural_none→marginal_none +0.635pp；marginal_none→combo_none +0.238pp；combo_none→combo_segment +0.258pp
+其中reference→natural_none同时增加第二骨干和fusion_fit监督；新增单模型仿射控制只检验简单后处理，充分更新骨干与同总计算控制仍待完成。
+主要成对比较：
+marginal_segment − marginal_global：+0.084 [-0.181, +0.350] pp；正向2/5；六标签平均保护False，逐种子通过2/5；平均纠正37.6/新增错误34.2。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.091, SinFM:+0.000, MFT:+0.383, ISRJ:-0.615
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.130, SinFM:+0.000, MFT:+1.491, ISRJ:-1.352
+marginal_segment − marginal_none：+0.060 [-0.208, +0.327] pp；正向2/5；六标签平均保护False，逐种子通过3/5；平均纠正39.2/新增错误36.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.575, SinFM:+0.000, MFT:+0.333, ISRJ:-0.575
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+1.565, SinFM:+0.000, MFT:+1.739, ISRJ:-0.943
+marginal_segment_guarded − marginal_none：+0.208 [-0.003, +0.420] pp；正向4/5；六标签平均保护True，逐种子通过3/5；平均纠正33.2/新增错误24.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.010, SinFM:+0.000, MFT:+0.171, ISRJ:-0.151
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.174, SinFM:+0.000, MFT:+1.449, ISRJ:+0.738
+combo_segment − combo_global：+0.263 [-0.243, +0.769] pp；正向3/5；六标签平均保护True，逐种子通过3/5；平均纠正37.4/新增错误26.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.000, SinFM:+0.000, MFT:+0.060, ISRJ:+0.081
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.130, SinFM:+0.000, MFT:+0.787, ISRJ:+1.680
+combo_segment − combo_none：+0.258 [-0.175, +0.690] pp；正向3/5；六标签平均保护True，逐种子通过1/5；平均纠正40.6/新增错误30.2。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.091, SinFM:+0.000, MFT:+0.333, ISRJ:+0.111
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.478, SinFM:+0.000, MFT:+2.195, ISRJ:+1.639
+combo_segment_guarded − combo_none：+0.298 [-0.043, +0.638] pp；正向4/5；六标签平均保护True，逐种子通过2/5；平均纠正39.0/新增错误27.0。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.091, SinFM:+0.000, MFT:-0.081, ISRJ:+0.161
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.478, SinFM:+0.000, MFT:+0.373, ISRJ:+2.008
+(C_segment-C_none)-(B_segment-B_none)：+0.198 [-0.302, +0.699] pp
+(C_segment-C_global)-(B_segment-B_global)：+0.179 [-0.193, +0.550] pp
+
+split2：4032身份，种子[2200, 2201, 2202, 2203, 2204]
+方法 | Exact% | 固定0.5 Exact% | raw BCE | macro AP% | ECE
+combo | 81.577 | 81.726 | 0.100944 | 99.251 | 0.014392
+combo_global | 84.623 | 85.134 | 0.078203 | 99.484 | 0.007019
+combo_global_guarded | 84.623 | 85.134 | 0.078203 | 99.484 | 0.007019
+combo_none | 84.608 | 85.129 | 0.078395 | 99.479 | 0.006873
+combo_segment | 84.871 | 85.253 | 0.076796 | 99.504 | 0.006841
+combo_segment_guarded | 84.722 | 85.213 | 0.077223 | 99.497 | 0.006786
+marginal | 81.409 | 81.240 | 0.101921 | 99.222 | 0.013756
+marginal_global | 84.226 | 84.782 | 0.079782 | 99.463 | 0.006873
+marginal_global_guarded | 84.201 | 84.757 | 0.079816 | 99.463 | 0.006877
+marginal_none | 84.137 | 84.668 | 0.080060 | 99.457 | 0.006988
+marginal_segment | 84.167 | 84.881 | 0.078270 | 99.486 | 0.006596
+marginal_segment_guarded | 84.127 | 84.940 | 0.078558 | 99.481 | 0.006739
+natural | 80.769 | 80.337 | 0.107474 | 99.192 | 0.015718
+natural_global | 83.661 | 84.107 | 0.082966 | 99.448 | 0.007678
+natural_global_guarded | 83.566 | 84.107 | 0.082966 | 99.448 | 0.007678
+natural_none | 83.522 | 84.062 | 0.083363 | 99.438 | 0.007415
+natural_segment | 83.810 | 84.137 | 0.081386 | 99.472 | 0.007558
+natural_segment_guarded | 83.839 | 84.137 | 0.081386 | 99.472 | 0.007558
+reference | 81.225 | 81.042 | 0.103185 | 99.266 | 0.015471
+固定展示顺序下的均值增量（不作为独立因果分解）：reference→natural_none +2.297pp；natural_none→marginal_none +0.615pp；marginal_none→combo_none +0.471pp；combo_none→combo_segment +0.263pp
+其中reference→natural_none同时增加第二骨干和fusion_fit监督；新增单模型仿射控制只检验简单后处理，充分更新骨干与同总计算控制仍待完成。
+主要成对比较：
+marginal_segment − marginal_global：-0.060 [-0.417, +0.298] pp；正向2/5；六标签平均保护True，逐种子通过1/5；平均纠正31.2/新增错误33.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.111, SinFM:+0.000, MFT:-0.060, ISRJ:-0.121
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.653, SinFM:+0.000, MFT:+0.084, ISRJ:-0.264
+marginal_segment − marginal_none：+0.030 [-0.309, +0.369] pp；正向2/5；六标签平均保护True，逐种子通过2/5；平均纠正33.6/新增错误32.4。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.050, SinFM:+0.000, MFT:-0.020, ISRJ:-0.121
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.204, SinFM:+0.000, MFT:+0.379, ISRJ:+0.088
+marginal_segment_guarded − marginal_none：-0.010 [-0.276, +0.256] pp；正向2/5；六标签平均保护True，逐种子通过3/5；平均纠正25.2/新增错误25.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.050, SinFM:+0.000, MFT:-0.020, ISRJ:+0.403
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.204, SinFM:+0.000, MFT:+0.379, ISRJ:+1.582
+combo_segment − combo_global：+0.248 [-0.091, +0.587] pp；正向5/5；六标签平均保护True，逐种子通过2/5；平均纠正36.2/新增错误26.2。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.202, SinFM:+0.000, MFT:-0.081, ISRJ:-0.605
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.571, SinFM:+0.000, MFT:-0.084, ISRJ:-0.791
+combo_segment − combo_none：+0.263 [-0.001, +0.527] pp；正向5/5；六标签平均保护False，逐种子通过3/5；平均纠正36.0/新增错误25.4。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.141, SinFM:+0.000, MFT:-0.071, ISRJ:-0.887
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.449, SinFM:+0.000, MFT:+0.084, ISRJ:-1.538
+combo_segment_guarded − combo_none：+0.114 [-0.041, +0.269] pp；正向4/5；六标签平均保护True，逐种子通过4/5；平均纠正20.8/新增错误16.2。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.030, SinFM:+0.000, MFT:-0.071, ISRJ:-0.252
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.163, SinFM:+0.000, MFT:+0.084, ISRJ:-0.220
+(C_segment-C_none)-(B_segment-B_none)：+0.233 [+0.094, +0.372] pp
+(C_segment-C_global)-(B_segment-B_global)：+0.308 [+0.007, +0.608] pp
+
+三、新身份冻结确认
+split1：4032身份，种子[2200, 2201, 2202, 2203, 2204]
+方法 | Exact% | 固定0.5 Exact% | raw BCE | macro AP% | ECE
+combo | 81.230 | 80.883 | 0.102675 | 99.276 | 0.016512
+combo_global | 84.152 | 84.365 | 0.079987 | 99.489 | 0.006585
+combo_global_guarded | 84.182 | 84.380 | 0.080023 | 99.487 | 0.006596
+combo_none | 84.122 | 84.395 | 0.080119 | 99.484 | 0.006562
+combo_segment | 84.211 | 84.499 | 0.078766 | 99.508 | 0.006662
+combo_segment_guarded | 84.380 | 84.499 | 0.078766 | 99.508 | 0.006662
+marginal | 80.938 | 80.967 | 0.103745 | 99.245 | 0.016256
+marginal_global | 84.162 | 84.360 | 0.080812 | 99.474 | 0.006384
+marginal_global_guarded | 84.132 | 84.355 | 0.080870 | 99.473 | 0.006280
+marginal_none | 83.963 | 84.335 | 0.081003 | 99.469 | 0.006260
+marginal_segment | 84.107 | 84.598 | 0.079470 | 99.497 | 0.006364
+marginal_segment_guarded | 84.201 | 84.598 | 0.079470 | 99.497 | 0.006364
+natural | 80.422 | 80.322 | 0.108687 | 99.211 | 0.016214
+natural_global | 83.368 | 83.909 | 0.084575 | 99.451 | 0.006959
+natural_global_guarded | 83.313 | 83.909 | 0.084575 | 99.451 | 0.006959
+natural_none | 83.249 | 83.924 | 0.084764 | 99.445 | 0.006745
+natural_segment | 83.700 | 84.097 | 0.083200 | 99.472 | 0.007196
+natural_segment_guarded | 83.507 | 84.097 | 0.083200 | 99.472 | 0.007196
+reference | 81.592 | 81.285 | 0.102787 | 99.293 | 0.015583
+固定展示顺序下的均值增量（不作为独立因果分解）：reference→natural_none +1.657pp；natural_none→marginal_none +0.714pp；marginal_none→combo_none +0.159pp；combo_none→combo_segment +0.089pp
+其中reference→natural_none同时增加第二骨干和fusion_fit监督；新增单模型仿射控制只检验简单后处理，充分更新骨干与同总计算控制仍待完成。
+主要成对比较：
+marginal_segment − marginal_global：-0.055 [-0.653, +0.544] pp；正向3/5；六标签平均保护False，逐种子通过2/5；平均纠正35.6/新增错误37.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.141, SinFM:+0.000, MFT:+0.343, ISRJ:-0.534
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.044, SinFM:+0.000, MFT:+1.407, ISRJ:-1.195
+marginal_segment − marginal_none：+0.144 [-0.491, +0.779] pp；正向3/5；六标签平均保护False，逐种子通过3/5；平均纠正46.4/新增错误40.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.565, SinFM:+0.000, MFT:+0.383, ISRJ:-0.565
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+2.266, SinFM:+0.000, MFT:+1.451, ISRJ:-0.478
+marginal_segment_guarded − marginal_none：+0.238 [-0.222, +0.698] pp；正向3/5；六标签平均保护True，逐种子通过3/5；平均纠正40.2/新增错误30.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.060, SinFM:+0.000, MFT:+0.272, ISRJ:-0.131
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.044, SinFM:+0.000, MFT:+1.231, ISRJ:+1.275
+combo_segment − combo_global：+0.060 [-0.270, +0.389] pp；正向2/5；六标签平均保护True，逐种子通过3/5；平均纠正33.2/新增错误30.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.020, SinFM:+0.000, MFT:+0.202, ISRJ:+0.091
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.000, SinFM:+0.000, MFT:+0.440, ISRJ:+1.474
+combo_segment − combo_none：+0.089 [-0.214, +0.393] pp；正向2/5；六标签平均保护False，逐种子通过2/5；平均纠正39.4/新增错误35.8。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.111, SinFM:+0.000, MFT:+0.575, ISRJ:+0.151
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.610, SinFM:+0.000, MFT:+2.198, ISRJ:+1.554
+combo_segment_guarded − combo_none：+0.258 [+0.009, +0.507] pp；正向4/5；六标签平均保护True，逐种子通过3/5；平均纠正39.0/新增错误28.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.111, SinFM:+0.000, MFT:-0.071, ISRJ:+0.242
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.610, SinFM:+0.000, MFT:+0.484, ISRJ:+2.072
+(C_segment-C_none)-(B_segment-B_none)：-0.055 [-0.582, +0.473] pp
+(C_segment-C_global)-(B_segment-B_global)：+0.114 [-0.453, +0.681] pp
+
+split2：4032身份，种子[2200, 2201, 2202, 2203, 2204]
+方法 | Exact% | 固定0.5 Exact% | raw BCE | macro AP% | ECE
+combo | 82.679 | 82.941 | 0.093080 | 99.373 | 0.013807
+combo_global | 85.000 | 85.670 | 0.073025 | 99.566 | 0.006796
+combo_global_guarded | 85.000 | 85.670 | 0.073025 | 99.566 | 0.006796
+combo_none | 84.985 | 85.670 | 0.073117 | 99.563 | 0.006578
+combo_segment | 85.208 | 85.680 | 0.071664 | 99.589 | 0.006847
+combo_segment_guarded | 85.104 | 85.719 | 0.072188 | 99.579 | 0.006763
+marginal | 82.386 | 82.361 | 0.094692 | 99.340 | 0.013018
+marginal_global | 84.554 | 85.412 | 0.074797 | 99.550 | 0.006932
+marginal_global_guarded | 84.608 | 85.417 | 0.074825 | 99.549 | 0.006862
+marginal_none | 84.544 | 85.382 | 0.074932 | 99.546 | 0.006948
+marginal_segment | 84.717 | 85.417 | 0.073285 | 99.574 | 0.006880
+marginal_segment_guarded | 84.623 | 85.397 | 0.073684 | 99.568 | 0.006959
+natural | 81.870 | 81.771 | 0.099937 | 99.310 | 0.014344
+natural_global | 84.335 | 84.678 | 0.078114 | 99.529 | 0.007425
+natural_global_guarded | 84.196 | 84.678 | 0.078114 | 99.529 | 0.007425
+natural_none | 84.246 | 84.767 | 0.078340 | 99.523 | 0.007443
+natural_segment | 84.449 | 84.757 | 0.076568 | 99.555 | 0.007524
+natural_segment_guarded | 84.454 | 84.757 | 0.076568 | 99.555 | 0.007524
+reference | 81.746 | 82.029 | 0.097302 | 99.344 | 0.013464
+固定展示顺序下的均值增量（不作为独立因果分解）：reference→natural_none +2.500pp；natural_none→marginal_none +0.298pp；marginal_none→combo_none +0.441pp；combo_none→combo_segment +0.223pp
+其中reference→natural_none同时增加第二骨干和fusion_fit监督；新增单模型仿射控制只检验简单后处理，充分更新骨干与同总计算控制仍待完成。
+主要成对比较：
+marginal_segment − marginal_global：+0.164 [-0.321, +0.648] pp；正向3/5；六标签平均保护True，逐种子通过1/5；平均纠正35.2/新增错误28.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.131, SinFM:+0.000, MFT:-0.010, ISRJ:-0.212
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.593, SinFM:+0.000, MFT:+0.484, ISRJ:+0.393
+marginal_segment − marginal_none：+0.174 [-0.247, +0.594] pp；正向4/5；六标签平均保护True，逐种子通过1/5；平均纠正33.4/新增错误26.4。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.081, SinFM:+0.000, MFT:+0.050, ISRJ:-0.272
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.000, SinFM:+0.000, MFT:+0.440, ISRJ:+0.349
+marginal_segment_guarded − marginal_none：+0.079 [-0.166, +0.325] pp；正向3/5；六标签平均保护True，逐种子通过3/5；平均纠正24.8/新增错误21.6。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.081, SinFM:+0.000, MFT:+0.050, ISRJ:+0.353
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.000, SinFM:+0.000, MFT:+0.440, ISRJ:+1.921
+combo_segment − combo_global：+0.208 [-0.020, +0.436] pp；正向5/5；六标签平均保护True，逐种子通过2/5；平均纠正33.8/新增错误25.4。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.272, SinFM:+0.000, MFT:+0.020, ISRJ:-0.554
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.805, SinFM:+0.000, MFT:+0.396, ISRJ:-0.611
+combo_segment − combo_none：+0.223 [-0.056, +0.502] pp；正向5/5；六标签平均保护False，逐种子通过2/5；平均纠正31.4/新增错误22.4。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.181, SinFM:+0.000, MFT:+0.030, ISRJ:-0.776
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.381, SinFM:+0.000, MFT:+0.264, ISRJ:-1.354
+combo_segment_guarded − combo_none：+0.119 [-0.061, +0.299] pp；正向4/5；六标签平均保护True，逐种子通过4/5；平均纠正20.8/新增错误16.0。
+  FPR差pp：FMB:+0.000, AMA:+0.000, SawFM:-0.071, SinFM:+0.000, MFT:+0.030, ISRJ:-0.161
+  弱召回差pp：FMB:+0.000, AMA:+0.000, SawFM:+0.212, SinFM:+0.000, MFT:+0.264, ISRJ:-0.306
+(C_segment-C_none)-(B_segment-B_none)：+0.050 [-0.180, +0.279] pp
+(C_segment-C_global)-(B_segment-B_global)：+0.045 [-0.253, +0.342] pp
+
+四、同身份物理诊断
+每个可行身份选择一个目标，固定原始波形背景/噪声，构造0/10/15 dB及移除目标。该子集受可行功率约束，不代表全部自然身份。
+正常推理对每个视图分别做复数RMS归一化，因此移除目标也会改变归一化尺度；该诊断衡量整个系统的响应，不单独证明某一特征只利用了目标形态。
+split1/development：2141配对身份；目标数{'FMB': 340, 'AMA': 365, 'SawFM': 362, 'SinFM': 341, 'MFT': 357, 'ISRJ': 376}
+marginal_segment − marginal_none：gap15召回+0.850 [-0.712, +2.412] pp；移除目标误报-0.019 [-0.139, +0.102] pp。
+marginal_segment − marginal_global：gap15召回+0.355 [-0.299, +1.009] pp；移除目标误报-0.065 [-0.265, +0.134] pp。
+combo_segment − combo_none：gap15召回+0.878 [-0.659, +2.415] pp；移除目标误报+0.168 [-0.176, +0.513] pp。
+combo_segment − combo_global：gap15召回+0.598 [-0.026, +1.222] pp；移除目标误报+0.103 [-0.151, +0.357] pp。
+marginal_segment_guarded − marginal_none：gap15召回+0.635 [+0.134, +1.137] pp；移除目标误报-0.065 [-0.273, +0.142] pp。
+combo_segment_guarded − combo_none：gap15召回+0.598 [+0.046, +1.150] pp；移除目标误报+0.103 [-0.123, +0.329] pp。
+split2/development：2185配对身份；目标数{'FMB': 348, 'AMA': 357, 'SawFM': 379, 'SinFM': 370, 'MFT': 356, 'ISRJ': 375}
+marginal_segment − marginal_none：gap15召回+0.265 [-0.511, +1.042] pp；移除目标误报-0.018 [-0.248, +0.211] pp。
+marginal_segment − marginal_global：gap15召回+0.119 [-0.932, +1.170] pp；移除目标误报-0.018 [-0.372, +0.336] pp。
+combo_segment − combo_none：gap15召回-0.256 [-0.787, +0.275] pp；移除目标误报-0.137 [-0.361, +0.086] pp。
+combo_segment − combo_global：gap15召回-0.137 [-1.184, +0.910] pp；移除目标误报-0.101 [-0.311, +0.110] pp。
+marginal_segment_guarded − marginal_none：gap15召回+0.430 [-0.051, +0.912] pp；移除目标误报+0.073 [-0.045, +0.191] pp。
+combo_segment_guarded − combo_none：gap15召回-0.009 [-0.156, +0.138] pp；移除目标误报-0.046 [-0.159, +0.068] pp。
+split1/confirmation：2130配对身份；目标数{'FMB': 373, 'AMA': 331, 'SawFM': 358, 'SinFM': 389, 'MFT': 329, 'ISRJ': 350}
+marginal_segment − marginal_none：gap15召回+0.563 [-0.712, +1.839] pp；移除目标误报-0.066 [-0.322, +0.190] pp。
+marginal_segment − marginal_global：gap15召回+0.019 [-0.719, +0.757] pp；移除目标误报-0.103 [-0.362, +0.155] pp。
+combo_segment − combo_none：gap15召回+0.911 [-0.823, +2.644] pp；移除目标误报-0.085 [-0.326, +0.157] pp。
+combo_segment − combo_global：gap15召回+0.460 [-0.427, +1.347] pp；移除目标误报-0.122 [-0.268, +0.024] pp。
+marginal_segment_guarded − marginal_none：gap15召回+0.423 [-0.150, +0.995] pp；移除目标误报-0.038 [-0.219, +0.144] pp。
+combo_segment_guarded − combo_none：gap15召回+0.507 [-0.289, +1.304] pp；移除目标误报-0.113 [-0.300, +0.074] pp。
+split2/confirmation：2170配对身份；目标数{'FMB': 374, 'AMA': 379, 'SawFM': 328, 'SinFM': 366, 'MFT': 371, 'ISRJ': 352}
+marginal_segment − marginal_none：gap15召回+0.120 [-0.996, +1.236] pp；移除目标误报+0.065 [-0.177, +0.306] pp。
+marginal_segment − marginal_global：gap15召回+0.018 [-1.374, +1.410] pp；移除目标误报+0.018 [-0.403, +0.440] pp。
+combo_segment − combo_none：gap15召回-0.194 [-0.981, +0.594] pp；移除目标误报-0.212 [-0.404, -0.020] pp。
+combo_segment − combo_global：gap15召回-0.065 [-1.106, +0.977] pp；移除目标误报-0.194 [-0.572, +0.185] pp。
+marginal_segment_guarded − marginal_none：gap15召回+0.461 [-0.040, +0.961] pp；移除目标误报+0.101 [-0.052, +0.255] pp。
+combo_segment_guarded − combo_none：gap15召回+0.101 [-0.277, +0.480] pp；移除目标误报-0.111 [-0.265, +0.044] pp。
+共40个冻结读出阶段中，17个选择epoch0。零残差阶段保留，不按表现删除种子。
+受控配对AUC/AP不是自然单次推理性能，局部统计读出加物理诊断也不等于物理约束损失。
+当前小头实际更新SawFM/MFT/ISRJ三个目标；六标签诊断和保护不等于六标签均训练了局部残差。
+
+附加诊断：读出收益所在的组合背景
+按实际历史fit组合计数分尾部≤50、中部51—249、头部≥250。保留全部63组合和六标签的其他五标签背景切片；这些是观察性分组，不等于同身份物理干预。
+development/split1 combo_segment-combo_none：tail n=2304，Exact差=+0.260pp，未校正种子CI=[-0.378,+0.899]；middle n=704，Exact差=+0.028pp，未校正种子CI=[-0.374,+0.431]；head n=1024，Exact差=+0.410pp，未校正种子CI=[-0.180,+1.000]
+development/split1 combo_segment-combo_global：tail n=2304，Exact差=+0.217pp，未校正种子CI=[-0.443,+0.877]；middle n=704，Exact差=+0.142pp，未校正种子CI=[-0.372,+0.656]；head n=1024，Exact差=+0.449pp，未校正种子CI=[-0.069,+0.968]
+development/split1 combo_none-marginal_none：tail n=2304，Exact差=+0.625pp，未校正种子CI=[+0.217,+1.033]；middle n=704，Exact差=+0.256pp，未校正种子CI=[-0.673,+1.184]；head n=1024，Exact差=-0.645pp，未校正种子CI=[-1.317,+0.028]
+development/split2 combo_segment-combo_none：tail n=2304，Exact差=+0.174pp，未校正种子CI=[-0.045,+0.393]；middle n=704，Exact差=+0.540pp，未校正种子CI=[-0.181,+1.261]；head n=1024，Exact差=+0.273pp，未校正种子CI=[-0.123,+0.670]
+development/split2 combo_segment-combo_global：tail n=2304，Exact差=+0.174pp，未校正种子CI=[-0.090,+0.438]；middle n=704，Exact差=+0.483pp，未校正种子CI=[-0.196,+1.161]；head n=1024，Exact差=+0.254pp，未校正种子CI=[-0.435,+0.943]
+development/split2 combo_none-marginal_none：tail n=2304，Exact差=+0.833pp，未校正种子CI=[-0.357,+2.024]；middle n=704，Exact差=+0.909pp，未校正种子CI=[-2.228,+4.046]；head n=1024，Exact差=-0.645pp，未校正种子CI=[-1.290,+0.001]
+confirmation/split1 combo_segment-combo_none：tail n=2304，Exact差=+0.017pp，未校正种子CI=[-0.411,+0.446]；middle n=704，Exact差=+0.312pp，未校正种子CI=[-0.161,+0.786]；head n=1024，Exact差=+0.098pp，未校正种子CI=[-0.129,+0.325]
+confirmation/split1 combo_segment-combo_global：tail n=2304，Exact差=+0.035pp，未校正种子CI=[-0.328,+0.397]；middle n=704，Exact差=+0.085pp，未校正种子CI=[-0.494,+0.665]；head n=1024，Exact差=+0.098pp，未校正种子CI=[-0.364,+0.559]
+confirmation/split1 combo_none-marginal_none：tail n=2304，Exact差=+0.564pp，未校正种子CI=[-0.413,+1.541]；middle n=704，Exact差=-0.341pp，未校正种子CI=[-0.972,+0.290]；head n=1024，Exact差=-0.410pp，未校正种子CI=[-1.071,+0.251]
+confirmation/split2 combo_segment-combo_none：tail n=2304，Exact差=+0.208pp，未校正种子CI=[-0.131,+0.548]；middle n=704，Exact差=+0.085pp，未校正种子CI=[-0.375,+0.545]；head n=1024，Exact差=+0.352pp，未校正种子CI=[+0.060,+0.644]
+confirmation/split2 combo_segment-combo_global：tail n=2304，Exact差=+0.234pp，未校正种子CI=[-0.002,+0.471]；middle n=704，Exact差=+0.000pp，未校正种子CI=[-0.394,+0.394]；head n=1024，Exact差=+0.293pp，未校正种子CI=[+0.036,+0.550]
+confirmation/split2 combo_none-marginal_none：tail n=2304，Exact差=+0.582pp，未校正种子CI=[-0.103,+1.266]；middle n=704，Exact差=+1.392pp，未校正种子CI=[-1.171,+3.955]；head n=1024，Exact差=-0.527pp，未校正种子CI=[-1.421,+0.366]
+若头部和尾部均获益，不能仅据全体Exact提升宣称局部读出专门解决尾部组合；完整背景结果用于下一阶段提出假设，不按小切片显著性选择模型。
+
+五、双长尾矩阵
+本轮矩阵训练并比较单骨干A/B/C专家目标，没有为每个新配额重训独立主W32和局部读出；不能据此声称读出增益已在整个IF/CF矩阵得到验证。
+权重ESS描述目标权重的集中程度；实际每轮完整访问8000个fit身份一次，共40轮，未采用有放回重采样。
+development完整模型数：60；只统计已验证的A/B/C三臂。
+split1/CF7p85_IF3：种子[2500, 2501, 2502]，CF=7.8537，IF=3.0000；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=79.820, marginal=80.853, combo=81.779
+split1/CF7p85_IF1：种子[2500, 2501, 2502]，CF=7.8537，IF=1.0017；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=78.853, marginal=78.828, combo=78.580
+split1/CF16_IF3：种子[2500, 2501, 2502]，CF=16.0000，IF=3.0000；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=79.803, marginal=81.134, combo=80.911
+split1/CF16_near_IF1：种子[2500, 2501, 2502]，CF=16.0000，IF=1.0027；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=77.753, marginal=77.720, combo=78.282
+split2/CF7p85_IF3：种子[2500, 2501]，CF=7.8537，IF=3.0000；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=78.894, marginal=80.208, combo=80.605
+split2/CF7p85_IF1：种子[2500, 2501]，CF=7.8537，IF=1.0017；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=79.080, marginal=79.092, combo=79.241
+split2/CF16_IF3：种子[2500, 2501]，CF=16.0000，IF=3.0000；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=79.328, marginal=79.960, combo=80.742
+split2/CF16_near_IF1：种子[2500, 2501]，CF=16.0000，IF=1.0027；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=77.443, marginal=78.757, combo=79.080
+split1/CF7p85_IF3 combo-marginal Exact：+0.926 pp (n=3; CI=-1.105, +2.957)；当前配额尾部Exact：+1.273 pp (n=3; CI=-1.362, +3.908)；当前配额头部Exact：+0.033 pp (n=3; CI=-2.640, +2.705)；按训练频率重加权Exact：+0.442 pp (n=3; CI=-1.607, +2.491)。
+  排序/概率辅助指标：macro AP差=+0.033 pp (n=3; CI=-0.037, +0.103)；raw BCE均差=-0.002271；ECE均差=-0.000133。
+split1/CF7p85_IF3 marginal-natural Exact：+1.033 pp (n=3; CI=-2.975, +5.042)；当前配额尾部Exact：+1.548 pp (n=3; CI=-4.403, +7.499)；当前配额头部Exact：+0.781 pp (n=3; CI=-0.734, +2.296)；按训练频率重加权Exact：+0.737 pp (n=3; CI=-1.538, +3.011)。
+  排序/概率辅助指标：macro AP差=+0.048 pp (n=3; CI=-0.002, +0.099)；raw BCE均差=-0.005538；ECE均差=-0.001599。
+split1/CF7p85_IF3 combo-natural Exact：+1.959 pp (n=3; CI=-0.049, +3.968)；当前配额尾部Exact：+2.821 pp (n=3; CI=-0.521, +6.164)；当前配额头部Exact：+0.814 pp (n=3; CI=-0.522, +2.150)；按训练频率重加权Exact：+1.179 pp (n=3; CI=+0.948, +1.410)。
+  排序/概率辅助指标：macro AP差=+0.082 pp (n=3; CI=+0.050, +0.113)；raw BCE均差=-0.007809；ECE均差=-0.001732。
+split1/CF7p85_IF1 combo-marginal Exact：-0.248 pp (n=3; CI=-2.247, +1.751)；当前配额尾部Exact：+0.680 pp (n=3; CI=-0.891, +2.251)；当前配额头部Exact：-1.107 pp (n=3; CI=-3.295, +1.081)；按训练频率重加权Exact：-0.939 pp (n=3; CI=-3.165, +1.288)。
+  排序/概率辅助指标：macro AP差=+0.039 pp (n=3; CI=-0.030, +0.109)；raw BCE均差=-0.002650；ECE均差=-0.001505。
+split1/CF7p85_IF1 marginal-natural Exact：-0.025 pp (n=3; CI=-1.227, +1.178)；当前配额尾部Exact：-0.448 pp (n=3; CI=-2.305, +1.408)；当前配额头部Exact：+0.391 pp (n=3; CI=-2.142, +2.923)；按训练频率重加权Exact：+0.302 pp (n=3; CI=-1.038, +1.643)。
+  排序/概率辅助指标：macro AP差=-0.010 pp (n=3; CI=-0.036, +0.016)；raw BCE均差=+0.000677；ECE均差=+0.000539。
+split1/CF7p85_IF1 combo-natural Exact：-0.273 pp (n=3; CI=-1.127, +0.581)；当前配额尾部Exact：+0.231 pp (n=3; CI=-0.098, +0.561)；当前配额头部Exact：-0.716 pp (n=3; CI=-4.010, +2.578)；按训练频率重加权Exact：-0.636 pp (n=3; CI=-2.854, +1.582)。
+  排序/概率辅助指标：macro AP差=+0.029 pp (n=3; CI=-0.026, +0.084)；raw BCE均差=-0.001973；ECE均差=-0.000966。
+split1/CF16_IF3 combo-marginal Exact：-0.223 pp (n=3; CI=-1.481, +1.035)；当前配额尾部Exact：+0.759 pp (n=3; CI=-0.683, +2.201)；当前配额头部Exact：-1.107 pp (n=3; CI=-5.582, +3.369)；按训练频率重加权Exact：-0.949 pp (n=3; CI=-3.185, +1.287)。
+  排序/概率辅助指标：macro AP差=+0.034 pp (n=3; CI=+0.003, +0.065)；raw BCE均差=-0.001259；ECE均差=+0.001587。
+split1/CF16_IF3 marginal-natural Exact：+1.331 pp (n=3; CI=-2.943, +5.605)；当前配额尾部Exact：+1.324 pp (n=3; CI=-1.813, +4.462)；当前配额头部Exact：+0.521 pp (n=3; CI=-4.751, +5.793)；按训练频率重加权Exact：+1.076 pp (n=3; CI=-3.872, +6.025)。
+  排序/概率辅助指标：macro AP差=+0.003 pp (n=3; CI=-0.205, +0.212)；raw BCE均差=-0.004690；ECE均差=-0.002080。
+split1/CF16_IF3 combo-natural Exact：+1.108 pp (n=3; CI=-1.908, +4.124)；当前配额尾部Exact：+2.083 pp (n=3; CI=-0.182, +4.349)；当前配额头部Exact：-0.586 pp (n=3; CI=-3.384, +2.212)；按训练频率重加权Exact：+0.127 pp (n=3; CI=-3.175, +3.429)。
+  排序/概率辅助指标：macro AP差=+0.037 pp (n=3; CI=-0.165, +0.240)；raw BCE均差=-0.005949；ECE均差=-0.000493。
+split1/CF16_near_IF1 combo-marginal Exact：+0.562 pp (n=3; CI=-0.917, +2.041)；当前配额尾部Exact：+1.265 pp (n=3; CI=-2.130, +4.660)；当前配额头部Exact：-0.944 pp (n=3; CI=-1.504, -0.384)；按训练频率重加权Exact：-0.239 pp (n=3; CI=-0.648, +0.169)。
+  排序/概率辅助指标：macro AP差=+0.039 pp (n=3; CI=-0.051, +0.129)；raw BCE均差=-0.004483；ECE均差=-0.001178。
+split1/CF16_near_IF1 marginal-natural Exact：-0.033 pp (n=3; CI=-1.206, +1.140)；当前配额尾部Exact：+0.313 pp (n=3; CI=-0.757, +1.382)；当前配额头部Exact：-0.293 pp (n=3; CI=-1.577, +0.991)；按训练频率重加权Exact：-0.288 pp (n=3; CI=-1.869, +1.293)。
+  排序/概率辅助指标：macro AP差=-0.006 pp (n=3; CI=-0.055, +0.042)；raw BCE均差=+0.002277；ECE均差=+0.001485。
+split1/CF16_near_IF1 combo-natural Exact：+0.529 pp (n=3; CI=-1.242, +2.300)；当前配额尾部Exact：+1.577 pp (n=3; CI=-1.630, +4.785)；当前配额头部Exact：-1.237 pp (n=3; CI=-2.247, -0.227)；按训练频率重加权Exact：-0.527 pp (n=3; CI=-1.717, +0.662)。
+  排序/概率辅助指标：macro AP差=+0.032 pp (n=3; CI=-0.034, +0.099)；raw BCE均差=-0.002206；ECE均差=+0.000306。
+split2/CF7p85_IF3 combo-marginal Exact：+0.397 pp (n=2; CI=+0.397, +0.397) [观测种子差相同，区间退化；不表示总体无不确定性]；当前配额尾部Exact：+0.673 pp (n=2; CI=-5.669, +7.015)；当前配额头部Exact：-0.830 pp (n=2; CI=-17.581, +15.921)；按训练频率重加权Exact：-0.189 pp (n=2; CI=-9.201, +8.824)。
+  排序/概率辅助指标：macro AP差=+0.043 pp (n=2; CI=+0.021, +0.065)；raw BCE均差=-0.002191；ECE均差=+0.001160。
+split2/CF7p85_IF3 marginal-natural Exact：+1.314 pp (n=2; CI=-18.539, +21.168)；当前配额尾部Exact：+0.369 pp (n=2; CI=-7.628, +8.365)；当前配额头部Exact：+1.025 pp (n=2; CI=-19.448, +21.499)；按训练频率重加权Exact：+1.563 pp (n=2; CI=-23.063, +26.188)。
+  排序/概率辅助指标：macro AP差=+0.111 pp (n=2; CI=-0.202, +0.423)；raw BCE均差=-0.010745；ECE均差=-0.002714。
+split2/CF7p85_IF3 combo-natural Exact：+1.711 pp (n=2; CI=-18.142, +21.565)；当前配额尾部Exact：+1.042 pp (n=2; CI=-13.297, +15.380)；当前配额头部Exact：+0.195 pp (n=2; CI=-3.527, +3.918)；按训练频率重加权Exact：+1.374 pp (n=2; CI=-14.239, +16.988)。
+  排序/概率辅助指标：macro AP差=+0.153 pp (n=2; CI=-0.181, +0.488)；raw BCE均差=-0.012936；ECE均差=-0.001554。
+split2/CF7p85_IF1 combo-marginal Exact：+0.149 pp (n=2; CI=-1.742, +2.040)；当前配额尾部Exact：+0.933 pp (n=2; CI=-4.306, +6.172)；当前配额头部Exact：-0.879 pp (n=2; CI=-10.806, +9.048)；按训练频率重加权Exact：-0.553 pp (n=2; CI=-8.305, +7.200)。
+  排序/概率辅助指标：macro AP差=+0.052 pp (n=2; CI=-0.021, +0.125)；raw BCE均差=-0.004817；ECE均差=-0.001791。
+split2/CF7p85_IF1 marginal-natural Exact：+0.012 pp (n=2; CI=-0.145, +0.170)；当前配额尾部Exact：+0.391 pp (n=2; CI=-2.918, +3.700)；当前配额头部Exact：-0.293 pp (n=2; CI=-6.497, +5.911)；按训练频率重加权Exact：-0.256 pp (n=2; CI=-3.806, +3.294)。
+  排序/概率辅助指标：macro AP差=+0.001 pp (n=2; CI=-0.053, +0.055)；raw BCE均差=-0.000533；ECE均差=-0.000194。
+split2/CF7p85_IF1 combo-natural Exact：+0.161 pp (n=2; CI=-1.572, +1.894)；当前配额尾部Exact：+1.324 pp (n=2; CI=-7.224, +9.872)；当前配额头部Exact：-1.172 pp (n=2; CI=-17.303, +14.959)；按训练频率重加权Exact：-0.808 pp (n=2; CI=-12.111, +10.495)。
+  排序/概率辅助指标：macro AP差=+0.054 pp (n=2; CI=+0.035, +0.072)；raw BCE均差=-0.005350；ECE均差=-0.001985。
+split2/CF16_IF3 combo-marginal Exact：+0.781 pp (n=2; CI=-7.255, +8.817)；当前配额尾部Exact：+1.741 pp (n=2; CI=-7.902, +11.384)；当前配额头部Exact：-0.488 pp (n=2; CI=-9.174, +8.198)；按训练频率重加权Exact：-0.033 pp (n=2; CI=-7.541, +7.475)。
+  排序/概率辅助指标：macro AP差=+0.047 pp (n=2; CI=-0.230, +0.324)；raw BCE均差=-0.001392；ECE均差=+0.001409。
+split2/CF16_IF3 marginal-natural Exact：+0.632 pp (n=2; CI=-14.967, +16.232)；当前配额尾部Exact：+0.670 pp (n=2; CI=-11.242, +12.582)；当前配额头部Exact：-0.732 pp (n=2; CI=-19.965, +18.501)；按训练频率重加权Exact：+0.069 pp (n=2; CI=-18.678, +18.816)。
+  排序/概率辅助指标：macro AP差=+0.043 pp (n=2; CI=-0.027, +0.114)；raw BCE均差=-0.008220；ECE均差=-0.002743。
+split2/CF16_IF3 combo-natural Exact：+1.414 pp (n=2; CI=-6.150, +8.977)；当前配额尾部Exact：+2.411 pp (n=2; CI=+0.142, +4.680)；当前配额头部Exact：-1.221 pp (n=2; CI=-11.768, +9.326)；按训练频率重加权Exact：+0.036 pp (n=2; CI=-11.202, +11.274)。
+  排序/概率辅助指标：macro AP差=+0.090 pp (n=2; CI=-0.257, +0.438)；raw BCE均差=-0.009612；ECE均差=-0.001334。
+split2/CF16_near_IF1 combo-marginal Exact：+0.322 pp (n=2; CI=-3.774, +4.419)；当前配额尾部Exact：+0.759 pp (n=2; CI=-0.376, +1.893)；当前配额头部Exact：-0.244 pp (n=2; CI=-0.865, +0.376)；按训练频率重加权Exact：-0.080 pp (n=2; CI=-4.207, +4.047)。
+  排序/概率辅助指标：macro AP差=+0.045 pp (n=2; CI=-0.101, +0.191)；raw BCE均差=-0.003871；ECE均差=-0.000562。
+split2/CF16_near_IF1 marginal-natural Exact：+1.314 pp (n=2; CI=-2.782, +5.411)；当前配额尾部Exact：+2.254 pp (n=2; CI=-8.807, +13.316)；当前配额头部Exact：-0.293 pp (n=2; CI=-4.015, +3.430)；按训练频率重加权Exact：+0.144 pp (n=2; CI=-1.607, +1.895)。
+  排序/概率辅助指标：macro AP差=+0.015 pp (n=2; CI=-0.083, +0.112)；raw BCE均差=-0.001007；ECE均差=-0.000297。
+split2/CF16_near_IF1 combo-natural Exact：+1.637 pp (n=2; CI=-6.557, +9.830)；当前配额尾部Exact：+3.013 pp (n=2; CI=-6.913, +12.940)；当前配额头部Exact：-0.537 pp (n=2; CI=-4.880, +3.806)；按训练频率重加权Exact：+0.064 pp (n=2; CI=-2.312, +2.440)。
+  排序/概率辅助指标：macro AP差=+0.060 pp (n=2; CI=+0.011, +0.108)；raw BCE均差=-0.004878；ECE均差=-0.000859。
+边界：single-seed intervals omitted；seed intervals are unadjusted and conditional on each fixed cohort；quota changes preserve cardinality counts; they also alter combination distribution, so ratio alone is not identified causally；B matches both positive and negative label marginals of C; B is not necessarily label-balanced；primary evaluation is uniform over 63 combinations; fit_prior_weighted_exact is a reweighting of the same observations, not a new test；weak-view schedule is identical within each A/B/C triad; coverage differs across quota cells
+confirmation完整模型数：60；只统计已验证的A/B/C三臂。
+split1/CF7p85_IF3：种子[2500, 2501, 2502]，CF=7.8537，IF=3.0000；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=78.729, marginal=79.439, combo=79.754
+split1/CF7p85_IF1：种子[2500, 2501, 2502]，CF=7.8537，IF=1.0017；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=78.497, marginal=78.596, combo=78.406
+split1/CF16_IF3：种子[2500, 2501, 2502]，CF=16.0000，IF=3.0000；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=78.472, marginal=79.415, combo=79.481
+split1/CF16_near_IF1：种子[2500, 2501, 2502]，CF=16.0000，IF=1.0027；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=76.720, marginal=76.554, combo=77.100
+split2/CF7p85_IF3：种子[2500, 2501]，CF=7.8537，IF=3.0000；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=80.903, marginal=82.254, combo=82.230
+split2/CF7p85_IF1：种子[2500, 2501]，CF=7.8537，IF=1.0017；ESS=7516.2，有效组合数=33.92。
+  自然/边际/组合 Exact%：natural=80.072, marginal=80.258, combo=80.456
+split2/CF16_IF3：种子[2500, 2501]，CF=16.0000，IF=3.0000；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=81.163, marginal=81.783, combo=82.490
+split2/CF16_near_IF1：种子[2500, 2501]，CF=16.0000，IF=1.0027；ESS=7483.5，有效组合数=33.06。
+  自然/边际/组合 Exact%：natural=77.976, marginal=79.067, combo=79.340
+split1/CF7p85_IF3 combo-marginal Exact：+0.314 pp (n=3; CI=-0.949, +1.577)；当前配额尾部Exact：+0.506 pp (n=3; CI=-1.151, +2.164)；当前配额头部Exact：-0.130 pp (n=3; CI=-2.165, +1.904)；按训练频率重加权Exact：+0.067 pp (n=3; CI=-1.356, +1.489)。
+  排序/概率辅助指标：macro AP差=+0.030 pp (n=3; CI=+0.001, +0.060)；raw BCE均差=-0.001354；ECE均差=+0.000808。
+split1/CF7p85_IF3 marginal-natural Exact：+0.711 pp (n=3; CI=-1.979, +3.401)；当前配额尾部Exact：+0.839 pp (n=3; CI=-2.830, +4.509)；当前配额头部Exact：-0.293 pp (n=3; CI=-2.366, +1.780)；按训练频率重加权Exact：+0.258 pp (n=3; CI=-1.474, +1.991)。
+  排序/概率辅助指标：macro AP差=+0.020 pp (n=3; CI=-0.027, +0.066)；raw BCE均差=-0.004987；ECE均差=-0.001720。
+split1/CF7p85_IF3 combo-natural Exact：+1.025 pp (n=3; CI=-0.754, +2.805)；当前配额尾部Exact：+1.345 pp (n=3; CI=-1.633, +4.324)；当前配额头部Exact：-0.423 pp (n=3; CI=-3.388, +2.541)；按训练频率重加权Exact：+0.325 pp (n=3; CI=-0.879, +1.529)。
+  排序/概率辅助指标：macro AP差=+0.050 pp (n=3; CI=+0.018, +0.082)；raw BCE均差=-0.006341；ECE均差=-0.000911。
+split1/CF7p85_IF1 combo-marginal Exact：-0.190 pp (n=3; CI=-0.284, -0.096)；当前配额尾部Exact：+0.087 pp (n=3; CI=-0.691, +0.864)；当前配额头部Exact：-0.911 pp (n=3; CI=-1.830, +0.007)；按训练频率重加权Exact：-0.573 pp (n=3; CI=-0.922, -0.225)。
+  排序/概率辅助指标：macro AP差=+0.041 pp (n=3; CI=+0.025, +0.057)；raw BCE均差=-0.002899；ECE均差=-0.000508。
+split1/CF7p85_IF1 marginal-natural Exact：+0.099 pp (n=3; CI=-0.892, +1.091)；当前配额尾部Exact：+0.116 pp (n=3; CI=-0.664, +0.896)；当前配额头部Exact：+0.651 pp (n=3; CI=-0.570, +1.872)；按训练频率重加权Exact：+0.310 pp (n=3; CI=-0.892, +1.512)。
+  排序/概率辅助指标：macro AP差=-0.006 pp (n=3; CI=-0.065, +0.052)；raw BCE均差=+0.000745；ECE均差=+0.000266。
+split1/CF7p85_IF1 combo-natural Exact：-0.091 pp (n=3; CI=-1.081, +0.899)；当前配额尾部Exact：+0.203 pp (n=3; CI=-1.056, +1.461)；当前配额头部Exact：-0.260 pp (n=3; CI=-1.597, +1.076)；按训练频率重加权Exact：-0.264 pp (n=3; CI=-1.319, +0.792)。
+  排序/概率辅助指标：macro AP差=+0.035 pp (n=3; CI=-0.023, +0.092)；raw BCE均差=-0.002154；ECE均差=-0.000243。
+split1/CF16_IF3 combo-marginal Exact：+0.066 pp (n=3; CI=-1.624, +1.756)；当前配额尾部Exact：+0.610 pp (n=3; CI=-0.207, +1.428)；当前配额头部Exact：-1.172 pp (n=3; CI=-6.459, +4.115)；按训练频率重加权Exact：-0.675 pp (n=3; CI=-3.587, +2.238)。
+  排序/概率辅助指标：macro AP差=+0.022 pp (n=3; CI=-0.017, +0.061)；raw BCE均差=+0.000809；ECE均差=+0.002320。
+split1/CF16_IF3 marginal-natural Exact：+0.942 pp (n=3; CI=-1.340, +3.225)；当前配额尾部Exact：+0.967 pp (n=3; CI=+0.798, +1.137)；当前配额头部Exact：+0.163 pp (n=3; CI=-4.745, +5.071)；按训练频率重加权Exact：+0.647 pp (n=3; CI=-3.563, +4.857)。
+  排序/概率辅助指标：macro AP差=+0.034 pp (n=3; CI=-0.152, +0.221)；raw BCE均差=-0.005631；ECE均差=-0.001199。
+split1/CF16_IF3 combo-natural Exact：+1.009 pp (n=3; CI=-0.481, +2.498)；当前配额尾部Exact：+1.577 pp (n=3; CI=+0.608, +2.546)；当前配额头部Exact：-1.009 pp (n=3; CI=-1.514, -0.504)；按训练频率重加权Exact：-0.027 pp (n=3; CI=-1.516, +1.462)。
+  排序/概率辅助指标：macro AP差=+0.056 pp (n=3; CI=-0.093, +0.205)；raw BCE均差=-0.004822；ECE均差=+0.001121。
+split1/CF16_near_IF1 combo-marginal Exact：+0.546 pp (n=3; CI=-1.647, +2.739)；当前配额尾部Exact：+1.250 pp (n=3; CI=-2.871, +5.371)；当前配额头部Exact：-0.456 pp (n=3; CI=-4.355, +3.443)；按训练频率重加权Exact：-0.092 pp (n=3; CI=-1.933, +1.748)。
+  排序/概率辅助指标：macro AP差=+0.059 pp (n=3; CI=-0.006, +0.125)；raw BCE均差=-0.004947；ECE均差=-0.001234。
+split1/CF16_near_IF1 marginal-natural Exact：-0.165 pp (n=3; CI=-2.096, +1.766)；当前配额尾部Exact：+0.179 pp (n=3; CI=-2.072, +2.430)；当前配额头部Exact：-0.553 pp (n=3; CI=-2.438, +1.331)；按训练频率重加权Exact：-0.444 pp (n=3; CI=-2.119, +1.232)。
+  排序/概率辅助指标：macro AP差=-0.016 pp (n=3; CI=-0.083, +0.051)；raw BCE均差=+0.001391；ECE均差=+0.000759。
+split1/CF16_near_IF1 combo-natural Exact：+0.380 pp (n=3; CI=+0.076, +0.684)；当前配额尾部Exact：+1.429 pp (n=3; CI=-0.607, +3.464)；当前配额头部Exact：-1.009 pp (n=3; CI=-3.315, +1.297)；按训练频率重加权Exact：-0.536 pp (n=3; CI=-1.587, +0.514)。
+  排序/概率辅助指标：macro AP差=+0.044 pp (n=3; CI=-0.010, +0.097)；raw BCE均差=-0.003555；ECE均差=-0.000475。
+split2/CF7p85_IF3 combo-marginal Exact：-0.025 pp (n=2; CI=-7.588, +7.538)；当前配额尾部Exact：+0.738 pp (n=2; CI=-6.983, +8.459)；当前配额头部Exact：-2.295 pp (n=2; CI=-6.638, +2.048)；按训练频率重加权Exact：-1.208 pp (n=2; CI=-7.489, +5.073)。
+  排序/概率辅助指标：macro AP差=+0.040 pp (n=2; CI=+0.024, +0.057)；raw BCE均差=-0.002713；ECE均差=+0.001293。
+split2/CF7p85_IF3 marginal-natural Exact：+1.352 pp (n=2; CI=-15.823, +18.526)；当前配额尾部Exact：+0.369 pp (n=2; CI=-11.488, +12.226)；当前配额头部Exact：+1.123 pp (n=2; CI=-13.147, +15.393)；按训练频率重加权Exact：+1.635 pp (n=2; CI=-16.313, +19.582)。
+  排序/概率辅助指标：macro AP差=+0.084 pp (n=2; CI=-0.413, +0.582)；raw BCE均差=-0.009399；ECE均差=-0.001349。
+split2/CF7p85_IF3 combo-natural Exact：+1.327 pp (n=2; CI=-23.411, +26.065)；当前配额尾部Exact：+1.107 pp (n=2; CI=-18.471, +20.684)；当前配额头部Exact：-1.172 pp (n=2; CI=-19.784, +17.441)；按训练频率重加权Exact：+0.427 pp (n=2; CI=-23.802, +24.655)。
+  排序/概率辅助指标：macro AP差=+0.125 pp (n=2; CI=-0.357, +0.606)；raw BCE均差=-0.012111；ECE均差=-0.000056。
+split2/CF7p85_IF1 combo-marginal Exact：+0.198 pp (n=2; CI=-3.583, +3.980)；当前配额尾部Exact：+0.955 pp (n=2; CI=-0.700, +2.609)；当前配额头部Exact：-1.074 pp (n=2; CI=-8.519, +6.371)；按训练频率重加权Exact：-0.585 pp (n=2; CI=-7.888, +6.719)。
+  排序/概率辅助指标：macro AP差=+0.054 pp (n=2; CI=-0.224, +0.331)；raw BCE均差=-0.004482；ECE均差=-0.001227。
+split2/CF7p85_IF1 marginal-natural Exact：+0.186 pp (n=2; CI=-3.753, +4.125)；当前配额尾部Exact：+0.369 pp (n=2; CI=-4.319, +5.057)；当前配额头部Exact：-0.439 pp (n=2; CI=-6.023, +5.144)；按训练频率重加权Exact：-0.126 pp (n=2; CI=-0.188, -0.064)。
+  排序/概率辅助指标：macro AP差=+0.011 pp (n=2; CI=-0.001, +0.023)；raw BCE均差=-0.001016；ECE均差=-0.000928。
+split2/CF7p85_IF1 combo-natural Exact：+0.384 pp (n=2; CI=+0.227, +0.542)；当前配额尾部Exact：+1.324 pp (n=2; CI=-5.018, +7.666)；当前配额头部Exact：-1.514 pp (n=2; CI=-14.542, +11.515)；按训练频率重加权Exact：-0.711 pp (n=2; CI=-8.076, +6.655)。
+  排序/概率辅助指标：macro AP差=+0.065 pp (n=2; CI=-0.225, +0.354)；raw BCE均差=-0.005498；ECE均差=-0.002154。
+split2/CF16_IF3 combo-marginal Exact：+0.707 pp (n=2; CI=-3.232, +4.646)；当前配额尾部Exact：+1.518 pp (n=2; CI=-1.318, +4.354)；当前配额头部Exact：-0.439 pp (n=2; CI=-13.468, +12.589)；按训练频率重加权Exact：-0.085 pp (n=2; CI=-4.588, +4.418)。
+  排序/概率辅助指标：macro AP差=+0.031 pp (n=2; CI=-0.431, +0.494)；raw BCE均差=-0.001687；ECE均差=+0.000886。
+split2/CF16_IF3 marginal-natural Exact：+0.620 pp (n=2; CI=-9.464, +10.704)；当前配额尾部Exact：+0.067 pp (n=2; CI=-1.351, +1.485)；当前配额头部Exact：+0.537 pp (n=2; CI=-5.047, +6.121)；按训练频率重加权Exact：+0.777 pp (n=2; CI=-10.784, +12.338)。
+  排序/概率辅助指标：macro AP差=+0.053 pp (n=2; CI=-0.088, +0.194)；raw BCE均差=-0.007822；ECE均差=-0.000638。
+split2/CF16_IF3 combo-natural Exact：+1.327 pp (n=2; CI=-4.818, +7.472)；当前配额尾部Exact：+1.585 pp (n=2; CI=+0.167, +3.003)；当前配额头部Exact：+0.098 pp (n=2; CI=-18.515, +18.710)；按训练频率重加权Exact：+0.692 pp (n=2; CI=-15.372, +16.756)。
+  排序/概率辅助指标：macro AP差=+0.085 pp (n=2; CI=-0.236, +0.405)；raw BCE均差=-0.009509；ECE均差=+0.000248。
+split2/CF16_near_IF1 combo-marginal Exact：+0.273 pp (n=2; CI=-1.933, +2.479)；当前配额尾部Exact：+0.982 pp (n=2; CI=-6.392, +8.356)；当前配额头部Exact：-0.342 pp (n=2; CI=-4.685, +4.001)；按训练频率重加权Exact：-0.203 pp (n=2; CI=-5.891, +5.485)。
+  排序/概率辅助指标：macro AP差=+0.023 pp (n=2; CI=-0.197, +0.243)；raw BCE均差=-0.002711；ECE均差=-0.001265。
+split2/CF16_near_IF1 marginal-natural Exact：+1.091 pp (n=2; CI=-7.102, +9.285)；当前配额尾部Exact：+1.652 pp (n=2; CI=-13.664, +16.967)；当前配额头部Exact：+0.146 pp (n=2; CI=-0.474, +0.767)；按训练频率重加权Exact：+0.373 pp (n=2; CI=-1.147, +1.893)。
+  排序/概率辅助指标：macro AP差=+0.015 pp (n=2; CI=-0.158, +0.187)；raw BCE均差=-0.001548；ECE均差=+0.000040。
+split2/CF16_near_IF1 combo-natural Exact：+1.364 pp (n=2; CI=-9.035, +11.764)；当前配额尾部Exact：+2.634 pp (n=2; CI=-5.307, +10.575)；当前配额头部Exact：-0.195 pp (n=2; CI=-3.918, +3.527)；按训练频率重加权Exact：+0.170 pp (n=2; CI=-7.038, +7.378)。
+  排序/概率辅助指标：macro AP差=+0.037 pp (n=2; CI=-0.354, +0.429)；raw BCE均差=-0.004260；ECE均差=-0.001225。
+边界：single-seed intervals omitted；seed intervals are unadjusted and conditional on each fixed cohort；quota changes preserve cardinality counts; they also alter combination distribution, so ratio alone is not identified causally；B matches both positive and negative label marginals of C; B is not necessarily label-balanced；primary evaluation is uniform over 63 combinations; fit_prior_weighted_exact is a reweighting of the same observations, not a new test；weak-view schedule is identical within each A/B/C triad; coverage differs across quota cells
+既定CF变化在近IF1时会重排很多头尾组合，不能把跨条件差异全部归因于CF标量。
+额外整数优化已找到保持六标签边际和基数的最小L1新配额，CF16、总变差0.029625；该新配额未训练。详见QUOTA_REFINEMENT_RESULT.txt。
+
+附加诊断：相同校准误报目标
+每标签仅用calibration负例选择经验FPR≤5%的最低logit阈值，全部A/B/C使用同一规则；不修改主F1阈值。评价实际FPR可能偏离5%，不声称测试FPR完全匹配。
+development/split1/CF7p85_IF3 C-B附加Exact：+0.645 pp (n=3; CI=+0.241, +1.049)
+  FMB：marginal实际FPR=5.662%,弱召回=97.101%；combo实际FPR=4.990%,弱召回=97.559%；弱AP差=+0.356 pp (n=3; CI=-0.658, +1.371)
+  AMA：marginal实际FPR=6.166%,弱召回=97.903%；combo实际FPR=6.048%,弱召回=97.975%；弱AP差=+0.141 pp (n=3; CI=-0.394, +0.676)
+  SawFM：marginal实际FPR=4.990%,弱召回=78.913%；combo实际FPR=4.284%,弱召回=79.783%；弱AP差=+0.914 pp (n=3; CI=-1.414, +3.241)
+  SinFM：marginal实际FPR=5.763%,弱召回=91.136%；combo实际FPR=5.914%,弱召回=91.429%；弱AP差=+0.324 pp (n=3; CI=+0.259, +0.389)
+  MFT：marginal实际FPR=5.108%,弱召回=82.471%；combo实际FPR=4.772%,弱召回=79.986%；弱AP差=-0.923 pp (n=3; CI=-3.172, +1.327)
+  ISRJ：marginal实际FPR=4.503%,弱召回=65.779%；combo实际FPR=4.755%,弱召回=66.872%；弱AP差=+0.512 pp (n=3; CI=-1.382, +2.406)
+development/split1/CF7p85_IF1 C-B附加Exact：-0.248 pp (n=3; CI=-1.499, +1.003)
+  FMB：marginal实际FPR=5.847%,弱召回=99.619%；combo实际FPR=5.998%,弱召回=99.390%；弱AP差=-0.154 pp (n=3; CI=-0.869, +0.561)
+  AMA：marginal实际FPR=5.578%,弱召回=97.614%；combo实际FPR=5.981%,弱召回=97.325%；弱AP差=-0.079 pp (n=3; CI=-0.593, +0.434)
+  SawFM：marginal实际FPR=4.839%,弱召回=74.348%；combo实际FPR=5.981%,弱召回=75.725%；弱AP差=-0.277 pp (n=3; CI=-2.782, +2.227)
+  SinFM：marginal实际FPR=5.477%,弱召回=90.476%；combo实际FPR=5.813%,弱召回=90.769%；弱AP差=+0.115 pp (n=3; CI=-0.670, +0.901)
+  MFT：marginal实际FPR=5.628%,弱召回=76.259%；combo实际FPR=4.990%,弱召回=75.017%；弱AP差=+0.262 pp (n=3; CI=-3.386, +3.910)
+  ISRJ：marginal实际FPR=3.898%,弱召回=61.475%；combo实际FPR=4.251%,弱召回=62.227%；弱AP差=+0.219 pp (n=3; CI=-1.140, +1.578)
+development/split1/CF16_IF3 C-B附加Exact：+0.157 pp (n=3; CI=-0.784, +1.098)
+  FMB：marginal实际FPR=5.007%,弱召回=96.644%；combo实际FPR=4.839%,弱召回=97.483%；弱AP差=+0.514 pp (n=3; CI=-0.222, +1.251)
+  AMA：marginal实际FPR=6.620%,弱召回=97.614%；combo实际FPR=5.998%,弱召回=97.903%；弱AP差=+0.145 pp (n=3; CI=-0.134, +0.424)
+  SawFM：marginal实际FPR=4.872%,弱召回=79.348%；combo实际FPR=5.360%,弱召回=79.565%；弱AP差=+0.293 pp (n=3; CI=-0.565, +1.151)
+  SinFM：marginal实际FPR=5.326%,弱召回=91.795%；combo实际FPR=5.494%,弱召回=91.868%；弱AP差=+0.022 pp (n=3; CI=-0.533, +0.578)
+  MFT：marginal实际FPR=4.469%,弱召回=80.883%；combo实际FPR=4.435%,弱召回=81.159%；弱AP差=+0.356 pp (n=3; CI=-0.562, +1.274)
+  ISRJ：marginal实际FPR=4.956%,弱召回=67.077%；combo实际FPR=4.755%,弱召回=66.462%；弱AP差=+0.373 pp (n=3; CI=-1.586, +2.332)
+development/split1/CF16_near_IF1 C-B附加Exact：+0.215 pp (n=3; CI=-1.171, +1.601)
+  FMB：marginal实际FPR=4.301%,弱召回=98.627%；combo实际FPR=5.259%,弱召回=99.085%；弱AP差=+0.067 pp (n=3; CI=-0.124, +0.257)
+  AMA：marginal实际FPR=6.233%,弱召回=97.035%；combo实际FPR=5.847%,弱召回=97.397%；弱AP差=+0.218 pp (n=3; CI=-0.233, +0.668)
+  SawFM：marginal实际FPR=4.805%,弱召回=74.130%；combo实际FPR=5.343%,弱召回=75.580%；弱AP差=+0.236 pp (n=3; CI=-1.074, +1.546)
+  SinFM：marginal实际FPR=5.007%,弱召回=89.817%；combo实际FPR=5.679%,弱召回=91.136%；弱AP差=+0.194 pp (n=3; CI=-0.910, +1.298)
+  MFT：marginal实际FPR=5.662%,弱召回=70.669%；combo实际FPR=5.595%,弱召回=68.185%；弱AP差=-0.479 pp (n=3; CI=-2.535, +1.577)
+  ISRJ：marginal实际FPR=4.301%,弱召回=59.904%；combo实际FPR=4.620%,弱召回=63.593%；弱AP差=+1.045 pp (n=3; CI=+0.722, +1.368)
+development/split2/CF7p85_IF3 C-B附加Exact：+1.314 pp (n=2; CI=-0.576, +3.205)
+  FMB：marginal实际FPR=5.922%,弱召回=96.983%；combo实际FPR=5.116%,弱召回=97.953%；弱AP差=+1.091 pp (n=2; CI=-4.967, +7.149)
+  AMA：marginal实际FPR=5.570%,弱召回=98.089%；combo实际FPR=4.007%,弱召回=98.089%；弱AP差=+0.146 pp (n=2; CI=-2.271, +2.563)
+  SawFM：marginal实际FPR=7.006%,弱召回=81.122%；combo实际FPR=6.930%,弱召回=81.429%；弱AP差=+0.519 pp (n=2; CI=-1.664, +2.701)
+  SinFM：marginal实际FPR=3.982%,弱召回=88.360%；combo实际FPR=3.604%,弱召回=88.462%；弱AP差=+0.310 pp (n=2; CI=-2.019, +2.638)
+  MFT：marginal实际FPR=3.755%,弱召回=80.105%；combo实际FPR=3.629%,弱召回=77.789%；弱AP差=-0.002 pp (n=2; CI=-0.337, +0.334)
+  ISRJ：marginal实际FPR=6.779%,弱召回=70.659%；combo实际FPR=5.897%,弱召回=69.341%；弱AP差=+0.402 pp (n=2; CI=-4.486, +5.291)
+development/split2/CF7p85_IF1 C-B附加Exact：+1.128 pp (n=2; CI=-0.290, +2.547)
+  FMB：marginal实际FPR=4.435%,弱召回=99.784%；combo实际FPR=4.662%,弱召回=99.892%；弱AP差=+0.070 pp (n=2; CI=-0.553, +0.694)
+  AMA：marginal实际FPR=4.587%,弱召回=97.558%；combo实际FPR=4.183%,弱召回=97.346%；弱AP差=+0.120 pp (n=2; CI=-0.077, +0.316)
+  SawFM：marginal实际FPR=6.578%,弱召回=75.102%；combo实际FPR=6.124%,弱召回=76.531%；弱AP差=+0.914 pp (n=2; CI=-1.249, +3.076)
+  SinFM：marginal实际FPR=4.385%,弱召回=88.563%；combo实际FPR=4.259%,弱召回=89.879%；弱AP差=+0.653 pp (n=2; CI=-1.562, +2.868)
+  MFT：marginal实际FPR=3.100%,弱召回=68.421%；combo实际FPR=3.352%,弱召回=70.316%；弱AP差=+0.497 pp (n=2; CI=-1.875, +2.869)
+  ISRJ：marginal实际FPR=4.461%,弱召回=66.813%；combo实际FPR=4.738%,弱召回=67.473%；弱AP差=+0.290 pp (n=2; CI=-5.219, +5.798)
+development/split2/CF16_IF3 C-B附加Exact：+0.818 pp (n=2; CI=-2.018, +3.655)
+  FMB：marginal实际FPR=5.318%,弱召回=98.491%；combo实际FPR=4.738%,弱召回=98.707%；弱AP差=+0.351 pp (n=2; CI=-1.616, +2.318)
+  AMA：marginal实际FPR=4.965%,弱召回=97.771%；combo实际FPR=4.688%,弱召回=97.346%；弱AP差=-0.025 pp (n=2; CI=-0.239, +0.189)
+  SawFM：marginal实际FPR=6.754%,弱召回=79.592%；combo实际FPR=6.880%,弱召回=82.857%；弱AP差=+1.192 pp (n=2; CI=-5.750, +8.133)
+  SinFM：marginal实际FPR=3.402%,弱召回=88.057%；combo实际FPR=3.579%,弱召回=88.968%；弱AP差=+0.435 pp (n=2; CI=-2.013, +2.883)
+  MFT：marginal实际FPR=4.385%,弱召回=79.368%；combo实际FPR=3.705%,弱召回=76.526%；弱AP差=-0.569 pp (n=2; CI=-3.273, +2.135)
+  ISRJ：marginal实际FPR=5.998%,弱召回=68.352%；combo实际FPR=6.326%,弱召回=69.121%；弱AP差=+0.354 pp (n=2; CI=-5.507, +6.215)
+development/split2/CF16_near_IF1 C-B附加Exact：+0.496 pp (n=2; CI=-6.122, +7.114)
+  FMB：marginal实际FPR=4.536%,弱召回=99.784%；combo实际FPR=3.881%,弱召回=99.677%；弱AP差=+0.061 pp (n=2; CI=-0.552, +0.674)
+  AMA：marginal实际FPR=6.124%,弱召回=97.558%；combo实际FPR=5.343%,弱召回=97.771%；弱AP差=+0.485 pp (n=2; CI=-2.421, +3.390)
+  SawFM：marginal实际FPR=5.166%,弱召回=76.122%；combo实际FPR=5.444%,弱召回=76.633%；弱AP差=+0.564 pp (n=2; CI=-9.608, +10.736)
+  SinFM：marginal实际FPR=3.528%,弱召回=87.551%；combo实际FPR=4.158%,弱召回=87.551%；弱AP差=+0.115 pp (n=2; CI=-2.707, +2.936)
+  MFT：marginal实际FPR=3.881%,弱召回=68.947%；combo实际FPR=3.931%,弱召回=69.895%；弱AP差=+0.564 pp (n=2; CI=-2.030, +3.157)
+  ISRJ：marginal实际FPR=3.906%,弱召回=61.648%；combo实际FPR=5.066%,弱召回=65.495%；弱AP差=-0.051 pp (n=2; CI=-6.007, +5.904)
+confirmation/split1/CF7p85_IF3 C-B附加Exact：+0.008 pp (n=3; CI=-2.059, +2.076)
+  FMB：marginal实际FPR=5.612%,弱召回=97.802%；combo实际FPR=5.696%,弱召回=98.462%；弱AP差=+0.497 pp (n=3; CI=-0.352, +1.347)
+  AMA：marginal实际FPR=5.612%,弱召回=97.598%；combo实际FPR=5.746%,弱召回=98.048%；弱AP差=+0.159 pp (n=3; CI=-0.325, +0.642)
+  SawFM：marginal实际FPR=5.124%,弱召回=74.873%；combo实际FPR=5.091%,弱召回=75.091%；弱AP差=+0.392 pp (n=3; CI=-1.297, +2.081)
+  SinFM：marginal实际FPR=5.813%,弱召回=90.220%；combo实际FPR=5.931%,弱召回=89.945%；弱AP差=+0.189 pp (n=3; CI=-0.382, +0.760)
+  MFT：marginal实际FPR=5.796%,弱召回=83.736%；combo实际FPR=5.091%,弱召回=80.147%；弱AP差=-0.894 pp (n=3; CI=-3.431, +1.644)
+  ISRJ：marginal实际FPR=4.872%,弱召回=65.007%；combo实际FPR=5.175%,弱召回=65.671%；弱AP差=+0.795 pp (n=3; CI=-1.194, +2.784)
+confirmation/split1/CF7p85_IF1 C-B附加Exact：+0.182 pp (n=3; CI=-0.034, +0.398)
+  FMB：marginal实际FPR=6.267%,弱召回=99.634%；combo实际FPR=6.351%,弱召回=99.487%；弱AP差=-0.087 pp (n=3; CI=-0.413, +0.239)
+  AMA：marginal实际FPR=6.099%,弱召回=97.147%；combo实际FPR=5.998%,弱召回=97.372%；弱AP差=+0.171 pp (n=3; CI=-0.167, +0.510)
+  SawFM：marginal实际FPR=4.973%,弱召回=69.789%；combo实际FPR=5.494%,弱召回=72.186%；弱AP差=+0.615 pp (n=3; CI=-0.157, +1.387)
+  SinFM：marginal实际FPR=4.503%,弱召回=89.256%；combo实际FPR=4.788%,弱召回=89.807%；弱AP差=-0.079 pp (n=3; CI=-0.977, +0.819)
+  MFT：marginal实际FPR=5.830%,弱召回=76.557%；combo实际FPR=5.108%,弱召回=73.846%；弱AP差=+0.350 pp (n=3; CI=-1.767, +2.467)
+  ISRJ：marginal实际FPR=4.200%,弱召回=62.284%；combo实际FPR=5.040%,弱召回=64.343%；弱AP差=-0.343 pp (n=3; CI=-2.357, +1.671)
+confirmation/split1/CF16_IF3 C-B附加Exact：-0.190 pp (n=3; CI=-0.855, +0.474)
+  FMB：marginal实际FPR=5.729%,弱召回=97.143%；combo实际FPR=5.645%,弱召回=97.802%；弱AP差=+0.501 pp (n=3; CI=-0.199, +1.200)
+  AMA：marginal实际FPR=6.418%,弱召回=97.222%；combo实际FPR=6.082%,弱召回=97.523%；弱AP差=+0.092 pp (n=3; CI=-0.289, +0.474)
+  SawFM：marginal实际FPR=6.065%,弱召回=75.236%；combo实际FPR=6.015%,弱召回=75.672%；弱AP差=+0.622 pp (n=3; CI=-0.646, +1.891)
+  SinFM：marginal实际FPR=5.158%,弱召回=90.083%；combo实际FPR=5.595%,弱召回=90.496%；弱AP差=+0.178 pp (n=3; CI=+0.060, +0.297)
+  MFT：marginal实际FPR=5.444%,弱召回=83.370%；combo实际FPR=5.628%,弱召回=81.392%；弱AP差=-0.457 pp (n=3; CI=-2.221, +1.307)
+  ISRJ：marginal实际FPR=5.208%,弱召回=66.401%；combo实际FPR=4.990%,弱召回=65.604%；弱AP差=-0.164 pp (n=3; CI=-2.468, +2.140)
+confirmation/split1/CF16_near_IF1 C-B附加Exact：+0.504 pp (n=3; CI=-2.733, +3.741)
+  FMB：marginal实际FPR=5.057%,弱召回=99.121%；combo实际FPR=5.880%,弱召回=99.341%；弱AP差=+0.059 pp (n=3; CI=+0.039, +0.080)
+  AMA：marginal实际FPR=6.149%,弱召回=96.922%；combo实际FPR=5.948%,弱召回=97.447%；弱AP差=+0.310 pp (n=3; CI=+0.015, +0.605)
+  SawFM：marginal实际FPR=5.410%,弱召回=71.314%；combo实际FPR=5.628%,弱召回=72.041%；弱AP差=+0.335 pp (n=3; CI=-1.574, +2.244)
+  SinFM：marginal实际FPR=5.108%,弱召回=89.118%；combo实际FPR=5.780%,弱召回=89.876%；弱AP差=+0.388 pp (n=3; CI=+0.193, +0.583)
+  MFT：marginal实际FPR=6.502%,弱召回=70.110%；combo实际FPR=6.015%,弱召回=70.696%；弱AP差=+0.666 pp (n=3; CI=-1.343, +2.675)
+  ISRJ：marginal实际FPR=4.570%,弱召回=60.757%；combo实际FPR=4.721%,弱召回=64.608%；弱AP差=+0.827 pp (n=3; CI=-0.382, +2.036)
+confirmation/split2/CF7p85_IF3 C-B附加Exact：+1.190 pp (n=2; CI=+0.245, +2.136)
+  FMB：marginal实际FPR=4.486%,弱召回=96.581%；combo实际FPR=3.679%,弱召回=98.184%；弱AP差=+1.252 pp (n=2; CI=-7.714, +10.217)
+  AMA：marginal实际FPR=5.217%,弱召回=98.922%；combo实际FPR=3.654%,弱召回=98.276%；弱AP差=-0.077 pp (n=2; CI=-0.175, +0.021)
+  SawFM：marginal实际FPR=6.704%,弱召回=83.475%；combo实际FPR=6.678%,弱召回=84.428%；弱AP差=+0.455 pp (n=2; CI=-3.915, +4.826)
+  SinFM：marginal实际FPR=4.713%,弱召回=90.393%；combo实际FPR=4.284%,弱召回=91.594%；弱AP差=+0.218 pp (n=2; CI=-1.728, +2.164)
+  MFT：marginal实际FPR=4.032%,弱召回=81.758%；combo实际FPR=3.780%,弱召回=80.879%；弱AP差=-0.114 pp (n=2; CI=-9.451, +9.224)
+  ISRJ：marginal实际FPR=5.948%,弱召回=75.000%；combo实际FPR=5.166%,弱召回=71.179%；弱AP差=+0.092 pp (n=2; CI=-8.066, +8.251)
+confirmation/split2/CF7p85_IF1 C-B附加Exact：+1.215 pp (n=2; CI=-8.869, +11.300)
+  FMB：marginal实际FPR=4.637%,弱召回=99.573%；combo实际FPR=4.587%,弱召回=99.786%；弱AP差=+0.081 pp (n=2; CI=-0.342, +0.504)
+  AMA：marginal实际FPR=4.360%,弱召回=97.737%；combo实际FPR=4.032%,弱召回=98.060%；弱AP差=+0.279 pp (n=2; CI=-0.060, +0.618)
+  SawFM：marginal实际FPR=6.628%,弱召回=77.754%；combo实际FPR=6.502%,弱召回=78.284%；弱AP差=+0.479 pp (n=2; CI=-3.000, +3.957)
+  SinFM：marginal实际FPR=5.292%,弱召回=90.175%；combo实际FPR=4.688%,弱召回=91.921%；弱AP差=+0.762 pp (n=2; CI=-1.760, +3.285)
+  MFT：marginal实际FPR=3.402%,弱召回=67.582%；combo实际FPR=3.528%,弱召回=69.231%；弱AP差=+0.263 pp (n=2; CI=-10.864, +11.389)
+  ISRJ：marginal实际FPR=4.688%,弱召回=68.231%；combo实际FPR=4.990%,弱召回=69.432%；弱AP差=+0.372 pp (n=2; CI=-7.821, +8.565)
+confirmation/split2/CF16_IF3 C-B附加Exact：-0.025 pp (n=2; CI=-2.861, +2.811)
+  FMB：marginal实际FPR=4.183%,弱召回=98.611%；combo实际FPR=4.108%,弱召回=99.145%；弱AP差=+0.220 pp (n=2; CI=-0.700, +1.141)
+  AMA：marginal实际FPR=4.637%,弱召回=98.384%；combo实际FPR=4.309%,弱召回=98.707%；弱AP差=+0.045 pp (n=2; CI=-0.506, +0.595)
+  SawFM：marginal实际FPR=5.771%,弱召回=79.661%；combo实际FPR=6.477%,弱召回=82.945%；弱AP差=+0.909 pp (n=2; CI=-3.865, +5.683)
+  SinFM：marginal实际FPR=3.906%,弱召回=90.939%；combo实际FPR=4.360%,弱召回=90.939%；弱AP差=+0.219 pp (n=2; CI=-5.030, +5.468)
+  MFT：marginal实际FPR=4.662%,弱召回=81.648%；combo实际FPR=3.906%,弱召回=77.582%；弱AP差=-0.795 pp (n=2; CI=-4.670, +3.080)
+  ISRJ：marginal实际FPR=5.418%,弱召回=69.869%；combo实际FPR=5.469%,弱召回=71.179%；弱AP差=+0.864 pp (n=2; CI=-14.200, +15.928)
+confirmation/split2/CF16_near_IF1 C-B附加Exact：+0.967 pp (n=2; CI=-2.499, +4.434)
+  FMB：marginal实际FPR=3.327%,弱召回=99.466%；combo实际FPR=3.100%,弱召回=99.679%；弱AP差=+0.004 pp (n=2; CI=-0.411, +0.419)
+  AMA：marginal实际FPR=7.031%,弱召回=98.060%；combo实际FPR=6.578%,弱召回=98.276%；弱AP差=+0.241 pp (n=2; CI=-2.085, +2.566)
+  SawFM：marginal实际FPR=6.376%,弱召回=76.059%；combo实际FPR=6.351%,弱召回=76.377%；弱AP差=+0.016 pp (n=2; CI=-2.687, +2.719)
+  SinFM：marginal实际FPR=3.755%,弱召回=87.882%；combo实际FPR=4.133%,弱召回=89.629%；弱AP差=+0.538 pp (n=2; CI=-1.900, +2.976)
+  MFT：marginal实际FPR=4.259%,弱召回=69.231%；combo实际FPR=4.410%,弱召回=71.758%；弱AP差=+0.489 pp (n=2; CI=-1.747, +2.726)
+  ISRJ：marginal实际FPR=4.083%,弱召回=61.135%；combo实际FPR=5.116%,弱召回=64.083%；弱AP差=+0.234 pp (n=2; CI=-13.066, +13.534)
+
+附加诊断：近单位权重与训练轨迹
+全部已完成近IF1配对；检查初始化、顺序、弱视图呈现、预算及BCE选轮规则。没有新增精确全1的A/A训练，不能分离微小目标扰动与数值运行差异。
+split1/CF7p85_IF1/2500 最大|权重-1|=0.00022745；BCE选中轮={'natural': 33, 'marginal': 33}；B-A开发Exact=+0.446pp；固定0.5=+0.025pp。
+split1/CF7p85_IF1/2501 最大|权重-1|=0.00022745；BCE选中轮={'natural': 25, 'marginal': 37}；B-A开发Exact=-0.521pp；固定0.5=+0.570pp。
+split1/CF7p85_IF1/2502 最大|权重-1|=0.00022745；BCE选中轮={'natural': 37, 'marginal': 37}；B-A开发Exact=+0.000pp；固定0.5=+0.074pp。
+split1/CF16_near_IF1/2500 最大|权重-1|=0.00035761；BCE选中轮={'natural': 29, 'marginal': 29}；B-A开发Exact=-0.521pp；固定0.5=+0.099pp。
+split1/CF16_near_IF1/2501 最大|权重-1|=0.00035761；BCE选中轮={'natural': 24, 'marginal': 38}；B-A开发Exact=+0.000pp；固定0.5=+0.124pp。
+split1/CF16_near_IF1/2502 最大|权重-1|=0.00035761；BCE选中轮={'natural': 38, 'marginal': 38}；B-A开发Exact=+0.422pp；固定0.5=+0.099pp。
+split2/CF7p85_IF1/2500 最大|权重-1|=0.00022745；BCE选中轮={'natural': 34, 'marginal': 37}；B-A开发Exact=+0.025pp；固定0.5=+0.719pp。
+split2/CF7p85_IF1/2501 最大|权重-1|=0.00022745；BCE选中轮={'natural': 37, 'marginal': 37}；B-A开发Exact=+0.000pp；固定0.5=-0.198pp。
+split2/CF16_near_IF1/2500 最大|权重-1|=0.00035761；BCE选中轮={'natural': 29, 'marginal': 29}；B-A开发Exact=+0.992pp；固定0.5=-0.397pp。
+split2/CF16_near_IF1/2501 最大|权重-1|=0.00035761；BCE选中轮={'natural': 34, 'marginal': 34}；B-A开发Exact=+1.637pp；固定0.5=+0.322pp。
+同一选中轮也可能出现决策差，因此不同选轮不能独自解释全部差异；后续按04G执行精确全1重复、近单位B及共同末轮控制。
+
+附加对照：同一冻结单模型使用相同fusion_fit监督
+reference_affine只用主模型logit，每标签一个尺度和偏置，重用4032个fusion_fit身份、300轮及calibration F1规则；两划分五种子共10项，原190项核心决策不变。
+该对照控制额外监督访问和简单仿射后处理，不控制完整系统计算，也不代表单骨干已经充分优化。
+development/split1 reference_affine：Exact=82.604%，raw BCE=0.092491，ECE=0.008015；所有拟合尺度为正=True。
+  reference_affine-reference Exact：+0.005 [-0.091, +0.101] pp；BCE均差=-0.004467。
+  natural_none-reference_affine Exact：+1.488 [+0.517, +2.459] pp；BCE均差=-0.011254。
+  marginal_none-reference_affine Exact：+2.123 [+1.077, +3.169] pp；BCE均差=-0.014858。
+  combo_none-reference_affine Exact：+2.361 [+1.511, +3.211] pp；BCE均差=-0.016126。
+  combo_global-reference_affine Exact：+2.356 [+1.543, +3.169] pp；BCE均差=-0.016402。
+  combo_segment-reference_affine Exact：+2.619 [+1.521, +3.717] pp；BCE均差=-0.017973。
+  六标签FPR均差pp：FMB:-0.887, AMA:-0.363, SawFM:+0.423, SinFM:+0.171, MFT:-0.050, ISRJ:-1.008
+  六标签弱召回均差pp：FMB:+7.872, AMA:+0.174, SawFM:+5.000, SinFM:+1.934, MFT:+2.443, ISRJ:+2.172
+development/split2 reference_affine：Exact=81.215%，raw BCE=0.096946，ECE=0.008267；所有拟合尺度为正=True。
+  reference_affine-reference Exact：-0.010 [-0.155, +0.136] pp；BCE均差=-0.006238。
+  natural_none-reference_affine Exact：+2.307 [+1.075, +3.538] pp；BCE均差=-0.013583。
+  marginal_none-reference_affine Exact：+2.922 [+1.922, +3.922] pp；BCE均差=-0.016886。
+  combo_none-reference_affine Exact：+3.393 [+1.799, +4.987] pp；BCE均差=-0.018552。
+  combo_global-reference_affine Exact：+3.408 [+1.763, +5.053] pp；BCE均差=-0.018744。
+  combo_segment-reference_affine Exact：+3.656 [+2.243, +5.068] pp；BCE均差=-0.020151。
+  六标签FPR均差pp：FMB:-0.615, AMA:-0.020, SawFM:-1.069, SinFM:-0.786, MFT:-0.282, ISRJ:-2.389
+  六标签弱召回均差pp：FMB:+9.741, AMA:+1.146, SawFM:+0.939, SinFM:+0.324, MFT:+1.179, ISRJ:+0.659
+confirmation/split1 reference_affine：Exact=81.518%，raw BCE=0.096748，ECE=0.007604；所有拟合尺度为正=True。
+  reference_affine-reference Exact：-0.074 [-0.199, +0.051] pp；BCE均差=-0.006039。
+  natural_none-reference_affine Exact：+1.731 [+1.102, +2.361] pp；BCE均差=-0.011983。
+  marginal_none-reference_affine Exact：+2.445 [+1.460, +3.431] pp；BCE均差=-0.015744。
+  combo_none-reference_affine Exact：+2.604 [+1.833, +3.376] pp；BCE均差=-0.016629。
+  combo_global-reference_affine Exact：+2.634 [+1.794, +3.474] pp；BCE均差=-0.016761。
+  combo_segment-reference_affine Exact：+2.693 [+1.705, +3.681] pp；BCE均差=-0.017981。
+  六标签FPR均差pp：FMB:-0.927, AMA:-0.423, SawFM:+0.101, SinFM:+0.181, MFT:+0.171, ISRJ:-0.857
+  六标签弱召回均差pp：FMB:+6.418, AMA:-0.541, SawFM:+5.229, SinFM:+2.479, MFT:+2.066, ISRJ:+3.147
+confirmation/split2 reference_affine：Exact=81.706%，raw BCE=0.092986，ECE=0.008287；所有拟合尺度为正=True。
+  reference_affine-reference Exact：-0.040 [-0.162, +0.083] pp；BCE均差=-0.004316。
+  natural_none-reference_affine Exact：+2.540 [+1.417, +3.662] pp；BCE均差=-0.014646。
+  marginal_none-reference_affine Exact：+2.837 [+1.979, +3.696] pp；BCE均差=-0.018054。
+  combo_none-reference_affine Exact：+3.279 [+1.702, +4.856] pp；BCE均差=-0.019869。
+  combo_global-reference_affine Exact：+3.294 [+1.755, +4.832] pp；BCE均差=-0.019961。
+  combo_segment-reference_affine Exact：+3.502 [+2.124, +4.880] pp；BCE均差=-0.021322。
+  六标签FPR均差pp：FMB:-0.796, AMA:-0.020, SawFM:-1.431, SinFM:-0.544, MFT:-0.484, ISRJ:-1.935
+  六标签弱召回均差pp：FMB:+10.641, AMA:+1.379, SawFM:-0.297, SinFM:+0.917, MFT:+0.967, ISRJ:+0.000
+
+六、监督、训练与计算成本
+主整合每个历史骨干8000 fit、40轮、10000次更新、累计320000身份呈现；两个骨干复用相同fit身份，模型训练计算相加。
+小头每阶段24轮、6000次更新、192000呈现；两阶段目标分别为SawFM/MFT及ISRJ。PCA仅在fit拟合。
+融合额外使用4032个有标签fusion_fit身份，每标签300次全批更新；阈值使用1008 calibration。early1008用于选择。
+M训练覆盖SawFM/MFT/ISRJ的10/15 dB视图。矩阵每个A/B/C三臂的初始化、顺序和增强呈现逐项匹配。
+当前整合增量与同样使用fusion_fit的对照比较，并新增单模型同fusion_fit仿射控制；仍未完成允许充分更新骨干的同监督强单模型与同总计算比较。
+纳入完整三臂对照的新增骨干60个，对应更新600000，累计身份呈现19200000。
+所有已结束训练骨干60个，尚无完成收据的训练目录0个；按完成收据和完整epoch历史观察到的训练更新下界=600000。目录状态不代替进程存活检查。
+新增骨干中best BCE出现在36—40轮的有31/60；40轮是共同预算，不构成所有条件已充分收敛的证明。
+额外监督控制：10个单骨干仿射决策、18000次小模型更新，未新增骨干；每决策12个有效参数、24个分配参数，不新增相对主整合的监督身份并集。
+split1四个设计配额fit身份并集=14379，不能将四次8000或种子重复简单计作独立身份。
+split2四个设计配额fit身份并集=14379，不能将四次8000或种子重复简单计作独立身份。
+计时设备：NVIDIA GeForce RTX 5080；GPU resident normalized I/Q forward only; warmup20,100 CUDA event measurements; no concurrent campaign workloads
+reference batch=1：神经网络参数1013191，另有仿射系数0，缓冲元素7662（含仿射/阈值/PCA），中位批延迟4.384ms，P95=4.611ms，PyTorch峰值allocated=20.77MiB。
+reference batch=64：神经网络参数1013191，另有仿射系数0，缓冲元素7662（含仿射/阈值/PCA），中位批延迟18.471ms，P95=19.027ms，PyTorch峰值allocated=420.29MiB。
+reference_affine batch=1：神经网络参数1013191，另有仿射系数12，缓冲元素7674（含仿射/阈值/PCA），中位批延迟3.117ms，P95=3.336ms，PyTorch峰值allocated=20.77MiB。
+reference_affine batch=64：神经网络参数1013191，另有仿射系数12，缓冲元素7674（含仿射/阈值/PCA），中位批延迟18.425ms，P95=19.021ms，PyTorch峰值allocated=418.04MiB。
+natural_none batch=1：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟14.461ms，P95=15.049ms，PyTorch峰值allocated=24.72MiB。
+natural_none batch=64：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟37.097ms，P95=37.749ms，PyTorch峰值allocated=421.99MiB。
+marginal_none batch=1：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟8.638ms，P95=8.877ms，PyTorch峰值allocated=24.72MiB。
+marginal_none batch=64：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟37.227ms，P95=37.907ms，PyTorch峰值allocated=421.99MiB。
+combo_none batch=1：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟6.304ms，P95=6.598ms，PyTorch峰值allocated=24.72MiB。
+combo_none batch=64：神经网络参数2026382，另有仿射系数24，缓冲元素15342（含仿射/阈值/PCA），中位批延迟37.150ms，P95=37.861ms，PyTorch峰值allocated=421.99MiB。
+combo_global batch=1：神经网络参数2034737，另有仿射系数24，缓冲元素149486（含仿射/阈值/PCA），中位批延迟16.340ms，P95=17.768ms，PyTorch峰值allocated=25.28MiB。
+combo_global batch=64：神经网络参数2034737，另有仿射系数24，缓冲元素149486（含仿射/阈值/PCA），中位批延迟38.157ms，P95=38.953ms，PyTorch峰值allocated=423.60MiB。
+combo_segment batch=1：神经网络参数2034737，另有仿射系数24，缓冲元素954350（含仿射/阈值/PCA），中位批延迟7.055ms，P95=7.516ms，PyTorch峰值allocated=28.35MiB。
+combo_segment batch=64：神经网络参数2034737，另有仿射系数24，缓冲元素954350（含仿射/阈值/PCA），中位批延迟38.027ms，P95=39.045ms，PyTorch峰值allocated=426.67MiB。
+combo_segment_guarded batch=1：神经网络参数2034737，另有仿射系数24，缓冲元素954350（含仿射/阈值/PCA），中位批延迟7.004ms，P95=7.393ms，PyTorch峰值allocated=28.35MiB。
+combo_segment_guarded batch=64：神经网络参数2034737，另有仿射系数24，缓冲元素954350（含仿射/阈值/PCA），中位批延迟38.050ms，P95=38.746ms，PyTorch峰值allocated=426.67MiB。
+
+七、复核与交付状态
+数值复算覆盖全部评价身份；普通前向和迁移验证每划分使用64个覆盖63组合的身份，全部冻结决策做GPU复放、7个代表做CPU复放。交接ZIP附这两套角色的复放输入和预期logit，完整训练池外置。
+实际保存的分量种子审计：33个已知原始池、逐池合计680448行、2516832个分量；全部与记录的生成规则一致。逐池行数不等于唯一身份数，此检查不构成波形等价验证。旧九类原始池只参与种子隔离审计，不纳入本轮六标签模型训练或评分。
+新确认实际种子隔离：passed=True；分别对33个已登记池及另一套新确认检查sample/noise/同物理类型component交集。
+development/core：passed=True，证据=development_core_verification.json
+development/physical：passed=True，证据=development_physical_verification.json
+development/portable：passed=True，证据=development_portable_verification.json
+development/supervision：passed=True，证据=development_supervision_verification.json
+confirmation/core：passed=True，证据=confirmation_core_verification.json
+confirmation/physical：passed=True，证据=confirmation_physical_verification.json
+confirmation/portable：passed=True，证据=confirmation_portable_verification.json
+confirmation/supervision：passed=True，证据=confirmation_supervision_verification.json
+最终冻结清单、交付manifest及远端发布收据分别说明：哪些候选固定、哪些文件已交付、哪些文件已上传。
+MAT/PTH/NPZ保存在外部目录，Git内保存源码、协议、轻量收据和分析，不把缺失的大文件包装成仓库自带数据。
+
+八、长期路线与双方分工
+本侧负责统一数据、宽骨干、匹配训练、确认和交付；师弟优先确认读出实现、审阅物理失败样本及解释局部统计，分工为待双方汇总的建议。
+下一步顺序：先补足矩阵匹配种子并采用最小改动CF配额，再轮换头尾标签，随后做同监督/同计算强单模型控制，最后扩展功率长尾。
+阶段Goal均已保存，详见GOAL_PROMPT.txt、01—07以及03A/03B/03C/04A/04B/04C/04D/04E/05A。具体晋级决定以最终人工阅读分析为准，不由分数排名自动选方法。

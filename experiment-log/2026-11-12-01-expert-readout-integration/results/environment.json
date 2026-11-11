@@ -1,0 +1,13 @@
+{
+  "python": "3.10.20 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:13:20) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\anaconda3\\envs\\PY10\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "numpy": "1.23.5",
+  "scipy": "1.10.1",
+  "sklearn": "1.2.2",
+  "h5py": "3.10.0",
+  "matplotlib": "3.7.5"
+}

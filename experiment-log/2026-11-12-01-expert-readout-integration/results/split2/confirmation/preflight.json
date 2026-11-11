@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "audit": [
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split1\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\matrix\\split2\\data\\selection_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\split1\\data\\development_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "D:\\longtail_experiments\\20261112_integration\\split2\\data\\development_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "component_overlap": 0
+    }
+  ],
+  "actual_component_seeds_verified": true,
+  "source_sha256": "d7cf631dbcc51010d365037cf1096a9302d2d24bf4a7e69deed62c95605d54e6",
+  "time": "2026-11-11T22:33:13.889557+00:00"
+}

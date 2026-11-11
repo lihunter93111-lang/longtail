@@ -1,0 +1,39 @@
+{
+  "time": "2026-11-12T06:27:42.900473+08:00",
+  "training_closed": true,
+  "completed_models": 60,
+  "split_seed_counts": {
+    "split1": 3,
+    "split2": 2
+  },
+  "workers_exit_codes": [
+    0,
+    0
+  ],
+  "optional_batch_models": 12,
+  "optional_batch_started": false,
+  "recent_triad_p80_seconds": 2042.6236408710479,
+  "two_parallel_workers_waves": 2,
+  "reserve_factor": 1.1,
+  "estimated_optional_finish": "2026-11-12T07:42:36.672483+08:00",
+  "training_cutoff": "2026-11-12T07:30:00+08:00",
+  "reason": "Whole four-cell batch plus reserve does not fit the predeclared training cutoff; no selective condition extension.",
+  "outcome_sha256": {
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\000_split2_CF7p85_IF3_2500.outcome.json": "10fcee555339d26f82150416e16bca0d3d984bf20c34ef8914027f9e91b8b152",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\001_split2_CF7p85_IF1_2500.outcome.json": "03388d401c4f14e69cbcea3949735649a26b9d8d16b5a1110e0c909af845e705",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\002_split2_CF16_IF3_2500.outcome.json": "670977848f4217764c640f60015f5cb51cdb1ab8ababc7370d3750c0effb320e",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\003_split2_CF16_near_IF1_2500.outcome.json": "b32576700b30d7f1a5c8ea87f48f7e4254b1f4560dba06c8ae7ccaa49c331f5c",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\004_split1_CF7p85_IF3_2501.outcome.json": "0b029f2083132f84e50bd5d57d1485b3b4fd7cca5d1ade94ecb3287d4ddaf1b4",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\005_split1_CF7p85_IF1_2501.outcome.json": "6d47a82f2fb25f531df53a55eccb14b45085edaf902766937e0a59fe64d5fb1a",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\006_split1_CF16_IF3_2501.outcome.json": "3100091e8618a086b71a766d24325ce6e115d4bb7498a3e00102ff1346bef367",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\007_split1_CF16_near_IF1_2501.outcome.json": "3518011e3f55a560b8105d7944ee081819fb6ee2884ac3250fecda2b69be7c20",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\008_split2_CF7p85_IF3_2501.outcome.json": "126830982d0114fe6e81a7282113ed67eb4a3b728f75728a0ec30a7d151f29cb",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\009_split2_CF7p85_IF1_2501.outcome.json": "3fccaaad9e3aee912c2c25acc8b954b8deca0f746201a51f7787a8331c51a6ce",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\010_split2_CF16_IF3_2501.outcome.json": "ee05bba17416492038ea41a04b17a48bd27c020275d392415a738959bf40cc5b",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\011_split2_CF16_near_IF1_2501.outcome.json": "4201cb871fe2f49caac022caca80388f48516c4557e2f2288a00b70620ee52b9",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\012_split1_CF7p85_IF3_2502.outcome.json": "5da2f180ef0a02264e2d768d85666bdffc18da5913b3e6a86515a2440efa1bac",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\013_split1_CF7p85_IF1_2502.outcome.json": "eb0b23a94ff54eaeed2f7fad4ea1d6ca1e508389868630cdf5e6cdb088fbd8b9",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\014_split1_CF16_IF3_2502.outcome.json": "f7de7dc1d7754cc5e14ab0b4c2466aeb84c7a4fd912099dd8fe1dbbd8343c2c8",
+    "D:\\longtail_experiments\\20261112_integration\\matrix\\queue\\015_split1_CF16_near_IF1_2502.outcome.json": "50b0ec0f20b843ad909f16aad433b2757d81ff3b83b268acfca1087e2f60a2b6"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "decisions": 10,
+  "distinct_combinations": 63,
+  "records": [
+    {
+      "split": "split1",
+      "seed": 2200,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "seed": 2201,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "seed": 2202,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "seed": 2203,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "seed": 2204,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "seed": 2200,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "seed": 2201,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "seed": 2202,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "seed": 2203,
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "seed": 2204,
+      "maximum_error": 0.0
+    }
+  ],
+  "time": "2026-11-11T22:37:36.078607+00:00"
+}

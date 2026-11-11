@@ -1,0 +1,124 @@
+{
+  "kind": "factorial",
+  "seed": 2201,
+  "expert": "combo",
+  "readout": "segment",
+  "weights": [
+    [
+      0.17853917181491852,
+      1.4083904027938843,
+      0.0
+    ],
+    [
+      0.6509398221969604,
+      1.0418897867202759,
+      0.0
+    ],
+    [
+      0.5517481565475464,
+      0.534554660320282,
+      0.0
+    ],
+    [
+      0.578913152217865,
+      0.6389011144638062,
+      0.0
+    ],
+    [
+      0.5277369618415833,
+      0.4874010980129242,
+      0.0
+    ],
+    [
+      0.31770339608192444,
+      0.4185650050640106,
+      1.3408195972442627
+    ]
+  ],
+  "biases": [
+    0.19088615477085114,
+    3.3663206100463867,
+    0.21477924287319183,
+    0.7371256351470947,
+    -0.044591084122657776,
+    0.48953670263290405
+  ],
+  "models": {
+    "reference": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\best_BCE.pth",
+      "sha256": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67"
+    },
+    "combo": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth",
+      "sha256": "359d8f3dcffd50e3225fd279784bcbb977dee8ebd68000841984165daa0ffbc3"
+    },
+    "segment": {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\segment_coverage_2201\\model.pth",
+      "sha256": "ef7e9c88483a7ed57e319dcc3bb59b7e2f6391694290f7e4c09c9f0814550499"
+    }
+  },
+  "protocol_sha256": "05a9dc17d64133ea95c17ee3c324c0e2a025011a7a1c413470a53669a46d9d04",
+  "thresholds": [
+    0.4699999999999999,
+    0.5549999999999999,
+    0.38499999999999995,
+    0.4599999999999999,
+    0.605,
+    0.42499999999999993
+  ],
+  "guard": {
+    "fallback": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "reference": "combo_none",
+    "calibration": [
+      {
+        "label": "FMB",
+        "reference_fpr": 0.008064516129032258,
+        "reference_weak_recall": 0.9469026548672567,
+        "weak_n": 113,
+        "feasible_thresholds": 85
+      },
+      {
+        "label": "AMA",
+        "reference_fpr": 0.0,
+        "reference_weak_recall": 0.9827586206896551,
+        "weak_n": 116,
+        "feasible_thresholds": 84
+      },
+      {
+        "label": "SawFM",
+        "reference_fpr": 0.046370967741935484,
+        "reference_weak_recall": 0.8384615384615385,
+        "weak_n": 130,
+        "feasible_thresholds": 4
+      },
+      {
+        "label": "SinFM",
+        "reference_fpr": 0.018145161290322582,
+        "reference_weak_recall": 0.8709677419354839,
+        "weak_n": 124,
+        "feasible_thresholds": 21
+      },
+      {
+        "label": "MFT",
+        "reference_fpr": 0.012096774193548387,
+        "reference_weak_recall": 0.8037383177570093,
+        "weak_n": 107,
+        "feasible_thresholds": 10
+      },
+      {
+        "label": "ISRJ",
+        "reference_fpr": 0.05040322580645161,
+        "reference_weak_recall": 0.8407079646017699,
+        "weak_n": 113,
+        "feasible_thresholds": 22
+      }
+    ]
+  }
+}
