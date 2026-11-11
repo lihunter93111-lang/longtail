@@ -1,0 +1,48 @@
+{
+  "methods": {
+    "reference_affine": [
+      null,
+      "affine",
+      "reference_only"
+    ],
+    "ordinary_mean": [
+      "ordinary_expert",
+      "mean",
+      "two_model"
+    ],
+    "combo_mean": [
+      "combo_expert",
+      "mean",
+      "two_model"
+    ],
+    "ordinary_affine": [
+      "ordinary_expert",
+      "affine",
+      "two_model"
+    ],
+    "combo_affine": [
+      "combo_expert",
+      "affine",
+      "two_model"
+    ],
+    "segment_affine": [
+      "segment",
+      "affine",
+      "specialist_only"
+    ],
+    "coverage_affine": [
+      "segment_coverage",
+      "affine",
+      "specialist_only"
+    ]
+  },
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "source_sha256": {
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fit_fusions.py": "a1d65f3642ac37d3c29d04ac5da6258ad7bbd8cbd7f83cfb8033062d0c9a5246",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fusion_runtime.py": "69d8d10831cf30a7dfbf01fca80c6aae63b6ec9d6ce02a3ca4e7466e6cc465bf",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05B_FUSION_CONTROL_GOAL.txt": "0168cec771f155ae1d994e934c6766c05fa2ec71fd50c819b9a7b1d99b35802c"
+  },
+  "fit_identities": 4032,
+  "calibration_identities": 1008,
+  "time": "2026-11-09T19:40:08.692505+00:00"
+}

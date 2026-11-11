@@ -8,6 +8,8 @@
 
 | 日期 / 序号 | 实验方案 | 状态 | 结果与下一步 |
 |---|---|---|---|
+| 2026-11-11 / 方案 | [双方分工与Word](../docs/research/collaboration/2026-11-11/README.md) | 计划已制定 | 标签边际匹配、四条件矩阵、纠错与物理诊断，后续训练待执行。 |
+| 2026-11-10 / 01 | [宽骨干专家与局部读出](2026-11-10-01-readout-integration/README.md) | 两划分新确认及物理诊断完成 | [40次骨干训练、180次读出训练、18组确认及全部局限](2026-11-10-01-readout-integration/RESULTS.txt)。 |
 | 2026-11-09 / 01 | [宽骨干续做与长尾探索 Goal](2026-11-09-01-wide-followup/GOAL_PROMPT.txt) | 13:50停止，阶段归档完成 | [已完成头诊断、预算、采样与数据轴试验；组合正则分支中断，新的确认尚未完成](2026-11-09-01-wide-followup/ARCHIVE_STATUS.md)。 |
 | 2026-11-08 / 01 | [分阶段整夜实验 Goal](2026-11-08-01-overnight/GOAL_PROMPT.txt) | 60次完整训练及独立确认完成，确认与交付超时 | [确认raw BCE 0.142014→0.098998，exact 74.82%→82.06%，全部保护规则通过；含容量×分布、独立划分复验与七阶段长期Goal](2026-11-08-01-overnight/RESULTS.txt)。 |
 | 2026-11-06 / 05 | [余弦复验与弱分量覆盖 Goal](2026-11-06-05-weak-component-goal/GOAL_PROMPT.txt) | 三组×五种子×40轮及独立确认完成 | [W raw BCE=0.138199，较B下降8.71%，通过预设门槛；保留ISRJ召回与FMB/SawFM误报代价](2026-11-06-05-weak-component-goal/RESULTS.txt)。 |

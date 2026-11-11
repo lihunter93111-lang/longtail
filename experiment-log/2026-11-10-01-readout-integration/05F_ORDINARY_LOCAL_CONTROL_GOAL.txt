@@ -1,0 +1,13 @@
+Goal
+补齐普通专家/组合专家与局部读出的交叉控制，量化两种改动的独立增量。
+
+依据
+两划分combo_segment_local相对combo_affine约+0.38pp/+0.35pp。ISRJ读出消融保留了大部分增量。当前需要检验同一局部读出在普通专家集成中的作用。
+
+执行
+将05D的第二专家由combo_expert替换为ordinary_expert，其余训练身份、主模型、局部头、fusion_fit、校准、三得分仿射形式、初始化及300步预算相同。
+比较ordinary_residual_zero、ordinary_global_local、ordinary_segment_local。零残差控制应重放ordinary_affine。两划分五种子全部执行。
+原05D源文件完整归档后只扩展编排参数，模型运行时和默认combo行为保留。每个新协议记录实际专家和源码哈希。
+
+交付
+比较ordinary_affine到ordinary_segment_local、combo_affine到combo_segment_local的增量，以及两种联合方法的差值。逐标签、BCE与成本同时报告。最终确认前冻结需要保留的交叉控制。

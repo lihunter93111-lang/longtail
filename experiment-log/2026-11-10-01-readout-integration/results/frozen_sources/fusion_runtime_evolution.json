@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "unchanged_arithmetic_class": true,
+  "v1_sha256": "69d8d10831cf30a7dfbf01fca80c6aae63b6ec9d6ce02a3ca4e7466e6cc465bf",
+  "v2_sha256": "a92930e244239666018f77fa5d57baf227249c50868a0cf66251b31c93f3c6a8",
+  "legacy_replays": [
+    {
+      "name": "reference_affine",
+      "rows": 128,
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "0cee9eb39b1fd1246bc11e5ccd7ee257da4e8c21b82912331da5dc852fde247f"
+    },
+    {
+      "name": "coverage_affine",
+      "rows": 128,
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "2e7938d0bf6feb56139f5a01a868e73b152211b76f85be4bb74927f040593724"
+    },
+    {
+      "name": "combo_affine",
+      "rows": 128,
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "614c2bd32c5428f3907b524cd568ebe75b037b774cae24764b4884422e5eb7b2"
+    },
+    {
+      "name": "weighted_affine",
+      "rows": 128,
+      "maximum_error": 0.0,
+      "checkpoint_sha256": "c7553bcfadb92c4e6f4533e83161be53f11bfb8adb2f957f5522ed6baf3446e1"
+    }
+  ],
+  "time": "2026-11-09T22:06:16.566423+00:00"
+}

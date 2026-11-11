@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "methods": [
+    "combo_residual_zero",
+    "combo_global_local",
+    "combo_segment_local"
+  ],
+  "time": "2026-11-09T18:48:28.176837+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "reference_affine",
+  "seed": 2201,
+  "guards": [
+    {
+      "label": "FMB",
+      "fallback": false,
+      "allowed_grid_points": 12
+    },
+    {
+      "label": "AMA",
+      "fallback": false,
+      "allowed_grid_points": 161
+    },
+    {
+      "label": "SawFM",
+      "fallback": false,
+      "allowed_grid_points": 8
+    },
+    {
+      "label": "SinFM",
+      "fallback": false,
+      "allowed_grid_points": 150
+    },
+    {
+      "label": "MFT",
+      "fallback": false,
+      "allowed_grid_points": 5
+    },
+    {
+      "label": "ISRJ",
+      "fallback": false,
+      "allowed_grid_points": 5
+    }
+  ],
+  "fallback_columns": [],
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "protocol_sha256": "4689fa1cd3aa2e7c35c3c0522ec95cd4f03718b39a426c7a7926afd311e81f75",
+  "time": "2026-11-09T19:40:52.972200+00:00",
+  "sha256": "b25eae7adc20794aaabd84b7cf2540bc167a239437174e52716726445d6f3029",
+  "parameters": 1013191,
+  "shared_backbone": false
+}

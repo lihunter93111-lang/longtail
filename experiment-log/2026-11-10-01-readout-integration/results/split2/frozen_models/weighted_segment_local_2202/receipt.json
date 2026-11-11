@@ -1,0 +1,10 @@
+{
+  "name": "weighted_segment_local",
+  "seed": 2202,
+  "protocol_sha256": "de16e4ac5ac2373e33e096d5788ce05ba84646566aa4eaa6c3eb562a543f95fa",
+  "time": "2026-11-09T21:52:00.356701+00:00",
+  "sha256": "cc21bd2d595334c914b3a126a7f5c727976c140bdebd0036c0ad77e3920a6840",
+  "fallback": [],
+  "parameters": 2034737,
+  "replay_max_error": 5.551115123125783e-17
+}

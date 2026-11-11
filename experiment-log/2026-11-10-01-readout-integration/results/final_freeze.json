@@ -1,0 +1,4041 @@
+{
+  "all_models_and_calibrations_frozen": true,
+  "selection": {
+    "candidates": [
+      {
+        "name": "baseline",
+        "parent": "readouts",
+        "loader": "readout"
+      },
+      {
+        "name": "reference_affine",
+        "parent": "fusions",
+        "loader": "fusion"
+      },
+      {
+        "name": "ordinary_affine",
+        "parent": "fusions",
+        "loader": "fusion"
+      },
+      {
+        "name": "bootstrap_affine",
+        "parent": "fusions_controls",
+        "loader": "fusion"
+      },
+      {
+        "name": "combo_affine",
+        "parent": "fusions",
+        "loader": "fusion"
+      },
+      {
+        "name": "weighted_affine",
+        "parent": "fusions_controls",
+        "loader": "fusion"
+      },
+      {
+        "name": "coverage_affine",
+        "parent": "fusions",
+        "loader": "fusion"
+      },
+      {
+        "name": "global_pca256_affine",
+        "parent": "fusions_adaptive",
+        "loader": "fusion"
+      },
+      {
+        "name": "segment_pca256_affine",
+        "parent": "fusions_adaptive",
+        "loader": "fusion"
+      },
+      {
+        "name": "segment_head64_affine",
+        "parent": "fusions_adaptive",
+        "loader": "fusion"
+      },
+      {
+        "name": "ordinary_segment_local",
+        "parent": "combined_ordinary",
+        "loader": "combined"
+      },
+      {
+        "name": "combo_global_local",
+        "parent": "combined",
+        "loader": "combined"
+      },
+      {
+        "name": "combo_segment_local",
+        "parent": "combined",
+        "loader": "combined"
+      },
+      {
+        "name": "weighted_global_local",
+        "parent": "combined_weighted",
+        "loader": "combined"
+      },
+      {
+        "name": "weighted_segment_local",
+        "parent": "combined_weighted",
+        "loader": "combined"
+      },
+      {
+        "name": "weighted_segment_isrj",
+        "parent": "combined_weighted_ablations",
+        "loader": "combined"
+      },
+      {
+        "name": "weighted_segment_guarded",
+        "parent": "readouts",
+        "loader": "combined"
+      },
+      {
+        "name": "weighted_isrj_guarded",
+        "parent": "readouts",
+        "loader": "combined"
+      }
+    ],
+    "comparisons": [
+      [
+        "reference_affine",
+        "baseline"
+      ],
+      [
+        "ordinary_affine",
+        "baseline"
+      ],
+      [
+        "bootstrap_affine",
+        "baseline"
+      ],
+      [
+        "combo_affine",
+        "baseline"
+      ],
+      [
+        "weighted_affine",
+        "baseline"
+      ],
+      [
+        "coverage_affine",
+        "baseline"
+      ],
+      [
+        "global_pca256_affine",
+        "baseline"
+      ],
+      [
+        "segment_pca256_affine",
+        "baseline"
+      ],
+      [
+        "segment_head64_affine",
+        "baseline"
+      ],
+      [
+        "ordinary_segment_local",
+        "baseline"
+      ],
+      [
+        "combo_global_local",
+        "baseline"
+      ],
+      [
+        "combo_segment_local",
+        "baseline"
+      ],
+      [
+        "weighted_global_local",
+        "baseline"
+      ],
+      [
+        "weighted_segment_local",
+        "baseline"
+      ],
+      [
+        "weighted_segment_isrj",
+        "baseline"
+      ],
+      [
+        "weighted_segment_guarded",
+        "baseline"
+      ],
+      [
+        "weighted_isrj_guarded",
+        "baseline"
+      ],
+      [
+        "weighted_affine",
+        "ordinary_affine"
+      ],
+      [
+        "combo_affine",
+        "ordinary_affine"
+      ],
+      [
+        "bootstrap_affine",
+        "ordinary_affine"
+      ],
+      [
+        "weighted_affine",
+        "combo_affine"
+      ],
+      [
+        "weighted_affine",
+        "bootstrap_affine"
+      ],
+      [
+        "ordinary_segment_local",
+        "ordinary_affine"
+      ],
+      [
+        "combo_segment_local",
+        "combo_affine"
+      ],
+      [
+        "combo_segment_local",
+        "combo_global_local"
+      ],
+      [
+        "weighted_segment_local",
+        "weighted_affine"
+      ],
+      [
+        "weighted_segment_local",
+        "weighted_global_local"
+      ],
+      [
+        "weighted_segment_local",
+        "ordinary_segment_local"
+      ],
+      [
+        "weighted_segment_guarded",
+        "weighted_affine"
+      ],
+      [
+        "weighted_segment_guarded",
+        "weighted_segment_local"
+      ],
+      [
+        "weighted_segment_guarded",
+        "ordinary_affine"
+      ],
+      [
+        "weighted_isrj_guarded",
+        "weighted_affine"
+      ],
+      [
+        "weighted_isrj_guarded",
+        "weighted_segment_guarded"
+      ],
+      [
+        "weighted_segment_isrj",
+        "weighted_segment_local"
+      ],
+      [
+        "segment_pca256_affine",
+        "global_pca256_affine"
+      ],
+      [
+        "segment_pca256_affine",
+        "coverage_affine"
+      ],
+      [
+        "segment_pca256_affine",
+        "segment_head64_affine"
+      ],
+      [
+        "segment_head64_affine",
+        "coverage_affine"
+      ],
+      [
+        "coverage_affine",
+        "reference_affine"
+      ],
+      [
+        "segment_pca256_affine",
+        "reference_affine"
+      ]
+    ],
+    "physical_methods": [
+      "baseline",
+      "reference_affine",
+      "ordinary_affine",
+      "weighted_affine",
+      "weighted_global_local",
+      "weighted_segment_local",
+      "weighted_segment_guarded",
+      "weighted_isrj_guarded",
+      "segment_pca256_affine"
+    ],
+    "physical_comparisons": [
+      [
+        "weighted_affine",
+        "ordinary_affine"
+      ],
+      [
+        "weighted_affine",
+        "baseline"
+      ],
+      [
+        "weighted_segment_local",
+        "weighted_affine"
+      ],
+      [
+        "weighted_segment_guarded",
+        "weighted_affine"
+      ],
+      [
+        "weighted_segment_guarded",
+        "weighted_segment_local"
+      ],
+      [
+        "weighted_isrj_guarded",
+        "weighted_affine"
+      ],
+      [
+        "weighted_segment_local",
+        "weighted_global_local"
+      ],
+      [
+        "segment_pca256_affine",
+        "reference_affine"
+      ],
+      [
+        "weighted_segment_guarded",
+        "ordinary_affine"
+      ]
+    ],
+    "primary_model": "weighted_segment_guarded",
+    "primary_reference": "ordinary_affine",
+    "incremental_reference": "weighted_affine",
+    "supporting_core_model": "weighted_affine",
+    "performance_tradeoff_model": "weighted_segment_local",
+    "role": "selected from development before generating new confirmation",
+    "rationale": [
+      "组合加权专家相对普通双模型融合在两划分各约+1pp，10个配对种子正向且均值保护通过。",
+      "局部读出提供小幅额外排序和Exact增量，部分种子区间跨零，保留为组件验证。",
+      "原联合读出在第二划分相对weighted_affine的ISRJ弱召回下降约1.48pp，严格参考保护版本降低该代价，以weighted_segment_guarded作为主要联合确认对象。",
+      "严格保护的额外Exact增量约0.109pp，组件贡献按实际确认区间与代价报告。",
+      "PCA256和MLP64单骨干读出作为容量、局部统计与成本对照，维数扩展的额外增量较小。"
+    ],
+    "extra_supervision": {
+      "fusion_fit_identities_per_split": 4032,
+      "distribution": "63 combinations,64 identities each",
+      "shared_by_all_affine_comparators": true
+    },
+    "statistics": "paired five-seed t95 and combination-stratified identity bootstrap are separate conditional summaries; component and mechanism comparisons are exploratory",
+    "planned_time_limit": "2026-11-10T08:00:00+08:00",
+    "time": "2026-11-09T22:28:22.507079+00:00"
+  },
+  "models": {
+    "split1/baseline_2200": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2200\\model.pth",
+      "sha256": "62b3b22e952c7238e7edc769c184a858ad85261638bbd70f1460580b50b446a6",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2200\\calibration.json",
+      "calibration_sha256": "e2bea265e498abd22594583afec936698eb48f1a4425a5426ea21ae9cb261273",
+      "thresholds": [
+        0.71,
+        0.12,
+        0.4649999999999999,
+        0.22499999999999998,
+        0.59,
+        0.7
+      ],
+      "parameters": 1013191
+    },
+    "split1/baseline_2201": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2201\\model.pth",
+      "sha256": "879c0a60c23bef578359ad783198525ca625e09d18f99f101fb554d14c4caed6",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2201\\calibration.json",
+      "calibration_sha256": "33e83fabefab5855ad444e88a66f74e408c84b15bb0e4fc742843418e75cfe72",
+      "thresholds": [
+        0.5349999999999999,
+        0.185,
+        0.6449999999999999,
+        0.26499999999999996,
+        0.6399999999999999,
+        0.5399999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split1/baseline_2202": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2202\\model.pth",
+      "sha256": "1d6264d9a4264cb6427f6d7196995c747bc854e400bdf6f17e697f66eaa09f96",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2202\\calibration.json",
+      "calibration_sha256": "4c6faf7b7fa19147695bd254e5721257967cb95c1892e6e58a6d658b6fb79455",
+      "thresholds": [
+        0.4749999999999999,
+        0.15999999999999998,
+        0.4749999999999999,
+        0.25999999999999995,
+        0.6399999999999999,
+        0.37999999999999995
+      ],
+      "parameters": 1013191
+    },
+    "split1/baseline_2203": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2203\\model.pth",
+      "sha256": "2c6413e0fd17d51f965cf2bb29a46c5f704695cc37220aa1c8f30a7dfbceca0c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2203\\calibration.json",
+      "calibration_sha256": "4fe2030c7ada8e16ac8ae7b6d34acdd088fefec0e68eaf665f3aae07e30f8c90",
+      "thresholds": [
+        0.42999999999999994,
+        0.27499999999999997,
+        0.565,
+        0.245,
+        0.29,
+        0.37499999999999994
+      ],
+      "parameters": 1013191
+    },
+    "split1/baseline_2204": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2204\\model.pth",
+      "sha256": "0455ec66b59d8a8f298257b05620e5f256257ccb34042a5264ffaf45eafc9464",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2204\\calibration.json",
+      "calibration_sha256": "7b7c9888f5c79f9e384206938d7fd72df94cd2f668e7e7a6c4f2328cbff8d1de",
+      "thresholds": [
+        0.7,
+        0.07,
+        0.4749999999999999,
+        0.32999999999999996,
+        0.5199999999999999,
+        0.38499999999999995
+      ],
+      "parameters": 1013191
+    },
+    "split1/reference_affine_2200": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2200\\model.pth",
+      "sha256": "0cee9eb39b1fd1246bc11e5ccd7ee257da4e8c21b82912331da5dc852fde247f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2200\\calibration.json",
+      "calibration_sha256": "a41b61cf9b029e70dd5e3c4b93b3a9417fc42778182d2b79afb15bcb83eb6f75",
+      "thresholds": [
+        0.635,
+        0.4149999999999999,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5299999999999999,
+        0.6449999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split1/reference_affine_2201": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2201\\model.pth",
+      "sha256": "933e59b819dd38e2377a4ff58306a3e756ccc533fc14f05eda1c855d5cdf8e5e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2201\\calibration.json",
+      "calibration_sha256": "bf1d4e40e8d0fc02ed9fd58e97a53ef6197269e1140b83553da2db65b0e10b15",
+      "thresholds": [
+        0.4499999999999999,
+        0.42999999999999994,
+        0.59,
+        0.5399999999999999,
+        0.5299999999999999,
+        0.5449999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split1/reference_affine_2202": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2202\\model.pth",
+      "sha256": "ec008b47dfbe69a2a128d719ef1cbe4f298a3deca137d6ba826f99eb5e334aa2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2202\\calibration.json",
+      "calibration_sha256": "0fc675450100174dab2987182e0c2b0a16a8fb57054f08762464c1251eabb764",
+      "thresholds": [
+        0.42999999999999994,
+        0.24999999999999994,
+        0.565,
+        0.4799999999999999,
+        0.5399999999999999,
+        0.4549999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split1/reference_affine_2203": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2203\\model.pth",
+      "sha256": "30c821161907193b6f81b5ceca45c174c94d88d167a773b32254d833a2a5cde6",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2203\\calibration.json",
+      "calibration_sha256": "7d3d86bce9b6d2518152553cb7a5c9a0a4d00facd5ed23a0c2fb828a5f81b29c",
+      "thresholds": [
+        0.39499999999999996,
+        0.58,
+        0.62,
+        0.4649999999999999,
+        0.32999999999999996,
+        0.4649999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split1/reference_affine_2204": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2204\\model.pth",
+      "sha256": "d1366fa1cc6fc6969af7b0036fc76ad9990f99414d99cf1e63198d28eb79c91a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2204\\calibration.json",
+      "calibration_sha256": "c155d88828f813ec38846b0cb1eba61e2c61b7449a56609e1b1dd065f17e7287",
+      "thresholds": [
+        0.6499999999999999,
+        0.21499999999999997,
+        0.575,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.42999999999999994
+      ],
+      "parameters": 1013191
+    },
+    "split1/ordinary_affine_2200": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2200\\model.pth",
+      "sha256": "e94d13de73616ac9d3e5a27cbcbfd47a34c2251d5c71b538aefbab83fa142907",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2200\\calibration.json",
+      "calibration_sha256": "07abcf16c251447236a85b3a47cf386a7d25bb46f4fda2c632c2d384d6357ef5",
+      "thresholds": [
+        0.5099999999999999,
+        0.49499999999999994,
+        0.4699999999999999,
+        0.4699999999999999,
+        0.44499999999999995,
+        0.5049999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/ordinary_affine_2201": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2201\\model.pth",
+      "sha256": "013da5974d7066e8209a1a44dfcb3df0d03f69a314fa8a6c5e5e5adaf990ee84",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2201\\calibration.json",
+      "calibration_sha256": "730de95f8a1292026e38b2f96e677602ff748890517803987129028b727eb76c",
+      "thresholds": [
+        0.725,
+        0.5349999999999999,
+        0.5449999999999999,
+        0.69,
+        0.5249999999999999,
+        0.6599999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/ordinary_affine_2202": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2202\\model.pth",
+      "sha256": "06d78e330c4bbb4117f121c62640d0addabb3e5a04d3c0c2a582f915b8218bc7",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2202\\calibration.json",
+      "calibration_sha256": "60a09be73ec9765df50b841ba30035a7fd09fe11e7e7b53564e201f640c5e893",
+      "thresholds": [
+        0.635,
+        0.38499999999999995,
+        0.615,
+        0.4149999999999999,
+        0.4749999999999999,
+        0.43999999999999995
+      ],
+      "parameters": 2026382
+    },
+    "split1/ordinary_affine_2203": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2203\\model.pth",
+      "sha256": "f88942161d0909317877fa374be6d7208550be64ec1eb32fca743321c1a69817",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2203\\calibration.json",
+      "calibration_sha256": "628293bd63527b611c80ae108a8d60407ca7891aed4238f11ded4fabeaa2071d",
+      "thresholds": [
+        0.39499999999999996,
+        0.5049999999999999,
+        0.6749999999999999,
+        0.3999999999999999,
+        0.39499999999999996,
+        0.4649999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/ordinary_affine_2204": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2204\\model.pth",
+      "sha256": "67d3334a4e28c88f855101f0b922d95a9edc855e9cf3af8ea77e61566b6931ec",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2204\\calibration.json",
+      "calibration_sha256": "e1f0864bfa0baa08ca52baec689d0ab0856f458db206995020777515dc4e5137",
+      "thresholds": [
+        0.7699999999999999,
+        0.5199999999999999,
+        0.5499999999999999,
+        0.44499999999999995,
+        0.4099999999999999,
+        0.5049999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/bootstrap_affine_2200": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2200\\model.pth",
+      "sha256": "bd3d665301a8b6fa1fbfd03a028dafa59700edb2e8af3032897b93d296c37a79",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2200\\calibration.json",
+      "calibration_sha256": "97ccb88a46c82a8de9f6ea9dc41bede9f214df8e63c4536741e485d39ac9ff60",
+      "thresholds": [
+        0.59,
+        0.4799999999999999,
+        0.4499999999999999,
+        0.43499999999999994,
+        0.5199999999999999,
+        0.5349999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/bootstrap_affine_2201": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2201\\model.pth",
+      "sha256": "20807d02320a260972388552bbbdd580017682a185733fa6bd8179737442091a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2201\\calibration.json",
+      "calibration_sha256": "5dc2b426adcbde3cf7b8d8552e2761f81aeb7c52e8d996929a0b6aa0abe8a24f",
+      "thresholds": [
+        0.5399999999999999,
+        0.5499999999999999,
+        0.4749999999999999,
+        0.575,
+        0.565,
+        0.61
+      ],
+      "parameters": 2026382
+    },
+    "split1/bootstrap_affine_2202": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2202\\model.pth",
+      "sha256": "a88b40752671bf357ec5295b8d8c5a33afc696470125084245489bfab92e3912",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2202\\calibration.json",
+      "calibration_sha256": "555c0abfa2309f4b448a0d993122d3143f2baa4c3ab2f00b82bcbf1059170c0c",
+      "thresholds": [
+        0.5149999999999999,
+        0.36499999999999994,
+        0.715,
+        0.4599999999999999,
+        0.48499999999999993,
+        0.5349999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/bootstrap_affine_2203": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2203\\model.pth",
+      "sha256": "0c9bec15b71fddb83827a893e4b88e6e21c99b4296430108579ea35e522837a2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2203\\calibration.json",
+      "calibration_sha256": "7f1aafa944da2917405aa424ff0db53d8c075be711524b463e92df0fd60d6539",
+      "thresholds": [
+        0.44499999999999995,
+        0.5499999999999999,
+        0.5249999999999999,
+        0.5349999999999999,
+        0.29,
+        0.49499999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split1/bootstrap_affine_2204": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2204\\model.pth",
+      "sha256": "5e1cdb2b772142caab9fecf357f6855af22d40da53c2de5582f33059144e347e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\bootstrap_affine_2204\\calibration.json",
+      "calibration_sha256": "f0ab1bca94931bac4bdf8fd4c1461754ebcf5ca576f00397bc4afe58b2294903",
+      "thresholds": [
+        0.7,
+        0.3499999999999999,
+        0.6699999999999999,
+        0.5399999999999999,
+        0.5199999999999999,
+        0.49999999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split1/combo_affine_2200": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2200\\model.pth",
+      "sha256": "614c2bd32c5428f3907b524cd568ebe75b037b774cae24764b4884422e5eb7b2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2200\\calibration.json",
+      "calibration_sha256": "3675bec452a0c8357688cfb426e2bb8d649d0fad05593bed306996e214fb0303",
+      "thresholds": [
+        0.29,
+        0.43999999999999995,
+        0.4099999999999999,
+        0.43999999999999995,
+        0.59,
+        0.5149999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/combo_affine_2201": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2201\\model.pth",
+      "sha256": "548dab168da88eb7d6a7db18f3729c8ad81341f1666ede37d16f93eb82ff713e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2201\\calibration.json",
+      "calibration_sha256": "38ad913d4e09142af125c34488294cfdee9b4da98efc3b8f7160a806e981c171",
+      "thresholds": [
+        0.32499999999999996,
+        0.43499999999999994,
+        0.49999999999999994,
+        0.565,
+        0.32499999999999996,
+        0.6449999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/combo_affine_2202": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2202\\model.pth",
+      "sha256": "83bbbb0b9d7e7cd33f16e855f92409193136094d8cf7661e56ff65cf2c4e3e3f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2202\\calibration.json",
+      "calibration_sha256": "c4025f0508086b2092b8b796fe157ce6bbee32e530e9f72018de6c73e7d57d8c",
+      "thresholds": [
+        0.43999999999999995,
+        0.3449999999999999,
+        0.69,
+        0.4099999999999999,
+        0.5149999999999999,
+        0.5349999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/combo_affine_2203": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2203\\model.pth",
+      "sha256": "db72b15afcb70003d25a1809d3486ddd0845bb3ac35abb72d1a644df74fbf477",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2203\\calibration.json",
+      "calibration_sha256": "e61db4973cefacf7e41f2e5cfa30af87bfac2865e6cdb0373cbdc2d2dd146732",
+      "thresholds": [
+        0.4699999999999999,
+        0.6599999999999999,
+        0.735,
+        0.3449999999999999,
+        0.32499999999999996,
+        0.38499999999999995
+      ],
+      "parameters": 2026382
+    },
+    "split1/combo_affine_2204": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2204\\model.pth",
+      "sha256": "f2d995b1dfe5cb42e1bd62339c4556804d758b466417a61148899eb48ab6a501",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2204\\calibration.json",
+      "calibration_sha256": "e6f4edc6c3e27b78cb5cce2c0ee94a5a54a00489f0f66005b2f00b63a0046437",
+      "thresholds": [
+        0.185,
+        0.185,
+        0.4599999999999999,
+        0.4599999999999999,
+        0.585,
+        0.5549999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/weighted_affine_2200": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2200\\model.pth",
+      "sha256": "c7553bcfadb92c4e6f4533e83161be53f11bfb8adb2f957f5522ed6baf3446e1",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2200\\calibration.json",
+      "calibration_sha256": "3aba9b73519abcbc58288e7471406008745c77e67649056936a3648989c328b9",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.49999999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split1/weighted_affine_2201": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2201\\model.pth",
+      "sha256": "644077dba56feb99e127a2ea9720a6c7f442c5d5757cc786b4ec0a24cd1c4366",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2201\\calibration.json",
+      "calibration_sha256": "2d2a99e11a978ee64f0a86b4ea42acbba3c337f86370babc944be67af7c683cb",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.615,
+        0.38499999999999995,
+        0.5499999999999999,
+        0.5299999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/weighted_affine_2202": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2202\\model.pth",
+      "sha256": "78b8170ce0f83af972261d6f6f97a3c8c6b3288df2d26c8d7bf97969d1b4d838",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2202\\calibration.json",
+      "calibration_sha256": "171166f16ec6cb30b2e78fa802397c1f766918c59a62f874b4ef44c820ef20a9",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.6849999999999999,
+        0.6549999999999999,
+        0.4549999999999999,
+        0.6699999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/weighted_affine_2203": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2203\\model.pth",
+      "sha256": "ea4cb20e41950eca0861bad107a571021f4a8a211a8b3b9955b80fa9401bc289",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2203\\calibration.json",
+      "calibration_sha256": "a763b39ed543783ef74a7cc407dc27a13c2e095d5f3ef2111721398ad571be54",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.585,
+        0.4549999999999999,
+        0.42499999999999993,
+        0.4599999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/weighted_affine_2204": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2204\\model.pth",
+      "sha256": "4c39ac21c1976c7d6b55c14b514fe6e314938b9ed309bb8bc3242d9e319cd034",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_controls\\weighted_affine_2204\\calibration.json",
+      "calibration_sha256": "62ef212167634835a2ae76b37bafce7807a49fc4c9c21467c3538ba8f48f380f",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.5049999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split1/coverage_affine_2200": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2200\\model.pth",
+      "sha256": "2e7938d0bf6feb56139f5a01a868e73b152211b76f85be4bb74927f040593724",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2200\\calibration.json",
+      "calibration_sha256": "0cc813912d96d9db46069ae4ef5fceb5bbd6986ff113b1b8887998c527f7c597",
+      "thresholds": [
+        0.635,
+        0.4149999999999999,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5299999999999999,
+        0.605
+      ],
+      "parameters": 1021546
+    },
+    "split1/coverage_affine_2201": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2201\\model.pth",
+      "sha256": "89d8de6ad6e034cd52092823da5447036dc6a9aa0fa4cc10d237eacd951bde80",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2201\\calibration.json",
+      "calibration_sha256": "dee4b6e937ccdb2a989ef4cb8d32b331a821b84311cbf6b8872057718b500af9",
+      "thresholds": [
+        0.4499999999999999,
+        0.42999999999999994,
+        0.6549999999999999,
+        0.5399999999999999,
+        0.5249999999999999,
+        0.6549999999999999
+      ],
+      "parameters": 1021546
+    },
+    "split1/coverage_affine_2202": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2202\\model.pth",
+      "sha256": "f6bc6091d6faaaaade0b8a649ae8ffbe482142d3fc15218617f155dc8effc01f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2202\\calibration.json",
+      "calibration_sha256": "0fc675450100174dab2987182e0c2b0a16a8fb57054f08762464c1251eabb764",
+      "thresholds": [
+        0.42999999999999994,
+        0.24999999999999994,
+        0.565,
+        0.4799999999999999,
+        0.5399999999999999,
+        0.4549999999999999
+      ],
+      "parameters": 1021546
+    },
+    "split1/coverage_affine_2203": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2203\\model.pth",
+      "sha256": "b9375c28561eb6597dafc83835270be1da872a6f8dd766f747514494107dade3",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2203\\calibration.json",
+      "calibration_sha256": "8cda4fce61cee4ab5fe2534e423c2a30f20b20173a801f05f7706f07b4e2b043",
+      "thresholds": [
+        0.39499999999999996,
+        0.58,
+        0.635,
+        0.4649999999999999,
+        0.48499999999999993,
+        0.5299999999999999
+      ],
+      "parameters": 1021546
+    },
+    "split1/coverage_affine_2204": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2204\\model.pth",
+      "sha256": "141a1b17d05029d6900db13a50f931d66f05b689126dc0c034e5c1fcce6cc4d5",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2204\\calibration.json",
+      "calibration_sha256": "55e0b936b289f8ee4202d331d0631057dfbe1decf0d61cc0ea38f701dce84013",
+      "thresholds": [
+        0.6499999999999999,
+        0.21499999999999997,
+        0.575,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.4099999999999999
+      ],
+      "parameters": 1021546
+    },
+    "split1/global_pca256_affine_2200": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2200\\model.pth",
+      "sha256": "91f7038b9af693678c6d847b31f44ef3b223d20cfeba2fdec81c245c508a9936",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2200\\calibration.json",
+      "calibration_sha256": "cf390dee25befcff474fa62643ce3b47910e8bb30be438b6ca749ab259873b49",
+      "thresholds": [
+        0.635,
+        0.4149999999999999,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5299999999999999,
+        0.62
+      ],
+      "parameters": 1029738
+    },
+    "split1/global_pca256_affine_2201": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2201\\model.pth",
+      "sha256": "758e14e98c9765d49864731f2e38e31c01a290a9ee10ffa8ee155153ea0059fa",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2201\\calibration.json",
+      "calibration_sha256": "c9864cab1bda79fe24f8170706761a1b2c4534a221d22415aff7a41b79afb9bb",
+      "thresholds": [
+        0.4499999999999999,
+        0.42999999999999994,
+        0.58,
+        0.5399999999999999,
+        0.5049999999999999,
+        0.5449999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/global_pca256_affine_2202": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2202\\model.pth",
+      "sha256": "92e8be19344477e672882b34796878e5af42e739c575d391390208a1c50c0e77",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2202\\calibration.json",
+      "calibration_sha256": "37a8c164567a96a9db6119e13bc975defb69b4d3baa937b998661e65b9b9826b",
+      "thresholds": [
+        0.42999999999999994,
+        0.24999999999999994,
+        0.58,
+        0.4799999999999999,
+        0.5499999999999999,
+        0.4549999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/global_pca256_affine_2203": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2203\\model.pth",
+      "sha256": "e60972d5fd895eccee8ee95f9588ed596551cc5c7cb009a9fdf9d8061c2ca6b1",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2203\\calibration.json",
+      "calibration_sha256": "bfbe9040a3f1e34a93bae9a8436b8618ccda4f80568185f8c069a754ab808995",
+      "thresholds": [
+        0.39499999999999996,
+        0.58,
+        0.6449999999999999,
+        0.4649999999999999,
+        0.42499999999999993,
+        0.4649999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/global_pca256_affine_2204": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2204\\model.pth",
+      "sha256": "3108b432c9f04ca7e622ce64205b87122e5103e0dac849b27162835c2f7f2aad",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\global_pca256_affine_2204\\calibration.json",
+      "calibration_sha256": "5a76ec2091b941d7288f3c34f23b629317c12aa2e6625c69fcc0c3f6f081fd89",
+      "thresholds": [
+        0.6499999999999999,
+        0.21499999999999997,
+        0.575,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.48499999999999993
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_pca256_affine_2200": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2200\\model.pth",
+      "sha256": "2a8f8919af98a421962f01a312b20ca25096306b256285455a018d4d0bc522f0",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2200\\calibration.json",
+      "calibration_sha256": "bce635a2e8b0823efecce344f6b169d8823c3de80ce3e22a34b2fe64a56b84dd",
+      "thresholds": [
+        0.635,
+        0.4149999999999999,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5299999999999999,
+        0.605
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_pca256_affine_2201": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2201\\model.pth",
+      "sha256": "0e4d5a50a827cb64e665a131d873b81bd96d1750e6847259698246ec1c733672",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2201\\calibration.json",
+      "calibration_sha256": "2ca995c97d0fda773b41b7a556896cfda227262c9fa76c9e287631234c3e670b",
+      "thresholds": [
+        0.4499999999999999,
+        0.42999999999999994,
+        0.63,
+        0.5399999999999999,
+        0.5099999999999999,
+        0.6549999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_pca256_affine_2202": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2202\\model.pth",
+      "sha256": "61aaa42e34e48493f85e4f163eeb76e4637b9a22835d5dd7d2c4e17337d2c72d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2202\\calibration.json",
+      "calibration_sha256": "d0f7f74aa994d9ac3fb00647e7f3675b0d09883c690ec2b548d6369d7452b167",
+      "thresholds": [
+        0.42999999999999994,
+        0.24999999999999994,
+        0.565,
+        0.4799999999999999,
+        0.5399999999999999,
+        0.4599999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_pca256_affine_2203": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2203\\model.pth",
+      "sha256": "7cfdb4506096a29a827834d652d1fe963f030a35de4271dd7e21880109a854d8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2203\\calibration.json",
+      "calibration_sha256": "3f4a734f93a81da62bbad838c2ad989fc71fdf919041ac0f1a5be83646ca3c78",
+      "thresholds": [
+        0.39499999999999996,
+        0.58,
+        0.6549999999999999,
+        0.4649999999999999,
+        0.39499999999999996,
+        0.5149999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_pca256_affine_2204": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2204\\model.pth",
+      "sha256": "6b809b647d8072bbe0f0a9d369f2884b14d2460978fcec1329f6c5fc892ea15d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_pca256_affine_2204\\calibration.json",
+      "calibration_sha256": "85ce927098b026fec96e72f8afdac7c2fa6ea76bd24f1c4a8b5ee6ec14f59cee",
+      "thresholds": [
+        0.6499999999999999,
+        0.21499999999999997,
+        0.575,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.42999999999999994
+      ],
+      "parameters": 1029738
+    },
+    "split1/segment_head64_affine_2200": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2200\\model.pth",
+      "sha256": "a409c83e19f9a7c6d9bfd44a78914f16abebab506e19656af561088e21a817bc",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2200\\calibration.json",
+      "calibration_sha256": "9e280573e62253e33b036788f68ba43e4490a8f55f9345ed08d44364d877faa2",
+      "thresholds": [
+        0.635,
+        0.4149999999999999,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5299999999999999,
+        0.565
+      ],
+      "parameters": 1029898
+    },
+    "split1/segment_head64_affine_2201": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2201\\model.pth",
+      "sha256": "2a94bb38f9af8a051305818c9c38bfbc6f84a7528b1c6a694922f2ab39219216",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2201\\calibration.json",
+      "calibration_sha256": "4f2a3b464bea92f66dde941edd4d51ffc6a2a13929cb731de28d6b9be0bc9484",
+      "thresholds": [
+        0.4499999999999999,
+        0.42999999999999994,
+        0.6549999999999999,
+        0.5399999999999999,
+        0.5199999999999999,
+        0.6549999999999999
+      ],
+      "parameters": 1029898
+    },
+    "split1/segment_head64_affine_2202": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2202\\model.pth",
+      "sha256": "dfb40a477f52a1f7ac03acea73bd194269dbd1c99a30cdcb87c5ef08071c632c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2202\\calibration.json",
+      "calibration_sha256": "cf085783c4ad4118430b0c6641b871c9dbd830996791ac372fa2f02d7dfa9770",
+      "thresholds": [
+        0.42999999999999994,
+        0.24999999999999994,
+        0.565,
+        0.4799999999999999,
+        0.5399999999999999,
+        0.44499999999999995
+      ],
+      "parameters": 1029898
+    },
+    "split1/segment_head64_affine_2203": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2203\\model.pth",
+      "sha256": "ed11b2f44edeb2a3af6fa26548d0743af394559e6aa1a8b271a87a95c0a8c48f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2203\\calibration.json",
+      "calibration_sha256": "527ee6ff7047f81a0d5819a20cb4d7d1162362f3fe9364f5203d471d028d0e68",
+      "thresholds": [
+        0.39499999999999996,
+        0.58,
+        0.625,
+        0.4649999999999999,
+        0.42499999999999993,
+        0.5049999999999999
+      ],
+      "parameters": 1029898
+    },
+    "split1/segment_head64_affine_2204": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2204\\model.pth",
+      "sha256": "584eaeefb5e306796e94e0893833b5118564ef2c284493e9743961d9344f7bc3",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions_adaptive\\segment_head64_affine_2204\\calibration.json",
+      "calibration_sha256": "fd27826c723d73c18011c065e748b87bebfb244496fb16f14cd87be94f2920a6",
+      "thresholds": [
+        0.6499999999999999,
+        0.21499999999999997,
+        0.575,
+        0.5499999999999999,
+        0.48499999999999993,
+        0.5249999999999999
+      ],
+      "parameters": 1029898
+    },
+    "split1/ordinary_segment_local_2200": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2200\\model.pth",
+      "sha256": "3c439459fbcfeba17b2f17ac2db6cc118ec99ca2c9d07a05a86481081259d914",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2200\\calibration.json",
+      "calibration_sha256": "67572b5831b22482f365afd27187f7818c4da3b8d6733ca07061c7a95f5593ec",
+      "thresholds": [
+        0.5099999999999999,
+        0.49499999999999994,
+        0.4699999999999999,
+        0.4699999999999999,
+        0.44499999999999995,
+        0.58
+      ],
+      "parameters": 2034737
+    },
+    "split1/ordinary_segment_local_2201": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2201\\model.pth",
+      "sha256": "1097069338da931d3a98e8539249ccef9c77a01f419fff9c435ea8f6e9b1599a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2201\\calibration.json",
+      "calibration_sha256": "e4f03d9c26689a584a1cfcefdd7378dbb3b0d70c28f5ac68b7748909f6277466",
+      "thresholds": [
+        0.725,
+        0.5349999999999999,
+        0.5549999999999999,
+        0.69,
+        0.36999999999999994,
+        0.625
+      ],
+      "parameters": 2034737
+    },
+    "split1/ordinary_segment_local_2202": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2202\\model.pth",
+      "sha256": "688735013a843821c18d5924c63dc10a767d063143d039eb9cccfb0ce7e9c4c5",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2202\\calibration.json",
+      "calibration_sha256": "17d0537cacdbc4fb09d6b9aa04e7786392f5864b37f6bf38f95f0b2d387bb393",
+      "thresholds": [
+        0.635,
+        0.38499999999999995,
+        0.615,
+        0.4149999999999999,
+        0.4749999999999999,
+        0.43999999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split1/ordinary_segment_local_2203": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2203\\model.pth",
+      "sha256": "cd4d994aff72f146c71e7599c4b9ef361d7fe2165e27fcda3d93a342af9c1baf",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2203\\calibration.json",
+      "calibration_sha256": "c279cc31204f56c53383750cc4f9e5d87cd7af7d39be18b0d5dec58fcc6b6f64",
+      "thresholds": [
+        0.39499999999999996,
+        0.5049999999999999,
+        0.6399999999999999,
+        0.3999999999999999,
+        0.31499999999999995,
+        0.5499999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/ordinary_segment_local_2204": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2204\\model.pth",
+      "sha256": "625db4269212c568fecf3d0b366370821020a80f2d21d835fdf2d0685f65d71f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary\\ordinary_segment_local_2204\\calibration.json",
+      "calibration_sha256": "16dd4b0f6727845cac2a53ab4676d7d8df2dbc2f6ce5a6e753f451cc9f6b3853",
+      "thresholds": [
+        0.7699999999999999,
+        0.5199999999999999,
+        0.5499999999999999,
+        0.44499999999999995,
+        0.4099999999999999,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_global_local_2200": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2200\\model.pth",
+      "sha256": "e8d7aa49087a1450710a69b5a3896920fc28ef8077733f75096d9943afc182d9",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2200\\calibration.json",
+      "calibration_sha256": "9340737dd21307a38a8d327399eaea9d06ea3e7a67b2a7888407432cb28edc41",
+      "thresholds": [
+        0.29,
+        0.43999999999999995,
+        0.4099999999999999,
+        0.43999999999999995,
+        0.59,
+        0.565
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_global_local_2201": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2201\\model.pth",
+      "sha256": "88340855a368ae26d4295370b23afef7bf15a4de6b71eb155a3ab8847d6fd503",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2201\\calibration.json",
+      "calibration_sha256": "297629f425ac3f4528c001ad05270f5ec2cf2dc3f13497731c783795d46b51af",
+      "thresholds": [
+        0.32499999999999996,
+        0.43499999999999994,
+        0.625,
+        0.565,
+        0.33499999999999996,
+        0.6449999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_global_local_2202": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2202\\model.pth",
+      "sha256": "f8ff13df3ccc5fd390177378010ee9587b4d1dbee3bbed185d2134097bfcf550",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2202\\calibration.json",
+      "calibration_sha256": "cbf4673b437dac7672ecb3dca119fa09d165edf818c709f476958377d0d769c1",
+      "thresholds": [
+        0.43999999999999995,
+        0.3449999999999999,
+        0.695,
+        0.4099999999999999,
+        0.6399999999999999,
+        0.5349999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_global_local_2203": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2203\\model.pth",
+      "sha256": "989e8cf96af57ee44c95c11402cae0e70c3c30f483a3b40d5fdd233c2e4365a2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2203\\calibration.json",
+      "calibration_sha256": "b20279f3ec8bc73335e62b4cc427a06d80be5f67d361b7b5dbe4f78eac33732f",
+      "thresholds": [
+        0.4699999999999999,
+        0.6599999999999999,
+        0.73,
+        0.3449999999999999,
+        0.41999999999999993,
+        0.38499999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_global_local_2204": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2204\\model.pth",
+      "sha256": "64abd4472e3bebd0a44c4e8288396617f64e4e0e510899c01bd2c7a776779225",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_global_local_2204\\calibration.json",
+      "calibration_sha256": "8551a41af0e0aae51199ac0b1b4099246e4ead9494b342a7b692fdeba489a27a",
+      "thresholds": [
+        0.185,
+        0.185,
+        0.4599999999999999,
+        0.4599999999999999,
+        0.585,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_segment_local_2200": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2200\\model.pth",
+      "sha256": "5ae72ef274763b53f424c343441caf417f744374431a307d7035c4004063a242",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2200\\calibration.json",
+      "calibration_sha256": "3ae82f035378e684ae99ef83fb639327ccf629466d2018c1b142a808b0255671",
+      "thresholds": [
+        0.29,
+        0.43999999999999995,
+        0.4099999999999999,
+        0.43999999999999995,
+        0.59,
+        0.585
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_segment_local_2201": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2201\\model.pth",
+      "sha256": "57155336a6c46f8eb970f11985eee6c6aba234f1fa3c96a7c3f7593f459a8cb7",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2201\\calibration.json",
+      "calibration_sha256": "769fe15c2d49225de857363677f599f22063087eb345847b7e63d59e8e1175f2",
+      "thresholds": [
+        0.32499999999999996,
+        0.43499999999999994,
+        0.44499999999999995,
+        0.565,
+        0.5099999999999999,
+        0.6799999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_segment_local_2202": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2202\\model.pth",
+      "sha256": "a55333f97df9b73501e3c38279c0988a856f9f16e2ee19d06ed96f36ff528c5f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2202\\calibration.json",
+      "calibration_sha256": "e934c4fc4e2c6eb63b5c6bdf28e7e433171321e5baf9d1da664571c9ec941cec",
+      "thresholds": [
+        0.43999999999999995,
+        0.3449999999999999,
+        0.69,
+        0.4099999999999999,
+        0.5149999999999999,
+        0.5349999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_segment_local_2203": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2203\\model.pth",
+      "sha256": "5a3901aa0f10583a49eed1bf7613b7ad2d2fa1a600551edac9a3600e39b74c61",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2203\\calibration.json",
+      "calibration_sha256": "728fb46884ee905fe5c8ac3ef6a0d426fb7bdc9ce0ff395c8aec65f32205b78d",
+      "thresholds": [
+        0.4699999999999999,
+        0.6599999999999999,
+        0.735,
+        0.3449999999999999,
+        0.42999999999999994,
+        0.4499999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/combo_segment_local_2204": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2204\\model.pth",
+      "sha256": "91c8a6342453164ce8b80af4fb89ac9b591aac90517453fb4f56ec624c5edbeb",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined\\combo_segment_local_2204\\calibration.json",
+      "calibration_sha256": "1d23dc7baf77740cd88a1f2e15972cc560f97d8d1a496ff8cea008ee745c3b3d",
+      "thresholds": [
+        0.185,
+        0.185,
+        0.4599999999999999,
+        0.4599999999999999,
+        0.585,
+        0.69
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_global_local_2200": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2200\\model.pth",
+      "sha256": "abe4480370a9141c6e1503ed403ecf968a82f028de843a7d9b85d7d0a55b4cb3",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2200\\calibration.json",
+      "calibration_sha256": "0bef7b6be4729150b43bb1886d718b685750c2353911e4c461ee749c7b413d96",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.4499999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_global_local_2201": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2201\\model.pth",
+      "sha256": "7db147cdbf294559756b359b5ed0457d582542e0da3fa76bc153aa83c6eb352d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2201\\calibration.json",
+      "calibration_sha256": "bc58a9f1f5c17997920c6949b3914e879dabebfaf96fec845129dba9150536ec",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.5449999999999999,
+        0.38499999999999995,
+        0.4049999999999999,
+        0.5299999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_global_local_2202": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2202\\model.pth",
+      "sha256": "4cfa32bd4976477173f5d1efc65ef8f905297015720910a3cc1f499376ba7dba",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2202\\calibration.json",
+      "calibration_sha256": "6f24f24badb00651f7119a78819775404acf1413dc2d6925b86abafa41ac0a2f",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.6799999999999999,
+        0.6549999999999999,
+        0.43499999999999994,
+        0.6699999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_global_local_2203": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2203\\model.pth",
+      "sha256": "19af6095ddae774790bbffff7ff9953a498e724716e1be18f0be5eab8f048990",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2203\\calibration.json",
+      "calibration_sha256": "d55ff917d1716becadab9544c87517ba887d0cddb479f8270a0e33a1ff0b7462",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.595,
+        0.4549999999999999,
+        0.44499999999999995,
+        0.4599999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_global_local_2204": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2204\\model.pth",
+      "sha256": "a37bef378b3275c958b023f25b3c42fc640711a393ed997cf19e23591a73b97d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_global_local_2204\\calibration.json",
+      "calibration_sha256": "f0b35c05c4581d270d9dbefb7b6902f274c577b7a34d0c050e463e66e83b82c6",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.5599999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_local_2200": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2200\\model.pth",
+      "sha256": "b66baf080d2251040888f6273dd5b91f23801facf45a54ab4c36850985f7ca5c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2200\\calibration.json",
+      "calibration_sha256": "46150a3d24a338f6244b34d3debf783319b9b62ebd4eed8bdecef23ae679906e",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_local_2201": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2201\\model.pth",
+      "sha256": "506b20145bd01c4c090f39d5e2c0a987bcaebed6d63dc5f7f15913509c6df79b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2201\\calibration.json",
+      "calibration_sha256": "2fb7e8d964a5612e38e8e50c9466718bb3ecc35fa0e06e8b24fcd1e4ff1cb90c",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.5449999999999999,
+        0.38499999999999995,
+        0.32999999999999996,
+        0.5049999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_local_2202": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2202\\model.pth",
+      "sha256": "c397160384446c159df785cc7fb37220b89753b1de97cb65e1beaa13736b9367",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2202\\calibration.json",
+      "calibration_sha256": "9998f9c4b41817628201a228013e3b1ed90de41c9afc3a6f6d291c4f9128f4a9",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.6849999999999999,
+        0.6549999999999999,
+        0.4549999999999999,
+        0.6699999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_local_2203": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2203\\model.pth",
+      "sha256": "222817b15363e24ba51dda86f3b1e2441a6950b282a9dc7a174dda5fd6373d24",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2203\\calibration.json",
+      "calibration_sha256": "1ed548fb710a3fe78d3d850bd3ac596e8bfab4ad166cba22f101da946f181cfe",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.6,
+        0.4549999999999999,
+        0.37499999999999994,
+        0.48999999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_local_2204": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2204\\model.pth",
+      "sha256": "71c7b5d2a8db24052f2a552ec4a783898368f1a820c4e0fbedd91252ed20561e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted\\weighted_segment_local_2204\\calibration.json",
+      "calibration_sha256": "aed912860584dfb686dcb3964b3263f12a5bc1c559f5acc72b1fde845ec2ed31",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.625
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_isrj_2200": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2200\\model.pth",
+      "sha256": "0637e60abe106ada10bd2a2bc1592ed29fd92f0e70c9e3a5b0bbac08c5600f0c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2200\\calibration.json",
+      "calibration_sha256": "9d6bcfb30b8e94a40295f63ab18ff22181774939e8d0f16a892ae729afb951e3",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_isrj_2201": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2201\\model.pth",
+      "sha256": "c115d91f0d59b1e35a64d70e4abf6cd77c971959cb49f2ab7dc1c4e9633a5ffb",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2201\\calibration.json",
+      "calibration_sha256": "4ca28a8d9d12d0be0eb70831f439fdf69ce64b502af38d0b9f2e24b3f91ba389",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.615,
+        0.38499999999999995,
+        0.5499999999999999,
+        0.5049999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_isrj_2202": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2202\\model.pth",
+      "sha256": "89f79dab7cb84bdda0d0d7c9e63134bde238a19315c68df15385de40ec71c5a9",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2202\\calibration.json",
+      "calibration_sha256": "16d70d4a5a21391863fe5afee39444282f7df78aba4d0a77a3150ed8d289d121",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.6849999999999999,
+        0.6549999999999999,
+        0.4549999999999999,
+        0.6699999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_isrj_2203": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2203\\model.pth",
+      "sha256": "8db609520d53cdaff876a0f992ac32bf0cd2f3e9f3a4dea0e2062e21ae3ff32a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2203\\calibration.json",
+      "calibration_sha256": "5f77924014d578c7296374aa4fc57a03591b7ca6434ea98fe3886efddffb0833",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.585,
+        0.4549999999999999,
+        0.42499999999999993,
+        0.48999999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_isrj_2204": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2204\\model.pth",
+      "sha256": "c064181d3a6cf850c4b47c3ebc07d15976750c9c1d3dc28c07d7cb3e0ebaafa7",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_ablations\\weighted_segment_isrj_2204\\calibration.json",
+      "calibration_sha256": "c126bd5ba1e8d4f9a4ac84d608d38f702b1abc95767d0ced604cb327975e3749",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.625
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_guarded_2200": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2200\\model.pth",
+      "sha256": "a31cdd45ac2451badf3a1e454bcdce1f0333729c485aebc1d28611336d5e3081",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2200\\calibration.json",
+      "calibration_sha256": "46eb634ef62172310ccd1b820a2458ce94e19507baec0f7b51dd0e7d61f3e1f4",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_guarded_2201": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2201\\model.pth",
+      "sha256": "33ca0f72dc9b14b9a6369323672ae3a02bb3dec3a6dfb79ac51ac03ab831f6f9",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2201\\calibration.json",
+      "calibration_sha256": "717d3ef22d8af4a45c223296fbfc1cb83dccb4717c23152fe29b74133f9ac028",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.5449999999999999,
+        0.38499999999999995,
+        0.5449999999999999,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_guarded_2202": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2202\\model.pth",
+      "sha256": "328294ece5d7516574115a49b84edcc26d521858b6c073288e3fc464e07d50ba",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2202\\calibration.json",
+      "calibration_sha256": "3992860b65262d7f116517a715827252f14a9b7e0a5fa8cb5186c63c96b87ef4",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.57,
+        0.6549999999999999,
+        0.4549999999999999,
+        0.6699999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_guarded_2203": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2203\\model.pth",
+      "sha256": "aaeaf47f1340d766121c42554d5ecd5031244b796affa92267e531a1bd12780f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2203\\calibration.json",
+      "calibration_sha256": "db55ffb9042f041be0421a542aae2dc04b32e1ab63ada2f94891860c12b980ba",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.6,
+        0.4549999999999999,
+        0.37499999999999994,
+        0.48999999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_segment_guarded_2204": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2204\\model.pth",
+      "sha256": "3a8abf52f1533ccc9f8b91873372a25ccaf7ee0cb4ad0f9fa846ed836fa3e54a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2204\\calibration.json",
+      "calibration_sha256": "1ea69f876056996a7695a068087272e3f4ecbe533265ec037d610860880bf257",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.5249999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_isrj_guarded_2200": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2200\\model.pth",
+      "sha256": "d81dfc60f8a2a440ad9fe99228bcc89fd38f6a25ebdc7af819abb0a153376f1e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2200\\calibration.json",
+      "calibration_sha256": "46eb634ef62172310ccd1b820a2458ce94e19507baec0f7b51dd0e7d61f3e1f4",
+      "thresholds": [
+        0.38499999999999995,
+        0.4499999999999999,
+        0.4549999999999999,
+        0.4099999999999999,
+        0.5249999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_isrj_guarded_2201": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2201\\model.pth",
+      "sha256": "5b62e22e805133a01e467ce2399526c2215eef6f1194a8b2b09cb36f98dfbfda",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2201\\calibration.json",
+      "calibration_sha256": "4913c72b5ea86b674e2ea8c7c4db96c40f3839366e3f5f3b3bb6abdc8638b9f9",
+      "thresholds": [
+        0.235,
+        0.625,
+        0.615,
+        0.38499999999999995,
+        0.5499999999999999,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_isrj_guarded_2202": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2202\\model.pth",
+      "sha256": "755525d62688b016d3c4a7ac2dbb5bc8e13e005634a030f50812e20b2f60872b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2202\\calibration.json",
+      "calibration_sha256": "7d6c175e0a6d6443dae1ffa4a7939b3bfa09deae2357d27ecf37cb9fb90cf707",
+      "thresholds": [
+        0.32999999999999996,
+        0.22499999999999998,
+        0.6849999999999999,
+        0.6549999999999999,
+        0.4549999999999999,
+        0.6699999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_isrj_guarded_2203": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2203\\model.pth",
+      "sha256": "d1a06d19e4f44cb6094894961589d4b0ce709cf2341e13bfee3a1ef9485a8442",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2203\\calibration.json",
+      "calibration_sha256": "a015f5214c03b93783a03b7900aa5c1ef13511b0089c8b1c343f08895b6199e3",
+      "thresholds": [
+        0.4599999999999999,
+        0.5299999999999999,
+        0.585,
+        0.4549999999999999,
+        0.42499999999999993,
+        0.48999999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split1/weighted_isrj_guarded_2204": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split1",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2204\\model.pth",
+      "sha256": "dcf0e75b7b4259ced6bd5e3b56428b5009325fede50265d10d00769c172af5be",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2204\\calibration.json",
+      "calibration_sha256": "1ea69f876056996a7695a068087272e3f4ecbe533265ec037d610860880bf257",
+      "thresholds": [
+        0.57,
+        0.4599999999999999,
+        0.59,
+        0.5099999999999999,
+        0.49999999999999994,
+        0.5249999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/baseline_2200": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2200\\model.pth",
+      "sha256": "c926daac5580dd2bf44062e18913f3cfa7b6bdb46d87445c1468d2d3b95a2357",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2200\\calibration.json",
+      "calibration_sha256": "cb18eb6c49c9988f1e4d1ca261b20f6f08593a2494457a005b05848e8a58dc6d",
+      "thresholds": [
+        0.7949999999999999,
+        0.095,
+        0.5349999999999999,
+        0.21999999999999997,
+        0.3999999999999999,
+        0.41999999999999993
+      ],
+      "parameters": 1013191
+    },
+    "split2/baseline_2201": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2201\\model.pth",
+      "sha256": "77084e144e0b133f297dc1dd3b102cb2a65860043b5bd27e72400d7f1b707488",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2201\\calibration.json",
+      "calibration_sha256": "c18d32fc2726f560de046abb0ce9e0b6c5edd67b4d7fc23792049ee216f4509b",
+      "thresholds": [
+        0.5599999999999999,
+        0.065,
+        0.3449999999999999,
+        0.105,
+        0.36499999999999994,
+        0.38499999999999995
+      ],
+      "parameters": 1013191
+    },
+    "split2/baseline_2202": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2202\\model.pth",
+      "sha256": "02b74031f6a4642e82eb4c0726e7a756a85f35fbffc765c6e754dde0d24224b6",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2202\\calibration.json",
+      "calibration_sha256": "d062fedab1a2456d9d8c8c750f998c15fdd43e33a9ee08657ad2fbb7876a7b06",
+      "thresholds": [
+        0.695,
+        0.05,
+        0.595,
+        0.22999999999999998,
+        0.36499999999999994,
+        0.4749999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/baseline_2203": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2203\\model.pth",
+      "sha256": "949c8586932bf92045c1660aa8b2f85ea8fb174207db7bc821580acf079409ec",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2203\\calibration.json",
+      "calibration_sha256": "6e85e3ef7d18d3078690e8c5de32473ef4d2b33ab288dd0632b528c896bbb284",
+      "thresholds": [
+        0.69,
+        0.095,
+        0.285,
+        0.21499999999999997,
+        0.61,
+        0.37499999999999994
+      ],
+      "parameters": 1013191
+    },
+    "split2/baseline_2204": {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2204\\model.pth",
+      "sha256": "e6478b9b00493661ca237806d44dff4f98788f63c2ebdafefc228facba886b7b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2204\\calibration.json",
+      "calibration_sha256": "8e7752236eb5059f0d07195e0c16c215d813ca52ea8029282964e156f14af756",
+      "thresholds": [
+        0.6749999999999999,
+        0.18,
+        0.575,
+        0.175,
+        0.5199999999999999,
+        0.4549999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/reference_affine_2200": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2200\\model.pth",
+      "sha256": "19085d0f48dc3cbad145b456e3e4e53dbd6ef9ce0bd941851edb60761de72362",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2200\\calibration.json",
+      "calibration_sha256": "b0a688e17ee9852d50bba2a5a2daf382db9c136b607e47a39c0479643d93e450",
+      "thresholds": [
+        0.7749999999999999,
+        0.285,
+        0.5249999999999999,
+        0.4749999999999999,
+        0.4049999999999999,
+        0.3449999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/reference_affine_2201": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2201\\model.pth",
+      "sha256": "b25eae7adc20794aaabd84b7cf2540bc167a239437174e52716726445d6f3029",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2201\\calibration.json",
+      "calibration_sha256": "5ace9c14388afa8291e7a9422f759c57fdf2425a4748edfba492cd0bbe0e5af4",
+      "thresholds": [
+        0.4599999999999999,
+        0.18,
+        0.33999999999999997,
+        0.21499999999999997,
+        0.37999999999999995,
+        0.3549999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/reference_affine_2202": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2202\\model.pth",
+      "sha256": "a9fd7ca00556d8f5ced4c7968830507b19850756227ed30ccc3b2e9c8c4ba1b0",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2202\\calibration.json",
+      "calibration_sha256": "d63e0aa263cd3dfd0cf253026d7b1829e81e659b530a3f5a7d9dfecb0912542a",
+      "thresholds": [
+        0.625,
+        0.14999999999999997,
+        0.5599999999999999,
+        0.33499999999999996,
+        0.33499999999999996,
+        0.42499999999999993
+      ],
+      "parameters": 1013191
+    },
+    "split2/reference_affine_2203": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2203\\model.pth",
+      "sha256": "f4dd615e07efbf95bd7d8ac70d2cb3d49dbbda9ecaf2796ba985db0de5dd29f0",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2203\\calibration.json",
+      "calibration_sha256": "43e88959bc50a7d6ff659d3e7d070cf5263af849162e7d11bc323056b08afe2e",
+      "thresholds": [
+        0.6399999999999999,
+        0.3449999999999999,
+        0.3449999999999999,
+        0.4099999999999999,
+        0.595,
+        0.4099999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/reference_affine_2204": {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2204\\model.pth",
+      "sha256": "236c1c9bc657186f16a49c5be79cd30a0d85906018016d844d625c1b0198368c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\reference_affine_2204\\calibration.json",
+      "calibration_sha256": "c0108e9ca2276398260785b42ac1189638c12eb668b4c907b317929569faf295",
+      "thresholds": [
+        0.575,
+        0.575,
+        0.6449999999999999,
+        0.33999999999999997,
+        0.5199999999999999,
+        0.4099999999999999
+      ],
+      "parameters": 1013191
+    },
+    "split2/ordinary_affine_2200": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2200\\model.pth",
+      "sha256": "e85091d1e2e278b994ddf3975a5ca17dd2ec5560b85345065a95e2ac73aafcf5",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2200\\calibration.json",
+      "calibration_sha256": "58f0a3292f258892ef3d94541cc295475ba09d8be2ae81f9c488a86ba56a4f7a",
+      "thresholds": [
+        0.615,
+        0.39499999999999996,
+        0.4149999999999999,
+        0.43499999999999994,
+        0.44499999999999995,
+        0.32999999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/ordinary_affine_2201": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2201\\model.pth",
+      "sha256": "e3f82e60a2c250425930baf0185f47a4fc5c787a5df0bd175c698d02945c76e2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2201\\calibration.json",
+      "calibration_sha256": "4955e94667b95920caa62f92d2307ac5d59660dfab4d572a2035627a9f51a6b7",
+      "thresholds": [
+        0.74,
+        0.58,
+        0.36499999999999994,
+        0.4099999999999999,
+        0.35999999999999993,
+        0.37499999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split2/ordinary_affine_2202": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2202\\model.pth",
+      "sha256": "ea573a0acc6ff3f7b3d7f9e0b748f01b18140eac623eb2a11d7457fe7e1b6fe8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2202\\calibration.json",
+      "calibration_sha256": "53a89095526cd65ed8d268b3c99e898d6573dfc72953d435111d20acb435cef9",
+      "thresholds": [
+        0.31999999999999995,
+        0.22499999999999998,
+        0.595,
+        0.26999999999999996,
+        0.24999999999999994,
+        0.32499999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/ordinary_affine_2203": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2203\\model.pth",
+      "sha256": "147c40ac15f781e630600f8371b1da90418b00b7821532dfd7f9160cb19a9f46",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2203\\calibration.json",
+      "calibration_sha256": "950e9ff7d3e12c2e824a7c1551e0540e5850b0295195fb62813479e3616a2f72",
+      "thresholds": [
+        0.62,
+        0.30999999999999994,
+        0.285,
+        0.30499999999999994,
+        0.3449999999999999,
+        0.32499999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/ordinary_affine_2204": {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2204\\model.pth",
+      "sha256": "e6a6573abeaf63846dbbdb8bd0f1aaeb0a4ac41f57dd68f5c829c7386274ab5a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\ordinary_affine_2204\\calibration.json",
+      "calibration_sha256": "5f1201a1c9451ecc8c86fbdf2ab0f02b6670da479e2cce1a05f62424c3741226",
+      "thresholds": [
+        0.845,
+        0.41999999999999993,
+        0.5099999999999999,
+        0.30999999999999994,
+        0.4799999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 2026382
+    },
+    "split2/bootstrap_affine_2200": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2200\\model.pth",
+      "sha256": "26be4b93266318e7a2c416f79fa8982c80a945c0d284ac3b10f2ac739f22751b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2200\\calibration.json",
+      "calibration_sha256": "8f2f8aa0eef2b2ac247d680946fef8aebcecc743d242042fb411f745830a03d9",
+      "thresholds": [
+        0.7499999999999999,
+        0.36499999999999994,
+        0.4549999999999999,
+        0.4599999999999999,
+        0.635,
+        0.245
+      ],
+      "parameters": 2026382
+    },
+    "split2/bootstrap_affine_2201": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2201\\model.pth",
+      "sha256": "bb3462ab0e8ec2850becb7a87d539c7c318715b12d16c54309302bd8216cb4ce",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2201\\calibration.json",
+      "calibration_sha256": "9c28efcbbfc218e619790991703f63e16915f7acab4e83d0373290335c9023db",
+      "thresholds": [
+        0.5349999999999999,
+        0.5349999999999999,
+        0.3449999999999999,
+        0.36499999999999994,
+        0.3,
+        0.31999999999999995
+      ],
+      "parameters": 2026382
+    },
+    "split2/bootstrap_affine_2202": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2202\\model.pth",
+      "sha256": "b537c5f7abee92a70a2c751c5a523934a65ec726736806ee6aed3894ae5fe93c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2202\\calibration.json",
+      "calibration_sha256": "4b11e1b9ca77824d1eb2691b66863844b6cf0e51db5693980844e979769b1e56",
+      "thresholds": [
+        0.71,
+        0.575,
+        0.42999999999999994,
+        0.3549999999999999,
+        0.36499999999999994,
+        0.37999999999999995
+      ],
+      "parameters": 2026382
+    },
+    "split2/bootstrap_affine_2203": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2203\\model.pth",
+      "sha256": "545e1c2433214f08b81309578be0c9d47036ca767dcd663dfab5a3a01df4dcea",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2203\\calibration.json",
+      "calibration_sha256": "c3e39f35d2240b31124f24a02ac9cd152adea5c3d8ca69d3926a8140d22e5f56",
+      "thresholds": [
+        0.625,
+        0.48499999999999993,
+        0.285,
+        0.44499999999999995,
+        0.4499999999999999,
+        0.38999999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/bootstrap_affine_2204": {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2204\\model.pth",
+      "sha256": "4ff9e9cac5ce2fbcd5fc5900bc5655e49f017cd283c38501296dedef6b91e68d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\bootstrap_affine_2204\\calibration.json",
+      "calibration_sha256": "4c68d4b7868577fec1969d654b45b2345218ce16088f9b8c38fe3bc3e265cb69",
+      "thresholds": [
+        0.39499999999999996,
+        0.3549999999999999,
+        0.5449999999999999,
+        0.3,
+        0.5099999999999999,
+        0.3999999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/combo_affine_2200": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2200\\model.pth",
+      "sha256": "6bb282362f91e2e814eec72599dd62c2adc506adf85204d95f423d6391644d9f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2200\\calibration.json",
+      "calibration_sha256": "043e05240d89a2e12a05a149821064695abdf699b6acd2e0157f8bc1e4680d6e",
+      "thresholds": [
+        0.35999999999999993,
+        0.22999999999999998,
+        0.58,
+        0.33499999999999996,
+        0.3999999999999999,
+        0.32999999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/combo_affine_2201": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2201\\model.pth",
+      "sha256": "6aa1a1542bdc1d69fb1ee2e91a9562e1735481828d901e10d2657f78274de9e3",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2201\\calibration.json",
+      "calibration_sha256": "30549d26eb9c103285912cfc97e651e7dd926c0d7ce7bc883fbd28ed40fc6d91",
+      "thresholds": [
+        0.195,
+        0.4699999999999999,
+        0.3449999999999999,
+        0.625,
+        0.42499999999999993,
+        0.30999999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split2/combo_affine_2202": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2202\\model.pth",
+      "sha256": "95c8211d1dba8c0a23cd7d92afa69558eaded53159b704cbf5d321115f5b2ffb",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2202\\calibration.json",
+      "calibration_sha256": "f409262ae85b1f6508c1e97fb3b3d5d27278c8d4a87d82dd2ad1945081f9862f",
+      "thresholds": [
+        0.5549999999999999,
+        0.3549999999999999,
+        0.4549999999999999,
+        0.35999999999999993,
+        0.3449999999999999,
+        0.4799999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/combo_affine_2203": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2203\\model.pth",
+      "sha256": "76084c560496413778d0157ef12834fd65b21fefd699266d2c49bcd8eae44114",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2203\\calibration.json",
+      "calibration_sha256": "2bb8392393966ac84fd982058022d58769c94a8fe5659431569f906405b77c4b",
+      "thresholds": [
+        0.5049999999999999,
+        0.24999999999999994,
+        0.285,
+        0.39499999999999996,
+        0.5399999999999999,
+        0.42999999999999994
+      ],
+      "parameters": 2026382
+    },
+    "split2/combo_affine_2204": {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2204\\model.pth",
+      "sha256": "19a4c375d539146d16009eea1a69ca4cb705e7ca37e8409e690b1ddfd047d513",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\combo_affine_2204\\calibration.json",
+      "calibration_sha256": "131c683b0fa85d03ebc413f72ea5a6c50d6c76eadee00d53a0723195bee5fd49",
+      "thresholds": [
+        0.285,
+        0.15499999999999997,
+        0.575,
+        0.48499999999999993,
+        0.42999999999999994,
+        0.4049999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/weighted_affine_2200": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2200\\model.pth",
+      "sha256": "7ecd2d054e80d846e268d3c5fed5c4393745ec61a7708b76d9c3c7f42c7165e3",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2200\\calibration.json",
+      "calibration_sha256": "163862679c5673095bcb8dd11f1bc938869dd6c5d5f505f7907ad91e31edd785",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.4599999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/weighted_affine_2201": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2201\\model.pth",
+      "sha256": "44629a6d0b0ff2b966783645d81c286285be0f03d2067206db863ab69e2c6561",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2201\\calibration.json",
+      "calibration_sha256": "2e74bae79baaf28554ffc8767b04fe17a853f7bd32f41240ff8ca60980371f0f",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.38999999999999996
+      ],
+      "parameters": 2026382
+    },
+    "split2/weighted_affine_2202": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2202\\model.pth",
+      "sha256": "83300e5ae2d3999a641b518833640339a6c7ae8e5744909f1a59c5300f828388",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2202\\calibration.json",
+      "calibration_sha256": "aef0c12157304c80c7d7f5783751094fff407034b10f744fe1a169231158e59b",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3449999999999999,
+        0.37999999999999995
+      ],
+      "parameters": 2026382
+    },
+    "split2/weighted_affine_2203": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2203\\model.pth",
+      "sha256": "8b95023808e35d2ab3f1b7e5ffdb2be0cecf59fcb10a541fc4de19f9f79af070",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2203\\calibration.json",
+      "calibration_sha256": "a2dbea7e6d406b95fbf4a9ce6a2109ab63c604326b10651ea8ea61f2911c2368",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.285,
+        0.3549999999999999,
+        0.4599999999999999,
+        0.3549999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/weighted_affine_2204": {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2204\\model.pth",
+      "sha256": "d4bb099b3400408a26523e58af7d1d425dbc96cb135fc10187bb6a802b1d61db",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_controls\\weighted_affine_2204\\calibration.json",
+      "calibration_sha256": "ccc98b2d87b34e64cb2592c25903e5abfe6031aa992b964d978e74b46d01735d",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.3999999999999999
+      ],
+      "parameters": 2026382
+    },
+    "split2/coverage_affine_2200": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2200\\model.pth",
+      "sha256": "c19d1a2aa9da05a3138995587ec301f4397bf7b8e731cf65973b503fc95265ef",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2200\\calibration.json",
+      "calibration_sha256": "486497b907011d2595ec62024834e7f41e37c3a5b45e6ff3e12ca5606414008f",
+      "thresholds": [
+        0.7749999999999999,
+        0.285,
+        0.5249999999999999,
+        0.4749999999999999,
+        0.4049999999999999,
+        0.31999999999999995
+      ],
+      "parameters": 1021546
+    },
+    "split2/coverage_affine_2201": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2201\\model.pth",
+      "sha256": "7534e21fb49a6ead0b0b5570a8379de56bb88dcf68b392f2f3cd0c2baa5122f8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2201\\calibration.json",
+      "calibration_sha256": "f7c25bd82c6f746d96fffc2c1f07228914ac7f7629fd4ab4293824446b0609be",
+      "thresholds": [
+        0.4599999999999999,
+        0.18,
+        0.33999999999999997,
+        0.21499999999999997,
+        0.37999999999999995,
+        0.35999999999999993
+      ],
+      "parameters": 1021546
+    },
+    "split2/coverage_affine_2202": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2202\\model.pth",
+      "sha256": "05e90e8eed6cf9cfd0e691c8f8546206dcf32ebd87aaf7dd797e1ca03f659929",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2202\\calibration.json",
+      "calibration_sha256": "215ede7cf008349a8c18c3f8f85bcd9dae4bccf87bf7a0b198df98557172385c",
+      "thresholds": [
+        0.625,
+        0.14999999999999997,
+        0.5599999999999999,
+        0.33499999999999996,
+        0.33499999999999996,
+        0.48499999999999993
+      ],
+      "parameters": 1021546
+    },
+    "split2/coverage_affine_2203": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2203\\model.pth",
+      "sha256": "122f7b67fc7f0847c6d32729dae41205b530135b7298a46a46d7a78fd3e20ce8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2203\\calibration.json",
+      "calibration_sha256": "15ab52739b5cc641e191d7bf01f67583f765e512409abe311b49f44e300222ab",
+      "thresholds": [
+        0.6399999999999999,
+        0.3449999999999999,
+        0.31999999999999995,
+        0.4099999999999999,
+        0.61,
+        0.4049999999999999
+      ],
+      "parameters": 1021546
+    },
+    "split2/coverage_affine_2204": {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2204\\model.pth",
+      "sha256": "569188e365f8c921741774c8f944ac03236a8573f262af201fe0b337f4347305",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions\\coverage_affine_2204\\calibration.json",
+      "calibration_sha256": "ba114c4714b48d1985a64fd82f829801887cb87e1cd2906cf6c28ed85161b7f0",
+      "thresholds": [
+        0.575,
+        0.575,
+        0.6449999999999999,
+        0.33999999999999997,
+        0.5199999999999999,
+        0.39499999999999996
+      ],
+      "parameters": 1021546
+    },
+    "split2/global_pca256_affine_2200": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2200\\model.pth",
+      "sha256": "8501133f6f8eae59e3916d7a856a6617e321ad6c665fec4187be52443632f4f8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2200\\calibration.json",
+      "calibration_sha256": "697e2cdf9a33e4237c5c7611019a33a96175cdc5f30b3e9ae1de887de55055d5",
+      "thresholds": [
+        0.7749999999999999,
+        0.285,
+        0.5349999999999999,
+        0.4749999999999999,
+        0.43499999999999994,
+        0.41999999999999993
+      ],
+      "parameters": 1029738
+    },
+    "split2/global_pca256_affine_2201": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2201\\model.pth",
+      "sha256": "4c290c4bc684db32b9e822e2da281248bf507e980827470444a384b0f6629ab8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2201\\calibration.json",
+      "calibration_sha256": "4383d058a7a4ddab31e3ee89dae469cf343a4ab4ff29023941aacb5bdde6ffcf",
+      "thresholds": [
+        0.4599999999999999,
+        0.18,
+        0.33999999999999997,
+        0.21499999999999997,
+        0.37999999999999995,
+        0.35999999999999993
+      ],
+      "parameters": 1029738
+    },
+    "split2/global_pca256_affine_2202": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2202\\model.pth",
+      "sha256": "9be56a15f4eda3658c5e882905af722eddccd6a1db9de3c4565db8824975f70a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2202\\calibration.json",
+      "calibration_sha256": "e729cdd8ff459d7bc3560cd9869954c185719c3f2d75f9a3c68e93467c20d532",
+      "thresholds": [
+        0.625,
+        0.14999999999999997,
+        0.5599999999999999,
+        0.33499999999999996,
+        0.33499999999999996,
+        0.44499999999999995
+      ],
+      "parameters": 1029738
+    },
+    "split2/global_pca256_affine_2203": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2203\\model.pth",
+      "sha256": "5b5ce4684556c7ebd20d8061783f635b1573ea79a61c08f253c9ca933f096afb",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2203\\calibration.json",
+      "calibration_sha256": "b14acba46cadbd732b4ddfeaa79a956c0652d36c3ed5266c74a86eb82030fdc0",
+      "thresholds": [
+        0.6399999999999999,
+        0.3449999999999999,
+        0.32999999999999996,
+        0.4099999999999999,
+        0.63,
+        0.38499999999999995
+      ],
+      "parameters": 1029738
+    },
+    "split2/global_pca256_affine_2204": {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2204\\model.pth",
+      "sha256": "a74c424629297da95921761a692b7ecf939dcf2c311c0ab3fcbabc528ecd8f44",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\global_pca256_affine_2204\\calibration.json",
+      "calibration_sha256": "cda099ae30dce67feba6dbbb6a45081fb5bc846c15fe253232f0b7c1f79bf576",
+      "thresholds": [
+        0.575,
+        0.575,
+        0.6449999999999999,
+        0.33999999999999997,
+        0.5199999999999999,
+        0.4099999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_pca256_affine_2200": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2200\\model.pth",
+      "sha256": "ed4b238cfe86554b9295c9aa4c5b6abd5f1db30284624f887f3f963ae1153e25",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2200\\calibration.json",
+      "calibration_sha256": "033719f3017f10ba57409fe390c02b68182749b64926b1f30780457388f0fd95",
+      "thresholds": [
+        0.7749999999999999,
+        0.285,
+        0.5249999999999999,
+        0.4749999999999999,
+        0.4049999999999999,
+        0.35999999999999993
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_pca256_affine_2201": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2201\\model.pth",
+      "sha256": "b31245fd45e18b70e87d89cad5b573ecd52e90f435d01d12f21192b5d7b1e570",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2201\\calibration.json",
+      "calibration_sha256": "b6d8a0e576b3a48c4e1e75354a0f60fb68a5fdacadbf1af6e66d83b33bffc2e3",
+      "thresholds": [
+        0.4599999999999999,
+        0.18,
+        0.33999999999999997,
+        0.21499999999999997,
+        0.37999999999999995,
+        0.5199999999999999
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_pca256_affine_2202": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2202\\model.pth",
+      "sha256": "69c8f06d859924f3a3d70926cd11e69a07a15dba2c1d30b6b76ba039bce450ce",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2202\\calibration.json",
+      "calibration_sha256": "95a638975c0082f46f64489bfd9cc4ee4ed3c91f5d1417e4dc79dabf164afd37",
+      "thresholds": [
+        0.625,
+        0.14999999999999997,
+        0.585,
+        0.33499999999999996,
+        0.36999999999999994,
+        0.38999999999999996
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_pca256_affine_2203": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2203\\model.pth",
+      "sha256": "d4e53769aa0366195f96d5720b4482fb9ae166ec9af109b95a7ab7c82ad61b77",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2203\\calibration.json",
+      "calibration_sha256": "7d8d2b814239c83ba383f6cab3142592e6ee280887b510ee098c69791c7c1951",
+      "thresholds": [
+        0.6399999999999999,
+        0.3449999999999999,
+        0.30999999999999994,
+        0.4099999999999999,
+        0.6449999999999999,
+        0.36999999999999994
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_pca256_affine_2204": {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2204\\model.pth",
+      "sha256": "0c3a21988b5e011b9d807481c9cfb1ff937f4f8d887f3673c61aab160b35bb93",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_pca256_affine_2204\\calibration.json",
+      "calibration_sha256": "019a39a2559f3d02f376f06dbe12a7ff6d09b01bbac10e08c67ba263a700c226",
+      "thresholds": [
+        0.575,
+        0.575,
+        0.6449999999999999,
+        0.33999999999999997,
+        0.5199999999999999,
+        0.42499999999999993
+      ],
+      "parameters": 1029738
+    },
+    "split2/segment_head64_affine_2200": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2200\\model.pth",
+      "sha256": "53f4b5a1c69e3c0b979f8cc65dde92c8ba1e7a1d012427405d1301e653bfa53f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2200\\calibration.json",
+      "calibration_sha256": "ce3c183c42fba77e04e753cf994992b8941b46ee5be25022e31ee6fd8156d2ff",
+      "thresholds": [
+        0.7749999999999999,
+        0.285,
+        0.5249999999999999,
+        0.4749999999999999,
+        0.4049999999999999,
+        0.36499999999999994
+      ],
+      "parameters": 1029898
+    },
+    "split2/segment_head64_affine_2201": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2201\\model.pth",
+      "sha256": "d39dd25b2679014dfc25ac03efb03ae8e36ecccff70b86987e5aca23c8a52f9a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2201\\calibration.json",
+      "calibration_sha256": "f49fc6deb8411592a3f07ca56e36d6c28a2e71b14481c77dc2fb5173ca0adcd3",
+      "thresholds": [
+        0.4599999999999999,
+        0.18,
+        0.33999999999999997,
+        0.21499999999999997,
+        0.37999999999999995,
+        0.43499999999999994
+      ],
+      "parameters": 1029898
+    },
+    "split2/segment_head64_affine_2202": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2202\\model.pth",
+      "sha256": "498fde71062816a942dc9a0881cd10dbb98a2342ac70f031d50b858f0083338c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2202\\calibration.json",
+      "calibration_sha256": "3c244654c134340012501e3a47831ee7c3fce2d1f2ac2bcf80f3903b4f84624d",
+      "thresholds": [
+        0.625,
+        0.14999999999999997,
+        0.595,
+        0.33499999999999996,
+        0.3449999999999999,
+        0.4549999999999999
+      ],
+      "parameters": 1029898
+    },
+    "split2/segment_head64_affine_2203": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2203\\model.pth",
+      "sha256": "a510fa87badd49ad80b231389407226ee7d872c4f0eeb97bfd420a02e676179c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2203\\calibration.json",
+      "calibration_sha256": "59f44c2018c9f2709b41c77d23378f5d1ad5a80a13d92da6c1000bb4af75a334",
+      "thresholds": [
+        0.6399999999999999,
+        0.3449999999999999,
+        0.32999999999999996,
+        0.4099999999999999,
+        0.6749999999999999,
+        0.41999999999999993
+      ],
+      "parameters": 1029898
+    },
+    "split2/segment_head64_affine_2204": {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2204\\model.pth",
+      "sha256": "c124779c798507cd9f63ae17595c9a74a997bbde75c6ad9ebefaccd56e76787a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusions_adaptive\\segment_head64_affine_2204\\calibration.json",
+      "calibration_sha256": "ac6f2ebe8084406061718e7970de2334d5795729d5655d971d6055d2a689e97d",
+      "thresholds": [
+        0.575,
+        0.575,
+        0.625,
+        0.33999999999999997,
+        0.4599999999999999,
+        0.43499999999999994
+      ],
+      "parameters": 1029898
+    },
+    "split2/ordinary_segment_local_2200": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2200\\model.pth",
+      "sha256": "1c57ae9d48ef06ba6ff6c641badb8ea63968171aa81470503c9113cc648f787d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2200\\calibration.json",
+      "calibration_sha256": "9c6c0ac8825b57ad2ae47886c9d9d548c76ed783fdb8cf012e0f0d04be42c0b8",
+      "thresholds": [
+        0.615,
+        0.39499999999999996,
+        0.4149999999999999,
+        0.43499999999999994,
+        0.44499999999999995,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/ordinary_segment_local_2201": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2201\\model.pth",
+      "sha256": "da84045fd6545183c4f6e9d025c39d677b7b691bfcec9695bf6051149fdf89d5",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2201\\calibration.json",
+      "calibration_sha256": "b8eefbccc8f1d6ae70b63dfc0f41c8caa9dc29bfa6dab0ef836b8653fdbbb780",
+      "thresholds": [
+        0.74,
+        0.58,
+        0.36499999999999994,
+        0.4099999999999999,
+        0.35999999999999993,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/ordinary_segment_local_2202": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2202\\model.pth",
+      "sha256": "f374b351eff771d07225d68920a9fddfe4b8594035608d75e4ad9398e842c0cc",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2202\\calibration.json",
+      "calibration_sha256": "0bd61649469157b83520612b7dca1d60de79802fcf2f6a4a782beaac349ca30f",
+      "thresholds": [
+        0.31999999999999995,
+        0.22499999999999998,
+        0.595,
+        0.26999999999999996,
+        0.24999999999999994,
+        0.29
+      ],
+      "parameters": 2034737
+    },
+    "split2/ordinary_segment_local_2203": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2203\\model.pth",
+      "sha256": "0e773ea082396cb52c4e5050fc70f736ab201c9ec2bed4dd03d655f520dfcd45",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2203\\calibration.json",
+      "calibration_sha256": "49e47c9f66687976334ab057376133063c444873cd4043e55ebd3c5590f3b9da",
+      "thresholds": [
+        0.62,
+        0.30999999999999994,
+        0.285,
+        0.30499999999999994,
+        0.4749999999999999,
+        0.4599999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/ordinary_segment_local_2204": {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2204\\model.pth",
+      "sha256": "6d79218d0de79327aab06b6be1a0c3f05ca219193c0e9a94f3dddef05c16160c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary\\ordinary_segment_local_2204\\calibration.json",
+      "calibration_sha256": "5993d386c077878077a88bc6b22a7df790a869c8336192b3ad46e366e0a212e0",
+      "thresholds": [
+        0.845,
+        0.41999999999999993,
+        0.5099999999999999,
+        0.30999999999999994,
+        0.4799999999999999,
+        0.43999999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_global_local_2200": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2200\\model.pth",
+      "sha256": "a234d7553e25ca2b9be48ca01e2d41237a4f874d156c0ac827f2d1610f67f74d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2200\\calibration.json",
+      "calibration_sha256": "55232a38eb8aebf5ceba791323858d2a5b0617e0e2b90e348a46341d78111ec4",
+      "thresholds": [
+        0.35999999999999993,
+        0.22999999999999998,
+        0.58,
+        0.33499999999999996,
+        0.3999999999999999,
+        0.31499999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_global_local_2201": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2201\\model.pth",
+      "sha256": "53a43bad5d2c090bbca6d87d59adb398eb6059a85e5270c305bb76efb71cad6d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2201\\calibration.json",
+      "calibration_sha256": "5f1e02c4b04be83939e181e913f96399219c6d7bc27f6afe57e025ef2ff29217",
+      "thresholds": [
+        0.195,
+        0.4699999999999999,
+        0.3449999999999999,
+        0.625,
+        0.42499999999999993,
+        0.4099999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_global_local_2202": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2202\\model.pth",
+      "sha256": "e9eaa676c369c0cb17b2c9ee891232b6b93de170709c0c8c7a90c6ef624b8616",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2202\\calibration.json",
+      "calibration_sha256": "3f578b4b2805d3627a2abb284f58d79f968c903b5f164f5c2cc1089419b0d283",
+      "thresholds": [
+        0.5549999999999999,
+        0.3549999999999999,
+        0.5249999999999999,
+        0.35999999999999993,
+        0.41999999999999993,
+        0.4799999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_global_local_2203": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2203\\model.pth",
+      "sha256": "c25cc989984eb4cb5abda6c0452693f74fc70758a06adab4c848cf59c374d982",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2203\\calibration.json",
+      "calibration_sha256": "b8fe176ea6156bfe9abe9509f49aa1e79952e3a75771650e26f1337a4cef5450",
+      "thresholds": [
+        0.5049999999999999,
+        0.24999999999999994,
+        0.285,
+        0.39499999999999996,
+        0.5099999999999999,
+        0.41999999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_global_local_2204": {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2204\\model.pth",
+      "sha256": "a81510eba5093f91cafc68e878455f212a4940272c07ac5f4f68492f41984cce",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_global_local_2204\\calibration.json",
+      "calibration_sha256": "fe6d51137de4571b345c422138d8b1188a5b15f0e8dbc4e7a817bd171776ea83",
+      "thresholds": [
+        0.285,
+        0.15499999999999997,
+        0.575,
+        0.48499999999999993,
+        0.42999999999999994,
+        0.4049999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_segment_local_2200": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2200\\model.pth",
+      "sha256": "82f4fa8b39f258717f3be461c4ad7e15ffc954f4cffdbb2667acb223869c86ae",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2200\\calibration.json",
+      "calibration_sha256": "b42f28486bc7462ab019d466a579cf55aaeb85a2b2d443b40546247c2b88274b",
+      "thresholds": [
+        0.35999999999999993,
+        0.22999999999999998,
+        0.58,
+        0.33499999999999996,
+        0.3999999999999999,
+        0.43499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_segment_local_2201": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2201\\model.pth",
+      "sha256": "cace07c72e94b95495bd2b11190efb3c50fac7deb8e4f7a2a4889ae00ca277e5",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2201\\calibration.json",
+      "calibration_sha256": "2415b725ca4e1bea5059353c17595357c534c9563a79be8b75036e07bd049b61",
+      "thresholds": [
+        0.195,
+        0.4699999999999999,
+        0.3449999999999999,
+        0.625,
+        0.42499999999999993,
+        0.43999999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_segment_local_2202": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2202\\model.pth",
+      "sha256": "60463dc4bbf87295135ee3f9036608e14f003a380145626ea56737e40b8220bb",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2202\\calibration.json",
+      "calibration_sha256": "14e406a0fab71a82ffad45f5e75b539da39db332b7d18c164f6dec8c28e9bbdf",
+      "thresholds": [
+        0.5549999999999999,
+        0.3549999999999999,
+        0.4549999999999999,
+        0.35999999999999993,
+        0.3449999999999999,
+        0.5299999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_segment_local_2203": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2203\\model.pth",
+      "sha256": "e318c5b643b9b72bd48235d4bdd8680be908698b8c26ef89b41b4dae9feb1994",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2203\\calibration.json",
+      "calibration_sha256": "ecf1414a9db35aaedee65bf07e07625b63d3148dce58ce8c24732906c166e8bc",
+      "thresholds": [
+        0.5049999999999999,
+        0.24999999999999994,
+        0.285,
+        0.39499999999999996,
+        0.565,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/combo_segment_local_2204": {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2204\\model.pth",
+      "sha256": "c8a6bf12eb3d454ea6d42ad6c50c5212f6166f3a02aadfa3c1220d74d07909b2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined\\combo_segment_local_2204\\calibration.json",
+      "calibration_sha256": "0a6130d4c6609e3c2263aadd313261a267d8489032c19b4dc4eef323f7e84e3e",
+      "thresholds": [
+        0.285,
+        0.15499999999999997,
+        0.575,
+        0.48499999999999993,
+        0.42999999999999994,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_global_local_2200": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2200\\model.pth",
+      "sha256": "afc5aa64d464ddf8e808e2e3e48892a5bdd8cc359a9f097ecca663d094bf338b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2200\\calibration.json",
+      "calibration_sha256": "03453021cd06beab22eb1599d90040d8d3a6e7049c3bd2245b1e3f5aca0adb93",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.42999999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_global_local_2201": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2201\\model.pth",
+      "sha256": "8821035c5ca84abc98226f1f495c7702264d44b924bccee70a92b93ab1bd43ca",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2201\\calibration.json",
+      "calibration_sha256": "6611019549900d5e8ca2f72cbb7bb8c62adea377d7542f837d6b5a0a3cc339a0",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_global_local_2202": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2202\\model.pth",
+      "sha256": "1b60464e7de40a970377d59b26510c888a526d3284f60603e5418c3832058173",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2202\\calibration.json",
+      "calibration_sha256": "ea7b9edff4d2bbd6c5b3522e2657053916691dd5344216cc3e81f64c5a950396",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3999999999999999,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_global_local_2203": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2203\\model.pth",
+      "sha256": "18fab05c8c26f9c2ddb2cce797c82840f02339e3a91f6e3d2257d1d974db6cb8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2203\\calibration.json",
+      "calibration_sha256": "ab57d1cbe35c2839537c35d30e02e3a9668262488f2543761a9b90ed20ce9f57",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.29,
+        0.3549999999999999,
+        0.41999999999999993,
+        0.35999999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_global_local_2204": {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2204\\model.pth",
+      "sha256": "2e311a8e7a1e93ec47a229d592d4c2556b38311e43e2caa358531a50cb529456",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_global_local_2204\\calibration.json",
+      "calibration_sha256": "30e9bee717e2e4c91f96a4e88d331c0befc84f1b251d8c3e8901c360c41310b3",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.3999999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_local_2200": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2200\\model.pth",
+      "sha256": "43e0e5e98eea9bec0855410fd625c3034cd7a19f8834e702e9a4dd56ee2064b8",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2200\\calibration.json",
+      "calibration_sha256": "75490f1ecc2b02b604f428ea42da7decb99f9be40bafb38992ca76cd93ef39d5",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_local_2201": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2201\\model.pth",
+      "sha256": "9e7b36fe21445e54b48e586445dad9245c1a9a7987fd04bf0aa121d4b46c96f0",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2201\\calibration.json",
+      "calibration_sha256": "5affe1bc6963fe1b32996663a434130a5495d9a7e80e2a40b7e559861a3d755a",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_local_2202": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2202\\model.pth",
+      "sha256": "cc21bd2d595334c914b3a126a7f5c727976c140bdebd0036c0ad77e3920a6840",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2202\\calibration.json",
+      "calibration_sha256": "ef82d6c532f1c8c6ceab6a091e4f6d0b0ddb438b733b063fccc39b95de1929aa",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3449999999999999,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_local_2203": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2203\\model.pth",
+      "sha256": "56f0db0d582124661ae54eb0a6c74a8eb07923efc4b30ef6a187fd107224a7a0",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2203\\calibration.json",
+      "calibration_sha256": "f498e6f2f4030696aa671f957081b590d3e02f6839c9460270d059519c6a54a4",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.285,
+        0.3549999999999999,
+        0.48499999999999993,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_local_2204": {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2204\\model.pth",
+      "sha256": "420d4ed72f547d799de33e2c3dbad0ee902c9200ddeb9ed4cc5bf73f5c6a9254",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted\\weighted_segment_local_2204\\calibration.json",
+      "calibration_sha256": "cef403d6d7f7357e8ca94e35ab3ce6d8c1279a798a7af722f7fb9341c9a2f5c6",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_isrj_2200": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2200\\model.pth",
+      "sha256": "d6aebfcb7c64ffcd18433c77c84b77013c11d44511f7bfd1a693f0882a0c75c1",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2200\\calibration.json",
+      "calibration_sha256": "fccc69f722716c3cc9515eeca0a37c7cbf7d185c24186a612f2c6572b05b0c75",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_isrj_2201": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2201\\model.pth",
+      "sha256": "6d4f6c7a7fd6300862bd45ab60019d2b38db94b891a7e4b42d031b7388d7318e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2201\\calibration.json",
+      "calibration_sha256": "bf88f065296e8e92d95f3f7893138c459b1f0d7db72faf09c9ba3a26cd9170ad",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_isrj_2202": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2202\\model.pth",
+      "sha256": "d4b05caea4120f8c20c3f2eec90271c60124ffb9798cae09cc6e519fb4885b6b",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2202\\calibration.json",
+      "calibration_sha256": "8b1d07b2fca68780c7295a09c0c2ebb176548bfdb6b4432c665de9d8f3cb026c",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3449999999999999,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_isrj_2203": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2203\\model.pth",
+      "sha256": "8da101b9d0034aa924c3a2ed3186469164ca0595683c6452745a5f28bac72363",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2203\\calibration.json",
+      "calibration_sha256": "42f08a67f89e5451f32966cbe4b7c782b0d43ebbd0690b52b776c24031f76f95",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.285,
+        0.3549999999999999,
+        0.4599999999999999,
+        0.49499999999999994
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_isrj_2204": {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2204\\model.pth",
+      "sha256": "995d7350ca0b2aa2dcc76b3b1d535877f1c4bf572080c763eddd16792e537909",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_ablations\\weighted_segment_isrj_2204\\calibration.json",
+      "calibration_sha256": "ebd531227170d3755a097aac5fc49e9dc102abf4fa3fc5a2947ce4c4995449fc",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_guarded_2200": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2200\\model.pth",
+      "sha256": "e2742f84f0148b13341050a86566e9a73ddfa5d4c9a03aaaeb17c36e58904c1c",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2200\\calibration.json",
+      "calibration_sha256": "c8932916bd7e26bace2118e3b081d7fd410141ec306fc537c605d225c887445c",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_guarded_2201": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2201\\model.pth",
+      "sha256": "e74966ca7205f5bfc1158949be1b30aded5660bc2f1dffa7b377a42f844aa308",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2201\\calibration.json",
+      "calibration_sha256": "a27b06c7e678c811d16a66a8f93de11cf4263a3565db27ed76f289385b61d45f",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_guarded_2202": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2202\\model.pth",
+      "sha256": "7bd901295c8abaf2ac02abb8c9e38ccfcc31cf7e1acff1713cb6981edaf743f2",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2202\\calibration.json",
+      "calibration_sha256": "6478f5c7a875e9cca31fd0fe5faff6bfed01022f37352d0702712c96a40fd2a9",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3449999999999999,
+        0.37999999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_guarded_2203": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2203\\model.pth",
+      "sha256": "2ecc7c44d5066506265bb34446d14e919a501e9ff89af7cb433cd59b69f74033",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2203\\calibration.json",
+      "calibration_sha256": "12deedc208bc38b816c3c363342f37ac9db0ee9e44a2c72964f401380819bd96",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.285,
+        0.3549999999999999,
+        0.48499999999999993,
+        0.3549999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_segment_guarded_2204": {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2204\\model.pth",
+      "sha256": "24e8e5492bd338e2cbc0a0f8cef98fc5ab7e36d72e9049555b10ecbb31e7ab2d",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_segment_guarded_2204\\calibration.json",
+      "calibration_sha256": "23ee3f88b08ee81e27a96a397b9b49760df6b35227f2fa982348e26bf570aa62",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.4149999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_isrj_guarded_2200": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2200\\model.pth",
+      "sha256": "2246c0af4c718572d8cb6c82dcc1cb7523dfba85ed4408d5b07024cf56bf920a",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2200\\calibration.json",
+      "calibration_sha256": "c8932916bd7e26bace2118e3b081d7fd410141ec306fc537c605d225c887445c",
+      "thresholds": [
+        0.235,
+        0.30999999999999994,
+        0.4149999999999999,
+        0.5199999999999999,
+        0.32499999999999996,
+        0.5199999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_isrj_guarded_2201": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2201\\model.pth",
+      "sha256": "9861bf96b50cbc5dac4b4582ea5fcc3b6302adc5c5e8b2736a8feaab748d2b0e",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2201\\calibration.json",
+      "calibration_sha256": "a27b06c7e678c811d16a66a8f93de11cf4263a3565db27ed76f289385b61d45f",
+      "thresholds": [
+        0.4699999999999999,
+        0.5549999999999999,
+        0.3449999999999999,
+        0.4599999999999999,
+        0.30499999999999994,
+        0.42499999999999993
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_isrj_guarded_2202": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2202\\model.pth",
+      "sha256": "9e0269e8105c18178d164434af7872c63cf304c0233140b8207fcd770c64f36f",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2202\\calibration.json",
+      "calibration_sha256": "6478f5c7a875e9cca31fd0fe5faff6bfed01022f37352d0702712c96a40fd2a9",
+      "thresholds": [
+        0.145,
+        0.14999999999999997,
+        0.5299999999999999,
+        0.4549999999999999,
+        0.3449999999999999,
+        0.37999999999999995
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_isrj_guarded_2203": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2203\\model.pth",
+      "sha256": "1d80f2cc9a4ad084574e3a6b90aa7ac38c74a984392b41d17272c819773181ac",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2203\\calibration.json",
+      "calibration_sha256": "24e7d3a38ba168065fcfb9f580f83761a8cba1f048998c78f59dbe9d417a86ad",
+      "thresholds": [
+        0.5499999999999999,
+        0.21499999999999997,
+        0.285,
+        0.3549999999999999,
+        0.4599999999999999,
+        0.3549999999999999
+      ],
+      "parameters": 2034737
+    },
+    "split2/weighted_isrj_guarded_2204": {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined",
+      "split": "split2",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2204\\model.pth",
+      "sha256": "2fd68b7352b244fd618b86095f226e88c6ce2e341415ed80cd09bdecf0a03d85",
+      "calibration_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_isrj_guarded_2204\\calibration.json",
+      "calibration_sha256": "23ee3f88b08ee81e27a96a397b9b49760df6b35227f2fa982348e26bf570aa62",
+      "thresholds": [
+        0.83,
+        0.13,
+        0.63,
+        0.4049999999999999,
+        0.43499999999999994,
+        0.4149999999999999
+      ],
+      "parameters": 2034737
+    }
+  },
+  "selection_path": "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\final_selection.json",
+  "selection_sha256": "355d5ca9659ddc3d1fcb7762bba7b485963ed807eecedbdfea9e3230ff0c7416",
+  "confirmation_seeds": [
+    3211300000,
+    3212300000
+  ],
+  "sources": {
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\01_AUDIT_AND_BASELINE_GOAL.txt": "a802ad29cb37fa7bf90186d94e579c4001234e662b79a1cefff5e42a1d4f29df",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\02_MATCHED_READOUT_GOAL.txt": "e462adf5d7eed0f2bc724abeae15296a2a18af3b07254aa8224d9720e7b4cfa6",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\03A_RESIDUAL_SCALE_GOAL.txt": "d404aebf54aa47f935d0b998becd62fe9d7fc121d75e5fbc9f12e374ece7aa03",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\03B_COVERAGE_READOUT_GOAL.txt": "e66be732a5deee40eb8f5379a1e23ffc550638204ac81df815457f1be7966513",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\03_DUAL_LONGTAIL_ANALYSIS_GOAL.txt": "abde0d9e7ac617c80fab33e19959a1136715e64363048df67539ddbb0152dc06",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\04A_PCA_CAPACITY_GOAL.txt": "bba727a37bcbd7aad5072952c6623712ac3da36f72fcd2a4878c5b73ff065e5f",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\04B_ADAPTIVE_CALIBRATION_GOAL.txt": "619dca8c9db26ce8520a3f0f1d6b0b2993c4d860344b865a4b85a1d36fb85706",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\04_ADAPTIVE_EXPLORATION_GOAL.txt": "ab700778c3edfc28952c74a2b5e2d199cd78d90e6eff52330bf807a1509b7644",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05A_MATCHED_EXPERTS_GOAL.txt": "693a77019f684ad3c380f27230901692f50f032ea0e0f39aa385be183689ac02",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05B_FUSION_CONTROL_GOAL.txt": "0168cec771f155ae1d994e934c6766c05fa2ec71fd50c819b9a7b1d99b35802c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05C_SAMPLING_MECHANISM_GOAL.txt": "efb33c5fe69f6175b0040954878cf47c9812f374a5a8a0e6bcaab3d77ff55ae4",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05D_COMBINED_READOUT_GOAL.txt": "2687d745af86f6bbd92ec61b8e4f796c3c246f1fe5564699a18bd2a2d72bcdf4",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05E_LABEL_ABLATION_GOAL.txt": "146a79228b753d0a4061f7c352179a8fdd5eb20fa3f441a93d9cf0fb2973e3f8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05F_ORDINARY_LOCAL_CONTROL_GOAL.txt": "a1b45eeba7fff92e6a8e182a427384ae6b8cdb0b0f1e020713334e48dff131e7",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05G_WEIGHTED_LOCAL_GOAL.txt": "af7ad34c3c46c0e96ee8ce24b04cc11c3b242761e619b686242b3fc757ba7e61",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05H_STRONG_REFERENCE_GUARD_GOAL.txt": "6d76d3e943281bd872b3776e9fab2ca99c77c5e8de1e02e358817cb2d93d23f9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05_EXPERT_FUSION_GOAL.txt": "8a6517ab9e50961072569e83172a44df899a2c8a155c1ad8c07c0f5e55d62842",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\06A_FROZEN_PHYSICAL_GOAL.txt": "023868631577730e9f60da6942d0e5ee7975567f73d42ab7e64c35105be420aa",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\06B_LONGTAIL_FEASIBILITY_GOAL.txt": "094b635bf0e9745cdeb9d901f8af9286e8ea325a98a8837e07057d54518c2e75",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\06C_FEASIBLE_MATRIX_GOAL.txt": "1cbc2484314085ee366e7250faf77f0b16434f458bb44044d74d70338e398c3c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\06D_EXACT_MARGIN_MATRIX_GOAL.txt": "0dfec91e8e7fa311d7b06b160b128dfc590faa183b0e35c2111763fdfb740c6c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\06_CONFIRMATION_GOAL.txt": "ad01b4aeaaa7ca89de6cb80c94904dd4727fb8a759eb46382edbe433903a05e6",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\07_DELIVERY_GOAL.txt": "03b7fe1379c573768a4ec3b223c8412e67a06f301e1b896440da795f0759624a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\adaptive_readouts.py": "c004b5ad55c6668dbe75ff532e00684f4099a1f769e03b9e0fa46281b532cd6a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\analyze_complementarity.py": "75054d5fc3276424e2a4c9ecabf3da0db0c8794cadfbc32516c06e6d350555a6",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\analyze_factorial.py": "4823c49346f94d1fce8be329d77c444b9664b06d02954e6d834b98d279153e5a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\analyze_sampling.py": "5df937d8606400798476d7538ea72616b9284fed8be7d28f5a067a6b54c08ff8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\analyze_slices.py": "a2aade3055ae70d306726ecf495a3c417dff11ad6f8a5c4c54625f23606f0451",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\audit_exact_matrix.py": "9d7edffefc5d83871a84ee252e8228d8214fa59a0bc71b9053bff0ae137ff495",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\audit_inputs.py": "4c57db0f8f90704046029a5637b62c35a9b662307b8333784d768dd774d4dfcf",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\audit_longtail_design.py": "970fa9e6723ce455d87d27d1c8f7efaa960317ddcdd62948f320854aa1b2e4c4",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\audit_weak_caches.py": "9c013bbb10722e57995208a6be2fb8e48b425929fb2085557618f04a80cf0398",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\benchmark_final.py": "07c3ea2e3eccedf8c721ffc1231f04cc2e9fcfdb47b33290b8f12a5c7aeb1d0e",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\combined_ablation.py": "48791eb5b755d6cef65d8b503839d7651f08ababae8f00f172ffbea4c859602b",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\combined_readout.py": "5f5acc6d07ddc21686ab4196c5b41809d9df556a9c9c1d20b757d2e4ac1c0daf",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\common.py": "6c18450327a437b81fe7a3568b118a92e15ef40b5211de94e3266a024793f503",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\compare_sampling_controls.py": "fb7602f2747f02bb7e626dbb8327728981f9d31d77b4f529e9a2e74a7526ee34",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\design_dual_tail_matrix.py": "d009d0c64a2f96ed52973a7d880ce4ad30e2732166247ddd333f33f82b7ba0b0",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\diagnose_heads.py": "bccdcf1415909c4ff5acb73a42d2cd908d350269afd2aa76967bd1e1c8308233",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\evaluate_adaptive.py": "33687a09a51e617e4158ee196b1d98d0964b0f003cc1a3064a40e6d4c03c63d3",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\evaluate_fusions.py": "5b8c63266191191044278300a7e435f59ab9bc5992327f88d9f10072450ded75",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\evaluate_physical.py": "c7ce3f83191f5c1cab9c0a72f68ace01638af7f5da9bd33b9b00b829e809219d",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\evaluate_stage.py": "e54b5a60b0d5f09fee7a6505b5a994867a544681e206860205d95d352a8eba85",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\final_campaign.py": "7b337eeb8dae7fb3758b1e51504f777969e8d902d4c55c238a5e31d91f2fec3c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fit_adaptive_calibration.py": "d5d6073b2e9012704e5bbe8eadf8d821354f8d839f320d83a76ad31dbb3ae4e3",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fit_fusions.py": "2c17f6f3548d35b64cf20d34553300847415610872411b3b28881ab9cc6f1aed",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fusion_runtime.py": "a92930e244239666018f77fa5d57baf227249c50868a0cf66251b31c93f3c6a8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\generate_evaluation_pool.m": "4c1c47383845724257c48d0e41b3e02283c1cbd93f7ca49933eff629d8acbe37",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\generate_frozen_pairs.m": "4b045b7079e0e102da07231bb3eb59cb6b17bec2675477cd9a5040aac9abc472",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\GOAL_PROMPT.txt": "565a1c189b3fd95217f7410f97cf5de0cd00788f6f0bd3c54386cd0eba1a1738",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\package_delivery.py": "a54b8ab73fb049ed04de970baf2c1b0bd6d1afecaba6745e500be88bd2eba3a4",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\plot_final.py": "d9ed764324efa372f61bcf4d838b2f256f5a5cafa4af743ee2bd2ca663145be9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\plot_readouts.py": "33fb6e479c884f3565984abffe008f0a5b5043ee7ac3c39e12ec16f62080dd06",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\protocol.json": "85926d7ad1271d619f18bd57678e6e5aea0e4d82a4412f5d463fbde1a7beab94",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\record_data_usage.py": "621efa8400917b76a137fb09f3005f6010d5aad1b4d6cff73373d116bb1ae641",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_coverage_readouts.py": "ee3ab691e5b16cd21b0b4427b57e4eb03ffe10840c7b2d4d2454b7e5d3c57758",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_final_pipeline.py": "957cf806f3a83f0c7dbd4b36f71563a5d99095b5502ad9c036845c2d4f7b2904",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_followup_queue.py": "578ff16abfd9535a487d5593926b2bb0fb10aadc7cdcc948a69bae126880cf34",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_readouts.py": "d260ca3e0c6ac2e926b260bb42eaae0096448ea754a1001e74af2aa11c3e34d4",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_strong_guard.py": "0b0dbaa9da668169ca995a93812c9043761b7cc912562402960536781547278c",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\shrink_readouts.py": "6dc48e8f721aeccd62ee44fe5d7c9fe879a6e65833847136d35b397dd004caf7",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\training_weighted.py": "2a21941c0449227af4098ee8dd3c8260e1e5ce4ac9313e2ff9a7a9809646e7ec",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\train_controls.py": "54d7bf55dc4a040e35d3677bd771b01f757b538e139f97ee614d170042700874",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\train_experts.py": "9621170b92fcb68076a2e108fcbb41c3f6f492e1a8358c8d03d59426c5ed8768",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\verify_physical.py": "f111a6a224b46375efbe9eeb1932fc65b7061e5b7a72b6e8a5ad005fcd847d08",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\verify_results.py": "a673bf6103d186afeed84683dca18fd0b008e0cd6e62161aca2e0ec43c1bf1b2",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-09-01-wide-followup\\generate_confirmation_pairs.m": "3266b77bb02d4a7812a1468cc164f417610d41929aa9b5459216a09a337d7db7",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-08-01-overnight\\generate_absent_views.m": "bd76cabca1f479d0538e258546b24dcd85bb824547e9182a00876d90c8ef8faf"
+  },
+  "development_evidence": {
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results\\summary.json": "c926af04c4820cb3af7892d8b59251221fd959550f8f35ac176ed43443c69e7b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_scaled\\summary.json": "ce59eebdca71ed2ba7f66902c9021afe1834eeacb3e3ad397f3e36e13f236fe7",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_coverage\\summary.json": "8d3d6cdca601dda9bb336f40e5c6af8cb0b822fb57d4934bf399a3f3e43d420f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_experts\\summary.json": "4bda778e35e00d43d32546c5e631e96f923add8010cd046b082e294d8e61c02c",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_development_results\\summary.json": "82d33a7a818c43759e7fe7e0b395a556bb7d8a15107a519a6e6c3c7a819c0a45",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_development_results\\summary.json": "b193e5b2e95408894f3733ef479062d489e011f20acdfe694b018045d3cef1b8",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\ablation_development_results\\summary.json": "e3792f00573169c21721b6701b9d2398fc47db87648efb18006a705888ffb56b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_ordinary_development_results\\summary.json": "22b44ea5b1e7b2f9400c4c205ee7333f41bf693ba649b7d35d7c8f1dad068893",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_sampling_controls\\summary.json": "bc423393d6dbac546f16ff4150a3aeb1058bfb05932fcd07a8afbbba091836b5",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_development_results_controls\\summary.json": "eadb06c22851f16920e4cf5fd599efd40b4b313419a2b195e6978cdd80cd6f40",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\combined_weighted_development_results\\summary.json": "a76df28be8da89e9e50721c3bea98ae3295d966e339078de44dd7139893f66ef",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\weighted_ablation_development_results\\summary.json": "50a4c4dec0945c99c2655ec2818ff60e211f9043330bc8e0f700130a9a1b6c90",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_dimensions\\summary.json": "74e990c39f98edceba43822fe8bffa8a08b69bba08df05dad210b0b109ad6c27",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_development_results_adaptive\\summary.json": "4266d2df31393e0b1149f25bf176a938bf69f79aac96dcfbd7cc9a26bdc03cf9",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development_results_strong_guard\\summary.json": "b109c6633b487ca5e6afa28b36623f26456a6b5df5bb5c84a0249c38eb412129",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results\\summary.json": "1a9ec82822a3cd520600bcc2461df4e6381542fad8476b21fbfb93afe02cf177",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_scaled\\summary.json": "2a4a9f825ac224f70a6e3adb3044828fe0f427d1575f6c695591961060e4b7d1",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_coverage\\summary.json": "28d71c9a1d9cc727536f0a3a98ca36e72a09122d891fcf140f32bb3fe4bc5a70",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_experts\\summary.json": "9e4ffbe7d460ac58640d418c316404b4836a89068f4594575083ff3059b984c1",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_development_results\\summary.json": "65b7c65a374d5a1634b61828988089f0050f2e7273156ee1260de14ff83e5364",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_development_results\\summary.json": "6412aa520263a82743d043e6a9a4edd1aefcef50a264bb62ba1ac1ef197a271f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\ablation_development_results\\summary.json": "d112e41264a16474ef71442bd9d4edb3bc154e968bde473acd907a93d09b40bb",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_ordinary_development_results\\summary.json": "40f0ef8355e09acba68f88dcb98a08787e9d091f2aba70953986f86736e863d7",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_sampling_controls\\summary.json": "68cd0f7caed6d1c510dd63af06b3624d52eedfcd9221309ce6157c929e5403d3",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_development_results_controls\\summary.json": "7723bad6f4e817dd12e5419cbc34aacd40a8538941aadf2c12da200c48c40b92",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\combined_weighted_development_results\\summary.json": "875056fe7a89b29d90ebcb79c595f4292714619194aadb2b69af07ce4b976738",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\weighted_ablation_development_results\\summary.json": "5cfb8bd06f0bf8f449aeef19bd7e3ed3a92c42032bfe62ed9b8759c2cedfc160",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_dimensions\\summary.json": "fea4ca257d22931e7eb65c3f2c6306db8b08cfb48af5525023eb7d1cb85dfbaf",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_development_results_adaptive\\summary.json": "7cc5436f5a3027a49a586e121cd87ba939482092b2cba2c1e97430aa5cc7b4da",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development_results_strong_guard\\summary.json": "6412ec9021548e875f6fbced441f58dc3edaaecb3457377b83ab08019774c13d"
+  },
+  "time": "2026-11-09T22:28:36.854169+00:00",
+  "confirmation_not_generated_at_freeze": true
+}

@@ -1,0 +1,10 @@
+{
+  "name": "combo_global_local",
+  "seed": 2203,
+  "protocol_sha256": "bc1c082bd67ed884c7f72f29df89f6f22e3a0d2a1ba436ec62590067ca6b7a24",
+  "time": "2026-11-09T18:48:10.594511+00:00",
+  "sha256": "989e8cf96af57ee44c95c11402cae0e70c3c30f483a3b40d5fdd233c2e4365a2",
+  "fallback": [],
+  "parameters": 2034737,
+  "replay_max_error": 0.0
+}

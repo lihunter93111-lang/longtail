@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "source_files_checked": 125,
+  "scalar_metrics_recomputed": 4160,
+  "maximum_metric_error": 4.163336342344337e-17,
+  "complete_heads": 180,
+  "complete_experts": 40,
+  "expert_updates": 400000,
+  "head_updates": 1080000,
+  "head_identity_visits": 34560000,
+  "expert_identity_visits": 12800000,
+  "errors": [],
+  "time": "2026-11-09T22:50:59.732207+00:00",
+  "matched_expert_initial_states": 30,
+  "matched_weighted_natural_orders": 10,
+  "exact_zero_residual_replays": 30,
+  "head_cached_feature_presentations_by_view": {
+    "original": 28043280,
+    "gap10": 4752360,
+    "gap15": 1764360
+  }
+}

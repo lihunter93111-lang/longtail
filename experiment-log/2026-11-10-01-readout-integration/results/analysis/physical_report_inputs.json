@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "TPR",
+      "identities": 1717,
+      "candidate_mean": 0.731974373907979,
+      "reference_mean": 0.7117064647641235,
+      "difference": 0.02026790914385556,
+      "seed_t95": [
+        0.008238664056105762,
+        0.032297154231605354
+      ],
+      "identity_bootstrap95": [
+        0.016307513104251572,
+        0.024461269656377398
+      ]
+    },
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "matched_absent_FPR",
+      "identities": 1717,
+      "candidate_mean": 0.029353523587652884,
+      "reference_mean": 0.028887594641817123,
+      "difference": 0.00046592894583575987,
+      "seed_t95": [
+        -0.0037631602687869634,
+        0.004695018160458483
+      ],
+      "identity_bootstrap95": [
+        -0.00128130460104834,
+        0.0023296447291788007
+      ]
+    },
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "paired_ranking",
+      "identities": 1717,
+      "candidate_mean": 0.9986022131624928,
+      "reference_mean": 0.9983692486895749,
+      "difference": 0.00023296447291788004,
+      "seed_t95": [
+        -0.0005915636441364443,
+        0.0010574925899722043
+      ],
+      "identity_bootstrap95": [
+        0.0,
+        0.0005824111822947001
+      ]
+    },
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "TPR",
+      "identities": 572,
+      "candidate_mean": 0.7265734265734266,
+      "reference_mean": 0.6947552447552447,
+      "difference": 0.031818181818181815,
+      "seed_t95": [
+        0.000383629801942037,
+        0.06325273383442159
+      ],
+      "identity_bootstrap95": [
+        0.022027972027972017,
+        0.04160839160839153
+      ]
+    },
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "matched_absent_FPR",
+      "identities": 572,
+      "candidate_mean": 0.04125874125874126,
+      "reference_mean": 0.04055944055944056,
+      "difference": 0.0006993006993006997,
+      "seed_t95": [
+        -0.010110903574877032,
+        0.01150950497347843
+      ],
+      "identity_bootstrap95": [
+        -0.0034965034965034965,
+        0.0048951048951048955
+      ]
+    },
+    {
+      "split": "split1",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "paired_ranking",
+      "identities": 572,
+      "candidate_mean": 0.9972027972027973,
+      "reference_mean": 0.9965034965034965,
+      "difference": 0.0006993006993006993,
+      "seed_t95": [
+        -0.0017757251345843967,
+        0.0031743265331857953
+      ],
+      "identity_bootstrap95": [
+        0.0,
+        0.0017482517482517483
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "TPR",
+      "identities": 1685,
+      "candidate_mean": 0.7680712166172107,
+      "reference_mean": 0.7689020771513353,
+      "difference": -0.000830860534124629,
+      "seed_t95": [
+        -0.006108781302789234,
+        0.004447060234539976
+      ],
+      "identity_bootstrap95": [
+        -0.003204747774480713,
+        0.001543026706231454
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "matched_absent_FPR",
+      "identities": 1685,
+      "candidate_mean": 0.04308605341246291,
+      "reference_mean": 0.04427299703264095,
+      "difference": -0.0011869436201780415,
+      "seed_t95": [
+        -0.00222906710158467,
+        -0.00014482013877141313
+      ],
+      "identity_bootstrap95": [
+        -0.0023738872403560834,
+        -0.00011869436201780413
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "all_targets",
+      "metric": "paired_ranking",
+      "identities": 1685,
+      "candidate_mean": 0.9962017804154303,
+      "reference_mean": 0.995727002967359,
+      "difference": 0.0004747774480712166,
+      "seed_t95": [
+        -0.0006182108801139376,
+        0.0015677657762563709
+      ],
+      "identity_bootstrap95": [
+        -0.00011869436201780416,
+        0.0011869436201780415
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "TPR",
+      "identities": 551,
+      "candidate_mean": 0.7422867513611615,
+      "reference_mean": 0.7437386569872958,
+      "difference": -0.0014519056261343012,
+      "seed_t95": [
+        -0.01749752440754508,
+        0.01459371315527648
+      ],
+      "identity_bootstrap95": [
+        -0.008348457350272237,
+        0.005444646098003628
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "matched_absent_FPR",
+      "identities": 551,
+      "candidate_mean": 0.042468239564428314,
+      "reference_mean": 0.045372050816696916,
+      "difference": -0.0029038112522686023,
+      "seed_t95": [
+        -0.006674593951664499,
+        0.0008669714471272946
+      ],
+      "identity_bootstrap95": [
+        -0.0061705989110707815,
+        0.00036297640653357535
+      ]
+    },
+    {
+      "split": "split2",
+      "candidate": "weighted_segment_guarded",
+      "reference": "weighted_affine",
+      "gap": 15,
+      "label": "ISRJ",
+      "metric": "paired_ranking",
+      "identities": 551,
+      "candidate_mean": 0.9938294010889293,
+      "reference_mean": 0.9927404718693285,
+      "difference": 0.0010889292196007258,
+      "seed_t95": [
+        -0.0023286328282185876,
+        0.004506491267420039
+      ],
+      "identity_bootstrap95": [
+        -0.0007259528130671507,
+        0.0032667876588021775
+      ]
+    }
+  ],
+  "time": "2026-11-09T22:55:36.552930+00:00"
+}

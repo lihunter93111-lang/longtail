@@ -1,0 +1,259 @@
+{
+  "roles": [
+    {
+      "split": "split1",
+      "role": "fit",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "aa11ea298d521782129ef295496a3d8b2684eee2e25cebc15422fedd0736c78b",
+      "source_pool_rows": 25200,
+      "selected_rows": 8000,
+      "unique_identities": 8000,
+      "label_positives": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split1",
+      "role": "check",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sha256": "805bf840296c2ed99c58d1d0aeb5378761d9521cdd0cc0b74d2bd10cefda96da",
+      "source_pool_rows": 2016,
+      "selected_rows": 1008,
+      "unique_identities": 1008,
+      "label_positives": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split1",
+      "role": "calibration",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sha256": "805bf840296c2ed99c58d1d0aeb5378761d9521cdd0cc0b74d2bd10cefda96da",
+      "source_pool_rows": 2016,
+      "selected_rows": 1008,
+      "unique_identities": 1008,
+      "label_positives": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split1",
+      "role": "fusion_fit",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "a7b068a8c3d66908f7f9dcc0505c9a30ec4d259fea0aaab8b42e04b7fb299c44",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split1",
+      "role": "development",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "3d0ea019eccebf986988b4dab4429c477d26fac40f1e1182fba23d10cc1414aa",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split1",
+      "role": "confirmation",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "d74685adfa1fb143f801c851df26fa6d269c37a676b2f7d31fcf8854b30f5e9f",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": true
+    },
+    {
+      "split": "split2",
+      "role": "fit",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547",
+      "source_pool_rows": 25200,
+      "selected_rows": 8000,
+      "unique_identities": 8000,
+      "label_positives": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split2",
+      "role": "check",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sha256": "08b4e081c54f4e13638b980870506bbdaaee2e812648717653396d4f9a76125b",
+      "source_pool_rows": 2016,
+      "selected_rows": 1008,
+      "unique_identities": 1008,
+      "label_positives": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split2",
+      "role": "calibration",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sha256": "08b4e081c54f4e13638b980870506bbdaaee2e812648717653396d4f9a76125b",
+      "source_pool_rows": 2016,
+      "selected_rows": 1008,
+      "unique_identities": 1008,
+      "label_positives": [
+        512,
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split2",
+      "role": "fusion_fit",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "45936c099ec0caea77a85ea31cb7761a4bc382e4266c14be5721fd01da8959f5",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split2",
+      "role": "development",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "442e9ae3b616e742251955d3385516a4c312e8d2972b8a443754b7de660f17cd",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": false
+    },
+    {
+      "split": "split2",
+      "role": "confirmation",
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "sha256": "64dcc21075b186531f194cb25ed4d42ef609cf513f97eb0bd5b952939d971fec",
+      "source_pool_rows": 4032,
+      "selected_rows": 4032,
+      "unique_identities": 4032,
+      "label_positives": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "confirmation_consumed": true
+    }
+  ],
+  "totals": {
+    "fit": 16000,
+    "check": 2016,
+    "calibration": 2016,
+    "fusion_fit": 8064,
+    "development": 8064,
+    "confirmation": 8064
+  },
+  "parameter_fitting_unique_identities": 24064,
+  "all_current_roles_unique_identities": 44224,
+  "all_roles_pairwise_identity_disjoint": true,
+  "five_model_seeds_reuse_each_split_fit_identities": true,
+  "physical_views": {
+    "split1": {
+      "paired_view_identity_counts": {
+        "0": 2770,
+        "5": 2770,
+        "10": 2770,
+        "15": 1717
+      },
+      "independent_identities_added": 0,
+      "source_role": "confirmation"
+    },
+    "split2": {
+      "paired_view_identity_counts": {
+        "0": 2736,
+        "5": 2736,
+        "10": 2736,
+        "15": 1685
+      },
+      "independent_identities_added": 0,
+      "source_role": "confirmation"
+    }
+  },
+  "final_freeze_sha256": "8459bbe6ca73f53c8f81f666fe99b94a3c100d495e41f035a700baea7321a767",
+  "confirmation_status": "consumed after model and calibration freeze",
+  "head_training": "cached-feature presentations, physical views preserve source identity",
+  "affine_fitting": "independent fusion_fit, 300 full-batch steps per label, reused across matched candidates",
+  "time": "2026-11-09T22:51:33.425899+00:00"
+}

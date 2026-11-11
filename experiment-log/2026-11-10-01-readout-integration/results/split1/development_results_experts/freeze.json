@@ -1,0 +1,114 @@
+{
+  "models": [
+    {
+      "group": "baseline",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2200\\model.pth",
+      "sha256": "62b3b22e952c7238e7edc769c184a858ad85261638bbd70f1460580b50b446a6",
+      "calibration_sha256": "e2bea265e498abd22594583afec936698eb48f1a4425a5426ea21ae9cb261273"
+    },
+    {
+      "group": "baseline",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2201\\model.pth",
+      "sha256": "879c0a60c23bef578359ad783198525ca625e09d18f99f101fb554d14c4caed6",
+      "calibration_sha256": "33e83fabefab5855ad444e88a66f74e408c84b15bb0e4fc742843418e75cfe72"
+    },
+    {
+      "group": "baseline",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2202\\model.pth",
+      "sha256": "1d6264d9a4264cb6427f6d7196995c747bc854e400bdf6f17e697f66eaa09f96",
+      "calibration_sha256": "4c6faf7b7fa19147695bd254e5721257967cb95c1892e6e58a6d658b6fb79455"
+    },
+    {
+      "group": "baseline",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2203\\model.pth",
+      "sha256": "2c6413e0fd17d51f965cf2bb29a46c5f704695cc37220aa1c8f30a7dfbceca0c",
+      "calibration_sha256": "4fe2030c7ada8e16ac8ae7b6d34acdd088fefec0e68eaf665f3aae07e30f8c90"
+    },
+    {
+      "group": "baseline",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2204\\model.pth",
+      "sha256": "0455ec66b59d8a8f298257b05620e5f256257ccb34042a5264ffaf45eafc9464",
+      "calibration_sha256": "7b7c9888f5c79f9e384206938d7fd72df94cd2f668e7e7a6c4f2328cbff8d1de"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\ordinary_expert_2200\\model.pth",
+      "sha256": "2e473480285bd5eb20704f8a891ab94bd4a133de141cb1e8a4d4d33ca0fdbb1f",
+      "calibration_sha256": "d2c3e34b7feb3af389cbd5c91d331a4841293fe0542bc516a7fe02c63e348c18"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\ordinary_expert_2201\\model.pth",
+      "sha256": "2bc125f7eb8111fe9c2cb401df7bc22634d4d5a03d1005c4974abd1286cec5a3",
+      "calibration_sha256": "d792d7b565c19290bd766daff2eac38936919f9e564415975dc57d9956730614"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\ordinary_expert_2202\\model.pth",
+      "sha256": "f25f45184bcf4fac9d5a0e422da1088cb92ab853cd17551965722362e549b3e5",
+      "calibration_sha256": "8602b86be38e01a636b3bcb1be23cdce369080c27c1bd5f26024e32739754299"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\ordinary_expert_2203\\model.pth",
+      "sha256": "c77cfff66830a89da8d2b7213340aa95149830eef2fb70828454af5ae69ef4cf",
+      "calibration_sha256": "dcba4e53f787349871f3e9116ec418e09d248b554ccfbb220f1379dde422a42e"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\ordinary_expert_2204\\model.pth",
+      "sha256": "3a11510a6a9f15b47f0b4d7aa6ffcb9bd47cd8923d9001476ba9a4ab2dd7d0bf",
+      "calibration_sha256": "9c0cf09444c497e34ffba0ab17bfadf891cd901e6f6e882295f3e68818515045"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\combo_expert_2200\\model.pth",
+      "sha256": "6941c8812a8d5b05ac8d74dfd1045016a276bb69eb3bd58d5a5b9e4afbb88caf",
+      "calibration_sha256": "823038374fd75524697fa24d9550f6bd2656c587317adb10469b725d41fe82c8"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\combo_expert_2201\\model.pth",
+      "sha256": "8b032272a49eb9b69f173b7f24ae08d65903ad755ad400095777013344863173",
+      "calibration_sha256": "a3361eb8dafcfdef9d603c0629bf67b6fb2b3cd175da4627a169ce9ac5299a60"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\combo_expert_2202\\model.pth",
+      "sha256": "d8fc5406f8399b6b26a8dc3172352e0fe8609b5ba73a581090d78acee66c0e00",
+      "calibration_sha256": "49f13013bc8b634055c2e9b66817cf90e1419bfc2a14f41bb3fe1a4c932c3261"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\combo_expert_2203\\model.pth",
+      "sha256": "7044e43641ec942e960ac908fc11af59841c8771156a83fb9a5720b93d3cc5ce",
+      "calibration_sha256": "fbc57ef6f6da630fc634eb75d8c16d8ac96c3c1438ae0cad407b88fcdd7e0642"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\combo_expert_2204\\model.pth",
+      "sha256": "3e26aa33f88655494cbff50768f67e12d818fcfc5c90196d8544a11d14b5226e",
+      "calibration_sha256": "973cebd4d7615a53277efb16d548e3be59e61205829370bc851df813cb1de9dd"
+    }
+  ],
+  "time": "2026-11-09T18:38:56.309780+00:00",
+  "role": "development",
+  "evaluator_sha256": "e54b5a60b0d5f09fee7a6505b5a994867a544681e206860205d95d352a8eba85",
+  "all_models_and_calibrations_frozen": true,
+  "manifest_sha256": "4c49ec2761600d15951edf393469dbbac88d4c64fdd2df7db12ce7080c7c8373"
+}

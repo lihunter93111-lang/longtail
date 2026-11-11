@@ -1,0 +1,219 @@
+{
+  "models": [
+    {
+      "group": "baseline",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2200\\model.pth",
+      "sha256": "62b3b22e952c7238e7edc769c184a858ad85261638bbd70f1460580b50b446a6",
+      "calibration_sha256": "e2bea265e498abd22594583afec936698eb48f1a4425a5426ea21ae9cb261273"
+    },
+    {
+      "group": "baseline",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2201\\model.pth",
+      "sha256": "879c0a60c23bef578359ad783198525ca625e09d18f99f101fb554d14c4caed6",
+      "calibration_sha256": "33e83fabefab5855ad444e88a66f74e408c84b15bb0e4fc742843418e75cfe72"
+    },
+    {
+      "group": "baseline",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2202\\model.pth",
+      "sha256": "1d6264d9a4264cb6427f6d7196995c747bc854e400bdf6f17e697f66eaa09f96",
+      "calibration_sha256": "4c6faf7b7fa19147695bd254e5721257967cb95c1892e6e58a6d658b6fb79455"
+    },
+    {
+      "group": "baseline",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2203\\model.pth",
+      "sha256": "2c6413e0fd17d51f965cf2bb29a46c5f704695cc37220aa1c8f30a7dfbceca0c",
+      "calibration_sha256": "4fe2030c7ada8e16ac8ae7b6d34acdd088fefec0e68eaf665f3aae07e30f8c90"
+    },
+    {
+      "group": "baseline",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2204\\model.pth",
+      "sha256": "0455ec66b59d8a8f298257b05620e5f256257ccb34042a5264ffaf45eafc9464",
+      "calibration_sha256": "7b7c9888f5c79f9e384206938d7fd72df94cd2f668e7e7a6c4f2328cbff8d1de"
+    },
+    {
+      "group": "weighted_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_affine_2200\\model.pth",
+      "sha256": "c7553bcfadb92c4e6f4533e83161be53f11bfb8adb2f957f5522ed6baf3446e1",
+      "calibration_sha256": "3aba9b73519abcbc58288e7471406008745c77e67649056936a3648989c328b9"
+    },
+    {
+      "group": "weighted_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_affine_2201\\model.pth",
+      "sha256": "644077dba56feb99e127a2ea9720a6c7f442c5d5757cc786b4ec0a24cd1c4366",
+      "calibration_sha256": "2d2a99e11a978ee64f0a86b4ea42acbba3c337f86370babc944be67af7c683cb"
+    },
+    {
+      "group": "weighted_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_affine_2202\\model.pth",
+      "sha256": "78b8170ce0f83af972261d6f6f97a3c8c6b3288df2d26c8d7bf97969d1b4d838",
+      "calibration_sha256": "171166f16ec6cb30b2e78fa802397c1f766918c59a62f874b4ef44c820ef20a9"
+    },
+    {
+      "group": "weighted_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_affine_2203\\model.pth",
+      "sha256": "ea4cb20e41950eca0861bad107a571021f4a8a211a8b3b9955b80fa9401bc289",
+      "calibration_sha256": "a763b39ed543783ef74a7cc407dc27a13c2e095d5f3ef2111721398ad571be54"
+    },
+    {
+      "group": "weighted_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_affine_2204\\model.pth",
+      "sha256": "4c39ac21c1976c7d6b55c14b514fe6e314938b9ed309bb8bc3242d9e319cd034",
+      "calibration_sha256": "62ef212167634835a2ae76b37bafce7807a49fc4c9c21467c3538ba8f48f380f"
+    },
+    {
+      "group": "weighted_segment_local",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_local_2200\\model.pth",
+      "sha256": "b66baf080d2251040888f6273dd5b91f23801facf45a54ab4c36850985f7ca5c",
+      "calibration_sha256": "46150a3d24a338f6244b34d3debf783319b9b62ebd4eed8bdecef23ae679906e"
+    },
+    {
+      "group": "weighted_segment_local",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_local_2201\\model.pth",
+      "sha256": "506b20145bd01c4c090f39d5e2c0a987bcaebed6d63dc5f7f15913509c6df79b",
+      "calibration_sha256": "2fb7e8d964a5612e38e8e50c9466718bb3ecc35fa0e06e8b24fcd1e4ff1cb90c"
+    },
+    {
+      "group": "weighted_segment_local",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_local_2202\\model.pth",
+      "sha256": "c397160384446c159df785cc7fb37220b89753b1de97cb65e1beaa13736b9367",
+      "calibration_sha256": "9998f9c4b41817628201a228013e3b1ed90de41c9afc3a6f6d291c4f9128f4a9"
+    },
+    {
+      "group": "weighted_segment_local",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_local_2203\\model.pth",
+      "sha256": "222817b15363e24ba51dda86f3b1e2441a6950b282a9dc7a174dda5fd6373d24",
+      "calibration_sha256": "1ed548fb710a3fe78d3d850bd3ac596e8bfab4ad166cba22f101da946f181cfe"
+    },
+    {
+      "group": "weighted_segment_local",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_local_2204\\model.pth",
+      "sha256": "71c7b5d2a8db24052f2a552ec4a783898368f1a820c4e0fbedd91252ed20561e",
+      "calibration_sha256": "aed912860584dfb686dcb3964b3263f12a5bc1c559f5acc72b1fde845ec2ed31"
+    },
+    {
+      "group": "weighted_segment_isrj",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_isrj_2200\\model.pth",
+      "sha256": "0637e60abe106ada10bd2a2bc1592ed29fd92f0e70c9e3a5b0bbac08c5600f0c",
+      "calibration_sha256": "9d6bcfb30b8e94a40295f63ab18ff22181774939e8d0f16a892ae729afb951e3"
+    },
+    {
+      "group": "weighted_segment_isrj",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_isrj_2201\\model.pth",
+      "sha256": "c115d91f0d59b1e35a64d70e4abf6cd77c971959cb49f2ab7dc1c4e9633a5ffb",
+      "calibration_sha256": "4ca28a8d9d12d0be0eb70831f439fdf69ce64b502af38d0b9f2e24b3f91ba389"
+    },
+    {
+      "group": "weighted_segment_isrj",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_isrj_2202\\model.pth",
+      "sha256": "89f79dab7cb84bdda0d0d7c9e63134bde238a19315c68df15385de40ec71c5a9",
+      "calibration_sha256": "16d70d4a5a21391863fe5afee39444282f7df78aba4d0a77a3150ed8d289d121"
+    },
+    {
+      "group": "weighted_segment_isrj",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_isrj_2203\\model.pth",
+      "sha256": "8db609520d53cdaff876a0f992ac32bf0cd2f3e9f3a4dea0e2062e21ae3ff32a",
+      "calibration_sha256": "5f77924014d578c7296374aa4fc57a03591b7ca6434ea98fe3886efddffb0833"
+    },
+    {
+      "group": "weighted_segment_isrj",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_isrj_2204\\model.pth",
+      "sha256": "c064181d3a6cf850c4b47c3ebc07d15976750c9c1d3dc28c07d7cb3e0ebaafa7",
+      "calibration_sha256": "c126bd5ba1e8d4f9a4ac84d608d38f702b1abc95767d0ced604cb327975e3749"
+    },
+    {
+      "group": "weighted_segment_guarded",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2200\\model.pth",
+      "sha256": "a31cdd45ac2451badf3a1e454bcdce1f0333729c485aebc1d28611336d5e3081",
+      "calibration_sha256": "46eb634ef62172310ccd1b820a2458ce94e19507baec0f7b51dd0e7d61f3e1f4"
+    },
+    {
+      "group": "weighted_segment_guarded",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2201\\model.pth",
+      "sha256": "33ca0f72dc9b14b9a6369323672ae3a02bb3dec3a6dfb79ac51ac03ab831f6f9",
+      "calibration_sha256": "717d3ef22d8af4a45c223296fbfc1cb83dccb4717c23152fe29b74133f9ac028"
+    },
+    {
+      "group": "weighted_segment_guarded",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2202\\model.pth",
+      "sha256": "328294ece5d7516574115a49b84edcc26d521858b6c073288e3fc464e07d50ba",
+      "calibration_sha256": "3992860b65262d7f116517a715827252f14a9b7e0a5fa8cb5186c63c96b87ef4"
+    },
+    {
+      "group": "weighted_segment_guarded",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2203\\model.pth",
+      "sha256": "aaeaf47f1340d766121c42554d5ecd5031244b796affa92267e531a1bd12780f",
+      "calibration_sha256": "db55ffb9042f041be0421a542aae2dc04b32e1ab63ada2f94891860c12b980ba"
+    },
+    {
+      "group": "weighted_segment_guarded",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_segment_guarded_2204\\model.pth",
+      "sha256": "3a8abf52f1533ccc9f8b91873372a25ccaf7ee0cb4ad0f9fa846ed836fa3e54a",
+      "calibration_sha256": "1ea69f876056996a7695a068087272e3f4ecbe533265ec037d610860880bf257"
+    },
+    {
+      "group": "weighted_isrj_guarded",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2200\\model.pth",
+      "sha256": "d81dfc60f8a2a440ad9fe99228bcc89fd38f6a25ebdc7af819abb0a153376f1e",
+      "calibration_sha256": "46eb634ef62172310ccd1b820a2458ce94e19507baec0f7b51dd0e7d61f3e1f4"
+    },
+    {
+      "group": "weighted_isrj_guarded",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2201\\model.pth",
+      "sha256": "5b62e22e805133a01e467ce2399526c2215eef6f1194a8b2b09cb36f98dfbfda",
+      "calibration_sha256": "4913c72b5ea86b674e2ea8c7c4db96c40f3839366e3f5f3b3bb6abdc8638b9f9"
+    },
+    {
+      "group": "weighted_isrj_guarded",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2202\\model.pth",
+      "sha256": "755525d62688b016d3c4a7ac2dbb5bc8e13e005634a030f50812e20b2f60872b",
+      "calibration_sha256": "7d6c175e0a6d6443dae1ffa4a7939b3bfa09deae2357d27ecf37cb9fb90cf707"
+    },
+    {
+      "group": "weighted_isrj_guarded",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2203\\model.pth",
+      "sha256": "d1a06d19e4f44cb6094894961589d4b0ce709cf2341e13bfee3a1ef9485a8442",
+      "calibration_sha256": "a015f5214c03b93783a03b7900aa5c1ef13511b0089c8b1c343f08895b6199e3"
+    },
+    {
+      "group": "weighted_isrj_guarded",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\weighted_isrj_guarded_2204\\model.pth",
+      "sha256": "dcf0e75b7b4259ced6bd5e3b56428b5009325fede50265d10d00769c172af5be",
+      "calibration_sha256": "1ea69f876056996a7695a068087272e3f4ecbe533265ec037d610860880bf257"
+    }
+  ],
+  "time": "2026-11-09T22:14:15.724820+00:00",
+  "role": "development",
+  "evaluator_sha256": "e54b5a60b0d5f09fee7a6505b5a994867a544681e206860205d95d352a8eba85",
+  "all_models_and_calibrations_frozen": true,
+  "manifest_sha256": "4c49ec2761600d15951edf393469dbbac88d4c64fdd2df7db12ce7080c7c8373"
+}

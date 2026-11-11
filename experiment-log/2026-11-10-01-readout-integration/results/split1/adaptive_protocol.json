@@ -1,0 +1,26 @@
+{
+  "designs": [
+    [
+      "pca256",
+      256,
+      32
+    ],
+    [
+      "head64",
+      128,
+      64
+    ]
+  ],
+  "feature_sources": [
+    "global_stats",
+    "segment"
+  ],
+  "views": "M",
+  "epochs": 24,
+  "selection": "same guarded exact rule with epoch0 fallback",
+  "sources": {
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\adaptive_readouts.py": "c004b5ad55c6668dbe75ff532e00684f4099a1f769e03b9e0fa46281b532cd6a",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\run_coverage_readouts.py": "ee3ab691e5b16cd21b0b4427b57e4eb03ffe10840c7b2d4d2454b7e5d3c57758",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\04A_PCA_CAPACITY_GOAL.txt": "bba727a37bcbd7aad5072952c6623712ac3da36f72fcd2a4878c5b73ff065e5f"
+  }
+}

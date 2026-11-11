@@ -1,0 +1,45 @@
+{
+  "name": "combo_affine",
+  "seed": 2201,
+  "guards": [
+    {
+      "label": "FMB",
+      "fallback": false,
+      "allowed_grid_points": 175
+    },
+    {
+      "label": "AMA",
+      "fallback": false,
+      "allowed_grid_points": 167
+    },
+    {
+      "label": "SawFM",
+      "fallback": true,
+      "allowed_grid_points": 0
+    },
+    {
+      "label": "SinFM",
+      "fallback": false,
+      "allowed_grid_points": 154
+    },
+    {
+      "label": "MFT",
+      "fallback": false,
+      "allowed_grid_points": 29
+    },
+    {
+      "label": "ISRJ",
+      "fallback": false,
+      "allowed_grid_points": 35
+    }
+  ],
+  "fallback_columns": [
+    2
+  ],
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "protocol_sha256": "4689fa1cd3aa2e7c35c3c0522ec95cd4f03718b39a426c7a7926afd311e81f75",
+  "time": "2026-11-09T19:41:10.543487+00:00",
+  "sha256": "6aa1a1542bdc1d69fb1ee2e91a9562e1735481828d901e10d2657f78274de9e3",
+  "parameters": 2026382,
+  "shared_backbone": false
+}

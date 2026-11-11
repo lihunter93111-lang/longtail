@@ -1,0 +1,355 @@
+{
+  "models": [
+    {
+      "split": "split1",
+      "width": 32,
+      "seed": 2200,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0812787670439024,
+        "calibration_BCE_raw": 0.09813292893715857,
+        "calibration_BCE_scaled": 0.09761447870943751,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.71,
+            0.12,
+            0.4649999999999999,
+            0.22499999999999998,
+            0.59,
+            0.7
+          ],
+          "temperature": [
+            0.6959485535449085,
+            0.1367368900432593,
+            0.46762325973411606,
+            0.24162404213011782,
+            0.5833659475248179,
+            0.6864570335522105
+          ]
+        },
+        "checkpoint_sha256": "c93cae900e0277ba82cbf515e5d803e9749cfc42e16ab51112626486ed93716c"
+      },
+      "calibration_sha256": "557eeca4572e5eddb8abe3a9cd32f5b5696f69df97d0a5458bb5420163a3bb26",
+      "receipt_sha256": "7552c242f6820f46767aad5a046cd40e5d6c21dd9de2d43888eee240f802a600",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split1",
+      "width": 32,
+      "seed": 2201,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.076211438601989,
+        "calibration_BCE_raw": 0.1085441979258387,
+        "calibration_BCE_scaled": 0.10806413059754287,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5349999999999999,
+            0.185,
+            0.6449999999999999,
+            0.26499999999999996,
+            0.6399999999999999,
+            0.5399999999999999
+          ],
+          "temperature": [
+            0.5325287562473786,
+            0.2013583527620424,
+            0.6352593645978339,
+            0.2793073729292117,
+            0.6305600043742994,
+            0.5371782675613775
+          ]
+        },
+        "checkpoint_sha256": "665dfc3a9f74190cfabbdaec7137667e084febce4181bed82a114b1dfaf94e77"
+      },
+      "calibration_sha256": "456293ce8016a1d360cc81035dd15d6d0c896e91a01ad2b64190ecbb972aa545",
+      "receipt_sha256": "dcc54daea67a29a42a0fb26442e03309ef0cea025d32116c157aa544ad0e7c3d",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split1",
+      "width": 32,
+      "seed": 2202,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0584235098292976,
+        "calibration_BCE_raw": 0.09682724392656258,
+        "calibration_BCE_scaled": 0.09654960362345845,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.4749999999999999,
+            0.15999999999999998,
+            0.4749999999999999,
+            0.25999999999999995,
+            0.6399999999999999,
+            0.37999999999999995
+          ],
+          "temperature": [
+            0.47637785102746705,
+            0.17268788663162477,
+            0.47637785102746705,
+            0.2712613251035322,
+            0.6326505966971636,
+            0.38638679519046354
+          ]
+        },
+        "checkpoint_sha256": "ca8dad9ae8130b6fa779852c884c5d257fff384632e9b65e1f8cedf004a92af2"
+      },
+      "calibration_sha256": "d852aebdc54fc856ef10b146941118eee7c50cff1ffadfca0e4e5288aac6255a",
+      "receipt_sha256": "aa40a030b50edac13c9984c010f0f4a1b69016260848ef71d45d0caf9bc1e944",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split1",
+      "width": 32,
+      "seed": 2203,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.085175557097729,
+        "calibration_BCE_raw": 0.09232731987085727,
+        "calibration_BCE_scaled": 0.0917610290964345,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.42999999999999994,
+            0.27499999999999997,
+            0.565,
+            0.245,
+            0.29,
+            0.37499999999999994
+          ],
+          "temperature": [
+            0.4354304200747248,
+            0.2904267801922748,
+            0.5599492584262936,
+            0.2617056707239344,
+            0.3046810333735823,
+            0.3844432733288004
+          ]
+        },
+        "checkpoint_sha256": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d"
+      },
+      "calibration_sha256": "d5874db7d9b1988a71bd987c8e0c0b1f11ebd7450cf2d86325e96941400b9a1c",
+      "receipt_sha256": "42c04007498f48bfa57ced3ba7288fc781332e7b7e4543ceae07fa491c7fb2ce",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split1",
+      "width": 32,
+      "seed": 2204,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0476482623511694,
+        "calibration_BCE_raw": 0.08922152700025901,
+        "calibration_BCE_scaled": 0.08904588971156974,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7,
+            0.07,
+            0.4749999999999999,
+            0.32999999999999996,
+            0.5199999999999999,
+            0.38499999999999995
+          ],
+          "temperature": [
+            0.6918455817165599,
+            0.07805702651546134,
+            0.4761352603309053,
+            0.33716001372486787,
+            0.5190912821381254,
+            0.3900560753346607
+          ]
+        },
+        "checkpoint_sha256": "c224c8425d3b7e266e21e01aace779f8b8ec711b887f3f2e2fb981d480ea80bf"
+      },
+      "calibration_sha256": "5b512e2a3a91f50794a4e64848709e5b8df265de94e4845b18d69d1036bab248",
+      "receipt_sha256": "4edd2afabdddcf01565e597b3677ee52fe6df6b937fb290314fe44c03adf9c74",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split2",
+      "width": 32,
+      "seed": 2200,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.055402991215552,
+        "calibration_BCE_raw": 0.09852960075779855,
+        "calibration_BCE_scaled": 0.09828545424024097,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.7949999999999999,
+            0.095,
+            0.5349999999999999,
+            0.21999999999999997,
+            0.3999999999999999,
+            0.41999999999999993
+          ],
+          "temperature": [
+            0.7831612246347761,
+            0.10567205066433609,
+            0.5331682320001188,
+            0.23161299177128472,
+            0.4051190404403927,
+            0.4241330302912901
+          ]
+        },
+        "checkpoint_sha256": "e493a00d7cd346a6f58768678e83d60e22981d0eb35516df4017cf530a630e67"
+      },
+      "calibration_sha256": "6a76d4e99dd0cc80d55063aed824af59c1b76e7360fadb3277fdcd9c77e5fdba",
+      "receipt_sha256": "48e33cea5fc24d9ae966c2a07eef06bf843b80ff73292bf73563d461661ea3f4",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split2",
+      "width": 32,
+      "seed": 2201,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0503674823158182,
+        "calibration_BCE_raw": 0.1016229489634728,
+        "calibration_BCE_scaled": 0.10141681111979241,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.5599999999999999,
+            0.065,
+            0.3449999999999999,
+            0.105,
+            0.36499999999999994,
+            0.38499999999999995
+          ],
+          "temperature": [
+            0.5571486189685978,
+            0.07321570305190701,
+            0.351979573878266,
+            0.11505570961384856,
+            0.37117597780398154,
+            0.39033147100216353
+          ]
+        },
+        "checkpoint_sha256": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67"
+      },
+      "calibration_sha256": "6ec29fb8bc5a98ae66f5758fb5de84c18a55c16cf128e59fb3af36c89b25a37f",
+      "receipt_sha256": "934edba2b655d13c0190ecbec5ed5439f28b34eb5ee826a52a52fe27a14032ed",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split2",
+      "width": 32,
+      "seed": 2202,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0186999688611795,
+        "calibration_BCE_raw": 0.0876241339086719,
+        "calibration_BCE_scaled": 0.0875975531066366,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.695,
+            0.05,
+            0.595,
+            0.22999999999999998,
+            0.36499999999999994,
+            0.4749999999999999
+          ],
+          "temperature": [
+            0.6917858247201769,
+            0.052630729277104354,
+            0.5932972557436861,
+            0.23395168891709311,
+            0.36735911982577996,
+            0.4754581731486983
+          ]
+        },
+        "checkpoint_sha256": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2"
+      },
+      "calibration_sha256": "a079a85b0eb4f15ca40407d1dd8942afcc743bfd2eeaedecf923276f07e16c43",
+      "receipt_sha256": "7c4ca511401267bafa29be81213658c8542581aaf3b774dacb1307b45df5f14d",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split2",
+      "width": 32,
+      "seed": 2203,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0364891282478885,
+        "calibration_BCE_raw": 0.08852234342898706,
+        "calibration_BCE_scaled": 0.08841975273639165,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.69,
+            0.095,
+            0.285,
+            0.21499999999999997,
+            0.61,
+            0.37499999999999994
+          ],
+          "temperature": [
+            0.6839428833544683,
+            0.10204510074446231,
+            0.2916440942593339,
+            0.2227946345342791,
+            0.6062472650338029,
+            0.37922423747262807
+          ]
+        },
+        "checkpoint_sha256": "8f378e4681c1fc4c8d050ff09749a907421b8d6e1cd750efaa741317f611b360"
+      },
+      "calibration_sha256": "45a6aa2da0c9071dc77e9ee3dcd5eb1f7b848ab9f61af49f1f7a0a8c9d85a197",
+      "receipt_sha256": "f84beec118a243aae11d55852b5e03934e77c5e9673469635c619b3a6d602a66",
+      "normal_entry_replay": "passed"
+    },
+    {
+      "split": "split2",
+      "width": 32,
+      "seed": 2204,
+      "folder": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204",
+      "parameters": 1013191,
+      "calibration": {
+        "T": 1.0331689407309503,
+        "calibration_BCE_raw": 0.09276276767966772,
+        "calibration_BCE_scaled": 0.09267566798323736,
+        "at_boundary": false,
+        "thresholds": {
+          "raw": [
+            0.6749999999999999,
+            0.18,
+            0.575,
+            0.175,
+            0.5199999999999999,
+            0.4549999999999999
+          ],
+          "temperature": [
+            0.6698314950869492,
+            0.18729754679110383,
+            0.5726267663377294,
+            0.18230371686717758,
+            0.5193585708472481,
+            0.4564372404677042
+          ]
+        },
+        "checkpoint_sha256": "e60cd7363257e0627de770d530b982d941567f7b614195af0c002a5cb38211ea"
+      },
+      "calibration_sha256": "f7f901c1c8b4553f0d9b7f72cac3e0e9da963281dabdd192b44f962ea6df40f6",
+      "receipt_sha256": "be7c041d1d0b4e8daddb49288d1afe3badc4f929e7a5d49137e09f05ace6862f",
+      "normal_entry_replay": "passed"
+    }
+  ],
+  "source_freeze_sha256": "d0c78d8cd17ac12aa57d82cb30ee7966520b8f8ce610be321b0f3484f276272d"
+}

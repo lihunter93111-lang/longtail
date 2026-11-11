@@ -1,0 +1,37 @@
+[
+  {
+    "stage": "source_preparation",
+    "issue": "git fetch connection reset; first official archive extraction exceeded Windows path length",
+    "resolution": "downloaded the same pinned commit to shorter E:/LJQ_code/longtail_20261110 path; training used the complete snapshot",
+    "scientific_protocol_changed": false
+  },
+  {
+    "stage": "evaluation_extension",
+    "issue": "multiple candidate families needed separate result namespaces",
+    "resolution": "preserved unchanged phase1 evaluator bytes and registered their hash before adding --tag; phase1 outputs retained",
+    "scientific_protocol_changed": false,
+    "registration_boundary": "phase1 evaluator hash capture occurred after phase1 scoring; training dependency lock was before training"
+  },
+  {
+    "stage": "slice_analysis",
+    "issue": "sklearn import before torch triggered Windows c10 DLL initialization failure",
+    "resolution": "imported common/torch first; original failure and successful retry logs preserved",
+    "scientific_protocol_changed": false
+  },
+  {
+    "stage": "runtime_extensions",
+    "issue": "new expert groups and PCA dimensions required explicit portable architecture metadata",
+    "resolution": "archived prior sources, retained arithmetic forward, verified old model outputs and default calibration exactly",
+    "scientific_protocol_changed": "new adaptive branches declared in their own Goal and protocol"
+  },
+  {
+    "stage": "quota_design",
+    "issue": "30-second exact label-margin matching search found no feasible incumbent",
+    "resolution": "retained feasible near-balanced four-cell matrix and solver status; no infeasibility or optimality claim"
+  },
+  {
+    "stage": "figure_layout",
+    "issue": "first confirmation plot preview clipped the right title",
+    "resolution": "post-freeze layout-only script shortened titles and used a tight canvas; numeric payload hash unchanged; corrected image inspected"
+  }
+]

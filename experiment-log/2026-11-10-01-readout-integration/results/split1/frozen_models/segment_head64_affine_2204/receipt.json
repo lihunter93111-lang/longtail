@@ -1,0 +1,12 @@
+{
+  "name": "segment_head64_affine",
+  "seed": 2204,
+  "adaptive_source_sha256": "ade6762f4387a69a75f6fed28c911a5502a2956281d249341e484da1331a3708",
+  "protocol_sha256": "5e8f9cf4ee235441afd723abf5a2056ef80a51e9f354037bcad132064182f916",
+  "time": "2026-11-09T22:05:57.131985+00:00",
+  "sha256": "584eaeefb5e306796e94e0893833b5118564ef2c284493e9743961d9344f7bc3",
+  "fallback_columns": [],
+  "parameters": 1029898,
+  "shared_backbone": true,
+  "normal_forward_max_error": 0.0
+}

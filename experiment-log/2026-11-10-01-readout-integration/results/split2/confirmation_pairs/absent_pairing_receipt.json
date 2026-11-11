@@ -1,0 +1,11 @@
+{
+  "status": "verified",
+  "identities": 2736,
+  "max_abs_residual": 3.5538237284069671E-14,
+  "max_relative_residual": 3.2752885359233908E-16,
+  "receiver_noise_and_other_components_verified": true,
+  "label_and_parameter_metadata_updated": true,
+  "role": "frozen_confirmation_physical_diagnostic",
+  "original_generator_role": "adaptive_development_counterfactual",
+  "freeze_sha256": "8459bbe6ca73f53c8f81f666fe99b94a3c100d495e41f035a700baea7321a767"
+}

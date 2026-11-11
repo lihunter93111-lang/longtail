@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "unchanged_runtime_definitions": [
+    "ThreeScoreAffine",
+    "CombinedReadout",
+    "load_combined"
+  ],
+  "v1_sha256": "61c3a6b2a20d75546165c660221812f4bcb21c8e3ce0d2b4354356e91b524307",
+  "v3_sha256": "5f5acc6d07ddc21686ab4196c5b41809d9df556a9c9c1d20b757d2e4ac1c0daf",
+  "time": "2026-11-09T20:50:49.206840+00:00"
+}

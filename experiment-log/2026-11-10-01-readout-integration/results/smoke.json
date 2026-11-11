@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "seed": 2200,
+  "split": "split1",
+  "feature_shapes": {
+    "projected_global": [
+      8000,
+      256
+    ],
+    "global_stats": [
+      8000,
+      512
+    ],
+    "segment": [
+      8000,
+      3584
+    ]
+  },
+  "parameters": 1013191,
+  "time": "2026-11-09T17:16:55.283464+00:00"
+}

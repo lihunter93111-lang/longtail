@@ -1,0 +1,18 @@
+{
+  "designs": {
+    "weighted_segment_guarded": [
+      2,
+      4,
+      5
+    ],
+    "weighted_isrj_guarded": [
+      5
+    ]
+  },
+  "reference": "weighted_affine",
+  "max_calibration_weak_recall_drop": 0,
+  "source_sha256": "0b0dbaa9da668169ca995a93812c9043761b7cc912562402960536781547278c",
+  "calibrator_sha256": "2c17f6f3548d35b64cf20d34553300847415610872411b3b28881ab9cc6f1aed",
+  "goal_sha256": "6d76d3e943281bd872b3776e9fab2ca99c77c5e8de1e02e358817cb2d93d23f9",
+  "time": "2026-11-09T22:15:35.998221+00:00"
+}

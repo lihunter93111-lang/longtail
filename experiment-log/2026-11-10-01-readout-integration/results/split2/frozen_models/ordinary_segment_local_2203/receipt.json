@@ -1,0 +1,12 @@
+{
+  "name": "ordinary_segment_local",
+  "seed": 2203,
+  "protocol_sha256": "e1d476137e2ddca686e909f84c1a5516bd64ea760b193eb059bed916771e7f18",
+  "time": "2026-11-09T19:54:30.212047+00:00",
+  "sha256": "0e773ea082396cb52c4e5050fc70f736ab201c9ec2bed4dd03d655f520dfcd45",
+  "fallback": [
+    2
+  ],
+  "parameters": 2034737,
+  "replay_max_error": 0.0
+}

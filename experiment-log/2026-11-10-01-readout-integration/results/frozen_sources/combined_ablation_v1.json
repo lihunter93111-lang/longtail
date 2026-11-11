@@ -1,0 +1,7 @@
+{
+  "source": "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\combined_ablation.py",
+  "archive": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\frozen_sources\\combined_ablation_v1.py",
+  "sha256": "989d51598794c0410b9cb2790d47c3070ba4b7ede4fd30b62c987486f119541e",
+  "time": "2026-11-09T20:49:51.988675+00:00",
+  "reason": "preserve completed combo/ordinary studies before extending orchestration to weighted expert"
+}

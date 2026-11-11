@@ -1,0 +1,19 @@
+{
+  "groups": {
+    "global_pca256_affine": "global_stats_pca256",
+    "segment_pca256_affine": "segment_pca256",
+    "global_head64_affine": "global_stats_head64",
+    "segment_head64_affine": "segment_head64"
+  },
+  "borrowed_controls": [
+    "reference_affine",
+    "coverage_affine"
+  ],
+  "epochs": 300,
+  "lr": 0.04,
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "source_sha256": "d5d6073b2e9012704e5bbe8eadf8d821354f8d839f320d83a76ad31dbb3ae4e3",
+  "runtime_sha256": "a92930e244239666018f77fa5d57baf227249c50868a0cf66251b31c93f3c6a8",
+  "goal_sha256": "619dca8c9db26ce8520a3f0f1d6b0b2993c4d860344b865a4b85a1d36fb85706",
+  "time": "2026-11-09T22:07:44.233712+00:00"
+}

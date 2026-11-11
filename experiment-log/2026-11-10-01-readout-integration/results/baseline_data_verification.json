@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "split": "split1",
+      "role": "fit",
+      "sha256": "aa11ea298d521782129ef295496a3d8b2684eee2e25cebc15422fedd0736c78b"
+    },
+    {
+      "split": "split1",
+      "role": "dev",
+      "sha256": "805bf840296c2ed99c58d1d0aeb5378761d9521cdd0cc0b74d2bd10cefda96da"
+    },
+    {
+      "split": "split2",
+      "role": "fit",
+      "sha256": "b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547"
+    },
+    {
+      "split": "split2",
+      "role": "dev",
+      "sha256": "08b4e081c54f4e13638b980870506bbdaaee2e812648717653396d4f9a76125b"
+    }
+  ],
+  "time": "2026-11-09T17:21:47.999830+00:00"
+}

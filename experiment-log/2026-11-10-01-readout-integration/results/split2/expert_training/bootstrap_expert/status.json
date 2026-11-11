@@ -1,0 +1,17 @@
+{
+  "status": "training",
+  "seed": 2304,
+  "arm": "M",
+  "epoch": 40,
+  "augmented_presentations": 2268,
+  "gap15_presentations": 1254,
+  "eligible_augmented_identities": 2260,
+  "unique_sampled_identities": 5073,
+  "repetition_fraction": 0.36587499999999995,
+  "lr": 1e-06,
+  "train_objective": 0.02925391689315438,
+  "train_hard_BCE": 0.02925391689315438,
+  "fit_eval_BCE": 0.011112252250313759,
+  "early_BCE": 0.11828850954771042,
+  "early_macro_AP": 0.991408252842719
+}

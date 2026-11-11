@@ -1,0 +1,262 @@
+{
+  "designs": [
+    {
+      "split": "split1",
+      "group": "ordinary_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.8411250000000006,
+        0.2803750000000002,
+        0.49662500000000026,
+        0.48712500000000025,
+        0.5086250000000003,
+        0.4982500000000003
+      ],
+      "objective_label_IF": 3.0,
+      "objective_combination_IF": 7.853658536585366,
+      "objective_Kish_effective_sample_size": 7999.999999999998,
+      "objective_cardinality_fraction": [
+        0.06575000000000004,
+        0.22762499999998878,
+        0.3541249999999749,
+        0.24949999999998637,
+        0.08725000000000006,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split1",
+      "group": "combo_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.7605156249999991,
+        0.33995312500000024,
+        0.5021406249999998,
+        0.49501562500000046,
+        0.5111406250000007,
+        0.5033593749999996
+      ],
+      "objective_label_IF": 2.2371190881095697,
+      "objective_combination_IF": 5.257832278480987,
+      "objective_Kish_effective_sample_size": 7516.211311414218,
+      "objective_cardinality_fraction": [
+        0.06575000000000038,
+        0.2276250000000083,
+        0.3541249999999932,
+        0.24950000000001285,
+        0.08725000000000009,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split1",
+      "group": "weighted_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.7605156249999991,
+        0.33995312500000024,
+        0.5021406249999998,
+        0.49501562500000046,
+        0.5111406250000007,
+        0.5033593749999996
+      ],
+      "objective_label_IF": 2.2371190881095697,
+      "objective_combination_IF": 5.257832278480987,
+      "objective_Kish_effective_sample_size": 7516.211311414218,
+      "objective_cardinality_fraction": [
+        0.06575000000000038,
+        0.2276250000000083,
+        0.3541249999999932,
+        0.24950000000001285,
+        0.08725000000000009,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split1",
+      "group": "bootstrap_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.8411250000000006,
+        0.2803750000000002,
+        0.49662500000000026,
+        0.48712500000000025,
+        0.5086250000000003,
+        0.4982500000000003
+      ],
+      "objective_label_IF": 3.0,
+      "objective_combination_IF": 7.853658536585366,
+      "objective_Kish_effective_sample_size": 7999.999999999998,
+      "objective_cardinality_fraction": [
+        0.06575000000000004,
+        0.22762499999998878,
+        0.3541249999999749,
+        0.24949999999998637,
+        0.08725000000000006,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split2",
+      "group": "ordinary_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.8411250000000006,
+        0.2803750000000002,
+        0.49662500000000026,
+        0.48712500000000025,
+        0.5086250000000003,
+        0.4982500000000003
+      ],
+      "objective_label_IF": 3.0,
+      "objective_combination_IF": 7.853658536585366,
+      "objective_Kish_effective_sample_size": 7999.999999999998,
+      "objective_cardinality_fraction": [
+        0.06575000000000004,
+        0.22762499999998878,
+        0.3541249999999749,
+        0.24949999999998637,
+        0.08725000000000006,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split2",
+      "group": "combo_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.7605156249999991,
+        0.33995312500000024,
+        0.5021406249999998,
+        0.49501562500000046,
+        0.5111406250000007,
+        0.5033593749999996
+      ],
+      "objective_label_IF": 2.2371190881095697,
+      "objective_combination_IF": 5.257832278480987,
+      "objective_Kish_effective_sample_size": 7516.211311414218,
+      "objective_cardinality_fraction": [
+        0.06575000000000038,
+        0.2276250000000083,
+        0.3541249999999932,
+        0.24950000000001285,
+        0.08725000000000009,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split2",
+      "group": "weighted_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.7605156249999991,
+        0.33995312500000024,
+        0.5021406249999998,
+        0.49501562500000046,
+        0.5111406250000007,
+        0.5033593749999996
+      ],
+      "objective_label_IF": 2.2371190881095697,
+      "objective_combination_IF": 5.257832278480987,
+      "objective_Kish_effective_sample_size": 7516.211311414218,
+      "objective_cardinality_fraction": [
+        0.06575000000000038,
+        0.2276250000000083,
+        0.3541249999999932,
+        0.24950000000001285,
+        0.08725000000000009,
+        0.01575000000000001
+      ]
+    },
+    {
+      "split": "split2",
+      "group": "bootstrap_expert",
+      "unique_fit_identities": 8000,
+      "training_label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "objective_label_fraction": [
+        0.8411250000000006,
+        0.2803750000000002,
+        0.49662500000000026,
+        0.48712500000000025,
+        0.5086250000000003,
+        0.4982500000000003
+      ],
+      "objective_label_IF": 3.0,
+      "objective_combination_IF": 7.853658536585366,
+      "objective_Kish_effective_sample_size": 7999.999999999998,
+      "objective_cardinality_fraction": [
+        0.06575000000000004,
+        0.22762499999998878,
+        0.3541249999999749,
+        0.24949999999998637,
+        0.08725000000000006,
+        0.01575000000000001
+      ]
+    }
+  ],
+  "time": "2026-11-09T22:51:51.223533+00:00",
+  "note": "weighted objective probabilities describe loss weights; physical visits remain uniform without replacement"
+}

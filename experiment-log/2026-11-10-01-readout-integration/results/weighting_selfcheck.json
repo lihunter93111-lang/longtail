@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "weight_mean": 0.9999999999999999,
+  "weight_min": 0.818276220145379,
+  "weight_max": 1.6137195121951218,
+  "objective_equivalence_error": 1.1102230246251565e-16,
+  "unit_weight_error": 1.1102230246251565e-16,
+  "source_sha256": "2a21941c0449227af4098ee8dd3c8260e1e5ce4ac9313e2ff9a7a9809646e7ec",
+  "time": "2026-11-09T18:35:01.702394+00:00"
+}

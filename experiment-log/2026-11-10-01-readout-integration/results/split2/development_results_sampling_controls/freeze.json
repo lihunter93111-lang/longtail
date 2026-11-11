@@ -1,0 +1,184 @@
+{
+  "models": [
+    {
+      "group": "baseline",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2200\\model.pth",
+      "sha256": "c926daac5580dd2bf44062e18913f3cfa7b6bdb46d87445c1468d2d3b95a2357",
+      "calibration_sha256": "cb18eb6c49c9988f1e4d1ca261b20f6f08593a2494457a005b05848e8a58dc6d"
+    },
+    {
+      "group": "baseline",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2201\\model.pth",
+      "sha256": "77084e144e0b133f297dc1dd3b102cb2a65860043b5bd27e72400d7f1b707488",
+      "calibration_sha256": "c18d32fc2726f560de046abb0ce9e0b6c5edd67b4d7fc23792049ee216f4509b"
+    },
+    {
+      "group": "baseline",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2202\\model.pth",
+      "sha256": "02b74031f6a4642e82eb4c0726e7a756a85f35fbffc765c6e754dde0d24224b6",
+      "calibration_sha256": "d062fedab1a2456d9d8c8c750f998c15fdd43e33a9ee08657ad2fbb7876a7b06"
+    },
+    {
+      "group": "baseline",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2203\\model.pth",
+      "sha256": "949c8586932bf92045c1660aa8b2f85ea8fb174207db7bc821580acf079409ec",
+      "calibration_sha256": "6e85e3ef7d18d3078690e8c5de32473ef4d2b33ab288dd0632b528c896bbb284"
+    },
+    {
+      "group": "baseline",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\baseline_2204\\model.pth",
+      "sha256": "e6478b9b00493661ca237806d44dff4f98788f63c2ebdafefc228facba886b7b",
+      "calibration_sha256": "8e7752236eb5059f0d07195e0c16c215d813ca52ea8029282964e156f14af756"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\ordinary_expert_2200\\model.pth",
+      "sha256": "b1d72baf051b0cfa50a68c76c6d30efab80a5d34c3d85d6c91604677ad6c2268",
+      "calibration_sha256": "22206822827b945518c1d57158b85ded04edb11126425223e7a15885d25af1c3"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\ordinary_expert_2201\\model.pth",
+      "sha256": "94b1b0cfc6bf77aed1423756814aa4505f6e2723323e93af3021347040e2531f",
+      "calibration_sha256": "5cf868ad15480de0a5b448908a4aa583f882a334ab28666511a4b109c08bc9cb"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\ordinary_expert_2202\\model.pth",
+      "sha256": "1664061e59f89bffa36c3bfff63c59923a4b3264c1d9c484cc67514ed2cc6402",
+      "calibration_sha256": "38ecb037121a69bf38ce456f14cd34fe4834eaf128a743c4c6dc3a9031231c31"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\ordinary_expert_2203\\model.pth",
+      "sha256": "be5c17c9724fd03ce9288370ca9e1b2ffe9b4839971fcca2fae403a6404dc5e4",
+      "calibration_sha256": "8e69b2f41bd0ce0a279942405b8cdc5646a1af04aaec684ee6c2850c43b79885"
+    },
+    {
+      "group": "ordinary_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\ordinary_expert_2204\\model.pth",
+      "sha256": "47969d8be32ace58492a68fed26f54b0510e4143c02d0f278a115601c3c1294e",
+      "calibration_sha256": "ffef49044ff0b6aab9b21d11e29237e4b1ec6e5260e2334ae6fbb3b20fc58fa6"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\combo_expert_2200\\model.pth",
+      "sha256": "458db132af34ae69b61d68d5ee9e020c81a5138beef2f0d68d3247af877698b8",
+      "calibration_sha256": "b054f34311b40a3d5b500175beef2a684faf79dcf131d3115ab6cb5b8b1bfadd"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\combo_expert_2201\\model.pth",
+      "sha256": "e5e558e4345d50a882acfd2c400108d1702a534d6a63d19db682be6cbd024ceb",
+      "calibration_sha256": "fae02a12ff98c0c0df67729e173c3a3e8a246a3ee474f145ed135b81141ef8f1"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\combo_expert_2202\\model.pth",
+      "sha256": "f8b568099475b3fd63c15da14efcced76f37c5d25ef5028723448affb7484c4c",
+      "calibration_sha256": "95ff457fa20b7d6de40300c04bcd2b72eda339f21c44dee994f214beb7d355f4"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\combo_expert_2203\\model.pth",
+      "sha256": "61499756d32700fa5abee08d3826c84c5f05fcec27652154fed733d6d03e6f27",
+      "calibration_sha256": "66100f4676f0c047f942f09d8805b6e40bb21f5c46a9d594cd07102e799dd801"
+    },
+    {
+      "group": "combo_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\combo_expert_2204\\model.pth",
+      "sha256": "84753fa1e86d8c55ad6f924e1bdea71ac931eaf2c34f9b486abcd7cd9b66ec31",
+      "calibration_sha256": "930fff09e1001791e394393d5fcf343cd38a5b51a697ec78d89e2296da7a6ec4"
+    },
+    {
+      "group": "weighted_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_expert_2200\\model.pth",
+      "sha256": "6e131907f3170b3d8e3f05f8a6dfba61cb2424c77a3fdd453d92bdf8b8a6f054",
+      "calibration_sha256": "de543ba7c466a2c02ef8ab52468f5738b6e13a4042e0bdecbc88ca63823e3234"
+    },
+    {
+      "group": "weighted_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_expert_2201\\model.pth",
+      "sha256": "273fc23800761557fda1b58d44e93965f1c7fa4ad40c2a27b79f37cd60602578",
+      "calibration_sha256": "c0c9788f877486dadab41270b45aea902d7ab3e65ab44b0101f016f91d2cab8f"
+    },
+    {
+      "group": "weighted_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_expert_2202\\model.pth",
+      "sha256": "d3bfe9b4dff4dd02f616f04c3e04d7a35cd77c9cefddaebd4e3a40b3acc66129",
+      "calibration_sha256": "29d424a1c24f97a422ec769f32db7c907cea3169f6037c65cca6feb172967720"
+    },
+    {
+      "group": "weighted_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_expert_2203\\model.pth",
+      "sha256": "6fc7705fc676940f60a4b9e871e347eb7d26ebccb4378f7fa664635d46923c4a",
+      "calibration_sha256": "65813ba4b0c48aa29f123f5064088295e81aec6a8ee0d5f80f43e4e271c7d31d"
+    },
+    {
+      "group": "weighted_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\weighted_expert_2204\\model.pth",
+      "sha256": "f2d6a3ba3830ab8aef927f23313ed7ba432639102e72ca10d4a753284407d84d",
+      "calibration_sha256": "3f9ac1716bdb09062092dad258fee1c46063956499a994ac9f4918718ca56d7d"
+    },
+    {
+      "group": "bootstrap_expert",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\bootstrap_expert_2200\\model.pth",
+      "sha256": "5e84aaafc9b5a9adff53129540bbea29b6dc82e875b02fdd9f4c0e26aa5db27c",
+      "calibration_sha256": "46f48cd720d610e4fcddcd1275133af006f870134d4c7a12fc58089f31a61727"
+    },
+    {
+      "group": "bootstrap_expert",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\bootstrap_expert_2201\\model.pth",
+      "sha256": "0fe42be77acdf4e31a564efd7d2b76fc2251f0e3874ce5d398ea1d7205bfacfe",
+      "calibration_sha256": "a508c3d3a1a55dcc2fa6358863c52e070b1716784667727ca5c6e00f662049bd"
+    },
+    {
+      "group": "bootstrap_expert",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\bootstrap_expert_2202\\model.pth",
+      "sha256": "498944497aa203aea6ee76deb80008cb1bbf6fa45632467ebc2e1f5e77d6d7cd",
+      "calibration_sha256": "963dae4abe3fe0661b789e7f799d4ddb56ef5269ed61c0dc5ce72c427e75cf20"
+    },
+    {
+      "group": "bootstrap_expert",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\bootstrap_expert_2203\\model.pth",
+      "sha256": "e29d7816bc9af923983c207ba2a3013c6162ba46c43ff6d5f8845b1e38fc1162",
+      "calibration_sha256": "563bd2479a13c32fa7c1ca811d01575b0638c9642c8d47122f69d3d61372a91b"
+    },
+    {
+      "group": "bootstrap_expert",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\readouts\\bootstrap_expert_2204\\model.pth",
+      "sha256": "fdca780735a8b55c5ec221ada0e3278608bea756f7e8412d34795661eb31ca7c",
+      "calibration_sha256": "487543ada336071664a4ee4cfdb0774b3313b901649c045a40a1143015dfe896"
+    }
+  ],
+  "time": "2026-11-09T21:46:56.108674+00:00",
+  "role": "development",
+  "evaluator_sha256": "e54b5a60b0d5f09fee7a6505b5a994867a544681e206860205d95d352a8eba85",
+  "all_models_and_calibrations_frozen": true,
+  "manifest_sha256": "c3c1019cd70c4641933ae1cb4a925a31e9c239a2a1000554c98289d8c31aa29d"
+}

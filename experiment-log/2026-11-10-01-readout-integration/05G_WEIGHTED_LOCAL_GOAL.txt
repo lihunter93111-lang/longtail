@@ -1,0 +1,13 @@
+Goal
+验证保留完整身份覆盖的组合加权专家与分段读出的联合效果。
+
+提出依据
+第一套开发数据中，weighted_affine达到85.620% Exact，ordinary_affine为84.623%，combo_affine为85.094%。weighted相对ordinary五种子全部正向，当前均值保护通过。该结论待第二划分及新确认复验。
+
+执行步骤
+使用已训练weighted_expert，沿用05D同一独立fusion_fit、同一校准、300步仿射拟合和同一W32主骨干。比较零局部残差、全局统计残差、1/2/4分段残差三组。零残差应重放weighted_affine。
+补充ISRJ单独读出和SawFM/MFT单独读出的标签消融，复用05E已验证的系数与阈值复制方式。两划分五种子全部执行。第二划分等完整weighted/bootstrap控制及其融合冻结后进入本步骤。
+既有编排脚本完整归档后增加weighted专家参数，模型运行时保持一致，记录源文件演变及普通推理重放。
+
+交付
+比较weighted_affine与weighted_segment_local/weighted_segment_isrj，比较对应combo与ordinary联合方法。报告正负收益、弱目标召回、误报、BCE和成本。根据两划分一致性确定最终主候选及必要控制，随后冻结并生成新确认。

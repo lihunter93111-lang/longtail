@@ -1,0 +1,13 @@
+{
+  "name": "weighted_segment_isrj",
+  "seed": 2204,
+  "kept_local_columns": [
+    5
+  ],
+  "source_model_sha256": "420d4ed72f547d799de33e2c3dbad0ee902c9200ddeb9ed4cc5bf73f5c6a9254",
+  "reference_sha256": "d4bb099b3400408a26523e58af7d1d425dbc96cb135fc10187bb6a802b1d61db",
+  "protocol_sha256": "075e1f8c56b1ae3a18920d041cba2e765950f977ca6d15bae6b424a8da988bd0",
+  "time": "2026-11-09T21:53:51.887343+00:00",
+  "sha256": "995d7350ca0b2aa2dcc76b3b1d535877f1c4bf572080c763eddd16792e537909",
+  "replay_max_error": 0.0
+}

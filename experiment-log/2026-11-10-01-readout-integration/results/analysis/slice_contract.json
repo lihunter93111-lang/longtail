@@ -1,0 +1,25 @@
+{
+  "combination_frequency_bins": [
+    "<=50",
+    "51..199",
+    ">=200"
+  ],
+  "power_spread": "max active nominal JNR minus min active nominal JNR",
+  "legacy_tail_codes": [
+    4,
+    8,
+    12,
+    24,
+    27,
+    30,
+    36,
+    42,
+    46,
+    48,
+    52,
+    55,
+    56
+  ],
+  "note": "descriptive slices; frequency, semantics and cardinality are associated",
+  "time": "2026-11-09T22:51:49.206784+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "weighted_global_local",
+  "seed": 2200,
+  "protocol_sha256": "fb6def7bb2a6c8dabcdd4f4a64d7dd66eaf0088aa494f1d35226428a809346f9",
+  "time": "2026-11-09T20:50:01.552594+00:00",
+  "sha256": "abe4480370a9141c6e1503ed403ecf968a82f028de843a7d9b85d7d0a55b4cb3",
+  "fallback": [],
+  "parameters": 2034737,
+  "replay_max_error": 0.0
+}

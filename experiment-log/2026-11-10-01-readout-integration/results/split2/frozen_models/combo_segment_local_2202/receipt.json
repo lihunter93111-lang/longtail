@@ -1,0 +1,10 @@
+{
+  "name": "combo_segment_local",
+  "seed": 2202,
+  "protocol_sha256": "4080988279f4bb5d8a9b2a8741ce1f2a1eba5695d089cda176a68352bfff5f90",
+  "time": "2026-11-09T19:44:14.874887+00:00",
+  "sha256": "60463dc4bbf87295135ee3f9036608e14f003a380145626ea56737e40b8220bb",
+  "fallback": [],
+  "parameters": 2034737,
+  "replay_max_error": 1.1102230246251565e-16
+}

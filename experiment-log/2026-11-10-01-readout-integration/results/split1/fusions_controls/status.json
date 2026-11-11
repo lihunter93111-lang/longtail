@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "methods": [
+    "reference_affine",
+    "ordinary_mean",
+    "combo_mean",
+    "ordinary_affine",
+    "combo_affine",
+    "bootstrap_mean",
+    "bootstrap_affine",
+    "weighted_mean",
+    "weighted_affine"
+  ],
+  "time": "2026-11-09T20:46:08.286070+00:00"
+}

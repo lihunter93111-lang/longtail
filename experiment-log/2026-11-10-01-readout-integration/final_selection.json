@@ -1,0 +1,326 @@
+{
+  "candidates": [
+    {
+      "name": "baseline",
+      "parent": "readouts",
+      "loader": "readout"
+    },
+    {
+      "name": "reference_affine",
+      "parent": "fusions",
+      "loader": "fusion"
+    },
+    {
+      "name": "ordinary_affine",
+      "parent": "fusions",
+      "loader": "fusion"
+    },
+    {
+      "name": "bootstrap_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion"
+    },
+    {
+      "name": "combo_affine",
+      "parent": "fusions",
+      "loader": "fusion"
+    },
+    {
+      "name": "weighted_affine",
+      "parent": "fusions_controls",
+      "loader": "fusion"
+    },
+    {
+      "name": "coverage_affine",
+      "parent": "fusions",
+      "loader": "fusion"
+    },
+    {
+      "name": "global_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion"
+    },
+    {
+      "name": "segment_pca256_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion"
+    },
+    {
+      "name": "segment_head64_affine",
+      "parent": "fusions_adaptive",
+      "loader": "fusion"
+    },
+    {
+      "name": "ordinary_segment_local",
+      "parent": "combined_ordinary",
+      "loader": "combined"
+    },
+    {
+      "name": "combo_global_local",
+      "parent": "combined",
+      "loader": "combined"
+    },
+    {
+      "name": "combo_segment_local",
+      "parent": "combined",
+      "loader": "combined"
+    },
+    {
+      "name": "weighted_global_local",
+      "parent": "combined_weighted",
+      "loader": "combined"
+    },
+    {
+      "name": "weighted_segment_local",
+      "parent": "combined_weighted",
+      "loader": "combined"
+    },
+    {
+      "name": "weighted_segment_isrj",
+      "parent": "combined_weighted_ablations",
+      "loader": "combined"
+    },
+    {
+      "name": "weighted_segment_guarded",
+      "parent": "readouts",
+      "loader": "combined"
+    },
+    {
+      "name": "weighted_isrj_guarded",
+      "parent": "readouts",
+      "loader": "combined"
+    }
+  ],
+  "comparisons": [
+    [
+      "reference_affine",
+      "baseline"
+    ],
+    [
+      "ordinary_affine",
+      "baseline"
+    ],
+    [
+      "bootstrap_affine",
+      "baseline"
+    ],
+    [
+      "combo_affine",
+      "baseline"
+    ],
+    [
+      "weighted_affine",
+      "baseline"
+    ],
+    [
+      "coverage_affine",
+      "baseline"
+    ],
+    [
+      "global_pca256_affine",
+      "baseline"
+    ],
+    [
+      "segment_pca256_affine",
+      "baseline"
+    ],
+    [
+      "segment_head64_affine",
+      "baseline"
+    ],
+    [
+      "ordinary_segment_local",
+      "baseline"
+    ],
+    [
+      "combo_global_local",
+      "baseline"
+    ],
+    [
+      "combo_segment_local",
+      "baseline"
+    ],
+    [
+      "weighted_global_local",
+      "baseline"
+    ],
+    [
+      "weighted_segment_local",
+      "baseline"
+    ],
+    [
+      "weighted_segment_isrj",
+      "baseline"
+    ],
+    [
+      "weighted_segment_guarded",
+      "baseline"
+    ],
+    [
+      "weighted_isrj_guarded",
+      "baseline"
+    ],
+    [
+      "weighted_affine",
+      "ordinary_affine"
+    ],
+    [
+      "combo_affine",
+      "ordinary_affine"
+    ],
+    [
+      "bootstrap_affine",
+      "ordinary_affine"
+    ],
+    [
+      "weighted_affine",
+      "combo_affine"
+    ],
+    [
+      "weighted_affine",
+      "bootstrap_affine"
+    ],
+    [
+      "ordinary_segment_local",
+      "ordinary_affine"
+    ],
+    [
+      "combo_segment_local",
+      "combo_affine"
+    ],
+    [
+      "combo_segment_local",
+      "combo_global_local"
+    ],
+    [
+      "weighted_segment_local",
+      "weighted_affine"
+    ],
+    [
+      "weighted_segment_local",
+      "weighted_global_local"
+    ],
+    [
+      "weighted_segment_local",
+      "ordinary_segment_local"
+    ],
+    [
+      "weighted_segment_guarded",
+      "weighted_affine"
+    ],
+    [
+      "weighted_segment_guarded",
+      "weighted_segment_local"
+    ],
+    [
+      "weighted_segment_guarded",
+      "ordinary_affine"
+    ],
+    [
+      "weighted_isrj_guarded",
+      "weighted_affine"
+    ],
+    [
+      "weighted_isrj_guarded",
+      "weighted_segment_guarded"
+    ],
+    [
+      "weighted_segment_isrj",
+      "weighted_segment_local"
+    ],
+    [
+      "segment_pca256_affine",
+      "global_pca256_affine"
+    ],
+    [
+      "segment_pca256_affine",
+      "coverage_affine"
+    ],
+    [
+      "segment_pca256_affine",
+      "segment_head64_affine"
+    ],
+    [
+      "segment_head64_affine",
+      "coverage_affine"
+    ],
+    [
+      "coverage_affine",
+      "reference_affine"
+    ],
+    [
+      "segment_pca256_affine",
+      "reference_affine"
+    ]
+  ],
+  "physical_methods": [
+    "baseline",
+    "reference_affine",
+    "ordinary_affine",
+    "weighted_affine",
+    "weighted_global_local",
+    "weighted_segment_local",
+    "weighted_segment_guarded",
+    "weighted_isrj_guarded",
+    "segment_pca256_affine"
+  ],
+  "physical_comparisons": [
+    [
+      "weighted_affine",
+      "ordinary_affine"
+    ],
+    [
+      "weighted_affine",
+      "baseline"
+    ],
+    [
+      "weighted_segment_local",
+      "weighted_affine"
+    ],
+    [
+      "weighted_segment_guarded",
+      "weighted_affine"
+    ],
+    [
+      "weighted_segment_guarded",
+      "weighted_segment_local"
+    ],
+    [
+      "weighted_isrj_guarded",
+      "weighted_affine"
+    ],
+    [
+      "weighted_segment_local",
+      "weighted_global_local"
+    ],
+    [
+      "segment_pca256_affine",
+      "reference_affine"
+    ],
+    [
+      "weighted_segment_guarded",
+      "ordinary_affine"
+    ]
+  ],
+  "primary_model": "weighted_segment_guarded",
+  "primary_reference": "ordinary_affine",
+  "incremental_reference": "weighted_affine",
+  "supporting_core_model": "weighted_affine",
+  "performance_tradeoff_model": "weighted_segment_local",
+  "role": "selected from development before generating new confirmation",
+  "rationale": [
+    "组合加权专家相对普通双模型融合在两划分各约+1pp，10个配对种子正向且均值保护通过。",
+    "局部读出提供小幅额外排序和Exact增量，部分种子区间跨零，保留为组件验证。",
+    "原联合读出在第二划分相对weighted_affine的ISRJ弱召回下降约1.48pp，严格参考保护版本降低该代价，以weighted_segment_guarded作为主要联合确认对象。",
+    "严格保护的额外Exact增量约0.109pp，组件贡献按实际确认区间与代价报告。",
+    "PCA256和MLP64单骨干读出作为容量、局部统计与成本对照，维数扩展的额外增量较小。"
+  ],
+  "extra_supervision": {
+    "fusion_fit_identities_per_split": 4032,
+    "distribution": "63 combinations,64 identities each",
+    "shared_by_all_affine_comparators": true
+  },
+  "statistics": "paired five-seed t95 and combination-stratified identity bootstrap are separate conditional summaries; component and mechanism comparisons are exploratory",
+  "planned_time_limit": "2026-11-10T08:00:00+08:00",
+  "time": "2026-11-09T22:28:22.507079+00:00"
+}

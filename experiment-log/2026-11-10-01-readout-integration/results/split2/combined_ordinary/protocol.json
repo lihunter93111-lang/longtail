@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "ordinary_residual_zero": "baseline",
+    "ordinary_global_local": "global_stats_coverage",
+    "ordinary_segment_local": "segment_coverage"
+  },
+  "epochs": 300,
+  "lr": 0.04,
+  "weight_decay": 0.0001,
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "source_sha256": "11cae47015ca505676b36496644b465a595d319fb41acf3f6ece903c93d4fe99",
+  "goal_sha256": "2687d745af86f6bbd92ec61b8e4f796c3c246f1fe5564699a18bd2a2d72bcdf4",
+  "expert_group": "ordinary_expert",
+  "extension_goal_sha256": "a1b45eeba7fff92e6a8e182a427384ae6b8cdb0b0f1e020713334e48dff131e7"
+}

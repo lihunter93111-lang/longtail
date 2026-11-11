@@ -1,0 +1,24 @@
+{
+  "role": "frozen_confirmation_physical_diagnostic",
+  "methods": [
+    "baseline",
+    "reference_affine",
+    "ordinary_affine",
+    "weighted_affine",
+    "weighted_global_local",
+    "weighted_segment_local",
+    "weighted_segment_guarded",
+    "weighted_isrj_guarded",
+    "segment_pca256_affine"
+  ],
+  "freeze_sha256": "8459bbe6ca73f53c8f81f666fe99b94a3c100d495e41f035a700baea7321a767",
+  "views": {
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation_pairs\\diagnostic_absent.mat": "bc3d8e73071e67847742f815f4461587b4b3925eddd3ed39c6d6cac84f60e3f7",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation_pairs\\diagnostic_gap0.mat": "db704e40ce5b12e8e73baa717298ba73cafe3db090634ed0f1b81f1c22127257",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation_pairs\\diagnostic_gap5.mat": "ad44843c982513914be8e996898ac73da56d09e97be222534923a748438f757c",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation_pairs\\diagnostic_gap10.mat": "b01246ea50c5afd8e43862af6d2fd279fa315f802aa810effa1f4b57c8548c61",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation_pairs\\diagnostic_gap15.mat": "8bf2e14c4b7dd8f7dd2554c824913f5028747aac71e49112464e6ef716e3cfea"
+  },
+  "source_sha256": "c7ce3f83191f5c1cab9c0a72f68ace01638af7f5da9bd33b9b00b829e809219d",
+  "time": "2026-11-09T22:40:27.538151+00:00"
+}

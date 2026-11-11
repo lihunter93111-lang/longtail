@@ -1,0 +1,7 @@
+{
+  "source": "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\combined_readout.py",
+  "archive": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\frozen_sources\\combined_readout_v1.py",
+  "sha256": "61c3a6b2a20d75546165c660221812f4bcb21c8e3ce0d2b4354356e91b524307",
+  "time": "2026-11-09T19:51:27.265012+00:00",
+  "reason": "preserve original completed two-split combo fitting before adding ordinary-expert factorial controls; inference architecture unchanged"
+}

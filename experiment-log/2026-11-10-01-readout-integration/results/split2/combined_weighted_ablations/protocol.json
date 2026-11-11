@@ -1,0 +1,16 @@
+{
+  "designs": {
+    "weighted_segment_isrj": [
+      5
+    ],
+    "weighted_segment_saw_mft": [
+      2,
+      4
+    ]
+  },
+  "source_sha256": "48791eb5b755d6cef65d8b503839d7651f08ababae8f00f172ffbea4c859602b",
+  "goal_sha256": "146a79228b753d0a4061f7c352179a8fdd5eb20fa3f441a93d9cf0fb2973e3f8",
+  "prefix": "weighted",
+  "extension_goal_sha256": "af7ad34c3c46c0e96ee8ce24b04cc11c3b242761e619b686242b3fc757ba7e61",
+  "time": "2026-11-09T21:53:33.282724+00:00"
+}

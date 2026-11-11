@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "methods": [
+    "weighted_residual_zero",
+    "weighted_global_local",
+    "weighted_segment_local"
+  ],
+  "time": "2026-11-09T20:50:34.764869+00:00"
+}

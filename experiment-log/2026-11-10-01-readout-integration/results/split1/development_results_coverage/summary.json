@@ -1,0 +1,6028 @@
+{
+  "means": {
+    "baseline": {
+      "exact": 0.8273313492063492,
+      "raw_bce": 0.096079629838279,
+      "macro_aupr": 0.993509700758606,
+      "macro_f1": 0.967375519174084,
+      "tail_exact": 0.8384615384615384,
+      "ECE": 0.013961882327296643
+    },
+    "global_stats": {
+      "exact": 0.8269345238095239,
+      "raw_bce": 0.09605025644583251,
+      "macro_aupr": 0.993538172024903,
+      "macro_f1": 0.9673415111925807,
+      "tail_exact": 0.8396634615384615,
+      "ECE": 0.014076421964497737
+    },
+    "segment": {
+      "exact": 0.8305059523809524,
+      "raw_bce": 0.10303716817969258,
+      "macro_aupr": 0.9939046437223311,
+      "macro_f1": 0.9678781766085581,
+      "tail_exact": 0.8425480769230769,
+      "ECE": 0.01601654501171354
+    },
+    "global_stats_coverage": {
+      "exact": 0.8268353174603174,
+      "raw_bce": 0.09820868325564816,
+      "macro_aupr": 0.9936219528978499,
+      "macro_f1": 0.9672789366345327,
+      "tail_exact": 0.8399038461538462,
+      "ECE": 0.015209195088327488
+    },
+    "segment_coverage": {
+      "exact": 0.8305555555555555,
+      "raw_bce": 0.10054496786406202,
+      "macro_aupr": 0.9940264603388685,
+      "macro_f1": 0.9680508774786647,
+      "tail_exact": 0.8442307692307691,
+      "ECE": 0.01640445448438741
+    }
+  },
+  "comparisons": [
+    {
+      "candidate": "global_stats",
+      "reference": "baseline",
+      "variant": "calibrated",
+      "exact_gain": -0.0003968253968253732,
+      "exact_per_seed": [
+        -0.0017361111111110494,
+        0.0,
+        -0.0002480158730158166,
+        0.0,
+        0.0
+      ],
+      "exact_seed_t95": [
+        -0.0013359539388986211,
+        0.0005423031452478747
+      ],
+      "exact_identity_bootstrap95": [
+        -0.001140873015873016,
+        0.0003472222222222223
+      ],
+      "BCE_gain": 2.937339244649395e-05,
+      "BCE_seed_t95": [
+        -0.00017924678349822763,
+        0.0002379935683912155
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.0001081029620594982,
+        0.00016279376932753863
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": true,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0011088709677419353,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.005544354838709676,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.001171875,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.005859375,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 2.96621125419394e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.000148310562709697,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.004592901878914391,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.022964509394571953,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 4.936268745876493e-05,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.00024681343729382466,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.00020161290322580626,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            -0.0010080645161290314,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.0001953125,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            -0.0009765625,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 8.012828618755296e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.00040064143093776483,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": -0.0008528784648187626,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            -0.004264392324093813,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.00024508531934717135,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0012254265967358569,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": 0.002318548387096775,
+          "negative_fpr_per_seed": [
+            0.011592741935483875,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.00146484375,
+          "recall_per_seed": [
+            0.00732421875,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 6.103719905199423e-05,
+          "aupr_per_seed": [
+            0.00030518599525997114,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.003153153153153165,
+          "weak_recall_per_seed": [
+            0.015765765765765827,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.00027880917662470583,
+          "weak_aupr_per_seed": [
+            0.0013940458831235292,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "global_stats",
+      "reference": "baseline",
+      "variant": "fixed_reference",
+      "exact_gain": -0.000496031746031722,
+      "exact_per_seed": [
+        -0.0012400793650793052,
+        0.0,
+        -0.0012400793650793052,
+        0.0,
+        0.0
+      ],
+      "exact_seed_t95": [
+        -0.001339394073236861,
+        0.000347330581173417
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0012896825396825397,
+        0.0002976190476190475
+      ],
+      "BCE_gain": 2.937339244649395e-05,
+      "BCE_seed_t95": [
+        -0.00017924678349822763,
+        0.0002379935683912155
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.0001081029620594982,
+        0.00016279376932753863
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": true,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0004032258064516125,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            -0.0020161290322580627,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.0013671875,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            -0.0068359375,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 2.96621125419394e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.000148310562709697,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": -0.005427974947807934,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            -0.02713987473903967,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 4.936268745876493e-05,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.00024681343729382466,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0013104838709677414,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            -0.006552419354838707,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.00126953125,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            -0.00634765625,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 8.012828618755296e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.00040064143093776483,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": -0.005117270788912598,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            -0.02558635394456299,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.00024508531934717135,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0012254265967358569,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.0012096774193548383,
+          "negative_fpr_per_seed": [
+            -0.006048387096774192,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.00205078125,
+          "recall_per_seed": [
+            -0.01025390625,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 6.103719905199423e-05,
+          "aupr_per_seed": [
+            0.00030518599525997114,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": -0.00585585585585584,
+          "weak_recall_per_seed": [
+            -0.029279279279279202,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.00027880917662470583,
+          "weak_aupr_per_seed": [
+            0.0013940458831235292,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "baseline",
+      "variant": "calibrated",
+      "exact_gain": 0.0031746031746031854,
+      "exact_per_seed": [
+        0.0017361111111111605,
+        0.003968253968253954,
+        0.0,
+        0.00520833333333337,
+        0.004960317460317443
+      ],
+      "exact_seed_t95": [
+        0.00039108158684598125,
+        0.00595812476236039
+      ],
+      "exact_identity_bootstrap95": [
+        0.0017857142857142854,
+        0.004563492063492064
+      ],
+      "BCE_gain": -0.00695753834141358,
+      "BCE_seed_t95": [
+        -0.016989623216851133,
+        0.0030745465340239744
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.008662523353599271,
+        -0.005365813386823955
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.007862903225806451,
+          "negative_fpr_per_seed": [
+            0.004032258064516132,
+            -0.0035282258064516098,
+            0.0,
+            -0.02620967741935484,
+            -0.01360887096774193
+          ],
+          "recall_delta": -0.001171875,
+          "recall_per_seed": [
+            0.00732421875,
+            0.00634765625,
+            0.0,
+            -0.013671875,
+            -0.005859375
+          ],
+          "aupr_delta": 0.0023696577823499655,
+          "aupr_per_seed": [
+            0.0023833022345999266,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0017429545896343601
+          ],
+          "weak_recall_delta": -0.008108108108108091,
+          "weak_recall_per_seed": [
+            0.006756756756756799,
+            0.020270270270270285,
+            0.0,
+            -0.04954954954954949,
+            -0.018018018018018056
+          ],
+          "weak_aupr_delta": 0.013975867889929305,
+          "weak_aupr_per_seed": [
+            0.01191534771865932,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.014078681926771641
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "baseline",
+      "variant": "fixed_reference",
+      "exact_gain": 0.002876984126984139,
+      "exact_per_seed": [
+        0.0007440476190476719,
+        0.005456349206349187,
+        0.0,
+        0.0029761904761904656,
+        0.00520833333333337
+      ],
+      "exact_seed_t95": [
+        -0.000222491947329644,
+        0.005976460201297922
+      ],
+      "exact_identity_bootstrap95": [
+        0.0016865079365079364,
+        0.004067460317460318
+      ],
+      "BCE_gain": -0.00695753834141358,
+      "BCE_seed_t95": [
+        -0.016989623216851133,
+        0.0030745465340239744
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.008662523353599271,
+        -0.005365813386823955
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.005544354838709676,
+          "negative_fpr_per_seed": [
+            -0.00856854838709677,
+            -0.006552419354838711,
+            0.0,
+            -0.001512096774193547,
+            -0.011088709677419352
+          ],
+          "recall_delta": -0.0005859375,
+          "recall_per_seed": [
+            -0.0087890625,
+            0.00634765625,
+            0.0,
+            0.001953125,
+            -0.00244140625
+          ],
+          "aupr_delta": 0.0023696577823499655,
+          "aupr_per_seed": [
+            0.0023833022345999266,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0017429545896343601
+          ],
+          "weak_recall_delta": -0.004504504504504481,
+          "weak_recall_per_seed": [
+            -0.04054054054054046,
+            0.020270270270270285,
+            0.0,
+            0.006756756756756799,
+            -0.009009009009009028
+          ],
+          "weak_aupr_delta": 0.013975867889929305,
+          "weak_aupr_per_seed": [
+            0.01191534771865932,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.014078681926771641
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "global_stats_coverage",
+      "reference": "baseline",
+      "variant": "calibrated",
+      "exact_gain": -0.0004960317460317443,
+      "exact_per_seed": [
+        -0.0004960317460317443,
+        0.0,
+        0.0,
+        0.0009920634920634885,
+        -0.0029761904761904656
+      ],
+      "exact_seed_t95": [
+        -0.002343746029073057,
+        0.0013516825370095684
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0017373511904761906,
+        0.0007440476190476188
+      ],
+      "BCE_gain": -0.0021290534173691476,
+      "BCE_seed_t95": [
+        -0.007159008916935122,
+        0.002900902082196827
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.002769290414320628,
+        -0.0014947955527303911
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0007056451612903212,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.007560483870967742,
+            0.006552419354838714,
+            -0.0025201612903225784,
+            0.0
+          ],
+          "recall_delta": -9.765625e-05,
+          "recall_per_seed": [
+            0.0,
+            -0.005859375,
+            0.00732421875,
+            -0.001953125,
+            0.0
+          ],
+          "aupr_delta": 0.00022205518724049966,
+          "aupr_per_seed": [
+            0.0,
+            0.0006602619678172106,
+            0.000192723947979756,
+            0.00025729002040553173,
+            0.0
+          ],
+          "weak_recall_delta": -0.0008350730688935437,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.022964509394572064,
+            0.02713987473903967,
+            -0.008350730688935326,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0016849711821232515,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.007099510312810642,
+            0.00017373231186423865,
+            0.0011516132859413775,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0011088709677419344,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            -0.0025201612903225784,
+            -0.003024193548387094,
+            0.0
+          ],
+          "recall_delta": -0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            -0.00048828125,
+            -0.001953125,
+            -0.0009765625,
+            0.0
+          ],
+          "aupr_delta": 0.00027582566882331514,
+          "aupr_per_seed": [
+            0.0,
+            0.0007392055078072612,
+            0.00046816890718115456,
+            0.00017175392912816,
+            0.0
+          ],
+          "weak_recall_delta": -0.0029850746268656803,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.002132196162046962,
+            -0.008528784648187626,
+            -0.004264392324093813,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0011006988349480328,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.002877922342280681,
+            0.0018057067228185453,
+            0.0008198651096409382,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": 0.002923387096774195,
+          "negative_fpr_per_seed": [
+            -0.003024193548387094,
+            0.0,
+            0.0,
+            0.0,
+            0.01764112903225807
+          ],
+          "recall_delta": 0.0005859375,
+          "recall_per_seed": [
+            -0.005859375,
+            0.0,
+            0.0,
+            0.0,
+            0.0087890625
+          ],
+          "aupr_delta": 0.00017563197939862718,
+          "aupr_per_seed": [
+            0.0008007976675862283,
+            0.0,
+            0.0,
+            0.0,
+            7.736222940690762e-05
+          ],
+          "weak_recall_delta": 0.0009009009009009139,
+          "weak_recall_per_seed": [
+            -0.024774774774774744,
+            0.0,
+            0.0,
+            0.0,
+            0.029279279279279313
+          ],
+          "weak_aupr_delta": 0.0016864434172793486,
+          "weak_aupr_per_seed": [
+            0.002749123461863623,
+            0.0,
+            0.0,
+            0.0,
+            0.00568309362453312
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "global_stats_coverage",
+      "reference": "baseline",
+      "variant": "fixed_reference",
+      "exact_gain": 0.00039682539682541764,
+      "exact_per_seed": [
+        -0.001984126984126977,
+        0.0012400793650794162,
+        0.0009920634920634885,
+        0.0004960317460317443,
+        0.0012400793650794162
+      ],
+      "exact_seed_t95": [
+        -0.0012983119015648205,
+        0.002091962695215656
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0008928571428571429,
+        0.001636904761904762
+      ],
+      "BCE_gain": -0.0021290534173691476,
+      "BCE_seed_t95": [
+        -0.007159008916935122,
+        0.002900902082196827
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.002769290414320628,
+        -0.0014947955527303911
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0011088709677419344,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0010080645161290314,
+            -0.0020161290322580627,
+            -0.0025201612903225784,
+            0.0
+          ],
+          "recall_delta": -0.00048828125,
+          "recall_per_seed": [
+            0.0,
+            0.00341796875,
+            -0.00390625,
+            -0.001953125,
+            0.0
+          ],
+          "aupr_delta": 0.00022205518724049966,
+          "aupr_per_seed": [
+            0.0,
+            0.0006602619678172106,
+            0.000192723947979756,
+            0.00025729002040553173,
+            0.0
+          ],
+          "weak_recall_delta": -0.003757828810020869,
+          "weak_recall_per_seed": [
+            0.0,
+            0.006263048016701522,
+            -0.01670146137787054,
+            -0.008350730688935326,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0016849711821232515,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.007099510312810642,
+            0.00017373231186423865,
+            0.0011516132859413775,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0025201612903225797,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0010080645161290314,
+            -0.007560483870967742,
+            -0.0040322580645161255,
+            0.0
+          ],
+          "recall_delta": -0.00205078125,
+          "recall_per_seed": [
+            0.0,
+            -0.00244140625,
+            -0.00537109375,
+            -0.00244140625,
+            0.0
+          ],
+          "aupr_delta": 0.00027582566882331514,
+          "aupr_per_seed": [
+            0.0,
+            0.0007392055078072612,
+            0.00046816890718115456,
+            0.00017175392912816,
+            0.0
+          ],
+          "weak_recall_delta": -0.008528784648187649,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.008528784648187626,
+            -0.023454157782516027,
+            -0.010660980810234588,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0011006988349480328,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.002877922342280681,
+            0.0018057067228185453,
+            0.0008198651096409382,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.0018145161290322564,
+          "negative_fpr_per_seed": [
+            -0.005040322580645157,
+            0.0,
+            0.0,
+            0.0,
+            -0.0040322580645161255
+          ],
+          "recall_delta": -0.003125,
+          "recall_per_seed": [
+            -0.0107421875,
+            0.0,
+            0.0,
+            0.0,
+            -0.0048828125
+          ],
+          "aupr_delta": 0.00017563197939862718,
+          "aupr_per_seed": [
+            0.0008007976675862283,
+            0.0,
+            0.0,
+            0.0,
+            7.736222940690762e-05
+          ],
+          "weak_recall_delta": -0.009459459459459451,
+          "weak_recall_per_seed": [
+            -0.03828828828828823,
+            0.0,
+            0.0,
+            0.0,
+            -0.009009009009009028
+          ],
+          "weak_aupr_delta": 0.0016864434172793486,
+          "weak_aupr_per_seed": [
+            0.002749123461863623,
+            0.0,
+            0.0,
+            0.0,
+            0.00568309362453312
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "baseline",
+      "variant": "calibrated",
+      "exact_gain": 0.003224206349206371,
+      "exact_per_seed": [
+        0.0014880952380952328,
+        0.004464285714285698,
+        0.0,
+        0.00793650793650802,
+        0.0022321428571429047
+      ],
+      "exact_seed_t95": [
+        -0.0006097698690660223,
+        0.007058182567478765
+      ],
+      "exact_identity_bootstrap95": [
+        0.0014384920634920636,
+        0.00496031746031746
+      ],
+      "BCE_gain": -0.004465338025783009,
+      "BCE_seed_t95": [
+        -0.01038609081535883,
+        0.0014554147637928123
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.00572896141339566,
+        -0.0032441034442216225
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0013104838709677422,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.006552419354838711,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.0009765625,
+          "recall_per_seed": [
+            0.0,
+            -0.0048828125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            0.0,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": -0.0045929018789144125,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.022964509394572064,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            0.0,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.003528225806451612,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.005544354838709676,
+            0.0,
+            -0.012096774193548383,
+            0.0
+          ],
+          "recall_delta": -0.00048828125,
+          "recall_per_seed": [
+            0.0,
+            0.00244140625,
+            0.0,
+            -0.0048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            0.0,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": -0.00213219616204694,
+          "weak_recall_per_seed": [
+            0.0,
+            0.010660980810234477,
+            0.0,
+            -0.021321961620469176,
+            0.0
+          ],
+          "weak_aupr_delta": 0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            0.0,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.0025201612903225797,
+          "negative_fpr_per_seed": [
+            0.0025201612903225853,
+            0.014616935483870962,
+            0.0,
+            -0.03225806451612903,
+            0.0025201612903225853
+          ],
+          "recall_delta": 0.0025390625,
+          "recall_per_seed": [
+            0.0078125,
+            0.01611328125,
+            0.0,
+            -0.01904296875,
+            0.0078125
+          ],
+          "aupr_delta": 0.002494150076910695,
+          "aupr_per_seed": [
+            0.0025878345350226484,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0023293088357213554
+          ],
+          "weak_recall_delta": 0.005405405405405417,
+          "weak_recall_per_seed": [
+            0.015765765765765827,
+            0.05405405405405406,
+            0.0,
+            -0.06981981981981977,
+            0.027027027027026973
+          ],
+          "weak_aupr_delta": 0.01665003545615009,
+          "weak_aupr_per_seed": [
+            0.017614023879288898,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.02044858869638455
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "baseline",
+      "variant": "fixed_reference",
+      "exact_gain": 0.004216269841269838,
+      "exact_per_seed": [
+        0.0014880952380952328,
+        0.009920634920634885,
+        0.0,
+        0.00520833333333337,
+        0.004464285714285698
+      ],
+      "exact_seed_t95": [
+        -0.0005445584280238574,
+        0.008977098110563533
+      ],
+      "exact_identity_bootstrap95": [
+        0.002628968253968254,
+        0.005803571428571428
+      ],
+      "BCE_gain": -0.004465338025783009,
+      "BCE_seed_t95": [
+        -0.01038609081535883,
+        0.0014554147637928123
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.00572896141339566,
+        -0.0032441034442216225
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.000907258064516129,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0010080645161290314,
+            0.0,
+            -0.0035282258064516132,
+            0.0
+          ],
+          "recall_delta": 0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            0.00439453125,
+            0.0,
+            -0.0009765625,
+            0.0
+          ],
+          "aupr_delta": 0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            0.0,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": 0.002087682672233826,
+          "weak_recall_per_seed": [
+            0.0,
+            0.014613778705636737,
+            0.0,
+            -0.0041753653444676075,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            0.0,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0012096774193548383,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.002520161290322582,
+            0.0,
+            -0.0035282258064516098,
+            0.0
+          ],
+          "recall_delta": 0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            0.00390625,
+            0.0,
+            -0.00048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            0.0,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": 0.0029850746268656582,
+          "weak_recall_per_seed": [
+            0.0,
+            0.017057569296375252,
+            0.0,
+            -0.002132196162046962,
+            0.0
+          ],
+          "weak_aupr_delta": 0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            0.0,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.001512096774193547,
+          "negative_fpr_per_seed": [
+            -0.0010080645161290314,
+            0.0,
+            0.0,
+            0.0010080645161290314,
+            -0.007560483870967735
+          ],
+          "recall_delta": 0.00419921875,
+          "recall_per_seed": [
+            0.00341796875,
+            0.01220703125,
+            0.0,
+            0.005859375,
+            -0.00048828125
+          ],
+          "aupr_delta": 0.002494150076910695,
+          "aupr_per_seed": [
+            0.0025878345350226484,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0023293088357213554
+          ],
+          "weak_recall_delta": 0.010810810810810811,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0427927927927928,
+            0.0,
+            0.013513513513513487,
+            -0.0022522522522522292
+          ],
+          "weak_aupr_delta": 0.01665003545615009,
+          "weak_aupr_per_seed": [
+            0.017614023879288898,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.02044858869638455
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "global_stats",
+      "variant": "calibrated",
+      "exact_gain": 0.0035714285714285587,
+      "exact_per_seed": [
+        0.00347222222222221,
+        0.003968253968253954,
+        0.0002480158730158166,
+        0.00520833333333337,
+        0.004960317460317443
+      ],
+      "exact_seed_t95": [
+        0.001102042170957978,
+        0.0060408149718991395
+      ],
+      "exact_identity_bootstrap95": [
+        0.002083333333333333,
+        0.005009920634920635
+      ],
+      "BCE_gain": -0.006986911733860074,
+      "BCE_seed_t95": [
+        -0.016983219933255154,
+        0.003009396465535009
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.008633270290131197,
+        -0.0054393660015733996
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": false
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0011088709677419353,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            -0.005544354838709676,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.001171875,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            -0.005859375,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": -2.96621125419394e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.000148310562709697,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": -0.004592901878914391,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            -0.022964509394571953,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": -4.936268745876493e-05,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.00024681343729382466,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.00020161290322580626,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0010080645161290314,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0001953125,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0009765625,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": -8.012828618755296e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.00040064143093776483,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0008528784648187626,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.004264392324093813,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": -0.00024508531934717135,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.0012254265967358569,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.010181451612903224,
+          "negative_fpr_per_seed": [
+            -0.007560483870967742,
+            -0.0035282258064516098,
+            0.0,
+            -0.02620967741935484,
+            -0.01360887096774193
+          ],
+          "recall_delta": -0.00263671875,
+          "recall_per_seed": [
+            0.0,
+            0.00634765625,
+            0.0,
+            -0.013671875,
+            -0.005859375
+          ],
+          "aupr_delta": 0.002308620583297971,
+          "aupr_per_seed": [
+            0.0020781162393399555,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0017429545896343601
+          ],
+          "weak_recall_delta": -0.011261261261261257,
+          "weak_recall_per_seed": [
+            -0.009009009009009028,
+            0.020270270270270285,
+            0.0,
+            -0.04954954954954949,
+            -0.018018018018018056
+          ],
+          "weak_aupr_delta": 0.0136970587133046,
+          "weak_aupr_per_seed": [
+            0.01052130183553579,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.014078681926771641
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "global_stats",
+      "variant": "fixed_reference",
+      "exact_gain": 0.003373015873015861,
+      "exact_per_seed": [
+        0.001984126984126977,
+        0.005456349206349187,
+        0.0012400793650793052,
+        0.0029761904761904656,
+        0.00520833333333337
+      ],
+      "exact_seed_t95": [
+        0.0010216628193742208,
+        0.005724368926657501
+      ],
+      "exact_identity_bootstrap95": [
+        0.0020337301587301584,
+        0.004662698412698413
+      ],
+      "BCE_gain": -0.006986911733860074,
+      "BCE_seed_t95": [
+        -0.016983219933255154,
+        0.003009396465535009
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.008633270290131197,
+        -0.0054393660015733996
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0004032258064516125,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0020161290322580627,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0013671875,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0068359375,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": -2.96621125419394e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.000148310562709697,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.005427974947807934,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.02713987473903967,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": -4.936268745876493e-05,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.00024681343729382466,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0013104838709677414,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.006552419354838707,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.00126953125,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.00634765625,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": -8.012828618755296e-05,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.00040064143093776483,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.005117270788912598,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.02558635394456299,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": -0.00024508531934717135,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            -0.0012254265967358569,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.004334677419354838,
+          "negative_fpr_per_seed": [
+            -0.0025201612903225784,
+            -0.006552419354838711,
+            0.0,
+            -0.001512096774193547,
+            -0.011088709677419352
+          ],
+          "recall_delta": 0.00146484375,
+          "recall_per_seed": [
+            0.00146484375,
+            0.00634765625,
+            0.0,
+            0.001953125,
+            -0.00244140625
+          ],
+          "aupr_delta": 0.002308620583297971,
+          "aupr_per_seed": [
+            0.0020781162393399555,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0017429545896343601
+          ],
+          "weak_recall_delta": 0.0013513513513513597,
+          "weak_recall_per_seed": [
+            -0.011261261261261257,
+            0.020270270270270285,
+            0.0,
+            0.006756756756756799,
+            -0.009009009009009028
+          ],
+          "weak_aupr_delta": 0.0136970587133046,
+          "weak_aupr_per_seed": [
+            0.01052130183553579,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.014078681926771641
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "global_stats_coverage",
+      "variant": "calibrated",
+      "exact_gain": 0.0036706349206349297,
+      "exact_per_seed": [
+        0.0022321428571429047,
+        0.003968253968253954,
+        0.0,
+        0.004216269841269882,
+        0.007936507936507908
+      ],
+      "exact_seed_t95": [
+        4.3850043760896174e-05,
+        0.007297419797508963
+      ],
+      "exact_identity_bootstrap95": [
+        0.0019332837301587298,
+        0.0055059523809523805
+      ],
+      "BCE_gain": -0.004828484924044432,
+      "BCE_seed_t95": [
+        -0.011293260757539596,
+        0.001636290909450732
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.006076533157146776,
+        -0.003649135723200599
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0007056451612903212,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.007560483870967742,
+            -0.006552419354838714,
+            0.0025201612903225784,
+            0.0
+          ],
+          "recall_delta": 9.765625e-05,
+          "recall_per_seed": [
+            0.0,
+            0.005859375,
+            -0.00732421875,
+            0.001953125,
+            0.0
+          ],
+          "aupr_delta": -0.00022205518724049966,
+          "aupr_per_seed": [
+            0.0,
+            -0.0006602619678172106,
+            -0.000192723947979756,
+            -0.00025729002040553173,
+            0.0
+          ],
+          "weak_recall_delta": 0.0008350730688935437,
+          "weak_recall_per_seed": [
+            0.0,
+            0.022964509394572064,
+            -0.02713987473903967,
+            0.008350730688935326,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0016849711821232515,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.007099510312810642,
+            -0.00017373231186423865,
+            -0.0011516132859413775,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0011088709677419344,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0025201612903225784,
+            0.003024193548387094,
+            0.0
+          ],
+          "recall_delta": 0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            0.00048828125,
+            0.001953125,
+            0.0009765625,
+            0.0
+          ],
+          "aupr_delta": -0.00027582566882331514,
+          "aupr_per_seed": [
+            0.0,
+            -0.0007392055078072612,
+            -0.00046816890718115456,
+            -0.00017175392912816,
+            0.0
+          ],
+          "weak_recall_delta": 0.0029850746268656803,
+          "weak_recall_per_seed": [
+            0.0,
+            0.002132196162046962,
+            0.008528784648187626,
+            0.004264392324093813,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0011006988349480328,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.002877922342280681,
+            -0.0018057067228185453,
+            -0.0008198651096409382,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.010786290322580643,
+          "negative_fpr_per_seed": [
+            0.0070564516129032265,
+            -0.0035282258064516098,
+            0.0,
+            -0.02620967741935484,
+            -0.03125
+          ],
+          "recall_delta": -0.0017578125,
+          "recall_per_seed": [
+            0.01318359375,
+            0.00634765625,
+            0.0,
+            -0.013671875,
+            -0.0146484375
+          ],
+          "aupr_delta": 0.0021940258029513383,
+          "aupr_per_seed": [
+            0.0015825045670136983,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0016655923602274525
+          ],
+          "weak_recall_delta": -0.009009009009009005,
+          "weak_recall_per_seed": [
+            0.03153153153153154,
+            0.020270270270270285,
+            0.0,
+            -0.04954954954954949,
+            -0.04729729729729737
+          ],
+          "weak_aupr_delta": 0.012289424472649958,
+          "weak_aupr_per_seed": [
+            0.009166224256795696,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.008395588302238521
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "global_stats_coverage",
+      "variant": "fixed_reference",
+      "exact_gain": 0.0024801587301587213,
+      "exact_per_seed": [
+        0.002728174603174649,
+        0.004216269841269771,
+        -0.0009920634920634885,
+        0.0024801587301587213,
+        0.003968253968253954
+      ],
+      "exact_seed_t95": [
+        -0.00010554120226187848,
+        0.005065858662579321
+      ],
+      "exact_identity_bootstrap95": [
+        0.0009424603174603177,
+        0.0040178571428571425
+      ],
+      "BCE_gain": -0.004828484924044432,
+      "BCE_seed_t95": [
+        -0.011293260757539596,
+        0.001636290909450732
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.006076533157146776,
+        -0.003649135723200599
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0011088709677419344,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0010080645161290314,
+            0.0020161290322580627,
+            0.0025201612903225784,
+            0.0
+          ],
+          "recall_delta": 0.00048828125,
+          "recall_per_seed": [
+            0.0,
+            -0.00341796875,
+            0.00390625,
+            0.001953125,
+            0.0
+          ],
+          "aupr_delta": -0.00022205518724049966,
+          "aupr_per_seed": [
+            0.0,
+            -0.0006602619678172106,
+            -0.000192723947979756,
+            -0.00025729002040553173,
+            0.0
+          ],
+          "weak_recall_delta": 0.003757828810020869,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.006263048016701522,
+            0.01670146137787054,
+            0.008350730688935326,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0016849711821232515,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.007099510312810642,
+            -0.00017373231186423865,
+            -0.0011516132859413775,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0025201612903225797,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0010080645161290314,
+            0.007560483870967742,
+            0.0040322580645161255,
+            0.0
+          ],
+          "recall_delta": 0.00205078125,
+          "recall_per_seed": [
+            0.0,
+            0.00244140625,
+            0.00537109375,
+            0.00244140625,
+            0.0
+          ],
+          "aupr_delta": -0.00027582566882331514,
+          "aupr_per_seed": [
+            0.0,
+            -0.0007392055078072612,
+            -0.00046816890718115456,
+            -0.00017175392912816,
+            0.0
+          ],
+          "weak_recall_delta": 0.008528784648187649,
+          "weak_recall_per_seed": [
+            0.0,
+            0.008528784648187626,
+            0.023454157782516027,
+            0.010660980810234588,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0011006988349480328,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.002877922342280681,
+            -0.0018057067228185453,
+            -0.0008198651096409382,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.0037298387096774193,
+          "negative_fpr_per_seed": [
+            -0.0035282258064516132,
+            -0.006552419354838711,
+            0.0,
+            -0.001512096774193547,
+            -0.0070564516129032265
+          ],
+          "recall_delta": 0.0025390625,
+          "recall_per_seed": [
+            0.001953125,
+            0.00634765625,
+            0.0,
+            0.001953125,
+            0.00244140625
+          ],
+          "aupr_delta": 0.0021940258029513383,
+          "aupr_per_seed": [
+            0.0015825045670136983,
+            0.006071251284378798,
+            0.0,
+            0.0016507808031367421,
+            0.0016655923602274525
+          ],
+          "weak_recall_delta": 0.004954954954954971,
+          "weak_recall_per_seed": [
+            -0.0022522522522522292,
+            0.020270270270270285,
+            0.0,
+            0.006756756756756799,
+            0.0
+          ],
+          "weak_aupr_delta": 0.012289424472649958,
+          "weak_aupr_per_seed": [
+            0.009166224256795696,
+            0.03259783675658634,
+            0.0,
+            0.011287473047629226,
+            0.008395588302238521
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "segment_coverage",
+      "variant": "calibrated",
+      "exact_gain": -4.9603174603185526e-05,
+      "exact_per_seed": [
+        0.00024801587301592765,
+        -0.0004960317460317443,
+        0.0,
+        -0.002728174603174649,
+        0.002728174603174538
+      ],
+      "exact_seed_t95": [
+        -0.002468549031027678,
+        0.0023693426818213064
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0015873015873015866,
+        0.0014880952380952382
+      ],
+      "BCE_gain": -0.0024922003156305716,
+      "BCE_seed_t95": [
+        -0.01109047942708828,
+        0.006106078795827136
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.003215048927528588,
+        -0.0017763529464943856
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": false
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.0013104838709677422,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.006552419354838711,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0009765625,
+          "recall_per_seed": [
+            0.0,
+            0.0048828125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": -0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            -0.0006020056989837208,
+            0.0,
+            -0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": 0.0045929018789144125,
+          "weak_recall_per_seed": [
+            0.0,
+            0.022964509394572064,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.006286640786772546,
+            0.0,
+            -0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.003528225806451612,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.005544354838709676,
+            0.0,
+            0.012096774193548383,
+            0.0
+          ],
+          "recall_delta": 0.00048828125,
+          "recall_per_seed": [
+            0.0,
+            -0.00244140625,
+            0.0,
+            0.0048828125,
+            0.0
+          ],
+          "aupr_delta": -0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            -0.0019492490728357792,
+            0.0,
+            -0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": 0.00213219616204694,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.010660980810234477,
+            0.0,
+            0.021321961620469176,
+            0.0
+          ],
+          "weak_aupr_delta": -0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.011868184164093631,
+            0.0,
+            -0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.00534274193548387,
+          "negative_fpr_per_seed": [
+            0.001512096774193547,
+            -0.01814516129032257,
+            0.0,
+            0.006048387096774192,
+            -0.016129032258064516
+          ],
+          "recall_delta": -0.0037109375,
+          "recall_per_seed": [
+            -0.00048828125,
+            -0.009765625,
+            0.0,
+            0.00537109375,
+            -0.013671875
+          ],
+          "aupr_delta": -0.00012449229456072962,
+          "aupr_per_seed": [
+            -0.00020453230042272175,
+            0.0003700604887912906,
+            0.0,
+            -0.00020163541508522176,
+            -0.0005863542460869953
+          ],
+          "weak_recall_delta": -0.013513513513513509,
+          "weak_recall_per_seed": [
+            -0.009009009009009028,
+            -0.03378378378378377,
+            0.0,
+            0.020270270270270285,
+            -0.04504504504504503
+          ],
+          "weak_aupr_delta": -0.0026741675662207863,
+          "weak_aupr_per_seed": [
+            -0.005698676160629579,
+            -0.002589728452954798,
+            0.0,
+            0.0012874735520933545,
+            -0.00636990676961291
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment",
+      "reference": "segment_coverage",
+      "variant": "fixed_reference",
+      "exact_gain": -0.0013392857142856985,
+      "exact_per_seed": [
+        -0.0007440476190475609,
+        -0.004464285714285698,
+        0.0,
+        -0.0022321428571429047,
+        0.0007440476190476719
+      ],
+      "exact_seed_t95": [
+        -0.003902885241928088,
+        0.0012243138133566907
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0027777777777777775,
+        4.960317460317443e-05
+      ],
+      "BCE_gain": -0.0024922003156305716,
+      "BCE_seed_t95": [
+        -0.01109047942708828,
+        0.006106078795827136
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.003215048927528588,
+        -0.0017763529464943856
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": false
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.000907258064516129,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0010080645161290314,
+            0.0,
+            0.0035282258064516132,
+            0.0
+          ],
+          "recall_delta": -0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            -0.00439453125,
+            0.0,
+            0.0009765625,
+            0.0
+          ],
+          "aupr_delta": -0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            -0.0006020056989837208,
+            0.0,
+            -0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": -0.002087682672233826,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.014613778705636737,
+            0.0,
+            0.0041753653444676075,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.006286640786772546,
+            0.0,
+            -0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0012096774193548383,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.002520161290322582,
+            0.0,
+            0.0035282258064516098,
+            0.0
+          ],
+          "recall_delta": -0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            -0.00390625,
+            0.0,
+            0.00048828125,
+            0.0
+          ],
+          "aupr_delta": -0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            -0.0019492490728357792,
+            0.0,
+            -0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": -0.0029850746268656582,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.017057569296375252,
+            0.0,
+            0.002132196162046962,
+            0.0
+          ],
+          "weak_aupr_delta": -0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.011868184164093631,
+            0.0,
+            -0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.004032258064516129,
+          "negative_fpr_per_seed": [
+            -0.007560483870967739,
+            -0.006552419354838711,
+            0.0,
+            -0.0025201612903225784,
+            -0.0035282258064516167
+          ],
+          "recall_delta": -0.00478515625,
+          "recall_per_seed": [
+            -0.01220703125,
+            -0.005859375,
+            0.0,
+            -0.00390625,
+            -0.001953125
+          ],
+          "aupr_delta": -0.00012449229456072962,
+          "aupr_per_seed": [
+            -0.00020453230042272175,
+            0.0003700604887912906,
+            0.0,
+            -0.00020163541508522176,
+            -0.0005863542460869953
+          ],
+          "weak_recall_delta": -0.015315315315315292,
+          "weak_recall_per_seed": [
+            -0.04054054054054046,
+            -0.022522522522522515,
+            0.0,
+            -0.006756756756756688,
+            -0.006756756756756799
+          ],
+          "weak_aupr_delta": -0.0026741675662207863,
+          "weak_aupr_per_seed": [
+            -0.005698676160629579,
+            -0.002589728452954798,
+            0.0,
+            0.0012874735520933545,
+            -0.00636990676961291
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "global_stats",
+      "variant": "calibrated",
+      "exact_gain": 0.0036210317460317444,
+      "exact_per_seed": [
+        0.0032242063492062822,
+        0.004464285714285698,
+        0.0002480158730158166,
+        0.00793650793650802,
+        0.0022321428571429047
+      ],
+      "exact_seed_t95": [
+        6.554846912556773e-05,
+        0.007176515022937921
+      ],
+      "exact_identity_bootstrap95": [
+        0.0017857142857142859,
+        0.005406746031746032
+      ],
+      "BCE_gain": -0.0044947114182295024,
+      "BCE_seed_t95": [
+        -0.010351062389860909,
+        0.0013616395534019029
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.005715864216222502,
+        -0.0033287133339145744
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0024193548387096775,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.006552419354838711,
+            -0.005544354838709676,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.0021484375,
+          "recall_per_seed": [
+            0.0,
+            -0.0048828125,
+            -0.005859375,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.00011790914945666308,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            -0.000148310562709697,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": -0.009185803757828803,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.022964509394572064,
+            -0.022964509394571953,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0012869714427565348,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            -0.00024681343729382466,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0033266129032258054,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.005544354838709676,
+            0.0010080645161290314,
+            -0.012096774193548383,
+            0.0
+          ],
+          "recall_delta": -0.00029296875,
+          "recall_per_seed": [
+            0.0,
+            0.00244140625,
+            0.0009765625,
+            -0.0048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00037870785647791115,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            -0.00040064143093776483,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": -0.0012793176972281772,
+          "weak_recall_per_seed": [
+            0.0,
+            0.010660980810234477,
+            0.004264392324093813,
+            -0.021321961620469176,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0026854634161489477,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            -0.0012254265967358569,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.004838709677419355,
+          "negative_fpr_per_seed": [
+            -0.00907258064516129,
+            0.014616935483870962,
+            0.0,
+            -0.03225806451612903,
+            0.0025201612903225853
+          ],
+          "recall_delta": 0.00107421875,
+          "recall_per_seed": [
+            0.00048828125,
+            0.01611328125,
+            0.0,
+            -0.01904296875,
+            0.0078125
+          ],
+          "aupr_delta": 0.002433112877858701,
+          "aupr_per_seed": [
+            0.0022826485397626772,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0023293088357213554
+          ],
+          "weak_recall_delta": 0.0022522522522522514,
+          "weak_recall_per_seed": [
+            0.0,
+            0.05405405405405406,
+            0.0,
+            -0.06981981981981977,
+            0.027027027027026973
+          ],
+          "weak_aupr_delta": 0.016371226279525385,
+          "weak_aupr_per_seed": [
+            0.01621997799616537,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.02044858869638455
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "global_stats",
+      "variant": "fixed_reference",
+      "exact_gain": 0.004712301587301559,
+      "exact_per_seed": [
+        0.002728174603174538,
+        0.009920634920634885,
+        0.0012400793650793052,
+        0.00520833333333337,
+        0.004464285714285698
+      ],
+      "exact_seed_t95": [
+        0.0006210525092735404,
+        0.008803550665329578
+      ],
+      "exact_identity_bootstrap95": [
+        0.002976190476190476,
+        0.006498015873015872
+      ],
+      "BCE_gain": -0.0044947114182295024,
+      "BCE_seed_t95": [
+        -0.010351062389860909,
+        0.0013616395534019029
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.005715864216222502,
+        -0.0033287133339145744
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0005040322580645163,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0010080645161290314,
+            0.0020161290322580627,
+            -0.0035282258064516132,
+            0.0
+          ],
+          "recall_delta": 0.00205078125,
+          "recall_per_seed": [
+            0.0,
+            0.00439453125,
+            0.0068359375,
+            -0.0009765625,
+            0.0
+          ],
+          "aupr_delta": 0.00011790914945666308,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            -0.000148310562709697,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": 0.00751565762004176,
+          "weak_recall_per_seed": [
+            0.0,
+            0.014613778705636737,
+            0.02713987473903967,
+            -0.0041753653444676075,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0012869714427565348,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            -0.00024681343729382466,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.00010080645161290313,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.002520161290322582,
+            0.006552419354838707,
+            -0.0035282258064516098,
+            0.0
+          ],
+          "recall_delta": 0.001953125,
+          "recall_per_seed": [
+            0.0,
+            0.00390625,
+            0.00634765625,
+            -0.00048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00037870785647791115,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            -0.00040064143093776483,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": 0.008102345415778256,
+          "weak_recall_per_seed": [
+            0.0,
+            0.017057569296375252,
+            0.02558635394456299,
+            -0.002132196162046962,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0026854634161489477,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            -0.0012254265967358569,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.0003024193548387087,
+          "negative_fpr_per_seed": [
+            0.00504032258064516,
+            0.0,
+            0.0,
+            0.0010080645161290314,
+            -0.007560483870967735
+          ],
+          "recall_delta": 0.00625,
+          "recall_per_seed": [
+            0.013671875,
+            0.01220703125,
+            0.0,
+            0.005859375,
+            -0.00048828125
+          ],
+          "aupr_delta": 0.002433112877858701,
+          "aupr_per_seed": [
+            0.0022826485397626772,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0023293088357213554
+          ],
+          "weak_recall_delta": 0.016666666666666653,
+          "weak_recall_per_seed": [
+            0.029279279279279202,
+            0.0427927927927928,
+            0.0,
+            0.013513513513513487,
+            -0.0022522522522522292
+          ],
+          "weak_aupr_delta": 0.016371226279525385,
+          "weak_aupr_per_seed": [
+            0.01621997799616537,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.02044858869638455
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "segment",
+      "variant": "calibrated",
+      "exact_gain": 4.9603174603185526e-05,
+      "exact_per_seed": [
+        -0.00024801587301592765,
+        0.0004960317460317443,
+        0.0,
+        0.002728174603174649,
+        -0.002728174603174538
+      ],
+      "exact_seed_t95": [
+        -0.0023693426818213064,
+        0.002468549031027678
+      ],
+      "exact_identity_bootstrap95": [
+        -0.0014880952380952382,
+        0.0015873015873015866
+      ],
+      "BCE_gain": 0.0024922003156305716,
+      "BCE_seed_t95": [
+        -0.006106078795827136,
+        0.01109047942708828
+      ],
+      "BCE_identity_bootstrap95": [
+        0.0017763529464943854,
+        0.003215048927528587
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": true,
+        "mean_label_guards": false
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0013104838709677422,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.006552419354838711,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": -0.0009765625,
+          "recall_per_seed": [
+            0.0,
+            -0.0048828125,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            0.0,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": -0.0045929018789144125,
+          "weak_recall_per_seed": [
+            0.0,
+            -0.022964509394572064,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            0.0,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.003528225806451612,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.005544354838709676,
+            0.0,
+            -0.012096774193548383,
+            0.0
+          ],
+          "recall_delta": -0.00048828125,
+          "recall_per_seed": [
+            0.0,
+            0.00244140625,
+            0.0,
+            -0.0048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            0.0,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": -0.00213219616204694,
+          "weak_recall_per_seed": [
+            0.0,
+            0.010660980810234477,
+            0.0,
+            -0.021321961620469176,
+            0.0
+          ],
+          "weak_aupr_delta": 0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            0.0,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": 0.00534274193548387,
+          "negative_fpr_per_seed": [
+            -0.001512096774193547,
+            0.01814516129032257,
+            0.0,
+            -0.006048387096774192,
+            0.016129032258064516
+          ],
+          "recall_delta": 0.0037109375,
+          "recall_per_seed": [
+            0.00048828125,
+            0.009765625,
+            0.0,
+            -0.00537109375,
+            0.013671875
+          ],
+          "aupr_delta": 0.00012449229456072962,
+          "aupr_per_seed": [
+            0.00020453230042272175,
+            -0.0003700604887912906,
+            0.0,
+            0.00020163541508522176,
+            0.0005863542460869953
+          ],
+          "weak_recall_delta": 0.013513513513513509,
+          "weak_recall_per_seed": [
+            0.009009009009009028,
+            0.03378378378378377,
+            0.0,
+            -0.020270270270270285,
+            0.04504504504504503
+          ],
+          "weak_aupr_delta": 0.0026741675662207863,
+          "weak_aupr_per_seed": [
+            0.005698676160629579,
+            0.002589728452954798,
+            0.0,
+            -0.0012874735520933545,
+            0.00636990676961291
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "segment",
+      "variant": "fixed_reference",
+      "exact_gain": 0.0013392857142856985,
+      "exact_per_seed": [
+        0.0007440476190475609,
+        0.004464285714285698,
+        0.0,
+        0.0022321428571429047,
+        -0.0007440476190476719
+      ],
+      "exact_seed_t95": [
+        -0.0012243138133566907,
+        0.003902885241928088
+      ],
+      "exact_identity_bootstrap95": [
+        -4.960317460317443e-05,
+        0.0027777777777777775
+      ],
+      "BCE_gain": 0.0024922003156305716,
+      "BCE_seed_t95": [
+        -0.006106078795827136,
+        0.01109047942708828
+      ],
+      "BCE_identity_bootstrap95": [
+        0.0017763529464943854,
+        0.003215048927528587
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": false,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": true,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.000907258064516129,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0010080645161290314,
+            0.0,
+            -0.0035282258064516132,
+            0.0
+          ],
+          "recall_delta": 0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            0.00439453125,
+            0.0,
+            -0.0009765625,
+            0.0
+          ],
+          "aupr_delta": 0.0001475712619986025,
+          "aupr_per_seed": [
+            0.0,
+            0.0006020056989837208,
+            0.0,
+            0.00013585061100929163,
+            0.0
+          ],
+          "weak_recall_delta": 0.002087682672233826,
+          "weak_recall_per_seed": [
+            0.0,
+            0.014613778705636737,
+            0.0,
+            -0.0041753653444676075,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0013363341302152997,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.006286640786772546,
+            0.0,
+            0.0003950298643039529,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0012096774193548383,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.002520161290322582,
+            0.0,
+            -0.0035282258064516098,
+            0.0
+          ],
+          "recall_delta": 0.00068359375,
+          "recall_per_seed": [
+            0.0,
+            0.00390625,
+            0.0,
+            -0.00048828125,
+            0.0
+          ],
+          "aupr_delta": 0.00045883614266546414,
+          "aupr_per_seed": [
+            0.0,
+            0.0019492490728357792,
+            0.0,
+            0.00034493164049154146,
+            0.0
+          ],
+          "weak_recall_delta": 0.0029850746268656582,
+          "weak_recall_per_seed": [
+            0.0,
+            0.017057569296375252,
+            0.0,
+            -0.002132196162046962,
+            0.0
+          ],
+          "weak_aupr_delta": 0.002930548735496119,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.011868184164093631,
+            0.0,
+            0.002784559513386964,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": 0.004032258064516129,
+          "negative_fpr_per_seed": [
+            0.007560483870967739,
+            0.006552419354838711,
+            0.0,
+            0.0025201612903225784,
+            0.0035282258064516167
+          ],
+          "recall_delta": 0.00478515625,
+          "recall_per_seed": [
+            0.01220703125,
+            0.005859375,
+            0.0,
+            0.00390625,
+            0.001953125
+          ],
+          "aupr_delta": 0.00012449229456072962,
+          "aupr_per_seed": [
+            0.00020453230042272175,
+            -0.0003700604887912906,
+            0.0,
+            0.00020163541508522176,
+            0.0005863542460869953
+          ],
+          "weak_recall_delta": 0.015315315315315292,
+          "weak_recall_per_seed": [
+            0.04054054054054046,
+            0.022522522522522515,
+            0.0,
+            0.006756756756756688,
+            0.006756756756756799
+          ],
+          "weak_aupr_delta": 0.0026741675662207863,
+          "weak_aupr_per_seed": [
+            0.005698676160629579,
+            0.002589728452954798,
+            0.0,
+            -0.0012874735520933545,
+            0.00636990676961291
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "global_stats_coverage",
+      "variant": "calibrated",
+      "exact_gain": 0.0037202380952381154,
+      "exact_per_seed": [
+        0.001984126984126977,
+        0.004464285714285698,
+        0.0,
+        0.006944444444444531,
+        0.00520833333333337
+      ],
+      "exact_seed_t95": [
+        0.0003187928764372956,
+        0.007121683314038936
+      ],
+      "exact_identity_bootstrap95": [
+        0.0019345238095238094,
+        0.005456349206349206
+      ],
+      "BCE_gain": -0.0023362846084138606,
+      "BCE_seed_t95": [
+        -0.009138693913003522,
+        0.0044661246961757994
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.0031761421203357998,
+        -0.001521173969672571
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": true,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": -0.0006048387096774209,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0010080645161290314,
+            -0.006552419354838714,
+            0.0025201612903225784,
+            0.0
+          ],
+          "recall_delta": -0.00087890625,
+          "recall_per_seed": [
+            0.0,
+            0.0009765625,
+            -0.00732421875,
+            0.001953125,
+            0.0
+          ],
+          "aupr_delta": -7.448392524189718e-05,
+          "aupr_per_seed": [
+            0.0,
+            -5.825626883348978e-05,
+            -0.000192723947979756,
+            -0.0001214394093962401,
+            0.0
+          ],
+          "weak_recall_delta": -0.003757828810020869,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            -0.02713987473903967,
+            0.008350730688935326,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0003486370519079518,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.0008128695260380958,
+            -0.00017373231186423865,
+            -0.0007565834216374245,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": -0.0024193548387096775,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.005544354838709676,
+            0.0025201612903225784,
+            -0.00907258064516129,
+            0.0
+          ],
+          "recall_delta": 0.0001953125,
+          "recall_per_seed": [
+            0.0,
+            0.0029296875,
+            0.001953125,
+            -0.00390625,
+            0.0
+          ],
+          "aupr_delta": 0.00018301047384214897,
+          "aupr_per_seed": [
+            0.0,
+            0.001210043565028518,
+            -0.00046816890718115456,
+            0.00017317771136338145,
+            0.0
+          ],
+          "weak_recall_delta": 0.0008528784648187404,
+          "weak_recall_per_seed": [
+            0.0,
+            0.01279317697228144,
+            0.008528784648187626,
+            -0.017057569296375363,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0018298499005480861,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.00899026182181295,
+            -0.0018057067228185453,
+            0.0019646944037460257,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": -0.005443548387096775,
+          "negative_fpr_per_seed": [
+            0.0055443548387096794,
+            0.014616935483870962,
+            0.0,
+            -0.03225806451612903,
+            -0.015120967741935484
+          ],
+          "recall_delta": 0.001953125,
+          "recall_per_seed": [
+            0.013671875,
+            0.01611328125,
+            0.0,
+            -0.01904296875,
+            -0.0009765625
+          ],
+          "aupr_delta": 0.0023185180975120677,
+          "aupr_per_seed": [
+            0.00178703686743642,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0022519466063144478
+          ],
+          "weak_recall_delta": 0.004504504504504503,
+          "weak_recall_per_seed": [
+            0.04054054054054057,
+            0.05405405405405406,
+            0.0,
+            -0.06981981981981977,
+            -0.0022522522522523403
+          ],
+          "weak_aupr_delta": 0.014963592038870743,
+          "weak_aupr_per_seed": [
+            0.014864900417425275,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.014765495071851431
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    },
+    {
+      "candidate": "segment_coverage",
+      "reference": "global_stats_coverage",
+      "variant": "fixed_reference",
+      "exact_gain": 0.0038194444444444196,
+      "exact_per_seed": [
+        0.00347222222222221,
+        0.00868055555555547,
+        -0.0009920634920634885,
+        0.004712301587301626,
+        0.0032242063492062822
+      ],
+      "exact_seed_t95": [
+        -0.0004841831868998671,
+        0.008123072075788707
+      ],
+      "exact_identity_bootstrap95": [
+        0.002232142857142857,
+        0.005456349206349206
+      ],
+      "BCE_gain": -0.0023362846084138606,
+      "BCE_seed_t95": [
+        -0.009138693913003522,
+        0.0044661246961757994
+      ],
+      "BCE_identity_bootstrap95": [
+        -0.0031761421203357998,
+        -0.001521173969672571
+      ],
+      "checks": {
+        "exact_gain_ge0_5pp": false,
+        "positive_seeds_ge4": true,
+        "seed_exact_CI_lower_positive": false,
+        "BCE_degradation_le2pct": false,
+        "mean_label_guards": true
+      },
+      "passes": false,
+      "per_label": [
+        {
+          "label": "FMB",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "AMA",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "SawFM",
+          "negative_fpr_delta": 0.00020161290322580558,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0020161290322580627,
+            -0.0010080645161290348,
+            0.0
+          ],
+          "recall_delta": 0.001171875,
+          "recall_per_seed": [
+            0.0,
+            0.0009765625,
+            0.00390625,
+            0.0009765625,
+            0.0
+          ],
+          "aupr_delta": -7.448392524189718e-05,
+          "aupr_per_seed": [
+            0.0,
+            -5.825626883348978e-05,
+            -0.000192723947979756,
+            -0.0001214394093962401,
+            0.0
+          ],
+          "weak_recall_delta": 0.005845511482254695,
+          "weak_recall_per_seed": [
+            0.0,
+            0.008350730688935215,
+            0.01670146137787054,
+            0.0041753653444677186,
+            0.0
+          ],
+          "weak_aupr_delta": -0.0003486370519079518,
+          "weak_aupr_per_seed": [
+            0.0,
+            -0.0008128695260380958,
+            -0.00017373231186423865,
+            -0.0007565834216374245,
+            0.0
+          ]
+        },
+        {
+          "label": "SinFM",
+          "negative_fpr_delta": 0.0,
+          "negative_fpr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "recall_delta": 0.0,
+          "recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "aupr_delta": 0.0,
+          "aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_recall_delta": 0.0,
+          "weak_recall_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "label": "MFT",
+          "negative_fpr_delta": 0.0013104838709677414,
+          "negative_fpr_per_seed": [
+            0.0,
+            -0.0015120967741935505,
+            0.007560483870967742,
+            0.0005040322580645157,
+            0.0
+          ],
+          "recall_delta": 0.002734375,
+          "recall_per_seed": [
+            0.0,
+            0.00634765625,
+            0.00537109375,
+            0.001953125,
+            0.0
+          ],
+          "aupr_delta": 0.00018301047384214897,
+          "aupr_per_seed": [
+            0.0,
+            0.001210043565028518,
+            -0.00046816890718115456,
+            0.00017317771136338145,
+            0.0
+          ],
+          "weak_recall_delta": 0.011513859275053306,
+          "weak_recall_per_seed": [
+            0.0,
+            0.02558635394456288,
+            0.023454157782516027,
+            0.008528784648187626,
+            0.0
+          ],
+          "weak_aupr_delta": 0.0018298499005480861,
+          "weak_aupr_per_seed": [
+            0.0,
+            0.00899026182181295,
+            -0.0018057067228185453,
+            0.0019646944037460257,
+            0.0
+          ]
+        },
+        {
+          "label": "ISRJ",
+          "negative_fpr_delta": 0.0003024193548387094,
+          "negative_fpr_per_seed": [
+            0.0040322580645161255,
+            0.0,
+            0.0,
+            0.0010080645161290314,
+            -0.0035282258064516098
+          ],
+          "recall_delta": 0.00732421875,
+          "recall_per_seed": [
+            0.01416015625,
+            0.01220703125,
+            0.0,
+            0.005859375,
+            0.00439453125
+          ],
+          "aupr_delta": 0.0023185180975120677,
+          "aupr_per_seed": [
+            0.00178703686743642,
+            0.005701190795587507,
+            0.0,
+            0.001852416218221964,
+            0.0022519466063144478
+          ],
+          "weak_recall_delta": 0.020270270270270264,
+          "weak_recall_per_seed": [
+            0.03828828828828823,
+            0.0427927927927928,
+            0.0,
+            0.013513513513513487,
+            0.006756756756756799
+          ],
+          "weak_aupr_delta": 0.014963592038870743,
+          "weak_aupr_per_seed": [
+            0.014864900417425275,
+            0.03518756520954114,
+            0.0,
+            0.009999999495535872,
+            0.014765495071851431
+          ]
+        }
+      ],
+      "bootstrap_replicates": 5000
+    }
+  ],
+  "role": "development",
+  "completed_utc": "2026-11-09T17:42:09.878662+00:00"
+}

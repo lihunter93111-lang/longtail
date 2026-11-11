@@ -1,0 +1,6 @@
+Goal
+审计并锁定共同强基线
+
+核对指定远端commit和两套W32的checkpoint、训练身份、原始阈值、自然和弱视图契约。检查完整依赖源码hash、正常forward与已有校准logits重放。核验无其他训练进程占用资源。产物为preflight、source_lock、模型注册表、运行时间计划。
+
+共同约束见GOAL_PROMPT.txt。记录实际开始/结束时间和源码hash，输出进入本轮外部版本化目录。

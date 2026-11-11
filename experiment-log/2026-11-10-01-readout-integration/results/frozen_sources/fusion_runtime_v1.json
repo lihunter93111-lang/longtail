@@ -1,0 +1,7 @@
+{
+  "source": "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fusion_runtime.py",
+  "archive": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\frozen_sources\\fusion_runtime_v1.py",
+  "sha256": "69d8d10831cf30a7dfbf01fca80c6aae63b6ec9d6ce02a3ca4e7466e6cc465bf",
+  "time": "2026-11-09T22:04:14.795168+00:00",
+  "reason": "preserve legacy fusion architecture loader before adding explicit PCA and hidden dimensions; arithmetic forward kept unchanged"
+}

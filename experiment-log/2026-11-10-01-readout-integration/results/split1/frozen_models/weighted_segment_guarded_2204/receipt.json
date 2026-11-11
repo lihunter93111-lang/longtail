@@ -1,0 +1,19 @@
+{
+  "targets": [
+    2,
+    4,
+    5
+  ],
+  "kept_local_columns": [
+    2,
+    4,
+    5
+  ],
+  "calibration_fallback_columns": [],
+  "reference_sha256": "4c39ac21c1976c7d6b55c14b514fe6e314938b9ed309bb8bc3242d9e319cd034",
+  "local_source_sha256": "71c7b5d2a8db24052f2a552ec4a783898368f1a820c4e0fbedd91252ed20561e",
+  "protocol_sha256": "e90806d7dc7d1f1d2ab5894c6e6ec72ad2af2ab43950b01a9c31b5b7e3add646",
+  "time": "2026-11-09T22:14:12.577311+00:00",
+  "checkpoint_sha256": "3a8abf52f1533ccc9f8b91873372a25ccaf7ee0cb4ad0f9fa846ed836fa3e54a",
+  "normal_forward_max_error": 0.0
+}

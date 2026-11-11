@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "methods": [
+    "reference_affine",
+    "coverage_affine",
+    "global_pca256_affine",
+    "segment_pca256_affine",
+    "global_head64_affine",
+    "segment_head64_affine"
+  ],
+  "time": "2026-11-09T22:05:57.722056+00:00"
+}

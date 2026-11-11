@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "methods": [
+    "reference_affine",
+    "ordinary_mean",
+    "combo_mean",
+    "ordinary_affine",
+    "combo_affine",
+    "segment_affine",
+    "coverage_affine"
+  ],
+  "time": "2026-11-09T19:43:18.164322+00:00"
+}

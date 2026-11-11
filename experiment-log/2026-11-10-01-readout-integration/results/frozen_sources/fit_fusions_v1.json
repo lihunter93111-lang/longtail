@@ -1,0 +1,7 @@
+{
+  "source": "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\fit_fusions.py",
+  "archive": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\frozen_sources\\fit_fusions_v1.py",
+  "sha256": "a1d65f3642ac37d3c29d04ac5da6258ad7bbd8cbd7f83cfb8033062d0c9a5246",
+  "time": "2026-11-09T22:13:51.920208+00:00",
+  "reason": "preserve completed default calibration before exposing the weak-recall tolerance as a backward-compatible argument"
+}

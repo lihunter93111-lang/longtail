@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "figures": [
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\figures\\final_confirmation.png",
+      "sha256": "adff5d3cff845e02e49ccdb05a792d66a7bb2fd61af5c6d4f815b6f5ea3d1547"
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\figures\\physical_common_identities.png",
+      "sha256": "e8f72ce4085fd017fb6bb4188b29997fe101d8b8d78b3754e3e47d587a0f4052"
+    }
+  ],
+  "checks": [
+    "titles and labels visible",
+    "no observed clipping in final versions",
+    "confidence-interval and uncertainty labels present",
+    "physical curves share the gap15-feasible cohort at all gaps"
+  ],
+  "time": "2026-11-09T23:31:27.885486+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "designs": {
+    "combo_segment_isrj": [
+      5
+    ],
+    "combo_segment_saw_mft": [
+      2,
+      4
+    ]
+  },
+  "source_sha256": "989d51598794c0410b9cb2790d47c3070ba4b7ede4fd30b62c987486f119541e",
+  "goal_sha256": "146a79228b753d0a4061f7c352179a8fdd5eb20fa3f441a93d9cf0fb2973e3f8",
+  "time": "2026-11-09T19:47:13.704009+00:00"
+}

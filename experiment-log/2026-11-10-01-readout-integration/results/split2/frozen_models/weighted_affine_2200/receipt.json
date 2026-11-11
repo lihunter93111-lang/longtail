@@ -1,0 +1,43 @@
+{
+  "name": "weighted_affine",
+  "seed": 2200,
+  "guards": [
+    {
+      "label": "FMB",
+      "fallback": false,
+      "allowed_grid_points": 154
+    },
+    {
+      "label": "AMA",
+      "fallback": false,
+      "allowed_grid_points": 158
+    },
+    {
+      "label": "SawFM",
+      "fallback": false,
+      "allowed_grid_points": 9
+    },
+    {
+      "label": "SinFM",
+      "fallback": false,
+      "allowed_grid_points": 96
+    },
+    {
+      "label": "MFT",
+      "fallback": false,
+      "allowed_grid_points": 39
+    },
+    {
+      "label": "ISRJ",
+      "fallback": false,
+      "allowed_grid_points": 51
+    }
+  ],
+  "fallback_columns": [],
+  "fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "protocol_sha256": "af49e6702a1fd659abe105abeecedd2f21ee243012d85010e77d506bd4908ac0",
+  "time": "2026-11-09T21:47:55.395822+00:00",
+  "sha256": "7ecd2d054e80d846e268d3c5fed5c4393745ec61a7708b76d9c3c7f42c7165e3",
+  "parameters": 2026382,
+  "shared_backbone": false
+}

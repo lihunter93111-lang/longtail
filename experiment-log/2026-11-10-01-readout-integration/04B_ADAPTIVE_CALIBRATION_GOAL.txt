@@ -1,0 +1,10 @@
+Goal
+对PCA维数与MLP宽度候选进行统一仿射校准，评估读出信息与概率尺度的贡献。
+
+依据与比较
+第一套开发中segment_pca256相对W32的Exact约+0.536pp，原segment_coverage约+0.322pp，两者直接输出BCE仍有退化。既有读出在仿射后改善概率质量，因此维数对照沿用同一拟合规则。
+四个候选为global_stats_pca256、segment_pca256、global_stats_head64、segment_head64。共同对照为已有reference_affine和coverage_affine，模型及阈值原样复用。
+
+执行
+两划分五种子，共同fusion_fit和calibration，原300步、lr0.04逐标签仿射拟合，沿用校准保护与标签回退。仅补充读出架构维数的明确保存和加载，旧模型的构造与前向算术保留，原运行时归档。
+完整校准集正常前向重放，并验证旧模型加载输出一致。开发同时报告Exact、BCE、AP及逐类代价。最终冻结前根据完整结果选取需要确认的候选，06:30前结束新拟合。

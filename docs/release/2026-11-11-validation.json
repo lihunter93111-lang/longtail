@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-11",
+  "base_commit": "a8fb5da9c342503c84c3eab63e20b13a20aa7636",
+  "original_delivery_files": 745,
+  "release_manifest_files": 753,
+  "original_delivery_hash_errors": [],
+  "release_hash_errors": [],
+  "repository_source_inventory_files": 2690,
+  "repository_source_inventory_errors": [],
+  "source_originals_check": "E drive absent; original source availability could not be verified; repository copies verified",
+  "pytest": {
+    "command": "python -m pytest tests/test_segment_readout.py tests/test_readout_workflow.py -q",
+    "passed": 13
+  },
+  "new_python_ast_parse": "passed",
+  "json_parse": "passed",
+  "new_navigation_links": "passed",
+  "credential_pattern_hits": [],
+  "training_rerun": false,
+  "external_drive_available": false,
+  "published_large_model_or_data_files": false,
+  "scientific_sources": "original delivery bytes preserved",
+  "word_documents": "two unchanged five-page plans copied from visually verified originals"
+}

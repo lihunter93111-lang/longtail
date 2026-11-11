@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "variants": [
+    "projected_global",
+    "global_stats",
+    "segment"
+  ],
+  "finished_utc": "2026-11-09T17:24:04.659365+00:00"
+}

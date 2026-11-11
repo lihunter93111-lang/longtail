@@ -1,0 +1,8 @@
+{
+  "role": "post-freeze layout-only adjustment",
+  "numeric_payload_sha256": "92d98d43aec3dd644b7f23866625d07f042e8cd5010ec390c1c9f265b45adf2e",
+  "original_plot_source_sha256": "d9ed764324efa372f61bcf4d838b2f256f5a5cafa4af743ee2bd2ca663145be9",
+  "layout_source_sha256": "9b314a49aeeacd2f929ae7c56e9dacb36f09bb43722edc76c3ecd35db7313405",
+  "final_freeze_sha256": "8459bbe6ca73f53c8f81f666fe99b94a3c100d495e41f035a700baea7321a767",
+  "time": "2026-11-09T22:58:27.460123+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "global_pca256_affine",
+  "seed": 2203,
+  "adaptive_source_sha256": "d7115e5f47fe799542314a7d968569c0b887bef75fe99697aba64f646af4d7ef",
+  "protocol_sha256": "6e7034554042c57e70ecfcb8859d4467f6e072dd20f5bad4c3884cd6622a53c5",
+  "time": "2026-11-09T22:09:02.655485+00:00",
+  "sha256": "5b5ce4684556c7ebd20d8061783f635b1573ea79a61c08f253c9ca933f096afb",
+  "fallback_columns": [],
+  "parameters": 1029738,
+  "shared_backbone": true,
+  "normal_forward_max_error": 0.0
+}

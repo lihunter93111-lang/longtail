@@ -1,0 +1,11 @@
+{
+  "role": "future_data_design_feasibility",
+  "new_model_training": false,
+  "input_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b",
+  "source_sha256": "9d7edffefc5d83871a84ee252e8228d8214fa59a0bc71b9053bff0ae137ff495",
+  "goal_sha256": "0dfec91e8e7fa311d7b06b160b128dfc590faa183b0e35c2111763fdfb740c6c",
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)",
+  "feasible_found": false,
+  "time": "2026-11-09T21:04:11.946915+00:00"
+}

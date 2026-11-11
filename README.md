@@ -18,6 +18,12 @@
 
 两个 Python 工程保持原来的内部结构，分别从各自根目录运行。两份 MATLAB 生成程序分别留存；它们存在科学语义和标签版本差异，不能直接相互覆盖。
 
+## 最新实验与分工
+
+- [11月10日宽骨干 专家与局部读出结果](experiment-log/2026-11-10-01-readout-integration/README.md)
+- [11月11日两人执行方案与Word下载](docs/research/collaboration/2026-11-11/README.md)
+- [11月8日至9日归档与中断分支](experiment-log/2026-11-09-archive-summary.md)
+
 ## 研究与合作入口
 
 - [2026年11月9日实验结果与数据归档](experiment-log/2026-11-09-archive-summary.md)汇总最新结果、完成状态、数据位置与文件校验。

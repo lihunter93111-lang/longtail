@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-10",
+  "deadline": "2026-11-10T08:00:00+08:00",
+  "training_cutoff": "2026-11-10T06:30:00+08:00",
+  "freeze_cutoff": "2026-11-10T06:45:00+08:00",
+  "evaluation_cutoff": "2026-11-10T07:30:00+08:00",
+  "remote_commit": "a8fb5da9c342503c84c3eab63e20b13a20aa7636",
+  "remote_source": "E:\\LJQ_code\\longtail_20261110",
+  "storage": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01",
+  "baseline_root": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01",
+  "splits": [
+    "split1",
+    "split2"
+  ],
+  "seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "development_seeds": [
+    3211100000,
+    3212100000
+  ],
+  "confirmation_seeds": [
+    3211300000,
+    3212300000
+  ],
+  "epochs": 24,
+  "batch": 32,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "clip": 5,
+  "pca_components": 128,
+  "pca_iterations": 4,
+  "hidden": 32,
+  "variants": [
+    "projected_global",
+    "global_stats",
+    "segment"
+  ],
+  "stages": [
+    [
+      2,
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "selection_guards": {
+    "FPR_max_delta": 0.005,
+    "target_recall_min_delta": -0.01,
+    "target_weakAP_min_delta": -0.002
+  },
+  "promotion": {
+    "exact_delta": 0.005,
+    "positive_seeds": 4,
+    "seed_CI_lower": 0,
+    "relative_BCE_max_degradation": 0.02
+  },
+  "confirmation_policy": "new identities generated after all final models and calibrations frozen"
+}

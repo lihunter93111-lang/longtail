@@ -1,0 +1,50 @@
+{
+  "thresholds": [
+    0.32999999999999996,
+    0.22499999999999998,
+    0.6849999999999999,
+    0.6549999999999999,
+    0.4549999999999999,
+    0.6699999999999999
+  ],
+  "original_thresholds": [
+    0.4749999999999999,
+    0.15999999999999998,
+    0.4749999999999999,
+    0.25999999999999995,
+    0.6399999999999999,
+    0.37999999999999995
+  ],
+  "guards": [
+    {
+      "label": "FMB",
+      "fallback": false,
+      "allowed_grid_points": 177
+    },
+    {
+      "label": "AMA",
+      "fallback": false,
+      "allowed_grid_points": 164
+    },
+    {
+      "label": "SawFM",
+      "fallback": false,
+      "allowed_grid_points": 28
+    },
+    {
+      "label": "SinFM",
+      "fallback": false,
+      "allowed_grid_points": 116
+    },
+    {
+      "label": "MFT",
+      "fallback": false,
+      "allowed_grid_points": 33
+    },
+    {
+      "label": "ISRJ",
+      "fallback": false,
+      "allowed_grid_points": 71
+    }
+  ]
+}

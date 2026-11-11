@@ -1,0 +1,35 @@
+{
+  "group": "combo_expert",
+  "mixture": 0.25,
+  "seeds": [
+    2300,
+    2301,
+    2302,
+    2303,
+    2304
+  ],
+  "main_seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "epochs": 40,
+  "width": 32,
+  "coverage": "M",
+  "source_sha256": {
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-09-01-wide-followup\\training.py": "287e15793032b3dce3d3d7f35f0fd7c614d526d88975929f32676594e92c705f",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-09-01-wide-followup\\training_sampling.py": "610f96627e781bdbe9ee45d48bd2efe5c2c30ded2950677b355f37698a1257fa",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\train_experts.py": "9621170b92fcb68076a2e108fcbb41c3f6f492e1a8358c8d03d59426c5ed8768",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-10-01-readout-integration\\05A_MATCHED_EXPERTS_GOAL.txt": "693a77019f684ad3c380f27230901692f50f032ea0e0f39aa385be183689ac02"
+  },
+  "manifest_sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe",
+  "views": {
+    "fit_gap10.mat": "6d6899b752606cb6a0f68d6e56014bf259936fe53f45733355a39299aca1622f",
+    "fit_gap15.mat": "cbfbfd25bcdbc4934182ecdaf0dd5d3ad7f8a479171e92d01b47b9ea57a31637"
+  },
+  "probability_sha256": "ffd72db39f7418f3825158ae7aff0bd254f1cc5388c340be7aac7599555cb584"
+}

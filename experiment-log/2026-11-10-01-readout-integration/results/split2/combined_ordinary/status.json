@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "methods": [
+    "ordinary_residual_zero",
+    "ordinary_global_local",
+    "ordinary_segment_local"
+  ],
+  "time": "2026-11-09T19:54:40.416210+00:00"
+}

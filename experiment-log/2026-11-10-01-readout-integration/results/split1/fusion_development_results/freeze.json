@@ -1,0 +1,247 @@
+{
+  "models": [
+    {
+      "name": "baseline",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2200\\model.pth",
+      "sha256": "62b3b22e952c7238e7edc769c184a858ad85261638bbd70f1460580b50b446a6"
+    },
+    {
+      "name": "baseline",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2201\\model.pth",
+      "sha256": "879c0a60c23bef578359ad783198525ca625e09d18f99f101fb554d14c4caed6"
+    },
+    {
+      "name": "baseline",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2202\\model.pth",
+      "sha256": "1d6264d9a4264cb6427f6d7196995c747bc854e400bdf6f17e697f66eaa09f96"
+    },
+    {
+      "name": "baseline",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2203\\model.pth",
+      "sha256": "2c6413e0fd17d51f965cf2bb29a46c5f704695cc37220aa1c8f30a7dfbceca0c"
+    },
+    {
+      "name": "baseline",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\readouts\\baseline_2204\\model.pth",
+      "sha256": "0455ec66b59d8a8f298257b05620e5f256257ccb34042a5264ffaf45eafc9464"
+    },
+    {
+      "name": "reference_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2200\\model.pth",
+      "sha256": "0cee9eb39b1fd1246bc11e5ccd7ee257da4e8c21b82912331da5dc852fde247f"
+    },
+    {
+      "name": "reference_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2201\\model.pth",
+      "sha256": "933e59b819dd38e2377a4ff58306a3e756ccc533fc14f05eda1c855d5cdf8e5e"
+    },
+    {
+      "name": "reference_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2202\\model.pth",
+      "sha256": "ec008b47dfbe69a2a128d719ef1cbe4f298a3deca137d6ba826f99eb5e334aa2"
+    },
+    {
+      "name": "reference_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2203\\model.pth",
+      "sha256": "30c821161907193b6f81b5ceca45c174c94d88d167a773b32254d833a2a5cde6"
+    },
+    {
+      "name": "reference_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\reference_affine_2204\\model.pth",
+      "sha256": "d1366fa1cc6fc6969af7b0036fc76ad9990f99414d99cf1e63198d28eb79c91a"
+    },
+    {
+      "name": "ordinary_mean",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_mean_2200\\model.pth",
+      "sha256": "d198b7ed0f7a04e89e4073c10d44774c66d45d0a9bf738cf16b446aceaa165ff"
+    },
+    {
+      "name": "ordinary_mean",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_mean_2201\\model.pth",
+      "sha256": "473c2d236a1ba717f6f9c4dfb96e44ec8e9fb7c00024e2da356309e8ad6f5d15"
+    },
+    {
+      "name": "ordinary_mean",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_mean_2202\\model.pth",
+      "sha256": "f2f3b6971047c665dcfc12beb34bce491bf3c31e92d872d09168e8d2f0a3c38b"
+    },
+    {
+      "name": "ordinary_mean",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_mean_2203\\model.pth",
+      "sha256": "0ed80f13531ef9609af31f7fab751a2ff3ead1dec5c041dc7ea2314caa22acef"
+    },
+    {
+      "name": "ordinary_mean",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_mean_2204\\model.pth",
+      "sha256": "ea8ea72f8f0a5009d4caad8e6f1140cbc7707459b5fc4f291f3ecff8a46b423c"
+    },
+    {
+      "name": "combo_mean",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_mean_2200\\model.pth",
+      "sha256": "b6c2d4a8a0f4e23741e7b48f40ddf191004ae8dc4004a0ff79f9f639a0cd3220"
+    },
+    {
+      "name": "combo_mean",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_mean_2201\\model.pth",
+      "sha256": "844614caf5b77511e56135e6c0dba46234ee513bac8c799fcf8bdc46a28e6a27"
+    },
+    {
+      "name": "combo_mean",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_mean_2202\\model.pth",
+      "sha256": "78625b257f3ba83bd5a86f8258debfe53230c98319256f94743f323f610c6abe"
+    },
+    {
+      "name": "combo_mean",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_mean_2203\\model.pth",
+      "sha256": "0d6d71bc108d941a8f74650d2723fd992cad5b917da645ce0c8a2d7bf1d668ae"
+    },
+    {
+      "name": "combo_mean",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_mean_2204\\model.pth",
+      "sha256": "4162c93cd1a5e03651b89a1e4e04d9c8d3ac83c11deeb1885a09b16b4ac18bcc"
+    },
+    {
+      "name": "ordinary_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2200\\model.pth",
+      "sha256": "e94d13de73616ac9d3e5a27cbcbfd47a34c2251d5c71b538aefbab83fa142907"
+    },
+    {
+      "name": "ordinary_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2201\\model.pth",
+      "sha256": "013da5974d7066e8209a1a44dfcb3df0d03f69a314fa8a6c5e5e5adaf990ee84"
+    },
+    {
+      "name": "ordinary_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2202\\model.pth",
+      "sha256": "06d78e330c4bbb4117f121c62640d0addabb3e5a04d3c0c2a582f915b8218bc7"
+    },
+    {
+      "name": "ordinary_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2203\\model.pth",
+      "sha256": "f88942161d0909317877fa374be6d7208550be64ec1eb32fca743321c1a69817"
+    },
+    {
+      "name": "ordinary_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\ordinary_affine_2204\\model.pth",
+      "sha256": "67d3334a4e28c88f855101f0b922d95a9edc855e9cf3af8ea77e61566b6931ec"
+    },
+    {
+      "name": "combo_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2200\\model.pth",
+      "sha256": "614c2bd32c5428f3907b524cd568ebe75b037b774cae24764b4884422e5eb7b2"
+    },
+    {
+      "name": "combo_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2201\\model.pth",
+      "sha256": "548dab168da88eb7d6a7db18f3729c8ad81341f1666ede37d16f93eb82ff713e"
+    },
+    {
+      "name": "combo_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2202\\model.pth",
+      "sha256": "83bbbb0b9d7e7cd33f16e855f92409193136094d8cf7661e56ff65cf2c4e3e3f"
+    },
+    {
+      "name": "combo_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2203\\model.pth",
+      "sha256": "db72b15afcb70003d25a1809d3486ddd0845bb3ac35abb72d1a644df74fbf477"
+    },
+    {
+      "name": "combo_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\combo_affine_2204\\model.pth",
+      "sha256": "f2d995b1dfe5cb42e1bd62339c4556804d758b466417a61148899eb48ab6a501"
+    },
+    {
+      "name": "segment_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\segment_affine_2200\\model.pth",
+      "sha256": "db7945bd0220e29af42c478ee79dac236fcd40f646f716437538422c7be09937"
+    },
+    {
+      "name": "segment_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\segment_affine_2201\\model.pth",
+      "sha256": "8fb8bbf415b0b1f253bec78cdd3d407b1e61fd65e91dc8cb9483d94ce4b213c3"
+    },
+    {
+      "name": "segment_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\segment_affine_2202\\model.pth",
+      "sha256": "5ff241d08e24e2b02d16d4640b3918a0bf7896b2c126779d3c0f97e61a069737"
+    },
+    {
+      "name": "segment_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\segment_affine_2203\\model.pth",
+      "sha256": "a060f43843b434c8235dee5be7d0c94a5f8eca3b2013ed97ec1e0ec8d27f5fd3"
+    },
+    {
+      "name": "segment_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\segment_affine_2204\\model.pth",
+      "sha256": "9234177eee98aadb74fbbb561761797bf03aed6f42b30703ed241b02f561dace"
+    },
+    {
+      "name": "coverage_affine",
+      "seed": 2200,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2200\\model.pth",
+      "sha256": "2e7938d0bf6feb56139f5a01a868e73b152211b76f85be4bb74927f040593724"
+    },
+    {
+      "name": "coverage_affine",
+      "seed": 2201,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2201\\model.pth",
+      "sha256": "89d8de6ad6e034cd52092823da5447036dc6a9aa0fa4cc10d237eacd951bde80"
+    },
+    {
+      "name": "coverage_affine",
+      "seed": 2202,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2202\\model.pth",
+      "sha256": "f6bc6091d6faaaaade0b8a649ae8ffbe482142d3fc15218617f155dc8effc01f"
+    },
+    {
+      "name": "coverage_affine",
+      "seed": 2203,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2203\\model.pth",
+      "sha256": "b9375c28561eb6597dafc83835270be1da872a6f8dd766f747514494107dade3"
+    },
+    {
+      "name": "coverage_affine",
+      "seed": 2204,
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusions\\coverage_affine_2204\\model.pth",
+      "sha256": "141a1b17d05029d6900db13a50f931d66f05b689126dc0c034e5c1fcce6cc4d5"
+    }
+  ],
+  "time": "2026-11-09T18:41:57.831695+00:00",
+  "evaluator_sha256": "5b8c63266191191044278300a7e435f59ab9bc5992327f88d9f10072450ded75",
+  "manifest_sha256": "4c49ec2761600d15951edf393469dbbac88d4c64fdd2df7db12ce7080c7c8373"
+}

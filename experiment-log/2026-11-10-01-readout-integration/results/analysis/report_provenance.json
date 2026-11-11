@@ -1,0 +1,10 @@
+{
+  "report_sha256": "533f570cef22ca1d321c1f64e00063ff7f0e0d0355a84ab586fbc83c5da4bcdb",
+  "freeze_sha256": "8459bbe6ca73f53c8f81f666fe99b94a3c100d495e41f035a700baea7321a767",
+  "source_summaries": {
+    "split1": "5ea0d38a516ed12a46a3f357f0b55ff8516ba574ad335ad9168ddde9c7426587",
+    "split2": "e0c34b55bbca72f15e41a27ce5c1b92d81102688eb420982bb99759e12d182e9"
+  },
+  "role": "post-freeze narrative and tabulation",
+  "time": "2026-11-09T23:26:11.558994+00:00"
+}

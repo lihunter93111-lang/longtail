@@ -1,0 +1,13 @@
+Goal
+分解联合分段读出在ISRJ与SawFM/MFT两阶段的实际贡献。
+
+提出依据
+第一套开发结果中，联合分段读出比combo_affine提高约0.38pp；ISRJ误报继续下降，MFT弱召回相对combo_affine下降约1.58pp。需要验证收益和代价来自哪个标签读出。
+
+执行步骤
+使用已冻结的combo_segment_local和combo_affine，构造combo_segment_isrj与combo_segment_saw_mft。保留标签沿用联合模型系数、回退状态和校准阈值，其余标签逐项复制combo_affine最终有效系数与阈值。各标签仿射拟合原本独立，因此本步骤执行模块消融。
+两划分五种子全部实施。保持现有两骨干及局部头架构，记录未被使用的局部系数，避免将消融推理成本表述为已经优化的部署成本。
+完整重放calibration，保留标签与联合模型对应输出相同，其余标签与combo_affine相同，阈值决策一致。只评价新development，保存逐标签和联合错误变化。
+
+完成与后续
+与原combo_affine、全标签联合、全局局部控制比较，报告两个分支的正负收益。最终候选依照两划分证据冻结后，再生成新确认。遵守总Goal的时间截止。
