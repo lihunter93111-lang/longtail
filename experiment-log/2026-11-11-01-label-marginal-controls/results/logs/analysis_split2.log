@@ -1,0 +1,9 @@
+split2 development combo marginal Exact pp [-0.0942, -0.7183, 0.5298] positive 1 guard False
+split2 development marginal natural Exact pp [0.7143, -0.1495, 1.578] positive 5 guard False
+split2 development combo natural Exact pp [0.62, -0.2345, 1.4746] positive 5 guard False
+split2 development combo_affine marginal_affine Exact pp [0.0595, -0.8678, 0.9869] positive 2 guard True
+split2 development marginal_affine natural_affine Exact pp [0.3075, -0.115, 0.7301] positive 3 guard False
+split2 development combo_affine natural_affine Exact pp [0.3671, -0.6574, 1.3915] positive 3 guard False
+split2 development combo_mean marginal_mean Exact pp [-0.3819, -0.8243, 0.0604] positive 0 guard False
+split2 development marginal_mean natural_mean Exact pp [0.8234, 0.1892, 1.4577] positive 4 guard False
+split2 development combo_mean natural_mean Exact pp [0.4415, 0.0603, 0.8226] positive 4 guard False

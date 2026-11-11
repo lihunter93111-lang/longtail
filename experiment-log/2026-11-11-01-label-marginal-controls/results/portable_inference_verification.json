@@ -1,0 +1,507 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "split": "split1",
+      "decision": "combo_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "combo_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "marginal_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "natural_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "reference_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "reference_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "reference_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "reference_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split1",
+      "decision": "reference_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "combo_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "marginal_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_affine_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_affine_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_affine_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_affine_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_affine_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_mean_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_mean_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_mean_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_mean_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "natural_mean_2304",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "reference_2300",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "reference_2301",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "reference_2302",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "reference_2303",
+      "maximum_error": 0.0
+    },
+    {
+      "split": "split2",
+      "decision": "reference_2304",
+      "maximum_error": 0.0
+    }
+  ],
+  "source_sha256": "017a14e90a09e5b4ef668fd3dea3e7424008645c35ef2dc0fc1e53e8ebe6159b",
+  "time": "2026-11-11T12:49:42.940233+00:00"
+}

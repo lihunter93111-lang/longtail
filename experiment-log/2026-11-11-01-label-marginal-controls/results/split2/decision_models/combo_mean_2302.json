@@ -1,0 +1,51 @@
+{
+  "kind": "fusion",
+  "group": "combo",
+  "seed": 2302,
+  "state": {
+    "kind": "affine",
+    "targets": [
+      "FMB",
+      "AMA",
+      "SawFM",
+      "SinFM",
+      "MFT",
+      "ISRJ"
+    ],
+    "weights": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "biases": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "thresholds": [
+    0.4599999999999999,
+    0.05,
+    0.43499999999999994,
+    0.30499999999999994,
+    0.38499999999999995,
+    0.38999999999999996
+  ],
+  "model_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth",
+  "model_sha256": "d90d6ced3445f91531777c3c4563976c532a3c1825e97940e3d1fe0a808f7662",
+  "reference_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\best_BCE.pth",
+  "reference_sha256": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2",
+  "protocol_sha256": "6e059047bc28dbf153fa4fcbfd542af0cd97da198d07cb273fe42965135e60bf"
+}

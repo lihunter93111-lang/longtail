@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-11",
+  "repository": "C:\\Users\\zj\\lt_publish_20261111",
+  "storage": "D:\\longtail_experiments\\20261111_label_marginal",
+  "base_commit": "0b0e81de830f9d629d988a5c6a53901bff906af6",
+  "seeds": [
+    2300,
+    2301,
+    2302,
+    2303,
+    2304
+  ],
+  "splits": [
+    "split1",
+    "split2"
+  ],
+  "arms": [
+    "natural",
+    "marginal",
+    "combo"
+  ],
+  "epochs": 40,
+  "width": 32,
+  "batch_size": 32,
+  "mixture": 0.25,
+  "training_cutoff": "2026-11-11T21:10:00+08:00",
+  "freeze_cutoff": "2026-11-11T21:20:00+08:00",
+  "evaluation_cutoff": "2026-11-11T21:40:00+08:00",
+  "deadline": "2026-11-11T22:00:00+08:00",
+  "generator_config": "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-08-01-overnight\\results\\data\\fit_pool\\generation_config.json",
+  "pool_seeds": {
+    "split1": {
+      "fit_pool": 3311100000,
+      "dev_pool": 3311200000,
+      "confirmation_pool": 3311300000
+    },
+    "split2": {
+      "fit_pool": 3312100000,
+      "dev_pool": 3312200000,
+      "confirmation_pool": 3312300000
+    }
+  },
+  "remote_source": "E:/LJQ_code/longtail_20261110",
+  "baseline_root": "E:/LJQ_code/LJQ_code_experiment_storage/w32_validation_v1/20261109_01",
+  "previous_root": "E:/LJQ_code/LJQ_code_experiment_storage/readout_integration_v1/20261110_01",
+  "main_seeds": [
+    2200,
+    2201,
+    2202,
+    2203,
+    2204
+  ],
+  "training_mode": "reuse_verified_A_C_train_B",
+  "amendment": "E drive mounted by user before any training; reuse same historical fit/early/calibration and paired A/C experts. Fresh D pools reserved for development, new confirmation and later data matrix."
+}

@@ -1,0 +1,275 @@
+{
+  "passed": true,
+  "scope": "Tonight executed stages; future matrix training, physical readout and budget studies remain explicitly planned",
+  "checks": [
+    {
+      "requirement": "Frozen models, thresholds and scientific sources unchanged",
+      "passed": true,
+      "evidence": {
+        "files": 288,
+        "models": 100,
+        "changed": []
+      }
+    },
+    {
+      "requirement": "Positive/negative marginal loss and gradient controls",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "identity_count": 8000,
+        "scalar_vs_matrix_loss_error": 0.0,
+        "maximum_gradient_error": 6.776263578034403e-21,
+        "label_bias_gradient_error": 1.7408281566266837e-08,
+        "zero_mixture_unit_weights": true,
+        "source_sha256": "beac0fe9cd7c0dd4901f981255139eb9db8d93cfb85720cd88f1743b976d434d"
+      }
+    },
+    {
+      "requirement": "split1 new confirmation after freeze and roles audited",
+      "passed": true,
+      "evidence": {
+        "samples": 4032,
+        "frozen_at": "2026-11-11T12:39:49.086608+00:00",
+        "config_created_utc": "2026-11-11T12:40:19.367761+00:00",
+        "identity_audit": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation\\preflight.json"
+      }
+    },
+    {
+      "requirement": "split2 new confirmation after freeze and roles audited",
+      "passed": true,
+      "evidence": {
+        "samples": 4032,
+        "frozen_at": "2026-11-11T12:39:49.086608+00:00",
+        "config_created_utc": "2026-11-11T12:40:29.710394+00:00",
+        "identity_audit": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation\\preflight.json"
+      }
+    },
+    {
+      "requirement": "Ten complete B trainings matched to both A and C",
+      "passed": true,
+      "evidence": [
+        {
+          "split": "split1",
+          "seed": 2300,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 34,
+          "seconds": 316.76037669181824,
+          "state_equals_export": true
+        },
+        {
+          "split": "split1",
+          "seed": 2301,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 39,
+          "seconds": 314.676114320755,
+          "state_equals_export": true
+        },
+        {
+          "split": "split1",
+          "seed": 2302,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 34,
+          "seconds": 313.9298975467682,
+          "state_equals_export": true
+        },
+        {
+          "split": "split1",
+          "seed": 2303,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 37,
+          "seconds": 315.06947350502014,
+          "state_equals_export": true
+        },
+        {
+          "split": "split1",
+          "seed": 2304,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 38,
+          "seconds": 589.4745621681213,
+          "state_equals_export": true
+        },
+        {
+          "split": "split2",
+          "seed": 2300,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 34,
+          "seconds": 626.423376083374,
+          "state_equals_export": true
+        },
+        {
+          "split": "split2",
+          "seed": 2301,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 26,
+          "seconds": 311.13234090805054,
+          "state_equals_export": true
+        },
+        {
+          "split": "split2",
+          "seed": 2302,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 33,
+          "seconds": 305.921288728714,
+          "state_equals_export": true
+        },
+        {
+          "split": "split2",
+          "seed": 2303,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 38,
+          "seconds": 308.89757680892944,
+          "state_equals_export": true
+        },
+        {
+          "split": "split2",
+          "seed": 2304,
+          "epochs": 40,
+          "updates": 10000,
+          "best_epoch": 34,
+          "seconds": 309.00551676750183,
+          "state_equals_export": true
+        }
+      ]
+    },
+    {
+      "requirement": "development independent metric recomputation",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "role": "development",
+        "scalars_recomputed": 5300,
+        "maximum_absolute_error": 2.220446049250313e-16,
+        "errors": [],
+        "new_complete_trainings": 10,
+        "time": "2026-11-11T12:36:52.137668+00:00",
+        "verification_source_sha256": "4edd2a2f415118081a5f111a41d7ead2eeef26cdd7e9882492e63e95c07b372b"
+      }
+    },
+    {
+      "requirement": "confirmation independent metric recomputation",
+      "passed": true,
+      "evidence": {
+        "passed": true,
+        "role": "confirmation",
+        "scalars_recomputed": 5300,
+        "maximum_absolute_error": 2.220446049250313e-16,
+        "errors": [],
+        "new_complete_trainings": 10,
+        "time": "2026-11-11T12:43:13.285383+00:00",
+        "verification_source_sha256": "4edd2a2f415118081a5f111a41d7ead2eeef26cdd7e9882492e63e95c07b372b"
+      }
+    },
+    {
+      "requirement": "portable_inference_verification.json",
+      "passed": true,
+      "evidence": {
+        "path": "D:\\longtail_experiments\\20261111_label_marginal\\portable_inference_verification.json",
+        "sha256": "42a6de7432f9542c6095ed177aa74de4fc28e718afdcb0783c97838bb6e5a684"
+      }
+    },
+    {
+      "requirement": "portable_relocated_verification.json",
+      "passed": true,
+      "evidence": {
+        "path": "D:\\longtail_experiments\\20261111_label_marginal\\portable_relocated_verification.json",
+        "sha256": "401a207b20fcaaa1521e7cf80bff418104dd14367e21603d08ae7cd0dbf3e25f"
+      }
+    },
+    {
+      "requirement": "Four actual future quota manifests without claiming trained performance",
+      "passed": true,
+      "evidence": {
+        "cells": [
+          "CF7p85_IF3",
+          "CF7p85_IF1",
+          "CF16_IF3",
+          "CF16_near_IF1"
+        ],
+        "candidate_rows": 30240
+      }
+    },
+    {
+      "requirement": "Bounded exact-margin exploration preserved including failure status",
+      "passed": true,
+      "evidence": {
+        "role": "future_data_only",
+        "new_training": false,
+        "status": 1,
+        "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)",
+        "feasible_found": false,
+        "source_sha256": "14a4a45be030df0180d35f14c5fbf1405ce79d870f16d85f47dad91d040d4ac2",
+        "input_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b",
+        "time": "2026-11-11T12:47:39.160238+00:00"
+      }
+    },
+    {
+      "requirement": "Development-driven diagnostic completed",
+      "passed": true,
+      "evidence": {
+        "path": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\background_development.json"
+      }
+    },
+    {
+      "requirement": "Actual inference cost measured",
+      "passed": true,
+      "evidence": {
+        "hardware": "NVIDIA GeForce RTX 5080",
+        "records": 18
+      }
+    },
+    {
+      "requirement": "Collaborator replay package verified",
+      "passed": true,
+      "evidence": {
+        "archive": "D:\\longtail_experiments\\20261111_label_marginal\\20261111_collaborator_replay.zip",
+        "bytes": 632294060,
+        "sha256": "c988068cc0e76d3e4c2585731fd1e7654cd13c21981b1c57086d01ac6bfd3d77",
+        "files": 253,
+        "models": 40,
+        "decisions": 100,
+        "includes_confirmation_data": true,
+        "not_in_git": true,
+        "time": "2026-11-11T12:49:06.281409+00:00"
+      }
+    },
+    {
+      "requirement": "Long-term plan, stage Goals, results, limitations and handoff guide exist",
+      "passed": true,
+      "evidence": [
+        "GOAL_PROMPT.txt",
+        "00_E_DRIVE_AMENDMENT_GOAL.txt",
+        "01_AUDIT_DATA_GOAL.txt",
+        "02_MARGINAL_CONTROLS_GOAL.txt",
+        "03_DUAL_TAIL_MATRIX_GOAL.txt",
+        "04_SUPERVISION_BUDGET_GOAL.txt",
+        "05_GENERALIZATION_GOAL.txt",
+        "06_CONFIRM_DELIVER_GOAL.txt",
+        "07_BACKGROUND_DIAGNOSTIC_GOAL.txt",
+        "08_EXACT_MATRIX_GOAL.txt",
+        "RESULTS.txt",
+        "LONG_TERM_PLAN.txt",
+        "NEXT_ROUND_PLAN.txt",
+        "COLLABORATOR_GUIDE.txt",
+        "REPRODUCING.txt"
+      ]
+    },
+    {
+      "requirement": "Frozen model library matches portable repository source",
+      "passed": true,
+      "evidence": {
+        "mapped_source_files": 74
+      }
+    }
+  ],
+  "time": "2026-11-11T12:59:15.735800+00:00",
+  "source_sha256": "f8e01563af7763fdfde1d9b17c85fd362c56ac4dc8b852f07c7665dec0988572"
+}

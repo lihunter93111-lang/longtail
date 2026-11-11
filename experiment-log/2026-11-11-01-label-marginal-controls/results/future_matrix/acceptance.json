@@ -1,0 +1,567 @@
+{
+  "passed": true,
+  "new_training": false,
+  "candidate_rows": 30240,
+  "cells": {
+    "CF7p85_IF3": {
+      "role": "future_fit_only_not_trained",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "c4e22bb52020962bb8c96edc7071b7695160826d68d497a22926f972c5da46b1",
+      "counts": [
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        117,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        41,
+        41,
+        322,
+        41,
+        127,
+        41,
+        322,
+        41,
+        126
+      ],
+      "label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "label_IF": 3.0,
+      "combination_IF": 7.853658536585366,
+      "cardinality_counts": [
+        526,
+        1821,
+        2833,
+        1996,
+        698,
+        126
+      ],
+      "design_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b"
+    },
+    "CF7p85_IF1": {
+      "role": "future_fit_only_not_trained",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "c4e22bb52020962bb8c96edc7071b7695160826d68d497a22926f972c5da46b1",
+      "counts": [
+        41,
+        321,
+        41,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        321,
+        41,
+        41,
+        322,
+        41,
+        41,
+        41,
+        41,
+        41,
+        126,
+        41,
+        321,
+        126,
+        321,
+        41,
+        41,
+        321,
+        127,
+        41,
+        41,
+        41,
+        126,
+        41,
+        41,
+        41,
+        321,
+        127,
+        322,
+        41,
+        41,
+        321,
+        41,
+        41,
+        41,
+        117,
+        41,
+        127,
+        127,
+        41,
+        126,
+        321,
+        41,
+        41,
+        41,
+        322,
+        41,
+        41,
+        127,
+        322,
+        41,
+        322,
+        322,
+        41,
+        126
+      ],
+      "label_margins": [
+        4153,
+        4152,
+        4146,
+        4146,
+        4153,
+        4147
+      ],
+      "label_IF": 1.00168837433671,
+      "combination_IF": 7.853658536585366,
+      "cardinality_counts": [
+        526,
+        1821,
+        2833,
+        1996,
+        698,
+        126
+      ],
+      "design_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b"
+    },
+    "CF16_IF3": {
+      "role": "future_fit_only_not_trained",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "c4e22bb52020962bb8c96edc7071b7695160826d68d497a22926f972c5da46b1",
+      "counts": [
+        321,
+        41,
+        127,
+        41,
+        321,
+        63,
+        174,
+        41,
+        299,
+        41,
+        126,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        275,
+        41,
+        30,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        126,
+        41,
+        321,
+        41,
+        127,
+        41,
+        322,
+        41,
+        30,
+        41,
+        276,
+        41,
+        41,
+        41,
+        322,
+        41,
+        70,
+        41,
+        300,
+        41,
+        41,
+        30,
+        480,
+        41,
+        127,
+        30,
+        322,
+        41,
+        126
+      ],
+      "label_margins": [
+        6729,
+        2243,
+        3973,
+        3897,
+        4069,
+        3986
+      ],
+      "label_IF": 3.0,
+      "combination_IF": 16.0,
+      "cardinality_counts": [
+        526,
+        1821,
+        2833,
+        1996,
+        698,
+        126
+      ],
+      "design_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b"
+    },
+    "CF16_near_IF1": {
+      "role": "future_fit_only_not_trained",
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "c4e22bb52020962bb8c96edc7071b7695160826d68d497a22926f972c5da46b1",
+      "counts": [
+        41,
+        41,
+        41,
+        41,
+        63,
+        41,
+        321,
+        41,
+        41,
+        41,
+        321,
+        321,
+        41,
+        321,
+        30,
+        321,
+        41,
+        299,
+        41,
+        41,
+        41,
+        41,
+        321,
+        321,
+        41,
+        41,
+        276,
+        126,
+        70,
+        41,
+        41,
+        41,
+        127,
+        41,
+        322,
+        41,
+        174,
+        126,
+        41,
+        321,
+        126,
+        41,
+        41,
+        275,
+        300,
+        41,
+        41,
+        41,
+        41,
+        41,
+        480,
+        322,
+        30,
+        127,
+        126,
+        30,
+        41,
+        127,
+        41,
+        30,
+        322,
+        127,
+        126
+      ],
+      "label_margins": [
+        4150,
+        4147,
+        4150,
+        4144,
+        4155,
+        4151
+      ],
+      "label_IF": 1.0026544401544402,
+      "combination_IF": 16.0,
+      "cardinality_counts": [
+        526,
+        1821,
+        2833,
+        1996,
+        698,
+        126
+      ],
+      "design_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b"
+    }
+  },
+  "pool_identity_audit": [
+    {
+      "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\confirmation\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "overlap": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pairwise_shared_identities": {
+    "CF7p85_IF1__CF7p85_IF3": 4861,
+    "CF16_IF3__CF7p85_IF3": 7763,
+    "CF16_IF3__CF7p85_IF1": 4795,
+    "CF16_IF3__CF16_near_IF1": 3891,
+    "CF16_near_IF1__CF7p85_IF3": 3937,
+    "CF16_near_IF1__CF7p85_IF1": 4234
+  },
+  "source_sha256": "d955dc8ffe3949f805f16bc3f79117460a8f705ee760fb526b96eb70e5584ddb",
+  "time": "2026-11-11T12:39:09.685193+00:00"
+}

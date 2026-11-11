@@ -1,0 +1,11 @@
+{
+  "archive": "D:\\longtail_experiments\\20261111_label_marginal\\20261111_collaborator_replay.zip",
+  "bytes": 632294060,
+  "sha256": "c988068cc0e76d3e4c2585731fd1e7654cd13c21981b1c57086d01ac6bfd3d77",
+  "files": 253,
+  "models": 40,
+  "decisions": 100,
+  "includes_confirmation_data": true,
+  "not_in_git": true,
+  "time": "2026-11-11T12:49:06.281409+00:00"
+}

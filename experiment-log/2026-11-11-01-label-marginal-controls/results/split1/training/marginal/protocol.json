@@ -1,0 +1,25 @@
+{
+  "split": "split1",
+  "arm": "label_positive_negative_marginal_matching",
+  "epochs": 40,
+  "seeds": [
+    2300,
+    2301,
+    2302,
+    2303,
+    2304
+  ],
+  "manifest_sha256": "69c760ce921ac7d4be4944707e9f320a2f8f65595117895c958cbea5cc6d6f6b",
+  "weight_sha256": "d99afd00a8de8e6c46cb9bb5a8f8e874c9eadd71b310ea5c26af09ca60e903be",
+  "source_sha256": {
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\run_marginal.py": "65d1073d34039933f7406d7191b1511ebee5385029efea29a884aaa7f9a9007e",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\common.py": "625b58f78e8c0d9ff6b05e9a4d410ad1e19871bda7a9d3c2dca776d14a33ce26",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\training_marginal.py": "d20f623219fbe48faaa2690def85ff35d21a2c38868fab1bf0b86fcf86210fb0",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\protocol.json": "aa41570870ec4d3ca7375bada5dbab7ae638719956a2033b3ee08f4d9997392d",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\GOAL_PROMPT.txt": "2e1a063f12d9699793b6915430a0f149d6483e3f91fa524fc0db27012ef3faa4",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\00_E_DRIVE_AMENDMENT_GOAL.txt": "ec66f98803a576c3f3cb5bb1e54fc5ba653bde8c3d98134b8f54729de3e85a73",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-05-weak-component-goal\\run_weak_goal.py": "a9aae351ea02dcf7d8f5a63111b4dab80d54aef1faaaee66fdbe0209ed5fa795",
+    "E:\\LJQ_code\\longtail_20261110\\experiment-log\\2026-11-06-01-lt-abc\\run_lt_abc.py": "7625642759862cb0da85a05f708bb633f3e6e57b7fe80b7f4f56ad51804911e9"
+  },
+  "goal": "C combo versus B label marginals matched"
+}

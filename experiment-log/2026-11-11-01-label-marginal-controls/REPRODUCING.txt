@@ -1,0 +1,33 @@
+复现与迁移说明
+
+环境
+本机Python为D:/anaconda3/envs/PY10/python.exe，torch2.11.0+cu128，GPU RTX5080；MATLAB为D:/Matlab/bin/matlab.exe。使用PyTorch、numpy、scipy、h5py、scikit-learn、matplotlib。Windows先import torch，避免历史OpenMP/DLL装载问题。
+原工作树 C:/Users/zj/lt_publish_20261111，分支codex/data-marginal-20261111，起点0b0e81de830f9d629d988a5c6a53901bff906af6。
+本目录protocol.json保存原实验绝对路径，保持它和源码字节不变，才能验证冻结哈希。大型数据和权重不在Git。
+
+已有结果的可复核命令（从仓库根目录运行，PY表示上述Python）
+PY experiment-log/2026-11-11-01-label-marginal-controls/verify_results.py --role development
+PY experiment-log/2026-11-11-01-label-marginal-controls/verify_results.py --role confirmation
+PY experiment-log/2026-11-11-01-label-marginal-controls/model_runtime.py --split split1 --role confirmation
+PY experiment-log/2026-11-11-01-label-marginal-controls/model_runtime.py --split split2 --role confirmation
+PY experiment-log/2026-11-11-01-label-marginal-controls/verify_portable.py
+PY tools/verify_experiment_delivery.py --manifest experiment-log/2026-11-11-01-label-marginal-controls/delivery_manifest.json --working-tree
+验证脚本会重新写对应验证收据；若要保留原交付字节，应先复制整个外部产物目录作为复核输出区并使用新的复核记录，或只运行仓库交付校验器。发布后的原results副本不可覆盖。
+
+新机器普通推理
+检出相同Git分支/提交，解压D盘外部20261111_collaborator_replay.zip，按包中README命令调用portable_inference.py。
+这个入口不读取原protocol.json，不导入E盘快照；只从当前仓库构建模型，并按SHA验证输入和权重。path_map.json的相对路径以该文件所在目录解释。
+本机已用迁移后的包内权重、包内MAT、包内相对映射完成4032身份的完整复放，与原combo_affine_2300 logits逐元素相同；还对100决策的64身份普通推理核验通过。
+若用自己的原始输入，先保持同标准化、长度和标签顺序；不能把不同仿真协议的新分数与本轮确认表直接相减。
+
+从头再训练
+不能对已经发布和冻结的本目录原位重跑后覆盖收据。run_marginal.py有2026-11-11训练截止时间，过期后不会启动新种子；它不是无日期限制的训练服务。
+在新的日期/编号目录复制控制代码和Goal、创建新的storage及协议，保留本版本为来源；更新截止时间与新Goal。若复验原数据，明确仍使用相同历史fit/early/calibration及M视图，并登记数据和源码的原哈希；若改变任何数据角色、权重定义或预算，则视为新实验而不是原结果重放。
+当前完整训练依赖包含E盘A/C协议、权重、旧fit/early/calibration/M视图和fusion_fit；这些路径在历史manifest中也有记录。跨机器迁移训练必须生成新的路径映射和新协议，逐项验证字节及角色，不应把旧收据中的哈希改成新值来“通过”审计。portable_inference解决的是跨机器推理，不承诺完整训练目录一键迁移。
+执行顺序见COLLABORATOR_GUIDE调用链。先跑selfcheck_weights，再验收数据和历史参照，再启动B。每个种子只有完整40轮收据才能进入融合；融合等待所有要求的训练收据，避免本轮曾发生的提前读取错误。
+新确认必须在候选/阈值/比较冻结后生成；完成后进行身份隔离审计、数值复算、普通前向重放和交付校验。本轮确认已经消费，任何模型选择变化都需新确认身份。
+
+模型与数据完整性
+原始final_freeze.json记录100决策和288个冻结文件；当前训练每种子收据另有初始化、40轮顺序、选中epoch及权重SHA。
+handoff_bundle_receipt.json给ZIP字节数、SHA和模型数量。bundle_manifest.json给包内逐文件SHA；zipfile CRC已验证。
+completion_audit.json核验任务要求和交付范围；delivery_manifest.json核验本实验入Git文件的字节。这些证据互补，不能相互替代。

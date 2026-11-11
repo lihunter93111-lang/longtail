@@ -1,0 +1,54 @@
+给师弟的目录、接口与证据阅读说明
+
+先读顺序
+1. RESULTS.txt：今晚做了什么、数字和代价。
+2. NEXT_ROUND_PLAN.txt：两人分工及下一轮Goal。
+3. protocol.json与00_E_DRIVE_AMENDMENT_GOAL.txt：最终生效的路径和协议。protocol_initial_D_only.json仅是E盘未挂载时的历史方案，不要照它重跑当前结论。
+4. results/analysis/*_confirmation.json及三张图：查看同池五种子比较。
+5. portable_inference.py和包内README：先复放，再接自己的结构。
+
+仓库层级的逻辑
+仓库根目录保存完整研究源码、数据生成器、实验版本和协作文档。
+data_generation/0716/可配置组合干扰数据生成：仿真入口、配置规范和组合生成逻辑；其core负责协议组织，generators负责各类干扰波形。它只负责按配置造数据，训练和模型选择在另一层完成。
+projects/CJ_Imbalance_0716/cjlt：可复用模型、训练与融合模块。models/backbone_adapter.py构建dfms_iq宽骨干；engine/selective_fusion.py执行仿射融合；不要为某一晚结果直接改坏共享模块。
+experiment-log/日期-编号-名称：一次完整实验的协议、脚本、Goal和轻量证据。11月10日目录是历史分段/专家整合，11月11日本目录是新边际匹配控制；两个目录的确认池和方法名称不同。
+tools：独立交付校验器等仓库工具。docs：全仓库导航及历史发布说明。
+
+本实验目录每层用途
+顶层 GOAL_PROMPT.txt 与 00—08 的 *_GOAL.txt：总目标、E盘恢复修订、六阶段计划和两项追加探索。编号是逻辑顺序，不代表这些长期阶段今晚均已执行。
+顶层 protocol*.json：初始方案和生效方案。生效协议中的路径是原实验审计坐标，不能为了迁移直接覆盖它。
+顶层 *.py/*.m：本轮控制和审计代码。common.py连接经核验的历史接口；training_marginal.py实现逐标签正负权重；run_marginal.py核验A/C并训练B；evaluate_campaign.py先拟合决策再评分；freeze_campaign.py在新确认前冻结；verify_results.py用独立数值公式复算。
+prepare_evaluation.py：核验样本、接收噪声和同标签物理分量身份，并生成实际使用索引。generate_pools.m只按角色生成新的池。
+background_diagnostic.py：开发集、按fit频次定义的关联诊断。materialize_matrix.py：从新候选池物化四份未来fit索引。explore_exact_matrix.py：精确边际的限时可行性探索。
+model_runtime.py：原环境普通推理重放。portable_inference.py：仅依赖当前仓库cjlt和外部权重的数据迁移入口；这是建议师弟使用的入口。
+results/：可入Git的证据副本。analysis存聚合和成对差；split1、split2分别存两套独立数据划分的收据、角色清单、模型决策及评分JSON；future_matrix存未来四条件索引及验收；figures存PNG/PDF；logs保存运行和失败日志。
+delivery_manifest.json：本版本逐文件SHA。它检验交付字节，没有代替实验科学性审查；completion_audit.json另核验实验要求。
+
+外部D盘目录每层用途
+D:/longtail_experiments/20261111_label_marginal/ 是本轮体积较大的原始产物根目录。
+split*/data/fit_pool：新候选数据，目前只有split1的30240个，供未来矩阵；本轮未训练它。
+split*/data/dev_pool：新开发候选，每套6048，实际取4032。
+split*/data/confirmation_pool：冻结后生成的新确认，每套4032，现已消费。
+split*/development、confirmation：精确使用索引及身份隔离收据，不是另一份波形。
+split*/training/marginal/M_230x：40轮过程、best_BCE权重、优化器恢复状态和逐轮顺序收据。恢复状态不能冒充最终选中权重。
+split*/models/marginal_230x：自含模型权重、校准信息与复制来源收据，便于交接。
+split*/scores：按模型/数据/索引哈希绑定的冻结logits缓存，不允许把未匹配缓存跨池挪用。
+split*/decision_models：每个最终单专家或融合的模型路径、哈希、阈值、仿射系数。真正运行时读取这里，而非从报告表格抄数。
+split*/development_results、confirmation_results：逐样本logits NPZ、每模型指标JSON、元数据和汇总。前者用于探索，后者是冻结后评价。
+analysis、future_matrix：分析结果与未来数据配额；未训练的清单不等于已验证模型。
+handoff_bundle和20261111_collaborator_replay.zip：便于迁移的模型与新确认复放包。包内weights按SHA去重；decisions按split分100决策；data存两套确认MAT和索引；predictions存对照输出；path_map.json把原绝对路径映射到包内相对路径；bundle_manifest.json校验字节。
+
+外部E盘仍承担什么
+E:/LJQ_code/longtail_20261110 是本轮引用的历史源码快照。
+.../w32_validation_v1/20261109_01 保存原fit/early/calibration、M视图及独立主模型。
+.../readout_integration_v1/20261110_01 保存原A/C专家及共享fusion_fit。
+这些是明确依赖，不要仅因D盘已有新数据就删除。Git不含全部MAT、PTH和恢复缓存；换机器推理可用复放包，跨机器重训还需迁移训练依赖并建立新的路径协议。
+
+最短调用链
+generate_pools → prepare_evaluation → run_marginal → evaluate_campaign fit → score development → analyze/verify → freeze_campaign → generate confirmation → prepare/score/analyze/verify/runtime → export_handoff。
+未来矩阵在另一条支线：fit_pool → materialize_matrix → 新协议生成M视图和新早停/校准/开发 → 新训练。当前没有执行最后一步。
+
+模型接口
+输入复数IQ，按每身份 sqrt(mean(I^2+Q^2)+1e-12)标准化；形状N×2×3000。标签顺序FMB、AMA、SawFM、SinFM、MFT、ISRJ。
+模型输出六维logit，最终sigmoid(logit)>=对应阈值。融合每标签取主模型与专家的两路线性加权加偏置，再使用冻结阈值。读取决策JSON即可，不要擅自强制0.5。
+模型包内确认数据只用于复放和记录既有结果。开发新的物理读出、门控或保护时，应另建开发身份，最后使用新的冻结确认。师弟接入局部读出后，需要保留当前B、C和简单全局读出对照。

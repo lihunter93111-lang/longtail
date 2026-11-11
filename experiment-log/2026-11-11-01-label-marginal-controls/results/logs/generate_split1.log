@@ -1,0 +1,16 @@
+{错误使用 normalize_and_validate_config>validate_numeric_range (第 291 行)
+cfg.params.common.arrival_delay_s 必须是有限的 1×2 范围，且下界不能大于上界。
+
+出错 normalize_and_validate_config>validate_parameter_ranges (第 279 行)
+                validate_numeric_range(child, childPath);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 normalize_and_validate_config>validate_parameter_ranges (第 267 行)
+                validate_parameter_ranges(child, childPath);
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 normalize_and_validate_config (第 52 行)
+    validate_parameter_ranges(cfg.params, 'cfg.params');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 generate_pools (第 31 行)
+        cfg=normalize_and_validate_config(cfg,'balanced');
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

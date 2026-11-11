@@ -1,0 +1,24 @@
+{
+  "configuration_sha256": "1dc4fe06052e9c4d983117d15d88a3e3c49b008d77d8e137a806397917b7bc8e",
+  "sources": {
+    "C:\\Users\\zj\\Documents\\ChatGPT\\长尾新项目\\experiments\\2026-11-09-w32-validation\\common.py": "14d99065d7343a0a5d1181eb02857e49cb8396042805639864fe7464a04e4e3d",
+    "C:\\Users\\zj\\Documents\\ChatGPT\\长尾新项目\\experiments\\2026-11-09-w32-validation\\GOAL_PROMPT.txt": "22ea2c64e4d9acdd3286ba05dd6511c0e37e342d77c722b06526a0d76e02e243",
+    "C:\\Users\\zj\\Documents\\ChatGPT\\长尾新项目\\experiments\\2026-11-09-w32-validation\\protocol.json": "1dc4fe06052e9c4d983117d15d88a3e3c49b008d77d8e137a806397917b7bc8e",
+    "C:\\Users\\zj\\Documents\\ChatGPT\\长尾新项目\\experiments\\2026-11-09-w32-validation\\train_models.py": "24c8f4cfdc469b1a0333be4521ec3dae2c0e03a9572c06f5b15fd7396241b1c0",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\experiment-log\\2026-11-08-01-overnight\\training.py": "4923ed7ada6c11ce239bd429411b1ed962e20a4c55cb80d4647de9dff77ea6b1",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\__init__.py": "f2b836db355440fb9a6f100f6c16df9014d8bc16db383093a87271cb87fe4e45",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\__init__.py": "99894ca65660625e315eef7f14b0f1c8f3af3b27804b8f746c73753bcd971ffc",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\backbone_adapter.py": "bb1a7954d224e1454bab5f5a15be1ca472b02bc2dd615b46cd47312571caf0ea",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\complex_layers.py": "fe14bef1fccc3f69d05dfd35f079289407fb9f63a309061fb5f3bb9557e290f9",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\cjlt\\models\\phase_multiscale.py": "8674a1ddbe3de6fb91fed00f2db51da9e574a7e8692b20e064a4fa0cd4b8b4e8",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\experiments\\__init__.py": "5c00e8a4a1c7ccb2228ac5411b56fd95e38c6e849e5e5da7ae7b22978c4b9288",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\experiments\\run_route_a_c1_baseline.py": "749be290d64791b4024a8092301f2a47c33604096a886e1f5ef6d435bfdb051d",
+    "C:\\Users\\zj\\Documents\\三轴长尾场景识别\\projects\\CJ_Imbalance_0716\\experiments\\run_route_a_nineclass_feature_sufficiency.py": "7ba100ad9819466d794246544d30bf83eba8b1eddcb9b80345d85c33766b9981"
+  },
+  "manifest_sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe",
+  "width": 32,
+  "views": {
+    "fit_gap10.mat": "6d6899b752606cb6a0f68d6e56014bf259936fe53f45733355a39299aca1622f",
+    "fit_gap15.mat": "cbfbfd25bcdbc4934182ecdaf0dd5d3ad7f8a479171e92d01b47b9ea57a31637"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "identities": 4032,
+  "audit": [
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\lt_abc_v1\\20261106_local_01\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\final_confirmation_data\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\overnight_v1\\20261108_01\\replication_data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\development\\evaluation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\confirmation\\confirmation_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\dev_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\weak_component_v1\\20261106_01\\data\\fit_pool\\closedset_6class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_test.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    },
+    {
+      "path": "E:\\论文相关\\干扰数据\\复合干扰数据0716\\九类\\full_power_10_30dB_v1\\closedset_9class_train.mat",
+      "sample_overlap": 0,
+      "noise_overlap": 0,
+      "same_label_component_overlap": 0
+    }
+  ],
+  "method": "noise-derived sample/component identity mapping; all new actual component seeds verified; historical generator mapping previously audited",
+  "new_generator_source_sha256": "4c1c47383845724257c48d0e41b3e02283c1cbd93f7ca49933eff629d8acbe37",
+  "time": "2026-11-09T17:47:37.600030+00:00"
+}

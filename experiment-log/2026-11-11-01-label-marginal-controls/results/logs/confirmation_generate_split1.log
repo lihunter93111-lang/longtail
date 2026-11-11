@@ -1,0 +1,110 @@
+[�ռ�����] ���� train manifest...
+[�ռ�����] train ��ʼ���� 4032 ������...
+
+�����߼ʼ�����
+         type_code         count
+    ___________________    _____
+
+    {'FMB'            }    2048 
+    {'AMA'            }    2048 
+    {'SawFM'          }    2048 
+    {'SinFM'          }    2048 
+    {'SN'             }       0 
+    {'MFT'            }    2048 
+    {'VFT'            }       0 
+    {'ISRJ'           }    2048 
+    {'RangeFakeTarget'}       0 
+    {'Traction'       }       0 
+
+��Ͻ���������
+    combination_size    count
+    ________________    _____
+
+           1             384 
+           2             960 
+           3            1280 
+           4             960 
+           5             384 
+           6              64 
+
+���ģʽ������
+             combination_id             count
+    ________________________________    _____
+
+    {'FMB'                         }     64  
+    {'AMA'                         }     64  
+    {'SawFM'                       }     64  
+    {'SinFM'                       }     64  
+    {'MFT'                         }     64  
+    {'ISRJ'                        }     64  
+    {'FMB+AMA'                     }     64  
+    {'FMB+SawFM'                   }     64  
+    {'FMB+SinFM'                   }     64  
+    {'FMB+MFT'                     }     64  
+    {'FMB+ISRJ'                    }     64  
+    {'AMA+SawFM'                   }     64  
+    {'AMA+SinFM'                   }     64  
+    {'AMA+MFT'                     }     64  
+    {'AMA+ISRJ'                    }     64  
+    {'SawFM+SinFM'                 }     64  
+    {'SawFM+MFT'                   }     64  
+    {'SawFM+ISRJ'                  }     64  
+    {'SinFM+MFT'                   }     64  
+    {'SinFM+ISRJ'                  }     64  
+    {'MFT+ISRJ'                    }     64  
+    {'FMB+AMA+SawFM'               }     64  
+    {'FMB+AMA+SinFM'               }     64  
+    {'FMB+AMA+MFT'                 }     64  
+    {'FMB+AMA+ISRJ'                }     64  
+    {'FMB+SawFM+SinFM'             }     64  
+    {'FMB+SawFM+MFT'               }     64  
+    {'FMB+SawFM+ISRJ'              }     64  
+    {'FMB+SinFM+MFT'               }     64  
+    {'FMB+SinFM+ISRJ'              }     64  
+    {'FMB+MFT+ISRJ'                }     64  
+    {'AMA+SawFM+SinFM'             }     64  
+    {'AMA+SawFM+MFT'               }     64  
+    {'AMA+SawFM+ISRJ'              }     64  
+    {'AMA+SinFM+MFT'               }     64  
+    {'AMA+SinFM+ISRJ'              }     64  
+    {'AMA+MFT+ISRJ'                }     64  
+    {'SawFM+SinFM+MFT'             }     64  
+    {'SawFM+SinFM+ISRJ'            }     64  
+    {'SawFM+MFT+ISRJ'              }     64  
+    {'SinFM+MFT+ISRJ'              }     64  
+    {'FMB+AMA+SawFM+SinFM'         }     64  
+    {'FMB+AMA+SawFM+MFT'           }     64  
+    {'FMB+AMA+SawFM+ISRJ'          }     64  
+    {'FMB+AMA+SinFM+MFT'           }     64  
+    {'FMB+AMA+SinFM+ISRJ'          }     64  
+    {'FMB+AMA+MFT+ISRJ'            }     64  
+    {'FMB+SawFM+SinFM+MFT'         }     64  
+    {'FMB+SawFM+SinFM+ISRJ'        }     64  
+    {'FMB+SawFM+MFT+ISRJ'          }     64  
+    {'FMB+SinFM+MFT+ISRJ'          }     64  
+    {'AMA+SawFM+SinFM+MFT'         }     64  
+    {'AMA+SawFM+SinFM+ISRJ'        }     64  
+    {'AMA+SawFM+MFT+ISRJ'          }     64  
+    {'AMA+SinFM+MFT+ISRJ'          }     64  
+    {'SawFM+SinFM+MFT+ISRJ'        }     64  
+    {'FMB+AMA+SawFM+SinFM+MFT'     }     64  
+    {'FMB+AMA+SawFM+SinFM+ISRJ'    }     64  
+    {'FMB+AMA+SawFM+MFT+ISRJ'      }     64  
+    {'FMB+AMA+SinFM+MFT+ISRJ'      }     64  
+    {'FMB+SawFM+SinFM+MFT+ISRJ'    }     64  
+    {'AMA+SawFM+SinFM+MFT+ISRJ'    }     64  
+    {'FMB+AMA+SawFM+SinFM+MFT+ISRJ'}     64  
+
+������������0
+������Թ��ʷ�λ�� dB [0 25 50 75 100]��
+  -19.8138   -9.4324   -3.6201         0         0
+
+���ż�/���ּ�����
+      split      sample_count    unknown_sample_count
+    _________    ____________    ____________________
+
+    {'train'}        4032                 0          
+
+[�ռ�����] train ���浽��ʱ�ļ���D:\longtail_experiments\20261111_label_marginal\split1\data\confirmation_pool\closedset_6class_train.partial.mat
+[�ռ�����] train ��ԭ���ύ��ͨ�����ջ��ء�
+POOL_COMPLETE split1 confirmation_pool

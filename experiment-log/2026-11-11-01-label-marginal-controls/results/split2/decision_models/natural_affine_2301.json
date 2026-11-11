@@ -1,0 +1,53 @@
+{
+  "kind": "fusion",
+  "group": "natural",
+  "seed": 2301,
+  "state": {
+    "kind": "affine",
+    "targets": [
+      "FMB",
+      "AMA",
+      "SawFM",
+      "SinFM",
+      "MFT",
+      "ISRJ"
+    ],
+    "weights": [
+      0.36401626467704773,
+      0.9459853768348694,
+      0.7929927110671997,
+      0.8100125193595886,
+      0.5506744384765625,
+      0.548467218875885,
+      0.6164514422416687,
+      0.6075655221939087,
+      0.5181639790534973,
+      0.4677216410636902,
+      0.40869781374931335,
+      0.4278916120529175
+    ],
+    "biases": [
+      -0.15631473064422607,
+      2.950071096420288,
+      0.010150555521249771,
+      1.4118571281433105,
+      0.03788518160581589,
+      0.07683455944061279
+    ],
+    "epochs": 300,
+    "learning_rate": 0.04
+  },
+  "thresholds": [
+    0.74,
+    0.58,
+    0.36499999999999994,
+    0.4099999999999999,
+    0.43999999999999995,
+    0.37499999999999994
+  ],
+  "model_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth",
+  "model_sha256": "ec979a7d68320901c012ed582dc5ab05e0d1a53b5c200764def2e6dba503249a",
+  "reference_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\best_BCE.pth",
+  "reference_sha256": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67",
+  "protocol_sha256": "6e059047bc28dbf153fa4fcbfd542af0cd97da198d07cb273fe42965135e60bf"
+}

@@ -1,0 +1,110 @@
+[闭集数据] 构建 train manifest...
+[闭集数据] train 开始生成 6048 条样本...
+
+分量边际计数：
+         type_code         count
+    ___________________    _____
+
+    {'FMB'            }    3072 
+    {'AMA'            }    3072 
+    {'SawFM'          }    3072 
+    {'SinFM'          }    3072 
+    {'SN'             }       0 
+    {'MFT'            }    3072 
+    {'VFT'            }       0 
+    {'ISRJ'           }    3072 
+    {'RangeFakeTarget'}       0 
+    {'Traction'       }       0 
+
+组合阶数计数：
+    combination_size    count
+    ________________    _____
+
+           1             576 
+           2            1440 
+           3            1920 
+           4            1440 
+           5             576 
+           6              96 
+
+组合模式计数：
+             combination_id             count
+    ________________________________    _____
+
+    {'FMB'                         }     96  
+    {'AMA'                         }     96  
+    {'SawFM'                       }     96  
+    {'SinFM'                       }     96  
+    {'MFT'                         }     96  
+    {'ISRJ'                        }     96  
+    {'FMB+AMA'                     }     96  
+    {'FMB+SawFM'                   }     96  
+    {'FMB+SinFM'                   }     96  
+    {'FMB+MFT'                     }     96  
+    {'FMB+ISRJ'                    }     96  
+    {'AMA+SawFM'                   }     96  
+    {'AMA+SinFM'                   }     96  
+    {'AMA+MFT'                     }     96  
+    {'AMA+ISRJ'                    }     96  
+    {'SawFM+SinFM'                 }     96  
+    {'SawFM+MFT'                   }     96  
+    {'SawFM+ISRJ'                  }     96  
+    {'SinFM+MFT'                   }     96  
+    {'SinFM+ISRJ'                  }     96  
+    {'MFT+ISRJ'                    }     96  
+    {'FMB+AMA+SawFM'               }     96  
+    {'FMB+AMA+SinFM'               }     96  
+    {'FMB+AMA+MFT'                 }     96  
+    {'FMB+AMA+ISRJ'                }     96  
+    {'FMB+SawFM+SinFM'             }     96  
+    {'FMB+SawFM+MFT'               }     96  
+    {'FMB+SawFM+ISRJ'              }     96  
+    {'FMB+SinFM+MFT'               }     96  
+    {'FMB+SinFM+ISRJ'              }     96  
+    {'FMB+MFT+ISRJ'                }     96  
+    {'AMA+SawFM+SinFM'             }     96  
+    {'AMA+SawFM+MFT'               }     96  
+    {'AMA+SawFM+ISRJ'              }     96  
+    {'AMA+SinFM+MFT'               }     96  
+    {'AMA+SinFM+ISRJ'              }     96  
+    {'AMA+MFT+ISRJ'                }     96  
+    {'SawFM+SinFM+MFT'             }     96  
+    {'SawFM+SinFM+ISRJ'            }     96  
+    {'SawFM+MFT+ISRJ'              }     96  
+    {'SinFM+MFT+ISRJ'              }     96  
+    {'FMB+AMA+SawFM+SinFM'         }     96  
+    {'FMB+AMA+SawFM+MFT'           }     96  
+    {'FMB+AMA+SawFM+ISRJ'          }     96  
+    {'FMB+AMA+SinFM+MFT'           }     96  
+    {'FMB+AMA+SinFM+ISRJ'          }     96  
+    {'FMB+AMA+MFT+ISRJ'            }     96  
+    {'FMB+SawFM+SinFM+MFT'         }     96  
+    {'FMB+SawFM+SinFM+ISRJ'        }     96  
+    {'FMB+SawFM+MFT+ISRJ'          }     96  
+    {'FMB+SinFM+MFT+ISRJ'          }     96  
+    {'AMA+SawFM+SinFM+MFT'         }     96  
+    {'AMA+SawFM+SinFM+ISRJ'        }     96  
+    {'AMA+SawFM+MFT+ISRJ'          }     96  
+    {'AMA+SinFM+MFT+ISRJ'          }     96  
+    {'SawFM+SinFM+MFT+ISRJ'        }     96  
+    {'FMB+AMA+SawFM+SinFM+MFT'     }     96  
+    {'FMB+AMA+SawFM+SinFM+ISRJ'    }     96  
+    {'FMB+AMA+SawFM+MFT+ISRJ'      }     96  
+    {'FMB+AMA+SinFM+MFT+ISRJ'      }     96  
+    {'FMB+SawFM+SinFM+MFT+ISRJ'    }     96  
+    {'AMA+SawFM+SinFM+MFT+ISRJ'    }     96  
+    {'FMB+AMA+SawFM+SinFM+MFT+ISRJ'}     96  
+
+弱分量总数：0
+最终相对功率分位数 dB [0 25 50 75 100]：
+  -19.8978   -9.2898   -3.6268         0         0
+
+开放集/划分计数：
+      split      sample_count    unknown_sample_count
+    _________    ____________    ____________________
+
+    {'train'}        6048                 0          
+
+[闭集数据] train 保存到临时文件：D:\longtail_experiments\20261111_label_marginal\split2\data\dev_pool\closedset_6class_train.partial.mat
+[闭集数据] train 已原子提交并通过最终回载。
+POOL_COMPLETE split2 dev_pool

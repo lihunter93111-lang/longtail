@@ -1,0 +1,18 @@
+DECISIONS_FIT split1 2300
+DECISIONS_FIT split1 2301
+DECISIONS_FIT split1 2302
+DECISIONS_FIT split1 2303
+Traceback (most recent call last):
+  File "C:\Users\zj\lt_publish_20261111\experiment-log\2026-11-11-01-label-marginal-controls\evaluate_campaign.py", line 112, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\zj\lt_publish_20261111\experiment-log\2026-11-11-01-label-marginal-controls\evaluate_campaign.py", line 109, in main
+    if args.action=='fit':fit(args.split,args.seeds)
+  File "C:\Users\zj\lt_publish_20261111\experiment-log\2026-11-11-01-label-marginal-controls\evaluate_campaign.py", line 56, in fit
+    cal[group]=cache_scores(split,group,seed,'calibration',m['dev_path'],m['calibration'],cal_x)
+  File "C:\Users\zj\lt_publish_20261111\experiment-log\2026-11-11-01-label-marginal-controls\evaluate_campaign.py", line 23, in cache_scores
+    binding={'model_sha256':sha(model_path),'data_sha256':sha(path),'indices_sha256':hashlib.sha256(np.asarray(indices,dtype='<i8').tobytes()).hexdigest()}
+  File "E:\LJQ_code\longtail_20261110\experiment-log\2026-11-06-01-lt-abc\run_lt_abc.py", line 31, in sha
+    with Path(path).open('rb') as f:
+  File "D:\anaconda3\envs\PY10\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\model.pth'

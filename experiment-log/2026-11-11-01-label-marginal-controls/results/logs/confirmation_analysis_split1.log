@@ -1,0 +1,9 @@
+split1 confirmation combo marginal Exact pp [0.1587, -0.2531, 0.5705] positive 4 guard False
+split1 confirmation marginal natural Exact pp [0.3274, -0.7621, 1.4169] positive 3 guard False
+split1 confirmation combo natural Exact pp [0.4861, -0.3588, 1.331] positive 4 guard False
+split1 confirmation combo_affine marginal_affine Exact pp [0.2728, 0.0008, 0.5448] positive 4 guard True
+split1 confirmation marginal_affine natural_affine Exact pp [0.6597, 0.1725, 1.1469] positive 5 guard False
+split1 confirmation combo_affine natural_affine Exact pp [0.9325, 0.2856, 1.5795] positive 5 guard False
+split1 confirmation combo_mean marginal_mean Exact pp [0.0843, -0.5796, 0.7482] positive 3 guard False
+split1 confirmation marginal_mean natural_mean Exact pp [0.6548, 0.1101, 1.1994] positive 5 guard False
+split1 confirmation combo_mean natural_mean Exact pp [0.7391, 0.1546, 1.3235] positive 5 guard False

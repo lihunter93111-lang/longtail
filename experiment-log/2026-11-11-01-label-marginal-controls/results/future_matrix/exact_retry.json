@@ -1,0 +1,10 @@
+{
+  "role": "future_data_only",
+  "new_training": false,
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is At lower/fixed bound)",
+  "feasible_found": false,
+  "source_sha256": "14a4a45be030df0180d35f14c5fbf1405ce79d870f16d85f47dad91d040d4ac2",
+  "input_sha256": "207db1c940a2dc16eba7c83b07d9781523de2e8f362a92d07e80da33faa3692b",
+  "time": "2026-11-11T12:47:39.160238+00:00"
+}

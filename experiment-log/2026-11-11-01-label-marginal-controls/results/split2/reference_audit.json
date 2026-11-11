@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "time": "2026-11-11T11:28:52.713842+00:00",
+  "manifest_sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe",
+  "sources": [
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\fit_pool\\closedset_6class_train.mat",
+      "sha256": "b10d0677835bf1e75a8c5473e6876411d659f03320c7322ffdd3245ea78bd547"
+    },
+    {
+      "path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\dev_pool\\closedset_6class_train.mat",
+      "sha256": "08b4e081c54f4e13638b980870506bbdaaee2e812648717653396d4f9a76125b"
+    }
+  ],
+  "models_verified": 10,
+  "views_verified": 2
+}

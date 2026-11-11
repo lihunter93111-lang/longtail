@@ -1,0 +1,13 @@
+{
+  "fusion_fit_manifest_sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a",
+  "calibration_manifest_sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe",
+  "fit_identities": 4032,
+  "threshold_rule": "per-label calibration F1 grid .05:.005:.95, first maximum",
+  "fusion_epochs": 300,
+  "fusion_lr": 0.04,
+  "source_sha256": {
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\evaluate_campaign.py": "8eaa369456a4340100acadf5f81028fa2a857d669eb93df4a18569410c0d09c7",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\common.py": "625b58f78e8c0d9ff6b05e9a4d410ad1e19871bda7a9d3c2dca776d14a33ce26",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\selective_fusion.py": "1e93a2f193c5e8ddf33e436ea20c9c9d64e4dc698efad2eab83cf4e033635558"
+  }
+}

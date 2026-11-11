@@ -1,0 +1,10 @@
+{
+  "binding": {
+    "model_sha256": "094f30f6d67ae12075b92572f49de80e5190b13e7b1fc69dd3bd4a12581140c5",
+    "data_sha256": "45936c099ec0caea77a85ea31cb7761a4bc382e4266c14be5721fd01da8959f5",
+    "indices_sha256": "39d6a5e053c6c6fd50dc34752e4d0cb6aad4c48ce83334e37b54d367b5fdb86f"
+  },
+  "sha256": "4efe53f1c5f56733b055608672bd86675c85065106871a377e87bbdc8b15afc2",
+  "normal_forward_replay": true,
+  "time": "2026-11-11T12:00:58.333261+00:00"
+}

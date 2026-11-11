@@ -1,0 +1,944 @@
+{
+  "all_models_and_calibrations_frozen": true,
+  "models": [
+    {
+      "split": "split1",
+      "name": "combo_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2300.json",
+      "decision_sha256": "3f2382d5eaff3f61ad9330be115ae158ce4c0acc729dbbf916e58712cfd3403c"
+    },
+    {
+      "split": "split1",
+      "name": "combo_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2301.json",
+      "decision_sha256": "e746d905ddd7867d11f5ebfdca68afb372d23856bff556fe4de58e2488b922bb"
+    },
+    {
+      "split": "split1",
+      "name": "combo_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2302.json",
+      "decision_sha256": "e54fab0ff06ecf7dcb7256c0b4536a9ebe3621dabbc0148dd83566830efc4467"
+    },
+    {
+      "split": "split1",
+      "name": "combo_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2303.json",
+      "decision_sha256": "6da8caa46a43fdd7c89cedb159875db9ed7139fdae534b56290fa7b15f068294"
+    },
+    {
+      "split": "split1",
+      "name": "combo_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2304.json",
+      "decision_sha256": "7f4aed911e0fa40051c97b210706d9a920f6aaf898c21c016bf28b615258c073"
+    },
+    {
+      "split": "split1",
+      "name": "combo_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2300.json",
+      "decision_sha256": "86ec77819c5098ef05403e3b91240d73b74473b31029131a8a5ebbac669c62c0"
+    },
+    {
+      "split": "split1",
+      "name": "combo_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2301.json",
+      "decision_sha256": "e04e70bbf9c38368dfee80411c17bfca24ceebcff5fcdcdf5b4c7a162218aef4"
+    },
+    {
+      "split": "split1",
+      "name": "combo_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2302.json",
+      "decision_sha256": "78d6352414496f659fa275017db213dd3bd8349e6c1e41c37baad9894d8aa0b2"
+    },
+    {
+      "split": "split1",
+      "name": "combo_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2303.json",
+      "decision_sha256": "98fc230d364620ac9c52a704a80e49ae7f7552cf13dac8bd8c1405148d94813d"
+    },
+    {
+      "split": "split1",
+      "name": "combo_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2304.json",
+      "decision_sha256": "2f867cef1191fccef89486ed66f6c54d360e01f2f4c015465667ebf69340bdcc"
+    },
+    {
+      "split": "split1",
+      "name": "combo_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2300.json",
+      "decision_sha256": "1425a1902fecb140d0675cdf6b216ad6b2bb4429ec075bbc50e92fabf4bdcd3f"
+    },
+    {
+      "split": "split1",
+      "name": "combo_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2301.json",
+      "decision_sha256": "6e3d358bb975d06648836e62ca39b79c377c6fd9f12b561e9c60a6d0595a40aa"
+    },
+    {
+      "split": "split1",
+      "name": "combo_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2302.json",
+      "decision_sha256": "ee07cc46f0a702f1de08a5763743e870cb6721e5e124a589bbc270584d90e401"
+    },
+    {
+      "split": "split1",
+      "name": "combo_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2303.json",
+      "decision_sha256": "2944e338bea8b8e2aef320481a10663e8c2b79f8fbde43aa0c216ce9991d3c21"
+    },
+    {
+      "split": "split1",
+      "name": "combo_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2304.json",
+      "decision_sha256": "968ed7b696d2abf8f351fd63e2ca28988fdd66c0c4dcbcdc7694d550091af59d"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2300.json",
+      "decision_sha256": "80557154ea9e68029b54b933c8c170cc8df64b2b71c70e19072c796d81d7f74f"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2301.json",
+      "decision_sha256": "38ee566b2933c87e419ed370e07bfa094f0190006105b419bea9f55d8afcb413"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2302.json",
+      "decision_sha256": "c324318af3fe07f593f77ea090486669c4d9d15bbdfa3f0b03d76abdfc8fcd51"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2303.json",
+      "decision_sha256": "edd8e7c3b5416d0e11646c85465d57ca89f23519c346631e0d206213d7d70fd8"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2304.json",
+      "decision_sha256": "a21c664f38836f54f0240b4467843fe77ff81374e9ca79fabaa9747e3d2093bd"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2300.json",
+      "decision_sha256": "1e5e592feff143b65f74f3653e6383b67925a1d10ede346436d11c0e389984ec"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2301.json",
+      "decision_sha256": "9b05798860cab3808fc54cb225a9f1c3cea216338a31b0ebb218d43ab872f8a3"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2302.json",
+      "decision_sha256": "65ef490e588378572da36b1ea3c0c662c60d10b1e6f13a1a7ba0dcac5ee8ee13"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2303.json",
+      "decision_sha256": "bd62264f287c0581806c9b65e6d86fb2ef569c85b14f729140296742762a9a69"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2304.json",
+      "decision_sha256": "04395f2fe65b655886dc6ee7298d2e02ce9e2539ed49fe0ee1011e61dc1adafb"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2300.json",
+      "decision_sha256": "048996c645a9f82ebf35f0a7a705d9362267804ccb8f2a73ec56a5b72d6ca7f6"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2301.json",
+      "decision_sha256": "a000170c909cb6d89a894e54d438f5bd17fc9945e2eeca959a2917c4a5e40538"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2302.json",
+      "decision_sha256": "d988b228f97176407a539dcca42a267b4b5ad2180183185606a64f0b7f8b37c9"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2303.json",
+      "decision_sha256": "f4e49bc6554451f9b1e1ab5b18eb10503d9b7d746b377a08ce17d0e504f3fbfb"
+    },
+    {
+      "split": "split1",
+      "name": "marginal_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2304.json",
+      "decision_sha256": "a07ee8f0e3e0b84e79c259c9c901872f6315661da2e1f92c676fcf4d57ba4053"
+    },
+    {
+      "split": "split1",
+      "name": "natural_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2300.json",
+      "decision_sha256": "c3726b5ed3cc83a0ede8fafe44670254468a14bc13b3a48c6949923218eb6ae2"
+    },
+    {
+      "split": "split1",
+      "name": "natural_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2301.json",
+      "decision_sha256": "be00c6efd7eb0576d01efdf674bf671369145c575a7b2d33e62c7eaac44989d5"
+    },
+    {
+      "split": "split1",
+      "name": "natural_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2302.json",
+      "decision_sha256": "8b444c6290fd833d23bbc80a255a24642a57867ff1bbaebf37232b634103921f"
+    },
+    {
+      "split": "split1",
+      "name": "natural_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2303.json",
+      "decision_sha256": "772fcec00c7cafb45b31316545a2fc05e5de98e9435c8b01a97d9505792f5747"
+    },
+    {
+      "split": "split1",
+      "name": "natural_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2304.json",
+      "decision_sha256": "e3c13f639c2e8d81ae51b04f0736c70fef48ec0b00cb4265622a75d1d245b92b"
+    },
+    {
+      "split": "split1",
+      "name": "natural_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2300.json",
+      "decision_sha256": "b180e7a28c5ec266ca4c85cc0496eaf2824dca964f67020975d46706712a3a51"
+    },
+    {
+      "split": "split1",
+      "name": "natural_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2301.json",
+      "decision_sha256": "f46692b1e5627863481e719076a0aac3d61f54b177031509f31454a1ed211e23"
+    },
+    {
+      "split": "split1",
+      "name": "natural_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2302.json",
+      "decision_sha256": "d72e6cee32f231c2c0c11fac461d4550043d49623af039fa8fed4cd36a7b9573"
+    },
+    {
+      "split": "split1",
+      "name": "natural_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2303.json",
+      "decision_sha256": "46a9e44c5ab3b8a3c6801546f11096e3b664b59d6addc84ad8ef0f4caa8acdc8"
+    },
+    {
+      "split": "split1",
+      "name": "natural_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2304.json",
+      "decision_sha256": "39ec6c86bebdd0410dc0f4762963c59aafe4f2edcf404048a2af55e099450648"
+    },
+    {
+      "split": "split1",
+      "name": "natural_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2300.json",
+      "decision_sha256": "2ddf790fbec1831f657557bc2fbff275722197498c72c36bcd23816d2d767745"
+    },
+    {
+      "split": "split1",
+      "name": "natural_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2301.json",
+      "decision_sha256": "b1a8da398326190fd3358827bebfac45b15108034c4e46e58377b7c736c19616"
+    },
+    {
+      "split": "split1",
+      "name": "natural_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2302.json",
+      "decision_sha256": "a417d8833c7d84aafcdee4dd0c6567e4e04218c800fd087a6e9d7fe6e5542663"
+    },
+    {
+      "split": "split1",
+      "name": "natural_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2303.json",
+      "decision_sha256": "998f1930f5798a60ffb9f85080abf65d77a540844f629031c4663b734828dcbb"
+    },
+    {
+      "split": "split1",
+      "name": "natural_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2304.json",
+      "decision_sha256": "b493191e4f19b53baedbec969ac2544cf29c546beddc19162b721c168f66dc3a"
+    },
+    {
+      "split": "split1",
+      "name": "reference_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2300.json",
+      "decision_sha256": "c0d49492ee89ee939239c5b5346b06daa7668b143d914c4815a1f51056fd3bc4"
+    },
+    {
+      "split": "split1",
+      "name": "reference_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2301.json",
+      "decision_sha256": "2f0c34b5ae743918b9aca20428d596e551920352dab7a68993ed8d4f51e9b35c"
+    },
+    {
+      "split": "split1",
+      "name": "reference_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2302.json",
+      "decision_sha256": "5f8e336a1169382ee40ce4bcea8e3137befdf864821f7c23871b86a76bb25d60"
+    },
+    {
+      "split": "split1",
+      "name": "reference_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2303.json",
+      "decision_sha256": "0e41eebc0fa8f075bbea832433858375e1144a600b98d10305fd17f72a05fcb2"
+    },
+    {
+      "split": "split1",
+      "name": "reference_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2304.json",
+      "decision_sha256": "4ba80d740bfea53b44c8256db615e3dec89505c930eb1a09207709b4bada5795"
+    },
+    {
+      "split": "split2",
+      "name": "combo_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2300.json",
+      "decision_sha256": "a6d7ad8cd068f572923a5b051df7a09e07546aa4326545b54faec13800da488d"
+    },
+    {
+      "split": "split2",
+      "name": "combo_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2301.json",
+      "decision_sha256": "a1bebe75dbc7055536ac2417b835216d78ffe49adc18e58da6dad283c86e2def"
+    },
+    {
+      "split": "split2",
+      "name": "combo_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2302.json",
+      "decision_sha256": "b1679ff3427543f42f7bd5fd3ec9cc27136364973c5ee2ca96e68721951a3ef5"
+    },
+    {
+      "split": "split2",
+      "name": "combo_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2303.json",
+      "decision_sha256": "dce7577c99c514a142a286cd8086122899fc844f00e7d8252a8631751b30cf6e"
+    },
+    {
+      "split": "split2",
+      "name": "combo_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2304.json",
+      "decision_sha256": "cf38f4b74632e562dc6a1b8b0db1eb4e9896000053e794d3d694e3c6fc46af01"
+    },
+    {
+      "split": "split2",
+      "name": "combo_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2300.json",
+      "decision_sha256": "3e0ae67ba69a3036b55ef89fa5026c314313c6c27fed4267bb0b2b2ccdbbce52"
+    },
+    {
+      "split": "split2",
+      "name": "combo_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2301.json",
+      "decision_sha256": "9e13b4566a084125a1bfb534dad9397966a61b58611231a49c89e1c140df3b1d"
+    },
+    {
+      "split": "split2",
+      "name": "combo_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2302.json",
+      "decision_sha256": "d1810d0763abdc650cee8a31e262535d98b9296c81721c2c3991ec83907569f6"
+    },
+    {
+      "split": "split2",
+      "name": "combo_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2303.json",
+      "decision_sha256": "c582d5bd0b2cb4f530a6e2b1fb72f572c8adfe63b67c09567cc0cf645173854f"
+    },
+    {
+      "split": "split2",
+      "name": "combo_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2304.json",
+      "decision_sha256": "ba63125175b45e2b1076830f98cdfb3ad2e33b55fd9102d9360cf5f9fcd31e99"
+    },
+    {
+      "split": "split2",
+      "name": "combo_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2300.json",
+      "decision_sha256": "5de267c3f542de794f2a72e3df8260a66d7b87cbe39ad2c0b3ae5348472cee74"
+    },
+    {
+      "split": "split2",
+      "name": "combo_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2301.json",
+      "decision_sha256": "cc3f8c25e9a413e7c0988c42f69a6e8a771cbf478b7a2d580e10e8a04f3bfd12"
+    },
+    {
+      "split": "split2",
+      "name": "combo_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2302.json",
+      "decision_sha256": "7e06b5da735154881dbeb6cf0559d5cb295202bcc06824c8982ae76f18a24790"
+    },
+    {
+      "split": "split2",
+      "name": "combo_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2303.json",
+      "decision_sha256": "9793081d0e1437b75d63bdcd07e00e93e8f417e1ed1967ef87ba3cad9c34925d"
+    },
+    {
+      "split": "split2",
+      "name": "combo_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2304.json",
+      "decision_sha256": "0ec81f742b2527dc05949818e40df074393679b278893a15d058452bbd3abad6"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2300.json",
+      "decision_sha256": "511ee26e9c4a22e48659da11768c8338c80fa0b259436b6b5a8f6ff28f666f29"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2301.json",
+      "decision_sha256": "65939d3394949e9d5e6bfa139b25d4d6d9d820725877be32425dc53eefa0dfe8"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2302.json",
+      "decision_sha256": "a3ec8e5ec1224e589407504d4af9c64baa01a3b965f01d451ef53b7e3711bb8f"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2303.json",
+      "decision_sha256": "03fcfe51288f26fa5a481e3ddad155c858bae325edba2a3775b77567f03fe3dd"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2304.json",
+      "decision_sha256": "cd6ecb1787fcce57e478616d782e8dc6fb33fb15220ff9029d26cb896009d72d"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2300.json",
+      "decision_sha256": "b9e93ff68ee35ec6323d6646c8fbd3025de1e9966ab25bb231e88231d28aa10f"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2301.json",
+      "decision_sha256": "f2956aff0a9c34218c34f3930b1a89e3b2a1c3dd63da3946d3f669bea55bc7db"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2302.json",
+      "decision_sha256": "11bdbc69945845fdda06bf2950740c26e87ce06f02f52911cc477a3b9ca4ddc1"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2303.json",
+      "decision_sha256": "879d5ef407c0ea1ca26a5444d1ed1536002e054aa5cecd3d4f62219190090044"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2304.json",
+      "decision_sha256": "ad819211a4453dbbbe0ff455ad8969352d3c16abb095c49776e331764864c160"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2300.json",
+      "decision_sha256": "a2831c90427f54e247c03b5b705f1eb3586a542d69666afd0e0b593573311249"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2301.json",
+      "decision_sha256": "09a81a399e2d7168fea5fa85fcc5c9d85f9647f7eebe58beb0bbb8e80d684cf6"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2302.json",
+      "decision_sha256": "abc6a233c148fe2caebd6562e4fac92e0027f9914e8d930b0cc5c9662ccd72bc"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2303.json",
+      "decision_sha256": "379921dc93473ea5cefb97329fac24383b83a6e677c50c06119fd2feb99baa63"
+    },
+    {
+      "split": "split2",
+      "name": "marginal_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2304.json",
+      "decision_sha256": "2d4fc463866e58dae656d6fb0516e1db41ef51ce1e2c93004c25decb43450749"
+    },
+    {
+      "split": "split2",
+      "name": "natural_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2300.json",
+      "decision_sha256": "de5e373a2065c443e0f19a6d357355bdadaa632d3552bf15c82d1c5c18d8690d"
+    },
+    {
+      "split": "split2",
+      "name": "natural_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2301.json",
+      "decision_sha256": "e8a7fa50dca7fd8510b1e20fc800e5504a807e2da63a3f36e82413aa86fc2f80"
+    },
+    {
+      "split": "split2",
+      "name": "natural_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2302.json",
+      "decision_sha256": "cb99007b6b0afb6e0828fcf3d76d9e191f623c186e2ce16d5c443e65903b4463"
+    },
+    {
+      "split": "split2",
+      "name": "natural_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2303.json",
+      "decision_sha256": "a75ae9123d804ae8227ced12c7ee434793f1fcd5a7db2f8027eda8be6665cf95"
+    },
+    {
+      "split": "split2",
+      "name": "natural_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2304.json",
+      "decision_sha256": "3eb33691e53e37c6d903e6b0651a9d0f9a47b2d0f3b54ba427b94855e54d4faf"
+    },
+    {
+      "split": "split2",
+      "name": "natural_affine_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2300.json",
+      "decision_sha256": "800d974efd0adc969d75315d4c2b0c8b78029ee66ca4a1a90f41e797dadb0035"
+    },
+    {
+      "split": "split2",
+      "name": "natural_affine_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2301.json",
+      "decision_sha256": "10ea3262965cfc60284d5f8c850b8f8315730f5bab5f3430b61621d3f450a30d"
+    },
+    {
+      "split": "split2",
+      "name": "natural_affine_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2302.json",
+      "decision_sha256": "7660f8833edc456b7c3a60a9aa4a251412009ed9dc4e0a04855a39a1e999ef0f"
+    },
+    {
+      "split": "split2",
+      "name": "natural_affine_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2303.json",
+      "decision_sha256": "d35baa81dfc731825db89a1c51d457c64821aea41c89594085cf9ad2a886a2f5"
+    },
+    {
+      "split": "split2",
+      "name": "natural_affine_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2304.json",
+      "decision_sha256": "111929cb9b7c7e39a280cf50139f91a6773d4267f56e9b9b40bdf94ea9040b45"
+    },
+    {
+      "split": "split2",
+      "name": "natural_mean_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2300.json",
+      "decision_sha256": "0c14cb8d4ded5ade90cdf655fa945831a5ba1e8a86746f0c642be05ea9d5947b"
+    },
+    {
+      "split": "split2",
+      "name": "natural_mean_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2301.json",
+      "decision_sha256": "83e69fa59554326aa7ac4d4e1a8b5dc1cc2ccb9ea90ab4fdcef15a895f0bcded"
+    },
+    {
+      "split": "split2",
+      "name": "natural_mean_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2302.json",
+      "decision_sha256": "2ed95c448ef48e6d9df3ae1289c86759ca3700114949a0f5226bcf6d4cbd5fbb"
+    },
+    {
+      "split": "split2",
+      "name": "natural_mean_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2303.json",
+      "decision_sha256": "cef06019ad4572f4e989990566b00394d9dc5879957a33ec835e227916c426f9"
+    },
+    {
+      "split": "split2",
+      "name": "natural_mean_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2304.json",
+      "decision_sha256": "08ee582395b3c8a5571588578bced26494b2769acc2772a3cca0e848e579e29b"
+    },
+    {
+      "split": "split2",
+      "name": "reference_2300",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2300.json",
+      "decision_sha256": "fc9721c53c74316070d4e099e49b369abedc70007f9a1832542ba70d05ad7c3a"
+    },
+    {
+      "split": "split2",
+      "name": "reference_2301",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2301.json",
+      "decision_sha256": "eb447d1082c66b514864914635170bba72960538164bdfd25e7af7029a29a3f1"
+    },
+    {
+      "split": "split2",
+      "name": "reference_2302",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2302.json",
+      "decision_sha256": "b1f41a890ba3dcf7c769d46fcfdc9d8f0dcc2502a92e75e42b128384d8847ce7"
+    },
+    {
+      "split": "split2",
+      "name": "reference_2303",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2303.json",
+      "decision_sha256": "c6d89837cdf8d2b73669a1ad34a10cd6a4aab7fcb15c8da0a23db2a4c0831129"
+    },
+    {
+      "split": "split2",
+      "name": "reference_2304",
+      "decision_path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2304.json",
+      "decision_sha256": "9b0b5eac2360c3fef498b233cbe5da7dd86f0b9e9a22338294b2900d1e5ab79c"
+    }
+  ],
+  "files": {
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2300.json": "3f2382d5eaff3f61ad9330be115ae158ce4c0acc729dbbf916e58712cfd3403c",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth": "a720bd25a8172a05bb236a889a6f906a969fb58cb63c0c4f46e998924db88722",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2301.json": "e746d905ddd7867d11f5ebfdca68afb372d23856bff556fe4de58e2488b922bb",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth": "1cb62f3c28b268a0c30fb01d7f0b2fd33bc0335cbe87cd664b1b02e8617636c0",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2302.json": "e54fab0ff06ecf7dcb7256c0b4536a9ebe3621dabbc0148dd83566830efc4467",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth": "0fe16e80a8000e3fee26ad02cb88c07d0dc5d1c77733c80905d34a43f3fc0082",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2303.json": "6da8caa46a43fdd7c89cedb159875db9ed7139fdae534b56290fa7b15f068294",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth": "db0543043bb95bad866f42b160b3c066ac3af9130412b6a8cf70e1fdfe1c7774",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2304.json": "7f4aed911e0fa40051c97b210706d9a920f6aaf898c21c016bf28b615258c073",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth": "34590a6a446c5901f8ac024d48e049399d4a58f9ae6566063fa1b01a087dcae7",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2300.json": "86ec77819c5098ef05403e3b91240d73b74473b31029131a8a5ebbac669c62c0",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\best_BCE.pth": "c93cae900e0277ba82cbf515e5d803e9749cfc42e16ab51112626486ed93716c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2301.json": "e04e70bbf9c38368dfee80411c17bfca24ceebcff5fcdcdf5b4c7a162218aef4",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201\\best_BCE.pth": "665dfc3a9f74190cfabbdaec7137667e084febce4181bed82a114b1dfaf94e77",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2302.json": "78d6352414496f659fa275017db213dd3bd8349e6c1e41c37baad9894d8aa0b2",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202\\best_BCE.pth": "ca8dad9ae8130b6fa779852c884c5d257fff384632e9b65e1f8cedf004a92af2",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2303.json": "98fc230d364620ac9c52a704a80e49ae7f7552cf13dac8bd8c1405148d94813d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\best_BCE.pth": "0b69304d8f18ce0af60f570c6c94a67612bef0bc0a5a1079620bc97c58d1990d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2304.json": "2f867cef1191fccef89486ed66f6c54d360e01f2f4c015465667ebf69340bdcc",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204\\best_BCE.pth": "c224c8425d3b7e266e21e01aace779f8b8ec711b887f3f2e2fb981d480ea80bf",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2300.json": "1425a1902fecb140d0675cdf6b216ad6b2bb4429ec075bbc50e92fabf4bdcd3f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2301.json": "6e3d358bb975d06648836e62ca39b79c377c6fd9f12b561e9c60a6d0595a40aa",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2302.json": "ee07cc46f0a702f1de08a5763743e870cb6721e5e124a589bbc270584d90e401",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2303.json": "2944e338bea8b8e2aef320481a10663e8c2b79f8fbde43aa0c216ce9991d3c21",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2304.json": "968ed7b696d2abf8f351fd63e2ca28988fdd66c0c4dcbcdc7694d550091af59d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2300.json": "80557154ea9e68029b54b933c8c170cc8df64b2b71c70e19072c796d81d7f74f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\model.pth": "68d57e996d1a19dc9d3ee083059976b199e6046b2c3620985990bc7062575ab0",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2301.json": "38ee566b2933c87e419ed370e07bfa094f0190006105b419bea9f55d8afcb413",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2301\\model.pth": "d0e85089789a271ec9fca40e6eae8a956bf65bbbc70c6022e259b9efce6266e6",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2302.json": "c324318af3fe07f593f77ea090486669c4d9d15bbdfa3f0b03d76abdfc8fcd51",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\model.pth": "705adb7387ea5ee26cecf11a3eda5c2170ab00a612f47bee9c4076bb672e0b2f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2303.json": "edd8e7c3b5416d0e11646c85465d57ca89f23519c346631e0d206213d7d70fd8",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2303\\model.pth": "7a8880a658295bae9423a5532ef803c696285dd12639b1c280a6d8bf176f6974",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2304.json": "a21c664f38836f54f0240b4467843fe77ff81374e9ca79fabaa9747e3d2093bd",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\model.pth": "75bd8614d6463f77ed01f98489d772f7d9bf34a0ee83689e620b3bb6e40787c8",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2300.json": "1e5e592feff143b65f74f3653e6383b67925a1d10ede346436d11c0e389984ec",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2301.json": "9b05798860cab3808fc54cb225a9f1c3cea216338a31b0ebb218d43ab872f8a3",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2302.json": "65ef490e588378572da36b1ea3c0c662c60d10b1e6f13a1a7ba0dcac5ee8ee13",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2303.json": "bd62264f287c0581806c9b65e6d86fb2ef569c85b14f729140296742762a9a69",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2304.json": "04395f2fe65b655886dc6ee7298d2e02ce9e2539ed49fe0ee1011e61dc1adafb",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2300.json": "048996c645a9f82ebf35f0a7a705d9362267804ccb8f2a73ec56a5b72d6ca7f6",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2301.json": "a000170c909cb6d89a894e54d438f5bd17fc9945e2eeca959a2917c4a5e40538",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2302.json": "d988b228f97176407a539dcca42a267b4b5ad2180183185606a64f0b7f8b37c9",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2303.json": "f4e49bc6554451f9b1e1ab5b18eb10503d9b7d746b377a08ce17d0e504f3fbfb",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2304.json": "a07ee8f0e3e0b84e79c259c9c901872f6315661da2e1f92c676fcf4d57ba4053",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2300.json": "c3726b5ed3cc83a0ede8fafe44670254468a14bc13b3a48c6949923218eb6ae2",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth": "d60548dcb8e1d805f859b3563880dcd2573f1a6257368875401971aeb27c392d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2301.json": "be00c6efd7eb0576d01efdf674bf671369145c575a7b2d33e62c7eaac44989d5",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth": "38003a5053f94bd03e9b1e0f3941c570327acb693764ef034c652a40eba95233",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2302.json": "8b444c6290fd833d23bbc80a255a24642a57867ff1bbaebf37232b634103921f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth": "11c1f2994fc1be5694a60c412fc60e9ef967a148695dfb5f62a4341898a31c9c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2303.json": "772fcec00c7cafb45b31316545a2fc05e5de98e9435c8b01a97d9505792f5747",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth": "3349273019e8ec75f28f7dbe2896a9b4525b679c40755329d87b99d868238167",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2304.json": "e3c13f639c2e8d81ae51b04f0736c70fef48ec0b00cb4265622a75d1d245b92b",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth": "1199237acad00492f7cfb7366c9da42cdc5ed781f5e8865562a95f9dd3b1a7bf",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2300.json": "b180e7a28c5ec266ca4c85cc0496eaf2824dca964f67020975d46706712a3a51",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2301.json": "f46692b1e5627863481e719076a0aac3d61f54b177031509f31454a1ed211e23",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2302.json": "d72e6cee32f231c2c0c11fac461d4550043d49623af039fa8fed4cd36a7b9573",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2303.json": "46a9e44c5ab3b8a3c6801546f11096e3b664b59d6addc84ad8ef0f4caa8acdc8",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2304.json": "39ec6c86bebdd0410dc0f4762963c59aafe4f2edcf404048a2af55e099450648",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2300.json": "2ddf790fbec1831f657557bc2fbff275722197498c72c36bcd23816d2d767745",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2301.json": "b1a8da398326190fd3358827bebfac45b15108034c4e46e58377b7c736c19616",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2302.json": "a417d8833c7d84aafcdee4dd0c6567e4e04218c800fd087a6e9d7fe6e5542663",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2303.json": "998f1930f5798a60ffb9f85080abf65d77a540844f629031c4663b734828dcbb",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2304.json": "b493191e4f19b53baedbec969ac2544cf29c546beddc19162b721c168f66dc3a",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\protocol.json": "581f61dd3173a1df937495f720db4292cf35b42a02bc99049e0c780a3db326c6",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2300.json": "c0d49492ee89ee939239c5b5346b06daa7668b143d914c4815a1f51056fd3bc4",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2301.json": "2f0c34b5ae743918b9aca20428d596e551920352dab7a68993ed8d4f51e9b35c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2302.json": "5f8e336a1169382ee40ce4bcea8e3137befdf864821f7c23871b86a76bb25d60",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2303.json": "0e41eebc0fa8f075bbea832433858375e1144a600b98d10305fd17f72a05fcb2",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2304.json": "4ba80d740bfea53b44c8256db615e3dec89505c930eb1a09207709b4bada5795",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development\\manifest.json": "7c9a952017558c65c0089e1ab225f837ad5f4f326ffcf9efc17802a7d2db94ca",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development\\preflight.json": "6fa5336cce8be6755016c40082c569ab48c2d9a00bac19a24100fb580ada64b9",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2300.json": "a6d7ad8cd068f572923a5b051df7a09e07546aa4326545b54faec13800da488d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2300\\best_BCE.pth": "43e3a8449cd1f3f47657dc9ecd0d4ac865e28acbc77c4b8d4d72b1e710ff8d44",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2301.json": "a1bebe75dbc7055536ac2417b835216d78ffe49adc18e58da6dad283c86e2def",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\best_BCE.pth": "359d8f3dcffd50e3225fd279784bcbb977dee8ebd68000841984165daa0ffbc3",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2302.json": "b1679ff3427543f42f7bd5fd3ec9cc27136364973c5ee2ca96e68721951a3ef5",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\best_BCE.pth": "d90d6ced3445f91531777c3c4563976c532a3c1825e97940e3d1fe0a808f7662",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2303.json": "dce7577c99c514a142a286cd8086122899fc844f00e7d8252a8631751b30cf6e",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2303\\best_BCE.pth": "490d4556c1b3c1391694442ecc8aec0560ecfcaad2857dff0bad205a4651a621",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2304.json": "cf38f4b74632e562dc6a1b8b0db1eb4e9896000053e794d3d694e3c6fc46af01",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2304\\best_BCE.pth": "612725914185a0b3a6fdd75b79c9ce1dca7233c49e3ef309b2e37d9f46898510",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2300.json": "3e0ae67ba69a3036b55ef89fa5026c314313c6c27fed4267bb0b2b2ccdbbce52",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200\\best_BCE.pth": "e493a00d7cd346a6f58768678e83d60e22981d0eb35516df4017cf530a630e67",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2301.json": "9e13b4566a084125a1bfb534dad9397966a61b58611231a49c89e1c140df3b1d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\best_BCE.pth": "cb6ae7ac36362520351856859eb0a3db80e8978d1f90fb6cbc5529018f4b5f67",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2302.json": "d1810d0763abdc650cee8a31e262535d98b9296c81721c2c3991ec83907569f6",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\best_BCE.pth": "5116f4de639255d1e94c7e3c54a2efc384f49fd42a551e15c461667adadcd6a2",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2303.json": "c582d5bd0b2cb4f530a6e2b1fb72f572c8adfe63b67c09567cc0cf645173854f",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203\\best_BCE.pth": "8f378e4681c1fc4c8d050ff09749a907421b8d6e1cd750efaa741317f611b360",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2304.json": "ba63125175b45e2b1076830f98cdfb3ad2e33b55fd9102d9360cf5f9fcd31e99",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\best_BCE.pth": "e60cd7363257e0627de770d530b982d941567f7b614195af0c002a5cb38211ea",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2300.json": "5de267c3f542de794f2a72e3df8260a66d7b87cbe39ad2c0b3ae5348472cee74",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2301.json": "cc3f8c25e9a413e7c0988c42f69a6e8a771cbf478b7a2d580e10e8a04f3bfd12",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2302.json": "7e06b5da735154881dbeb6cf0559d5cb295202bcc06824c8982ae76f18a24790",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2303.json": "9793081d0e1437b75d63bdcd07e00e93e8f417e1ed1967ef87ba3cad9c34925d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2304.json": "0ec81f742b2527dc05949818e40df074393679b278893a15d058452bbd3abad6",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2300.json": "511ee26e9c4a22e48659da11768c8338c80fa0b259436b6b5a8f6ff28f666f29",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2300\\model.pth": "aa576b71592700b1d63e09aba986e5d59fea89400c60d633b8b23c1c8cc52a0b",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2301.json": "65939d3394949e9d5e6bfa139b25d4d6d9d820725877be32425dc53eefa0dfe8",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2301\\model.pth": "8281e33b4cf3e5286964e5bfcd53717a35400f5ad1b423b96a20e88019a7281c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2302.json": "a3ec8e5ec1224e589407504d4af9c64baa01a3b965f01d451ef53b7e3711bb8f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\model.pth": "ecc1f014d3676a95e23a008f64489c82b108d7c3c662ae80b59580d1302b9521",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2303.json": "03fcfe51288f26fa5a481e3ddad155c858bae325edba2a3775b77567f03fe3dd",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2303\\model.pth": "79323f954e8a624943da632b32ef1d9f83b2625a41a4c06feb8b397b772c46f1",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2304.json": "cd6ecb1787fcce57e478616d782e8dc6fb33fb15220ff9029d26cb896009d72d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2304\\model.pth": "833af7c515b1e393895ea7f4214c0cb88d6a8d7d738c55e28cedaf9c62b49533",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2300.json": "b9e93ff68ee35ec6323d6646c8fbd3025de1e9966ab25bb231e88231d28aa10f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2301.json": "f2956aff0a9c34218c34f3930b1a89e3b2a1c3dd63da3946d3f669bea55bc7db",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2302.json": "11bdbc69945845fdda06bf2950740c26e87ce06f02f52911cc477a3b9ca4ddc1",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2303.json": "879d5ef407c0ea1ca26a5444d1ed1536002e054aa5cecd3d4f62219190090044",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2304.json": "ad819211a4453dbbbe0ff455ad8969352d3c16abb095c49776e331764864c160",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2300.json": "a2831c90427f54e247c03b5b705f1eb3586a542d69666afd0e0b593573311249",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2301.json": "09a81a399e2d7168fea5fa85fcc5c9d85f9647f7eebe58beb0bbb8e80d684cf6",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2302.json": "abc6a233c148fe2caebd6562e4fac92e0027f9914e8d930b0cc5c9662ccd72bc",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2303.json": "379921dc93473ea5cefb97329fac24383b83a6e677c50c06119fd2feb99baa63",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2304.json": "2d4fc463866e58dae656d6fb0516e1db41ef51ce1e2c93004c25decb43450749",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2300.json": "de5e373a2065c443e0f19a6d357355bdadaa632d3552bf15c82d1c5c18d8690d",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2300\\best_BCE.pth": "7fa3cb21c6b2ac843795ba13b02e0c80848da7c070e98a6940445fc3b299afb7",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2301.json": "e8a7fa50dca7fd8510b1e20fc800e5504a807e2da63a3f36e82413aa86fc2f80",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\best_BCE.pth": "ec979a7d68320901c012ed582dc5ab05e0d1a53b5c200764def2e6dba503249a",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2302.json": "cb99007b6b0afb6e0828fcf3d76d9e191f623c186e2ce16d5c443e65903b4463",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2302\\best_BCE.pth": "fed150485b318d673c198a246f4da9d944e9485ef660b667bb6cf5a4186acd3c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2303.json": "a75ae9123d804ae8227ced12c7ee434793f1fcd5a7db2f8027eda8be6665cf95",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2303\\best_BCE.pth": "094f30f6d67ae12075b92572f49de80e5190b13e7b1fc69dd3bd4a12581140c5",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2304.json": "3eb33691e53e37c6d903e6b0651a9d0f9a47b2d0f3b54ba427b94855e54d4faf",
+    "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\best_BCE.pth": "581898df58b7937f2a31b59252f49a6ac1e3c4afc175a7989df0207a6d159655",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2300.json": "800d974efd0adc969d75315d4c2b0c8b78029ee66ca4a1a90f41e797dadb0035",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2301.json": "10ea3262965cfc60284d5f8c850b8f8315730f5bab5f3430b61621d3f450a30d",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2302.json": "7660f8833edc456b7c3a60a9aa4a251412009ed9dc4e0a04855a39a1e999ef0f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2303.json": "d35baa81dfc731825db89a1c51d457c64821aea41c89594085cf9ad2a886a2f5",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2304.json": "111929cb9b7c7e39a280cf50139f91a6773d4267f56e9b9b40bdf94ea9040b45",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2300.json": "0c14cb8d4ded5ade90cdf655fa945831a5ba1e8a86746f0c642be05ea9d5947b",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2301.json": "83e69fa59554326aa7ac4d4e1a8b5dc1cc2ccb9ea90ab4fdcef15a895f0bcded",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2302.json": "2ed95c448ef48e6d9df3ae1289c86759ca3700114949a0f5226bcf6d4cbd5fbb",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2303.json": "cef06019ad4572f4e989990566b00394d9dc5879957a33ec835e227916c426f9",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2304.json": "08ee582395b3c8a5571588578bced26494b2769acc2772a3cca0e848e579e29b",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\protocol.json": "6e059047bc28dbf153fa4fcbfd542af0cd97da198d07cb273fe42965135e60bf",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2300.json": "fc9721c53c74316070d4e099e49b369abedc70007f9a1832542ba70d05ad7c3a",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2301.json": "eb447d1082c66b514864914635170bba72960538164bdfd25e7af7029a29a3f1",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2302.json": "b1f41a890ba3dcf7c769d46fcfdc9d8f0dcc2502a92e75e42b128384d8847ce7",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2303.json": "c6d89837cdf8d2b73669a1ad34a10cd6a4aab7fcb15c8da0a23db2a4c0831129",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2304.json": "9b0b5eac2360c3fef498b233cbe5da7dd86f0b9e9a22338294b2900d1e5ab79c",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development\\manifest.json": "f343a6994fd8fffe74efbe97a1212f4712335444ef84410e4e73da004fbfce9f",
+    "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development\\preflight.json": "1d42db590ad117592e41a38c61b4da70c52697139fe3e18559a0181f7be1d726",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\00_E_DRIVE_AMENDMENT_GOAL.txt": "ec66f98803a576c3f3cb5bb1e54fc5ba653bde8c3d98134b8f54729de3e85a73",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\01_AUDIT_DATA_GOAL.txt": "6228ff94b3d724d394e9e2b97f8d30851dadadf17e7f6edca314b5e0a04d3f13",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\02_MARGINAL_CONTROLS_GOAL.txt": "68c01b361c8c8cd3fcd1d66812cf308454509cb8fcd18377a962ac6b33495a8b",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\03_DUAL_TAIL_MATRIX_GOAL.txt": "9adf687bec0e1352207421b667a49274d2368c323e47e36e0edd622e503f6c17",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\04_SUPERVISION_BUDGET_GOAL.txt": "8685331fff336a9078dfc54bbeaa9b431ab2b4c9b651ebc9f5d69771b84af6c2",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\05_GENERALIZATION_GOAL.txt": "8be279b2b527c607ed5be7cdf38d1493aefcf7156410d14148d84563b58ee545",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\06_CONFIRM_DELIVER_GOAL.txt": "340af912a20261ab66c37d142ce126f4356a3df5f0897c0b0d9ae51568c93c38",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\07_BACKGROUND_DIAGNOSTIC_GOAL.txt": "9305f4a58e180bdf0a9605b375744e0424c8f42f28ea832710dfa02bfef6fbac",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\analyze_results.py": "4e739899e8aa65623497e03af68079a8857eb91206d407f954bff5af342dcc50",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\background_diagnostic.py": "808fe15fba418085bfecb53f64b0277112db352ca9c6743009fd33dc4a49aa6e",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\benchmark_runtime.py": "a99c73646eda7e52cf441c5a55fa6e742e73fc2988a7b181977a029a642f71f7",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\common.py": "625b58f78e8c0d9ff6b05e9a4d410ad1e19871bda7a9d3c2dca776d14a33ce26",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\evaluate_campaign.py": "8eaa369456a4340100acadf5f81028fa2a857d669eb93df4a18569410c0d09c7",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\freeze_campaign.py": "a42ddfbd2658dac4535f33c45d73219b71a4fb7ac177c866581fd0660529d530",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\generate_pools.m": "974b0febbae158e182e717ad789a16892083e013f530b1c7c7dc87a4e0884ed3",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\GOAL_PROMPT.txt": "2e1a063f12d9699793b6915430a0f149d6483e3f91fa524fc0db27012ef3faa4",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\materialize_matrix.py": "d955dc8ffe3949f805f16bc3f79117460a8f705ee760fb526b96eb70e5584ddb",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\model_runtime.py": "9da73a1a48143a5673252577c65a67cb7bc31e10d1fe7be4153cf5dff73a95dd",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\prepare_evaluation.py": "1c0212885d8c9453e92f88de4921838cb6a9131334acf373a183b7c4a5b0cd74",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\protocol.json": "aa41570870ec4d3ca7375bada5dbab7ae638719956a2033b3ee08f4d9997392d",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\protocol_initial_D_only.json": "2f175aa6d00ddd39b0615536c55c150783d4b0ed3d9a3191a9904fe8d835adb9",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\run_marginal.py": "65d1073d34039933f7406d7191b1511ebee5385029efea29a884aaa7f9a9007e",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\selfcheck_weights.py": "beac0fe9cd7c0dd4901f981255139eb9db8d93cfb85720cd88f1743b976d434d",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\training_marginal.py": "d20f623219fbe48faaa2690def85ff35d21a2c38868fab1bf0b86fcf86210fb0",
+    "C:\\Users\\zj\\lt_publish_20261111\\experiment-log\\2026-11-11-01-label-marginal-controls\\verify_results.py": "4edd2a2f415118081a5f111a41d7ead2eeef26cdd7e9882492e63e95c07b372b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\__init__.py": "f2b836db355440fb9a6f100f6c16df9014d8bc16db383093a87271cb87fe4e45",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\__init__.py": "1bde3c1c2dd19bf9b852167975f4739eea52cddd924f07e019490b0e901e1957",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\aggregate.py": "0ced5fc4727c08f7930ecbf72db570e8b2b7ffa533ca6e78f2d57995892a5b3a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\analysis\\decision_utility.py": "95ab8fec42dd96e219a58cf3f9f1db95f10056a0c8ea24e78036f3bdbbf736c0",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\__init__.py": "751c755269a1d395b964642a6efcff2a93a9d16750b6def3d569454dab5b3b89",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\ama_hdf5.py": "1f3c991220cf493a9d2263bd23b632b669d8d36daf5e458182f21f96cad17606",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\augmentations.py": "aa5e6a3a33f99f82db2a09dcd5f5d140cdd316448b1f7f993a3c5636d2f438a2",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\label_sampling.py": "2cd697bea9b59f3fba0aebd338fa9c8f2be586c91836b84aa3b49c8aebff4066",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\longtail_manifest.py": "785e192ca4ca30398a4d87637f2b9c8972dd039132a06cae01ac6ddea88d2a27",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\parameter_schema.py": "dbfa590d677747b10f3a084a25e03da2800b45e460787d670028ade9352a220f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\power_pair_dataset.py": "cf488700624cba7eb899abca542f2cf88b048d9d768e0b62db0e9bbcc063a267",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\power_pairs.py": "4479763fc98d2e421d6c2fae847eeaf6371390a80ade06914731348b4cd2f198",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\receiver_perturbation.py": "a8f3a222dd59738ca4afa579f116e641a7cedfefa951ca08a49682a91c0bc412",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\registry.py": "0fd4ceba4338c607952979a178fd3745080f70fb04a380fde7fa2a3a3fef3996",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\semi_supervised_split.py": "759dfbee3320fe7e9b7b4835402756b552c8c28396d85536c5208a6d60d7e1bd",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\signal_simulator.py": "344ebf10e5a73d7ffb9f420cbd790392b5a483ddb9bf71b1d2e056d554e34701",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\split_builder.py": "49419c9af9e36b821605add951a940e2d21b8e5f96c000d6d3b0ba7c1c65e828",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\data\\v73_dataset.py": "6d4dfc464c32e101a83b2be1dc585c51c0f56696677bb8a48f4b9fd62d9ceaf5",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\__init__.py": "aae932a190c2ec38c6138ca75c3f76a650d49beb74be12278dfcd335c04888b7",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\calibration.py": "bfe4fe3c9983ccb74a0dd1cd0682af120adc85aeeace0a94f35f98fb3d4b24b4",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\combination_metrics.py": "57d1646204e8e258004fa7a8312afb875047248c7f7f38cccecf5527729da4e3",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\evaluator.py": "55ed065b726663c61408e4daada83af5bd90f28924b14ac67ae5e98a2620f1b3",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\experiment_record.py": "fa59e4b12f2c3dcd991772ed9d1d413942a13629294adea60a50403442e57a14",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\feature_transform.py": "f32d8bfdd36197a5358dc1f72ae5e9828cea672489fecae7b0b5ffd4576ac4cc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\locked_test.py": "a7e7a6caa7e4e53dcd30dc97ca9c3d39c4d9086e58093aa2a55c49841c83f14d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\longtail_evaluation.py": "f8dafd426dfabdbe3c93b22002dca842cde4d51ac35c4075095903600a715ed7",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\longtail_workflow.py": "9d92ea99d12f76627b976f5508522c1fa6053c4cdc70b23f6108a18c146a0ede",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\model_bundle.py": "882b05b8c4c9d073e4964d275dfad5e1b41b8c697cee2ef2a05ec0a8826de5b1",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\oracle_parameter_trainer.py": "9368056cec847f1a837991c7581dce2ed67dfe7dbcb141bbf661f17dd92b917d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\readout_trainer.py": "abcd6dc2f1928b599ec16514ecbfde9443235a2753888b8cf187272c2a39c79d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\run_manager.py": "3032190d81e256b2e0d2ea9d27a9358884b2cf07028143a58a5e862cb39e0cd8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\selective_fusion.py": "1e93a2f193c5e8ddf33e436ea20c9c9d64e4dc698efad2eab83cf4e033635558",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\student_a_trainer.py": "2e45cc6b58cc89da7b5d8295f478f850ac391a69a5d8525f78070e45de25ca4d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\student_b_trainer.py": "d281e9bea7476574e0242d22c5b7662a52bde501b9110b001a5651d90beec3c2",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\supervised_joint_trainer.py": "a99b34b6a9c56ca1621a699a2dfcad7961a70d31a152bdbb3083b3c2fb358532",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\thresholding.py": "6c345823c121c8fb64f2149b626f1658387b97ebf8c3742a25ed092152aba7da",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\engine\\trainer.py": "0bbbb84ddabe5a8b19c6aef24e8e67035d9d661ab41615456a78dee15616868b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\__init__.py": "a6a97364d24abc0b295406343df10bd2293f6f9301de3d1d432dc7596859b71b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\classification.py": "0258cf0ab780fe84c6c2a763b727187f6b600c4b00db0248614b8b02569d1442",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\paired_power.py": "d494d94c4f3138ea5044c33bf44142d6d317bcf9bf9c6714e9ae83f55eb98ecc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\parameter.py": "aa7ec230bdb555116685c49ef041b20cf8bff9edb95e68fe37efbfa2c3c40b5f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\prototype.py": "dedb863b29fec954ccde08e49cb82e5a6d3b267c3a78c4a460470d79768eb3fb",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\losses\\pseudo_label.py": "5eca8a8db098a91d34c880d7720c2f773f322acf4b412ced3ac6421d6c5d599a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\__init__.py": "99894ca65660625e315eef7f14b0f1c8f3af3b27804b8f746c73753bcd971ffc",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\backbone_adapter.py": "bb1a7954d224e1454bab5f5a15be1ca472b02bc2dd615b46cd47312571caf0ea",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\classwise_fusion.py": "6e1d246bcfaf64029958b64b0e59e24a06ffd583e262033d9ded6b0049bcdc16",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\complex_layers.py": "fe14bef1fccc3f69d05dfd35f079289407fb9f63a309061fb5f3bb9557e290f9",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_delta_prototype.py": "157f409e65e80e45faea119864eb18bef49deb71ab8fe0b72747896ad1bcf561",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\counterfactual_visibility.py": "8420207b479ea65be5c2c0743c276a42318d110ae36fdd77fed25e50e9617e2b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\delay_block_self_similarity.py": "7a543e3f3c4f50f3395581967f6658b973ddb7d4ad27aff4c3ae8ccd41a88493",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\dual_axis_sawfm.py": "8dceae9a3d0503e5544429ee60a18d00b5ae0c777377dfea5245b479f1297e61",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\ema_teacher.py": "1fc8c35e84392cf7646f1e588fc455a5cfc0a37240d31b5ae9edeb61bd3d2d58",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\evidence_readout.py": "f01f694eb5a4fed7a1523c52550e4dce0b3e6a9dc3ac77c7a2bde8b9c4387f0a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\frequency_reconstruction.py": "d5b75f869e102eaf070f38575732c24cbea38965297fa8f42d63d10ef2935330",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\label_conditioned.py": "17cd115850a1d8abfedf5676c28e9b0d90974d7452ed1952acee06d65f84af5a",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_crosspulse_coherence.py": "b941057f104cce86099fcf248c5f54819ed20ba3dfd070728ebec73e63facbd1",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_delay_autocorrelation.py": "5acedb1a9e3581b74c1f074a091b5aed76618c6fb9bb6ce0c3d4a93ffcbf9f0f",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_higher_order.py": "be54513df871ce784ff887a8c8601f050f6fd2f3c435a11bed1b1af248711616",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_matched_filter_support.py": "2418d69e3cde2afbaf1bc33fea0742dbe3f82a24ce5055caca47d0be8e3f1882",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\mft_omp_residual.py": "eea961b3eef3d09f50d5b4921a138f63bd124e200da7a1607d82cf334212996d",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\multipulse_vft_expert.py": "30a845a10c063ca7a8f083df981d662c14c4119778fc833c11b8ec62c9576cd8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\oracle_parameter_specialists.py": "90bb98c5057a82f13f0ea5d3f14c6e23c5ae4593d7e2bb54bf17cf3ded61a2ab",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\parameter_heads.py": "fbe58150b8a736e82b30d4f2c35010c3ea772c2645c4693702ba628f43856f61",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\phase_multiscale.py": "8674a1ddbe3de6fb91fed00f2db51da9e574a7e8692b20e064a4fa0cd4b8b4e8",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\power_ssl.py": "b1bb6ee44f755b9bc190a487457641b03d63b691a35801b5401a78da6a1ed25e",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\prototype_memory.py": "c468b799251792d3bf6f97c5a676c63a22fab0cd137df48ce8cad9a589c31541",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\raat_local_map.py": "fbc70505ffdeda3b35a925f525c1e8481aa55daffb5f64b652c29b2fba4d626b",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\segment_readout.py": "74237a0fd992fa94fbb8d1b192f5775be9f1de8fcbd310ba1667a679489036cb",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_a.py": "0b1f5bb7e22562a218927b8eebf3d360b996eea22fa555cfecd333cb014f5e03",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\student_b.py": "7c027758d83e9cc6d984cb5d5712dda69adaf16873edba3a802f8de27eeab5fe",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\supervised_joint.py": "feeba2b8464a6134742f8740d3b4e675c8baa53c96be2c76dd862b407b326050",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\target_specific_complex_evidence.py": "bfe6c3c24960800929447173fa537d1979ef33db0c2800d72be9d22149e456d5",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_dechirped_doppler.py": "7a7ad42ee8f090c4719f7e5c756386ed30ed16cf67c369050834792c385b0a71",
+    "E:\\LJQ_code\\longtail_20261110\\projects\\CJ_Imbalance_0716\\cjlt\\models\\vft_staggered_pri.py": "448def1ee97b407cabb67d3bc883986ef1fa0099a2548e993d788fff0d8d26f9",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\build_jamming_registry.m": "8666951340c619748930142f84aebfc10b323d026adeb0f84d4545debb075206",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\create_closedset_6class_config.m": "9071b243843d30de34bc554004ed4e99d04447fafd3a517ceb328bea21a554ed",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\create_default_config.m": "e2bddca23fb8333c8601adb82e65ce9db219138b270f67b28b45ecc91d7ae27c",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\create_power_sweep_6class_config.m": "5b444b3af12c88eb785d2431474a01b66769e2cc0dc0f83be88d20d26441e372",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generate_closedset_6class_power_sweep.m": "1842f64c6f31590b7bc9872e978d5e0559f8ab4ac92dea08474f596a9f658d3b",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generate_closedset_6class_train_test.m": "edc67a0ca381daa3df5583510ce2e1be574fac1005b53181029496cdddf43fcf",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generate_compound_dataset.m": "1fa780da0d444aeb43d35f0a1da23d6fd90a28b1c1f91ee4e1b851cc370243af",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generate_imbalanced_compound_dataset.m": "3be24045ecd35c892435e5377e79074cb7a2682897ceb273dfac1ea872860df3",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generate_openset_compound_dataset.m": "b0aee4dc7f435d61d58b54249530c590117e44594a459979cc97ac6fa74b42cc",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\apply_power_sweep_jnr_profile.m": "699e5fc56e6ed496dee9e47693a336c6ad76624ddceaf7763b2c62fec5d6cbe8",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_balanced_manifest.m": "76acd1ba93bc77880b497402f67c69d0fbbc02a0e591e6eecac210a50a014fe0",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_closedset_manifest.m": "488c4205e50663ebcbadf8d66d5734729b362143560b962eb2554d8f16c61349",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_imbalanced_manifest.m": "36756fe802fb8ac71ea51b7fbec66c4e870e2e24658028d53394d91cef331172",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_openset_manifest.m": "52d177ad20cce1870e2f9f35bf9a03b866c2d43a85cdb22aeae86af733de48ad",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_parameter_schema.m": "dd2dd1b2d4c3d027f749c7bd8ab544a440c6efa517108ecdf1d4297f58ebf362",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\build_reference_signal.m": "f15ec3993bf6c0cd0d810beab5b7f23e264baa12ec292cc6833d48dab3acb823",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\calibrate_component_power.m": "f8597194b945c7cecabe2e55b81c6208238f6029f884b6f463b67516f9a23d5a",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\compose_jamming_sample.m": "6becdb70b268536ea1863b186b4cbb165cc0c9a5571bc5bba50ee61fced08b5e",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\encode_parameter_targets.m": "d86093c914dedcb814e135c8d4ef3d339149cd6361ee2e2f810d383bb537537f",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\generate_dataset_from_manifest.m": "885df48000d093351bd1b14fec26701a22d08435d3b7602879b946b059f1814a",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\generate_single_jamming.m": "f7626415078366df05e41780e471f635278d7e5e8c00e97721f6162b403c5519",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\normalize_and_validate_config.m": "9e2aaeb83b17e5fc2636c7ea8d6c9a9e89f6f81d01207d65bce7d9c1c52db1e3",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\print_dataset_statistics.m": "b1e5ca431a3cb2f53dfa065033f4c4f79fd5c73baae8c3b034800228549daca8",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\run_closedset_splits.m": "229714ec7dba21a3d14949c682f2a3ed7273f4121392afc04f3129127015338c",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\run_power_sweep_levels.m": "272ebfb979e17b94e0637ac86771d5e9ed8fa95169ca2cd7c4e18e17bb21cd11",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\save_dataset_bundle.m": "9bdf65054f5cb477be81af70ce95ccb90116745e112fa6dfdee37d45f44b5bc4",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\validate_generated_dataset.m": "0d971dda89118b967693fb365dcb0d1ba825f849f2e8b191200b54397cc6818f",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\verify_saved_closedset_split.m": "d86f7590a37736295c015700c26c0cbc60264828ba1eadd143e26759fbe7b1ac",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\core\\write_power_sweep_manifest.m": "92403c953f7a670c24d3550ac9517ab248341a09edd601d80e57ac66f4e36857",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_ama.m": "a7d60590005914b5defe35a7eceb47cd60669d910faf077fc358896eda6dc44e",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_fmb.m": "4d8edc88cde761880b5ca5bbf4b6805a3385e5e7274aa91ee6c2a66272d34863",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_isrj.m": "8facdc6e784291fcf612640291e5754237880da9051b719d6002ac5e56760794",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_mft.m": "fa68ebedf2ffe34acfe0eb7341bec7c3e4b6b798e018d74b51dfbf07076515cb",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_range_fake_target.m": "2896ae4909ed4db1d11281ca1c87dfdfa31a6fadb8495fb0680e0b486916ef35",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_sawfm.m": "870b726c2b3c1de557acce650f1939cd032de66a467a8e64190463669fc2af43",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_sinfm.m": "52c4675d73cc899d972e8c1b91889677ec356e1f6bb22a1e7f842beba64d076c",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_smart_noise.m": "ac11311bd699fc3da9bbdd3054d1bedd1ec8eb66c6ad6fdcdcfea978e2fa545b",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_traction.m": "1465d82a880c4c186c2530ed53890ac7e0402a925a513f98a37e62f140653d05",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\generators\\generate_vft.m": "4ba5a666f1d0bc808d7b0a0a6c22d68cb0b18d5e9f96f47065a6def30c4cc787",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestConfigAndRegistry.m": "ed56dd08945ced120a6463ce6987055239a68a24b0786f137fb55f2a00f959be",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestDatasetGeneration.m": "5488fb773e80b63bae9d3990cbbd909f68ab604e244e99d78f558e3db75799d2",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestManifestBuilders.m": "66065cb97fd49bc5729c024ee8a3d83a36cc67dd5e155884eed42c82f917afaf",
+    "C:\\Users\\zj\\lt_publish_20261111\\data_generation\\0716\\可配置组合干扰数据生成\\tests\\TestSingleJammingGenerators.m": "acc2cdaa81c716f294fba9b6f55016a12c5a46210b65c428158602a150d6c1f7"
+  },
+  "time": "2026-11-11T12:39:49.086608+00:00",
+  "primary_comparison": [
+    "combo",
+    "marginal"
+  ],
+  "supporting_comparisons": [
+    [
+      "combo",
+      "marginal"
+    ],
+    [
+      "marginal",
+      "natural"
+    ],
+    [
+      "combo",
+      "natural"
+    ],
+    [
+      "combo_affine",
+      "marginal_affine"
+    ],
+    [
+      "marginal_affine",
+      "natural_affine"
+    ],
+    [
+      "combo_affine",
+      "natural_affine"
+    ],
+    [
+      "combo_mean",
+      "marginal_mean"
+    ],
+    [
+      "marginal_mean",
+      "natural_mean"
+    ],
+    [
+      "combo_mean",
+      "natural_mean"
+    ]
+  ],
+  "confirmation_pool_seeds": {
+    "split1": 3311300000,
+    "split2": 3312300000
+  },
+  "selection_role": "development",
+  "existing_confirmation_used": false
+}

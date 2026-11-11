@@ -1,0 +1,51 @@
+{
+  "kind": "fusion",
+  "group": "marginal",
+  "seed": 2300,
+  "state": {
+    "kind": "affine",
+    "targets": [
+      "FMB",
+      "AMA",
+      "SawFM",
+      "SinFM",
+      "MFT",
+      "ISRJ"
+    ],
+    "weights": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "biases": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "thresholds": [
+    0.3449999999999999,
+    0.11499999999999999,
+    0.31499999999999995,
+    0.11499999999999999,
+    0.44499999999999995,
+    0.5399999999999999
+  ],
+  "model_path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\model.pth",
+  "model_sha256": "68d57e996d1a19dc9d3ee083059976b199e6046b2c3620985990bc7062575ab0",
+  "reference_path": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\best_BCE.pth",
+  "reference_sha256": "c93cae900e0277ba82cbf515e5d803e9749cfc42e16ab51112626486ed93716c",
+  "protocol_sha256": "581f61dd3173a1df937495f720db4292cf35b42a02bc99049e0c780a3db326c6"
+}

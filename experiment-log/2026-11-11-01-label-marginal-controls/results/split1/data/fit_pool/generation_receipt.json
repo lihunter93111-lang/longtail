@@ -1,0 +1,7 @@
+{
+  "role": "fit_pool",
+  "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\closedset_6class_train.mat",
+  "base_seed": 3.3111E+9,
+  "samples": 30240,
+  "status": "generated"
+}

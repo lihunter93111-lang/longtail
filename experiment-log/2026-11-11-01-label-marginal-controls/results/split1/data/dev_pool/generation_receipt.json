@@ -1,0 +1,7 @@
+{
+  "role": "dev_pool",
+  "path": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\closedset_6class_train.mat",
+  "base_seed": 3.3112E+9,
+  "samples": 6048,
+  "status": "generated"
+}

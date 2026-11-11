@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "manifest_sha256": "95e74118930d1db0b7a24f2de0c490ff37ed6636920c3e76bdeaaa1b726d2825",
+  "files_verified_in_working_tree_and_git_index": 719,
+  "python_compileall": "passed",
+  "source_whitespace_check": "passed with cr-at-eol and original EOF blank lines retained",
+  "raw_log_whitespace": "preserved byte-for-byte as archived evidence; excluded from whitespace style check",
+  "scientific_completion_audit_sha256": "cafbc68ed539d9f13681bf0eadc65d395475334346fe203ac1720af0fdb6463a",
+  "time": "2026-11-11T13:06:43.136862+00:00"
+}

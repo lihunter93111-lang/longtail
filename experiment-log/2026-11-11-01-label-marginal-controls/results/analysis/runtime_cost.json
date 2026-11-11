@@ -1,0 +1,230 @@
+{
+  "device": "NVIDIA GeForce RTX 5080",
+  "torch": "2.11.0+cu128",
+  "tf32": false,
+  "threads": 4,
+  "warmup": 20,
+  "rounds": 3,
+  "iterations": 50,
+  "includes": "model forward, sigmoid, threshold; inputs already on GPU",
+  "records": [
+    {
+      "method": "natural",
+      "batch": 1,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        3.724039999942761,
+        4.377384000035818,
+        3.30465600003663
+      ],
+      "median_ms_per_sample": 3.724039999942761,
+      "peak_allocated_bytes": 20262400
+    },
+    {
+      "method": "natural",
+      "batch": 32,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        9.690340000015567,
+        9.647656000015559,
+        9.674933999995119
+      ],
+      "median_ms_per_sample": 0.30234168749984747,
+      "peak_allocated_bytes": 226486784
+    },
+    {
+      "method": "marginal",
+      "batch": 1,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        3.219115999963833,
+        3.1438619999971706,
+        3.1274860000121407
+      ],
+      "median_ms_per_sample": 3.1438619999971706,
+      "peak_allocated_bytes": 20262400
+    },
+    {
+      "method": "marginal",
+      "batch": 32,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        9.708480000044801,
+        9.678366000007372,
+        9.661235999956261
+      ],
+      "median_ms_per_sample": 0.3024489375002304,
+      "peak_allocated_bytes": 226486784
+    },
+    {
+      "method": "combo",
+      "batch": 1,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        7.199684000006528,
+        7.2284660000150325,
+        4.57935999998881
+      ],
+      "median_ms_per_sample": 7.199684000006528,
+      "peak_allocated_bytes": 20262400
+    },
+    {
+      "method": "combo",
+      "batch": 32,
+      "parameters": 1013191,
+      "milliseconds_per_batch": [
+        9.689931999964756,
+        9.667115999982343,
+        9.662571999942884
+      ],
+      "median_ms_per_sample": 0.3020973749994482,
+      "peak_allocated_bytes": 226486784
+    },
+    {
+      "method": "natural_mean",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        8.71339799996349,
+        8.798928000032902,
+        8.703595999977551
+      ],
+      "median_ms_per_sample": 8.71339799996349,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "natural_mean",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.382077999980538,
+        19.353831999978865,
+        19.365038000032655
+      ],
+      "median_ms_per_sample": 0.6051574375010205,
+      "peak_allocated_bytes": 230630400
+    },
+    {
+      "method": "marginal_mean",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        6.388320000041858,
+        6.271538000000874,
+        6.254739999931189
+      ],
+      "median_ms_per_sample": 6.271538000000874,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "marginal_mean",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.346278000011807,
+        19.3555760000163,
+        19.340222000028007
+      ],
+      "median_ms_per_sample": 0.604571187500369,
+      "peak_allocated_bytes": 230630400
+    },
+    {
+      "method": "combo_mean",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        6.3313080000079935,
+        6.355859999966924,
+        6.246026000007987
+      ],
+      "median_ms_per_sample": 6.3313080000079935,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "combo_mean",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.328088000038406,
+        19.316471999991336,
+        19.302104000016698
+      ],
+      "median_ms_per_sample": 0.6036397499997292,
+      "peak_allocated_bytes": 230630400
+    },
+    {
+      "method": "natural_affine",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        6.3153540000348585,
+        6.325513999981922,
+        6.4397160000225995
+      ],
+      "median_ms_per_sample": 6.325513999981922,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "natural_affine",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.29028400001698,
+        19.33701000001747,
+        19.365821999963373
+      ],
+      "median_ms_per_sample": 0.604281562500546,
+      "peak_allocated_bytes": 230630400
+    },
+    {
+      "method": "marginal_affine",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        14.499267999999574,
+        14.53153000002203,
+        6.306836000003386
+      ],
+      "median_ms_per_sample": 14.499267999999574,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "marginal_affine",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.304616000008537,
+        19.304841999983182,
+        19.326556000014534
+      ],
+      "median_ms_per_sample": 0.6032763124994744,
+      "peak_allocated_bytes": 230630400
+    },
+    {
+      "method": "combo_affine",
+      "batch": 1,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        6.299694000044838,
+        6.297848000031081,
+        6.276827999972738
+      ],
+      "median_ms_per_sample": 6.297848000031081,
+      "peak_allocated_bytes": 24404992
+    },
+    {
+      "method": "combo_affine",
+      "batch": 32,
+      "parameters": 2026382,
+      "milliseconds_per_batch": [
+        19.355394000012893,
+        19.346116000015172,
+        19.33755199999723
+      ],
+      "median_ms_per_sample": 0.6045661250004741,
+      "peak_allocated_bytes": 230630400
+    }
+  ],
+  "source_sha256": "a99c73646eda7e52cf441c5a55fa6e742e73fc2988a7b181977a029a642f71f7",
+  "time": "2026-11-11T12:48:35.993897+00:00"
+}

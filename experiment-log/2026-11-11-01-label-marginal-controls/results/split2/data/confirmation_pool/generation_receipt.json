@@ -1,0 +1,7 @@
+{
+  "role": "confirmation_pool",
+  "path": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\closedset_6class_train.mat",
+  "base_seed": 3.3123E+9,
+  "samples": 4032,
+  "status": "generated"
+}

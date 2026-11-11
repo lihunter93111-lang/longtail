@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "role": "development",
+  "scalars_recomputed": 5300,
+  "maximum_absolute_error": 2.220446049250313e-16,
+  "errors": [],
+  "new_complete_trainings": 10,
+  "time": "2026-11-11T12:36:52.137668+00:00",
+  "verification_source_sha256": "4edd2a2f415118081a5f111a41d7ead2eeef26cdd7e9882492e63e95c07b372b"
+}

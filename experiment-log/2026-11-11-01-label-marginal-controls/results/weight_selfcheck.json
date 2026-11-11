@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "identity_count": 8000,
+  "scalar_vs_matrix_loss_error": 0.0,
+  "maximum_gradient_error": 6.776263578034403e-21,
+  "label_bias_gradient_error": 1.7408281566266837e-08,
+  "zero_mixture_unit_weights": true,
+  "source_sha256": "beac0fe9cd7c0dd4901f981255139eb9db8d93cfb85720cd88f1743b976d434d"
+}

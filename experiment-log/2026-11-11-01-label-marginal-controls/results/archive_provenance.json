@@ -1,0 +1,3342 @@
+{
+  "files": [
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\completion_audit.json",
+      "archive": "results/completion_audit.json",
+      "sha256": "cafbc68ed539d9f13681bf0eadc65d395475334346fe203ac1720af0fdb6463a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_verification.json",
+      "archive": "results/confirmation_verification.json",
+      "sha256": "48a545faeda9cae9b719e3571142429078dc791252c28e0cfb546cdf4ce6de99"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\development_verification.json",
+      "archive": "results/development_verification.json",
+      "sha256": "19a0db59ee14d1473f2654457fcb5056ee97b3c9d1e2623566bdce66503840d4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\environment.json",
+      "archive": "results/environment.json",
+      "sha256": "bc6ebbc2cd5e46f9ff9caab93c985feb6b274ac9774a428ae5dad1bf0d4cd934"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\execution_notes.json",
+      "archive": "results/execution_notes.json",
+      "sha256": "ab1e2392abbf6d232fd182cf0337b83660e655d52cddf3d4008dfb084b8f2cac"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\final_freeze.json",
+      "archive": "results/final_freeze.json",
+      "sha256": "6789128569b635d7179c1f8dfd7975d6a026ebbc829e98b3158a3ef52e2ee9e0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\handoff_bundle_receipt.json",
+      "archive": "results/handoff_bundle_receipt.json",
+      "sha256": "03a452a795c6b288be8ab6e11dae241a63ec4a5871f904769afed21aafc1e6f2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\historical_source_verification.json",
+      "archive": "results/historical_source_verification.json",
+      "sha256": "2f0e1ae79cdda50bf370c6260812ac5f886c8b577c800c57a3ce7c8017d255a3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\portable_inference_verification.json",
+      "archive": "results/portable_inference_verification.json",
+      "sha256": "42a6de7432f9542c6095ed177aa74de4fc28e718afdcb0783c97838bb6e5a684"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\portable_relocated_verification.json",
+      "archive": "results/portable_relocated_verification.json",
+      "sha256": "401a207b20fcaaa1521e7cf80bff418104dd14367e21603d08ae7cd0dbf3e25f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\weight_selfcheck.json",
+      "archive": "results/weight_selfcheck.json",
+      "sha256": "58ac137ed3c07368c21445ee0c1afbf1b03180c1aef022c7331df68c05be5a7c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis_split1.log",
+      "archive": "results/logs/analysis_split1.log",
+      "sha256": "d6052f67e320213b9c9404cad9e532b7805f72e61606be75c4a314175ea53073"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis_split2.log",
+      "archive": "results/logs/analysis_split2.log",
+      "sha256": "4a22c0d5e2fc47304d6e457dec53b0df54c3c3d4180adbfeab3270442df9c208"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_analysis_split1.log",
+      "archive": "results/logs/confirmation_analysis_split1.log",
+      "sha256": "8c852fe4d6657f23ea61ca89a8dc97b984531aaee186f17aaae3ed00d4f91e6a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_analysis_split2.log",
+      "archive": "results/logs/confirmation_analysis_split2.log",
+      "sha256": "33111a32c78f7b905a396728ce6cda7d5914993835ca9716003b0ededb937e98"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_audit_split1.log",
+      "archive": "results/logs/confirmation_audit_split1.log",
+      "sha256": "0fa1c8894a15331b3b6728ed6abc2026ce0e830398a69ca50a85bed3fc63ea2a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_audit_split2.log",
+      "archive": "results/logs/confirmation_audit_split2.log",
+      "sha256": "8862c2ba0764803cfd80bb42ee080a94bd5ede7882662f985f83a5da25996a7d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_generate_split1.log",
+      "archive": "results/logs/confirmation_generate_split1.log",
+      "sha256": "0c97fabe3e2b9c358ebfcf1d18fa94439dd775c9aca0d7a255c7215adc93b329"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_generate_split2.log",
+      "archive": "results/logs/confirmation_generate_split2.log",
+      "sha256": "7d77f1b624b019e866b2fca4286329bd647b5b4f2b482cf1e91294c4fcbc6cb9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_runtime_split1.log",
+      "archive": "results/logs/confirmation_runtime_split1.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_runtime_split2.log",
+      "archive": "results/logs/confirmation_runtime_split2.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_score_split1.log",
+      "archive": "results/logs/confirmation_score_split1.log",
+      "sha256": "0accecf5c26353af5d3f28bee317e00898092ba8b006e18fb4b7e9ebbfc554cd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\confirmation_score_split2.log",
+      "archive": "results/logs/confirmation_score_split2.log",
+      "sha256": "3f199ba8c6a5a16c42523e7b26976049f57f6ec49bea36db68605a422f301fdb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\exact_matrix_retry.log",
+      "archive": "results/logs/exact_matrix_retry.log",
+      "sha256": "4eec8afd32604586be258d3fd16baf31d52a7d4f3c6802dc66397cde5fa7c3a5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\fit_split1.log",
+      "archive": "results/logs/fit_split1.log",
+      "sha256": "c4f629c6266b1dc3de4a0fbc48789da42a040d86d80674e821e875c6b33f3d77"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\fit_split1_resume.log",
+      "archive": "results/logs/fit_split1_resume.log",
+      "sha256": "cf7968b39046c83d1ec51666f606af6709fc70c00ef8449ec1a027359e8b06d2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\fit_split2.log",
+      "archive": "results/logs/fit_split2.log",
+      "sha256": "667c036c5ab6606ae49a4f46a90c141e87bec58e9df849752f3f4fca638ed8b1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\generate_split1.log",
+      "archive": "results/logs/generate_split1.log",
+      "sha256": "d1e1a79552105e73ff21b27b8a02fd7e04da23a5cafb94a2b293405c5203ae33"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\generate_split1_retry.log",
+      "archive": "results/logs/generate_split1_retry.log",
+      "sha256": "9d370fad06cb83a78114cd8db9d897af01ac5ee5c0cd3227180f149795fb3eb0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\generate_split2.log",
+      "archive": "results/logs/generate_split2.log",
+      "sha256": "9d12b9b16423269be03f55b04c9663eb07ef5af153b6cbcc8a9238795a3881c3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\handoff_export.log",
+      "archive": "results/logs/handoff_export.log",
+      "sha256": "7d1449799b56ae4d72ffdc63f2f2618a53f62c14f83453792acc4186c74c295f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\portable_verify.log",
+      "archive": "results/logs/portable_verify.log",
+      "sha256": "3c7044821dbdc03b55cdf2f0ecaa80882c963ac791f98e5fb5c9660e37316273"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\runtime_cost.log",
+      "archive": "results/logs/runtime_cost.log",
+      "sha256": "6dbcb8888d2bf499b750e2f297d9543b7e57a67fd90f711c5a5f709575360fb7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\runtime_split1.log",
+      "archive": "results/logs/runtime_split1.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\runtime_split2.log",
+      "archive": "results/logs/runtime_split2.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\score_split1.log",
+      "archive": "results/logs/score_split1.log",
+      "sha256": "4c374fa322a2e256c812de6cc18adf00ad5708bafc002fb4464e9558f48c1dd7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\score_split2.log",
+      "archive": "results/logs/score_split2.log",
+      "sha256": "59103eef2ac153f887fe5cbccafbbf8e6129ddcf054534a35c1a98a76ba9055b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\train_split1.log",
+      "archive": "results/logs/train_split1.log",
+      "sha256": "da1798b3e85c3ae572f375768935990b15f73a0234955b49f16dea297529b236"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\train_split2.log",
+      "archive": "results/logs/train_split2.log",
+      "sha256": "d06deba3b27d6b3712151e38a6e49a8b64bcccb57dcec331bdd76af511fcd1fb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\background_development.json",
+      "archive": "results/analysis/background_development.json",
+      "sha256": "51498970eb2d9fc88cd9591469dab75990a813d4b067ab2a56c64432853f2081"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\runtime_cost.json",
+      "archive": "results/analysis/runtime_cost.json",
+      "sha256": "a07071d92f653a29f2928e007e075d2cc7c1047e32597ece3fcce51a8595e085"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\split1_confirmation.json",
+      "archive": "results/analysis/split1_confirmation.json",
+      "sha256": "d0b77fc308370af68c395517f5a81223ece83d45472bd9cd26e49f4d698a6831"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\split1_development.json",
+      "archive": "results/analysis/split1_development.json",
+      "sha256": "f025c6cf6fa49340d9e60e80d026958c39c165354d3abe696869e73fef98d3ea"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\split2_confirmation.json",
+      "archive": "results/analysis/split2_confirmation.json",
+      "sha256": "62fae743681965895904d161abd33e717e52c75b37991a5771498a00f1bf1ae4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\analysis\\split2_development.json",
+      "archive": "results/analysis/split2_development.json",
+      "sha256": "d78eb69e250cbf26b5d6debfbd886b70e893aa6791e26bf8db336dfea265899c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\acceptance.json",
+      "archive": "results/future_matrix/acceptance.json",
+      "sha256": "ddba7eccef881d263980fdb9498e5df2501e4baa8e317d3816f2b4750f411df0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\exact_retry.json",
+      "archive": "results/future_matrix/exact_retry.json",
+      "sha256": "07c2d37da312cb1a397d4b9017ff8df557b5028063a7c0c991c6a973196d96cc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\CF16_IF3\\manifest.json",
+      "archive": "results/future_matrix/CF16_IF3/manifest.json",
+      "sha256": "2ceda04bb0f8dcf88fbc932fdcd1360f3374e43d17fd409ae0ca1ff4b1d98a3c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\CF16_near_IF1\\manifest.json",
+      "archive": "results/future_matrix/CF16_near_IF1/manifest.json",
+      "sha256": "2dd1c1f2b7ddb2804112f8e3b43b6fb716fe164d6c518a2c5d89f0015c7d295b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\CF7p85_IF1\\manifest.json",
+      "archive": "results/future_matrix/CF7p85_IF1/manifest.json",
+      "sha256": "4d8eb52033d77a5bdcb84e7a2852b1d7967e50350fe0a1286ada2c0717c32c4c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\future_matrix\\CF7p85_IF3\\manifest.json",
+      "archive": "results/future_matrix/CF7p85_IF3/manifest.json",
+      "sha256": "7893c3ff46add2d8992f7499e7a81d2e0adaf88a2d3ad18bd30687d8cff18445"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_runtime_replay.json",
+      "archive": "results/split1/confirmation_runtime_replay.json",
+      "sha256": "be29958f708ed683cd3efd50f2398f0ea5a6771f3718f885a5d4a794ee5e9c12"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_runtime_replay.json",
+      "archive": "results/split1/development_runtime_replay.json",
+      "sha256": "be29958f708ed683cd3efd50f2398f0ea5a6771f3718f885a5d4a794ee5e9c12"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\objective_design.json",
+      "archive": "results/split1/objective_design.json",
+      "sha256": "84c37d2431c41489fb3af38aab24cb68bada138fa9e8e2464300ad3d2e0ab6f8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\reference_audit.json",
+      "archive": "results/split1/reference_audit.json",
+      "sha256": "75f8f26670ec570046adf94e6df06036603edd19b85d4f8acce456862f7cc568"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training_status.json",
+      "archive": "results/split1/training_status.json",
+      "sha256": "bd5999ee649997ef537fd3a6ab868b3d7d73196467d6f67cb32c8f6bfd847269"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation\\manifest.json",
+      "archive": "results/split1/confirmation/manifest.json",
+      "sha256": "23156407d508be8102932a07ab14586df23e77f52db3fd5b8cc59ffabc709c96"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation\\preflight.json",
+      "archive": "results/split1/confirmation/preflight.json",
+      "sha256": "b153c5ba64fb6b32af536428b43815a1c675204326b93d1fbb1a57e5f3c144dc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_2300.json",
+      "archive": "results/split1/confirmation_results/combo_2300.json",
+      "sha256": "ccb65e4042ed82c6b6f1a83a0e5dd3ff0e487e63aac3f3e122007dd389f56f32"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_2301.json",
+      "archive": "results/split1/confirmation_results/combo_2301.json",
+      "sha256": "a2469a10449d6d3c8b6a6ff4f6148212cf095e7b6bb9c45a54fc6e90a60b5607"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_2302.json",
+      "archive": "results/split1/confirmation_results/combo_2302.json",
+      "sha256": "a7f34171537940fd054e1f633d2537f4bb86dff51d5134d3dac7b1d3fb0e3c35"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_2303.json",
+      "archive": "results/split1/confirmation_results/combo_2303.json",
+      "sha256": "7f094587a687985c09d2a5cf474963bae8b39c8fa4b0d1ffa144b31e31114531"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_2304.json",
+      "archive": "results/split1/confirmation_results/combo_2304.json",
+      "sha256": "5cc2460ed5037e40f6a03bbb34b3cbcbcaadd5d40d79fea9f6bef242b4ae64d0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_affine_2300.json",
+      "archive": "results/split1/confirmation_results/combo_affine_2300.json",
+      "sha256": "c3e468fb29a6eda4fbf89a3c71632db7602a570f6bdb273341d794f5ff8f26ee"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_affine_2301.json",
+      "archive": "results/split1/confirmation_results/combo_affine_2301.json",
+      "sha256": "79f9810c32691619f8bc4db56c48d168aa0421fa7d2683dba756e981f1aabd81"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_affine_2302.json",
+      "archive": "results/split1/confirmation_results/combo_affine_2302.json",
+      "sha256": "11fd78045a4499194bb3cf8821f2ba9a8ce3a8f1aa22fc07bf17d9c44b769653"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_affine_2303.json",
+      "archive": "results/split1/confirmation_results/combo_affine_2303.json",
+      "sha256": "e15346f5a34d5836ec4ac70a5997e429b9ad71d8e00e499b57c0934d5a2e0523"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_affine_2304.json",
+      "archive": "results/split1/confirmation_results/combo_affine_2304.json",
+      "sha256": "7e91edae345e788ffce768430a2250aed84097a33800dbc5fa28af371e1e955e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_mean_2300.json",
+      "archive": "results/split1/confirmation_results/combo_mean_2300.json",
+      "sha256": "bb1378d2dd27e4e1875185c86c43ca0939b73c6f226ee66c4dd175de55d4e367"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_mean_2301.json",
+      "archive": "results/split1/confirmation_results/combo_mean_2301.json",
+      "sha256": "73118a86065b84976a75c8aebf9d94862289ac42ab89913f340c6f28f4bbbf65"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_mean_2302.json",
+      "archive": "results/split1/confirmation_results/combo_mean_2302.json",
+      "sha256": "ac003409ac2377707d7596477bb8d27fdf0a10d30d42b6275540cb5112d865f7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_mean_2303.json",
+      "archive": "results/split1/confirmation_results/combo_mean_2303.json",
+      "sha256": "b774a2149ca058983bc46c72901de9a39e66036e6fdb3a0789a5652b94978e6e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\combo_mean_2304.json",
+      "archive": "results/split1/confirmation_results/combo_mean_2304.json",
+      "sha256": "1405c1aab52a16cfaf6957179597f8e6304817e9339f4f00680ea0bd07827e24"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_2300.json",
+      "archive": "results/split1/confirmation_results/marginal_2300.json",
+      "sha256": "6f1524fb963c2653982bc54795ad13346413bd2225f8d3f15ad643cd0c94d20d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_2301.json",
+      "archive": "results/split1/confirmation_results/marginal_2301.json",
+      "sha256": "441656c128ec2a81ea60e84b5f4b94e0c78866b6bf66dc93e421e6a96539d517"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_2302.json",
+      "archive": "results/split1/confirmation_results/marginal_2302.json",
+      "sha256": "da04ffd50f0efc8cd8aa62d854b6930887e1e1aacdb06158a582a42efa9feabf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_2303.json",
+      "archive": "results/split1/confirmation_results/marginal_2303.json",
+      "sha256": "9cd392f99929a6e85985887d48d877c2eab5d07f38e4560300689d30034af9ba"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_2304.json",
+      "archive": "results/split1/confirmation_results/marginal_2304.json",
+      "sha256": "f991ab4be97c727914d0b15d7cbaa8315cfafcf234e71d74a5e82137b292978e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_affine_2300.json",
+      "archive": "results/split1/confirmation_results/marginal_affine_2300.json",
+      "sha256": "207b641b247cccd150b9cf1ab0791248f75aa2ef002b0088c327db938df7e123"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_affine_2301.json",
+      "archive": "results/split1/confirmation_results/marginal_affine_2301.json",
+      "sha256": "14997cd635e28e462b9ea6d85d44ea64ef312ba444d307e47b57a847b2a44698"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_affine_2302.json",
+      "archive": "results/split1/confirmation_results/marginal_affine_2302.json",
+      "sha256": "a55d1941d8efa2055976a899ff42c36126d7def4237c83542232d147d4accd00"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_affine_2303.json",
+      "archive": "results/split1/confirmation_results/marginal_affine_2303.json",
+      "sha256": "be78fac21aa7a78334e2d11e71a6d3b4afb2e223535d110d1f99e94c44e3bb0b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_affine_2304.json",
+      "archive": "results/split1/confirmation_results/marginal_affine_2304.json",
+      "sha256": "579ed80f8f1aaef103a488aa64c00377762188011bb222d5b407f909c21666d6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_mean_2300.json",
+      "archive": "results/split1/confirmation_results/marginal_mean_2300.json",
+      "sha256": "e1a0e2d13c24849bc112161bd5dc3df90f2d42309cb4915dd1100e45ca65c71c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_mean_2301.json",
+      "archive": "results/split1/confirmation_results/marginal_mean_2301.json",
+      "sha256": "76afc7e937d620cc22ca48005699797b57f848ea89122dc603f4c99995cabd0a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_mean_2302.json",
+      "archive": "results/split1/confirmation_results/marginal_mean_2302.json",
+      "sha256": "1b07a2ccc96b542f964a36e3edaf143ecc35a376bc0ac433d67aa712e1c59cb1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_mean_2303.json",
+      "archive": "results/split1/confirmation_results/marginal_mean_2303.json",
+      "sha256": "7dd37c8866791b8be84878c6989eb60d9f506f5f2f653075a27e3f98b6f1418e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\marginal_mean_2304.json",
+      "archive": "results/split1/confirmation_results/marginal_mean_2304.json",
+      "sha256": "67241067d9605dfb59074dc614f1393c5dbc6a0182e4a219402e70d385fa8931"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_2300.json",
+      "archive": "results/split1/confirmation_results/natural_2300.json",
+      "sha256": "6fef6a9c6429cc7127c1e50a93f61326a57014a293235d9d9ab87c3f3c82da27"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_2301.json",
+      "archive": "results/split1/confirmation_results/natural_2301.json",
+      "sha256": "0f9ae6228e0538b749f84edbb54fed101eeb66aac68b8d9d6ae22ac04dbd4654"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_2302.json",
+      "archive": "results/split1/confirmation_results/natural_2302.json",
+      "sha256": "55f04c124fb1330906f3cfb2dad854e6ed819dfc7d7d59eac88412a46bf788a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_2303.json",
+      "archive": "results/split1/confirmation_results/natural_2303.json",
+      "sha256": "38c8d657180344b8573470d008963744c51b31e119fb9dcb3ef4ef95e95910a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_2304.json",
+      "archive": "results/split1/confirmation_results/natural_2304.json",
+      "sha256": "dcc7c69f1a7a67308d424dc368d4489e967f584f145d06307866c266c8d2aafa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_affine_2300.json",
+      "archive": "results/split1/confirmation_results/natural_affine_2300.json",
+      "sha256": "794b51d4e12a45d6f5403563ec9aff82a2fc2a9ea8b8a143d0d36314e4ad0b3c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_affine_2301.json",
+      "archive": "results/split1/confirmation_results/natural_affine_2301.json",
+      "sha256": "abcbedb86e3d49a95b426b541a569501031ad019091ee38b2dd924b5f3a061a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_affine_2302.json",
+      "archive": "results/split1/confirmation_results/natural_affine_2302.json",
+      "sha256": "fa0f1ddfcd29514c5bf270ebfa8c04928aebfe7621a3d6f15875665fa3ca2005"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_affine_2303.json",
+      "archive": "results/split1/confirmation_results/natural_affine_2303.json",
+      "sha256": "c288886b65fa73b2afd5e95afece6f63c591bd67708bf732e492b2b38952f392"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_affine_2304.json",
+      "archive": "results/split1/confirmation_results/natural_affine_2304.json",
+      "sha256": "20618e3f2a8dcb4505772011e6da0f840c363c127e17bde482470e2a8af48397"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_mean_2300.json",
+      "archive": "results/split1/confirmation_results/natural_mean_2300.json",
+      "sha256": "10b6243518afbaf3ca9ef359d88fc5264643b88d9e4663dba41543428261faf0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_mean_2301.json",
+      "archive": "results/split1/confirmation_results/natural_mean_2301.json",
+      "sha256": "bef1c1d27c8797d463a76472594f77277cb1dae04215f01165375e88be5b2deb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_mean_2302.json",
+      "archive": "results/split1/confirmation_results/natural_mean_2302.json",
+      "sha256": "0b589b621b552d0d7d7693ce894aa3c549a64c6d3e9bf57c47f3b6680e18b7b4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_mean_2303.json",
+      "archive": "results/split1/confirmation_results/natural_mean_2303.json",
+      "sha256": "2f182fa12b1f152e4d0136d699a84abb95c8c0a1c0ef0af71dfe5fea7a0f8f08"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\natural_mean_2304.json",
+      "archive": "results/split1/confirmation_results/natural_mean_2304.json",
+      "sha256": "17ec977d28dd8eb7ee3b5a52466d53e5532e49bf0475ac59ef341885dc235ca7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\reference_2300.json",
+      "archive": "results/split1/confirmation_results/reference_2300.json",
+      "sha256": "543672e682c1f8e8a4a961536ae2a4ad91c3e699806c6a7b52767ace5f59cf48"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\reference_2301.json",
+      "archive": "results/split1/confirmation_results/reference_2301.json",
+      "sha256": "1ac6118735feafae6160e6bf6abcb2e6d2b4067a1061ef521b669d29a05ae3e4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\reference_2302.json",
+      "archive": "results/split1/confirmation_results/reference_2302.json",
+      "sha256": "98f706d8f23c0ffc9174ffbf23f5d483d72a661a8be30a7f22648c7549cfade3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\reference_2303.json",
+      "archive": "results/split1/confirmation_results/reference_2303.json",
+      "sha256": "ca8eef01ba43f8ad00cbcb81f46bf36079a7ebfcd32b6c98900cdb22cc682d58"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\reference_2304.json",
+      "archive": "results/split1/confirmation_results/reference_2304.json",
+      "sha256": "a935a720396522df7313d1738f2d4ddefd45d9b7765323a3ca559966f22c6c71"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\confirmation_results\\summary.json",
+      "archive": "results/split1/confirmation_results/summary.json",
+      "sha256": "4cea6ae7b00425e4f5ccab98abd2f9056431ff5d551028ed990a5ee9efefa2d6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\generation_config.json",
+      "archive": "results/split1/data/confirmation_pool/generation_config.json",
+      "sha256": "eeeb0c07d5e8ff046800bb64483aafc7073e23ec5b6812081cc303700ed0a944"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\confirmation_pool\\generation_receipt.json",
+      "archive": "results/split1/data/confirmation_pool/generation_receipt.json",
+      "sha256": "f7d237d38295848d52401ba0c98dfdb8b3079662d0dd252c78bc4a371a1ffd1a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\generation_config.json",
+      "archive": "results/split1/data/dev_pool/generation_config.json",
+      "sha256": "e8b67845a0cb5fec37127fe46d753a404ca82a158c0d769db1d194dbf6e97859"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\dev_pool\\generation_receipt.json",
+      "archive": "results/split1/data/dev_pool/generation_receipt.json",
+      "sha256": "18e4006f20e633ac80b65aae67f4a2f8740ba4470e0b50f9c5bcbefe89db7184"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\generation_config.json",
+      "archive": "results/split1/data/fit_pool/generation_config.json",
+      "sha256": "6bc0dd32c597ada4e59aac6d88562c462fff3983eaced01ff469cc3f7dcc9636"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool\\generation_receipt.json",
+      "archive": "results/split1/data/fit_pool/generation_receipt.json",
+      "sha256": "f8c481909d40f349858643e2d5959839666a3b35b685f45e1ab2cecb3c34b080"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2300.json",
+      "archive": "results/split1/decision_models/combo_2300.json",
+      "sha256": "3f2382d5eaff3f61ad9330be115ae158ce4c0acc729dbbf916e58712cfd3403c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2301.json",
+      "archive": "results/split1/decision_models/combo_2301.json",
+      "sha256": "e746d905ddd7867d11f5ebfdca68afb372d23856bff556fe4de58e2488b922bb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2302.json",
+      "archive": "results/split1/decision_models/combo_2302.json",
+      "sha256": "e54fab0ff06ecf7dcb7256c0b4536a9ebe3621dabbc0148dd83566830efc4467"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2303.json",
+      "archive": "results/split1/decision_models/combo_2303.json",
+      "sha256": "6da8caa46a43fdd7c89cedb159875db9ed7139fdae534b56290fa7b15f068294"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_2304.json",
+      "archive": "results/split1/decision_models/combo_2304.json",
+      "sha256": "7f4aed911e0fa40051c97b210706d9a920f6aaf898c21c016bf28b615258c073"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2300.json",
+      "archive": "results/split1/decision_models/combo_affine_2300.json",
+      "sha256": "86ec77819c5098ef05403e3b91240d73b74473b31029131a8a5ebbac669c62c0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2301.json",
+      "archive": "results/split1/decision_models/combo_affine_2301.json",
+      "sha256": "e04e70bbf9c38368dfee80411c17bfca24ceebcff5fcdcdf5b4c7a162218aef4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2302.json",
+      "archive": "results/split1/decision_models/combo_affine_2302.json",
+      "sha256": "78d6352414496f659fa275017db213dd3bd8349e6c1e41c37baad9894d8aa0b2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2303.json",
+      "archive": "results/split1/decision_models/combo_affine_2303.json",
+      "sha256": "98fc230d364620ac9c52a704a80e49ae7f7552cf13dac8bd8c1405148d94813d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_affine_2304.json",
+      "archive": "results/split1/decision_models/combo_affine_2304.json",
+      "sha256": "2f867cef1191fccef89486ed66f6c54d360e01f2f4c015465667ebf69340bdcc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2300.json",
+      "archive": "results/split1/decision_models/combo_mean_2300.json",
+      "sha256": "1425a1902fecb140d0675cdf6b216ad6b2bb4429ec075bbc50e92fabf4bdcd3f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2301.json",
+      "archive": "results/split1/decision_models/combo_mean_2301.json",
+      "sha256": "6e3d358bb975d06648836e62ca39b79c377c6fd9f12b561e9c60a6d0595a40aa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2302.json",
+      "archive": "results/split1/decision_models/combo_mean_2302.json",
+      "sha256": "ee07cc46f0a702f1de08a5763743e870cb6721e5e124a589bbc270584d90e401"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2303.json",
+      "archive": "results/split1/decision_models/combo_mean_2303.json",
+      "sha256": "2944e338bea8b8e2aef320481a10663e8c2b79f8fbde43aa0c216ce9991d3c21"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\combo_mean_2304.json",
+      "archive": "results/split1/decision_models/combo_mean_2304.json",
+      "sha256": "968ed7b696d2abf8f351fd63e2ca28988fdd66c0c4dcbcdc7694d550091af59d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2300.json",
+      "archive": "results/split1/decision_models/marginal_2300.json",
+      "sha256": "80557154ea9e68029b54b933c8c170cc8df64b2b71c70e19072c796d81d7f74f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2301.json",
+      "archive": "results/split1/decision_models/marginal_2301.json",
+      "sha256": "38ee566b2933c87e419ed370e07bfa094f0190006105b419bea9f55d8afcb413"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2302.json",
+      "archive": "results/split1/decision_models/marginal_2302.json",
+      "sha256": "c324318af3fe07f593f77ea090486669c4d9d15bbdfa3f0b03d76abdfc8fcd51"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2303.json",
+      "archive": "results/split1/decision_models/marginal_2303.json",
+      "sha256": "edd8e7c3b5416d0e11646c85465d57ca89f23519c346631e0d206213d7d70fd8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_2304.json",
+      "archive": "results/split1/decision_models/marginal_2304.json",
+      "sha256": "a21c664f38836f54f0240b4467843fe77ff81374e9ca79fabaa9747e3d2093bd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2300.json",
+      "archive": "results/split1/decision_models/marginal_affine_2300.json",
+      "sha256": "1e5e592feff143b65f74f3653e6383b67925a1d10ede346436d11c0e389984ec"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2301.json",
+      "archive": "results/split1/decision_models/marginal_affine_2301.json",
+      "sha256": "9b05798860cab3808fc54cb225a9f1c3cea216338a31b0ebb218d43ab872f8a3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2302.json",
+      "archive": "results/split1/decision_models/marginal_affine_2302.json",
+      "sha256": "65ef490e588378572da36b1ea3c0c662c60d10b1e6f13a1a7ba0dcac5ee8ee13"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2303.json",
+      "archive": "results/split1/decision_models/marginal_affine_2303.json",
+      "sha256": "bd62264f287c0581806c9b65e6d86fb2ef569c85b14f729140296742762a9a69"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_affine_2304.json",
+      "archive": "results/split1/decision_models/marginal_affine_2304.json",
+      "sha256": "04395f2fe65b655886dc6ee7298d2e02ce9e2539ed49fe0ee1011e61dc1adafb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2300.json",
+      "archive": "results/split1/decision_models/marginal_mean_2300.json",
+      "sha256": "048996c645a9f82ebf35f0a7a705d9362267804ccb8f2a73ec56a5b72d6ca7f6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2301.json",
+      "archive": "results/split1/decision_models/marginal_mean_2301.json",
+      "sha256": "a000170c909cb6d89a894e54d438f5bd17fc9945e2eeca959a2917c4a5e40538"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2302.json",
+      "archive": "results/split1/decision_models/marginal_mean_2302.json",
+      "sha256": "d988b228f97176407a539dcca42a267b4b5ad2180183185606a64f0b7f8b37c9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2303.json",
+      "archive": "results/split1/decision_models/marginal_mean_2303.json",
+      "sha256": "f4e49bc6554451f9b1e1ab5b18eb10503d9b7d746b377a08ce17d0e504f3fbfb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\marginal_mean_2304.json",
+      "archive": "results/split1/decision_models/marginal_mean_2304.json",
+      "sha256": "a07ee8f0e3e0b84e79c259c9c901872f6315661da2e1f92c676fcf4d57ba4053"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2300.json",
+      "archive": "results/split1/decision_models/natural_2300.json",
+      "sha256": "c3726b5ed3cc83a0ede8fafe44670254468a14bc13b3a48c6949923218eb6ae2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2301.json",
+      "archive": "results/split1/decision_models/natural_2301.json",
+      "sha256": "be00c6efd7eb0576d01efdf674bf671369145c575a7b2d33e62c7eaac44989d5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2302.json",
+      "archive": "results/split1/decision_models/natural_2302.json",
+      "sha256": "8b444c6290fd833d23bbc80a255a24642a57867ff1bbaebf37232b634103921f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2303.json",
+      "archive": "results/split1/decision_models/natural_2303.json",
+      "sha256": "772fcec00c7cafb45b31316545a2fc05e5de98e9435c8b01a97d9505792f5747"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_2304.json",
+      "archive": "results/split1/decision_models/natural_2304.json",
+      "sha256": "e3c13f639c2e8d81ae51b04f0736c70fef48ec0b00cb4265622a75d1d245b92b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2300.json",
+      "archive": "results/split1/decision_models/natural_affine_2300.json",
+      "sha256": "b180e7a28c5ec266ca4c85cc0496eaf2824dca964f67020975d46706712a3a51"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2301.json",
+      "archive": "results/split1/decision_models/natural_affine_2301.json",
+      "sha256": "f46692b1e5627863481e719076a0aac3d61f54b177031509f31454a1ed211e23"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2302.json",
+      "archive": "results/split1/decision_models/natural_affine_2302.json",
+      "sha256": "d72e6cee32f231c2c0c11fac461d4550043d49623af039fa8fed4cd36a7b9573"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2303.json",
+      "archive": "results/split1/decision_models/natural_affine_2303.json",
+      "sha256": "46a9e44c5ab3b8a3c6801546f11096e3b664b59d6addc84ad8ef0f4caa8acdc8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_affine_2304.json",
+      "archive": "results/split1/decision_models/natural_affine_2304.json",
+      "sha256": "39ec6c86bebdd0410dc0f4762963c59aafe4f2edcf404048a2af55e099450648"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2300.json",
+      "archive": "results/split1/decision_models/natural_mean_2300.json",
+      "sha256": "2ddf790fbec1831f657557bc2fbff275722197498c72c36bcd23816d2d767745"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2301.json",
+      "archive": "results/split1/decision_models/natural_mean_2301.json",
+      "sha256": "b1a8da398326190fd3358827bebfac45b15108034c4e46e58377b7c736c19616"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2302.json",
+      "archive": "results/split1/decision_models/natural_mean_2302.json",
+      "sha256": "a417d8833c7d84aafcdee4dd0c6567e4e04218c800fd087a6e9d7fe6e5542663"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2303.json",
+      "archive": "results/split1/decision_models/natural_mean_2303.json",
+      "sha256": "998f1930f5798a60ffb9f85080abf65d77a540844f629031c4663b734828dcbb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\natural_mean_2304.json",
+      "archive": "results/split1/decision_models/natural_mean_2304.json",
+      "sha256": "b493191e4f19b53baedbec969ac2544cf29c546beddc19162b721c168f66dc3a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\protocol.json",
+      "archive": "results/split1/decision_models/protocol.json",
+      "sha256": "581f61dd3173a1df937495f720db4292cf35b42a02bc99049e0c780a3db326c6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2300.json",
+      "archive": "results/split1/decision_models/reference_2300.json",
+      "sha256": "c0d49492ee89ee939239c5b5346b06daa7668b143d914c4815a1f51056fd3bc4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2301.json",
+      "archive": "results/split1/decision_models/reference_2301.json",
+      "sha256": "2f0c34b5ae743918b9aca20428d596e551920352dab7a68993ed8d4f51e9b35c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2302.json",
+      "archive": "results/split1/decision_models/reference_2302.json",
+      "sha256": "5f8e336a1169382ee40ce4bcea8e3137befdf864821f7c23871b86a76bb25d60"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2303.json",
+      "archive": "results/split1/decision_models/reference_2303.json",
+      "sha256": "0e41eebc0fa8f075bbea832433858375e1144a600b98d10305fd17f72a05fcb2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\decision_models\\reference_2304.json",
+      "archive": "results/split1/decision_models/reference_2304.json",
+      "sha256": "4ba80d740bfea53b44c8256db615e3dec89505c930eb1a09207709b4bada5795"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development\\manifest.json",
+      "archive": "results/split1/development/manifest.json",
+      "sha256": "7c9a952017558c65c0089e1ab225f837ad5f4f326ffcf9efc17802a7d2db94ca"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development\\preflight.json",
+      "archive": "results/split1/development/preflight.json",
+      "sha256": "6fa5336cce8be6755016c40082c569ab48c2d9a00bac19a24100fb580ada64b9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_2300.json",
+      "archive": "results/split1/development_results/combo_2300.json",
+      "sha256": "f0003e16d7476c76d24d18057eff55a88ae17020e66fdec258e10ecec6511a13"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_2301.json",
+      "archive": "results/split1/development_results/combo_2301.json",
+      "sha256": "74ba7a921f97cfd6cd235fddc249761bfbf831480368f38821b5b29d697dc901"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_2302.json",
+      "archive": "results/split1/development_results/combo_2302.json",
+      "sha256": "3e69ccdacf2a48e4b279c6ffde8f797939f7e25866ca38c8b6040a35b6cd43da"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_2303.json",
+      "archive": "results/split1/development_results/combo_2303.json",
+      "sha256": "aa55e990fceb9f281ceb90dc481bf2c90b6844a9e88b07acdda94ad66201e6d0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_2304.json",
+      "archive": "results/split1/development_results/combo_2304.json",
+      "sha256": "961ee924eb65e94ad2f434ed30d1d598c0f625e085e825ddf922d96621ea6376"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_affine_2300.json",
+      "archive": "results/split1/development_results/combo_affine_2300.json",
+      "sha256": "934952e72aa4a3fee71918e32cf2047f8d33203148f51af27c3f189e27780d8b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_affine_2301.json",
+      "archive": "results/split1/development_results/combo_affine_2301.json",
+      "sha256": "3ff1c9a8132d0931ce30527c243c0a9bea33832c2d65e788ee6db7b3252b0088"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_affine_2302.json",
+      "archive": "results/split1/development_results/combo_affine_2302.json",
+      "sha256": "f468a87e87674916e8f678534c0e496db1f0a18532763d254060473c877d34e7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_affine_2303.json",
+      "archive": "results/split1/development_results/combo_affine_2303.json",
+      "sha256": "342e9de03cde4d85344265f66945c78aa09c2413b15e39e0fdef5c411ce1b531"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_affine_2304.json",
+      "archive": "results/split1/development_results/combo_affine_2304.json",
+      "sha256": "4d3e4864661cc0268e9de7eef90824be8154fb2e96113ce01f300b8fecd2efa4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_mean_2300.json",
+      "archive": "results/split1/development_results/combo_mean_2300.json",
+      "sha256": "0a68b21bcd685c072aee7abd475236d073c1edc00195168c9e80e8cf06dccf4d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_mean_2301.json",
+      "archive": "results/split1/development_results/combo_mean_2301.json",
+      "sha256": "eaa0b04ff3b39e63276120bb5da3b3e9593729aaeda91041ea4438141c72ce2f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_mean_2302.json",
+      "archive": "results/split1/development_results/combo_mean_2302.json",
+      "sha256": "15e0432a72cfe2060c48badbcaeaf73d7af5116e3d29e49cb53c9371dfc85f2d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_mean_2303.json",
+      "archive": "results/split1/development_results/combo_mean_2303.json",
+      "sha256": "020c68d334f9bcbeacd3de01949bd246b2ea7b2e752f372b9d31885146b1057c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\combo_mean_2304.json",
+      "archive": "results/split1/development_results/combo_mean_2304.json",
+      "sha256": "abb9dfce4ab242c37054c71e621549439a3e29c654063a9df438dd1a3f92c462"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_2300.json",
+      "archive": "results/split1/development_results/marginal_2300.json",
+      "sha256": "04be09b2f07204a5bd439679624d438179952c2efd47c8abffb920c273ee51d7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_2301.json",
+      "archive": "results/split1/development_results/marginal_2301.json",
+      "sha256": "bd06a9928f2df30f96abf4de207811c1d210f07cad551a7990c7e63acaa6862c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_2302.json",
+      "archive": "results/split1/development_results/marginal_2302.json",
+      "sha256": "7094c5d06b4a98e2e35d0cb4828e9123577c6d18606ed155baffc2107b600a6e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_2303.json",
+      "archive": "results/split1/development_results/marginal_2303.json",
+      "sha256": "d0cc5fe7ae357f9d2bffc3cf43e073038f8a7cd6c064f054965346578809cef9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_2304.json",
+      "archive": "results/split1/development_results/marginal_2304.json",
+      "sha256": "5f9f29ce861de10041fa31a557e784cb472b9108d6cce9f329c5e63b8b2214c0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_affine_2300.json",
+      "archive": "results/split1/development_results/marginal_affine_2300.json",
+      "sha256": "f651a6e56766bd901e6315078e7bfbdd0c17a2d373c734bcb1d6e85d5e24c8cb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_affine_2301.json",
+      "archive": "results/split1/development_results/marginal_affine_2301.json",
+      "sha256": "a1afb6491c7268cdee1ad26e9e3ed85255c89770353e72a42ef79d3008816130"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_affine_2302.json",
+      "archive": "results/split1/development_results/marginal_affine_2302.json",
+      "sha256": "238c6af46795b583fd5904ad172798834c4c5e88321c4f71869f09ad844c6201"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_affine_2303.json",
+      "archive": "results/split1/development_results/marginal_affine_2303.json",
+      "sha256": "c8301ae0e4d24eade253e50920650d8ebeb6a6bde020b4027694a9a5a1917350"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_affine_2304.json",
+      "archive": "results/split1/development_results/marginal_affine_2304.json",
+      "sha256": "373082f7cf45085445baaca0361c29a8f91052f48df5dcbd7b3e0c346de2da95"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_mean_2300.json",
+      "archive": "results/split1/development_results/marginal_mean_2300.json",
+      "sha256": "e130440ecce07517efdcf5b3bf9037cd258aabca72b2d57558591486b9f0f725"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_mean_2301.json",
+      "archive": "results/split1/development_results/marginal_mean_2301.json",
+      "sha256": "4c4a4a78f649a23737d5ebb3b379a1511bd7225ed230e7e05d590a4271f747f7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_mean_2302.json",
+      "archive": "results/split1/development_results/marginal_mean_2302.json",
+      "sha256": "2bbbcfc4e32979543caeb455385bd17dfb23811bbdd8a697bb638d74c04bb95b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_mean_2303.json",
+      "archive": "results/split1/development_results/marginal_mean_2303.json",
+      "sha256": "f60f63371a017399e1634a765195f2815d19caed4a19bae582427cac6c604b96"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\marginal_mean_2304.json",
+      "archive": "results/split1/development_results/marginal_mean_2304.json",
+      "sha256": "91530765a5f07b8ff86cc91c1404c5ac9376b232502fe442ccfc98e9d345630f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_2300.json",
+      "archive": "results/split1/development_results/natural_2300.json",
+      "sha256": "67dfa053435c2bb77f4825d78b2619f9c0cbcb2548bbb459fe9a15fff3fb1734"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_2301.json",
+      "archive": "results/split1/development_results/natural_2301.json",
+      "sha256": "49c0e171f7288bb267e0a9b81b75414fe2ffbafabfd7937dda759149b02cc7b8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_2302.json",
+      "archive": "results/split1/development_results/natural_2302.json",
+      "sha256": "88d5ece470c8757b084e5efb5a706ded39d725c7dd1d49926944b8302d366dc0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_2303.json",
+      "archive": "results/split1/development_results/natural_2303.json",
+      "sha256": "214ddd0c18e109d6ac426f9d52690c6f0d69a703d0da7affbd92e9497e4a3df3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_2304.json",
+      "archive": "results/split1/development_results/natural_2304.json",
+      "sha256": "3f6f50c6b9eabc713dd12de82ed4183be825f0254547da3e7729cbbb431fa6e1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_affine_2300.json",
+      "archive": "results/split1/development_results/natural_affine_2300.json",
+      "sha256": "b838f2df17067ea3f8b6c87601dfb9deedb32c49be79eba8d9294bee97efca73"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_affine_2301.json",
+      "archive": "results/split1/development_results/natural_affine_2301.json",
+      "sha256": "92512328cd406427f686d8b55c486c70618a882e02d13280ff11364715f6cc6c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_affine_2302.json",
+      "archive": "results/split1/development_results/natural_affine_2302.json",
+      "sha256": "d3fd4d1c4a3b91732ea8e1226669d234c0061cbe651959a9fa2ca21fdd03f5d6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_affine_2303.json",
+      "archive": "results/split1/development_results/natural_affine_2303.json",
+      "sha256": "dceb335ac46282a0d26579451a48388fe8fe585ec687c8ca9c93cd3afea05a36"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_affine_2304.json",
+      "archive": "results/split1/development_results/natural_affine_2304.json",
+      "sha256": "b4c2c5385b0b3f33282ced4ef3357cd1f7f55f8842a45d9bbb057eabaa61e4dc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_mean_2300.json",
+      "archive": "results/split1/development_results/natural_mean_2300.json",
+      "sha256": "d5a8a8f85600038b730a3fe034a71896a7b1c8219c12ea4c3555402475e9cd84"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_mean_2301.json",
+      "archive": "results/split1/development_results/natural_mean_2301.json",
+      "sha256": "bbf6024351ec88a234a78ef5af34b6d4983e28beaeda7e5c0df748764ba5be01"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_mean_2302.json",
+      "archive": "results/split1/development_results/natural_mean_2302.json",
+      "sha256": "0bffb6e32341fd209f866f77a15a078debac9ac10df380d9ff30a082131e0360"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_mean_2303.json",
+      "archive": "results/split1/development_results/natural_mean_2303.json",
+      "sha256": "679e1632a1eb1f902fb20bde6f61fdcc79e894a981f8c83bf4022812a2504a8c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\natural_mean_2304.json",
+      "archive": "results/split1/development_results/natural_mean_2304.json",
+      "sha256": "de6a1373f47a29f1edb338485f7bb81c1ba82be0ddf48c9ed1a5f50ecf3837f1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\reference_2300.json",
+      "archive": "results/split1/development_results/reference_2300.json",
+      "sha256": "d4f7c257242851d6cca9181535ada8311492584ab548ff7c58e09d7cdb2fdb60"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\reference_2301.json",
+      "archive": "results/split1/development_results/reference_2301.json",
+      "sha256": "f6edcafbd58c120bfbc7ddc1338f5b4e3a1a0c1453f51163fcdfd85329eb5cb1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\reference_2302.json",
+      "archive": "results/split1/development_results/reference_2302.json",
+      "sha256": "0a718a763bd51dc4134ea6e58772dbfca68b23363fee24db52de8cd8d5114743"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\reference_2303.json",
+      "archive": "results/split1/development_results/reference_2303.json",
+      "sha256": "f1ecaa8ab177aab35c3a7dd18e30be2dd7434331c1c6fef469000fe36ea3237a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\reference_2304.json",
+      "archive": "results/split1/development_results/reference_2304.json",
+      "sha256": "789cd7895f9ced11efcb948d405001e5f303ab2e65b46026259e9dcbb87ece9f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\development_results\\summary.json",
+      "archive": "results/split1/development_results/summary.json",
+      "sha256": "4783e113845e15cad6e81e24485954d79d476e8656473a161372d91de723f246"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\calibration.json",
+      "archive": "results/split1/models/marginal_2300/calibration.json",
+      "sha256": "bf0ebbc35ee8d51a16a3ef52b14f1817f88c857465d6911fd0d7c2ce11c62153"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2300\\receipt.json",
+      "archive": "results/split1/models/marginal_2300/receipt.json",
+      "sha256": "c5747751a5f076ed4c6934eb21aa13dfef8213a384af9466e43bb36bf1a37686"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2301\\calibration.json",
+      "archive": "results/split1/models/marginal_2301/calibration.json",
+      "sha256": "8f26a47e84b3a92abd6154bad165c0bd1a93acadf570d1962c5b7a9b2567136f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2301\\receipt.json",
+      "archive": "results/split1/models/marginal_2301/receipt.json",
+      "sha256": "5450a86bb895e609215461b8667fae406ac2cde49fb09bf8db271fd600160b02"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\calibration.json",
+      "archive": "results/split1/models/marginal_2302/calibration.json",
+      "sha256": "b1ca397a35da0f677fdc0889cfb1e96dc50f9cea97ef0dc884924112034dbb05"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2302\\receipt.json",
+      "archive": "results/split1/models/marginal_2302/receipt.json",
+      "sha256": "affc7641637acf49b27eccb39645148dd74269b0b1530ee14ac24c2c278eaee2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2303\\calibration.json",
+      "archive": "results/split1/models/marginal_2303/calibration.json",
+      "sha256": "c318a64a1840bd64ee737c42a8ddd5a94b494b0f6ff329bb95abbeeca53d7870"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2303\\receipt.json",
+      "archive": "results/split1/models/marginal_2303/receipt.json",
+      "sha256": "94f2959493f9c3feb0296d4d544bf44f7efe5f94a4289c649aa2b9a766cf94ba"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\calibration.json",
+      "archive": "results/split1/models/marginal_2304/calibration.json",
+      "sha256": "a77876912e58c97b0592d39d3259f051906b96744cb5c1230c1736a2ffced6dd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\models\\marginal_2304\\receipt.json",
+      "archive": "results/split1/models/marginal_2304/receipt.json",
+      "sha256": "47ff5f37634d535db2d1ab537cd1ca226e1353307003e1c5bcb95593e92dc845"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2300\\calibration.json",
+      "archive": "results/split1/scores/combo_2300/calibration.json",
+      "sha256": "efe632b17bf5cda1010100524080d30b91f3301430e669103879e87c1e677510"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2300\\confirmation.json",
+      "archive": "results/split1/scores/combo_2300/confirmation.json",
+      "sha256": "fa44bb983b006bee4bb93d231a9f315b2c69b02cd4ceb47b23f3511d4b2463c0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2300\\development.json",
+      "archive": "results/split1/scores/combo_2300/development.json",
+      "sha256": "56110c6e1500213ca862083fdbd7029d501af0f12d32283c5ecec365ce295907"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2300\\fusion_fit.json",
+      "archive": "results/split1/scores/combo_2300/fusion_fit.json",
+      "sha256": "3977d0153906f987d15ea5d1dd67eb750559719500d61fbc9e43c6eccaec7108"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2301\\calibration.json",
+      "archive": "results/split1/scores/combo_2301/calibration.json",
+      "sha256": "c7c06554395dec74debe61c8cd45ac948d7cda2c96c6958c6ff3d4caeb331da2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2301\\confirmation.json",
+      "archive": "results/split1/scores/combo_2301/confirmation.json",
+      "sha256": "29f4d58c4d18aaffbf730a798c87ad02b30da3de0657aae20b23b90864252563"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2301\\development.json",
+      "archive": "results/split1/scores/combo_2301/development.json",
+      "sha256": "d37ca434dcf8cd3d3d62ef834523149db006d5d44c7fb09e7195a39918c038d8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2301\\fusion_fit.json",
+      "archive": "results/split1/scores/combo_2301/fusion_fit.json",
+      "sha256": "7dbae7c823141ecc4382617a0a2951bb4562f865b96ad82ad75a79396d937854"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2302\\calibration.json",
+      "archive": "results/split1/scores/combo_2302/calibration.json",
+      "sha256": "43fa20b38720c641c157c01a77437a54415181791d61c2a2592ecc0336566a01"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2302\\confirmation.json",
+      "archive": "results/split1/scores/combo_2302/confirmation.json",
+      "sha256": "b08e7df774b4127cdb147c8a2e49dcba03589e7d9f082cb5d049c87393103e16"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2302\\development.json",
+      "archive": "results/split1/scores/combo_2302/development.json",
+      "sha256": "fb04be18ee0c3629c0888512947ac01819ee664dbc2a76c535f9963f1b970563"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2302\\fusion_fit.json",
+      "archive": "results/split1/scores/combo_2302/fusion_fit.json",
+      "sha256": "3edd7e1a87a5094341eaf9c8402b2f30136c4d9207e264c365b8557a4e5ec49b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2303\\calibration.json",
+      "archive": "results/split1/scores/combo_2303/calibration.json",
+      "sha256": "1e45e71771757f564b9278de2d5b9d44d543bea17709fd7c1c9eec4c06b0a7d1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2303\\confirmation.json",
+      "archive": "results/split1/scores/combo_2303/confirmation.json",
+      "sha256": "8466db49caa32a04715f0734be71962996d4b6f4a598ecc9dd0b5766a5b22b79"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2303\\development.json",
+      "archive": "results/split1/scores/combo_2303/development.json",
+      "sha256": "523c99291747d248f68ab028a2c0c39de34d14b55dfc18e43cb2e5abb439665d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2303\\fusion_fit.json",
+      "archive": "results/split1/scores/combo_2303/fusion_fit.json",
+      "sha256": "9ca765ef37ff7c37d4b24084a0a84fba9da7ff3298d8c250577d3d7c3e55530f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2304\\calibration.json",
+      "archive": "results/split1/scores/combo_2304/calibration.json",
+      "sha256": "f95836b2ebe9934f81d7b4a4ce867c9035fef4b5c61fa4129f2ecfd15c385b69"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2304\\confirmation.json",
+      "archive": "results/split1/scores/combo_2304/confirmation.json",
+      "sha256": "57a8afbea416c88e455b4dbad793696aa8c61441a6d6deb46b25861b9608d14a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2304\\development.json",
+      "archive": "results/split1/scores/combo_2304/development.json",
+      "sha256": "024c0b16d52cc4720f1d8697165433eb2e06a8e5045c05d50701cb468ed89d06"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\combo_2304\\fusion_fit.json",
+      "archive": "results/split1/scores/combo_2304/fusion_fit.json",
+      "sha256": "cf5d439239f0a23d756c045e63492c062e3bb6523f87e0b5bc1c86750f59aa5c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2300\\calibration.json",
+      "archive": "results/split1/scores/marginal_2300/calibration.json",
+      "sha256": "8c46b55e1a23df09390b64dc984f219c9913ff3fce11c6d61e4dd4e45b6edc2a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2300\\confirmation.json",
+      "archive": "results/split1/scores/marginal_2300/confirmation.json",
+      "sha256": "f22dea6239d29521251f67b1e4167b992b845f2214409d10e091b0d3c1840c05"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2300\\development.json",
+      "archive": "results/split1/scores/marginal_2300/development.json",
+      "sha256": "6f7e7364fee6d9d3f05fa048d127a2ac589f8a15e04f43c8ec77f53fcf34fa14"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2300\\fusion_fit.json",
+      "archive": "results/split1/scores/marginal_2300/fusion_fit.json",
+      "sha256": "8959cbceffd385600c21240ee323912db7484da9a62897242e9d104c5c176ae0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2301\\calibration.json",
+      "archive": "results/split1/scores/marginal_2301/calibration.json",
+      "sha256": "2a2e2fae37703d44fc8d0b37801bdcbde79820f105a5cc90f45c1f9a4d0fe901"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2301\\confirmation.json",
+      "archive": "results/split1/scores/marginal_2301/confirmation.json",
+      "sha256": "2b15f1dea0f571cf2c2324d6f6080cb879a1164a7992f4b294a83b6cdfb8979b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2301\\development.json",
+      "archive": "results/split1/scores/marginal_2301/development.json",
+      "sha256": "c9562fa32f71c5a5c42d1777eb92513ec29143a03f58866dbc1a6efe18faa996"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2301\\fusion_fit.json",
+      "archive": "results/split1/scores/marginal_2301/fusion_fit.json",
+      "sha256": "35c71b2da8d5b737439c815acb6032dabaa2bafb56fecdadd87220f91e425b20"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2302\\calibration.json",
+      "archive": "results/split1/scores/marginal_2302/calibration.json",
+      "sha256": "8c94cdcd845c40781c954218deea66d32fe4673e446a38ff068702fc369f0a13"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2302\\confirmation.json",
+      "archive": "results/split1/scores/marginal_2302/confirmation.json",
+      "sha256": "8583f449cb46b71c2864355a3ff43a5041cfd88230f882d36f7f5edcc2d300aa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2302\\development.json",
+      "archive": "results/split1/scores/marginal_2302/development.json",
+      "sha256": "b9b0b9f3a8c2c48ceac037fabfe095077f3b7cbcff1f467da95267042928f11e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2302\\fusion_fit.json",
+      "archive": "results/split1/scores/marginal_2302/fusion_fit.json",
+      "sha256": "404985c4a18f6d0c3bc27e8239fdd608f2fab2f03ff646d997882363fdf85c1c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2303\\calibration.json",
+      "archive": "results/split1/scores/marginal_2303/calibration.json",
+      "sha256": "4cbe23f357646ba50bf982c9b3c4caf60c32352d2d09d2fc5cf7626c156b7241"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2303\\confirmation.json",
+      "archive": "results/split1/scores/marginal_2303/confirmation.json",
+      "sha256": "db7d042974ba4e707e40dd7105f73773e88cc42a931a8825e7034656d0244479"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2303\\development.json",
+      "archive": "results/split1/scores/marginal_2303/development.json",
+      "sha256": "04db5f8c9f07347f429d13157851a2ef834bf93aba01802dc0ec4aeb520ef75b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2303\\fusion_fit.json",
+      "archive": "results/split1/scores/marginal_2303/fusion_fit.json",
+      "sha256": "c2e9a4e66480babcc509a900b0cac9c848725787c0ecb395a24ba3244cec7f86"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2304\\calibration.json",
+      "archive": "results/split1/scores/marginal_2304/calibration.json",
+      "sha256": "82d8cf4fd3caf63d9e90635d1f49fcd254036573c7b1a13cff4f0128b188070b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2304\\confirmation.json",
+      "archive": "results/split1/scores/marginal_2304/confirmation.json",
+      "sha256": "65112d0e6ea8e4fb6fb91b67d24940aafb2ca9665a6418d89507ae84352a6c9f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2304\\development.json",
+      "archive": "results/split1/scores/marginal_2304/development.json",
+      "sha256": "e73760fcd8c88d4d014d5b0258a861e800850777dcb3d6d5298014e3b24904c1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\marginal_2304\\fusion_fit.json",
+      "archive": "results/split1/scores/marginal_2304/fusion_fit.json",
+      "sha256": "d35526aac0d045497bd724b36e0802fc33062935fe828305b0bdb825ed18d66d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2300\\calibration.json",
+      "archive": "results/split1/scores/natural_2300/calibration.json",
+      "sha256": "74742afb51415c8be1336b83f84b7d3b215747e40bea3742a2dbe6bd78475d1f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2300\\confirmation.json",
+      "archive": "results/split1/scores/natural_2300/confirmation.json",
+      "sha256": "4bd1d5bcd63dd855e3fe58e80842fb9ac18e6476185255d7c878a7caf5991f77"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2300\\development.json",
+      "archive": "results/split1/scores/natural_2300/development.json",
+      "sha256": "6bb74a2dc98060218d8c7b64e668274354cb48b54df9062977ac3b2937e34f83"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2300\\fusion_fit.json",
+      "archive": "results/split1/scores/natural_2300/fusion_fit.json",
+      "sha256": "bc9ea251ea49d7affb205de745841186e8e894393f128db41b688ad9a6cc567c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2301\\calibration.json",
+      "archive": "results/split1/scores/natural_2301/calibration.json",
+      "sha256": "eb98baa2e534e4f3187670124eaf697d670d38474e1411eaf9ed5b691d262553"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2301\\confirmation.json",
+      "archive": "results/split1/scores/natural_2301/confirmation.json",
+      "sha256": "2224ff546c913cd720842d9fe1bee8f6aa3e747f00a848aa70b41255eae360cf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2301\\development.json",
+      "archive": "results/split1/scores/natural_2301/development.json",
+      "sha256": "96acd2d6ebf5c9aabda22b5ca8cab944645ee708f2775f4d216a773b8f4e4c1d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2301\\fusion_fit.json",
+      "archive": "results/split1/scores/natural_2301/fusion_fit.json",
+      "sha256": "129d79da57c6fbe13081b1f9f3ff4e543ac0fa7d3b0646a4ffe1c22862e0565e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2302\\calibration.json",
+      "archive": "results/split1/scores/natural_2302/calibration.json",
+      "sha256": "942a0d95be1fb5d454564ce9e8ac256522f6b1ef6052f6c38b52c8fa59a1af65"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2302\\confirmation.json",
+      "archive": "results/split1/scores/natural_2302/confirmation.json",
+      "sha256": "fba72888f4162eade84a5572facae358f2be301e9688d27eb2f3b1968fe7d2cd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2302\\development.json",
+      "archive": "results/split1/scores/natural_2302/development.json",
+      "sha256": "d343b53ab1a81c65b855387332dbbfebb179dd2dfe2f8b9a77b680ed9587619a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2302\\fusion_fit.json",
+      "archive": "results/split1/scores/natural_2302/fusion_fit.json",
+      "sha256": "c0708895aff16045af3056163e5c59eaca877ab82a5da5e3f5212a30e2ab0124"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2303\\calibration.json",
+      "archive": "results/split1/scores/natural_2303/calibration.json",
+      "sha256": "8525d6d03c91ea997e2d1308c7f3eafa92ea7d00209e14309deafa27aa6f7ca8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2303\\confirmation.json",
+      "archive": "results/split1/scores/natural_2303/confirmation.json",
+      "sha256": "1023d142269a5e6b8069b44861f3362afda6fb04ef74e165ac0d198dc1280a6f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2303\\development.json",
+      "archive": "results/split1/scores/natural_2303/development.json",
+      "sha256": "fd7cc7539e4168e584a07ebd3598586e2ffbc91498b5b7feb51f77f77573493c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2303\\fusion_fit.json",
+      "archive": "results/split1/scores/natural_2303/fusion_fit.json",
+      "sha256": "14d72a1a510739e2723459d230f6429aa7720cba13dffaa270c9222755537c0c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2304\\calibration.json",
+      "archive": "results/split1/scores/natural_2304/calibration.json",
+      "sha256": "426c081201b15ff8b135c35c5c419d31d98b29d2bcdfc70880ad94c7ab9ab01e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2304\\confirmation.json",
+      "archive": "results/split1/scores/natural_2304/confirmation.json",
+      "sha256": "022968022a8323b6bee9bed0a72de8a241d0d5db84ea716b7740388b129a67a1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2304\\development.json",
+      "archive": "results/split1/scores/natural_2304/development.json",
+      "sha256": "953aefd3d1ce82d6284381b5154858d7c7ce62074f033e48a66c671c5f6d1998"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\natural_2304\\fusion_fit.json",
+      "archive": "results/split1/scores/natural_2304/fusion_fit.json",
+      "sha256": "b186ea77f128607ade9b777c36719f53feb6d2cac8c77fa36801c490e3cbeb83"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2300\\calibration.json",
+      "archive": "results/split1/scores/reference_2300/calibration.json",
+      "sha256": "541e95dd143f1fa7395be084ef0539f317e156b4fe63c31e2836d1a5990a03a9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2300\\confirmation.json",
+      "archive": "results/split1/scores/reference_2300/confirmation.json",
+      "sha256": "e9d477ea12fd765747652cef1417280cdba8c8c6a217405e481780ac68894357"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2300\\development.json",
+      "archive": "results/split1/scores/reference_2300/development.json",
+      "sha256": "db574032864404bf53e466974e135e8cb8639f987ac6d6eff332c18606e0e2cc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2300\\fusion_fit.json",
+      "archive": "results/split1/scores/reference_2300/fusion_fit.json",
+      "sha256": "51d70374c99a8481c0118ae0bbb87c3d5e08b3ddaa64cb0e5458110dcd27c1a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2301\\calibration.json",
+      "archive": "results/split1/scores/reference_2301/calibration.json",
+      "sha256": "462d674995d6712248dd3325ee06a85bd676ff65283c740b66095800ccf77526"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2301\\confirmation.json",
+      "archive": "results/split1/scores/reference_2301/confirmation.json",
+      "sha256": "16149f68b3355c959009e4dab594aa28b321afdbfc880dbc893be15552638c8f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2301\\development.json",
+      "archive": "results/split1/scores/reference_2301/development.json",
+      "sha256": "6e51d24d5a15e484e4653476fdd22fbf5ce7e1909cbec41cb3521457f1a047c3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2301\\fusion_fit.json",
+      "archive": "results/split1/scores/reference_2301/fusion_fit.json",
+      "sha256": "b40e429b354f398539247b6b3e0e91b9a5ff7386696c8bbce763073669f9bca4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2302\\calibration.json",
+      "archive": "results/split1/scores/reference_2302/calibration.json",
+      "sha256": "b645eacf768333d60743478752df715c014a2bcdc9e20d7476257fd97d476c79"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2302\\confirmation.json",
+      "archive": "results/split1/scores/reference_2302/confirmation.json",
+      "sha256": "b325eb3ecde809c169d17e07dbf24e84d29c27ba4bb090e482bceb19f6e58434"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2302\\development.json",
+      "archive": "results/split1/scores/reference_2302/development.json",
+      "sha256": "e904e2a22251eb0f1b41f54feef8bcb6ff53a89cce3863cca26cef76c2371693"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2302\\fusion_fit.json",
+      "archive": "results/split1/scores/reference_2302/fusion_fit.json",
+      "sha256": "1e64b3071b172cbe9dd90c6847041c32193b82247ad359fa894fa714426dcadf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2303\\calibration.json",
+      "archive": "results/split1/scores/reference_2303/calibration.json",
+      "sha256": "529942340c071de7a617ee3af2cb3b366adb543e13582b311f634aac80c90740"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2303\\confirmation.json",
+      "archive": "results/split1/scores/reference_2303/confirmation.json",
+      "sha256": "ebfd6b7d68aaae10e293f9168e1a138da1c7211e123a320bda3215b00e5dcf13"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2303\\development.json",
+      "archive": "results/split1/scores/reference_2303/development.json",
+      "sha256": "5d3593b70646f26d8ebc4e44e735614a86575930ec941177df0b632aead01f5c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2303\\fusion_fit.json",
+      "archive": "results/split1/scores/reference_2303/fusion_fit.json",
+      "sha256": "d3fd1cdf9a7c3722e6d9b4dda2db42d6396e273433a8591039c245b4d9a5a144"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2304\\calibration.json",
+      "archive": "results/split1/scores/reference_2304/calibration.json",
+      "sha256": "a5c0763eacf4343d16a246855a92ce433796724d4f3ddccbcee8f18ed70631fc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2304\\confirmation.json",
+      "archive": "results/split1/scores/reference_2304/confirmation.json",
+      "sha256": "6734b864ceb4d92cf209557809683dad5cb73dd9a4235b13ab1ee7a3268e905a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2304\\development.json",
+      "archive": "results/split1/scores/reference_2304/development.json",
+      "sha256": "1e8eef6ddf722b38f336a639fa7ffd812650599608b360b7fdffa26a75a07cab"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\scores\\reference_2304\\fusion_fit.json",
+      "archive": "results/split1/scores/reference_2304/fusion_fit.json",
+      "sha256": "eb260cb283355dabb1f533f830a0221fca38a445b24453ee7f85b396b1d8f322"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\protocol.json",
+      "archive": "results/split1/training/marginal/protocol.json",
+      "sha256": "7aa5a5dd5ae4be64c5e9ddeb8f608072e6f1ac35e72271ba3e5ee96f5625c17c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\status.json",
+      "archive": "results/split1/training/marginal/status.json",
+      "sha256": "f76d126448940f5cdec9e9790be32bfebec0f7f393826eeba6e179992075f16e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2300\\history.json",
+      "archive": "results/split1/training/marginal/M_2300/history.json",
+      "sha256": "0abd72831e9d52528799eabaa368ac9344c9c0093dfa4ee2e02bd925ca220e39"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2300\\receipt.json",
+      "archive": "results/split1/training/marginal/M_2300/receipt.json",
+      "sha256": "3d66ae88e380cd8bb2f941269d1db937aa55cf03c83232538737ca5b49ac84a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2301\\history.json",
+      "archive": "results/split1/training/marginal/M_2301/history.json",
+      "sha256": "4318e814c03d0c606881670640cd4d99e65c6dc7f20c188f2656245ef154cc05"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2301\\receipt.json",
+      "archive": "results/split1/training/marginal/M_2301/receipt.json",
+      "sha256": "efecdabffb4a1a506507ee85bc18fa69e165a23a03939d632324b2a5bfe45793"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2302\\history.json",
+      "archive": "results/split1/training/marginal/M_2302/history.json",
+      "sha256": "c264e05bb2c639f36ba65bef68dd82ec5c60ea4ea822f724e95e72465e1d5bf7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2302\\receipt.json",
+      "archive": "results/split1/training/marginal/M_2302/receipt.json",
+      "sha256": "cd0116b6c9a8b23ffe57bb5175d149e22985d11df7f2000ec302e412e1b51eac"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2303\\history.json",
+      "archive": "results/split1/training/marginal/M_2303/history.json",
+      "sha256": "381a405c35d4722e9f9f7931f7f0a9081cb4d50ff283a0b564dc531c93edb1ab"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2303\\receipt.json",
+      "archive": "results/split1/training/marginal/M_2303/receipt.json",
+      "sha256": "41426e71c01ab17ccf900e5b56503abbfb7905e96e52f2040f46f3a4fb6796cb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2304\\history.json",
+      "archive": "results/split1/training/marginal/M_2304/history.json",
+      "sha256": "872ccf4f3d231f22d19f43688cc32006f84923ecb52839faea970bab9eff5053"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\training\\marginal\\M_2304\\receipt.json",
+      "archive": "results/split1/training/marginal/M_2304/receipt.json",
+      "sha256": "ab8a23c969ea1fe68378e1d672bb1d0e355815abb3a65800372c8b1ee3facf29"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_runtime_replay.json",
+      "archive": "results/split2/confirmation_runtime_replay.json",
+      "sha256": "8e238529afdd6d0315948eed481b05b623ce3aa5414ba581185e2fedc81d9185"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_runtime_replay.json",
+      "archive": "results/split2/development_runtime_replay.json",
+      "sha256": "8e238529afdd6d0315948eed481b05b623ce3aa5414ba581185e2fedc81d9185"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\objective_design.json",
+      "archive": "results/split2/objective_design.json",
+      "sha256": "84c37d2431c41489fb3af38aab24cb68bada138fa9e8e2464300ad3d2e0ab6f8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\reference_audit.json",
+      "archive": "results/split2/reference_audit.json",
+      "sha256": "2698b14bade1cea27d4d3b7c6d341ee3ff50427fccceaf00628addfe936c689c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training_status.json",
+      "archive": "results/split2/training_status.json",
+      "sha256": "62d8eb1fdfccdfe81f243b2e712792179359b5746f349ce82bbff602ee20b6d1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation\\manifest.json",
+      "archive": "results/split2/confirmation/manifest.json",
+      "sha256": "2e8b410a1469c1d0e829e3459d051520b730505afcce5be5de4ca89fa5ab4309"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation\\preflight.json",
+      "archive": "results/split2/confirmation/preflight.json",
+      "sha256": "29755086b027d8af009f69b81bcb2290ce586408e37d6f15e26786e934f77741"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_2300.json",
+      "archive": "results/split2/confirmation_results/combo_2300.json",
+      "sha256": "ba5bec598c2714eaf22bd8d65c0f48ab31f7365e8465086b28c3daebef1985e9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_2301.json",
+      "archive": "results/split2/confirmation_results/combo_2301.json",
+      "sha256": "87c3a1ba9527557f85f677d1ac9d45c3e5c8f6cb1342043fb41302f67efdce6e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_2302.json",
+      "archive": "results/split2/confirmation_results/combo_2302.json",
+      "sha256": "192561d317b981c6940c755e3669a253463e8dd1b2ded49de6e695cc09f53015"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_2303.json",
+      "archive": "results/split2/confirmation_results/combo_2303.json",
+      "sha256": "d779e57fb9f74c9ec0cd8f64c00af9dbe4e3e46a8ff7b2ce7ac56612ad82b823"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_2304.json",
+      "archive": "results/split2/confirmation_results/combo_2304.json",
+      "sha256": "01ef20bc6c80f3c4c7ebe17490db96bf2e6e22617c60b17afac39d50824af0c5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_affine_2300.json",
+      "archive": "results/split2/confirmation_results/combo_affine_2300.json",
+      "sha256": "d3aac5e28ae3cd07487553b216105732b3667328a4a975dcc27d59c194bbcd27"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_affine_2301.json",
+      "archive": "results/split2/confirmation_results/combo_affine_2301.json",
+      "sha256": "5419cf8cda2ecc34c11da5639906dd66f846c51c29e0a24400d48314fde96f26"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_affine_2302.json",
+      "archive": "results/split2/confirmation_results/combo_affine_2302.json",
+      "sha256": "750b8bea0c5f01102844e2c258bf740ed9b3c205fc9de29a169e72ac91524af9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_affine_2303.json",
+      "archive": "results/split2/confirmation_results/combo_affine_2303.json",
+      "sha256": "d819c32f63ac33d7ec9f8d7de633d6037667b5580e686d0ffb09776d1307571f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_affine_2304.json",
+      "archive": "results/split2/confirmation_results/combo_affine_2304.json",
+      "sha256": "abe21eba855e226119033e39858740e6dc5f2ff5e30515bc67f8a5950a596dbe"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_mean_2300.json",
+      "archive": "results/split2/confirmation_results/combo_mean_2300.json",
+      "sha256": "65fcf26be49d6588a67f2e3a5b7dde63a611bc6f5cd9190a91eb9044e8132b78"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_mean_2301.json",
+      "archive": "results/split2/confirmation_results/combo_mean_2301.json",
+      "sha256": "ebb3fa65edd9487a19abae93b7041550fe5b61a12f2d5e8abf134f58ebbe6720"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_mean_2302.json",
+      "archive": "results/split2/confirmation_results/combo_mean_2302.json",
+      "sha256": "9fe36ed7b1ec97e4a567b421fa08802c82d1d25d9cb3b489a117efe4e809afcc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_mean_2303.json",
+      "archive": "results/split2/confirmation_results/combo_mean_2303.json",
+      "sha256": "20085348ca23a8b5e25b9ecdb5527422c88aab9aa32f5c6ab73831a24d70f58b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\combo_mean_2304.json",
+      "archive": "results/split2/confirmation_results/combo_mean_2304.json",
+      "sha256": "328dc4a13074aadaabc551643243830aa65498cdb0f86b5dceec1e1fca703017"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_2300.json",
+      "archive": "results/split2/confirmation_results/marginal_2300.json",
+      "sha256": "e2808aaf0a8079551e37c54c269714abb8818cf43408c7c5dbd48405edf9a7ae"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_2301.json",
+      "archive": "results/split2/confirmation_results/marginal_2301.json",
+      "sha256": "bf4be9ef7ce3f20e5abb2f792a7e7ae5cee5a6ddf56bc33fcc723f66ed8b09f5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_2302.json",
+      "archive": "results/split2/confirmation_results/marginal_2302.json",
+      "sha256": "1f95a7a7f1b5972fc609e02c07e05bd320c467f9ced2558e04f87bd8037efb66"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_2303.json",
+      "archive": "results/split2/confirmation_results/marginal_2303.json",
+      "sha256": "1086efdafbee45fb1dfcc9f5eb31cd038ec26c143c1be2c58dc2dc4613c04ecb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_2304.json",
+      "archive": "results/split2/confirmation_results/marginal_2304.json",
+      "sha256": "ada8b331de8275556868529a1993325f8eed4d1e89fd1fe6fbd37531ce1c63ef"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_affine_2300.json",
+      "archive": "results/split2/confirmation_results/marginal_affine_2300.json",
+      "sha256": "d7f4906972e7b24227c38091624c7068bdac30c73385f1ca313ae8701c20618f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_affine_2301.json",
+      "archive": "results/split2/confirmation_results/marginal_affine_2301.json",
+      "sha256": "89ef325298223f1772ab3b6ba1170a883d74b08768b1a4cfcee805d70fe28006"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_affine_2302.json",
+      "archive": "results/split2/confirmation_results/marginal_affine_2302.json",
+      "sha256": "33e0b0cb553a16d1e9ce1bd680c38d2ecc8582972930e34aae039159be68df16"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_affine_2303.json",
+      "archive": "results/split2/confirmation_results/marginal_affine_2303.json",
+      "sha256": "8bcd876d9370d9340182c3b36c8555b6c09f0bb2a35d565c45c136cada0ef45d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_affine_2304.json",
+      "archive": "results/split2/confirmation_results/marginal_affine_2304.json",
+      "sha256": "77b0105103c2b57a7b00770a414d8b65f4e98ac4baf11bf831ba5b5b198d661c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_mean_2300.json",
+      "archive": "results/split2/confirmation_results/marginal_mean_2300.json",
+      "sha256": "4376e30f35de8e0b0f2f33ba582f1f9f1d78c3e3d501e35ec069697d40d6955d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_mean_2301.json",
+      "archive": "results/split2/confirmation_results/marginal_mean_2301.json",
+      "sha256": "98ab006f43616cdf39d45c0c91b8d5467509aa33884c4314148fb60b8573a090"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_mean_2302.json",
+      "archive": "results/split2/confirmation_results/marginal_mean_2302.json",
+      "sha256": "8b4213175109a848f0e871c635673f3f1678640a6f887968a170fdb505c81604"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_mean_2303.json",
+      "archive": "results/split2/confirmation_results/marginal_mean_2303.json",
+      "sha256": "b10fcb504eac80765e05eb9bfcb21b17fe05cf9f6d66016af8ec3ea754b967c4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\marginal_mean_2304.json",
+      "archive": "results/split2/confirmation_results/marginal_mean_2304.json",
+      "sha256": "9509165bfb75f788115d3e3b5a9c8ef963972e2dd691f9c92f9feb4c3ddedc6a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_2300.json",
+      "archive": "results/split2/confirmation_results/natural_2300.json",
+      "sha256": "d8bcce21525997d0ad37562d9d94d61380f8bbae2478d8c84c01ebd2fbb4a1ad"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_2301.json",
+      "archive": "results/split2/confirmation_results/natural_2301.json",
+      "sha256": "3c2cec85677f590c93858bbe650e6d209dfca29779248ad2de4c58314fcdf0fa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_2302.json",
+      "archive": "results/split2/confirmation_results/natural_2302.json",
+      "sha256": "f3cbe39912f0e91cbcc5830b93df2fd4d1528a4877e3477ea3462c1e5c5c461b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_2303.json",
+      "archive": "results/split2/confirmation_results/natural_2303.json",
+      "sha256": "4ce598cc28a43dc6260b7c3e33c897f96b285b6856a52bade19af94ec40c176e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_2304.json",
+      "archive": "results/split2/confirmation_results/natural_2304.json",
+      "sha256": "e5e88d4ff7045206e91daa3de7d7ae97347a60fedde4d21185aed25a4dce89aa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_affine_2300.json",
+      "archive": "results/split2/confirmation_results/natural_affine_2300.json",
+      "sha256": "54d24078f79ee172bd66e38d5dd7937fa9fe59df1ffcd49709e363992ebaf236"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_affine_2301.json",
+      "archive": "results/split2/confirmation_results/natural_affine_2301.json",
+      "sha256": "f81c23d8e1c72772bc6cc64ed708fdae00e539f0230d95c2dcab1999eb0a299e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_affine_2302.json",
+      "archive": "results/split2/confirmation_results/natural_affine_2302.json",
+      "sha256": "b82690201a19a6c1b5e6df93a59e577b60d8145941f650b2c57f6c3982c8d295"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_affine_2303.json",
+      "archive": "results/split2/confirmation_results/natural_affine_2303.json",
+      "sha256": "6205a77b6f6677010a43506471ea07f3f2a067841408d161d27fcb037b65b34d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_affine_2304.json",
+      "archive": "results/split2/confirmation_results/natural_affine_2304.json",
+      "sha256": "9132a17461f3dadb20f0d2560c6803a7984889e42f6e1a1368c6a0005f9ec901"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_mean_2300.json",
+      "archive": "results/split2/confirmation_results/natural_mean_2300.json",
+      "sha256": "67792ad8b757eae2a6e3441e43d932a109789b16d087b7c1148bdd260f3fc289"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_mean_2301.json",
+      "archive": "results/split2/confirmation_results/natural_mean_2301.json",
+      "sha256": "9b42c7f8585670379e22485969b8379e20d1ba59eebd1d0886456da2e19071ef"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_mean_2302.json",
+      "archive": "results/split2/confirmation_results/natural_mean_2302.json",
+      "sha256": "660715836796096f1254bf86cd2fe3303fc804020960e3172a5a227769d87100"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_mean_2303.json",
+      "archive": "results/split2/confirmation_results/natural_mean_2303.json",
+      "sha256": "39e545a875e44f3f585405ad792eacf431eb18531a4d7ff726fb925efa5c7760"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\natural_mean_2304.json",
+      "archive": "results/split2/confirmation_results/natural_mean_2304.json",
+      "sha256": "ae083c7f0fa3ff0e70386f2c6d4f8952d134da10e6800330a00d9aecda3f814a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\reference_2300.json",
+      "archive": "results/split2/confirmation_results/reference_2300.json",
+      "sha256": "9a7702c641557f8ddda46c6a6b515792243509e317760a8017aa4883695bcccc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\reference_2301.json",
+      "archive": "results/split2/confirmation_results/reference_2301.json",
+      "sha256": "8233429f9a1f2cc8135100299ab98e72154bced6efc1965c197f6e196b4f6325"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\reference_2302.json",
+      "archive": "results/split2/confirmation_results/reference_2302.json",
+      "sha256": "fe6c954ba27441c10fcda6f445f4adf85ff36168b1745e0f0d2c2d3dd5561a4e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\reference_2303.json",
+      "archive": "results/split2/confirmation_results/reference_2303.json",
+      "sha256": "c86cf40b036ba9672e87146b843655c7b41f6f5f73f838b2072e68eca692f3a1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\reference_2304.json",
+      "archive": "results/split2/confirmation_results/reference_2304.json",
+      "sha256": "e28ed430bc7f9f88d93d3268a560415138139a6b73009250b626c386d52d42bd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\confirmation_results\\summary.json",
+      "archive": "results/split2/confirmation_results/summary.json",
+      "sha256": "65abe13c1902e7510b3b310b26524386e590b9036219a49f6de3b43e84d8bfbb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\generation_config.json",
+      "archive": "results/split2/data/confirmation_pool/generation_config.json",
+      "sha256": "3fc4899fb4fe0f21375280e36379402a8a4a20fce072ecaff994b2e174c18709"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\confirmation_pool\\generation_receipt.json",
+      "archive": "results/split2/data/confirmation_pool/generation_receipt.json",
+      "sha256": "9446e0594e71c3403a0f3577be2f7d9cadb495d8a6578f3f17d1ffe60dfb68b2"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\generation_config.json",
+      "archive": "results/split2/data/dev_pool/generation_config.json",
+      "sha256": "78458f32ba4b385846fc405e68c50dcdf90f7473f84e1cc805b269585faa5a7d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\data\\dev_pool\\generation_receipt.json",
+      "archive": "results/split2/data/dev_pool/generation_receipt.json",
+      "sha256": "641c7bc92a4ecc28d028b4595a459d51f443e33de7b702cadf640a44f7795141"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2300.json",
+      "archive": "results/split2/decision_models/combo_2300.json",
+      "sha256": "a6d7ad8cd068f572923a5b051df7a09e07546aa4326545b54faec13800da488d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2301.json",
+      "archive": "results/split2/decision_models/combo_2301.json",
+      "sha256": "a1bebe75dbc7055536ac2417b835216d78ffe49adc18e58da6dad283c86e2def"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2302.json",
+      "archive": "results/split2/decision_models/combo_2302.json",
+      "sha256": "b1679ff3427543f42f7bd5fd3ec9cc27136364973c5ee2ca96e68721951a3ef5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2303.json",
+      "archive": "results/split2/decision_models/combo_2303.json",
+      "sha256": "dce7577c99c514a142a286cd8086122899fc844f00e7d8252a8631751b30cf6e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_2304.json",
+      "archive": "results/split2/decision_models/combo_2304.json",
+      "sha256": "cf38f4b74632e562dc6a1b8b0db1eb4e9896000053e794d3d694e3c6fc46af01"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2300.json",
+      "archive": "results/split2/decision_models/combo_affine_2300.json",
+      "sha256": "3e0ae67ba69a3036b55ef89fa5026c314313c6c27fed4267bb0b2b2ccdbbce52"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2301.json",
+      "archive": "results/split2/decision_models/combo_affine_2301.json",
+      "sha256": "9e13b4566a084125a1bfb534dad9397966a61b58611231a49c89e1c140df3b1d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2302.json",
+      "archive": "results/split2/decision_models/combo_affine_2302.json",
+      "sha256": "d1810d0763abdc650cee8a31e262535d98b9296c81721c2c3991ec83907569f6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2303.json",
+      "archive": "results/split2/decision_models/combo_affine_2303.json",
+      "sha256": "c582d5bd0b2cb4f530a6e2b1fb72f572c8adfe63b67c09567cc0cf645173854f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_affine_2304.json",
+      "archive": "results/split2/decision_models/combo_affine_2304.json",
+      "sha256": "ba63125175b45e2b1076830f98cdfb3ad2e33b55fd9102d9360cf5f9fcd31e99"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2300.json",
+      "archive": "results/split2/decision_models/combo_mean_2300.json",
+      "sha256": "5de267c3f542de794f2a72e3df8260a66d7b87cbe39ad2c0b3ae5348472cee74"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2301.json",
+      "archive": "results/split2/decision_models/combo_mean_2301.json",
+      "sha256": "cc3f8c25e9a413e7c0988c42f69a6e8a771cbf478b7a2d580e10e8a04f3bfd12"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2302.json",
+      "archive": "results/split2/decision_models/combo_mean_2302.json",
+      "sha256": "7e06b5da735154881dbeb6cf0559d5cb295202bcc06824c8982ae76f18a24790"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2303.json",
+      "archive": "results/split2/decision_models/combo_mean_2303.json",
+      "sha256": "9793081d0e1437b75d63bdcd07e00e93e8f417e1ed1967ef87ba3cad9c34925d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\combo_mean_2304.json",
+      "archive": "results/split2/decision_models/combo_mean_2304.json",
+      "sha256": "0ec81f742b2527dc05949818e40df074393679b278893a15d058452bbd3abad6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2300.json",
+      "archive": "results/split2/decision_models/marginal_2300.json",
+      "sha256": "511ee26e9c4a22e48659da11768c8338c80fa0b259436b6b5a8f6ff28f666f29"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2301.json",
+      "archive": "results/split2/decision_models/marginal_2301.json",
+      "sha256": "65939d3394949e9d5e6bfa139b25d4d6d9d820725877be32425dc53eefa0dfe8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2302.json",
+      "archive": "results/split2/decision_models/marginal_2302.json",
+      "sha256": "a3ec8e5ec1224e589407504d4af9c64baa01a3b965f01d451ef53b7e3711bb8f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2303.json",
+      "archive": "results/split2/decision_models/marginal_2303.json",
+      "sha256": "03fcfe51288f26fa5a481e3ddad155c858bae325edba2a3775b77567f03fe3dd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_2304.json",
+      "archive": "results/split2/decision_models/marginal_2304.json",
+      "sha256": "cd6ecb1787fcce57e478616d782e8dc6fb33fb15220ff9029d26cb896009d72d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2300.json",
+      "archive": "results/split2/decision_models/marginal_affine_2300.json",
+      "sha256": "b9e93ff68ee35ec6323d6646c8fbd3025de1e9966ab25bb231e88231d28aa10f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2301.json",
+      "archive": "results/split2/decision_models/marginal_affine_2301.json",
+      "sha256": "f2956aff0a9c34218c34f3930b1a89e3b2a1c3dd63da3946d3f669bea55bc7db"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2302.json",
+      "archive": "results/split2/decision_models/marginal_affine_2302.json",
+      "sha256": "11bdbc69945845fdda06bf2950740c26e87ce06f02f52911cc477a3b9ca4ddc1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2303.json",
+      "archive": "results/split2/decision_models/marginal_affine_2303.json",
+      "sha256": "879d5ef407c0ea1ca26a5444d1ed1536002e054aa5cecd3d4f62219190090044"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_affine_2304.json",
+      "archive": "results/split2/decision_models/marginal_affine_2304.json",
+      "sha256": "ad819211a4453dbbbe0ff455ad8969352d3c16abb095c49776e331764864c160"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2300.json",
+      "archive": "results/split2/decision_models/marginal_mean_2300.json",
+      "sha256": "a2831c90427f54e247c03b5b705f1eb3586a542d69666afd0e0b593573311249"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2301.json",
+      "archive": "results/split2/decision_models/marginal_mean_2301.json",
+      "sha256": "09a81a399e2d7168fea5fa85fcc5c9d85f9647f7eebe58beb0bbb8e80d684cf6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2302.json",
+      "archive": "results/split2/decision_models/marginal_mean_2302.json",
+      "sha256": "abc6a233c148fe2caebd6562e4fac92e0027f9914e8d930b0cc5c9662ccd72bc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2303.json",
+      "archive": "results/split2/decision_models/marginal_mean_2303.json",
+      "sha256": "379921dc93473ea5cefb97329fac24383b83a6e677c50c06119fd2feb99baa63"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\marginal_mean_2304.json",
+      "archive": "results/split2/decision_models/marginal_mean_2304.json",
+      "sha256": "2d4fc463866e58dae656d6fb0516e1db41ef51ce1e2c93004c25decb43450749"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2300.json",
+      "archive": "results/split2/decision_models/natural_2300.json",
+      "sha256": "de5e373a2065c443e0f19a6d357355bdadaa632d3552bf15c82d1c5c18d8690d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2301.json",
+      "archive": "results/split2/decision_models/natural_2301.json",
+      "sha256": "e8a7fa50dca7fd8510b1e20fc800e5504a807e2da63a3f36e82413aa86fc2f80"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2302.json",
+      "archive": "results/split2/decision_models/natural_2302.json",
+      "sha256": "cb99007b6b0afb6e0828fcf3d76d9e191f623c186e2ce16d5c443e65903b4463"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2303.json",
+      "archive": "results/split2/decision_models/natural_2303.json",
+      "sha256": "a75ae9123d804ae8227ced12c7ee434793f1fcd5a7db2f8027eda8be6665cf95"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_2304.json",
+      "archive": "results/split2/decision_models/natural_2304.json",
+      "sha256": "3eb33691e53e37c6d903e6b0651a9d0f9a47b2d0f3b54ba427b94855e54d4faf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2300.json",
+      "archive": "results/split2/decision_models/natural_affine_2300.json",
+      "sha256": "800d974efd0adc969d75315d4c2b0c8b78029ee66ca4a1a90f41e797dadb0035"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2301.json",
+      "archive": "results/split2/decision_models/natural_affine_2301.json",
+      "sha256": "10ea3262965cfc60284d5f8c850b8f8315730f5bab5f3430b61621d3f450a30d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2302.json",
+      "archive": "results/split2/decision_models/natural_affine_2302.json",
+      "sha256": "7660f8833edc456b7c3a60a9aa4a251412009ed9dc4e0a04855a39a1e999ef0f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2303.json",
+      "archive": "results/split2/decision_models/natural_affine_2303.json",
+      "sha256": "d35baa81dfc731825db89a1c51d457c64821aea41c89594085cf9ad2a886a2f5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_affine_2304.json",
+      "archive": "results/split2/decision_models/natural_affine_2304.json",
+      "sha256": "111929cb9b7c7e39a280cf50139f91a6773d4267f56e9b9b40bdf94ea9040b45"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2300.json",
+      "archive": "results/split2/decision_models/natural_mean_2300.json",
+      "sha256": "0c14cb8d4ded5ade90cdf655fa945831a5ba1e8a86746f0c642be05ea9d5947b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2301.json",
+      "archive": "results/split2/decision_models/natural_mean_2301.json",
+      "sha256": "83e69fa59554326aa7ac4d4e1a8b5dc1cc2ccb9ea90ab4fdcef15a895f0bcded"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2302.json",
+      "archive": "results/split2/decision_models/natural_mean_2302.json",
+      "sha256": "2ed95c448ef48e6d9df3ae1289c86759ca3700114949a0f5226bcf6d4cbd5fbb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2303.json",
+      "archive": "results/split2/decision_models/natural_mean_2303.json",
+      "sha256": "cef06019ad4572f4e989990566b00394d9dc5879957a33ec835e227916c426f9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\natural_mean_2304.json",
+      "archive": "results/split2/decision_models/natural_mean_2304.json",
+      "sha256": "08ee582395b3c8a5571588578bced26494b2769acc2772a3cca0e848e579e29b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\protocol.json",
+      "archive": "results/split2/decision_models/protocol.json",
+      "sha256": "6e059047bc28dbf153fa4fcbfd542af0cd97da198d07cb273fe42965135e60bf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2300.json",
+      "archive": "results/split2/decision_models/reference_2300.json",
+      "sha256": "fc9721c53c74316070d4e099e49b369abedc70007f9a1832542ba70d05ad7c3a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2301.json",
+      "archive": "results/split2/decision_models/reference_2301.json",
+      "sha256": "eb447d1082c66b514864914635170bba72960538164bdfd25e7af7029a29a3f1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2302.json",
+      "archive": "results/split2/decision_models/reference_2302.json",
+      "sha256": "b1f41a890ba3dcf7c769d46fcfdc9d8f0dcc2502a92e75e42b128384d8847ce7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2303.json",
+      "archive": "results/split2/decision_models/reference_2303.json",
+      "sha256": "c6d89837cdf8d2b73669a1ad34a10cd6a4aab7fcb15c8da0a23db2a4c0831129"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\decision_models\\reference_2304.json",
+      "archive": "results/split2/decision_models/reference_2304.json",
+      "sha256": "9b0b5eac2360c3fef498b233cbe5da7dd86f0b9e9a22338294b2900d1e5ab79c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development\\manifest.json",
+      "archive": "results/split2/development/manifest.json",
+      "sha256": "f343a6994fd8fffe74efbe97a1212f4712335444ef84410e4e73da004fbfce9f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development\\preflight.json",
+      "archive": "results/split2/development/preflight.json",
+      "sha256": "1d42db590ad117592e41a38c61b4da70c52697139fe3e18559a0181f7be1d726"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_2300.json",
+      "archive": "results/split2/development_results/combo_2300.json",
+      "sha256": "3490c6f0c0d6ae35e9080e33d17d6df801ffdedd0306d0c41f2396a1f2aef384"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_2301.json",
+      "archive": "results/split2/development_results/combo_2301.json",
+      "sha256": "647410e0659f4ea0c244867d95aca88ad2ae3a9c59bedea057e860207a603930"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_2302.json",
+      "archive": "results/split2/development_results/combo_2302.json",
+      "sha256": "c8f40fe85af83338861ed3402cc9bbf0608d553d6c774c2208f0f982c221ffb4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_2303.json",
+      "archive": "results/split2/development_results/combo_2303.json",
+      "sha256": "27651568546c486d20fa4b80acec48402e1d174d49c14e5aa1fb4d63fb38e459"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_2304.json",
+      "archive": "results/split2/development_results/combo_2304.json",
+      "sha256": "5474b0ae7a5efd2455becf15a295e61479500bd40bc20a491e4f5a2dc48bbcc3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_affine_2300.json",
+      "archive": "results/split2/development_results/combo_affine_2300.json",
+      "sha256": "f3018bb7b2250e99adc5152590ee5e22907acf1dc2ff8ecb297c44ecf77f75c8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_affine_2301.json",
+      "archive": "results/split2/development_results/combo_affine_2301.json",
+      "sha256": "fb97af6314601245f5aa6ba0ab797678fd2cfecc74f5cae6e878a7087d6ee7f7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_affine_2302.json",
+      "archive": "results/split2/development_results/combo_affine_2302.json",
+      "sha256": "f6f0bbc6b91452879bf38dd8a0c27b5d5bbf8e5f9dcb3c379b86fe0688f3fe7c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_affine_2303.json",
+      "archive": "results/split2/development_results/combo_affine_2303.json",
+      "sha256": "a56eda997c01a3a225c1a4c11011f4a73b9d68031195a301608cce2f0b0fb038"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_affine_2304.json",
+      "archive": "results/split2/development_results/combo_affine_2304.json",
+      "sha256": "8aebf7ee2976886eb57e14a4500c08c28ea06b5dd5548fc4be491457cab3ab83"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_mean_2300.json",
+      "archive": "results/split2/development_results/combo_mean_2300.json",
+      "sha256": "87c2cf2956cdaae35895487e1bcf80949631bc427ae06e5b7a0759b4c509a485"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_mean_2301.json",
+      "archive": "results/split2/development_results/combo_mean_2301.json",
+      "sha256": "e76e615d490b33d64adba515f57ed8b5c29e00931a85264be82439e7d4f218a7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_mean_2302.json",
+      "archive": "results/split2/development_results/combo_mean_2302.json",
+      "sha256": "667d28578a34ffe05ae3b58ef946dbad822b1031a63347754bab63609bfc94ab"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_mean_2303.json",
+      "archive": "results/split2/development_results/combo_mean_2303.json",
+      "sha256": "dd47b051981c8207dec03c473e5c853279716ae7cff603f80a2460a4444562c1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\combo_mean_2304.json",
+      "archive": "results/split2/development_results/combo_mean_2304.json",
+      "sha256": "882aeda8b9447509d479e25853ee8d92cbfd04da8aee2b649bab7afe3ae131d9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_2300.json",
+      "archive": "results/split2/development_results/marginal_2300.json",
+      "sha256": "06069931c37e7fc5268ed40869fb3e2156f5d55b26ef6053c0cf3ad4f80e2e8a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_2301.json",
+      "archive": "results/split2/development_results/marginal_2301.json",
+      "sha256": "971096800574162ef4aee2d71dc698d6c4ce677915cdf68b63bc0c8d45c80e0e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_2302.json",
+      "archive": "results/split2/development_results/marginal_2302.json",
+      "sha256": "a0c5a773c9c1210e51a1756353fc4bf95f8226f102d444cb674186ee892a77f0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_2303.json",
+      "archive": "results/split2/development_results/marginal_2303.json",
+      "sha256": "776e671619788c46b132de80221d75d672e47de330c09ee3974a4cd0eb64f989"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_2304.json",
+      "archive": "results/split2/development_results/marginal_2304.json",
+      "sha256": "0dec218556df3258d7473030bf8f74523345e53b7eb17af821e60ff25c1a9373"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_affine_2300.json",
+      "archive": "results/split2/development_results/marginal_affine_2300.json",
+      "sha256": "540933ab98f26f817269b04c5e9b9111f29cb95f083fff4bb08c43abcbdf1730"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_affine_2301.json",
+      "archive": "results/split2/development_results/marginal_affine_2301.json",
+      "sha256": "9f9fc5f800478ca3c46ae2ed90016f4f0d1a0a8d777988dd2eba1ca7c2bda523"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_affine_2302.json",
+      "archive": "results/split2/development_results/marginal_affine_2302.json",
+      "sha256": "c85b77702bc8cc06ec3d9695be79421c212afc1cfc0ad064c110a10f87e1d2c4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_affine_2303.json",
+      "archive": "results/split2/development_results/marginal_affine_2303.json",
+      "sha256": "a856940a5a8a8c6de4a15006a14264a3b8e5b8cdf5f73dff7cdfa389ea3a1ff3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_affine_2304.json",
+      "archive": "results/split2/development_results/marginal_affine_2304.json",
+      "sha256": "2e0c864b5802d99c285917e21c0e6803be4035e016038b1e38e8d798f9b7188c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_mean_2300.json",
+      "archive": "results/split2/development_results/marginal_mean_2300.json",
+      "sha256": "1e8c7b342ac1e5582a9866e74549342d105ac36a13e4b6cd7560e47020d49b88"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_mean_2301.json",
+      "archive": "results/split2/development_results/marginal_mean_2301.json",
+      "sha256": "3c490206d3a17785773f576ef7c046dd3f37a9b3fdd394b84f652217c20a39a1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_mean_2302.json",
+      "archive": "results/split2/development_results/marginal_mean_2302.json",
+      "sha256": "ff01e2f430e38fd46b2ef6fb2f570503a1ee2dee9e0db7c81646ea071dba3684"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_mean_2303.json",
+      "archive": "results/split2/development_results/marginal_mean_2303.json",
+      "sha256": "7321bd91ed375c3ac52a42ac206c022b15487a0a1fd4b4800f606ac53b55a204"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\marginal_mean_2304.json",
+      "archive": "results/split2/development_results/marginal_mean_2304.json",
+      "sha256": "97339a9963caa9aefef3da6ffe44369f475a90c36c7d504d137a27d389b59b74"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_2300.json",
+      "archive": "results/split2/development_results/natural_2300.json",
+      "sha256": "07c2952cb3b40fc3a4bac02b975fe5b36715a6ed5dbdcb41ed77799fdcba7d6e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_2301.json",
+      "archive": "results/split2/development_results/natural_2301.json",
+      "sha256": "f84a651f7bc8135ac283d53c696ba30c7dce9a036d024ca936df72c0a295cefa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_2302.json",
+      "archive": "results/split2/development_results/natural_2302.json",
+      "sha256": "0b92554ff56a34f5aac6d0249f85f1991cc44a1263a6e1e3a1342712fa46a15d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_2303.json",
+      "archive": "results/split2/development_results/natural_2303.json",
+      "sha256": "601e11adaa0c842c2c5b740f59fd272c5e130300bf7a027262b6d188bc933cef"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_2304.json",
+      "archive": "results/split2/development_results/natural_2304.json",
+      "sha256": "9f75fec7e9936def0f9a772318956cf8713335e295dde53f445d2f0953215ecd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_affine_2300.json",
+      "archive": "results/split2/development_results/natural_affine_2300.json",
+      "sha256": "7506d18868d77c8a06f37880a8e5e9534a2f5f6afc316c9194ba50ba73abf77b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_affine_2301.json",
+      "archive": "results/split2/development_results/natural_affine_2301.json",
+      "sha256": "0821b684cccb8813229703da8e811ba751a161513eccbc02c630fad903800355"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_affine_2302.json",
+      "archive": "results/split2/development_results/natural_affine_2302.json",
+      "sha256": "a8f95c08589045ada377e4a8d30cbe0bb32e2830f3060b208c1277556675b89f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_affine_2303.json",
+      "archive": "results/split2/development_results/natural_affine_2303.json",
+      "sha256": "af5e17df09377c864cf38ec429bafb0a819fd6694b130fe4118c09cbafcba9fe"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_affine_2304.json",
+      "archive": "results/split2/development_results/natural_affine_2304.json",
+      "sha256": "01663862c030f59b1163c2286fc28c7ef0399dc47c68fd42e1ea11ccd1472c10"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_mean_2300.json",
+      "archive": "results/split2/development_results/natural_mean_2300.json",
+      "sha256": "468fc8822185bc9cf8297d8e553a44387a1c4e4aa3c634ffa165fab704fbcc10"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_mean_2301.json",
+      "archive": "results/split2/development_results/natural_mean_2301.json",
+      "sha256": "ac85dbe36fdc80fd1df15f596ad7b789bc8bb2e01f54ed98c0443f161b6307bc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_mean_2302.json",
+      "archive": "results/split2/development_results/natural_mean_2302.json",
+      "sha256": "13ff1c9e8e0aba3eae187fa176d19a76d11cd1965c9945a85764c2150fb76f03"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_mean_2303.json",
+      "archive": "results/split2/development_results/natural_mean_2303.json",
+      "sha256": "daa8945958b0e7ea39cd663762a6e4365683b623feda9ac368a8374fcd72aba5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\natural_mean_2304.json",
+      "archive": "results/split2/development_results/natural_mean_2304.json",
+      "sha256": "b3eb06b930748717e78b768c27f0643de66358dbee7e01af43eff07341f2b00f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\reference_2300.json",
+      "archive": "results/split2/development_results/reference_2300.json",
+      "sha256": "ead05c3c1550890ead7c59472cddfa0667d506a914e20f0ae0c3b886fa1c8128"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\reference_2301.json",
+      "archive": "results/split2/development_results/reference_2301.json",
+      "sha256": "8c515d5842118c4ed7aa77adf5d3acbb7845af60795a5b2b26604bf1ae04d052"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\reference_2302.json",
+      "archive": "results/split2/development_results/reference_2302.json",
+      "sha256": "93d67c89009719250d2166003f392494a3cbee042bd1bcde63390835c3f7bf7e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\reference_2303.json",
+      "archive": "results/split2/development_results/reference_2303.json",
+      "sha256": "ae8a64345a0d757d84d79f812cfa03abc7ddb8d591f60de818cfc63c837a8fe3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\reference_2304.json",
+      "archive": "results/split2/development_results/reference_2304.json",
+      "sha256": "81163c70afdc3d6727371671d39cf7aaee4aa5cd481a2c61c4328d3331c47b24"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\development_results\\summary.json",
+      "archive": "results/split2/development_results/summary.json",
+      "sha256": "615fe0824ac2e61436ae887227ffa38836ffe7a9fa65480324a0567e0c973f61"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2300\\calibration.json",
+      "archive": "results/split2/models/marginal_2300/calibration.json",
+      "sha256": "526c8981585afbc10e57dadf4af6977185409b6110e32dea2c3aa9d79991fd8c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2300\\receipt.json",
+      "archive": "results/split2/models/marginal_2300/receipt.json",
+      "sha256": "7db47c5df69698efa5fcf4b05978b753c00bd711a7f4e5c868be672411935669"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2301\\calibration.json",
+      "archive": "results/split2/models/marginal_2301/calibration.json",
+      "sha256": "094c7962c538a96dd4ab0b8af272c8f60dacd77b12e0a79bea02f1a38aaf05a7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2301\\receipt.json",
+      "archive": "results/split2/models/marginal_2301/receipt.json",
+      "sha256": "e406efac010dee114adfdc8c2159b1675118882bd36cd872cd7342eaf12c2cfb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\calibration.json",
+      "archive": "results/split2/models/marginal_2302/calibration.json",
+      "sha256": "7f0873c28286eb5a648b5cb4c3d3c2e3fbaab6113175cfe4f34a82d427a5af04"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2302\\receipt.json",
+      "archive": "results/split2/models/marginal_2302/receipt.json",
+      "sha256": "664135a4f2f1fdc62f549da022fee578b3da939d1cf50865688162279cab5da3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2303\\calibration.json",
+      "archive": "results/split2/models/marginal_2303/calibration.json",
+      "sha256": "065843fae9e680925dbc54829c2f59a58b8e763baa821d05d648b94a36af9caa"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2303\\receipt.json",
+      "archive": "results/split2/models/marginal_2303/receipt.json",
+      "sha256": "c06e80925704567bc6c2310a230c8829c4e8d8613ccbbcfc0fbe399ec83318a7"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2304\\calibration.json",
+      "archive": "results/split2/models/marginal_2304/calibration.json",
+      "sha256": "17297dc2b7324a0a218aa215e36fac23f25358b284e480fcad10bae048b71ad3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\models\\marginal_2304\\receipt.json",
+      "archive": "results/split2/models/marginal_2304/receipt.json",
+      "sha256": "4a65838e78932ef1502d6ece24468c06e8a69282b4723cf40283609a0a505996"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2300\\calibration.json",
+      "archive": "results/split2/scores/combo_2300/calibration.json",
+      "sha256": "7f38aa6048476d4b69230424a9d0f9e0426ff2d87cd7ba71cd889669da9c4722"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2300\\confirmation.json",
+      "archive": "results/split2/scores/combo_2300/confirmation.json",
+      "sha256": "c22596a2934880bccb8ad89b0b426f54f7cfbecd0da2bfcfc5320480abc4270c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2300\\development.json",
+      "archive": "results/split2/scores/combo_2300/development.json",
+      "sha256": "2f96105b04c1ec1f8aff5551df53e71af821fcbd251c2ad027f5032ca5b60f8f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2300\\fusion_fit.json",
+      "archive": "results/split2/scores/combo_2300/fusion_fit.json",
+      "sha256": "007fcfe66aa805d487e1c8e3ab80b3b289bd6c40fbffd9c8897f3a12dd084b58"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2301\\calibration.json",
+      "archive": "results/split2/scores/combo_2301/calibration.json",
+      "sha256": "8d2e289b2b1739140f93d0e01de331302de51fac1d8e419bd942bf1d8bb69398"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2301\\confirmation.json",
+      "archive": "results/split2/scores/combo_2301/confirmation.json",
+      "sha256": "7647e80ebb6f3fbe8340e98556ac425ebae0e0e161ac15326022d13db6e6173a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2301\\development.json",
+      "archive": "results/split2/scores/combo_2301/development.json",
+      "sha256": "0490112a0f4e49cc256caf0dd7ba07cff56755279c73aa2858c8db28f0a1288a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2301\\fusion_fit.json",
+      "archive": "results/split2/scores/combo_2301/fusion_fit.json",
+      "sha256": "4de6cf726ad11d00c15a13d56024bbb012853ad58c9476ec0f1095d054532d6b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2302\\calibration.json",
+      "archive": "results/split2/scores/combo_2302/calibration.json",
+      "sha256": "99f3e250514329c807cbe75665b122d67d9dcd8ecf745fd8242d5e23d840a6d9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2302\\confirmation.json",
+      "archive": "results/split2/scores/combo_2302/confirmation.json",
+      "sha256": "3fee9ef5d920da6a2cdf513961e8b149f06cb0bba41c33785642e17983da857f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2302\\development.json",
+      "archive": "results/split2/scores/combo_2302/development.json",
+      "sha256": "96529af849b22421f7cfe1f1ec7a5ea7f6d2d1b4ffb3d7c8bde5446532aac7d6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2302\\fusion_fit.json",
+      "archive": "results/split2/scores/combo_2302/fusion_fit.json",
+      "sha256": "ee53388168314a9feb45588f0cffe78eedf4d14a3e0e7200631973464679f481"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2303\\calibration.json",
+      "archive": "results/split2/scores/combo_2303/calibration.json",
+      "sha256": "d63e12bc901c922529afec47a35902a6e95e6b3b343cba1aa344c1d9c853bdab"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2303\\confirmation.json",
+      "archive": "results/split2/scores/combo_2303/confirmation.json",
+      "sha256": "ce518fdaa554c2f40ae64a6ffea18b298e74f25c4faeb9f038c592200725d331"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2303\\development.json",
+      "archive": "results/split2/scores/combo_2303/development.json",
+      "sha256": "1d35444099b4f227afd72812b5c9ba436e642cbd077715492fde911b5112cd1e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2303\\fusion_fit.json",
+      "archive": "results/split2/scores/combo_2303/fusion_fit.json",
+      "sha256": "bf070718b11c8e475286afb90d331983f5e38407bc7ef64a619b167ee9ef480c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2304\\calibration.json",
+      "archive": "results/split2/scores/combo_2304/calibration.json",
+      "sha256": "ec8c8805a1629df9091b779dc1e156e6dc6529daf69fa99c2b621f81d0f6d676"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2304\\confirmation.json",
+      "archive": "results/split2/scores/combo_2304/confirmation.json",
+      "sha256": "cc52785883909e5ce5edb438b75e4e24713fdab1d1fba7c4319b0c05de87083f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2304\\development.json",
+      "archive": "results/split2/scores/combo_2304/development.json",
+      "sha256": "2df0ec7b5e11b397975eb812a4c0d80c7648191be88415c23e36ccc412af7010"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\combo_2304\\fusion_fit.json",
+      "archive": "results/split2/scores/combo_2304/fusion_fit.json",
+      "sha256": "5f10585d8fa3f154de78a117b545aff604edd6c7603ac05c778e6766e9ff2b1f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2300\\calibration.json",
+      "archive": "results/split2/scores/marginal_2300/calibration.json",
+      "sha256": "4e424cc034c6c6c88d2441ce3d05ff87abdd7f440e2812b2497521bfa92b5412"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2300\\confirmation.json",
+      "archive": "results/split2/scores/marginal_2300/confirmation.json",
+      "sha256": "8dce02ee957546640005c608a830670aac7b7aca5e0ff681591d3b79d93b1e25"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2300\\development.json",
+      "archive": "results/split2/scores/marginal_2300/development.json",
+      "sha256": "56e91b9e776ed8481934deb6d9c7d6fe6fbe6842887a43d80483f36f9697f0fd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2300\\fusion_fit.json",
+      "archive": "results/split2/scores/marginal_2300/fusion_fit.json",
+      "sha256": "465cc11f149b9350921a6dee81f309bd9d96ff6ed46dd8e5e82c003f59945388"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2301\\calibration.json",
+      "archive": "results/split2/scores/marginal_2301/calibration.json",
+      "sha256": "eee7f1aaa56234152746d560f86ce4d2b2f47527bd6b6255bcdf8193a80b1740"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2301\\confirmation.json",
+      "archive": "results/split2/scores/marginal_2301/confirmation.json",
+      "sha256": "c45818c52805e77710ce73a4f830edd2d3d07826aa1d2d04af3a439133f955bd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2301\\development.json",
+      "archive": "results/split2/scores/marginal_2301/development.json",
+      "sha256": "bb9da8b18b86097b792860926b3da4d679ed02675fdada9ee67570f0f0ad539e"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2301\\fusion_fit.json",
+      "archive": "results/split2/scores/marginal_2301/fusion_fit.json",
+      "sha256": "3cd04ff4d2c4c200dbcf0d6cb7f6bc977d366c30eb96eff579b6a6fab8e596d0"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2302\\calibration.json",
+      "archive": "results/split2/scores/marginal_2302/calibration.json",
+      "sha256": "218b437b01eaa424fa80198663acd3f15c302fd1d1c8017b043a199da8d3b9f9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2302\\confirmation.json",
+      "archive": "results/split2/scores/marginal_2302/confirmation.json",
+      "sha256": "e0151f34194d533c4f191fe0266cd820675d7fff4cbb221988fa0fda131a9b91"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2302\\development.json",
+      "archive": "results/split2/scores/marginal_2302/development.json",
+      "sha256": "2a859c45d1b7b3101247c5a109acae5fdbe7d6e8954b4353f1bd40a8ccec8765"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2302\\fusion_fit.json",
+      "archive": "results/split2/scores/marginal_2302/fusion_fit.json",
+      "sha256": "e94929617f6cd3607f476b17ab235c1b5de9893203aea83676fd634afc2acdce"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2303\\calibration.json",
+      "archive": "results/split2/scores/marginal_2303/calibration.json",
+      "sha256": "1b327bec9dd5a292d956c092f281dbbacf0f3e215985deb0b710dcf6291104ae"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2303\\confirmation.json",
+      "archive": "results/split2/scores/marginal_2303/confirmation.json",
+      "sha256": "83e1458ce0ffa73565edbb02b60fe20d2a4ab7499f3e1918b3636432cfb7fead"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2303\\development.json",
+      "archive": "results/split2/scores/marginal_2303/development.json",
+      "sha256": "550ba478e80794d522bef5f724b569e9d411ff6db97033bee78c396f48bab1a4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2303\\fusion_fit.json",
+      "archive": "results/split2/scores/marginal_2303/fusion_fit.json",
+      "sha256": "de98f8bfe165faa28e269f9d7df6d0dc253a5e8c380fd3d56eb9823dc90d24d6"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2304\\calibration.json",
+      "archive": "results/split2/scores/marginal_2304/calibration.json",
+      "sha256": "62b61da05d66871674fe8cd681504ca23984c88eeb20037deb3e1a828bb4e4bc"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2304\\confirmation.json",
+      "archive": "results/split2/scores/marginal_2304/confirmation.json",
+      "sha256": "73c0df1a5f29c7aaff0877ecdede6491632faa7dd49e14360e6b557fe3b2eec5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2304\\development.json",
+      "archive": "results/split2/scores/marginal_2304/development.json",
+      "sha256": "68cddddab8c53b6d9e6c8bb4857ac0cd5cadf354743b739a6ac6619801423ca8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\marginal_2304\\fusion_fit.json",
+      "archive": "results/split2/scores/marginal_2304/fusion_fit.json",
+      "sha256": "d68e2964772bdfaa200de042abdec730a180b4dbaecf484ee8c07461a0896488"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2300\\calibration.json",
+      "archive": "results/split2/scores/natural_2300/calibration.json",
+      "sha256": "30e9f7540adbf93afad23130305920436f4804c22094e22e26df0c5dc8ba236a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2300\\confirmation.json",
+      "archive": "results/split2/scores/natural_2300/confirmation.json",
+      "sha256": "a3a5c3521082db986ecc5c47f12a63c94a2bf192771f1a5af4d57751143ba99f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2300\\development.json",
+      "archive": "results/split2/scores/natural_2300/development.json",
+      "sha256": "de7e18dded9265adb22118bc37526a8a2725013833c10175f31a3d65f6979f05"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2300\\fusion_fit.json",
+      "archive": "results/split2/scores/natural_2300/fusion_fit.json",
+      "sha256": "56e16080549b28e2bd768e58d2933c5770bef064797fa16e935b8d985dd89d7d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2301\\calibration.json",
+      "archive": "results/split2/scores/natural_2301/calibration.json",
+      "sha256": "e733ccc3136ccedd9d6f9940e511bbf79e49da0dbdba2dada3b1430cd2acbd4a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2301\\confirmation.json",
+      "archive": "results/split2/scores/natural_2301/confirmation.json",
+      "sha256": "b95c35c2cebd9159a5af82284370af59489ee86405692621c241e6544957e836"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2301\\development.json",
+      "archive": "results/split2/scores/natural_2301/development.json",
+      "sha256": "8f8ed2bd24a87d5c953f96b9c77d96d193ee1438c69d070e766581bcbc2be5a9"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2301\\fusion_fit.json",
+      "archive": "results/split2/scores/natural_2301/fusion_fit.json",
+      "sha256": "f15e0b19ca9f3cb382729e54e937646ea5b83d7faad3d4a21de06d01ec1fddc5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2302\\calibration.json",
+      "archive": "results/split2/scores/natural_2302/calibration.json",
+      "sha256": "8e3307d7e96b8879fa726469b53159263bd3adc114a8bcf144e93b89f73aa9eb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2302\\confirmation.json",
+      "archive": "results/split2/scores/natural_2302/confirmation.json",
+      "sha256": "45db1b2c0d1c0e2a6a481a752c98a7be8e6262875007a0427388e63d9c9632ae"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2302\\development.json",
+      "archive": "results/split2/scores/natural_2302/development.json",
+      "sha256": "ccd3dda5fbcb16ed6cd815d8b29c1ddb14e0b0607b8c6b9ffc55f2f1f1dbec60"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2302\\fusion_fit.json",
+      "archive": "results/split2/scores/natural_2302/fusion_fit.json",
+      "sha256": "ad8fe4718e28e29c32bf129a1afc93f118e0ea78150a12feefce1ba381c9c120"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2303\\calibration.json",
+      "archive": "results/split2/scores/natural_2303/calibration.json",
+      "sha256": "c5d0c0e33acb3b45e65c2ada442d7bb26d78915a57b8e5773529561f9e6028b8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2303\\confirmation.json",
+      "archive": "results/split2/scores/natural_2303/confirmation.json",
+      "sha256": "118594a24272881444b16d6b20cce2fb5c0c601329a0079b88d512f44a5221c5"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2303\\development.json",
+      "archive": "results/split2/scores/natural_2303/development.json",
+      "sha256": "f45fe9e2930a1cdc5c7b4fc87c01198bff729a630e87b49b7bbca8b90a2612bb"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2303\\fusion_fit.json",
+      "archive": "results/split2/scores/natural_2303/fusion_fit.json",
+      "sha256": "dc8f79a71f3142c670ce3201ac2da5e0dd1e34a72a2a422c777cc9fcb8043cea"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2304\\calibration.json",
+      "archive": "results/split2/scores/natural_2304/calibration.json",
+      "sha256": "edd6e36f2c376f6dbe021cb36888af269273783dfa8c8bdc7a0cb3793cb3402d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2304\\confirmation.json",
+      "archive": "results/split2/scores/natural_2304/confirmation.json",
+      "sha256": "d2577614e09a4f96ece9c7fb0b3ef26166909c55ff3093e3a985c250239ad8a8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2304\\development.json",
+      "archive": "results/split2/scores/natural_2304/development.json",
+      "sha256": "d07b64d76efed9a03c8e5f5466c51e6bb307f83ba6bce1b74451748c588d5de1"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\natural_2304\\fusion_fit.json",
+      "archive": "results/split2/scores/natural_2304/fusion_fit.json",
+      "sha256": "e5851463261507c4c6d85d3d9850d2b039af4ed04fd0493d5c40efed7b8ca59f"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2300\\calibration.json",
+      "archive": "results/split2/scores/reference_2300/calibration.json",
+      "sha256": "c46a038c33871e87f60fa16f7ebda290e7eeb733a22604112e345a8c79c62598"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2300\\confirmation.json",
+      "archive": "results/split2/scores/reference_2300/confirmation.json",
+      "sha256": "50be06bf644e2d0796df86f92bf0a891e650cb7b3313f85059a08a9af61d1f3b"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2300\\development.json",
+      "archive": "results/split2/scores/reference_2300/development.json",
+      "sha256": "10dd75068a0a7cfb1fdc3883ebdee379651181badba44b9477be4a306c1baa51"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2300\\fusion_fit.json",
+      "archive": "results/split2/scores/reference_2300/fusion_fit.json",
+      "sha256": "d5bf2fa7ab7e84c9b39ccb39850df6b885baba4d4491e794b27297aa8f49260c"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2301\\calibration.json",
+      "archive": "results/split2/scores/reference_2301/calibration.json",
+      "sha256": "4d6f9c333ad990f5235dddf0bbdb69d7182d1615faa87bfd46111bba4165380d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2301\\confirmation.json",
+      "archive": "results/split2/scores/reference_2301/confirmation.json",
+      "sha256": "64bc6283cb75de05cc9433a01b7ed5d8e954361d9b0bfa78d474049c1404f7fd"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2301\\development.json",
+      "archive": "results/split2/scores/reference_2301/development.json",
+      "sha256": "a0d7d9d536cf55875f94770801a5d103ca577a6798197785e95b41abefb16ad3"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2301\\fusion_fit.json",
+      "archive": "results/split2/scores/reference_2301/fusion_fit.json",
+      "sha256": "51cbf6ac966fe3950708ed57bc9ed3cc9151fe7f5c56bf9e6dc2a7141e983158"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2302\\calibration.json",
+      "archive": "results/split2/scores/reference_2302/calibration.json",
+      "sha256": "0a58c1f595787fd3b98eb3ec2df141ab2edf901788856cbc9da8d83e27d64f20"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2302\\confirmation.json",
+      "archive": "results/split2/scores/reference_2302/confirmation.json",
+      "sha256": "a7e497e26dd50b59b9cb8a70c427b217e7c79efddb6aef1bbb4507157bdec0ba"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2302\\development.json",
+      "archive": "results/split2/scores/reference_2302/development.json",
+      "sha256": "3a4b6a60fdb9f6d73e58773a073ef1171a21271dfb47928a4171021e06ebe452"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2302\\fusion_fit.json",
+      "archive": "results/split2/scores/reference_2302/fusion_fit.json",
+      "sha256": "b04fc01e7b771769daa41f2c484ff94e9e0b220b00626552aee3fba531e305a4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2303\\calibration.json",
+      "archive": "results/split2/scores/reference_2303/calibration.json",
+      "sha256": "d2d4026385a4534951e4e886c390225c18d3741094e2042832c081a81e406eff"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2303\\confirmation.json",
+      "archive": "results/split2/scores/reference_2303/confirmation.json",
+      "sha256": "a7afd55c0a1f595a5ec809dac699830f6ce42a58d6defb1eaa44db714ebeadef"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2303\\development.json",
+      "archive": "results/split2/scores/reference_2303/development.json",
+      "sha256": "49ca7068d221200ee3776551123ef42d13b55bd6f7d3a07b1ae77401c784ffaf"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2303\\fusion_fit.json",
+      "archive": "results/split2/scores/reference_2303/fusion_fit.json",
+      "sha256": "1421edc9328e7b66d4bc26570078fe2c7793435b643b7ff9c75bd12edc5f5071"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2304\\calibration.json",
+      "archive": "results/split2/scores/reference_2304/calibration.json",
+      "sha256": "9f2d71a5893d03ba8cf7505d872b946f0ecc70e56c2c46548460e7a39308b121"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2304\\confirmation.json",
+      "archive": "results/split2/scores/reference_2304/confirmation.json",
+      "sha256": "6b2f7ae0f654b2ad46ee56a047f03e7bc61190a871df01576d06b2e65b3b7140"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2304\\development.json",
+      "archive": "results/split2/scores/reference_2304/development.json",
+      "sha256": "95647077fc8c46139e80b5deb8f027cfc8b2a30ac987ee045b4cea3a54a9fc14"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\scores\\reference_2304\\fusion_fit.json",
+      "archive": "results/split2/scores/reference_2304/fusion_fit.json",
+      "sha256": "d749049f90617957b7fbcdf8f1ee6d5ea3c7477361232ab9c3ca8d2cbcd61554"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\protocol.json",
+      "archive": "results/split2/training/marginal/protocol.json",
+      "sha256": "beee43575d417a89a7d24aed9b39ff20bfa02d47b7247af5a8e64ab2e65c4715"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\status.json",
+      "archive": "results/split2/training/marginal/status.json",
+      "sha256": "04ad36f3a25a665928200d91bf24af1edcf5a70ae6d94bc23dfff0f577c63f06"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2300\\history.json",
+      "archive": "results/split2/training/marginal/M_2300/history.json",
+      "sha256": "d50a4e04838c36763eaa68bf0620678cbd4572097ad10e0be49d618f40a82881"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2300\\receipt.json",
+      "archive": "results/split2/training/marginal/M_2300/receipt.json",
+      "sha256": "473bc5fe63e17bce879209585b05171289bf99c49a683186064c830d0daac020"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2301\\history.json",
+      "archive": "results/split2/training/marginal/M_2301/history.json",
+      "sha256": "4363dc4024588cb7b50e84fed57f5c092122df96d5bc95c6c83fd8b9dbed139d"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2301\\receipt.json",
+      "archive": "results/split2/training/marginal/M_2301/receipt.json",
+      "sha256": "b09b20ae487a216100a1f48b5a713a867fec31e914b25142bd981e9780fd96c8"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2302\\history.json",
+      "archive": "results/split2/training/marginal/M_2302/history.json",
+      "sha256": "4c1f286bb811e04a2dc340b1954de65d56d89a7a0d5c33c362ee9fd9c2f812be"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2302\\receipt.json",
+      "archive": "results/split2/training/marginal/M_2302/receipt.json",
+      "sha256": "46aea72be37a67d1ee87060633ac18776d0131ce2b63e7bbf9646cfb1fe4ff4a"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2303\\history.json",
+      "archive": "results/split2/training/marginal/M_2303/history.json",
+      "sha256": "50d81b31e9f3033792a5f3b005aca217f910b803fcdb8ba0dee0150df8ea4163"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2303\\receipt.json",
+      "archive": "results/split2/training/marginal/M_2303/receipt.json",
+      "sha256": "7ef4d2bca667fc0fae015b118f62334f8616fc7625fa23de73526603b14bdb04"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2304\\history.json",
+      "archive": "results/split2/training/marginal/M_2304/history.json",
+      "sha256": "db8aaeb0167595145a699fd5207233fd44404325c4afee5cbd4736a5bd8a44a4"
+    },
+    {
+      "original": "D:\\longtail_experiments\\20261111_label_marginal\\split2\\training\\marginal\\M_2304\\receipt.json",
+      "archive": "results/split2/training/marginal/M_2304/receipt.json",
+      "sha256": "6cc41218d9a7f9d334b477dcc9033fbbeb3b7dd4b945ab7d81e6b41dab64700c"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\protocol.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/protocol.json",
+      "sha256": "a7e39f85e70ce44270621132b91c88caa4475edf8e60414b5864f02e3df6395f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\status.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/status.json",
+      "sha256": "2c0d7cf9999a1cd7413de72d0f0f2cf39c5c9dd273c68f53addeac8bd8f3d08e"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2300\\history.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2300/history.json",
+      "sha256": "1975429ce38932e914190ca3bf8a003b41f83693a3797397a1225ce7395ecafc"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2300\\receipt.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2300/receipt.json",
+      "sha256": "87ea61ab6f497f46694815103d326b0eda91596b02192ecc59634765189348b3"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2301\\history.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2301/history.json",
+      "sha256": "f1f6aabc2e8052129948f0bb41b600322d21ddbd36abdfea1e8fa81c0613bdb5"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2301\\receipt.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2301/receipt.json",
+      "sha256": "107580dd87c5f13f357ecc22d84750e2e3841ca594b447771688f0252831df2c"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\history.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2302/history.json",
+      "sha256": "6a1bc1ab26e138880076257b8c3465e839bcdb8a2a21a47316be17b545ec3898"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2302\\receipt.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2302/receipt.json",
+      "sha256": "52413cb7c96f01b069d960aad0a51decdb4a5bc1bbb53094e873f39faf1acead"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2303\\history.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2303/history.json",
+      "sha256": "3de8915a68f69f12007c64fc63e2e7f80e89443087fcd7469de61b20a0d4a36f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2303\\receipt.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2303/receipt.json",
+      "sha256": "b22efa118f6797e0f4f22ce0b987d0aaeb54c0777cb6633334d2979bfd28dc1a"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2304\\history.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2304/history.json",
+      "sha256": "141df7c52e46e8b39255c401387907ce94df71a14efe4d0a38f59dac074b0d96"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\ordinary_expert\\M_2304\\receipt.json",
+      "archive": "results/reference_dependencies/split1/ordinary_expert/M_2304/receipt.json",
+      "sha256": "732e1010fb7df4592a191e2fb664119f744b7b9c45cfa5f10c272012a28efdf1"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\protocol.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/protocol.json",
+      "sha256": "7e02be05080975b1eb6b2ceace65022c364970c5131fb929701e78f3fe175eed"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\exposure_design.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/exposure_design.json",
+      "sha256": "e2cf9cd5916defcb63e5b5d89038b13ab73644bf6ec41ec78c2745c67a5f46d7"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\status.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/status.json",
+      "sha256": "5dfedf15a2cde75b030ac19121f2e8b1df4878f53f1541d10aa438649c19f167"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2300\\history.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2300/history.json",
+      "sha256": "69fcffd3fea7116ad7908dd5e2ca421206902ef5f4de2ceec9d549d24e9b0776"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2300\\receipt.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2300/receipt.json",
+      "sha256": "3331006bfa6072f1a9f5fb94aa427b5e223fd77a6ec1176ee52d426242cbd997"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\history.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2301/history.json",
+      "sha256": "35fef2f62a83152799205929ed64eb71017f4ffd26c5f78d2afa6d4494f40cbf"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2301\\receipt.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2301/receipt.json",
+      "sha256": "c430ee4899352c388261798e20a51137a096546f6d7f915c30be3f391b9c866e"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2302\\history.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2302/history.json",
+      "sha256": "01e0c401cad15a03c732970ee6636b4b58c6d0649a7e53f7ba400d66acdca01f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2302\\receipt.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2302/receipt.json",
+      "sha256": "0836d3fbaa1980a53f98be2c4524d031722fc60c5b70045f674d48a4fe63c1c9"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\history.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2303/history.json",
+      "sha256": "185b770c285f26b39399005a6ab0b00de566d20f8a506dfee20b53d7f38993c3"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2303\\receipt.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2303/receipt.json",
+      "sha256": "2694521af522880f181d841cf437314224e8b02bd2389ca677e8988a2d1d19a4"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2304\\history.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2304/history.json",
+      "sha256": "681dcaf711ae06a3c29ba7f0430b51773189cf22888b02c3c8e25f44a80f19a0"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\expert_training\\weighted_expert\\M_2304\\receipt.json",
+      "archive": "results/reference_dependencies/split1/weighted_expert/M_2304/receipt.json",
+      "sha256": "a7327b797ad7b0338a3caeb457c4c3238bc3aa7929015af964e274504f6273b3"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\data\\manifest.json",
+      "archive": "results/reference_dependencies/split1/main/data/manifest.json",
+      "sha256": "69c760ce921ac7d4be4944707e9f320a2f8f65595117895c958cbea5cc6d6f6b"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\protocol.json",
+      "archive": "results/reference_dependencies/split1/main/w32/protocol.json",
+      "sha256": "5feeaf2536fafe620a80ae2781b773d295c6cfb4b7f2b14d8e9589355cd09626"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\receipt.json",
+      "archive": "results/reference_dependencies/split1/main/M_2200/receipt.json",
+      "sha256": "7552c242f6820f46767aad5a046cd40e5d6c21dd9de2d43888eee240f802a600"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2200\\history.json",
+      "archive": "results/reference_dependencies/split1/main/M_2200/history.json",
+      "sha256": "d8eac7bbbd599c1f3b3d45a265677f97c633e5cabb5267c7afa12c3d7013ca5f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201\\receipt.json",
+      "archive": "results/reference_dependencies/split1/main/M_2201/receipt.json",
+      "sha256": "dcc54daea67a29a42a0fb26442e03309ef0cea025d32116c157aa544ad0e7c3d"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2201\\history.json",
+      "archive": "results/reference_dependencies/split1/main/M_2201/history.json",
+      "sha256": "f03b571428922f869ccbc7140adececc4440730676ce735ec75caa62c5507d24"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202\\receipt.json",
+      "archive": "results/reference_dependencies/split1/main/M_2202/receipt.json",
+      "sha256": "aa40a030b50edac13c9984c010f0f4a1b69016260848ef71d45d0caf9bc1e944"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2202\\history.json",
+      "archive": "results/reference_dependencies/split1/main/M_2202/history.json",
+      "sha256": "e58769d0270dfb2cce35832b200b694ee8752fe58658d64a0849559760353420"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\receipt.json",
+      "archive": "results/reference_dependencies/split1/main/M_2203/receipt.json",
+      "sha256": "42c04007498f48bfa57ced3ba7288fc781332e7b7e4543ceae07fa491c7fb2ce"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2203\\history.json",
+      "archive": "results/reference_dependencies/split1/main/M_2203/history.json",
+      "sha256": "41e944ca1af5a61b05664e902ab648b44a0772a1c479e91107c13c7f467ef927"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204\\receipt.json",
+      "archive": "results/reference_dependencies/split1/main/M_2204/receipt.json",
+      "sha256": "4edd2afabdddcf01565e597b3677ee52fe6df6b937fb290314fe44c03adf9c74"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split1\\w32\\M_2204\\history.json",
+      "archive": "results/reference_dependencies/split1/main/M_2204/history.json",
+      "sha256": "327ccc86b4ec9f7c5f14b81feb2eb1116b63b971c92259bf05131a3c283ab29d"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\manifest.json",
+      "archive": "results/reference_dependencies/split1/fusion_fit/manifest.json",
+      "sha256": "90dd6a9d199e946022905dca5da1563d19b34f555fc4e07035290da1e648f792"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split1\\fusion_fit\\preflight.json",
+      "archive": "results/reference_dependencies/split1/fusion_fit/preflight.json",
+      "sha256": "78899ab58d60822e6f9e678eee09a6b71ff191ec91b03ceb0f6c781647130449"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\protocol.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/protocol.json",
+      "sha256": "6603dc7425d9cbd55d0677979d56663efbb4e4d042f1b8cb862114c6f279d3ea"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\status.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/status.json",
+      "sha256": "6f6511e2463424ef289795c37631df91f655b8a5c2222b27d4ec83b39ce220b4"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2300\\history.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2300/history.json",
+      "sha256": "f2e88e3962dd4659a83d04544f708933cd14e55f9beebf0638eb8a030466683c"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2300\\receipt.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2300/receipt.json",
+      "sha256": "43e5b0939831a8dc4029c148797219f71178a9384645e4e4fb9b8d37bd8bbba9"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\history.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2301/history.json",
+      "sha256": "19c7f438c4c9972095747c50d12088a4ffc027794a3ed5aa8fbed32867798c60"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2301\\receipt.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2301/receipt.json",
+      "sha256": "8dd27db5a9eb41a12b4d42e948c521de46a0d8b7aac8c356f2ee189732172531"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2302\\history.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2302/history.json",
+      "sha256": "1d819f3982df539d4558af814912f7efdff7c6efd8074ef4bb03fa5f2765113a"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2302\\receipt.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2302/receipt.json",
+      "sha256": "8fcede2a90a6b150f90f4ba28e7fd71abe9c49c3478f791a66b6cb5d541ef042"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2303\\history.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2303/history.json",
+      "sha256": "551c306883fcf533eef8d0c8143bb423316f6e39f3afd2835d338ee0a5395298"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2303\\receipt.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2303/receipt.json",
+      "sha256": "7cce1eadf9538773113f4185d36c8d534789b36928575e591b6bc8e42998bb43"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\history.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2304/history.json",
+      "sha256": "dc7f074265325c527fa6ec3b622cb8eb0166e1746fc98c85ad2f4e5e7230a71b"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\ordinary_expert\\M_2304\\receipt.json",
+      "archive": "results/reference_dependencies/split2/ordinary_expert/M_2304/receipt.json",
+      "sha256": "446613681c5c9127829a204fa69e9d6417bdeeb6138c21c9e515ba445a298568"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\protocol.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/protocol.json",
+      "sha256": "a9822986762afcca4392aa7c19550de2382dda627c6cb96ee40cc74f560327ed"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\exposure_design.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/exposure_design.json",
+      "sha256": "e2cf9cd5916defcb63e5b5d89038b13ab73644bf6ec41ec78c2745c67a5f46d7"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\status.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/status.json",
+      "sha256": "a04cb96ce90a87c67c70e0c44665ecc1ba6f1fcd3e9157a8584024ba1b55cd81"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2300\\history.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2300/history.json",
+      "sha256": "75b7777050fd82273e04d5c1951df7dfb1109e9f827083f05b523aced7c04c74"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2300\\receipt.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2300/receipt.json",
+      "sha256": "3fb5e44cdfa7b57b509891ea15fa1c854bc4dd06afa268d190554cc746fde23a"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\history.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2301/history.json",
+      "sha256": "5ed732033feda97c918607c524ebd726323dcff8759534b5d815a304746716cd"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2301\\receipt.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2301/receipt.json",
+      "sha256": "33f3b88937e71ce2e832ce5ce9a8b42bd1076fd09492ae9c6f408188c19823c1"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\history.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2302/history.json",
+      "sha256": "f0ec9a5249dd96194ecb09a390096e135a77f6dea5056aac151bc2e1854e68cd"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2302\\receipt.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2302/receipt.json",
+      "sha256": "89fb7ffc63c66aa1a60eb0257d722ea88df6fcf847bff9173212b22e7c12288f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2303\\history.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2303/history.json",
+      "sha256": "e160f3b8b55989fecce1760d3d7d8492c290435be266b0063d4375ad00590c42"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2303\\receipt.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2303/receipt.json",
+      "sha256": "a2d647f2ef600832a12e3c58dc6aef46de6da08072c0c09cc1be9aefe2c58c95"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2304\\history.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2304/history.json",
+      "sha256": "3ec5221db32f5560262cfe96979b229cd4ea9a98eaa6a2a4e7351979fb0a5f34"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\expert_training\\weighted_expert\\M_2304\\receipt.json",
+      "archive": "results/reference_dependencies/split2/weighted_expert/M_2304/receipt.json",
+      "sha256": "5f038e9bb22a8f20e00d3d20c0e9263ead208399796fe015b0c1ceb07a22df43"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\data\\manifest.json",
+      "archive": "results/reference_dependencies/split2/main/data/manifest.json",
+      "sha256": "d5b1984abcf5b944631c3403a75cb3132fc75466e80fd7839595372d77076cfe"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\protocol.json",
+      "archive": "results/reference_dependencies/split2/main/w32/protocol.json",
+      "sha256": "5b85c1216e151d32bbf26e9dce23d632acd9617f056ce72cf4e7cb217980bf3a"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200\\receipt.json",
+      "archive": "results/reference_dependencies/split2/main/M_2200/receipt.json",
+      "sha256": "48e33cea5fc24d9ae966c2a07eef06bf843b80ff73292bf73563d461661ea3f4"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2200\\history.json",
+      "archive": "results/reference_dependencies/split2/main/M_2200/history.json",
+      "sha256": "a113549b46ef0ae1cf61a7ef008df68369cd7b60cabef38e220ad9ec4c221c44"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\receipt.json",
+      "archive": "results/reference_dependencies/split2/main/M_2201/receipt.json",
+      "sha256": "934edba2b655d13c0190ecbec5ed5439f28b34eb5ee826a52a52fe27a14032ed"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2201\\history.json",
+      "archive": "results/reference_dependencies/split2/main/M_2201/history.json",
+      "sha256": "80ef6400ca82d1995212d3a6e7e36214b7da3a21c308dcbc808df8458c565621"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\receipt.json",
+      "archive": "results/reference_dependencies/split2/main/M_2202/receipt.json",
+      "sha256": "7c4ca511401267bafa29be81213658c8542581aaf3b774dacb1307b45df5f14d"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2202\\history.json",
+      "archive": "results/reference_dependencies/split2/main/M_2202/history.json",
+      "sha256": "0f35f01cef1f40be878f891013690353ed22636b2d1456f6c66c0181ffb65ab5"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203\\receipt.json",
+      "archive": "results/reference_dependencies/split2/main/M_2203/receipt.json",
+      "sha256": "f84beec118a243aae11d55852b5e03934e77c5e9673469635c619b3a6d602a66"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2203\\history.json",
+      "archive": "results/reference_dependencies/split2/main/M_2203/history.json",
+      "sha256": "d92af466b48d194a5b740b46e408875af3125eec528f87b1eb69fb1234542ac4"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\receipt.json",
+      "archive": "results/reference_dependencies/split2/main/M_2204/receipt.json",
+      "sha256": "be7c041d1d0b4e8daddb49288d1afe3badc4f929e7a5d49137e09f05ace6862f"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\w32_validation_v1\\20261109_01\\split2\\w32\\M_2204\\history.json",
+      "archive": "results/reference_dependencies/split2/main/M_2204/history.json",
+      "sha256": "2efbf178836c0e6f26bd7ffd88f33f115d5dcef56fe70d6e1473aba77039f944"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\manifest.json",
+      "archive": "results/reference_dependencies/split2/fusion_fit/manifest.json",
+      "sha256": "7fbc1800e29d6acd26e471e85257eec0fe71535e019342253e1dec95b0d4484a"
+    },
+    {
+      "original": "E:\\LJQ_code\\LJQ_code_experiment_storage\\readout_integration_v1\\20261110_01\\split2\\fusion_fit\\preflight.json",
+      "archive": "results/reference_dependencies/split2/fusion_fit/preflight.json",
+      "sha256": "39acfc846efc2ab6908c7580d66267aadde2528bc3f2ba73269cd4c233bbbc32"
+    }
+  ],
+  "excluded": "MAT, PTH, NPZ, recovery states, verbose generation manifests; external replay ZIP has weights and new confirmation data",
+  "time": "2026-11-11T13:04:45.792743+00:00",
+  "source_sha256": "fbfa408cbfc945aded18c104dfb14345b01cfc36b8b08fc072fd38ccf14cca8d"
+}

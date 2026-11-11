@@ -1,0 +1,241 @@
+{
+  "seed": 3.3111E+9,
+  "output_dir": "D:\\longtail_experiments\\20261111_label_marginal\\split1\\data\\fit_pool",
+  "output": {
+    "save_v73": true,
+    "save_legacy": false,
+    "max_estimated_bytes": 1.2884901888E+10,
+    "power_tolerance_dB": 0.2,
+    "dataset_stem": "closedset_9class"
+  },
+  "radar": {
+    "c_mps": 3.0E+8,
+    "fs_Hz": 1.0E+7,
+    "pulse_width_s": 0.0001,
+    "pri_s": 0.0003,
+    "bandwidth_Hz": 5.0E+6,
+    "carrier_Hz": 1.0E+10,
+    "num_pulses": 1,
+    "add_target": false,
+    "target_SNR_dB": 20,
+    "target_range_m": 10000,
+    "noise_power": 1
+  },
+  "types": {
+    "enabled": [
+      "FMB",
+      "AMA",
+      "SawFM",
+      "SinFM",
+      "MFT",
+      "ISRJ"
+    ],
+    "known": [
+      "FMB",
+      "AMA",
+      "SawFM",
+      "SinFM",
+      "MFT",
+      "ISRJ"
+    ],
+    "unknown": []
+  },
+  "dataset": {
+    "num_samples": 30240,
+    "min_components": 1,
+    "max_components": 6,
+    "combination_mode": "all",
+    "samples_per_pattern": 480
+  },
+  "params": {
+    "common": {
+      "arrival_delay_s": [
+        1E-5,
+        5E-5
+      ],
+      "JNR_dB": [
+        10,
+        30
+      ]
+    },
+    "FMB": {
+      "bandwidth_factor": [
+        1.5,
+        3
+      ],
+      "center_frequency_Hz": [
+        0,
+        0
+      ]
+    },
+    "AMA": {
+      "bandwidth_factor": [
+        1,
+        2
+      ],
+      "center_frequency_Hz": [
+        0,
+        0
+      ],
+      "modulation_index": [
+        1,
+        3
+      ]
+    },
+    "SawFM": {
+      "sweep_bandwidth_Hz": [
+        2.0E+6,
+        5.0E+6
+      ],
+      "sweep_period_s": [
+        2E-5,
+        8E-5
+      ]
+    },
+    "SinFM": {
+      "center_frequency_Hz": [
+        500000,
+        1.5E+6
+      ],
+      "frequency_deviation_Hz": [
+        1.0E+6,
+        3.0E+6
+      ],
+      "modulation_frequency_Hz": [
+        10000,
+        20000
+      ]
+    },
+    "SN": {
+      "sample_width_s": [
+        5E-6,
+        2E-5
+      ],
+      "num_replicas": [
+        1,
+        4
+      ]
+    },
+    "MFT": {
+      "num_targets": [
+        3,
+        8
+      ],
+      "target_delay_s": [
+        3E-5,
+        5E-5
+      ],
+      "target_relative_amplitude": [
+        0.5,
+        1.5
+      ],
+      "max_targets": 8
+    },
+    "VFT": {
+      "doppler_Hz": [
+        1000,
+        7000
+      ]
+    },
+    "ISRJ": {
+      "sample_width_s": [
+        5E-6,
+        2E-5
+      ],
+      "num_replicas": [
+        1,
+        5
+      ],
+      "mode": "direct"
+    },
+    "RangeFakeTarget": {
+      "num_targets": [
+        1,
+        4
+      ],
+      "target_delay_s": [
+        1E-5,
+        8E-5
+      ],
+      "target_relative_amplitude": [
+        0.5,
+        1.5
+      ],
+      "max_targets": 4
+    },
+    "Traction": {
+      "initial_range_m": [
+        1000,
+        5000
+      ],
+      "velocity_mps": [
+        20,
+        200
+      ],
+      "amplitude": [
+        0.5,
+        2
+      ]
+    }
+  },
+  "imbalance": {
+    "component": {
+      "enable": false,
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "combination": {
+      "enable": false,
+      "cardinality_weights": [
+        1,
+        1,
+        1
+      ],
+      "pattern_weights": [],
+      "min_samples_per_pattern": 1
+    },
+    "power": {
+      "enable": false,
+      "weak_component_policy": "rotate",
+      "relative_power_dB": [
+        -20,
+        -6
+      ]
+    }
+  },
+  "openset": {
+    "train_known": 80,
+    "calibration_known": 20,
+    "validation_mixed": 40,
+    "test_mixed": 60,
+    "mixed_ratios": [
+      0.25,
+      0.25,
+      0.35,
+      0.15
+    ]
+  },
+  "experiment": {
+    "name": "closedset_9class_full_power_10_30dB_v1",
+    "full_power": {
+      "JNR_range_dB": [
+        10,
+        30
+      ],
+      "independent_components": true
+    }
+  },
+  "derived": {
+    "samples_per_pri": 3000,
+    "samples_per_pulse": 1000,
+    "sample_length": 3000,
+    "chirp_rate_Hz_per_s": 5.0E+10,
+    "estimated_output_bytes": 1.45152E+9
+  }
+}

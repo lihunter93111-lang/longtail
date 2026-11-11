@@ -1,0 +1,30 @@
+{
+  "amendment": "User mounted E after D-only generation started and before training. Verified old A/C experts and reused historical matched fit, early, calibration and M views. New marginal models use the same seeds and initialization. D fit_pool reserved for later matrix; new D dev_pool used for development.",
+  "recoverable_failures": [
+    {
+      "step": "MATLAB JSON config import",
+      "cause": "jsondecode produced column numeric ranges; validator requires 1x2",
+      "fix": "reshape numeric parameter vectors before validation; no completed pool existed at failure"
+    },
+    {
+      "step": "fusion fit split1 seed2304",
+      "cause": "evaluation started before final training receipt existed",
+      "fix": "wait for complete receipt then resume seed2304, reuse hash-bound score caches"
+    },
+    {
+      "step": "development background diagnostic",
+      "cause": "used fit instead of fit_A for historical manifest key",
+      "fix": "use audited fit_A indices; no report emitted before correction"
+    }
+  ],
+  "prior_confirmation": "not used for current model selection",
+  "user_authorization": "autonomous experiment work until2026-11-11T22:00:00+08:00",
+  "negative_exploration": {
+    "exact_margin_retry_seconds": 300,
+    "status": "time_limit_no_incumbent",
+    "meaning": "not a proof of infeasibility; four near-matched manifests retained"
+  },
+  "frozen_at": "2026-11-11T12:39:49.086608+00:00",
+  "confirmation_status": "Both fresh cohorts scored after freeze, independent numerical and runtime checks passed; now consumed",
+  "post_freeze_additions": "Future-data feasibility, portable inference verification, cost measurement and documentation; frozen candidate files unchanged"
+}
